@@ -1,0 +1,21 @@
+# Archivos R/RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rapp.history
+
+# Outputs generados
+*.html
+*.pdf
+*.docx
+*.xlsx
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Datos grandes (>50MB)
+*.csv
+*.rds
+*.feather
