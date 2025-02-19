@@ -1,8 +1,3 @@
-#install.packages('dplyr')
-#install.packages('readxl')
-#install.packages('tidyr')
-#install.packages('ggplot2')
-
 # Load necessary libraries
 library(readxl)
 library(dplyr)
