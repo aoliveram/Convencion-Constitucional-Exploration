@@ -1,4 +1,5 @@
 # Votaciones en el pleno hasta el 14 de Agosto de 2021. 147 Votaciones
+library(readr)
 votaciones_al_14ago2021 <- read_csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv", locale = locale(encoding = "LATIN1"))
 #votaciones_al_14ago2021 <- read.csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv")
 votaciones_al_14ago2021 <- votaciones_al_14ago2021[,-1] # Quito la primera columna
@@ -12,7 +13,7 @@ votaciones_al_14ago2021 <- votaciones_al_14ago2021[,-1]
 #------------------------------------------------------------------------------
 
 # Crear un objeto de clase rollcall para el análisis con wnominate
-install.packages('wnominate')
+# install.packages('wnominate')
 library(wnominate)
 
 votaciones_al_14ago2021_rc <- rollcall(
@@ -29,6 +30,7 @@ votaciones_al_14ago2021_rc <- rollcall(
 ordenamiento_wnom <- wnominate(
   votaciones_al_14ago2021_rc, 
   dims = 2, 
+  trials=1,
   polarity = c(87,87) # anclamos en marinovic
 )
 
@@ -56,6 +58,87 @@ ordenamiento_1D_wnom <- reescalar(ordenamiento_1D_wnom) %>%
 
 # Grabamos los índices de cada candidato (equivalente a las posiciones de izquierda a derecha)
 ordenamiento_1D_wnom$posicion_izq_der <- row.names(ordenamiento_1D_wnom)
+
+
+# --------------------- Bootstrap manual para estimar la incertidumbre en WNOMINATE
+
+muestra_votos <- function(base_datos, N) {
+  # Seleccionamos N votaciones con reemplazo
+  votos_muestreados <- sample(names(base_datos), N, replace = TRUE)
+  # En lugar de usar select(), extraemos las columnas manualmente para permitir duplicados
+  muestras_votos <- base_datos[, votos_muestreados, drop = FALSE]
+  
+  return(muestras_votos)
+}
+
+# Crear un dataframe para almacenar las estimaciones
+ordenamiento_1D_boostraping_wnom <- data.frame()
+
+# Realizar el bootstraping
+n_iter <- 200
+
+for (i in 1:n_iter) {
+  if (i==1) start_time <- Sys.time()
+  
+  cat('Num iter:', i, '/', n_iter, "\n")
+  
+  # Generar una muestra aleatoria
+  muestras_aleatorias <- muestra_votos(votaciones_al_14ago2021, 100)
+  
+  # Crear un objeto de clase rollcall para el análisis con wnominate
+  votaciones_al_14ago2021_bootstrap_rc <- rollcall(
+    muestras_aleatorias,             
+    yea = c(1),
+    nay = c(0),
+    missing = c(NA),
+    notInLegis = NULL,
+    legis.names = votantes,
+    desc = "100 Votaciones Convención Constitucional al 14 Ago 2021"
+  )
+  
+  # Calcular la ideología con wnominate (ajusta esto según tus datos y necesidades)
+  ordenamiento_submuestra <- wnominate(votaciones_al_14ago2021_bootstrap_rc, dims=2, polarity=c(87,87))
+  
+  # Agregar la estimación al dataframe de resultados
+  ordenamiento_1D_boostraping_wnom <- rbind(
+    ordenamiento_1D_boostraping_wnom,
+    data.frame(iteracion = i, posicion_ideologica = ordenamiento_submuestra$legislators$coord1D)
+    )
+  
+  if (i==n_iter) end_time <- Sys.time()
+}
+
+execution_time <- end_time - start_time
+
+print(ordenamiento_1D_boostraping_wnom)
+
+# Extraer los valores de ideología de cada votante
+valores_ideologia_wnominate <- resultados_boostraping_WN[, 2] %>% data.frame()
+
+
+
+# Bootstrap para estimar la incertidumbre en WNOMINATE
+ordenamiento_1D_wnom_boots <- wnominate(
+  votaciones_al_14ago2021_rc,
+  dims=2,  # Número de dimensiones
+  minvotes=10,  # Núm mínimo para incluir en el análisis
+  lop=0.025,  # Parámetro para el método de optimización
+  trials=1000,  # Número de iteraciones de bootstrap
+  # esto debería ser 10000 o más, pero es lento
+  polarity=c(87,87),  # Polaridad para las dimensiones
+  verbose=FALSE  # No mostrar mensajes durante la ejec.
+)
+
+summary(rc_senado, verbose=TRUE)
+
+# # Extraer las desviaciones estándar de las dimensiones
+std1 <- result_senado_boot$legislators$se1D
+std2 <- result_senado_boot$legislators$se2D * WEIGHT
+corr12 <- result_senado_boot$legislators$corr.1
+
+
+
+# plots W-Nominate -------------------------------------------------------------
 
 # Graficamos de mayor a menor las posiciones de los votantes
 library(ggplot2)
@@ -150,4 +233,4 @@ ggplot(ordenamiento_rcp, aes(x = ideologia, y = reorder(nombres, ideologia), col
   theme_minimal() +
   theme(axis.text.y = element_text(size = 6))
 
-cor(as.numeric(ordenamiento_al_14ago2021_1D$posicion_izq_der), ordenamiento_rcp$ideologia)
+
