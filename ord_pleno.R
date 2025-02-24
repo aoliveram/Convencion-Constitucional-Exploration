@@ -109,13 +109,16 @@ for (i in 1:n_iter) {
 }
 
 execution_time <- end_time - start_time
+execution_time # 5.78 mins
 
-print(ordenamiento_1D_boostraping_wnom)
+write.csv(ordenamiento_1D_boostraping_wnom, 
+          file = "ordenamiento_1D_boostraping_wnom.csv", 
+          row.names = FALSE)
+
+
 
 # Extraer los valores de ideología de cada votante
 valores_ideologia_wnominate <- resultados_boostraping_WN[, 2] %>% data.frame()
-
-
 
 # Bootstrap para estimar la incertidumbre en WNOMINATE
 ordenamiento_1D_wnom_boots <- wnominate(
