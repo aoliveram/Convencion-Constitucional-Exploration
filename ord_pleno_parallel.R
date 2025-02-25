@@ -71,15 +71,20 @@ write.csv(resultados_bootstrap,
           file = "ordenamiento_1D_boostraping_wnom_parallel.csv", 
           row.names = FALSE)
 
-# --- Calculate statistics ---
-summary_stats <- resultados_bootstrap[, .(
-  mean_coord1 = mean(coord1D),
-  se_coord1 = sd(coord1D),
-  mean_coord2 = mean(coord2D),
-  se_coord2 = sd(coord2D)
-), by = legislador]
+ordenamiento_1D_boostraping_wnom_parallel <- read.csv(
+  "ordenamiento_1D_boostraping_wnom_parallel.csv",
+  stringsAsFactors = FALSE,  # Preserve string formatting
+  encoding = "UTF-8"         # Maintain special characters
+)
 
-# --- Runtime report ---
-cat("Parallel bootstrap completed in", 
-    round(difftime(end_time, start_time, units = "mins"), 1), 
-    "minutes\n")
+# --- Calculate statistics ---
+library(dplyr)
+
+ordenamiento_1D_boostraping_wnom_parallel %>%
+  group_by(legislador) %>%
+  summarise(
+    mean_coord1 = mean(coord1D),
+    se_coord1 = sd(coord1D),
+    mean_coord2 = mean(coord2D),
+    se_coord2 = sd(coord2D)
+  )
