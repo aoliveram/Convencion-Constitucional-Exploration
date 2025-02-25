@@ -59,6 +59,30 @@ ordenamiento_1D_wnom <- reescalar(ordenamiento_1D_wnom) %>%
 # Grabamos los índices de cada candidato (equivalente a las posiciones de izquierda a derecha)
 ordenamiento_1D_wnom$posicion_izq_der <- row.names(ordenamiento_1D_wnom)
 
+# plots W-Nominate -------------------------------------------------------------
+
+# Graficamos de mayor a menor las posiciones de los votantes
+library(ggplot2)
+ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_izq_der), y = posicion_ideologica, color = posicion_ideologica)) +
+  geom_point() +
+  geom_text(aes(label = n_votante), vjust = -1) +
+  theme(axis.title.x = element_blank(), axis.text.x = element_blank())+
+  ggtitle("W-NOMINATE")+
+  theme(plot.title = element_text(hjust = 0.5))+
+  labs(y = "Posición ideológica")+
+  theme(axis.title.y = element_text(size = 15))+
+  scale_color_gradient(low = "red", high = "blue")
+
+ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_ideologica), y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
+  geom_point() +
+  labs(
+    x = "Posición ideológica estimada W-Nominate",
+    y = "Convencional",
+    color = "No listas"
+  ) +
+  theme_minimal() +
+  theme(axis.text.y = element_text(size = 6))
+
 
 # --------------------- Bootstrap manual para estimar la incertidumbre en WNOMINATE
 
@@ -97,13 +121,13 @@ for (i in 1:n_iter) {
   )
   
   # Calcular la ideología con wnominate (ajusta esto según tus datos y necesidades)
-  ordenamiento_submuestra <- wnominate(votaciones_al_14ago2021_bootstrap_rc, dims=2, polarity=c(87,87))
+  ordenamiento_submuestra_wnom <- wnominate(votaciones_al_14ago2021_bootstrap_rc, dims=2, polarity=c(87,87))
   
   # Agregar la estimación al dataframe de resultados
   ordenamiento_1D_boostraping_wnom <- rbind(
     ordenamiento_1D_boostraping_wnom,
-    data.frame(iteracion = i, posicion_ideologica = ordenamiento_submuestra$legislators$coord1D)
-    )
+    data.frame(iteracion = i, posicion_ideologica = ordenamiento_submuestra_wnom$legislators$coord1D)
+  )
   
   if (i==n_iter) end_time <- Sys.time()
 }
@@ -115,55 +139,6 @@ write.csv(ordenamiento_1D_boostraping_wnom,
           file = "ordenamiento_1D_boostraping_wnom.csv", 
           row.names = FALSE)
 
-
-
-# Extraer los valores de ideología de cada votante
-valores_ideologia_wnominate <- resultados_boostraping_WN[, 2] %>% data.frame()
-
-# Bootstrap para estimar la incertidumbre en WNOMINATE
-ordenamiento_1D_wnom_boots <- wnominate(
-  votaciones_al_14ago2021_rc,
-  dims=2,  # Número de dimensiones
-  minvotes=10,  # Núm mínimo para incluir en el análisis
-  lop=0.025,  # Parámetro para el método de optimización
-  trials=1000,  # Número de iteraciones de bootstrap
-  # esto debería ser 10000 o más, pero es lento
-  polarity=c(87,87),  # Polaridad para las dimensiones
-  verbose=FALSE  # No mostrar mensajes durante la ejec.
-)
-
-summary(rc_senado, verbose=TRUE)
-
-# # Extraer las desviaciones estándar de las dimensiones
-std1 <- result_senado_boot$legislators$se1D
-std2 <- result_senado_boot$legislators$se2D * WEIGHT
-corr12 <- result_senado_boot$legislators$corr.1
-
-
-
-# plots W-Nominate -------------------------------------------------------------
-
-# Graficamos de mayor a menor las posiciones de los votantes
-library(ggplot2)
-ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_izq_der), y = posicion_ideologica, color = posicion_ideologica)) +
-  geom_point() +
-  geom_text(aes(label = n_votante), vjust = -1) +
-  theme(axis.title.x = element_blank(), axis.text.x = element_blank())+
-  ggtitle("W-NOMINATE")+
-  theme(plot.title = element_text(hjust = 0.5))+
-  labs(y = "Posición ideológica")+
-  theme(axis.title.y = element_text(size = 15))+
-  scale_color_gradient(low = "red", high = "blue")
-
-ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_ideologica), y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
-  geom_point() +
-  labs(
-    x = "Posición ideológica estimada W-Nominate",
-    y = "Convencional",
-    color = "No listas"
-  ) +
-  theme_minimal() +
-  theme(axis.text.y = element_text(size = 6))
 
 #------------------------------------------------------------------------------
 # Estimación de Ordenamiento Político usando MCMC Bayesiano
@@ -218,8 +193,68 @@ ggplot(ordenamiento_1D_MCMC, aes(x = as.numeric(posicion_ideologica), y = reorde
   theme(axis.text.y = element_text(size = 6))
 
 
+# --------------------- Bootstrap manual para estimar la incertidumbre en IDEAL
+
+# Crear un dataframe para almacenar las estimaciones
+ordenamiento_1D_boostraping_MCMC <- data.frame()
+
+# Realizar el bootstraping
+n_iter <- 200
+
+for (i in 1:n_iter) {
+  if (i==1) start_time <- Sys.time()
+  
+  cat('Num iter:', i, '/', n_iter, "\n")
+  
+  # Generar una muestra aleatoria
+  muestras_aleatorias <- muestra_votos(votaciones_al_14ago2021, 100)
+  
+  # Crear un objeto de clase rollcall para el análisis con IDEAL
+  votaciones_al_14ago2021_bootstrap_rc <- rollcall(
+    muestras_aleatorias,             
+    yea = c(1),
+    nay = c(0),
+    missing = c(NA),
+    notInLegis = NULL,
+    legis.names = votantes,
+    legis.data=NULL,
+    desc = "100 Votaciones Convención Constitucional al 14 Ago 2021"
+  )
+  
+  # Calcular la ideología con wnominate (ajusta esto según tus datos y necesidades)
+  ordenamiento_submuestra_MCMC <- ideal(
+    votaciones_al_14ago2021_bootstrap_rc,
+    codes = votaciones_al_14ago2021_bootstrap_rc$codes,
+    maxiter = 8000,  # Número máximo de iteraciones
+    burnin = 1000,   # Número de iteraciones para el periodo de "quemado"
+    thin = 40,      # Intervalo para guardar muestras
+    normalize = T   # Normalizar los datos (ver documentación para más detalles)
+  )
+  
+  # Agregar la estimación al dataframe de resultados
+  ordenamiento_1D_boostraping_MCMC <- rbind(
+    ordenamiento_1D_boostraping_MCMC,
+    data.frame(iteracion = i, posicion_ideologica = as.numeric(ordenamiento_submuestra_MCMC$xbar[,1]))
+  )
+  
+  if (i==n_iter) end_time <- Sys.time()
+}
+
+execution_time <- end_time - start_time
+execution_time # 22.93 mins
+
+write.csv(ordenamiento_1D_boostraping_MCMC, 
+          file = "ordenamiento_1D_boostraping_MCMC.csv", 
+          row.names = FALSE)
+
+
+
+# Extraer los valores de ideología de cada votante
+valores_ideologia_MCMC <- ordenamiento_submuestra_MCMC[, 2] %>% data.frame()
+
+
 #------------------------------------------------------------------------------
-# Comparación con https://github.com/jfabregalacoa/rcp_convencion
+# Comparación con estimaciones de https://github.com/jfabregalacoa/rcp_convencion
 #------------------------------------------------------------------------------
 
 library(readr)
@@ -235,5 +270,3 @@ ggplot(ordenamiento_rcp, aes(x = ideologia, y = reorder(nombres, ideologia), col
   ) +
   theme_minimal() +
   theme(axis.text.y = element_text(size = 6))
-
-
