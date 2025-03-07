@@ -137,7 +137,7 @@ selected_names_FA <- c(
 selected_names_CHD <- c(
   "Barraza Gómez, Marcos", "Celedón Fernández, Roberto", "Gallardo Prado, Bessy", "Grandón González, Paola",
   "Gutiérrez Gálvez, Hugo", "Miranda Arce, Valentina", "Núñez Gangas, Nicolás", "Portilla Barrios, Ericka",
-  "Sepúlveda Sepúlveda, Carolina", "Velásquez Núñez, Hernán", "Videla Osorio, Carolina"
+  "Sepúlveda Hales, Bárbara", "Velásquez Núñez, Hernán", "Videla Osorio, Carolina"
 )
 
 # Coordinadora Constituyente Plurinacional y Popular
@@ -175,16 +175,22 @@ selected_names_MSC <- c(
 
 # Independientes-RN-Evópoli
 selected_names_IND_RN_EV <- c(
-  "Celis Montt, Raúl", 
   "Cozzi Elzo, Ruggero", 
   "De la Maza Bañados, Bernardo", 
   "Fontaine Talavera, Bernardo",
-  "Jofré Cáceres, Álvaro", 
   "Labra Besserer, Patricia", 
   "Larraín Matte, Hernán", 
   "Mayol Bouchon, Luis",
-  "Monckeberg Bruner, Cristian", 
-  "Navarrete Arratia, Geoconda"
+  "Monckeberg Bruner, Cristian",
+  "Ossandón Lira, Manuel",
+  "Navarrete Arratia, Geoconda",
+  "Rebolledo Aguirre, Bárbara",
+  "Silva Mora, Luciano", 
+  "Tepper Kolossa, María Angélica", 
+  "Vega Campusano, Roberto", 
+  "Veloso Muñoz, Paulina",
+  "Celis Montt, Raúl",
+  "Jofré Cáceres, Alvaro"
 )
 
 # Pueblo Constituyente
@@ -193,7 +199,7 @@ selected_names_PC <- c(
   "González Araya, Dayyana", "Henríquez Carreño, Natalia", 
   "Salinas Manfredini, Fernando", "Uribe Araya, César", 
   "Vallejos Dávila, Loreto", "Villena Narbona, Ingrid", 
-  "Zárate Zárate, Camila"
+  "Zárate Zárate, Camila", "Rojas Vade, Rodrigo"
 )
 
 # Pueblos indígenas
@@ -210,7 +216,7 @@ selected_names_PI <- c(
 
 # Unidos por Chile
 selected_names_UPC <- c(
-  "Álvarez Zenteno, Rodrigo",
+  "Alvarez Zenteno, Rodrigo",
   "Arancibia Reyes, Jorge",
   "Cretton Rebolledo, Eduardo",
   "Hube Portus, Constanza",
@@ -252,15 +258,21 @@ selected_names_CL <- c(
   "Marinovic Vial, Teresa"
 )
 
-# Somos Región
-selected_names_SR <- c(
-  "Celis Montt, Raúl", 
-  "Jofré Cáceres, Álvaro", 
-  "Silva Mora, Luciano", 
-  "Tepper Kolossa, María Angélica", 
-  "Vega Campusano, Roberto", 
-  "Veloso Muñoz, Paulina"
-)
+# Somos Región [DEBUTA EL 17-03-2022, HASTA ENTONCES ELLOS ERAN DE RN-EVO:
+#"Silva Mora, Luciano", 
+#"Tepper Kolossa, María Angélica", 
+#"Vega Campusano, Roberto", 
+#"Veloso Muñoz, Paulina",
+#"Celis Montt, Raúl",
+#"Jofré Cáceres, Álvaro"
+# selected_names_SR <- c(
+#   "Celis Montt, Raúl", 
+#   "Jofré Cáceres, Alvaro", 
+#   "Silva Mora, Luciano", 
+#   "Tepper Kolossa, María Angélica", 
+#   "Vega Campusano, Roberto", 
+#   "Veloso Muñoz, Paulina"
+# )
 
 # Mixto (varios)
 selected_names_MIX <- c(
@@ -271,6 +283,24 @@ selected_names_MIX <- c(
 selected_names_LA <- c(
   "Garín González, Renato"
 )
+
+total_names <- length(selected_names_FA) + 
+  length(selected_names_CHD) + 
+  length(selected_names_CCPP) + 
+  length(selected_names_CS) + 
+  length(selected_names_INC) + 
+  length(selected_names_MSC) + 
+  length(selected_names_IND_RN_EV) + 
+  length(selected_names_PC) + 
+  length(selected_names_PI) + 
+  length(selected_names_UPC) + 
+  length(selected_names_CA) + 
+  length(selected_names_UCU) + 
+  length(selected_names_CL) + 
+  #length(selected_names_SR) + 
+  length(selected_names_MIX) + 
+  length(selected_names_LA)
+
 
 # Aplicar transformación a todos los conjuntos de nombres
 # selected_names_FA <- sapply(selected_names_FA, transform_votaciones_names)
@@ -290,34 +320,34 @@ selected_names_LA <- c(
 # selected_names_MIX <- sapply(selected_names_MIX, transform_votaciones_names)
 # selected_names_LA <- sapply(selected_names_LA, transform_votaciones_names)
 
-# Load necessary libraries
-library(stringi)
-
-# Function to remove accents from a string
-remove_accents <- function(text) {
-  stri_trans_general(text, "Latin-ASCII")
-}
-
-# Apply the function to remove accents from NOMBRE in votaciones_df
-votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, remove_accents)
-
-# Apply the function to remove accents from all coalition lists
-selected_names_FA <- sapply(selected_names_FA, remove_accents)
-selected_names_CHD <- sapply(selected_names_CHD, remove_accents)
-selected_names_CCPP <- sapply(selected_names_CCPP, remove_accents)
-selected_names_CS <- sapply(selected_names_CS, remove_accents)
-selected_names_INC <- sapply(selected_names_INC, remove_accents)
-selected_names_MSC <- sapply(selected_names_MSC, remove_accents)
-selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, remove_accents)
-selected_names_PC <- sapply(selected_names_PC, remove_accents)
-selected_names_PI <- sapply(selected_names_PI, remove_accents)
-selected_names_UPC <- sapply(selected_names_UPC, remove_accents)
-selected_names_CA <- sapply(selected_names_CA, remove_accents)
-selected_names_UCU <- sapply(selected_names_UCU, remove_accents)
-selected_names_CL <- sapply(selected_names_CL, remove_accents)
-selected_names_SR <- sapply(selected_names_SR, remove_accents)
-selected_names_MIX <- sapply(selected_names_MIX, remove_accents)
-selected_names_LA <- sapply(selected_names_LA, remove_accents)
+# # Load necessary libraries
+# library(stringi)
+# 
+# # Function to remove accents from a string
+# remove_accents <- function(text) {
+#   stri_trans_general(text, "Latin-ASCII")
+# }
+# 
+# # Apply the function to remove accents from NOMBRE in votaciones_df
+# votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, remove_accents)
+# 
+# # Apply the function to remove accents from all coalition lists
+# selected_names_FA <- sapply(selected_names_FA, remove_accents)
+# selected_names_CHD <- sapply(selected_names_CHD, remove_accents)
+# selected_names_CCPP <- sapply(selected_names_CCPP, remove_accents)
+# selected_names_CS <- sapply(selected_names_CS, remove_accents)
+# selected_names_INC <- sapply(selected_names_INC, remove_accents)
+# selected_names_MSC <- sapply(selected_names_MSC, remove_accents)
+# selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, remove_accents)
+# selected_names_PC <- sapply(selected_names_PC, remove_accents)
+# selected_names_PI <- sapply(selected_names_PI, remove_accents)
+# selected_names_UPC <- sapply(selected_names_UPC, remove_accents)
+# selected_names_CA <- sapply(selected_names_CA, remove_accents)
+# selected_names_UCU <- sapply(selected_names_UCU, remove_accents)
+# selected_names_CL <- sapply(selected_names_CL, remove_accents)
+# selected_names_SR <- sapply(selected_names_SR, remove_accents)
+# selected_names_MIX <- sapply(selected_names_MIX, remove_accents)
+# selected_names_LA <- sapply(selected_names_LA, remove_accents)
 
 # Function to assign coalition
 assign_coalition <- function(name) {
@@ -347,8 +377,6 @@ assign_coalition <- function(name) {
     return("UCU") # Un Chile Unido
   } else if (name %in% selected_names_CL) { 
     return("CL") # Chile Libre
-  } else if (name %in% selected_names_SR) { 
-    return("SR") # Somos Región
   } else if (name %in% selected_names_MIX) { 
     return("MIX") # Mixto (varios)
   } else if (name %in% selected_names_LA) { 
@@ -357,22 +385,19 @@ assign_coalition <- function(name) {
     return("Other") # Otro / No clasificado
   }
 }
+#else if (name %in% selected_names_SR) { 
+#return("SR") # Somos Región} 
 
 # Adding new column to COALICION
 votaciones_df <- votaciones_df %>%
   mutate(COALICION = sapply(NOMBRE, assign_coalition))
 
-head(votaciones_df)
-str(votaciones_df)
+nombres_a_modificar_en_selected_names <- votaciones_df$NOMBRE[votaciones_df$COALICION=='Other'][1:5]
+nombres_a_modificar_en_selected_names
+nombres_en_base_datos <- votaciones_df$NOMBRE[1:155]
+nombres_en_base_datos
 
-# OJOOOOOOO
-
-
-"Zuniga , Arturo" %in% unique(votaciones_df$NOMBRE) # --> FALSE
-"Zuniga , Luis" %in% unique(votaciones_df$NOMBRE) # --> TRUE
-
-# ASÍ QUE HAY QUE VER CUÁLES SON LOS NOMBRES REALES DE ESTOS COMPARES
-
+# TODO OK !!
 
 # -----------------------------------------------------------------------------
 
