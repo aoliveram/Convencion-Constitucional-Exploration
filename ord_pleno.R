@@ -1,7 +1,7 @@
 # Votaciones en el pleno hasta el 14 de Agosto de 2021. 147 Votaciones
 library(readr)
 votaciones_al_14ago2021 <- read_csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv", locale = locale(encoding = "LATIN1"))
-#votaciones_al_14ago2021 <- read.csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv")
+#votaciones_al_14ago2021_E <- read.csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv")
 votaciones_al_14ago2021 <- votaciones_al_14ago2021[,-1] # Quito la primera columna
 
 # Guardo los votantes y quito columna
@@ -59,6 +59,11 @@ ordenamiento_1D_WNOM <- reescalar(ordenamiento_1D_WNOM) %>%
 # Grabamos los índices de cada candidato (equivalente a las posiciones de izquierda a derecha)
 ordenamiento_1D_WNOM$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM))
 
+# Guardamos datos
+write.csv(ordenamiento_1D_WNOM, 
+          file = "ordenamiento_1D_WNOM.csv", 
+          row.names = FALSE)
+
 # ------------------------ Plots posiciones
 
 # Graficamos de mayor a menor las posiciones de los votantes
@@ -96,7 +101,7 @@ muestra_votos <- function(base_datos, N) {
 }
 
 # Crear un dataframe para almacenar las estimaciones
-ordenamiento_1D_boostraping_wnom <- data.frame()
+ordenamiento_1D_boostraping_WNOM <- data.frame()
 
 # Realizar el bootstraping
 n_iter <- 200
@@ -121,12 +126,12 @@ for (i in 1:n_iter) {
   )
   
   # Calcular la ideología con wnominate (ajusta esto según tus datos y necesidades)
-  ordenamiento_submuestra_wnom <- wnominate(votaciones_al_14ago2021_bootstrap_rc, dims=2, polarity=c(87,87))
+  ordenamiento_submuestra_WNOM <- wnominate(votaciones_al_14ago2021_bootstrap_rc, dims=2, polarity=c(87,87))
   
   # Agregar la estimación al dataframe de resultados
-  ordenamiento_1D_boostraping_wnom <- rbind(
-    ordenamiento_1D_boostraping_wnom,
-    data.frame(iteracion = i, posicion_ideologica = ordenamiento_submuestra_wnom$legislators$coord1D)
+  ordenamiento_1D_boostraping_WNOM <- rbind(
+    ordenamiento_1D_boostraping_WNOM,
+    data.frame(iteracion = i, posicion_ideologica = ordenamiento_submuestra_WNOM$legislators$coord1D)
   )
   
   if (i==n_iter) end_time <- Sys.time()
@@ -135,8 +140,8 @@ for (i in 1:n_iter) {
 execution_time <- end_time - start_time
 execution_time # 5.78 mins
 
-write.csv(ordenamiento_1D_boostraping_wnom, 
-          file = "ordenamiento_1D_boostraping_wnom.csv", 
+write.csv(ordenamiento_1D_boostraping_WNOM, 
+          file = "ordenamiento_1D_boostraping_WNOM.csv", 
           row.names = FALSE)
 
 
@@ -170,6 +175,11 @@ rownames(ordenamiento_1D_MCMC) <- NULL
 ordenamiento_1D_MCMC$posicion_izq_der <- c(1:155)
 
 print(ordenamiento_1D_MCMC)
+
+# Guardamos datos
+write.csv(ordenamiento_1D_MCMC, 
+          file = "ordenamiento_1D_MCMC.csv", 
+          row.names = FALSE)
 
 # ------------------------ Plots posiciones
 
@@ -249,8 +259,6 @@ write.csv(ordenamiento_1D_boostraping_MCMC,
           file = "ordenamiento_1D_boostraping_MCMC.csv", 
           row.names = FALSE)
 
-
-
 # Extraer los valores de ideología de cada votante
 valores_ideologia_MCMC <- ordenamiento_submuestra_MCMC[, 2] %>% data.frame()
 
@@ -259,18 +267,71 @@ valores_ideologia_MCMC <- ordenamiento_submuestra_MCMC[, 2] %>% data.frame()
 # Comparación con estimaciones de https://github.com/jfabregalacoa/rcp_convencion
 #------------------------------------------------------------------------------
 
+# Cargamos datos de Jorge
 library(readr)
-ordenamiento_rcp <- read_csv("rcp_convencion/RCP_estimacion_ideologia.csv", locale = locale(encoding = "LATIN1"))
+ordenamiento_rcp <- as.data.frame(read_csv("rcp_convencion/RCP_estimacion_ideologia.csv", locale = locale(encoding = "LATIN1")))
+ordenamiento_1D_rcp <- ordenamiento_rcp[ , c('nombres', 'ideologia', 'lista')]
+ordenamiento_1D_rcp$posicion_izq_der <- c(155:1)
 
-str(ordenamiento_rcp)
+ordenamiento_1D_rcp <- ordenamiento_1D_rcp %>%
+  rename(
+    posicion_ideologica = ideologia,
+    nombre_votante = nombres
+  ) %>%
+  left_join(ordenamiento_1D_WNOM %>% select(nombre_votante, n_votante), by = "nombre_votante") %>%
+  select(posicion_ideologica, nombre_votante, n_votante, posicion_izq_der, lista)
 
-ggplot(ordenamiento_rcp, aes(x = ideologia, y = reorder(nombres, ideologia), color = lista)) +
-  geom_point() +
-  #geom_errorbarh(aes(xmin = ideologia - sd1, xmax = ideologia + sd1), height = 0.2) +
+str(ordenamiento_1D_rcp)
+
+write.csv(ordenamiento_1D_rcp, 
+          file = "rcp_convencion/ordenamiento_1D_rcp.csv", 
+          row.names = FALSE)
+
+# ------------------------- Comparamos
+
+ordenamiento_1D_MCMC <- read.csv("ordenamiento_1D_MCMC.csv")
+ordenamiento_1D_WNOM <- read.csv("ordenamiento_1D_WNOM.csv")
+ordenamiento_1D_rcp <- read.csv("rcp_convencion/ordenamiento_1D_rcp.csv")
+ordenamiento_1D <- merge(ordenamiento_1D_MCMC, ordenamiento_1D_WNOM, by = "nombre_votante", suffixes = c("_MCMC", "_WNOM"))
+colnames(ordenamiento_1D_rcp)[colnames(ordenamiento_1D_rcp) == "posicion_ideologica"] <- "posicion_ideologica_RCP"
+ordenamiento_1D <- merge(ordenamiento_1D, ordenamiento_1D_rcp, by = "nombre_votante")
+
+library(ggplot2)
+ggplot(ordenamiento_1D) +
+  geom_point(aes(x = posicion_ideologica_RCP, y = reorder(nombre_votante, posicion_ideologica_RCP), color = "RCP"), size = 3) +
+  geom_point(aes(x = posicion_ideologica_MCMC, y = reorder(nombre_votante, posicion_ideologica_MCMC), color = "MCMC"), size = 3) +
+  geom_point(aes(x = posicion_ideologica_WNOM, y = reorder(nombre_votante, posicion_ideologica_WNOM), color = "WNOM"), size = 3) +
+  scale_color_manual(values = c("MCMC" = "blue", "WNOM"="green", "RCP" = "red"), name = "Fuente") +
   labs(
-    x = "Posición ideológica estimada",
-    y = "Convencional",
-    color = "Lista"
+    title = "Comparación de Ordenamiento Ideológico",
+    x = "Posición Ideológica",
+    y = "Nombre del Votante"
   ) +
   theme_minimal() +
-  theme(axis.text.y = element_text(size = 6))
+  theme(
+    axis.text.y = element_text(size = 8),
+    axis.title.x = element_text(size = 12),
+    axis.title.y = element_text(size = 12),
+    legend.position = "right"
+  )
+
+
+# ------------------- ¿Son iguales los nombres de RCP y los de votaciones_al_14ago2021?
+
+library(dplyr)
+
+# Cargamos los archivos CSV
+ordenamiento_1D_boostraping_WNOM_parallel <- read.csv("ordenamiento_1D_boostraping_WNOM_parallel.csv")
+ordenamiento_1D_rcp <- read.csv("rcp_convencion/ordenamiento_1D_rcp.csv")
+
+# Veamos si usan los mismos nombres
+ordenamiento_1D_boostraping_WNOM_parallel$legislador
+ordenamiento_1D_rcp$nombres
+
+nombres_coinciden_dir1 <- all(ordenamiento_1D_boostraping_WNOM_parallel$legislador %in% ordenamiento_1D_rcp$nombres)
+print(nombres_coinciden_dir1)
+nombres_coinciden_dir2 <- all(ordenamiento_1D_rcp$nombres %in% ordenamiento_1D_boostraping_WNOM_parallel$legislador)
+print(nombres_coinciden_dir2)
+
+# En efecto, no hay nombres en uno que no estén en el otro. Sí sin iguales
+

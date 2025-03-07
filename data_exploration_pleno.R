@@ -336,7 +336,11 @@ nombres_en_base_datos
 
 # -----------------------------------------------------------------------------
 
-# Paso 1: Crear un diccionario de nombres completos
+#Apruebo Dignidad (AD) = "FA" + "CHD"
+
+# -----------------------------------------------------------------------------
+
+# Diccionario de nombres completos
 diccionario_coaliciones <- c(
   "FA" = "Frente Amplio",
   "CHD" = "Chile Digno",
