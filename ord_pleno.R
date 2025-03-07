@@ -27,7 +27,7 @@ votaciones_al_14ago2021_rc <- rollcall(
 )
 
 # Ejecutar el análisis W-Nominate
-ordenamiento_wnom <- wnominate(
+ordenamiento_WNOM <- wnominate(
   votaciones_al_14ago2021_rc, 
   dims = 2, 
   trials=1,
@@ -35,10 +35,10 @@ ordenamiento_wnom <- wnominate(
 )
 
 # Gráfico de los resultados
-plot(ordenamiento_wnom)
+plot(ordenamiento_WNOM)
 
 # Creamos data frame con los resultados de la dimensión 1.
-ordenamiento_1D_wnom <- data.frame(posicion_ideologica = ordenamiento_wnom$legislators$coord1D)
+ordenamiento_1D_WNOM <- data.frame(posicion_ideologica = ordenamiento_WNOM$legislators$coord1D)
 
 # Reescalamos dentro de [-1,1]
 reescalar <- function(vector_original) {
@@ -52,18 +52,18 @@ reescalar <- function(vector_original) {
 
 library(dplyr)
 
-ordenamiento_1D_wnom <- reescalar(ordenamiento_1D_wnom) %>%
+ordenamiento_1D_WNOM <- reescalar(ordenamiento_1D_WNOM) %>%
   mutate(nombre_votante = votantes, n_votante = as.character(1:155)) %>%
   arrange(posicion_ideologica)
 
 # Grabamos los índices de cada candidato (equivalente a las posiciones de izquierda a derecha)
-ordenamiento_1D_wnom$posicion_izq_der <- row.names(ordenamiento_1D_wnom)
+ordenamiento_1D_WNOM$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM))
 
-# plots W-Nominate -------------------------------------------------------------
+# ------------------------ Plots posiciones
 
 # Graficamos de mayor a menor las posiciones de los votantes
 library(ggplot2)
-ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_izq_der), y = posicion_ideologica, color = posicion_ideologica)) +
+ggplot(ordenamiento_1D_WNOM, aes(x = as.numeric(posicion_izq_der), y = posicion_ideologica, color = posicion_ideologica)) +
   geom_point() +
   geom_text(aes(label = n_votante), vjust = -1) +
   theme(axis.title.x = element_blank(), axis.text.x = element_blank())+
@@ -73,7 +73,7 @@ ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_izq_der), y = posicion_
   theme(axis.title.y = element_text(size = 15))+
   scale_color_gradient(low = "red", high = "blue")
 
-ggplot(ordenamiento_1D_wnom, aes(x = as.numeric(posicion_ideologica), y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
+ggplot(ordenamiento_1D_WNOM, aes(x = as.numeric(posicion_ideologica), y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
   geom_point() +
   labs(
     x = "Posición ideológica estimada W-Nominate",
@@ -171,8 +171,10 @@ ordenamiento_1D_MCMC$posicion_izq_der <- c(1:155)
 
 print(ordenamiento_1D_MCMC)
 
+# ------------------------ Plots posiciones
+
 # Graficamos de mayor a menor las posiciones de los votantes
-ggplot(ordenamiento_1D_MCMC, aes(x = as.numeric(posicion_izq_der), y = posicion_ideologica, color = posicion_ideologica)) +
+ggplot(ordenamiento_1D_MCMC, aes(x = posicion_izq_der, y = posicion_ideologica, color = posicion_ideologica)) +
   geom_point() +
   geom_text(aes(label = n_votante), vjust = -1) +
   theme(axis.title.x = element_blank(), axis.text.x = element_blank())+
@@ -182,7 +184,7 @@ ggplot(ordenamiento_1D_MCMC, aes(x = as.numeric(posicion_izq_der), y = posicion_
   theme(axis.title.y = element_text(size = 15))+
   scale_color_gradient(low = "red", high = "blue")
 
-ggplot(ordenamiento_1D_MCMC, aes(x = as.numeric(posicion_ideologica), y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
+ggplot(ordenamiento_1D_MCMC, aes(x = posicion_ideologica, y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
   geom_point() +
   labs(
     x = "Posición ideológica estimada MCMC",
@@ -259,6 +261,8 @@ valores_ideologia_MCMC <- ordenamiento_submuestra_MCMC[, 2] %>% data.frame()
 
 library(readr)
 ordenamiento_rcp <- read_csv("rcp_convencion/RCP_estimacion_ideologia.csv", locale = locale(encoding = "LATIN1"))
+
+str(ordenamiento_rcp)
 
 ggplot(ordenamiento_rcp, aes(x = ideologia, y = reorder(nombres, ideologia), color = lista)) +
   geom_point() +
