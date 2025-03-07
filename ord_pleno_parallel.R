@@ -1,4 +1,3 @@
-
 # -----------------------------------------------------------------------------
 # ---- Parallel Bootstrap Function for W-Nominate ----
 # -----------------------------------------------------------------------------
@@ -7,8 +6,8 @@ library(wnominate)
 library(doParallel)
 library(data.table)
 
-# Set up parallel backend for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(6, type = "FORK")  # Uses 6 cores (4P + 2E)
+# Set up parallel backend for M1/M2 (4 performance cores + 4 efficiency)
+cl <- makeCluster(6, type = "FORK")  # Uses 6 cores (4P + 4E)
 registerDoParallel(cl)
 
 # --- Define core functions ---

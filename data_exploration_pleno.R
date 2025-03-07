@@ -120,147 +120,175 @@ transform_votaciones_names <- function(name) {
 }
 
 # Apply transformation to NOMBRE column in votaciones_df
-votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, transform_votaciones_names)
+#votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, transform_votaciones_names)
+nombres_transformed <- sapply(votaciones_df$NOMBRE, transform_votaciones_names)
+nombres_transformed[1:20]
 
 # Frente Amplio
 selected_names_FA <- c(
-  "Damaris Abarca", "Ignacio Achurra", "Amaya Alvez", "Fernando Atria", 
-  "Jorge Baradit", "Jaime Bassa", "Aurora Delgado", "Yarela Gómez", 
-  "Jeniffer Mella", "María José Oyarzún", "Giovanna Roa", "Beatriz Sánchez", 
-  "Constanza Schönhaut", "Mariela Serey", "Daniel Stingo", "Tatiana Urrutia", 
-  "Christian Viera"
+  "Abarca González, Damaris", "Achurra Díaz, Ignacio", "Alvez Marín, Amaya", "Atria Lemaitre, Fernando", 
+  "Baradit Morales, Jorge", "Bassa Mercado, Jaime", "Delgado Vergara, Aurora", "Gómez Sánchez, Yarela", 
+  "Mella Escobar, Jeniffer", "Oyarzún Solis, María José", "Roa Cadin, Giovanna", "Sánchez Muñoz, Beatriz", 
+  "Schonhaut Soto, Constanza", "Serey Jiménez, Mariela", "Stingo Camus, Daniel", "Urrutia Herrera, Tatiana", 
+  "Viera Álvarez, Christian"
 )
 
 # Chile Digno
 selected_names_CHD <- c(
-  "Marcos Barraza", "Roberto Celedón", "Bessy Gallardo", "Paola Grandón",
-  "Hugo Gutiérrez", "Valentina Miranda", "Nicolás Núñez", "Ericka Portilla",
-  "Bárbara Sepúlveda", "Hernán Velásquez", "Carolina Videla"
+  "Barraza Gómez, Marcos", "Celedón Fernández, Roberto", "Gallardo Prado, Bessy", "Grandón González, Paola",
+  "Gutiérrez Gálvez, Hugo", "Miranda Arce, Valentina", "Núñez Gangas, Nicolás", "Portilla Barrios, Ericka",
+  "Sepúlveda Sepúlveda, Carolina", "Velásquez Núñez, Hernán", "Videla Osorio, Carolina"
 )
 
 # Coordinadora Constituyente Plurinacional y Popular
 selected_names_CCPP <- c(
-  "Victorino Antilef", "Marco Arellano", "Wilfredo Bacian", "Alexis Caiguan",
-  "Eric Chinga", "Isabel Godoy", "Giovanna Grandón", "Elsa Labraña",
-  "Francisca Linconao", "Natividad Llanquileo", "Tania Madriaga",
-  "Ivanna Olivares", "Alejandra Pérez", "María Rivera", "Margarita Vargas",
-  "Lisette Vergara", "Manuel Woldarsky"
+  "Antilef Ñanco, Victorino", "Arellano Ortega, Marco", "Bacian Delgado, Wilfredo", "Caiguan Ancapan, Alexis",
+  "Chinga Ferreira, Eric", "Godoy Monardez, Isabel", "Grandón Caro, Giovanna", "Labraña Pino, Elsa",
+  "Linconao Huircapán, Francisca", "Llanquileo Pilquimán, Natividad", "Madriaga Flores, Tania",
+  "Olivares Miranda, Ivanna", "Pérez Espina, Alejandra", "Rivera Iribarren, María Magdalena", "Vargas López, Margarita",
+  "Vergara Riquelme, Lisette", "Woldarsky González, Manuel"
 )
 
 # Colectivo Socialista
 selected_names_CS <- c(
-  "Julio Álvarez", "Carlos Calvo", "Adriana Cancino", "María Trinidad Castillo",
-  "Andrés Cruz", "Patricio Fernández", "Claudio Gómez", "Maximiliano Hurtado",
-  "Tomás Laibe", "Ricardo Montero", "Pedro Muñoz", "Matías Orellana",
-  "Malucha Pinto", "Ramona Reyes", "César Valenzuela", "Mario Vargas"
+  "Alvarez Pinto, Julio", "Calvo Muñoz, Carlos", "Cancino Meneses, Adriana", "Castillo Boilet, María Trinidad",
+  "Cruz Carrasco, Andrés", "Fernández Chadwick, Patricio", "Gómez Castro, Claudio", "Hurtado Roco, Maximiliano",
+  "Laibe Saez, Tomás", "Montero Allende, Ricardo", "Muñoz Leiva, Pedro", "Orellana Cuellar, Matías",
+  "Pinto Solari, Malucha", "Reyes Painequeo, María Ramona", "Valenzuela Maass, César", "Vargas Vidal, Mario"
 )
 
 # Independientes por una Nueva Constitución
 selected_names_INC <- c(
-  "Jorge Abarca", "Benito Baranda", "Lorena Céspedes", "Mauricio Daza",
-  "Gaspar Domínguez", "Javier Fuchslocher", "Juan José Martin", "Helmuth Martínez",
-  "Guillermo Namor", "Patricia Politzer", "Tammy Pustilnick", 
-  "Carolina Sepúlveda", "Paulina Valenzuela"
+  "Abarca Riveros, Jorge", "Baranda Ferrán, Benito", "Céspedes Fernández, Lorena", "Daza Carrasco, Mauricio",
+  "Domínguez Donoso, Gaspar", "Fuchslocher Baeza, Javier", "Martin Bravo, Juan José", "Martínez Llancapan, Helmuth",
+  "Namor Kong, Guillermo", "Politzer Kerekes, Patricia", "Pustilnick Arditi, Tammy", 
+  "Sepúlveda Sepúlveda, Carolina", "Valenzuela Rio, Paulina"
 )
 
 # Movimientos Sociales Constituyentes
 selected_names_MSC <- c(
-  "Gloria Alvarado", "Alondra Carrillo", "Cristina Dorador", "Alejandra Flores",
-  "Elisa Giustinianovich", "Vanessa Hoppe", "Bastián Labbé", "Janis Meneses",
-  "María Elisa Quinteros", "Manuela Royo", "Alvin Saldaña", "Constanza San Juan",
-  "Carolina Vilches"
+  "Alvarado Jorquera, Gloria", "Carrillo Vidal, Alondra", "Dorador Ortiz, Cristina", "Flores Carlos, Alejandra",
+  "Giustinianovich Campos, Elisa", "Hoppe Espoz, Vanessa", "Labbé Salazar, Bastián", "Meneses Palma, Janis",
+  "Quinteros Cáceres, María Elisa", "Royo Letelier, Manuela", "Saldaña Muñoz, Alvin", "San Juan Standen, Constanza",
+  "Vilches Fuenzalida, Carolina"
 )
 
 # Independientes-RN-Evópoli
 selected_names_IND_RN_EV <- c(
-  "Raúl Celis", "Ruggero Cozzi", "Bernardo de la Maza", "Bernardo Fontaine",
-  "Álvaro Jofré", "Patricia Labra", "Hernán Larraín Matte", "Luis Mayol",
-  "Cristián Monckeberg", "Geoconda Navarrete", "Manuel Ossandón",
-  "Bárbara Rebolledo", "Luciano Silva", "Angélica Tepper", "Roberto Vega",
-  "Paulina Veloso"
+  "Celis Montt, Raúl", 
+  "Cozzi Elzo, Ruggero", 
+  "De la Maza Bañados, Bernardo", 
+  "Fontaine Talavera, Bernardo",
+  "Jofré Cáceres, Álvaro", 
+  "Labra Besserer, Patricia", 
+  "Larraín Matte, Hernán", 
+  "Mayol Bouchon, Luis",
+  "Monckeberg Bruner, Cristian", 
+  "Navarrete Arratia, Geoconda"
 )
 
 # Pueblo Constituyente
 selected_names_PC <- c(
-  "Francisca Arauna", "Daniel Bravo", "Francisco Caamaño", "Dayyana González",
-  "Natalia Henríquez", "Fernando Salinas", "César Uribe", "Loreto Vallejos",
-  "Ingrid Villena", "Camila Zárate"
+  "Arauna Urrutia, Francisca", "Bravo Silva, Daniel", "Caamaño Rojas, Francisco", 
+  "González Araya, Dayyana", "Henríquez Carreño, Natalia", 
+  "Salinas Manfredini, Fernando", "Uribe Araya, César", 
+  "Vallejos Dávila, Loreto", "Villena Narbona, Ingrid", 
+  "Zárate Zárate, Camila"
 )
 
 # Pueblos indígenas
 selected_names_PI <- c(
-  "Tiare Aguilera", "Rosa Catrileo", "Félix Galleguillos", "Lidia González",
-  "Luis Jiménez", "Elisa Loncon", "Isabella Mamani", "Adolfo Millabur",
-  "Fernando Tirado"
+  "Aguilera Hey, Tiare", "Catrileo Arias, Rosa", 
+  "Galleguillos Aymani, Félix", 
+  "González Calderón, Lidia", 
+  "Jiménez Cáceres, Luis",
+  "Loncon Antileo, Elisa",
+  "Mamani Mamani, Isabella",
+  "Millabur Ñancuil, Adolfo",
+  "Tirado Soto, Fernando"
 )
 
 # Unidos por Chile
 selected_names_UPC <- c(
-  "Rodrigo Álvarez", "Jorge Arancibia", "Eduardo Cretton", "Constanza Hube",
-  "Katerine Montealegre", "Ricardo Neumann", "Pollyana Rivera",
-  "María Cecilia Ubilla"
+  "Álvarez Zenteno, Rodrigo",
+  "Arancibia Reyes, Jorge",
+  "Cretton Rebolledo, Eduardo",
+  "Hube Portus, Constanza",
+  "Montealegre Navarro, Katerine",
+  "Neumann Bertin, Ricardo",
+  "Rivera Bigas, Pollyana",
+  "Ubilla Pérez, María Cecilia"
 )
 
 # Colectivo del Apruebo
 selected_names_CA <- c(
-  "Luis Barceló", "Miguel Ángel Botto", "Eduardo Castillo", "Fuad Chahín",
-  "Felipe Harboe", "Rodrigo Logan", "Agustín Squella"
+  "Barceló Amado, Luis",
+  "Botto Salinas, Miguel Ángel",
+  "Castillo Vigouroux, Eduardo",
+  "Chahín Valenzuela, Fuad",
+  "Harboe Bascuñán, Felipe",
+  "Logan Soto, Rodrigo",
+  "Squella Narducci, Agustín"
 )
 
 # Un Chile Unido
 selected_names_UCU <- c(
-  "Carol Bown", "Claudia Castro", "Marcela Cubillos", "Felipe Mena",
-  "Alfredo Moreno", "Pablo Toloza", "Luis Zúñiga"
+  "Bown Sepúlveda, Carol",
+  "Castro Gutiérrez, Claudia",
+  "Cubillos Sigall, Marcela",
+  "Mena Villar, Felipe",
+  "Moreno Echeverría, Alfredo",
+  "Toloza Fernández, Pablo",
+  "Zúñiga Jory, Luis Arturo"
 )
 
 # Chile Libre
 selected_names_CL <- c(
-  "Martín Arrau", "Rocío Cantuarias", "Ruth Hurtado", "Harry Jürgensen",
-  "Margarita Letelier", "Teresa Marinovic"
+  "Arrau García-Huidobro, Martín",
+  "Cantuarias Rubio, Rocío",
+  "Hurtado Olave, Ruth",
+  "Jurgensen Caesar, Harry",
+  "Letelier Cortés, Margarita",
+  "Marinovic Vial, Teresa"
 )
 
 # Somos Región
 selected_names_SR <- c(
-  "Raúl Celis", "Álvaro Jofré", "Luciano Silva", "Angélica Tepper",
-  "Roberto Vega", "Paulina Veloso"
+  "Celis Montt, Raúl", 
+  "Jofré Cáceres, Álvaro", 
+  "Silva Mora, Luciano", 
+  "Tepper Kolossa, María Angélica", 
+  "Vega Campusano, Roberto", 
+  "Veloso Muñoz, Paulina"
 )
 
 # Mixto (varios)
 selected_names_MIX <- c(
-  "Adriana Ampuero", "Cristóbal Andrade", "Rossana Vidal"
+  "Ampuero Barrientos, Adriana", "Andrade León, Cristóbal", "Vidal Hernández, Loreto"
 )
 
 # Lista del Apruebo
 selected_names_LA <- c(
-  "Renato Garín"
+  "Garín González, Renato"
 )
 
-
-# Función para transformar el formato ("Apellido, Nombre")
-transform_selected_names <- function(name) {
-  parts <- unlist(strsplit(name, " "))
-  first_name <- parts[1]
-  surname <- paste(parts[-1], collapse = " ") # Para incluir apellidos compuestos
-  return(paste(surname, ",", first_name))
-}
-
 # Aplicar transformación a todos los conjuntos de nombres
-selected_names_FA <- sapply(selected_names_FA, transform_selected_names)
-selected_names_CHD <- sapply(selected_names_CHD, transform_selected_names)
-selected_names_CCPP <- sapply(selected_names_CCPP, transform_selected_names)
-selected_names_CS <- sapply(selected_names_CS, transform_selected_names)
-selected_names_INC <- sapply(selected_names_INC, transform_selected_names)
-selected_names_MSC <- sapply(selected_names_MSC, transform_selected_names)
-selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, transform_selected_names)
-selected_names_PC <- sapply(selected_names_PC, transform_selected_names)
-selected_names_PI <- sapply(selected_names_PI, transform_selected_names)
-selected_names_UPC <- sapply(selected_names_UPC, transform_selected_names)
-selected_names_CA <- sapply(selected_names_CA, transform_selected_names)
-selected_names_UCU <- sapply(selected_names_UCU, transform_selected_names)
-selected_names_CL <- sapply(selected_names_CL, transform_selected_names)
-selected_names_SR <- sapply(selected_names_SR, transform_selected_names)
-selected_names_MIX <- sapply(selected_names_MIX, transform_selected_names)
-selected_names_LA <- sapply(selected_names_LA, transform_selected_names)
+# selected_names_FA <- sapply(selected_names_FA, transform_votaciones_names)
+# selected_names_CHD <- sapply(selected_names_CHD, transform_votaciones_names)
+# selected_names_CCPP <- sapply(selected_names_CCPP, transform_votaciones_names)
+# selected_names_CS <- sapply(selected_names_CS, transform_votaciones_names)
+# selected_names_INC <- sapply(selected_names_INC, transform_votaciones_names)
+# selected_names_MSC <- sapply(selected_names_MSC, transform_votaciones_names)
+# selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, transform_votaciones_names)
+# selected_names_PC <- sapply(selected_names_PC, transform_votaciones_names)
+# selected_names_PI <- sapply(selected_names_PI, transform_votaciones_names)
+# selected_names_UPC <- sapply(selected_names_UPC, transform_votaciones_names)
+# selected_names_CA <- sapply(selected_names_CA, transform_votaciones_names)
+# selected_names_UCU <- sapply(selected_names_UCU, transform_votaciones_names)
+# selected_names_CL <- sapply(selected_names_CL, transform_votaciones_names)
+# selected_names_SR <- sapply(selected_names_SR, transform_votaciones_names)
+# selected_names_MIX <- sapply(selected_names_MIX, transform_votaciones_names)
+# selected_names_LA <- sapply(selected_names_LA, transform_votaciones_names)
 
 # Load necessary libraries
 library(stringi)
