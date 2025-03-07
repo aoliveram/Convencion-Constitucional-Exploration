@@ -292,12 +292,16 @@ write.csv(ordenamiento_1D_rcp,
 ordenamiento_1D_MCMC <- read.csv("ordenamiento_1D_MCMC.csv")
 ordenamiento_1D_WNOM <- read.csv("ordenamiento_1D_WNOM.csv")
 ordenamiento_1D_rcp <- read.csv("rcp_convencion/ordenamiento_1D_rcp.csv")
-ordenamiento_1D <- merge(ordenamiento_1D_MCMC, ordenamiento_1D_WNOM, by = "nombre_votante", suffixes = c("_MCMC", "_WNOM"))
+ordenamiento_1D_al_14ago2021 <- merge(ordenamiento_1D_MCMC, ordenamiento_1D_WNOM, by = "nombre_votante", suffixes = c("_MCMC", "_WNOM"))
 colnames(ordenamiento_1D_rcp)[colnames(ordenamiento_1D_rcp) == "posicion_ideologica"] <- "posicion_ideologica_RCP"
-ordenamiento_1D <- merge(ordenamiento_1D, ordenamiento_1D_rcp, by = "nombre_votante")
+ordenamiento_1D_al_14ago2021 <- merge(ordenamiento_1D_al_14ago2021, ordenamiento_1D_rcp, by = "nombre_votante")
+
+write.csv(ordenamiento_1D_al_14ago2021, 
+          file = "ordenamiento_1D_al_14ago2021.csv", 
+          row.names = FALSE)
 
 library(ggplot2)
-ggplot(ordenamiento_1D) +
+ggplot(ordenamiento_1D_al_14ago2021) +
   geom_point(aes(x = posicion_ideologica_RCP, y = reorder(nombre_votante, posicion_ideologica_RCP), color = "RCP"), size = 3) +
   geom_point(aes(x = posicion_ideologica_MCMC, y = reorder(nombre_votante, posicion_ideologica_MCMC), color = "MCMC"), size = 3) +
   geom_point(aes(x = posicion_ideologica_WNOM, y = reorder(nombre_votante, posicion_ideologica_WNOM), color = "WNOM"), size = 3) +
@@ -314,7 +318,6 @@ ggplot(ordenamiento_1D) +
     axis.title.y = element_text(size = 12),
     legend.position = "right"
   )
-
 
 # ------------------- ¿Son iguales los nombres de RCP y los de votaciones_al_14ago2021?
 
