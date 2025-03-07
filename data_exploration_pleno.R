@@ -107,23 +107,6 @@ ggplot(votaciones_df, aes(x = factor(VOTACIONID), y = NOMBRE, fill = factor(VOTA
 
 votaciones_df['NOMBRE'][[1]][1:20]
 
-# Transform NOMBRE in votaciones_df to extract first surname and first name 
-transform_votaciones_names <- function(name) {
-  parts <- unlist(strsplit(name, ", "))
-  if (length(parts) == 2) {
-    surnames <- unlist(strsplit(parts[1], " ")) # Split surnames
-    first_surname <- surnames[1]               # Take only the first surname
-    first_name <- unlist(strsplit(parts[2], " "))[1] # Take only the first name
-    return(paste(first_surname, ",", first_name))
-  }
-  return(NA)
-}
-
-# Apply transformation to NOMBRE column in votaciones_df
-#votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, transform_votaciones_names)
-nombres_transformed <- sapply(votaciones_df$NOMBRE, transform_votaciones_names)
-nombres_transformed[1:20]
-
 # Frente Amplio
 selected_names_FA <- c(
   "Abarca González, Damaris", "Achurra Díaz, Ignacio", "Alvez Marín, Amaya", "Atria Lemaitre, Fernando", 
@@ -300,54 +283,6 @@ total_names <- length(selected_names_FA) +
   #length(selected_names_SR) + 
   length(selected_names_MIX) + 
   length(selected_names_LA)
-
-
-# Aplicar transformación a todos los conjuntos de nombres
-# selected_names_FA <- sapply(selected_names_FA, transform_votaciones_names)
-# selected_names_CHD <- sapply(selected_names_CHD, transform_votaciones_names)
-# selected_names_CCPP <- sapply(selected_names_CCPP, transform_votaciones_names)
-# selected_names_CS <- sapply(selected_names_CS, transform_votaciones_names)
-# selected_names_INC <- sapply(selected_names_INC, transform_votaciones_names)
-# selected_names_MSC <- sapply(selected_names_MSC, transform_votaciones_names)
-# selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, transform_votaciones_names)
-# selected_names_PC <- sapply(selected_names_PC, transform_votaciones_names)
-# selected_names_PI <- sapply(selected_names_PI, transform_votaciones_names)
-# selected_names_UPC <- sapply(selected_names_UPC, transform_votaciones_names)
-# selected_names_CA <- sapply(selected_names_CA, transform_votaciones_names)
-# selected_names_UCU <- sapply(selected_names_UCU, transform_votaciones_names)
-# selected_names_CL <- sapply(selected_names_CL, transform_votaciones_names)
-# selected_names_SR <- sapply(selected_names_SR, transform_votaciones_names)
-# selected_names_MIX <- sapply(selected_names_MIX, transform_votaciones_names)
-# selected_names_LA <- sapply(selected_names_LA, transform_votaciones_names)
-
-# # Load necessary libraries
-# library(stringi)
-# 
-# # Function to remove accents from a string
-# remove_accents <- function(text) {
-#   stri_trans_general(text, "Latin-ASCII")
-# }
-# 
-# # Apply the function to remove accents from NOMBRE in votaciones_df
-# votaciones_df$NOMBRE <- sapply(votaciones_df$NOMBRE, remove_accents)
-# 
-# # Apply the function to remove accents from all coalition lists
-# selected_names_FA <- sapply(selected_names_FA, remove_accents)
-# selected_names_CHD <- sapply(selected_names_CHD, remove_accents)
-# selected_names_CCPP <- sapply(selected_names_CCPP, remove_accents)
-# selected_names_CS <- sapply(selected_names_CS, remove_accents)
-# selected_names_INC <- sapply(selected_names_INC, remove_accents)
-# selected_names_MSC <- sapply(selected_names_MSC, remove_accents)
-# selected_names_IND_RN_EV <- sapply(selected_names_IND_RN_EV, remove_accents)
-# selected_names_PC <- sapply(selected_names_PC, remove_accents)
-# selected_names_PI <- sapply(selected_names_PI, remove_accents)
-# selected_names_UPC <- sapply(selected_names_UPC, remove_accents)
-# selected_names_CA <- sapply(selected_names_CA, remove_accents)
-# selected_names_UCU <- sapply(selected_names_UCU, remove_accents)
-# selected_names_CL <- sapply(selected_names_CL, remove_accents)
-# selected_names_SR <- sapply(selected_names_SR, remove_accents)
-# selected_names_MIX <- sapply(selected_names_MIX, remove_accents)
-# selected_names_LA <- sapply(selected_names_LA, remove_accents)
 
 # Function to assign coalition
 assign_coalition <- function(name) {
