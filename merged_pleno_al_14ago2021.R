@@ -96,26 +96,26 @@ library(readxl)
 library(dplyr)
 library(tidyr)
 
-# Function to process a single session
+# Funcioón para separar votaciones dentro de una sesión
 process_session <- function(file_path) {
-  session_data <- read_excel(file_path, col_names = FALSE)
+  session_data <- read_xls(file_path, col_names = FALSE)
   
-  # Identify rows where the first column contains "VOTACIONID"
+  # Identificamos "VOTACIONID"
   start_indices <- which(session_data[[1]] == "VOTACIONID")
   
-  # Create a list to store blocks of data
+  # Creamos una lista para el conjunto de votaciones
   blocks <- list()
   
   for (i in seq_along(start_indices)) {
     start_idx <- start_indices[i]
     end_idx <- ifelse(i < length(start_indices), start_indices[i + 1] - 1, nrow(session_data))
     
-    # Extract the block and store it in the list
+    # Añadimos votación a la lista
     block <- session_data[start_idx:end_idx, ]
     blocks[[i]] <- block
   }
   
-  # Process blocks
+  # Procesamos la sesión
   votaciones_session <- list()
   
   for (i in seq_along(blocks)) {
@@ -131,7 +131,7 @@ process_session <- function(file_path) {
     temp_data <- voting_data %>%
       select(NOMBRE, VOTACION) %>%
       mutate(
-        VOTACIONID = paste(fecha, votacion_id, sep="_"),  # Include date in VOTACIONID
+        VOTACIONID = paste(fecha, votacion_id, sep="_"),  # Incluir FECHA en VOTACIONID
         VOTACION = case_when(
           VOTACION == "AFIRMATIVO" ~ 1,
           VOTACION == "ABSTENCION" ~ 0,
@@ -144,30 +144,32 @@ process_session <- function(file_path) {
     votaciones_session[[i]] <- temp_data
   }
   
-  # Combine all blocks into a single data frame
+  # Añadimos la info procesada de la sesión a votaciones_session_df
   votaciones_session_df <- as.data.frame(do.call(rbind, votaciones_session))
   
   return(votaciones_session_df)
 }
 
-# List of session files
+# Lista de sesiones
 session_files <- c('Pleno/sesion_7.xls', 'Pleno/sesion_8.xls', 'Pleno/sesion_10.xls', 
                    'Pleno/sesion_12.xls', 'Pleno/sesion_13.xls', 'Pleno/sesion_14.xls', 
                    'Pleno/sesion_15.xls')
 
-# Process all sessions
+# Procesamos todas las sesiones
 all_sessions <- lapply(session_files, process_session)
 
-# Combine all sessions into a single data frame
+# Combinamos las sesiones en un data frame
 all_votaciones_df <- do.call(rbind, all_sessions)
 
-# Create the final wide format data frame
+# Creamos una columna por cada votación 
 final_votaciones_df <- all_votaciones_df %>%
-  spread(VOTACIONID, VOTACION)
+  pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
-# Saving the final data frame
+# Guardamos objeto
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_todas_sesiones.csv", 
+          file = "Pleno/votaciones_al_14ago2021_manual.csv", 
           row.names = FALSE)
+
+votaciones_al_14ago2021_manual <-read.csv("Pleno/votaciones_al_14ago2021_manual.csv") # 146 votaciones
 
 # LISTO, YA TENGO TODAS LAS VOTACIONES DE votaciones_al_14ago2021.csv !!!!!
