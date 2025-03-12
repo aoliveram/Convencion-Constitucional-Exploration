@@ -297,15 +297,16 @@ ordenamiento_1D_boostraping_MCMC_parallel <- read.csv(
 )
 
 # -------------------------------  56 - 75
-
+# !!!!
 # -------------------- bootstrap
 
-votaciones_56_75 <-read.csv("Pleno/votaciones_56_75.csv") # -- votaciones
+votaciones_56_75 <-read.csv("Pleno/votaciones_56_75.csv") # 900 votaciones
 votantes <- as.vector(votaciones_56_75[[1]])
 votaciones_56_75 <- votaciones_56_75[,-1]
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -320,7 +321,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
-execution_time_parallel  # -- min
+execution_time_parallel  # 5.2 min
 
 write.csv(ordenamiento_1D_boostraping_MCMC_parallel, 
           file = "Pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_56-75_parallel.csv", 
@@ -333,15 +334,16 @@ ordenamiento_1D_boostraping_MCMC_parallel <- read.csv(
 )
 
 # -------------------------------  76 - 99
-# !!!!
+
 # -------------------- bootstrap
 
-votaciones_76_99 <-read.csv("Pleno/votaciones_76_99.csv") # -- votaciones
+votaciones_76_99 <-read.csv("Pleno/votaciones_76_99.csv") # 2182 votaciones
 votantes <- as.vector(votaciones_76_99[[1]])
 votaciones_76_99 <- votaciones_76_99[,-1]
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -356,7 +358,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
-execution_time_parallel  # -- min
+execution_time_parallel  # 5.07 min
 
 write.csv(ordenamiento_1D_boostraping_MCMC_parallel, 
           file = "Pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_76-99_parallel.csv", 
@@ -377,7 +379,8 @@ votantes <- as.vector(votaciones_100_106[[1]])
 votaciones_100_106 <- votaciones_100_106[,-1]
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -408,12 +411,13 @@ ordenamiento_1D_boostraping_MCMC_parallel <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_107_109 <-read.csv("Pleno/votaciones_107_109.csv") # -- votaciones
+votaciones_107_109 <-read.csv("Pleno/votaciones_107_109.csv") # 72 votaciones
 votantes <- as.vector(votaciones_107_109[[1]])
 votaciones_107_109 <- votaciones_107_109[,-1]
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -428,7 +432,7 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
-execution_time_parallel  # -- min
+execution_time_parallel  # 4.63 min
 
 write.csv(ordenamiento_1D_boostraping_MCMC_parallel, 
           file = "Pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_107-109_parallel.csv", 
