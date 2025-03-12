@@ -8,10 +8,6 @@ votaciones_al_14ago2021 <- votaciones_al_14ago2021[,-1] # Quito la primera colum
 votantes <- as.vector(votaciones_al_14ago2021[[1]])
 votaciones_al_14ago2021 <- votaciones_al_14ago2021[,-1]
 
-#------------------------------------------------------------------------------
-# Estimación de Ordenamiento Político usando W-Nominate 
-#------------------------------------------------------------------------------
-
 # Crear un objeto de clase rollcall para el análisis con wnominate
 # install.packages('wnominate')
 library(wnominate)
@@ -26,6 +22,22 @@ votaciones_al_14ago2021_rc <- rollcall(
   desc = "Votaciones Convención Constitucional al 14 Ago 2021"
 )
 
+library(dplyr)
+
+# Reescalamos dentro de [-1,1]
+reescalar <- function(vector_original) {
+  min_original <- min(vector_original)
+  max_original <- max(vector_original)
+  a <- -1
+  b <- 1
+  vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
+  return(vector_reescalado)
+}
+
+#------------------------------------------------------------------------------
+# Estimación de Ordenamiento Político usando W-Nominate 
+#------------------------------------------------------------------------------
+
 # Ejecutar el análisis W-Nominate
 ordenamiento_WNOM <- wnominate(
   votaciones_al_14ago2021_rc, 
@@ -39,16 +51,6 @@ plot(ordenamiento_WNOM)
 
 # Creamos data frame con los resultados de la dimensión 1.
 ordenamiento_1D_WNOM <- data.frame(posicion_ideologica = ordenamiento_WNOM$legislators$coord1D)
-
-# Reescalamos dentro de [-1,1]
-reescalar <- function(vector_original) {
-  min_original <- min(vector_original)
-  max_original <- max(vector_original)
-  a <- -1
-  b <- 1
-  vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
-  return(vector_reescalado)
-}
 
 library(dplyr)
 
@@ -183,16 +185,7 @@ write.csv(ordenamiento_1D_MCMC,
 
 # ------------------------ Plots posiciones
 
-# Graficamos de mayor a menor las posiciones de los votantes
-ggplot(ordenamiento_1D_MCMC, aes(x = posicion_izq_der, y = posicion_ideologica, color = posicion_ideologica)) +
-  geom_point() +
-  geom_text(aes(label = n_votante), vjust = -1) +
-  theme(axis.title.x = element_blank(), axis.text.x = element_blank())+
-  ggtitle("Bayesiano")+
-  theme(plot.title = element_text(hjust = 0.5))+
-  labs(y = "Posición ideológica")+
-  theme(axis.title.y = element_text(size = 15))+
-  scale_color_gradient(low = "red", high = "blue")
+library(ggplot2)
 
 ggplot(ordenamiento_1D_MCMC, aes(x = posicion_ideologica, y = reorder(nombre_votante, posicion_ideologica), color = 'grey')) +
   geom_point() +
@@ -203,6 +196,17 @@ ggplot(ordenamiento_1D_MCMC, aes(x = posicion_ideologica, y = reorder(nombre_vot
   ) +
   theme_minimal() +
   theme(axis.text.y = element_text(size = 6))
+
+# ------------------------
+
+ordenamiento_MCMC$x
+
+?ideal
+
+
+
+
+
 
 
 # --------------------- Bootstrap manual para estimar la incertidumbre en IDEAL
