@@ -126,6 +126,8 @@ all_votaciones_df <- do.call(rbind, all_sessions)
 final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
+final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
+
 write.csv(final_votaciones_df, 
           file = "Pleno/votaciones_22_37.csv", 
           row.names = FALSE)
