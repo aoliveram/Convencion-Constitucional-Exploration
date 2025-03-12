@@ -216,16 +216,17 @@ subset2 <- ordenamiento_1D_boostraping_MCMC_bootstrap[156:176, ]
 
 # Calcular diferencias
 dif_coord1D <- subset2$coord1D - subset1$coord1D
+dif_se1D <- subset2$se1D - subset1$se1D
 
 # Crear tabla comparativa
 tabla_comparativa <- data.frame(
   Legislador = subset1$legislador,
   coord1D_1 = subset1$coord1D,
   coord1D_2 = subset2$coord1D,
-  dif_coord1D = dif_coord1D
+  dif_coord1D = dif_coord1D, 
+  dif_se1D = dif_se1D
 )
 
-# Mostrar tabla comparativa
 print(tabla_comparativa)
 
 
