@@ -210,6 +210,32 @@ votantes_bootstrap
 duplicados_bootstrap <- sum(duplicated(votantes_bootstrap) | duplicated(votantes_bootstrap, fromLast=TRUE))
 
 
+# Crear subconjuntos
+subset1 <- ordenamiento_1D_boostraping_MCMC_bootstrap[1:21, ]
+subset2 <- ordenamiento_1D_boostraping_MCMC_bootstrap[156:176, ]
+
+# Calcular diferencias
+dif_coord1D <- subset2$coord1D - subset1$coord1D
+
+# Crear tabla comparativa
+tabla_comparativa <- data.frame(
+  Legislador = subset1$legislador,
+  coord1D_1 = subset1$coord1D,
+  coord1D_2 = subset2$coord1D,
+  dif_coord1D = dif_coord1D
+)
+
+# Mostrar tabla comparativa
+print(tabla_comparativa)
+
+
+
+
+
+
+
+
+
 
 write.csv(ordenamiento_1D_boostraping_MCMC_bootstrap, 
           file = "Pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_16-21_bootstrap.csv", 
