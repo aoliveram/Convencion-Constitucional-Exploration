@@ -126,7 +126,8 @@ votaciones_al_14ago2021_manual_2 <- votaciones_al_14ago2021_manual_2[,-1]
 n_votos <- length(votaciones_al_14ago2021_manual_2)
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(6, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(6, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -134,7 +135,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_al_14ago2021_manual_2,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -161,10 +162,11 @@ votaciones_16_21 <-read.csv("Pleno/votaciones_16_21.csv") # 182 votaciones
 votantes <- as.vector(votaciones_16_21[[1]])
 votaciones_16_21 <- votaciones_16_21[,-1]
 
-n_votos <- length(votaciones_16_21)
+n_votos <- length(votaciones_16_21)   
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+#cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
@@ -172,7 +174,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_16_21,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -210,7 +212,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_22_37,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -248,7 +250,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_38_46,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -286,7 +288,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_47_55,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -325,7 +327,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_56_75,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -364,7 +366,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_76_99,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -403,7 +405,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_100_106,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
@@ -442,7 +444,7 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_107_109,
   votantes,
   n_iter = 200,
-  N_votos = n_votos * 0.7
+  N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
 
