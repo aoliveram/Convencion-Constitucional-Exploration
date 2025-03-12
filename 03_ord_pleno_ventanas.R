@@ -11,6 +11,12 @@ library(readr)
 library(wnominate)
 library(doParallel)
 library(data.table)
+library(dplyr)
+
+normalizar_nombres <- function(texto) {
+  texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
+  return(texto_limpio)
+}
 
 # Reescalamos dentro de [-1,1]
 reescalar <- function(vector_original) {
@@ -27,14 +33,18 @@ muestra_votos <- function(base_datos, N) {
   base_datos[, votos_muestreados, drop = FALSE]
 }
 
-parallel_bootstrap_ideal <- function(votaciones, votantes, N_votos, n_iter = 200, 
+validar_unicidad <- function(rc_object) {
+  stopifnot(length(unique(rownames(rc_object$votes))) == nrow(rc_object$votes))
+}
+
+parallel_bootstrap_ideal <- function(votaciones, votantes_norm, N_votos, n_iter = 200, 
                                      maxiter = 8000, burnin = 1000, thin = 40) {
   
   foreach(i = 1:n_iter, .combine = "rbind",
           .packages = c("pscl", "data.table"),
-          .export = c("muestra_votos", "votantes")) %dopar% {
+          .export = c("muestra_votos")) %dopar% {
             
-            set.seed(Sys.time() + i)  # Unique seed per iteration
+            set.seed( (as.numeric(Sys.time()) * Sys.getpid()) %% .Machine$integer.max ) #Combina timestamp + PID del proceso para unicidad garantizada
             
             tryCatch({
               # Generate bootstrap sample
@@ -43,8 +53,11 @@ parallel_bootstrap_ideal <- function(votaciones, votantes, N_votos, n_iter = 200
               # Create rollcall object
               rc <- rollcall(muestras,
                              yea = 1, nay = 0, missing = NA,
-                             legis.names = votantes,
-                             desc = "Bootstrap IDEAL")
+                             legis.names = votantes_norm,
+                             desc = "Bootstrap IDEAL",
+                             vote.names = colnames(muestras))
+              
+              validar_unicidad(rc)
               
               # Run IDEAL with conservative parameters
               ideal_fit <- pscl::ideal(rc,
@@ -160,20 +173,25 @@ ordenamiento_1D_boostraping_MCMC_bootstrap <- read.csv(
 
 votaciones_16_21 <-read.csv("Pleno/votaciones_16_21.csv") # 182 votaciones
 votantes <- as.vector(votaciones_16_21[[1]])
-votaciones_16_21 <- votaciones_16_21[,-1]
+votantes_norm <- normalizar_nombres(votantes)
 
+# Eliminamos información de los votantes
+votaciones_16_21 <- votaciones_16_21[,-1]
 n_votos <- length(votaciones_16_21)   
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
 #cl <- makeCluster(7, type = "FORK")  # Uses 6 cores (4P + 2E)
-cl <- makeCluster(12, type = "FORK") # CHPC 
+cl <- makeCluster(12, type="FORK", clean=TRUE) # CHPC 
 registerDoParallel(cl)
+
+# Exportar explícitamente versión normalizada
+clusterExport(cl, "votantes_norm")
 
 start_time <- Sys.time()
 ordenamiento_1D_boostraping_MCMC_bootstrap <- parallel_bootstrap_ideal(
   votaciones_16_21,
-  votantes,
-  n_iter = 200,
+  votantes_norm,
+  n_iter = 100,
   N_votos = as.integer(round(n_votos * 0.7))
 )
 end_time <- Sys.time()
@@ -181,7 +199,17 @@ end_time <- Sys.time()
 stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
-execution_time_parallel  # 5.65 min
+execution_time_parallel  # 3.89 vs 5.65 min
+
+
+
+votantes_norm
+votantes_bootstrap <- ordenamiento_1D_boostraping_MCMC_bootstrap$legislador[ordenamiento_1D_boostraping_MCMC_bootstrap$iteracion == 1]
+votantes_bootstrap
+
+duplicados_bootstrap <- sum(duplicated(votantes_bootstrap) | duplicated(votantes_bootstrap, fromLast=TRUE))
+
+
 
 write.csv(ordenamiento_1D_boostraping_MCMC_bootstrap, 
           file = "Pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_16-21_bootstrap.csv", 
