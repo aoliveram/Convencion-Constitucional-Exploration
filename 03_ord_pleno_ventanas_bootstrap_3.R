@@ -158,7 +158,7 @@ n_rows <- ceiling(n_plots / n_cols)
 arreglo_plots <- do.call(grid.arrange, c(lista_plots, ncol = n_cols, nrow = n_rows))
 
 # Guardar el arreglo de plots
-ggsave("arreglo_plots_comparaciones.png", arreglo_plots, width = 20, height = 20, units = "in", dpi = 300)
+ggsave("plots/matriz_comparaciones_sesiones.png", arreglo_plots, width = 20, height = 20, units = "in", dpi = 300)
 
 # --------------------- Plot alternativo 
 library(ggplot2)
