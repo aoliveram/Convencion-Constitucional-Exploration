@@ -164,55 +164,62 @@ ggsave("plots/matriz_comparaciones_sesiones.png", arreglo_plots, width = 20, hei
 library(ggplot2)
 library(patchwork)
 library(dplyr)
+library(purrr)
 
-# Definir el orden de las ventanas de sesiones
+# Define the order of session windows
 ventanas <- c("01-15", "22-37", "56-75", "76-99", "100-106")
 
-# Función para crear un plot individual
+# Function to create an individual plot
 crear_plot <- function(data, x_ventana, y_ventana) {
+  # Avoid redundant comparisons (diagonal and upper triangle)
   if (x_ventana == y_ventana || which(ventanas == x_ventana) > which(ventanas == y_ventana)) {
     return(ggplot() + theme_void())
   }
   
   comparacion <- paste(x_ventana, "vs", y_ventana)
-  votantes_sin_cambio <- data %>% 
-    filter(comparacion == !!comparacion, p_valor > 0.05) %>% 
+  
+  # Filter data for this comparison
+  datos_filtrados <- data %>% filter(comparacion == !!comparacion)
+  
+  # Get names of voters with p > 0.05
+  votantes_sin_cambio <- datos_filtrados %>%
+    filter(p_valor > 0.05) %>%
     pull(Votante)
   
-  ggplot(data %>% filter(comparacion == !!comparacion), 
+  # Create the plot
+  ggplot(datos_filtrados, 
          aes(x = Votante, y = p_valor, fill = -p_valor)) +
     geom_bar(width = 0.9, stat = "identity", position = position_dodge()) +
     geom_hline(yintercept = 0.05, linetype = "dashed", color = "red", linewidth = 0.5) +
     labs(title = comparacion) +
     theme_minimal() +
-    theme(plot.title = element_text(hjust = 0.5, size = 8),
-          axis.title = element_blank(),
-          axis.text.x = element_blank(),
-          axis.text.y = element_text(size = 6),
-          legend.position = "none") +
+    theme(
+      plot.title = element_text(hjust = 0.5, size = 8),
+      axis.title = element_blank(),
+      axis.text.x = element_text(angle = 90, hjust = 1, size = 6),
+      axis.text.y = element_text(size = 6),
+      legend.position = "none"
+    ) +
     scale_x_discrete(breaks = votantes_sin_cambio) +
     coord_cartesian(ylim = c(0, 0.085))
 }
 
-# Crear la matriz de plots
-plots <- expand.grid(y = rev(ventanas), x = ventanas) %>%
+# Create a grid of combinations in the correct order (row vs column)
+plots <- expand.grid(y = ventanas, x = ventanas) %>%
+  arrange(match(x, ventanas), match(y, ventanas)) %>% # Correct row-column logic
   mutate(plot = pmap(list(x, y), ~ crear_plot(orden_votantes_t, ..1, ..2)))
 
-# Combinar los plots en una grilla
+# Combine the plots into a grid
 grilla_plots <- wrap_plots(plots$plot, ncol = length(ventanas)) +
   plot_layout(guides = 'collect') &
   theme(plot.margin = margin(5, 5, 5, 5))
 
-# Añadir etiquetas a los ejes
+# Add axis labels and general title
 grilla_final <- grilla_plots +
   plot_annotation(
     title = "Comparación de posiciones políticas entre ventanas de sesiones",
     theme = theme(plot.title = element_text(hjust = 0.5, size = 14))
-  ) +
-  plot_layout(
-    widths = c(1, 4, 4, 4, 4),
-    heights = c(4, 4, 4, 4, 1)
   )
 
-# Guardar el gráfico
-ggsave("plots/matriz_comparaciones_sesiones_2.png", grilla_final, width = 20, height = 16, units = "in", dpi = 300)
+# Save the final plot
+ggsave("plots/matriz_comparaciones_sesiones_4.png", grilla_final, width = 20, height = 16, units = "in", dpi = 300)
