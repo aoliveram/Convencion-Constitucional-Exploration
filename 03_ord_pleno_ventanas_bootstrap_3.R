@@ -2,6 +2,13 @@ library(readr)
 library(data.table)
 library(dplyr)
 library(ggplot2)
+library(stringr)
+library(stringi)
+
+
+# Cargamos votantes
+votantes <- readRDS("01_votantes.rds")
+votantes <- votantes[-120] # quitamos rodrigo rojas
 
 normalizar_nombres <- function(texto) {
   texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
@@ -23,14 +30,21 @@ reescalar <- function(vector_original) {
 #------------------------------------------------------------------------------
 
 ordenamiento_1D_WNOM_al_14ago2021_bootstrap <- read.csv(
-  "Pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_al-14ago2021_bootstrap.csv",
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_al-14ago2021_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_al_14ago2021_bootstrap <- ordenamiento_1D_WNOM_al_14ago2021_bootstrap[, 3] %>% data.frame()
 
+ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv",
+  stringsAsFactors = FALSE,  # Preserve string formatting
+  encoding = "UTF-8"         # Maintain special characters
+)
+ordenamiento_1D_WNOM_16_21_bootstrap <- ordenamiento_1D_WNOM_16_21_bootstrap[, 3] %>% data.frame()
+
 ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
-  "Pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -72,36 +86,37 @@ ggplot(orden_votantes_t, aes(x = Votante, y = p_valor, fill = -p_valor)) +
 
 # Archivo de ordenamiento primero
 ordenamiento_1D_WNOM_al_14ago2021_bootstrap <- read.csv(
-  "Pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_al-14ago2021_bootstrap.csv",
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_al-14ago2021_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_al_14ago2021_bootstrap <- ordenamiento_1D_WNOM_al_14ago2021_bootstrap[, 3] %>% data.frame()
 
 # Lista de archivos CSV a leer
-archivos_csv <- c("ordenamiento_1D_WNOM_22-37_bootstrap.csv",
+archivos_csv_bootstrap <- c("ordenamiento_1D_WNOM_16-21_bootstrap.csv",
+                  "ordenamiento_1D_WNOM_22-37_bootstrap.csv",
                   "ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
                   "ordenamiento_1D_WNOM_76-99_bootstrap.csv",
                   "ordenamiento_1D_WNOM_100-106_bootstrap.csv")
 
 # Función para leer y procesar cada archivo
-leer_csv <- function(archivo) {
-  df <- read.csv(paste0("Pleno/ordenamientos_pleno/", archivo), 
+leer_csv_boot <- function(archivo_bootstrap) {
+  df <- read.csv(paste0("data - pleno/ordenamientos_pleno/", archivo_bootstrap), 
                  stringsAsFactors = FALSE, 
                  encoding = "UTF-8")
   df <- df[, 3] %>% data.frame()
-  colnames(df) <- gsub("_bootstrap.csv", "", gsub("ordenamiento_1D_WNOM_", "", archivo))
+  colnames(df) <- gsub("_bootstrap.csv", "", gsub("ordenamiento_1D_WNOM_", "", archivo_bootstrap))
   return(df)
 }
 
 # Leer todos los archivos
-lista_dfs <- lapply(archivos_csv, leer_csv)
+lista_bootstrap <- lapply(archivos_csv_bootstrap, leer_csv_boot)
 
 # Combinar todos los dataframes
 ordenamientos_completos <- cbind(
   Votante = rep(votantes, times = 200),
   "01-15" = reescalar(ordenamiento_1D_WNOM_al_14ago2021_bootstrap$.),
-  do.call(cbind, lista_dfs)
+  do.call(cbind, lista_bootstrap)
 )
 
 # Función para realizar t-test entre dos columnas
@@ -118,10 +133,105 @@ realizar_t_test <- function(df, col1, col2) {
 columnas_numericas <- names(ordenamientos_completos)[-1]
 combinaciones <- combn(columnas_numericas, 2, simplify = FALSE)
 
-# Realizar t-test para todas las combinaciones
+# Realizar t-test para todas las combinaciones (ordanamientos_completos tiene la pos 1D)
 orden_votantes_t <- ordenamientos_completos %>%
   group_by(Votante) %>%
   do(bind_rows(lapply(combinaciones, function(combo) realizar_t_test(., combo[1], combo[2]))))
+
+# Añadimos posición inicial del candidato !!!!
+
+ordenamiento_1D_WNOM_al_14ago2021 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_al-14ago2021.csv",
+  stringsAsFactors = FALSE,  # Preserve string formatting
+  encoding = "UTF-8"         # Maintain special characters
+)
+ordenamiento_1D_WNOM_al_14ago2021 <- ordenamiento_1D_WNOM_al_14ago2021[order(ordenamiento_1D_WNOM_al_14ago2021$nombre_votante), ]
+#ordenamiento_1D_WNOM_al_14ago2021 <- ordenamiento_1D_WNOM_al_14ago2021[, 1, drop = FALSE]
+
+ordenamiento_1D_WNOM_16_21 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv",
+  stringsAsFactors = FALSE,  # Preserve string formatting
+  encoding = "UTF-8"         # Maintain special characters
+)
+ordenamiento_1D_WNOM_16_21 <- ordenamiento_1D_WNOM_16_21[order(ordenamiento_1D_WNOM_16_21$nombre_votante), ]
+#ordenamiento_1D_WNOM_16_21 <- ordenamiento_1D_WNOM_16_21[, 1, drop = FALSE]
+
+ordenamiento_1D_WNOM_22_37 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv",
+  stringsAsFactors = FALSE,  # Preserve string formatting
+  encoding = "UTF-8"         # Maintain special characters
+)
+ordenamiento_1D_WNOM_22_37 <- ordenamiento_1D_WNOM_22_37[order(ordenamiento_1D_WNOM_22_37$nombre_votante), ]
+#ordenamiento_1D_WNOM_22_37 <- ordenamiento_1D_WNOM_22_37[, 1, drop = FALSE]
+
+ordenamiento_1D_WNOM_56_75 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv",
+  stringsAsFactors = FALSE,  
+  encoding = "UTF-8"         
+)
+ordenamiento_1D_WNOM_56_75 <- ordenamiento_1D_WNOM_56_75[order(ordenamiento_1D_WNOM_56_75$nombre_votante), ]
+#ordenamiento_1D_WNOM_56_75 <- ordenamiento_1D_WNOM_56_75[, 1, drop = FALSE]
+
+ordenamiento_1D_WNOM_76_99 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv",
+  stringsAsFactors = FALSE,  
+  encoding = "UTF-8"         
+)
+ordenamiento_1D_WNOM_76_99 <- ordenamiento_1D_WNOM_76_99[order(ordenamiento_1D_WNOM_76_99$nombre_votante), ]
+#ordenamiento_1D_WNOM_76_99 <- ordenamiento_1D_WNOM_76_99[, 1, drop = FALSE]
+
+ordenamiento_1D_WNOM_100_106 <- read.csv(
+  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv",
+  stringsAsFactors = FALSE,  
+  encoding = "UTF-8"         
+)
+ordenamiento_1D_WNOM_100_106 <- ordenamiento_1D_WNOM_100_106[order(ordenamiento_1D_WNOM_100_106$nombre_votante), ]
+#ordenamiento_1D_WNOM_100_106 <- ordenamiento_1D_WNOM_100_106[, 1, drop = FALSE]
+
+# Crear una lista con los dataframes y sus respectivos períodos
+lista_ordenamientos <- list(
+  ordenamiento_1D_WNOM_al_14ago2021 %>% mutate(Periodo = "01-15"),
+  ordenamiento_1D_WNOM_16_21 %>% mutate(Periodo = "16-21"),
+  ordenamiento_1D_WNOM_22_37 %>% mutate(Periodo = "22-37"),
+  ordenamiento_1D_WNOM_56_75 %>% mutate(Periodo = "56-75"),
+  ordenamiento_1D_WNOM_76_99 %>% mutate(Periodo = "76-99"),
+  ordenamiento_1D_WNOM_100_106 %>% mutate(Periodo = "100-106")
+)
+
+# Unir todos los dataframes en uno solo
+ordenamientos_completos <- bind_rows(lista_ordenamientos)
+
+# Cambiamos nombre de columna de nombres
+ordenamientos_completos <- ordenamientos_completos %>%
+  rename(Votante = nombre_votante)
+
+library(dplyr)
+library(stringr)
+library(stringi)
+
+# Normalizar nombres y períodos
+orden_votantes_t <- orden_votantes_t %>%
+  mutate(
+    Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
+    Periodo = str_squish(sub(" .*", "", comparacion))  # Extrae el primer período de la comparación
+  )
+
+ordenamientos_completos <- ordenamientos_completos %>%
+  mutate(
+    Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
+    Periodo = str_squish(Periodo)
+  )
+
+orden_votantes_t <- orden_votantes_t %>%
+  left_join(ordenamientos_completos, by = c("Votante", "Periodo"))
+
+# Guardamos
+write.csv(orden_votantes_t, "03_orden_votantes_t.csv", row.names = FALSE)
+saveRDS(orden_votantes_t, "03_orden_votantes_t.rds")
+
+orden_votantes_t <- readRDS("03_orden_votantes_t.rds")
+
+# --- Graficamos
 
 library(ggplot2)
 library(gridExtra)
@@ -158,7 +268,7 @@ n_rows <- ceiling(n_plots / n_cols)
 arreglo_plots <- do.call(grid.arrange, c(lista_plots, ncol = n_cols, nrow = n_rows))
 
 # Guardar el arreglo de plots
-ggsave("plots/matriz_comparaciones_sesiones.png", arreglo_plots, width = 20, height = 20, units = "in", dpi = 300)
+ggsave("scripts - plots/matriz_comparaciones_sesiones.png", arreglo_plots, width = 20, height = 20, units = "in", dpi = 300)
 
 # --------------------- Plot alternativo 
 library(ggplot2)
@@ -167,7 +277,7 @@ library(dplyr)
 library(purrr)
 
 # Define the order of session windows
-ventanas <- c("01-15", "22-37", "56-75", "76-99", "100-106")
+ventanas <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
 
 # Function to create an individual plot
 crear_plot <- function(data, x_ventana, y_ventana) {
@@ -222,4 +332,4 @@ grilla_final <- grilla_plots +
   )
 
 # Save the final plot
-ggsave("plots/matriz_comparaciones_sesiones_4.png", grilla_final, width = 20, height = 16, units = "in", dpi = 300)
+ggsave("scripts - plots/matriz_comparaciones_sesiones_5.png", grilla_final, width = 20, height = 16, units = "in", dpi = 300)
