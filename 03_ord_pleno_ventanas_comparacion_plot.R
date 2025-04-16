@@ -1,4 +1,4 @@
-library(ggplot_2)
+library(ggplot2)
 library(dplyr)
 library(readr)
 library(patchwork) # para combinar gráficos
