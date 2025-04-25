@@ -499,7 +499,7 @@ ordenamientos_completos <- cbind(
 )
 
 # Función para realizar t-test entre dos columnas
-   <- function(df, col1, col2) {
+realizar_t_test <- function(df, col1, col2) {
   t_result <- t.test(df[[col1]], df[[col2]], paired = TRUE)
   data.frame(
     comparacion = paste(col1, "vs", col2),
@@ -593,6 +593,29 @@ ordenamientos_completos <- ordenamientos_completos %>%
 
 orden_votantes_t <- orden_votantes_t %>%
   left_join(ordenamientos_completos, by = c("Votante", "Periodo"))
+
+# --- Modificaciones adicionales ---
+
+orden_votantes_t <- orden_votantes_t %>%
+  separate(comparacion, into = c("Periodo1", "Periodo2"), sep = " vs ", remove = FALSE) %>%
+  rename(dif_media_t = diferencia_media)
+
+orden_votantes_t <- orden_votantes_t %>%
+  left_join(
+    ordenamientos_completos %>% select(Votante, Periodo, posicion_ideologica) %>%
+      rename(Periodo1 = Periodo, pos_ideol_inicial = posicion_ideologica),
+    by = c("Votante", "Periodo1")
+  ) %>%
+  left_join(
+    ordenamientos_completos %>% select(Votante, Periodo, posicion_ideologica) %>%
+      rename(Periodo2 = Periodo, pos_ideol_final = posicion_ideologica),
+    by = c("Votante", "Periodo2")
+  ) %>%
+  mutate(dif_media = pos_ideol_final - pos_ideol_inicial) %>%
+  select(Votante, comparacion, Periodo1, Periodo2, 
+         pos_ideol_inicial, pos_ideol_final, dif_media, 
+         dif_media_t, p_valor, everything())
+
 
 # Guardamos
 write.csv(orden_votantes_t, "03_orden_votantes_t.csv", row.names = FALSE)
