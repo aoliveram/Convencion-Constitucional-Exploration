@@ -499,7 +499,7 @@ ordenamientos_completos <- cbind(
 )
 
 # Función para realizar t-test entre dos columnas
-realizar_t_test <- function(df, col1, col2) {
+   <- function(df, col1, col2) {
   t_result <- t.test(df[[col1]], df[[col2]], paired = TRUE)
   data.frame(
     comparacion = paste(col1, "vs", col2),
