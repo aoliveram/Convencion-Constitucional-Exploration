@@ -63,9 +63,9 @@ process_session <- function(file_path) {
 
 # ------------------------------- al 14ago2021
 
-session_files <- c('Pleno/sesion_7.xls', 'Pleno/sesion_8.xls', 'Pleno/sesion_10.xls', 
-                   'Pleno/sesion_12.xls', 'Pleno/sesion_13.xls', 'Pleno/sesion_14.xls', 
-                   'Pleno/sesion_15.xls')
+session_files <- c('data - pleno/sesion_7.xls', 'data - pleno/sesion_8.xls', 'data - pleno/sesion_10.xls', 
+                   'data - pleno/sesion_12.xls', 'data - pleno/sesion_13.xls', 'data - pleno/sesion_14.xls', 
+                   'data - pleno/sesion_15.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -76,10 +76,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_al_14ago2021_manual_2.csv", 
+          file = "data - pleno/votaciones_al_14ago2021_manual_2.csv", 
           row.names = FALSE)
 
-votaciones_al_14ago2021_manual_2 <-read.csv("Pleno/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
+votaciones_al_14ago2021_manual_2 <-read.csv("data - pleno/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
 votaciones_al_14ago2021_manual_2$X14072021_880[155] # Arturo Zúñiga NA
 library(dplyr)
 votaciones_Luis_Zuniga_1 <- votaciones_al_14ago2021_manual_2 %>% filter(NOMBRE == "Zúñiga Jory, Luis Arturo")
@@ -97,8 +97,8 @@ table(unlist(votaciones_Luis_Zuniga_2), useNA = "ifany")
 
 # ----------------------------- 16 - 21
 
-session_files <- c('Pleno/sesion_16.xls', 'Pleno/sesion_17.xls', 'Pleno/sesion_18.xls', 
-                   'Pleno/sesion_20.xls', 'Pleno/sesion_21.xls')
+session_files <- c('data - pleno/sesion_16.xls', 'data - pleno/sesion_17.xls', 'data - pleno/sesion_18.xls', 
+                   'data - pleno/sesion_20.xls', 'data - pleno/sesion_21.xls')
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
 
@@ -106,19 +106,19 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_16_21.csv", 
+          file = "data - pleno/votaciones_16_21.csv", 
           row.names = FALSE)
 
-votaciones_16_21 <-read.csv("Pleno/votaciones_16_21.csv") # 183 votaciones
+votaciones_16_21 <-read.csv("data - pleno/votaciones_16_21.csv") # 183 votaciones
 
 # ----------------------------- 22 - 37
 
 # Sesiones VACÍAS: 31 - 32 - 33 - 34 - 35
 
-session_files <- c('Pleno/sesion_22.xls', 'Pleno/sesion_23.xls', 'Pleno/sesion_24.xls', 
-                   'Pleno/sesion_25.xls', 'Pleno/sesion_26.xls', 'Pleno/sesion_27.xls',
-                   'Pleno/sesion_28.xls', 'Pleno/sesion_29.xls', 'Pleno/sesion_30.xls',
-                   'Pleno/sesion_36.xls', 'Pleno/sesion_37.xls')
+session_files <- c('data - pleno/sesion_22.xls', 'data - pleno/sesion_23.xls', 'data - pleno/sesion_24.xls', 
+                   'data - pleno/sesion_25.xls', 'data - pleno/sesion_26.xls', 'data - pleno/sesion_27.xls',
+                   'data - pleno/sesion_28.xls', 'data - pleno/sesion_29.xls', 'data - pleno/sesion_30.xls',
+                   'data - pleno/sesion_36.xls', 'data - pleno/sesion_37.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -129,17 +129,17 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_22_37.csv", 
+          file = "data - pleno/votaciones_22_37.csv", 
           row.names = FALSE)
 
-votaciones_22_37 <-read.csv("Pleno/votaciones_22_37.csv") # 599 votaciones
+votaciones_22_37 <-read.csv("data - pleno/votaciones_22_37.csv") # 599 votaciones
 
 # ----------------------------- 38 - 46
 # 49 días
 # Sesiones VACÍAS: 38 - 40 - 41
 
-session_files <- c('Pleno/sesion_39.xls', 'Pleno/sesion_42.xls', 'Pleno/sesion_43.xls', 
-                   'Pleno/sesion_44.xls', 'Pleno/sesion_45.xls', 'Pleno/sesion_46.xls')
+session_files <- c('data - pleno/sesion_39.xls', 'data - pleno/sesion_42.xls', 'data - pleno/sesion_43.xls', 
+                   'data - pleno/sesion_44.xls', 'data - pleno/sesion_45.xls', 'data - pleno/sesion_46.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -150,18 +150,18 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-150,]
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_38_46.csv", 
+          file = "data - pleno/votaciones_38_46.csv", 
           row.names = FALSE)
 
-votaciones_38_46 <-read.csv("Pleno/votaciones_38_46.csv") # 52 votaciones
+votaciones_38_46 <-read.csv("data - pleno/votaciones_38_46.csv") # 52 votaciones
 
 # ----------------------------- 47 - 55
 # 42 días
 # Sesiones VACÍAS: 47
 
-session_files <- c('Pleno/sesion_48.xls', 'Pleno/sesion_49.xls', 'Pleno/sesion_50.xls', 
-                   'Pleno/sesion_51.xls', 'Pleno/sesion_52.xls', 'Pleno/sesion_53.xls',
-                   'Pleno/sesion_54.xls', 'Pleno/sesion_55.xls')
+session_files <- c('data - pleno/sesion_48.xls', 'data - pleno/sesion_49.xls', 'data - pleno/sesion_50.xls', 
+                   'data - pleno/sesion_51.xls', 'data - pleno/sesion_52.xls', 'data - pleno/sesion_53.xls',
+                   'data - pleno/sesion_54.xls', 'data - pleno/sesion_55.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -169,23 +169,25 @@ all_votaciones_df <- do.call(rbind, all_sessions)
 final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
+final_votaciones_df <- final_votaciones_df[-c(nrow(final_votaciones_df), nrow(final_votaciones_df)-5), ] # eliminamos *failed to decode
+
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_47_55.csv", 
+          file = "data - pleno/votaciones_47_55.csv", 
           row.names = FALSE)
 
-votaciones_47_55 <-read.csv("Pleno/votaciones_47_55.csv") # 65 votaciones
+votaciones_47_55 <-read.csv("data - pleno/votaciones_47_55.csv") # 65 votaciones
 
 # ----------------------------- 56 - 75
 # 37 días
 # Sesiones VACÍAS: 
 
-session_files <- c('Pleno/sesion_56.xls', 'Pleno/sesion_57.xls', 'Pleno/sesion_58.xls', 
-                   'Pleno/sesion_59.xls', 'Pleno/sesion_60.xls', 'Pleno/sesion_61.xls',
-                   'Pleno/sesion_62.xls', 'Pleno/sesion_63.xls', 'Pleno/sesion_64.xls',
-                   'Pleno/sesion_65.xls', 'Pleno/sesion_66.xls', 'Pleno/sesion_67.xls',
-                   'Pleno/sesion_68.xls', 'Pleno/sesion_69.xls', 'Pleno/sesion_70.xls',
-                   'Pleno/sesion_71.xls', 'Pleno/sesion_72.xls', 'Pleno/sesion_73.xls',
-                   'Pleno/sesion_74.xls', 'Pleno/sesion_75.xls')
+session_files <- c('data - pleno/sesion_56.xls', 'data - pleno/sesion_57.xls', 'data - pleno/sesion_58.xls', 
+                   'data - pleno/sesion_59.xls', 'data - pleno/sesion_60.xls', 'data - pleno/sesion_61.xls',
+                   'data - pleno/sesion_62.xls', 'data - pleno/sesion_63.xls', 'data - pleno/sesion_64.xls',
+                   'data - pleno/sesion_65.xls', 'data - pleno/sesion_66.xls', 'data - pleno/sesion_67.xls',
+                   'data - pleno/sesion_68.xls', 'data - pleno/sesion_69.xls', 'data - pleno/sesion_70.xls',
+                   'data - pleno/sesion_71.xls', 'data - pleno/sesion_72.xls', 'data - pleno/sesion_73.xls',
+                   'data - pleno/sesion_74.xls', 'data - pleno/sesion_75.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -194,23 +196,23 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_56_75.csv", 
+          file = "data - pleno/votaciones_56_75.csv", 
           row.names = FALSE)
 
-votaciones_56_75 <-read.csv("Pleno/votaciones_56_75.csv") # 900 votaciones
+votaciones_56_75 <-read.csv("data - pleno/votaciones_56_75.csv") # 900 votaciones
 
 # ----------------------------- 76 - 99
 # 39 días
 # Sesiones VACÍAS: 
 
-session_files <- c('Pleno/sesion_76.xls', 'Pleno/sesion_77.xls', 'Pleno/sesion_78.xls', 
-                   'Pleno/sesion_79.xls', 'Pleno/sesion_80.xls', 'Pleno/sesion_81.xls',
-                   'Pleno/sesion_82.xls', 'Pleno/sesion_83.xls', 'Pleno/sesion_84.xls',
-                   'Pleno/sesion_85.xls', 'Pleno/sesion_86.xls', 'Pleno/sesion_87.xls',
-                   'Pleno/sesion_88.xls', 'Pleno/sesion_89.xls', 'Pleno/sesion_90.xls',
-                   'Pleno/sesion_91.xls', 'Pleno/sesion_92.xls', 'Pleno/sesion_93.xls',
-                   'Pleno/sesion_94.xls', 'Pleno/sesion_95.xls', 'Pleno/sesion_96.xls',
-                   'Pleno/sesion_97.xls', 'Pleno/sesion_98.xls', 'Pleno/sesion_99.xls')
+session_files <- c('data - pleno/sesion_76.xls', 'data - pleno/sesion_77.xls', 'data - pleno/sesion_78.xls', 
+                   'data - pleno/sesion_79.xls', 'data - pleno/sesion_80.xls', 'data - pleno/sesion_81.xls',
+                   'data - pleno/sesion_82.xls', 'data - pleno/sesion_83.xls', 'data - pleno/sesion_84.xls',
+                   'data - pleno/sesion_85.xls', 'data - pleno/sesion_86.xls', 'data - pleno/sesion_87.xls',
+                   'data - pleno/sesion_88.xls', 'data - pleno/sesion_89.xls', 'data - pleno/sesion_90.xls',
+                   'data - pleno/sesion_91.xls', 'data - pleno/sesion_92.xls', 'data - pleno/sesion_93.xls',
+                   'data - pleno/sesion_94.xls', 'data - pleno/sesion_95.xls', 'data - pleno/sesion_96.xls',
+                   'data - pleno/sesion_97.xls', 'data - pleno/sesion_98.xls', 'data - pleno/sesion_99.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -224,17 +226,17 @@ final_votaciones_df <- all_votaciones_df %>%
 #  dplyr::filter(n > 1L)
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_76_99.csv", 
+          file = "data - pleno/votaciones_76_99.csv", 
           row.names = FALSE)
 
-votaciones_76_99 <-read.csv("Pleno/votaciones_76_99.csv") # 2183 votaciones
+votaciones_76_99 <-read.csv("data - pleno/votaciones_76_99.csv") # 2183 votaciones
 
 # ----------------------------- 100 - 106
 # 39 días
 # Sesiones VACÍAS: 104 - 105
 
-session_files <- c('Pleno/sesion_100.xls', 'Pleno/sesion_101.xls', 'Pleno/sesion_102.xls', 
-                   'Pleno/sesion_103.xls', 'Pleno/sesion_106.xls')
+session_files <- c('data - pleno/sesion_100.xls', 'data - pleno/sesion_101.xls', 'data - pleno/sesion_102.xls', 
+                   'data - pleno/sesion_103.xls', 'data - pleno/sesion_106.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -245,16 +247,16 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-156,]
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_100_106.csv", 
+          file = "data - pleno/votaciones_100_106.csv", 
           row.names = FALSE)
 
-votaciones_100_106 <-read.csv("Pleno/votaciones_100_106.csv") # 515 votaciones
+votaciones_100_106 <-read.csv("data - pleno/votaciones_100_106.csv") # 515 votaciones
 
 # ----------------------------- 107 - 109
 # 10 días
 # Sesiones VACÍAS: 104 - 105
 
-session_files <- c('Pleno/sesion_107.xls', 'Pleno/sesion_108.xls', 'Pleno/sesion_109.xls')
+session_files <- c('data - pleno/sesion_107.xls', 'data - pleno/sesion_108.xls', 'data - pleno/sesion_109.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -263,7 +265,7 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "Pleno/votaciones_107_109.csv", 
+          file = "data - pleno/votaciones_107_109.csv", 
           row.names = FALSE)
 
-votaciones_107_109 <-read.csv("Pleno/votaciones_107_109.csv") # 72 votaciones
+votaciones_107_109 <-read.csv("data - pleno/votaciones_107_109.csv") # 72 votaciones

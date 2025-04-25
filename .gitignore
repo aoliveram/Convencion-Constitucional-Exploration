@@ -18,3 +18,7 @@ Thumbs.db
 # Datos grandes (>50MB)
 *.rds
 *.feather
+
+# Carpetas específicas para ignorar
+documentos - papers/
+scripts - playground/
