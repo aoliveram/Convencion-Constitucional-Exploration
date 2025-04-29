@@ -163,6 +163,103 @@ fwrite(orden_votantes_t_mcmc, output_file, row.names = FALSE)
 
 saveRDS(orden_votantes_t_mcmc, "03_orden_votantes_t_MCMC.rds")
 
-orden_votantes_t_MCMC <- readRDS("03_orden_votantes_t_MCMC.rds")
+orden_votantes_t_mcmc <- readRDS("03_orden_votantes_t_MCMC.rds")
 
 cat("--- Analysis Complete ---\n")
+
+# --- 8. Recoding 'Votante' ---
+
+transformar_nombre_votante_revisado <- function(nombre) {
+  
+  # 1. Definir el mapa de reemplazo de caracteres especiales
+  caracteres_especiales <- c(
+    "~n" = "n", "~N" = "N",
+    "'a" = "a", "'e" = "e", "'i" = "i", "'o" = "o", "'u" = "u",
+    "'A" = "A", "'E" = "E", "'I" = "I", "'O" = "O", "'U" = "U"
+  )
+  
+  # Limpiar caracteres especiales en toda la cadena (apellidos y nombres)
+  nombre_limpio_completo <- str_replace_all(nombre, caracteres_especiales)
+  
+  # 2. Separar por ", " en apellido(s) y nombre(s)
+  partes <- str_split(nombre_limpio_completo, ", ", n = 2)[[1]] # Obtener el vector directamente
+  
+  # Verificar si el split fue exitoso
+  if (length(partes) != 2) {
+    warning(paste("Formato inesperado para:", nombre))
+    # Decide how to handle errors - maybe return original name after cleaning special chars
+    return(nombre_limpio_completo)
+  }
+  
+  apellido_partes_limpio <- str_trim(partes[1]) # La parte de los apellidos limpiada
+  nombre_parte_limpio <- str_trim(partes[2])   # La parte de los nombres limpiada
+  
+  # 3. Extraer el primer apellido principal, manejando casos compuestos
+  primer_apellido_principal <- ""
+  palabras_apellido <- str_split(apellido_partes_limpio, " ")[[1]] # Separar la parte de apellidos por espacios
+  
+  # Caso 1: Apellido "De la Maza"
+  if (length(palabras_apellido) >= 3 &&
+      palabras_apellido[1] == "De" &&
+      palabras_apellido[2] == "la" &&
+      palabras_apellido[3] == "Maza") {
+    primer_apellido_principal <- paste(palabras_apellido[1:3], collapse = " ") # Mantiene "De la Maza"
+  }
+  # Caso 2: Apellido "San Juan" (basado en la discrepancia encontrada)
+  else if (length(palabras_apellido) >= 2 &&
+           palabras_apellido[1] == "San" &&
+           palabras_apellido[2] == "Juan") {
+    primer_apellido_principal <- paste(palabras_apellido[1:2], collapse = " ") # Mantiene "San Juan"
+  }
+  # Caso por defecto: Tomar solo la primera palabra como el apellido principal
+  # Esto funciona para la mayoría de los apellidos compuestos tipo "Apellido1 Apellido2"
+  else {
+    primer_apellido_principal <- palabras_apellido[1]
+  }
+  
+  # 4. Combinar el primer apellido principal con la parte de los nombres limpios
+  nombre_transformado <- paste0(primer_apellido_principal, ", ", nombre_parte_limpio)
+  
+  # 5. APLICAR CORRECCIONES ESPECÍFICAS OBSERVADAS EN TU LISTA TARGET (Opcional)
+  # Estas son correcciones que no siguen una regla general del formato original,
+  # sino que parecen ser normalizaciones o ediciones manuales en tu lista objetivo.
+  # Inclúyelas SOLO si necesitas que el resultado coincida EXACTAMENTE con tu lista target.
+  
+  # Corrección "Dayyana" -> "Dayana"
+  if (nombre_transformado == "Gonzalez, Dayyana") {
+    nombre_transformado <- "Gonzalez, Dayana"
+  }
+  
+  # Corrección "Loreto" -> "Rossana" para Vidal
+  # Esta corrección cambia el nombre de pila, lo cual es inusual para una
+  # transformación de formato. Asumo que es un caso específico que necesitas igualar.
+  if (nombre_transformado == "Vidal, Loreto") { # Verifica el nombre transformado
+    nombre_transformado <- "Vidal, Rossana"
+  }
+  # Nota: Si hay otros casos similares (cambios de nombre de pila no derivados),
+  # necesitarías añadir reglas específicas para ellos aquí.
+  
+  return(nombre_transformado)
+}
+
+# Aplicamos la función revisada
+orden_votantes_t_mcmc <- orden_votantes_t_mcmc %>%
+  mutate(Votante = sapply(Votante, transformar_nombre_votante_revisado, USE.NAMES = FALSE))
+
+# --- Verificar el resultado ---
+
+votantes_transformados_revisado_unique <- unique(orden_votantes_t_mcmc$Votante)
+votantes_target_unique <- unique(orden_votantes_t$Votante) # Original
+
+print("¿Están todos los nombres transformados en la lista target?")
+print(all(votantes_transformados_revisado_unique %in% votantes_target_unique))
+
+print("¿Están todos los nombres de la lista target en los transformados?")
+print(all(votantes_target_unique %in% votantes_transformados_revisado_unique))
+
+# --- Guardamos ---
+
+fwrite(orden_votantes_t_mcmc, output_file, row.names = FALSE)
+saveRDS(orden_votantes_t_mcmc, "03_orden_votantes_t_MCMC.rds")
+
+orden_votantes_t_mcmc <- readRDS("03_orden_votantes_t_MCMC.rds")
