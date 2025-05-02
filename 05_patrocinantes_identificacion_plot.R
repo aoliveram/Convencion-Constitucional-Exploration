@@ -25,19 +25,33 @@ Y_AXIS_ERROR_TRIANGLE_PLOT2 = 19 # Posición Y para triángulo de error
 Y_AXIS_MAX_PLOT2 = 20            # Límite superior eje Y para Plot 2
 
 # --- Definir los bloques de archivos a procesar ---
+# file_stems <- c(
+#   #"1000_1035"
+#   "900_999",
+#   "800_899",
+#   "700_799",
+#   "600_699",
+#   "500_599",
+#   "400_499",
+#   "300_399",
+#   "200_299",
+#   "100_199",
+#   "1_99"
+# )
 file_stems <- c(
-  #"1000_1035"
-  "900_999",
-  "800_899",
-  "700_799",
-  "600_699",
-  "500_599",
-  "400_499",
-  "300_399",
-  "200_299",
-  "100_199",
-  "1_99"
+  #"1000_1035_corrected"
+  "900_999_corrected",
+  "800_899_corrected",
+  "700_799_corrected",
+  "600_699_corrected",
+  "500_599_corrected",
+  "400_499_corrected",
+  "300_399_corrected",
+  "200_299_corrected",
+  "100_199_corrected",
+  "1_99_corrected"
 )
+
 
 # --- Inicio del Ciclo For ---
 cat("\n--- INICIO DEL PROCESAMIENTO POR BLOQUES ---\n")
@@ -143,7 +157,7 @@ for (stem in file_stems) {
   cat(paste0("- Con autor: ", total_autor_any, "/", total_files_valid_number, " -> ", round(total_autor_any/total_files_valid_number,2), "\n"))
   cat(paste0("- Con autor_matched: ", total_autor_matched, "/", total_files_valid_number, " -> ", round(total_autor_matched/total_files_valid_number, 2), "\n"))
   cat(paste0("- Total patrocinadores identificados (n_firmantes): ", total_firmantes_any, "\n"))
-  cat(paste0("- Total patrocinadores matched (n_firmantes_matched): ", total_firmantes_matched, "\n")) # Si usas la columna directa
+  #cat(paste0("- Total patrocinadores matched (n_firmantes_matched): ", total_firmantes_matched, "\n")) # Si usas la columna directa
   cat(paste0("- Total patrocinadores matched (calculado): ", total_firmantes_matched_calc, "\n")) # Si lo calculas
   cat(paste0("- Total patrocinadores no matched (n_firmantes_not_matched): ", sum(results_df$n_firmantes_not_matched, na.rm = TRUE), "\n"))
   
