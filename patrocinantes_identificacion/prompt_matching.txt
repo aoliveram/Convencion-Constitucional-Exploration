@@ -1,0 +1,91 @@
+Tu tarea es identificar qué nombres de una lista proporcionada (`firmantes`) corresponden a nombres presentes en una lista oficial (`Lista Oficial de Nombres`). Debes devolver el resultado únicamente como un objeto JSON válido.
+
+**Lista Oficial de Nombres (Formato "Apellido, Nombre"):**
+[
+    "Abarca, Damaris", "Abarca, Jorge", "Achurra, Ignacio", "Aguilera, Tiare",
+    "Alvarado, Gloria", "Alvarez, Julio", "Alvarez, Rodrigo", "Alvez, Amaya",
+    "Ampuero, Adriana", "Andrade, Cristobal", "Antilef, Victorino", "Arancibia, Jorge",
+    "Arauna, Francisca", "Arellano, Marco", "Arrau, Martin", "Atria, Fernando",
+    "Bacian, Wilfredo", "Baradit, Jorge", "Baranda, Benito", "Barcelo, Luis",
+    "Barraza, Marcos", "Bassa, Jaime", "Botto, Miguel Angel", "Bown, Carol",
+    "Bravo, Daniel", "Caamano, Francisco", "Caiguan, Alexis", "Calvo, Carlos",
+    "Cancino, Adriana", "Cantuarias, Rocio", "Carrillo, Alondra", "Castillo, Eduardo",
+    "Castillo, Maria Trinidad", "Castro, Claudia", "Catrileo, Rosa", "Celedon, Roberto",
+    "Celis, Raul", "Chahin, Fuad", "Chinga, Eric", "Cozzi, Ruggero",
+    "Cretton, Eduardo", "Cruz, Andres", "Cubillos, Marcela", "Cespedes, Lorena",
+    "Daza, Mauricio", "De la Maza, Bernardo", "Delgado, Aurora", "Dominguez, Gaspar",
+    "Dorador, Cristina", "Fernandez, Patricio", "Flores, Alejandra", "Fontaine, Bernardo",
+    "Fuchslocher, Javier", "Gallardo, Bessy", "Galleguillos, Felix", "Garin, Renato",
+    "Giustinianovich, Elisa", "Godoy, Isabel", "Gonzalez, Dayana", "Gonzalez, Lidia",
+    "Grandon, Giovanna", "Grandon, Paola", "Gutierrez, Hugo", "Gomez, Claudio",
+    "Gomez, Yarela", "Harboe, Felipe", "Henriquez, Natalia", "Hoppe, Vanessa",
+    "Hube, Constanza", "Hurtado, Maximiliano", "Hurtado, Ruth", "Jimenez, Luis",
+    "Jofre, Alvaro", "Jurgensen, Harry", "Labbe, Bastian", "Labra, Patricia",
+    "Labrana, Elsa", "Laibe, Tomas", "Larrain, Hernan", "Letelier, Margarita",
+    "Linconao, Francisca", "Llanquileo, Natividad", "Logan, Rodrigo", "Loncon, Elisa",
+    "Madriaga, Tania", "Mamani, Isabella", "Marinovic, Teresa", "Martin, Juan Jose",
+    "Martinez, Helmuth", "Mayol, Luis", "Mella, Jeniffer", "Mena, Felipe",
+    "Meneses, Janis", "Milla bur, Adolfo", "Miranda, Valentina", "Monckeberg, Cristian",
+    "Montealegre, Katerine", "Montero, Ricardo", "Moreno, Alfredo", "Munoz, Pedro",
+    "Namor, Guillermo", "Navarrete, Geoconda", "Neumann, Ricardo", "Nunez, Nicolas",
+    "Olivares, Ivanna", "Orellana, Matias", "Ossandon, Manuel", "Oyarzun, Maria Jose",
+    "Pinto, Malucha", "Politzer, Patricia", "Portilla, Ericka", "Pustilnick, Tammy",
+    "Perez, Alejandra", "Quinteros, Maria Elisa", "Rebolledo, Barbara", "Reyes, Maria Ramona",
+    "Rivera, Maria Magdalena", "Rivera, Pollyana", "Roa, Giovanna", "Royo, Manuela",
+    "Saldana, Alvin", "Salinas, Fernando", "San Juan, Constanza", "Schonhaut, Constanza",
+    "Sepulveda, Barbara", "Sepulveda, Carolina", "Serey, Mariela", "Silva, Luciano",
+    "Squella, Agustin", "Stingo, Daniel", "Sanchez, Beatriz", "Tepper, Maria Angelica",
+    "Tirado, Fernando", "Toloza, Pablo", "Ubilla, Maria Cecilia", "Uribe, Cesar",
+    "Urrutia, Tatiana", "Valenzuela, Cesar", "Valenzuela, Paulina", "Vallejos, Loreto",
+    "Vargas, Margarita", "Vargas, Mario", "Vega, Roberto", "Veloso, Paulina",
+    "Velasquez, Hernan", "Vergara, Lisette", "Vidal, Rossana", "Videla, Carolina",
+    "Viera, Christian", "Vilches, Carolina", "Villena, Ingrid", "Woldarsky, Manuel",
+    "Zarate, Camila", "Zuniga, Luis Arturo"
+]
+
+**Instrucciones:**
+1.  Recibirás una lista de nombres bajo la clave `firmantes`.
+2.  Compara cada nombre en `firmantes` con la `Lista Oficial de Nombres`. Intenta hacer coincidir incluso si hay pequeñas variaciones (segundos nombres, iniciales, acentos, orden Apellido/Nombre).
+3.  Devuelve **únicamente** un objeto JSON con **exactamente** dos claves:
+    *   `firmantes_matched`: Una lista de strings. Cada string debe ser el nombre **exacto** tal como aparece en la `Lista Oficial de Nombres` para cada coincidencia encontrada.
+    *   `firmantes_not_matched`: Una lista de strings. Cada string debe ser el nombre **original** de la lista `firmantes` de entrada que **no** pudo ser encontrado en la `Lista Oficial de Nombres`.
+4.  Asegúrate de que la salida sea un JSON válido y nada más (sin explicaciones adicionales, saludos, etc.).
+
+**Ejemplo de Entrada json (lo que sigue a este prompt):**
+
+{
+  "firmantes": [
+    "Paulina Valenzuela Río",
+    "Francisco Caamaño Rojas",
+    "Lorena Céspedes Fernández",
+    "Jorge Baradit Morales",
+    "Gaspar Domínguez Donoso",
+    "Loreto Vallejos Dávila",
+    "Carolina Sepúlveda Sepúlveda",
+    "Ignacio Achurra Diaz",
+    "Mauricio Daza Carrasco",
+    "Carlos Calvo Muñoz",
+    "Jorge Abarca Riveros",
+    "Benito Baranda Ferrán"
+  ]
+}
+
+**Ejemplo de Salida Esperada (solo el JSON):**
+
+{
+  "firmantes_matched": [
+    "Valenzuela, Paulina",
+    "Caamano, Francisco",
+    "Cespedes, Lorena",
+    "Baradit, Jorge",
+    "Dominguez, Gaspar",
+    "Vallejos, Loreto",
+    "Sepulveda, Carolina",
+    "Achurra, Ignacio",
+    "Daza, Mauricio",
+    "Calvo, Carlos",
+    "Abarca, Jorge",
+    "Baranda, Benito"
+  ],
+  "firmantes_not_matched": []
+}
