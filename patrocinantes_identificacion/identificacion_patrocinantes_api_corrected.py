@@ -1,19 +1,15 @@
-# -*- coding: utf-8 -*-
 import google.generativeai as genai
 import os
 import json
 import re
 import time
-# from collections import deque # Ya no es necesario
 import sys
 import logging
-import copy # Añadir si no estaba, aunque no se usa en la versión final de process_file
+import copy
 
-# --- 1. Configuración ---
-# Configuración de logging
+# --- 1. Configuración API  y llamada Prompt---
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Lista Oficial de Nombres (Formato "Apellido, Nombre") - Incrustada para simplicidad
 LISTA_OFICIAL_NOMBRES = [
     "Abarca, Damaris", "Abarca, Jorge", "Achurra, Ignacio", "Aguilera, Tiare",
     "Alvarado, Gloria", "Alvarez, Julio", "Alvarez, Rodrigo", "Alvez, Amaya",
@@ -64,26 +60,30 @@ PROMPT_FILE = os.path.join(BASE_FOLDER, "prompt_matching.txt")
 
 os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
-# --- Constantes ---
-API_CALL_DELAY = 10 # Segundos de pausa después de cada intento de llamada a la API
+# Parámetros ---
+API_CALL_DELAY = 10 # Pausa (segs) cuando la API tira un error
 MAX_RETRIES = 5 # Número máximo de reintentos por error
-INITIAL_RETRY_DELAY = 5 # Segundos para el primer reintento
+INITIAL_RETRY_DELAY = 5 # Pausa (segs) para el primer reintento
 
-# --- Carga de API Key ---
+# Carga de API Key ---
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 if not GOOGLE_API_KEY:
     raise ValueError("Variable de entorno GOOGLE_API_KEY no configurada.")
 
-# --- Configuración de Gemini ---
+# Configuración de Gemini ---
 try:
     genai.configure(api_key=GOOGLE_API_KEY)
     logging.info("API de Google Generative AI configurada correctamente.")
 except Exception as config_err:
     raise RuntimeError(f"Error configurando la API: {config_err}")
 
-# --- 2. Modelo y Prompt --- 
+# Modelo --- 
+
 MODEL_NAME = 'gemini-2.0-flash'
 logging.info(f"Usando el modelo: {MODEL_NAME}")
+
+# Prompt --
+
 try:
     with open(PROMPT_FILE, 'r', encoding='utf-8') as f_prompt:
         prompt_base = f_prompt.read()
@@ -96,8 +96,9 @@ except Exception as e:
     raise RuntimeError(f"Error al leer el archivo del prompt '{PROMPT_FILE}': {e}")
 
 
-# --- 3. Funciones Auxiliares ---
+# --- 2. Funciones Auxiliares ---
 
+# Llamda Gemini
 def call_gemini_with_retry(prompt_text):
     """Llama a la API de Gemini con reintentos y un delay fijo después de cada intento."""
     retries = 0
@@ -105,7 +106,6 @@ def call_gemini_with_retry(prompt_text):
     while retries < MAX_RETRIES:
         try:
             model = genai.GenerativeModel(MODEL_NAME)
-            # logging.debug(f"Enviando prompt a la API (intento {retries + 1}):\n{prompt_text[:500]}...") # Log opcional para debug
             response = model.generate_content(prompt_text)
 
             # Pausa después del intento de llamada
@@ -130,29 +130,28 @@ def call_gemini_with_retry(prompt_text):
         except genai.types.generation_types.StopCandidateException as e:
              logging.error(f"Generación detenida por la API: {e}. Respuesta parcial: {e.candidate}")
              last_exception = e
-             # Pausa también si la generación fue detenida
+             # Pausa si la generación fue detenida
              logging.debug(f"Esperando {API_CALL_DELAY} segundos después de generación detenida...")
              time.sleep(API_CALL_DELAY)
         except Exception as e:
             logging.error(f"Error llamando a la API de Gemini: {e}")
             last_exception = e
-            # Pausa también después de un error general
+            # Pausa después de un error general
             logging.debug(f"Esperando {API_CALL_DELAY} segundos después de error en llamada API...")
             time.sleep(API_CALL_DELAY)
 
 
-        # Si llegamos aquí, hubo un error o respuesta inválida
+        # Si se llega aquí, hubo un error o respuesta inválida
         retries += 1
         if retries < MAX_RETRIES:
-             wait_time = INITIAL_RETRY_DELAY * (2 ** (retries - 1)) # Backoff exponencial simple
+             wait_time = INITIAL_RETRY_DELAY * (2 ** (retries - 1)) # retraso exponencial
              logging.warning(f"Reintento {retries}/{MAX_RETRIES} después de {wait_time} segundos...")
              time.sleep(wait_time)
-        # No añadir el delay de API_CALL_DELAY aquí de nuevo, ya se hizo después del intento fallido
 
     logging.error(f"Falló la llamada a la API después de {MAX_RETRIES} reintentos. Último error: {last_exception}")
-    return None # Indica fallo después de reintentos
+    return None # fallo después de reintentos
 
-# --- Función parse_gemini_response (sin cambios) ---
+# Función parse_gemini_response, para armar el json ---
 def parse_gemini_response(response_text):
     """Intenta parsear la respuesta JSON de Gemini, extrayendo el JSON."""
     if not response_text:
@@ -185,7 +184,7 @@ def parse_gemini_response(response_text):
         logging.error(f"Error inesperado parseando la respuesta: {e}\nRespuesta recibida:\n{response_text}")
         return None
     
-# --- 4. Procesamiento Principal ---
+# Función principal para procesar PDF's ---
 
 def process_file(input_filepath):
     """Procesa un archivo JSON de entrada para corregir firmantes."""
@@ -210,36 +209,28 @@ def process_file(input_filepath):
 
     corrected_count = 0
     entries_to_process = len(data)
-    # processed_entries = 0 # Ya no se usa para logging detallado
 
     for key, entry in data.items():
-        # processed_entries += 1
-        # logging.info(f"Procesando entrada {processed_entries}/{entries_to_process}: {key}") # Eliminado
-
         if not isinstance(entry, dict):
             logging.warning(f"Entrada {key} no es un diccionario, omitiendo.")
             continue
         if 'firmantes' not in entry or not isinstance(entry['firmantes'], list):
-             # logging.warning(f"Entrada {key} no tiene 'firmantes' o no es una lista, omitiendo.") # Opcional: mantener warning
-             continue
+            logging.warning(f"Entrada {key} no tiene 'firmantes' o no es una lista, omitiendo.")
+            continue
         if not entry['firmantes']:
-            # logging.info(f"Entrada {key} no tiene firmantes, omitiendo corrección.") # Eliminado
             continue
 
         needs_correction = False
         if 'firmantes_not_matched' in entry and isinstance(entry['firmantes_not_matched'], list) and entry['firmantes_not_matched']:
             needs_correction = True
-            # logging.info(f"Entrada {key} marcada para corrección (firmantes no encontrados previamente).") # Eliminado
         elif 'firmantes_matched' not in entry or not entry.get('firmantes_matched'):
              needs_correction = True
-             # logging.info(f"Entrada {key} marcada para corrección (sin 'firmantes_matched' previos).") # Eliminado
 
         if needs_correction:
-            # logging.info(f"Intentando corrección para: {key}") # Movido justo antes de la llamada
             firmantes_list = entry['firmantes']
             prompt_specific = prompt_base + "\n\n" + json.dumps({"firmantes": firmantes_list}, ensure_ascii=False, indent=2)
 
-            logging.info(f"Intentando corrección para: {key}") # Log mantenido
+            logging.info(f"Intentando corrección para: {key}") 
             response_text = call_gemini_with_retry(prompt_specific)
 
             if response_text:
@@ -249,7 +240,7 @@ def process_file(input_filepath):
                     if len(validated_matched) != len(corrected_data.get('firmantes_matched', [])):
                         logging.warning(f"API devolvió nombres matcheados no oficiales para {key}. Se filtraron.")
 
-                    original_firmantes_set = set(firmantes_list) # Asegurarse de que se compare con la lista original de ESTA entrada
+                    original_firmantes_set = set(firmantes_list) # Para asegurarse de que se compare con la lista original de ESTA entrada
                     validated_not_matched = [name for name in corrected_data.get('firmantes_not_matched', []) if name in original_firmantes_set]
                     if len(validated_not_matched) != len(corrected_data.get('firmantes_not_matched', [])):
                          logging.warning(f"API devolvió nombres no matcheados que no estaban en la lista original para {key}. Se filtraron.")
@@ -268,8 +259,7 @@ def process_file(input_filepath):
                 logging.error(f"No se obtuvo respuesta válida de la API para {key} después de reintentos.")
                 entry['error_limpieza'] = "Error llamando API"
         else:
-            # logging.info(f"Entrada {key} no requiere corrección o ya está completa.") # Eliminado
-            # Asegurarse de que los contadores existan y sean correctos si no se corrigió
+            # Para asegurarse de que los contadores existan y sean correctos si no se corrigió
             if 'firmantes_matched' in entry and isinstance(entry['firmantes_matched'], list):
                  entry['n_firmantes_matched'] = len(entry['firmantes_matched'])
             else:
@@ -293,7 +283,7 @@ def process_file(input_filepath):
     logging.info(f"--- Fin del procesamiento para: {filename} ---")
 
 
-# --- 5. Ejecución ---
+# --- 4. EJECUCIÓN -----------
 
 if __name__ == "__main__":
     files_processed_count = 0 # Contador para saber cuándo pausar entre archivos
@@ -315,7 +305,6 @@ if __name__ == "__main__":
                  inner_files_processed_in_dir = 0
                  files_in_dir = [f for f in os.listdir(input_path) if f.endswith(".json") and "corrected" not in f]
                  for filename in files_in_dir:
-                      # Aquí NO añadimos la pausa de 60s, ya ocurrió antes del directorio.
                       # La pausa de 10s ocurrirá DESPUÉS de cada llamada a la API dentro de process_file.
                       filepath = os.path.join(input_path, filename)
                       process_file(filepath) # Llama a process_file para cada archivo en el dir
