@@ -4,14 +4,14 @@ library(dplyr)
 library(purrr)
 
 # 1. Import
-raw_data <- fromJSON("patrocinantes_identificacion/api_extracted_600_699_corrected_2.json")
+json_data <- fromJSON("patrocinantes_identificacion/api_extracted_600_699_corrected_2.json")
 
 # VAlidation
 validation_passed <- TRUE
 invalid_docs <- c()
 
-for (doc_name in names(raw_data)) {
-  entry <- raw_data[[doc_name]]
+for (doc_name in names(json_data)) {
+  entry <- json_data[[doc_name]]
   
   is_not_matched_empty <- length(entry$firmantes_not_matched) == 0 # "firmantes_not_matched" = []
   is_n_not_matched_zero <- entry$n_firmantes_not_matched == 0 # "n_firmantes_not_matched" = 0
@@ -28,7 +28,7 @@ for (doc_name in names(raw_data)) {
 
 # 2. Data Extraction
 
-edge_list_df <- imap_dfr(raw_data, ~{
+edge_list_df <- imap_dfr(json_data, ~{
   doc_id_match <- regexpr("^[0-9]+", .y)
   if (doc_id_match == -1) {
     warning(paste("Could not extract numeric ID from document key:", .y))
