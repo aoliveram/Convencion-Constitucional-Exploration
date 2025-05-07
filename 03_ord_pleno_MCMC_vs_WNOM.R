@@ -36,10 +36,8 @@ reescalar <- function(vector_original) {
 # Asumimos que los archivos CSV de ejemplo están en el directorio de trabajo
 # o ajusta base_path según sea necesario.
 base_path <- "data - pleno/ordenamientos_pleno" # Directorio actual
-periods <- c("01-15") # Añade más períodos si tienes más archivos
-# Para el ejemplo completo, usarías:
-# periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
-output_file_comparison <- "03_comparacion_t_MCMC_vs_WNOMINATE.csv" #"03_orden_votantes_t_MCMC.csv"
+periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
+output_file_comparison <- "03_comparacion_t_MCMC_vs_WNOMINATE.csv"
 output_rds_comparison <- "03_comparacion_t_MCMC_vs_WNOMINATE.rds"
 
 # --- 3. Cargar y Procesar Datos de Muestras (IDEAL y WNOMINATE) ---
