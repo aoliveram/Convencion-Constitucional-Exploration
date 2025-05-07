@@ -32,7 +32,7 @@ reescalar <- function(vector_original) {
 # --- Configuration ---
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106") # Adjust as needed
 base_path <- "data - pleno/ordenamientos_pleno"
-output_file <- "03_orden_votantes_t_MCMC.csv" # Use a new name
+output_file <- "03_orden_votantes_t_MCMC.csv"
 
 # --- 1. Load, Combine, and Rescale MCMC Sample Data ---
 cat("Loading and rescaling MCMC sample data...\n")
