@@ -16,8 +16,8 @@ setDT(datos_comparacion)
 # Crear las columnas necesarias para el gráfico
 datos_comparacion_procesados <- datos_comparacion[, .(
   legislador, Periodo,
-  posicion_wnominate = pos_ideol_wn, # Punto de inicio y posición del punto
-  posicion_mcmc = pos_ideol_mcmc,     # Punto final de la flecha
+  posicion_wnominate = pos_ideol_wn, 
+  posicion_mcmc = pos_ideol_mcmc,    
   dif_wn_mcmc = dif_pos_wn_mcmc,  # Diferencia numérica (WN - MCMC)
   p_valor = p_value
 )][, ':='( # Usar := para añadir columnas eficientemente en data.table
