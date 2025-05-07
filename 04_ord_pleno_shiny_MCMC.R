@@ -1,16 +1,3 @@
-ordenamiento_01_15_ideal_samples <- read.csv("data - pleno/ordenamientos_pleno/ordenamiento_ideal_samples_01-15_ideal.csv")
-ordenamiento_01_15_ideal_means <- read.csv("data - pleno/ordenamientos_pleno/ordenamiento_ideal_means_01-15_ideal.csv")
-
-# Reescalamos dentro de [-1,1]
-reescalar <- function(vector_original) {
-  min_original <- min(vector_original)
-  max_original <- max(vector_original)
-  a <- -1
-  b <- 1
-  vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
-  return(vector_reescalado)
-}
-
 # --- 0. Load Libraries ---
 library(shiny)
 library(ggplot2)
