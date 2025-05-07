@@ -24,8 +24,6 @@ reescalar <- function(vector_original) {
   a <- -1
   b <- 1
   if (min_original == max_original) {
-    # Si todos los valores son iguales (y no NA), asignar 0 o el valor original si está en [-1,1]
-    # o simplemente 0 para evitar NaN/Inf si el rango es cero.
     return(rep(0, length(vector_original))) 
   }
   vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
@@ -115,7 +113,6 @@ t_test_results <- combined_all_samples_dt[, {
   samples_wnom <- coord1D_rescaled[method == "WNOMINATE"]
   
   # Verificar que hay suficientes datos para el test
-  # Y que no todos los valores son idénticos (varianza > 0)
   valid_mcmc <- length(samples_mcmc) >= 2 && var(samples_mcmc, na.rm = TRUE) > 0
   valid_wnom <- length(samples_wnom) >= 2 && var(samples_wnom, na.rm = TRUE) > 0
   
@@ -151,13 +148,8 @@ t_test_results <- combined_all_samples_dt[, {
 }, by = .(legislador, Periodo)]
 
 
-# --- 6. (Opcional) Cargar y Añadir Estimaciones Puntuales (Medias de los métodos) ---
-# Esto es si tienes archivos separados con las estimaciones puntuales (no las muestras).
-# Si no los tienes, las `mean_coord1D_mcmc` y `mean_coord1D_wnom` ya calculadas son las medias de las muestras.
+# --- 6. Cargar y Añadir Estimaciones Puntuales ---
 
-# Ejemplo de cómo cargarías las medias puntuales si existieran:
-# (Asegúrate de que los nombres de archivo y columnas coincidan con tus datos reales)
-# 
 load_point_estimates <- function(method_name, file_prefix_mean, periods_list, base_dir) {
   cat(paste("Cargando estimaciones puntuales para:", method_name, "...\n"))
   all_point_estimates <- rbindlist(
@@ -166,15 +158,7 @@ load_point_estimates <- function(method_name, file_prefix_mean, periods_list, ba
       if (file.exists(filename)) {
         dt <- fread(filename, encoding = "UTF-8")
         dt[, Periodo := period]
-        # Renombrar columnas si es necesario para estandarizar
-        # Ejemplo: if ("nombre_votante" %in% names(dt)) setnames(dt, "nombre_votante", "legislador")
-        # Ejemplo: if ("posicion_ideologica" %in% names(dt)) setnames(dt, "posicion_ideologica", "coord1D_puntual")
-        # Para los archivos de ejemplo, los nombres de columna ya son 'legislador' y 'coord1D'
-        # pero los archivos de medias que usaste en tu script original eran 'nombre_votante' y 'posicion_ideologica'
-        # Aquí asumiré que los archivos de medias tienen 'legislador' y 'coord1D_mean'
-        # Si usas los archivos de "samples" como fuente de medias, esto no es necesario.
 
-        # ESTO ES UN EJEMPLO, AJUSTA A TUS NOMBRES DE COLUMNA REALES EN ARCHIVOS DE MEDIAS
         if ("nombre_votante" %in% names(dt)) setnames(dt, "nombre_votante", "legislador")
         if ("posicion_ideologica" %in% names(dt)) setnames(dt, "posicion_ideologica", "coord1D_puntual")
         else if ("coord1D" %in% names(dt) && !"coord1D_puntual" %in% names(dt)) setnames(dt, "coord1D", "coord1D_puntual")
@@ -400,9 +384,6 @@ t_test_results <- merge(t_test_results, point_wnom_dt, by = c("legislador", "Per
 if ("pos_ideol_mcmc" %in% names(t_test_results) && "pos_ideol_wn" %in% names(t_test_results)) {
   t_test_results[, dif_pos_wn_mcmc := pos_ideol_wn - pos_ideol_mcmc]
 }
-
-# Las medias de las muestras ya están calculadas como mean_coord1D_mcmc y mean_coord1D_wnom
-# Si estas son suficientes, no necesitas la sección de carga de estimaciones puntuales.
 
 # --- 7. Ordenar y Guardar Resultados ---
 cat("\nGuardando resultados de la comparación...\n")
