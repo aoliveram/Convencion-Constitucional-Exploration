@@ -1,3 +1,7 @@
+# # Este script genera 
+# "03_comparacion_t_MCMC_vs_WNOMINATE.csv"
+# "03_comparacion_t_MCMC_vs_WNOMINATE.rds"
+
 # --- 0. Cargar Librerías Necesarias ---
 library(data.table)
 library(dplyr)
