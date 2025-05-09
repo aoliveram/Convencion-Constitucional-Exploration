@@ -3,7 +3,7 @@ library(wnominate)
 library(dplyr)
 
 # Cargamos votantes
-votantes <- readRDS("01_votantes.rds")
+votantes <- readRDS("scripts - files/01_votantes.rds")
 votantes <- votantes[-120] # quitamos rodrigo rojas
 
 # Reescalamos dentro de [-1,1]
@@ -32,7 +32,7 @@ votaciones_al_14ago2021_rc <- rollcall(
   desc = "Votaciones Conv. Const. 01-15"
 )
 
-votaciones_16_21 <- read_csv("data - pleno/votaciones_16_21.csv")
+votaciones_16_21 <- read_csv("scripts - files/votaciones_16_21.csv")
 votaciones_16_21 <- votaciones_16_21[votaciones_16_21[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_16_21 <- votaciones_16_21[,-1]
 votaciones_16_21_rc <- rollcall(
@@ -45,7 +45,7 @@ votaciones_16_21_rc <- rollcall(
   desc = "Votaciones Conv. Const. 16-21"
 )
 
-votaciones_22_37 <-read.csv("data - pleno/votaciones_22_37.csv") # 598 votaciones
+votaciones_22_37 <-read.csv("scripts - files/votaciones_22_37.csv") # 598 votaciones
 votaciones_22_37 <- votaciones_22_37[votaciones_22_37[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_22_37 <- votaciones_22_37[,-1]
 votaciones_22_37_rc <- rollcall(
@@ -58,7 +58,7 @@ votaciones_22_37_rc <- rollcall(
   desc = "Votaciones Conv. Const. 22-37"
 )
 
-votaciones_38_46 <- read_csv("data - pleno/votaciones_38_46.csv") # WILL FAIL
+votaciones_38_46 <- read_csv("scripts - files/votaciones_38_46.csv") # WILL FAIL
 votaciones_38_46 <- votaciones_38_46[votaciones_38_46[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_38_46 <- votaciones_38_46[,-1]
 votaciones_38_46_rc <- rollcall(
@@ -71,7 +71,7 @@ votaciones_38_46_rc <- rollcall(
   desc = "Votaciones Conv. Const. 38-46"
 )
 
-votaciones_47_55 <- read_csv("data - pleno/votaciones_47_55.csv") # WILL FAIL
+votaciones_47_55 <- read_csv("scripts - files/votaciones_47_55.csv") # WILL FAIL
 votaciones_47_55 <- votaciones_47_55[votaciones_47_55[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_47_55 <- votaciones_47_55[-c(151,156),]
 votaciones_47_55 <- votaciones_47_55[,-1]
@@ -85,7 +85,7 @@ votaciones_47_55_rc <- rollcall(
   desc = "Votaciones Conv. Const. 47-55"
 )
 
-votaciones_56_75 <- read_csv("data - pleno/votaciones_56_75.csv")
+votaciones_56_75 <- read_csv("scripts - files/votaciones_56_75.csv")
 votaciones_56_75 <- votaciones_56_75[votaciones_56_75[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_56_75 <- votaciones_56_75[,-1]
 votaciones_56_75_rc <- rollcall(
@@ -98,7 +98,7 @@ votaciones_56_75_rc <- rollcall(
   desc = "Votaciones Conv. Const. 56-75"
 )
 
-votaciones_76_99 <- read_csv("data - pleno/votaciones_76_99.csv")
+votaciones_76_99 <- read_csv("scripts - files/votaciones_76_99.csv")
 votaciones_76_99 <- votaciones_76_99[votaciones_76_99[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_76_99 <- votaciones_76_99[,-1]
 votaciones_76_99_rc <- rollcall(
@@ -111,7 +111,7 @@ votaciones_76_99_rc <- rollcall(
   desc = "Votaciones Conv. Const. 76-99"
 )
 
-votaciones_100_106 <- read_csv("data - pleno/votaciones_100_106.csv")
+votaciones_100_106 <- read_csv("scripts - files/votaciones_100_106.csv")
 votaciones_100_106 <- votaciones_100_106[votaciones_100_106[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_100_106 <- votaciones_100_106[,-1]
 votaciones_100_106_rc <- rollcall(
@@ -124,7 +124,7 @@ votaciones_100_106_rc <- rollcall(
   desc = "Votaciones Conv. Const. 100-106"
 )
 
-votaciones_107_109 <- read_csv("data - pleno/votaciones_107_109.csv")
+votaciones_107_109 <- read_csv("scripts - files/votaciones_107_109.csv")
 votaciones_107_109 <- votaciones_107_109[votaciones_107_109[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_107_109 <- votaciones_107_109[,-1]
 votaciones_107_109_rc <- rollcall(

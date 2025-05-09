@@ -10,7 +10,7 @@ library(data.table)
 
 # --- 1. Load and Prepare Data -------------------------------------------------
 
-datos_comparacion <- readRDS("03_comparacion_t_MCMC_vs_WNOMINATE.rds")
+datos_comparacion <- readRDS("scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.rds")
 setDT(datos_comparacion) 
 
 # Crear las columnas necesarias para el gráfico

@@ -208,15 +208,15 @@ run_ideal_estimation_combined <- function(votaciones, votantes, dataset_name,
 # Define the datasets to process
 # Updated output suffixes to reflect the two types of files
 datasets_info <- list(
-  list(name = "01_15", file = "data - pleno/votaciones_01_15.csv", output_suffix = "01-15_ideal"),
-  list(name = "16_21", file = "data - pleno/votaciones_16_21.csv", output_suffix = "16-21_ideal"),
-  list(name = "22_37", file = "data - pleno/votaciones_22_37.csv", output_suffix = "22-37_ideal"),
-  list(name = "38_46", file = "data - pleno/votaciones_38_46.csv", output_suffix = "38-46_ideal"),
-  list(name = "47_55", file = "data - pleno/votaciones_47_55.csv", output_suffix = "47-55_ideal"),
-  list(name = "56_75", file = "data - pleno/votaciones_56_75.csv", output_suffix = "56-75_ideal"),
-  list(name = "76_99", file = "data - pleno/votaciones_76_99.csv", output_suffix = "76-99_ideal"),
-  list(name = "100_106", file = "data - pleno/votaciones_100_106.csv", output_suffix = "100-106_ideal"),
-  list(name = "107_109", file = "data - pleno/votaciones_107_109.csv", output_suffix = "107-109_ideal")
+  list(name = "01_15", file = "scripts - files/votaciones_01_15.csv", output_suffix = "01-15_ideal"),
+  list(name = "16_21", file = "scripts - files/votaciones_16_21.csv", output_suffix = "16-21_ideal"),
+  list(name = "22_37", file = "scripts - files/votaciones_22_37.csv", output_suffix = "22-37_ideal"),
+  list(name = "38_46", file = "scripts - files/votaciones_38_46.csv", output_suffix = "38-46_ideal"),
+  list(name = "47_55", file = "scripts - files/votaciones_47_55.csv", output_suffix = "47-55_ideal"),
+  list(name = "56_75", file = "scripts - files/votaciones_56_75.csv", output_suffix = "56-75_ideal"),
+  list(name = "76_99", file = "scripts - files/votaciones_76_99.csv", output_suffix = "76-99_ideal"),
+  list(name = "100_106", file = "scripts - files/votaciones_100_106.csv", output_suffix = "100-106_ideal"),
+  list(name = "107_109", file = "scripts - files/votaciones_107_109.csv", output_suffix = "107-109_ideal")
 )
 
 # --- NON - PARALLEL RUNNIG ----------------------------------

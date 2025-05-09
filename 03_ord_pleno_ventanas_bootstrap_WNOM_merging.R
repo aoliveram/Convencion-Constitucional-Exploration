@@ -7,7 +7,7 @@ library(stringi)
 
 
 # Cargamos votantes
-votantes <- readRDS("01_votantes.rds")
+votantes <- readRDS("scripts - files/01_votantes.rds")
 votantes <- votantes[-120] # quitamos rodrigo rojas
 
 normalizar_nombres <- function(texto) {
@@ -226,10 +226,10 @@ orden_votantes_t <- orden_votantes_t %>%
   left_join(ordenamientos_completos, by = c("Votante", "Periodo"))
 
 # Guardamos
-write.csv(orden_votantes_t, "03_orden_votantes_t.csv", row.names = FALSE)
-saveRDS(orden_votantes_t, "03_orden_votantes_t.rds")
+write.csv(orden_votantes_t, "scripts - files/03_orden_votantes_t.csv", row.names = FALSE)
+saveRDS(orden_votantes_t, "scripts - files/03_orden_votantes_t.rds")
 
-orden_votantes_t <- readRDS("03_orden_votantes_t.rds")
+orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 
 # --- Graficamos
 

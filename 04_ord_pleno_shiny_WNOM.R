@@ -9,10 +9,10 @@ library(forcats) # For reordering factors
 
 # --- 1. Load and Prepare Data -------------------------------------------------
 tryCatch({
-  #orden_votantes_t <- read_csv("03_orden_votantes_t.csv", show_col_types = FALSE)
-  orden_votantes_t <- readRDS("03_orden_votantes_t.rds")
+  #orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv", show_col_types = FALSE)
+  orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 }, error = function(e) {
-  stop("Error loading 03_orden_votantes_t. Make sure the file exists in the app directory. Original error: ", e$message)
+  stop("Error loading scripts - files/03_orden_votantes_t. Make sure the file exists in the app directory. Original error: ", e$message)
 })
 
 # Pre-process the data

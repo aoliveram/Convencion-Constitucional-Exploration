@@ -4,7 +4,7 @@ library(readr)
 library(patchwork) # para combinar gráficos
 
 # Cargamos datos
-orden_votantes_t <- read_csv("03_orden_votantes_t.csv")
+orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv")
 
 # Objeto con toda la información para plot
 orden_votantes_t_procesado <- orden_votantes_t %>%

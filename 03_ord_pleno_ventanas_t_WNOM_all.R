@@ -85,7 +85,7 @@ parallel_bootstrap_wnom <- function(votaciones, votantes, N_votos, n_iter = 1000
 
 # -------------------- bootstrap
 
-votaciones_01_15 <-read.csv("data - pleno/votaciones_01_15.csv") # 183 votaciones
+votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 183 votaciones
 votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_01_15[[1]]))
 votaciones_01_15 <- votaciones_01_15[,-1]
@@ -129,7 +129,7 @@ ordenamiento_1D_WNOM_01_15_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_16_21 <-read.csv("data - pleno/votaciones_16_21.csv") # 183 votaciones
+votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 183 votaciones
 votaciones_16_21 <- votaciones_16_21[votaciones_16_21[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_16_21[[1]]))
 votaciones_16_21 <- votaciones_16_21[,-1]
@@ -175,7 +175,7 @@ ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_22_37 <-read.csv("data - pleno/votaciones_22_37.csv") # 598 votaciones
+votaciones_22_37 <-read.csv("scripts - files/votaciones_22_37.csv") # 598 votaciones
 votaciones_22_37 <- votaciones_22_37[votaciones_22_37[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_22_37[[1]]))
 votaciones_22_37 <- votaciones_22_37[,-1]
@@ -221,7 +221,7 @@ ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_38_46 <-read.csv("data - pleno/votaciones_38_46.csv") # 51 votaciones
+votaciones_38_46 <-read.csv("scripts - files/votaciones_38_46.csv") # 51 votaciones
 votaciones_38_46 <- votaciones_38_46[votaciones_38_46[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_38_46[[1]]))
 votaciones_38_46 <- votaciones_38_46[,-1]
@@ -263,7 +263,7 @@ ordenamiento_1D_WNOM_38_46_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_47_55 <-read.csv("data - pleno/votaciones_47_55.csv") # 64 votaciones
+votaciones_47_55 <-read.csv("scripts - files/votaciones_47_55.csv") # 64 votaciones
 votaciones_47_55 <- votaciones_47_55[votaciones_47_55[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_47_55[[1]]))
 votaciones_47_55 <- votaciones_47_55[,-1]
@@ -305,7 +305,7 @@ ordenamiento_1D_WNOM_47_55_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_56_75 <-read.csv("data - pleno/votaciones_56_75.csv") # 899 votaciones
+votaciones_56_75 <-read.csv("scripts - files/votaciones_56_75.csv") # 899 votaciones
 votaciones_56_75 <- votaciones_56_75[votaciones_56_75[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_56_75[[1]]))
 votaciones_56_75 <- votaciones_56_75[,-1]
@@ -347,7 +347,7 @@ ordenamiento_1D_WNOM_56_75_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_76_99 <-read.csv("data - pleno/votaciones_76_99.csv") # 2182 votaciones
+votaciones_76_99 <-read.csv("scripts - files/votaciones_76_99.csv") # 2182 votaciones
 votaciones_76_99 <- votaciones_76_99[votaciones_76_99[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_76_99[[1]]))
 votaciones_76_99 <- votaciones_76_99[,-1]
@@ -389,7 +389,7 @@ ordenamiento_1D_WNOM_76_99_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_100_106 <-read.csv("data - pleno/votaciones_100_106.csv") # 514 votaciones
+votaciones_100_106 <-read.csv("scripts - files/votaciones_100_106.csv") # 514 votaciones
 votaciones_100_106 <- votaciones_100_106[votaciones_100_106[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_100_106[[1]]))
 votaciones_100_106 <- votaciones_100_106[,-1]
@@ -431,7 +431,7 @@ ordenamiento_1D_WNOM_100_106_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_107_109 <-read.csv("data - pleno/votaciones_107_109.csv") # 72 votaciones
+votaciones_107_109 <-read.csv("scripts - files/votaciones_107_109.csv") # 72 votaciones
 votaciones_107_109 <- votaciones_107_109[votaciones_107_109[[1]] != "Rojas Vade, Rodrigo", ]
 votantes <- normalizar_nombres(as.vector(votaciones_107_109[[1]]))
 votaciones_107_109 <- votaciones_107_109[,-1]
@@ -622,17 +622,17 @@ orden_votantes_t <- orden_votantes_t %>%
 
 
 # Guardamos
-write.csv(orden_votantes_t, "03_orden_votantes_t.csv", row.names = FALSE)
-saveRDS(orden_votantes_t, "03_orden_votantes_t.rds")
+write.csv(orden_votantes_t, "scripts - files/03_orden_votantes_t.csv", row.names = FALSE)
+saveRDS(orden_votantes_t, "scripts - files/03_orden_votantes_t.rds")
 
-orden_votantes_t <- readRDS("03_orden_votantes_t.rds")
+orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 
 #------------------------------------------------------------------------------
 # Grafica de comparación entre dos bloques de sesiones
 #------------------------------------------------------------------------------
 
 # Cargamos datos
-orden_votantes_t <- read_csv("03_orden_votantes_t.csv")
+orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv")
 
 # Objeto con toda la información para plot
 orden_votantes_t_procesado <- orden_votantes_t %>%

@@ -1,6 +1,6 @@
 # # Este script genera 
-# "03_comparacion_t_MCMC_vs_WNOMINATE.csv"
-# "03_comparacion_t_MCMC_vs_WNOMINATE.rds"
+# "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
+# "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
 
 # --- 0. Cargar Librerías Necesarias ---
 library(data.table)
@@ -39,8 +39,8 @@ reescalar <- function(vector_original) {
 # o ajusta base_path según sea necesario.
 base_path <- "data - pleno/ordenamientos_pleno" # Directorio actual
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
-output_file_comparison <- "03_comparacion_t_MCMC_vs_WNOMINATE.csv"
-output_rds_comparison <- "03_comparacion_t_MCMC_vs_WNOMINATE.rds"
+output_file_comparison <- "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
+output_rds_comparison <- "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
 
 # --- 3. Cargar y Procesar Datos de Muestras (IDEAL y WNOMINATE) ---
 

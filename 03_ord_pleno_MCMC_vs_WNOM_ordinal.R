@@ -19,11 +19,10 @@ normalizar_nombres <- function(texto) {
 # --- 2. Configuración ---
 base_path <- "data - pleno/ordenamientos_pleno" # Ajusta según tu estructura
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106") # Todos tus períodos
-output_file_comparison <- "03_comparacion_non-parametric_MCMC_vs_WNOMINATE.csv"
-output_rds_comparison <- "03_comparacion_non-parametric_MCMC_vs_WNOMINATE.rds"
+output_file_comparison <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.csv"
+output_rds_comparison <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds"
 
-# --- 3. Configurar Procesamiento Paralelo ---
-# Detectar número de cores (dejar uno libre es una buena práctica)
+# --- 3. Procesamiento Paralelo ---
 
 cl <- makeCluster(8, type = "FORK") 
 registerDoParallel(cl)
@@ -32,7 +31,6 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 
 # --- 4. Procesamiento Paralelo por Período ---
-cat(paste("Procesando", length(periods), "períodos en paralelo...\n"))
 
 results_list <- foreach(
   period = periods,
@@ -96,6 +94,86 @@ results_list <- foreach(
     # Seleccionar solo columnas necesarias para la comparación
     dt_mcmc_ranked <- dt_mcmc[, .(iteracion, legislador, rank_mcmc)]
     dt_wnom_ranked <- dt_wnom[, .(iteracion, legislador, rank_wnom)]
+    
+    # --- -- --- -- --- --- --- --- --- ---- --- -- --- --- -- - 
+    # --- 4.3.1 Preparar Datos para Comparación de Pares ---
+    # Seleccionar las columnas relevantes con los rangos por iteración
+    dt_mcmc_ranked <- dt_mcmc[, .(iteracion, legislador, rank_mcmc)]
+    dt_wnom_ranked <- dt_wnom[, .(iteracion, legislador, rank_wnom)]
+    
+    # --- 4.3.2 Generar Pares de Legisladores ---
+    legisladores_periodo <- common_legislators # Usar los legisladores comunes ya identificados
+    pares <- combn(legisladores_periodo, 2, simplify = FALSE) # Lista de pares [vector c(leg_A, leg_B)]
+    cat(paste("    Generando", length(pares), "pares para comparación...\n"))
+    
+    # --- 4.3.3 Calcular Probabilidades de Orden Relativo por Par (en Paralelo dentro del Worker) ---
+    # Nota: Estamos dentro de un worker %dopar% que ya está usando un core. 
+    # La paralelización aquí es sobre los pares, no anidada.
+    # El clúster principal ya fue definido afuera.
+    
+    cat(paste("    Calculando probabilidades de pares para período:", period, "...\n"))
+    
+    # Usamos lapply por simplicidad aquí, ya que foreach anidado puede ser complejo.
+    # El bucle externo %dopar% sobre 'period' ya nos da la paralelización principal.
+    resultados_pares_list <- lapply(pares, function(par) {
+      leg_A <- par[1]
+      leg_B <- par[2]
+      
+      # Extraer vectores de rangos para A y B
+      ranks_A_mcmc <- dt_mcmc_ranked[legislador == leg_A, rank_mcmc]
+      ranks_B_mcmc <- dt_mcmc_ranked[legislador == leg_B, rank_mcmc]
+      ranks_A_wnom <- dt_wnom_ranked[legislador == leg_A, rank_wnom]
+      ranks_B_wnom <- dt_wnom_ranked[legislador == leg_B, rank_wnom]
+      
+      # Asegurarse de que los vectores no estén vacíos (aunque no debería pasar con common_legislators)
+      if (length(ranks_A_mcmc) == 0 || length(ranks_B_mcmc) == 0 || 
+          length(ranks_A_wnom) == 0 || length(ranks_B_wnom) == 0) {
+        warning(paste("Datos de rango faltantes para el par:", leg_A, "-", leg_B, "en período", period))
+        return(NULL) 
+      }
+      
+      # Calcular P(Rank_A < Rank_B | MCMC)
+      # Usamos mean(condicion) que cuenta TRUEs como 1 y FALSEs como 0
+      prob_A_lt_B_mcmc <- mean(ranks_A_mcmc < ranks_B_mcmc, na.rm = TRUE)
+      
+      # Calcular P(Rank_A < Rank_B | WNOM)
+      prob_A_lt_B_wnom <- mean(ranks_A_wnom < ranks_B_wnom, na.rm = TRUE)
+      
+      # Calcular métricas de concordancia/discordancia
+      diff_abs <- abs(prob_A_lt_B_mcmc - prob_A_lt_B_wnom)
+      
+      # Concordancia Direccional Simple: Ambos > 0.5 o ambos < 0.5 (o ambos == 0.5)
+      # Usaremos una pequeña tolerancia para igualdad a 0.5
+      tol <- 1e-6
+      mcmc_dir <- fcase(prob_A_lt_B_mcmc > 0.5 + tol, 1, prob_A_lt_B_mcmc < 0.5 - tol, -1, default = 0)
+      wnom_dir <- fcase(prob_A_lt_B_wnom > 0.5 + tol, 1, prob_A_lt_B_wnom < 0.5 - tol, -1, default = 0)
+      concordancia_dir <- (mcmc_dir == wnom_dir)
+      
+      # Acuerdo con Certeza (ejemplo: ambos > 0.95 o ambos < 0.05)
+      certeza_threshold <- 0.95
+      mcmc_certain <- (prob_A_lt_B_mcmc > certeza_threshold | prob_A_lt_B_mcmc < (1 - certeza_threshold))
+      wnom_certain <- (prob_A_lt_B_wnom > certeza_threshold | prob_A_lt_B_wnom < (1 - certeza_threshold))
+      acuerdo_con_certeza <- (mcmc_certain & wnom_certain & concordancia_dir)
+      desacuerdo_con_certeza <- (mcmc_certain & wnom_certain & !concordancia_dir)
+      
+      # Retornar data.table con resultados para este par
+      data.table(
+        Periodo = period, # Añadir período
+        Legislador_A = leg_A, 
+        Legislador_B = leg_B, 
+        Prob_A_lt_B_MCMC = prob_A_lt_B_mcmc, 
+        Prob_A_lt_B_WNOM = prob_A_lt_B_wnom, 
+        Diferencia_Absoluta = diff_abs, 
+        Concordancia_Direccional = concordancia_dir,
+        Acuerdo_Certeza = acuerdo_con_certeza,
+        Desacuerdo_Certeza = desacuerdo_con_certeza
+      ) 
+    })
+    
+    # Combinar la lista de resultados de pares en un solo data.table
+    resultados_pares_dt <- rbindlist(resultados_pares_list)
+    
+    # - --- --- -- - -- ----- --- -- -- --- - - -- ---- ----- ---
     
     # --- 4.4 Combinar Datos de Rangos ---
     # Asegurar que tenemos el mismo número de iteraciones/bootstraps (o tomar el mínimo)
@@ -190,6 +268,114 @@ registerDoSEQ() # Registrar backend secuencial de nuevo
 end_time <- Sys.time()
 cat("Tiempo de ejecución paralelo:", capture.output(end_time - start_time), "\n")
 
+
+
+
+
+
+# --- 5.1 Calcular Correlación de Rangos (Spearman) por Período ---
+
+# Asegurarse de que results_list no esté vacío
+if (nrow(results_list) > 0) {
+  
+  # Usar data.table para agrupar por período y calcular correlación
+  # Asegurarse de que las columnas de rango son numéricas
+  results_list[, median_rank_mcmc := as.numeric(median_rank_mcmc)]
+  results_list[, median_rank_wnom := as.numeric(median_rank_wnom)]
+  
+  # Calcular correlación y p-valor (si hay suficientes datos no NA)
+  spearman_results <- results_list[, {
+    # Filtrar NAs dentro del grupo antes de calcular cor.test
+    valid_data <- .SD[!is.na(median_rank_mcmc) & !is.na(median_rank_wnom)]
+    
+    if (nrow(valid_data) >= 3) { # cor.test necesita al menos 3 pares válidos
+      test_res <- tryCatch({
+        cor.test(~ median_rank_mcmc + median_rank_wnom, data = valid_data, 
+                 method = "spearman", exact = FALSE) # Usar aproximación para N > 10
+      }, error = function(e) {
+        cat(paste("  Error calculando Spearman para período", Periodo, ":", conditionMessage(e), "\n"))
+        NULL 
+      })
+      
+      if (!is.null(test_res)) {
+        .(rho = test_res$estimate, p_value_rho = test_res$p.value, n_pairs = nrow(valid_data))
+      } else {
+        .(rho = NA_real_, p_value_rho = NA_real_, n_pairs = nrow(valid_data)) # Aún reportar N
+      }
+    } else {
+      .(rho = NA_real_, p_value_rho = NA_real_, n_pairs = nrow(valid_data)) # Datos insuficientes
+    }
+  }, by = .(Periodo)] # Agrupar por Período
+  
+  # Mostrar resultados de la correlación
+  cat("\nResultados de Correlación de Spearman (rho):\n")
+  print(spearman_results)
+  
+  # Opcional: Guardar estos resultados específicos
+  # fwrite(spearman_results, "05_correlacion_spearman_por_periodo.csv")
+  
+  # Opcional: Unir rho a la tabla principal (puede ser redundante si solo hay un valor por período)
+  # results_list <- merge(results_list, spearman_results[, .(Periodo, rho)], by = "Periodo", all.x = TRUE)
+  
+} else {
+  cat("ADVERTENCIA: No se pudieron calcular correlaciones porque results_list está vacío.\n")
+  spearman_results <- data.table() # Crear tabla vacía para evitar errores posteriores
+}
+
+
+
+# --- 8. Visualización de Correlación de Spearman ---
+cat("\nGenerando gráfico de correlación de Spearman...\n")
+library(ggplot2) # Asegurar que ggplot2 está cargado
+
+available_periods_sorted <- sort(spearman_results$Periodo)
+
+if (nrow(spearman_results) > 0 && !all(is.na(spearman_results$rho))) {
+  
+  # Convertir Período a factor para ordenar en el gráfico
+  spearman_results[, Periodo_factor := factor(Periodo, levels = available_periods_sorted)] # Usar el mismo orden de períodos que antes
+  
+  plot_spearman <- ggplot(spearman_results, aes(x = Periodo_factor, y = rho)) +
+    geom_col(aes(fill = rho), show.legend = FALSE) + # Barras coloreadas por valor de rho
+    geom_text(aes(label = sprintf("%.2f", rho)), vjust = -0.5, size = 3.5) + # Añadir valor de rho encima de la barra
+    scale_fill_gradient2(low = "red", mid = "yellow", high = "darkgreen", midpoint = 0, limits=c(-1,1)) + # Escala de color divergente
+    scale_y_continuous(limits = c(min(0, min(spearman_results$rho, na.rm=TRUE) - 0.1), 1.05), # Ajustar límite inferior si hay rhos negativos
+                       breaks = seq(-1, 1, 0.25)) +
+    labs(
+      title = "Correlación Ordinal General (Spearman's Rho) entre WNOMINATE e IDEAL",
+      subtitle = "Calculada sobre los rangos medianos de cada método por período",
+      x = "Período de Sesiones",
+      y = "Coeficiente Rho de Spearman"
+    ) +
+    theme_minimal(base_size = 12) +
+    theme(
+      plot.title = element_text(hjust = 0.5, face = "bold"),
+      plot.subtitle = element_text(hjust = 0.5, size = 10),
+      axis.text.x = element_text(angle = 45, hjust = 1) # Rotar etiquetas si son muchas
+    )
+  
+  print(plot_spearman)
+  
+  # Opcional: Guardar gráfico de Spearman
+  # ggsave("plots_spearman/correlacion_spearman_periodos.png", plot = plot_spearman, width = 8, height = 6, dpi = 300)
+  
+} else {
+  cat("No hay datos válidos de correlación para graficar.\n")
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # --- 6. Procesar y Guardar Resultados Finales ---
 if (nrow(results_list) > 0) {
   cat("Procesamiento final y guardado de resultados...\n")
@@ -218,6 +404,147 @@ if (nrow(results_list) > 0) {
   cat("ERROR: No se generaron resultados. Verifique los logs y los archivos de entrada.\n")
 }
 
+
+
+
+
+# --- 7. Generar Gráficos de Dispersión de Pares (Fuera del bucle paralelo) ---
+# Recalcular datos de pares fuera del bucle (más simple si los datos caben en memoria)**
+
+library(ggplot2)
+library(ggrepel) # Para etiquetas no solapadas
+
+all_pairs_results_list <- list() # Para guardar los resultados de pares de todos los períodos
+
+for (period in periods) {
+  cat(paste("  Procesando pares para período:", period, "...\n"))
+  # --- Re-cargar y Calcular Rangos (igual que dentro del foreach) ---
+  file_mcmc <- file.path(base_path, paste0("ordenamiento_1D_MCMC_", period, "_samples.csv"))
+  file_wnom <- file.path(base_path, paste0("ordenamiento_1D_WNOM_", period, "_bootstrap.csv"))
+  if (!file.exists(file_mcmc) || !file.exists(file_wnom)) next # Saltar si faltan archivos
+  
+  dt_mcmc <- fread(file_mcmc, encoding = "UTF-8")
+  dt_wnom <- fread(file_wnom, encoding = "UTF-8")
+  if ("iteracion" %in% names(dt_mcmc) && is.character(dt_mcmc$iteracion)) dt_mcmc[, iteracion := as.integer(gsub(",$", "", iteracion))]
+  if ("iteracion" %in% names(dt_wnom) && is.character(dt_wnom$iteracion)) dt_wnom[, iteracion := as.integer(gsub("\"", "", iteracion))]
+  dt_mcmc <- dt_mcmc[, .(iteracion, legislador, coord1D_mcmc = coord1D)]
+  dt_wnom <- dt_wnom[, .(iteracion, legislador, coord1D_wnom = coord1D)]
+  dt_mcmc[, legislador := normalizar_nombres(legislador)]
+  dt_wnom[, legislador := normalizar_nombres(legislador)]
+  common_legislators <- intersect(unique(dt_mcmc$legislador), unique(dt_wnom$legislador))
+  if (length(common_legislators) < 2) next # Necesitamos al menos 2 para formar pares
+  dt_mcmc <- dt_mcmc[legislador %in% common_legislators]
+  dt_wnom <- dt_wnom[legislador %in% common_legislators]
+  dt_mcmc[, rank_mcmc := frankv(coord1D_mcmc, ties.method = "average"), by = iteracion]
+  dt_wnom[, rank_wnom := frankv(coord1D_wnom, ties.method = "average"), by = iteracion]
+  dt_mcmc_ranked <- dt_mcmc[, .(iteracion, legislador, rank_mcmc)]
+  dt_wnom_ranked <- dt_wnom[, .(iteracion, legislador, rank_wnom)]
+  
+  # --- Calcular Pares (paralelizado con lapply/mclapply si se prefiere dentro del loop) ---
+  legisladores_periodo <- common_legislators
+  pares <- combn(legisladores_periodo, 2, simplify = FALSE)
+  
+  # Numero de cores
+  num_cores_lapply <- detectCores() - 1 # Podrías usar los mismos cores
+  if (num_cores_lapply < 1) num_cores_lapply <- 1
+  
+  # Usar lapply o mclapply (de PARALLEL, funciona con FORK) para acelerar dentro del loop
+  resultados_pares_list_period <- mclapply(pares, mc.cores = num_cores_lapply, FUN = function(par) {
+    # ... (mismo código que dentro de la función lapply anterior) ...
+    leg_A <- par[1]
+    leg_B <- par[2]
+    ranks_A_mcmc <- dt_mcmc_ranked[legislador == leg_A, rank_mcmc]
+    ranks_B_mcmc <- dt_mcmc_ranked[legislador == leg_B, rank_mcmc]
+    ranks_A_wnom <- dt_wnom_ranked[legislador == leg_A, rank_wnom]
+    ranks_B_wnom <- dt_wnom_ranked[legislador == leg_B, rank_wnom]
+    if (length(ranks_A_mcmc) == 0 || length(ranks_B_mcmc) == 0 || length(ranks_A_wnom) == 0 || length(ranks_B_wnom) == 0) return(NULL)
+    
+    prob_A_lt_B_mcmc <- mean(ranks_A_mcmc < ranks_B_mcmc, na.rm = TRUE)
+    prob_A_lt_B_wnom <- mean(ranks_A_wnom < ranks_B_wnom, na.rm = TRUE)
+    diff_abs <- abs(prob_A_lt_B_mcmc - prob_A_lt_B_wnom)
+    
+    tol <- 1e-6
+    mcmc_dir <- fcase(prob_A_lt_B_mcmc > 0.5 + tol, 1, prob_A_lt_B_mcmc < 0.5 - tol, -1, default = 0)
+    wnom_dir <- fcase(prob_A_lt_B_wnom > 0.5 + tol, 1, prob_A_lt_B_wnom < 0.5 - tol, -1, default = 0)
+    concordancia_dir <- (mcmc_dir == wnom_dir)
+    certeza_threshold <- 0.95
+    mcmc_certain <- (prob_A_lt_B_mcmc > certeza_threshold | prob_A_lt_B_mcmc < (1 - certeza_threshold))
+    wnom_certain <- (prob_A_lt_B_wnom > certeza_threshold | prob_A_lt_B_wnom < (1 - certeza_threshold))
+    acuerdo_con_certeza <- (mcmc_certain & wnom_certain & concordancia_dir)
+    desacuerdo_con_certeza <- (mcmc_certain & wnom_certain & !concordancia_dir)
+    data.table(Periodo = period, Legislador_A = leg_A, Legislador_B = leg_B, 
+               Prob_A_lt_B_MCMC = prob_A_lt_B_mcmc, Prob_A_lt_B_WNOM = prob_A_lt_B_wnom, 
+               Diferencia_Absoluta = diff_abs, Concordancia_Direccional = concordancia_dir,
+               Acuerdo_Certeza = acuerdo_con_certeza, Desacuerdo_Certeza = desacuerdo_con_certeza)
+  })
+  
+  resultados_pares_dt_period <- rbindlist(resultados_pares_list_period)
+  all_pairs_results_list[[period]] <- resultados_pares_dt_period # Guardar resultados del período
+  
+  # --- Generar Gráfico de Dispersión para este período ---
+  if (nrow(resultados_pares_dt_period) > 0) {
+    # Crear etiqueta para pares problemáticos
+    resultados_pares_dt_period[, label := fifelse(Diferencia_Absoluta > 0.5 | Desacuerdo_Certeza, 
+                                                  paste(Legislador_A, "-", Legislador_B), 
+                                                  "")]
+    
+    # Crear variable para colorear/dar forma según tipo de acuerdo/desacuerdo
+    resultados_pares_dt_period[, status := fcase(
+      Desacuerdo_Certeza, "Desacuerdo Fuerte",
+      Acuerdo_Certeza, "Acuerdo Fuerte",
+      Concordancia_Direccional, "Acuerdo Débil",
+      !Concordancia_Direccional, "Desacuerdo Débil",
+      default = "Indeterminado" # Si hay NAs o casos raros
+    )]
+    resultados_pares_dt_period[, status := factor(status, levels = c("Acuerdo Fuerte", "Acuerdo Débil", "Desacuerdo Débil", "Desacuerdo Fuerte", "Indeterminado"))]
+    
+    plot_pares <- ggplot(resultados_pares_dt_period, aes(x = Prob_A_lt_B_MCMC, y = Prob_A_lt_B_WNOM)) +
+      geom_point(aes(color = status, shape = status), alpha = 0.6, size = 2) +
+      geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "grey50") + # Línea y=x
+      geom_vline(xintercept = 0.5, linetype = "dotted", color = "grey70") + # Línea vertical en 0.5
+      geom_hline(yintercept = 0.5, linetype = "dotted", color = "grey70") + # Línea horizontal en 0.5
+      geom_text_repel(aes(label = label), size = 2.5, max.overlaps = 15, 
+                      box.padding = 0.4, point.padding = 0.2, segment.alpha = 0.5) +
+      scale_x_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.25)) +
+      scale_y_continuous(limits = c(0, 1), breaks = seq(0, 1, 0.25)) +
+      scale_color_manual(values = c("Acuerdo Fuerte" = "darkgreen", "Acuerdo Débil" = "lightblue", 
+                                    "Desacuerdo Débil" = "orange", "Desacuerdo Fuerte" = "darkred", 
+                                    "Indeterminado" = "grey"), name="Concordancia") +
+      scale_shape_manual(values = c("Acuerdo Fuerte" = 16, "Acuerdo Débil" = 1, 
+                                    "Desacuerdo Débil" = 2, "Desacuerdo Fuerte" = 17, 
+                                    "Indeterminado" = 4), name="Concordancia") +
+      labs(
+        title = paste("Concordancia Ordinal por Pares - Período:", period),
+        subtitle = "P(A < B | MCMC) vs P(A < B | WNOMINATE). Etiquetas para Diff Abs > 0.5 o Desacuerdo Fuerte.",
+        x = "Probabilidad A < B (IDEAL/MCMC)",
+        y = "Probabilidad A < B (WNOMINATE)"
+      ) +
+      coord_fixed() + # Asegura aspecto cuadrado
+      theme_minimal(base_size = 10) +
+      theme(plot.title = element_text(hjust = 0.5, face = "bold"),
+            plot.subtitle = element_text(hjust = 0.5, size = 8),
+            legend.position = "bottom")
+    
+    print(plot_pares)
+    # Opcional: Guardar gráfico
+    # ggsave(paste0("plots_pares/concordancia_pares_", period, ".png"), plot = plot_pares, width = 8, height = 8.5, dpi = 300)
+  } else {
+    cat(paste("    No se generaron resultados de pares para el gráfico del período:", period, "\n"))
+  }
+}
+
+# Combinar todos los resultados de pares en un solo data.table y guardarlo
+# all_pairs_results_dt <- rbindlist(all_pairs_results_list)
+# fwrite(all_pairs_results_dt, "04_comparacion_pares_todos_periodos.csv")
+# saveRDS(all_pairs_results_dt, "04_comparacion_pares_todos_periodos.rds")
+
+
+
+
+
+
+
+
 # --- Plot generation ---------------------------------------------------------
 
 # --- 0. Cargar Librerías Necesarias ---
@@ -228,7 +555,7 @@ library(forcats)   # Para fct_reorder
 library(stringr)   # Para str_wrap si los nombres son muy largos
 
 # --- 1. Cargar Datos ---
-file_path <- "03_comparacion_non-parametric_MCMC_vs_WNOMINATE.rds" # Asegúrate que la ruta es correcta
+file_path <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds" # Asegúrate que la ruta es correcta
 if (!file.exists(file_path)) {
   stop("El archivo ", file_path, " no se encuentra.")
 }
