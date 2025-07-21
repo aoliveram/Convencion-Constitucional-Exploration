@@ -72,8 +72,9 @@ full_data$Votante <- factor(full_data$Votante, levels = rev(votante_order))
 full_data <- full_data %>%
   filter(!is.na(Votante))
 
-# Get list of available members for the input selector from the ordered factor levels
-available_members <- levels(full_data$Votante)
+# --- NEW: Create a separate, alphabetically sorted list for the dropdown input ---
+available_members_sorted <- sort(unique(as.character(full_data$Votante)))
+
 
 # --- 2. Define UI -------------------------------------------------------------
 ui <- fluidPage(
@@ -88,10 +89,11 @@ ui <- fluidPage(
                   choices = c("Continuo (-1 a 1)" = "continuo", "Ordinal (1 a 154)" = "ordinal"),
                   selected = "continuo"),
       
+      # --- MODIFIED: Use the alphabetically sorted list for choices ---
       selectizeInput("convencionales_seleccionados",
                      "2. Seleccione convencionales para el gráfico de dinámica:",
-                     choices = available_members,
-                     selected = c("Marinovic, Teresa", "Zuñiga, Luis"), # Default selection
+                     choices = available_members_sorted, # Uses the new sorted list
+                     selected = c("Marinovic, Teresa", "Zuñiga, Luis Arturo"), # Default selection
                      multiple = TRUE,
                      options = list(placeholder = 'Escriba un nombre...')),
       
@@ -195,6 +197,87 @@ server <- function(input, output) {
       )
   })
 }
+
+server <- function(input, output) {
+  
+  # --- 3.1. Heatmap Plot ---
+  output$heatmap_plot <- renderPlot({
+    
+    if (input$tipo_ordenamiento == "continuo") {
+      fill_var <- "posicion_continua"
+      midpoint_color <- 0
+      color_limits <- c(-1, 1)
+      legend_title <- "Posición Continua"
+    } else {
+      fill_var <- "posicion_ordinal"
+      midpoint_color <- 77.5 # Midpoint for 1-154 positions
+      color_limits <- c(1, 154)
+      legend_title <- "Posición Ordinal"
+    }
+    
+    ggplot(full_data, aes(x = Periodo, y = Votante, fill = .data[[fill_var]])) +
+      geom_tile(color = "white", lwd = 0.2) +
+      scale_fill_gradient2(
+        low = "red",
+        mid = "white",
+        high = "blue",
+        midpoint = midpoint_color,
+        limit = color_limits,
+        name = legend_title
+      ) +
+      labs(
+        x = "Bloque de Sesiones de Votación",
+        y = "Convencionales (Ordenados por posición en el bloque 01-15)"
+      ) +
+      theme_minimal(base_size = 12) +
+      theme(
+        axis.text.x = element_text(angle = 45, hjust = 1),
+        # --- MODIFIED: Font size for Y-axis labels is now 6 ---
+        axis.text.y = element_text(size = 6),
+        legend.position = "right",
+        panel.grid = element_blank()
+      )
+  })
+  
+  # --- 3.2. Dynamics Line Plot ---
+  output$dynamics_plot <- renderPlot({
+    
+    validate(
+      need(input$convencionales_seleccionados, "Por favor, seleccione al menos un convencional en el panel de la izquierda.")
+    )
+    
+    dynamics_data <- full_data %>%
+      filter(Votante %in% input$convencionales_seleccionados)
+    
+    if (input$tipo_ordenamiento == "continuo") {
+      diff_var <- "diferencia_continua"
+      y_limits <- c(-1, 1)
+      y_label <- "Diferencia de Posición Continua (vs. bloque anterior)"
+    } else {
+      diff_var <- "diferencia_ordinal"
+      y_limits <- c(-50, 50)
+      y_label <- "Diferencia de Posición Ordinal (vs. bloque anterior)"
+    }
+    
+    ggplot(dynamics_data, aes(x = Periodo, y = .data[[diff_var]], group = Votante, color = Votante)) +
+      geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
+      geom_line(linewidth = 1.2) +
+      geom_point(size = 3) +
+      scale_color_viridis_d(name = "Convencional") +
+      scale_y_continuous(limits = y_limits) +
+      labs(
+        x = "Bloque de Sesiones de Votación",
+        y = y_label,
+        title = "Cambio en Posición Respecto al Bloque Anterior"
+      ) +
+      theme_minimal(base_size = 14) +
+      theme(
+        legend.position = "bottom",
+        plot.title = element_text(hjust = 0.5, face = "bold")
+      )
+  })
+}
+
 
 # --- 4. Run the Application ---------------------------------------------------
 shinyApp(ui = ui, server = server)
