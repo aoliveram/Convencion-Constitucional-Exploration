@@ -88,3 +88,104 @@ print(heatmap_plot)
 
 # ggsave("scripts - plots/equivalencia_MCMC_vs_WNOM_tost_heatmap.png", plot = heatmap_plot, width = 10, height = 16, dpi = 300)
 
+
+# ------------------------------------------------------------------------------
+
+
+# --- 3: TEST DE EQUIVALENCIA (BAYESIANO) ---
+
+library(data.table)
+library(stringi)
+library(parallel)
+library(doParallel)
+library(foreach)
+
+# --- 1. Funciones y Configuración ---
+normalizar_nombres <- function(texto) {
+  if (is.null(texto) || all(is.na(texto))) return(texto)
+  texto_limpio <- stri_trans_general(as.character(texto), "Latin-ASCII")
+  texto_limpio <- gsub("\"", "", texto_limpio)
+  return(trimws(texto_limpio))
+}
+
+base_path <- "scripts - files/ordenamientos_pleno"
+periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
+# delta_rank <- 8  (Mismo delta_rank de TOST)
+rope_probability_threshold <- 0.95 # Umbral para declarar equivalencia
+
+# --- 2. Configurar Paralelismo ---
+num_cores <- 8
+cl <- makeCluster(num_cores)
+registerDoParallel(cl)
+cat(paste("Iniciando test de equivalencia Bayesiano en", num_cores, "cores...\n"))
+
+# --- 3. Bucle Paralelo por Período ---
+equivalencia_bayesiana <- foreach(
+  period = periods,
+  .packages = c('data.table', 'stringi'),
+  .combine = 'rbind',
+  .errorhandling = 'pass'
+) %dopar% {
+  
+  cat(paste("  Procesando período:", period, "...\n"))
+  
+  # --- Cargar y procesar rangos ---
+  file_mcmc <- file.path(base_path, paste0("ordenamiento_1D_MCMC_", period, "_samples.csv"))
+  file_wnom <- file.path(base_path, paste0("ordenamiento_1D_WNOM_", period, "_bootstrap.csv"))
+  if (!file.exists(file_mcmc) || !file.exists(file_wnom)) return(NULL)
+  
+  dt_mcmc <- fread(file_mcmc)[, legislador := normalizar_nombres(legislador)]
+  dt_wnom <- fread(file_wnom)[, legislador := normalizar_nombres(legislador)]
+  
+  # Asegurar consistencia en el número de muestras
+  n_samples <- min(dt_mcmc[, .N, by=legislador]$N, dt_wnom[, .N, by=legislador]$N)
+  dt_mcmc <- dt_mcmc[, .SD[1:n_samples], by=legislador]
+  dt_wnom <- dt_wnom[, .SD[1:n_samples], by=legislador]
+  
+  dt_mcmc[, rank_mcmc := frankv(coord1D, ties.method="average"), by=iteracion]
+  dt_wnom[, rank_wnom := frankv(coord1D, ties.method="average"), by=iteracion]
+  
+  # --- Unir distribuciones y calcular ---
+  dist_mcmc <- dt_mcmc[, .(legislador, rank_mcmc)][, sample_id := 1:.N, by = legislador]
+  dist_wnom <- dt_wnom[, .(legislador, rank_wnom)][, sample_id := 1:.N, by = legislador]
+  
+  dist_combinada <- merge(dist_mcmc, dist_wnom, by = c("legislador", "sample_id"))
+  
+  equivalencia_bayesiana_periodo <- dist_combinada[, {
+    diferencia_de_rangos <- rank_mcmc - rank_wnom
+    prob_en_rope <- mean(abs(diferencia_de_rangos) <= delta_rank)
+    .(prob_equivalencia = prob_en_rope)
+  }, by = legislador]
+  
+  equivalencia_bayesiana_periodo[, Periodo := period]
+  
+  return(equivalencia_bayesiana_periodo)
+}
+
+stopCluster(cl)
+registerDoSEQ()
+cat("Cálculo Bayesiano completado.\n")
+
+# Clasificar y ver resultados
+equivalencia_bayesiana[, equivalente_bayes := fifelse(prob_equivalencia > rope_probability_threshold, "Sí", "No")]
+
+# Unir con los resultados del TOST para una tabla comparativa
+equivalencia_tabla_final <- merge(equivalencia_tost, equivalencia_bayesiana, by = c("legislador", "Periodo"))
+
+print("Tabla Final de Tests de Equivalencia:")
+print(head(equivalencia_tabla_final))
+cat("\nResumen de Conclusiones TOST vs Bayesiano (para el primer período):\n")
+print(table(equivalencia_tabla_final[Periodo == periods[1], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+print(table(equivalencia_tabla_final[Periodo == periods[2], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+print(table(equivalencia_tabla_final[Periodo == periods[3], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+print(table(equivalencia_tabla_final[Periodo == periods[4], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+print(table(equivalencia_tabla_final[Periodo == periods[5], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+print(table(equivalencia_tabla_final[Periodo == periods[6], .(TOST = equivalente_tost, Bayesiano = equivalente_bayes)]))
+
+# ------------------------------------------------------------------------------
+
+# Suponiendo que has corrido el bayesiano para todos los períodos y lo has combinado en 'equivalencia_bayesiana_total'
+tabla_final <- merge(equivalencia_tost, equivalencia_bayesiana, by = c("legislador", "Periodo"))
+print(tabla_final)
+
+# ------------------------------------------------------------------------------
