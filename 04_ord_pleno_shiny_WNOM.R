@@ -3,202 +3,308 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(readr)
-library(tidyr) # for separate()
 library(stringr)
-library(forcats)
-library(viridis) # color palettes
+library(patchwork)
+library(forcats) # For reordering factors
 
 # --- 1. Load and Prepare Data -------------------------------------------------
 tryCatch({
-  orden_votantes_t_raw <- readRDS("scripts - files/03_orden_votantes_t.rds")
+  #orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv", show_col_types = FALSE)
+  orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 }, error = function(e) {
-  stop("Error loading scripts - files/03_orden_votantes_t.rds. Make sure the file exists. Original error: ", e$message)
+  stop("Error loading scripts - files/03_orden_votantes_t. Make sure the file exists in the app directory. Original error: ", e$message)
 })
 
-# --- Data Preparation Logic ---
-
-# 1. Extract all "initial" positions from the raw data
-data_inicial <- orden_votantes_t_raw %>%
-  separate(comparacion, into = c("Periodo", "Periodo_end"), sep = " vs ", remove = FALSE) %>%
-  select(Votante, Periodo, posicion_continua = pos_ideol_inicial)
-
-# 2. Extract and calculate all "final" positions from the raw data
-data_final <- orden_votantes_t_raw %>%
-  separate(comparacion, into = c("Periodo_start", "Periodo"), sep = " vs ", remove = FALSE) %>%
-  mutate(posicion_continua = pos_ideol_inicial + dif_media) %>% # Calculate the position in the final period
-  select(Votante, Periodo, posicion_continua)
-
-# 3. Combine and get a single, unique position for each voter-period pair
-positions_data <- bind_rows(data_inicial, data_final) %>%
-  distinct(Votante, Periodo, .keep_all = TRUE)
-
-# 4. Get the list of all unique periods and sort them
-periodos_unicos <- sort(unique(positions_data$Periodo))
-
-# 5. Build the final, full data frame with all metrics
-full_data <- positions_data %>%
-  # Ensure Periodo is an ordered factor for correct chronological sorting and plotting
-  mutate(Periodo = factor(Periodo, levels = periodos_unicos, ordered = TRUE)) %>%
-  # Calculate ordinal position (rank) within each period block
-  group_by(Periodo) %>%
-  mutate(posicion_ordinal = rank(-posicion_continua, ties.method = "first")) %>%
-  ungroup() %>%
-  # Arrange by Votante and Period to correctly calculate differences vs. the previous period
-  arrange(Votante, Periodo) %>%
-  group_by(Votante) %>%
+# Pre-process the data
+orden_votantes_t_procesado <- orden_votantes_t %>%
   mutate(
-    # Calculate difference vs. previous period using lag()
-    diferencia_continua = posicion_continua - lag(posicion_continua),
-    diferencia_ordinal = posicion_ordinal - lag(posicion_ordinal)
+    # To double-check normalization in names
+    Votante = str_squish(Votante), 
+    Periodo = str_squish(Periodo),
+    comparacion = str_squish(comparacion),
+    
+    # Calculate plot variables
+    posicion_inicial = pos_ideol_inicial, # Position in the (first) period of comparison
+    #posicion_final = posicion_ideologica + diferencia_media, # WRONG !!
+    posicion_final = pos_ideol_inicial + dif_media, # Position in the (second) period of comparison
+    direccion_cambio = case_when(
+      dif_media > 0 ~ "Derecha",
+      dif_media < 0 ~ "Izquierda",
+      TRUE ~ "Sin cambio"
+    ),
+    significativo = p_valor < 0.05,
+    etiqueta_significancia = ifelse(significativo, "Significativo (p < 0.05)", "No Significativo (p >= 0.05)"),
+    
+    # Create factors for consistent plotting legends/colors
+    direccion_cambio_factor = factor(direccion_cambio, levels = c("Izquierda", "Derecha", "Sin cambio")),
+    etiqueta_significancia_factor = factor(etiqueta_significancia, levels = c("Significativo (p < 0.05)", "No Significativo (p >= 0.05)"))
   ) %>%
-  # Replace NA (for the first period) with 0, as there's no change from a prior state
-  mutate(
-    diferencia_continua = ifelse(is.na(diferencia_continua), 0, diferencia_continua),
-    diferencia_ordinal = ifelse(is.na(diferencia_ordinal), 0, diferencia_ordinal)
-  ) %>%
-  ungroup()
+  # Extract the two periods from the 'comparacion' string
+  tidyr::separate(comparacion, into = c("Periodo1", "Periodo2"), sep = " vs ", remove = FALSE)
 
-# 6. Get the definitive, unique order of Votantes based on their position in the FIRST period
-votante_order <- full_data %>%
-  filter(Periodo == periodos_unicos[1]) %>%
-  arrange(posicion_continua) %>% # Order from left (-1) to right (1)
-  pull(Votante) # This will now be unique due to the corrected 'positions_data'
 
-# 7. Apply this fixed order to the main data frame's Votante factor levels
-# The `rev()` call places left-wing (more negative) at the top of the heatmap
-full_data$Votante <- factor(full_data$Votante, levels = rev(votante_order))
+# Get unique periods available, to show them later
+available_periods <- unique(c(orden_votantes_t_procesado$Periodo1, orden_votantes_t_procesado$Periodo2))
+available_periods <- sort(available_periods) # Sort them for the dropdown
 
-# Filter out any voters who might not have been present in the first period (and thus are NA in the factor)
-full_data <- full_data %>%
-  filter(!is.na(Votante))
-
-# 8. Create a separate, alphabetically sorted list for the dropdown input ---
-available_members_sorted <- sort(unique(as.character(full_data$Votante)))
+if (length(available_periods) == 0) {
+  stop("No periods found in the data. Check the 'comparacion' column format in your Data.")
+}
 
 # --- 2. Define UI -------------------------------------------------------------
 ui <- fluidPage(
-  titlePanel("Análisis de Dinámica Política en la Convención Constitucional (2021-2022)"),
+  titlePanel("Cambios en Ordenamiento Político según bloques de sesiones en el Pleno — CC 2021-2022"),
   
   sidebarLayout(
     sidebarPanel(
-      h4("Controles de Visualización"),
+      h4("Bloques de sesiones del Pleno a Comparar"),
       
-      selectInput("tipo_ordenamiento",
-                  "1. Seleccione el tipo de ordenamiento:",
-                  choices = c("Continuo (-1 a 1)" = "continuo", "Ordinal (1 a 154)" = "ordinal"),
-                  selected = "continuo"),
+      br(), # spacing
       
-      # --- MODIFIED: Use the alphabetically sorted list for choices ---
-      selectizeInput("convencionales_seleccionados",
-                     "2. Seleccione convencionales para el gráfico de dinámica:",
-                     choices = available_members_sorted, # Uses the new sorted list
-                     selected = c("Marinovic, Teresa", "Zuñiga, Luis Arturo"), # Default selection
-                     multiple = TRUE,
-                     options = list(placeholder = 'Escriba un nombre...')),
+      # --- Input for Comparison 1 (Top Plot) ---
+      h5("Comparación 1 (Gráfico Superior):"),
+      selectInput("period1_start",
+                  "Periodo Inicial:",
+                  choices = available_periods,
+                  selected = available_periods[1]), # Default to the first
+      selectInput("period1_end",
+                  "Periodo Final:",
+                  choices = available_periods,
+                  selected = if(length(available_periods) > 1) available_periods[2] else available_periods[1]), # Default to the second
+      
+      br(), # spacing
+      
+      # --- Input for Comparison 2 (Bottom Plot) ---
+      h5("Comparación 2 (Gráfico Inferior):"),
+      selectInput("period2_start",
+                  "Periodo Inicial:",
+                  choices = available_periods,
+                  # Sensible default: maybe the same as period1_start or the next one
+                  selected = available_periods[1]), 
+      selectInput("period2_end",
+                  "Periodo Final:",
+                  choices = available_periods,
+                  # Sensible default: maybe the last or thrird available
+                  selected = if(length(available_periods) > 2) available_periods[length(available_periods)] else available_periods[3]),
       
       hr(),
-      p(strong("Heatmap de Posicionamiento (Gráfico Superior):")),
-      p("Muestra la posición ideológica de cada convencional a lo largo del tiempo. ",
-        "El eje Y está ordenado de izquierda (arriba) a derecha (abajo) según la posición en el primer bloque (01-15). ",
-        "El color rojo indica una posición de izquierda, el azul de derecha y el blanco de centro."),
-      
-      p(strong("Gráfico de Dinámica (Gráfico Inferior):")),
-      p("Muestra el cambio en la posición de los convencionales seleccionados. ",
-        "El eje Y representa la diferencia de posición con respecto al bloque de sesiones inmediatamente anterior. Un valor positivo indica un movimiento hacia la derecha; uno negativo, hacia la izquierda.")
+      p("Tanto el ordenamiento político como los bootstrap se calcularon mediante ", strong("W-Nominate.")),
+      p(strong("El orden del Eje X"), " se basa en la posición de los votantes en el 'Periodo Inicial' de la Comparación 1 (gráfico superior)."),
+      p(strong("Las flechas"), " indican la dirección del cambio (Rojo: Izquierda, Azul: Derecha)."),
+      p(strong("La forma del punto"), " indica significancia estadística en el test-t (Círculo: Significativo p<0.05, Triángulo: No Significativo).")
     ),
     
     mainPanel(
-      h3("Heatmap de Posicionamiento Político por Bloque de Sesiones"),
-      plotOutput("heatmap_plot", height = "600px"),
-      hr(),
-      h3("Dinámica de Cambio en el Posicionamiento"),
-      plotOutput("dynamics_plot", height = "400px")
+      br(), # spacing
+      
+      # Output for the combined plot
+      plotOutput("combined_plot", height = "700px") # Adjust height as needed
     )
   )
 )
 
 # --- 3. Define Server Logic ---------------------------------------------------
-server <- function(input, output) {
+server <- function(input, output, session) {
   
-  # --- 3.1. Heatmap Plot ---
-  output$heatmap_plot <- renderPlot({
+  # Reactive expression to generate the plot data based on selections
+  plot_data <- reactive({
+    # Ensure all four inputs are selected before proceeding
+    req(input$period1_start, input$period1_end, input$period2_start, input$period2_end)
     
-    if (input$tipo_ordenamiento == "continuo") {
-      fill_var <- "posicion_continua"
-      midpoint_color <- 0
-      color_limits <- c(-1, 1)
-      legend_title <- "Posición Continua"
-    } else {
-      fill_var <- "posicion_ordinal"
-      midpoint_color <- 77.5 # Midpoint for 1-154 positions
-      color_limits <- c(1, 154)
-      legend_title <- "Posición Ordinal"
-    }
+    # Prevent user from selecting the same start and end period for a comparison
+    validate(
+      need(input$period1_start != input$period1_end, "Comparación 1: El periodo inicial y final deben ser diferentes."),
+      need(input$period2_start != input$period2_end, "Comparación 2: El periodo inicial y final deben ser diferentes.")
+    )
     
-    ggplot(full_data, aes(x = Periodo, y = Votante, fill = .data[[fill_var]])) +
-      geom_tile(color = "white", lwd = 0.2) +
-      scale_fill_gradient2(
-        low = "red",
-        mid = "white",
-        high = "blue",
-        midpoint = midpoint_color,
-        limit = color_limits,
-        name = legend_title
+    p1_start <- input$period1_start
+    p1_end <- input$period1_end
+    p2_start <- input$period2_start
+    p2_end <- input$period2_end
+    
+    # Create the comparison strings needed to filter the data
+    # IMPORTANT: Assumes your CSV's 'comparacion' column stores strings like "P1 vs P2"
+    comparison_str1 <- paste(p1_start, "vs", p1_end)
+    comparison_str2 <- paste(p2_start, "vs", p2_end)
+    
+    # Filter the main data for the two selected comparison strings
+    data_filtered <- orden_votantes_t_procesado %>%
+      filter(comparacion %in% c(comparison_str1, comparison_str2))
+    
+    # Check if data exists for the selected comparisons
+    validate(
+      need(nrow(data_filtered) > 0,
+           paste("No hay datos de comparación precalculados para una o ambas selecciones:",
+                 comparison_str1, "o", comparison_str2,
+                 ". Verifique el archivo CSV o el script de preprocesamiento.")),
+      # Check specifically if each required comparison was found after filtering
+      need(comparison_str1 %in% unique(data_filtered$comparacion),
+           paste("No se encontraron datos para la comparación:", comparison_str1)),
+      need(comparison_str2 %in% unique(data_filtered$comparacion),
+           paste("No se encontraron datos para la comparación:", comparison_str2))
+    )
+    
+    # Separate data for each plot
+    data_plot_1 <- data_filtered %>% filter(comparacion == comparison_str1)
+    data_plot_2 <- data_filtered %>% filter(comparacion == comparison_str2)
+    
+    # --- Determine X-axis Ordering ---
+    # Order based on the position in the START period of COMPARISON 1 (p1_start)
+    # We need the 'posicion_inicial' values corresponding ONLY to comparisons *starting* with p1_start
+    # We query the original processed data for this.
+    base_order_data <- orden_votantes_t_procesado %>%
+      filter(Periodo1 == p1_start) %>%
+      # If a voter appears multiple times for p1_start (compared to different second periods),
+      # just take their first occurrence's position for ordering.
+      distinct(Votante, .keep_all = TRUE) %>%
+      select(Votante, base_posicion = posicion_inicial) # Rename to base_posicion for clarity
+    
+    validate(
+      need(nrow(base_order_data) > 0, paste("No se pudo determinar el orden basado en el periodo:", p1_start, ". Verifique que existan comparaciones que comiencen con este periodo en los datos."))
+    )
+    
+    # Join this base position back to the filtered plot data for ordering
+    # Use inner_join to ensure only voters present in the base ordering data are plotted
+    # (or left_join if you want to see voters even if their base position is missing, though they won't order correctly)
+    data_plot_1 <- data_plot_1 %>% inner_join(base_order_data, by = "Votante")
+    data_plot_2 <- data_plot_2 %>% inner_join(base_order_data, by = "Votante")
+    
+    # Final check after join
+    validate(
+      need(nrow(data_plot_1) > 0, paste("No se encontraron datos válidos para mostrar para:", comparison_str1, "después de aplicar el orden.")),
+      need(nrow(data_plot_2) > 0, paste("No se encontraron datos válidos para mostrar para:", comparison_str2, "después de aplicar el orden.")),
+      need(all(!is.na(data_plot_1$base_posicion)), "Error interno: No se pudieron determinar las posiciones base para el gráfico 1."),
+      need(all(!is.na(data_plot_2$base_posicion)), "Error interno: No se pudieron determinar las posiciones base para el gráfico 2.")
+    )
+    
+    # Return a list containing data for both plots and the comparison strings
+    list(
+      data1 = data_plot_1,
+      data2 = data_plot_2,
+      comp_str1 = comparison_str1,
+      comp_str2 = comparison_str2,
+      order_period = p1_start # Pass the period used for ordering for the x-axis label
+    )
+  })
+  
+  # --- Render Plot (output$combined_plot) ---
+  # The renderPlot part needs only MINOR changes:
+  # 1. Update the x-axis label in plot_2 to use the dynamic order_period
+  # 2. Ensure plot titles use plot_data_list$comp_str1 and plot_data_list$comp_str2
+  # The core ggplot calls using fct_reorder(Votante, base_posicion) are ALREADY correct.
+  
+  output$combined_plot <- renderPlot({
+    
+    plot_data_list <- plot_data() # Get the reactive data
+    
+    # --- Define common plot elements (scales, shapes, colors) ---
+    # (Keep the existing definitions for common_y_scale, common_color_scale, etc.)
+    # ... (previous common element definitions remain the same) ...
+    common_y_scale <- scale_y_continuous(limits = c(-1.1, 1.1), breaks = seq(-1, 1, by = 0.5))
+    common_color_scale <- scale_color_manual(
+      name = "Dirección del Cambio",
+      values = c("Izquierda" = "red", "Derecha" = "blue", "Sin cambio" = "grey"), # Added grey for no change
+      na.translate = FALSE
+    )
+    common_shape_scale <- scale_shape_manual(
+      name = "Significancia Estadística",
+      values = c("Significativo (p < 0.05)" = 21, "No Significativo (p >= 0.05)" = 24),
+      drop = FALSE
+    )
+    common_fill_scale <- scale_fill_manual(
+      name = "Significancia Estadística",
+      values = c("Significativo (p < 0.05)" = "white", "No Significativo (p >= 0.05)" = "black"),
+      drop = FALSE
+    )
+    common_guides <- guides(
+      shape = guide_legend(title = "Significancia Estadística"),
+      fill = guide_legend(title = "Significancia Estadística"),
+      color = guide_legend(title = "Dirección del Cambio")
+    )
+    
+    # --- Create Plot 1 (Top) ---
+    plot_1 <- ggplot(plot_data_list$data1,
+                     # Use the base_posicion from the join for consistent ordering
+                     aes(x = fct_reorder(Votante, base_posicion), y = posicion_inicial)) +
+      geom_segment(
+        aes(xend = fct_reorder(Votante, base_posicion), yend = posicion_final, color = direccion_cambio_factor),
+        arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
       ) +
+      geom_point(
+        aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
+        size = 2.75, stroke = 0.5, color = "darkgrey"
+      ) +
+      common_y_scale +
+      common_color_scale +
+      common_shape_scale +
+      common_fill_scale +
+      common_guides +
       labs(
-        x = "Bloque de Sesiones de Votación",
-        y = "Convencionales (Ordenados por posición en el bloque 01-15)"
+        title = plot_data_list$comp_str1, # Dynamic title
+        x = NULL,
+        y = "Posición Política"
       ) +
       theme_minimal(base_size = 12) +
       theme(
-        axis.text.x = element_text(angle = 45, hjust = 1),
-        # --- MODIFIED: Font size for Y-axis labels is now 6 ---
-        axis.text.y = element_text(size = 6),
-        legend.position = "right",
-        panel.grid = element_blank()
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 11),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none",
+        panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2),
+        panel.grid.minor.x = element_blank()
       )
+    
+    # --- Create Plot 2 (Bottom) ---
+    plot_2 <- ggplot(plot_data_list$data2,
+                     aes(x = fct_reorder(Votante, base_posicion), y = posicion_inicial)) +
+      geom_segment(
+        aes(xend = fct_reorder(Votante, base_posicion), yend = posicion_final, color = direccion_cambio_factor),
+        arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
+      ) +
+      geom_point(
+        aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
+        size = 2.50, stroke = 0.5, color = "darkgrey"
+      ) +
+      common_y_scale +
+      common_color_scale +
+      common_shape_scale +
+      common_fill_scale +
+      common_guides +
+      labs(
+        title = plot_data_list$comp_str2, # Dynamic title
+        # *** MODIFIED X LABEL HERE ***
+        x = paste("Votante (ordenado por posición inicial en periodo", plot_data_list$order_period, ")"),
+        y = "Posición Política"
+      ) +
+      theme_minimal(base_size = 15) + # Larger base size for bottom plot labels
+      theme(
+        plot.title = element_text(hjust = 0.5, face = "bold", size = 11),
+        axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 8),
+        legend.position = "none",
+        panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2),
+        panel.grid.minor.x = element_blank()
+      )
+    
+    # --- Combine Plots ---
+    # (Combination logic remains the same)
+    plot_combinado <- plot_1 / plot_2 +
+      plot_layout(guides = 'collect') +
+      plot_annotation(
+        title = "Cambio en la Posición Política de Convencionales",
+        subtitle = "Comparación posición ideológica con W-Nominate, según ventanas de sesiones seleccionadas",
+        theme = theme(plot.title = element_text(hjust = 0.5, size = 18, face="bold"),
+                      plot.subtitle = element_text(hjust = 0.5, size = 12))
+      ) & # Use & to apply theme elements potentially to collected legends too
+      theme(legend.position = 'bottom') # Ensure legend is collected at the bottom
+    
+    print(plot_combinado) # Display the combined plot
+    
   })
   
-  # --- 3.2. Dynamics Line Plot ---
-  output$dynamics_plot <- renderPlot({
-    
-    validate(
-      need(input$convencionales_seleccionados, "Por favor, seleccione al menos un convencional en el panel de la izquierda.")
-    )
-    
-    dynamics_data <- full_data %>%
-      filter(Votante %in% input$convencionales_seleccionados)
-    
-    if (input$tipo_ordenamiento == "continuo") {
-      diff_var <- "diferencia_continua"
-      y_limits <- c(-1, 1)
-      y_label <- "Diferencia de Posición Continua (vs. bloque anterior)"
-    } else {
-      diff_var <- "diferencia_ordinal"
-      y_limits <- c(-50, 50)
-      y_label <- "Diferencia de Posición Ordinal (vs. bloque anterior)"
-    }
-    
-    ggplot(dynamics_data, aes(x = Periodo, y = .data[[diff_var]], group = Votante, color = Votante)) +
-      geom_hline(yintercept = 0, linetype = "dashed", color = "grey40") +
-      geom_line(linewidth = 1.2) +
-      geom_point(size = 3) +
-      scale_color_viridis_d(name = "Convencional") +
-      scale_y_continuous(limits = y_limits) +
-      labs(
-        x = "Bloque de Sesiones de Votación",
-        y = y_label,
-        title = "Cambio en Posición Respecto al Bloque Anterior"
-      ) +
-      theme_minimal(base_size = 14) +
-      theme(
-        legend.position = "bottom",
-        plot.title = element_text(hjust = 0.5, face = "bold")
-      )
-  })
 }
 
-
 # --- 4. Run the Application ---------------------------------------------------
+
 shinyApp(ui = ui, server = server)
 
+#shiny::runApp("04_ord_pleno_shiny.R")
