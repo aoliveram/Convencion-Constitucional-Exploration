@@ -1,9 +1,8 @@
-# --- 0. Load Libraries ---
 library(shiny)
 library(ggplot2)
 library(dplyr)
 library(readr)
-library(tidyr) # Needed for separate()
+library(tidyr) # for separate()
 library(stringr)
 library(forcats)
 library(viridis) # For better color palettes
@@ -103,11 +102,11 @@ ui <- fluidPage(
     ),
     
     mainPanel(
-      h3("Heatmap de Posicionamiento Político por Bloque de Sesiones"),
-      plotOutput("heatmap_plot", height = "600px"),
-      hr(),
       h3("Dinámica de Cambio en el Posicionamiento"),
-      plotOutput("dynamics_plot", height = "400px")
+      plotOutput("dynamics_plot", height = "400px"),
+      hr(),
+      h3("Heatmap de Posicionamiento Político por Bloque de Sesiones"),
+      plotOutput("heatmap_plot", height = "900px")
     )
   )
 )
@@ -118,7 +117,6 @@ server <- function(input, output) {
   # --- 3.1. Heatmap Plot ---
   output$heatmap_plot <- renderPlot({
     
-    # --- FINAL CORRECTION: Invert color mapping for Ordinal scale ---
     if (input$tipo_ordenamiento == "continuo") {
       fill_var <- "posicion_continua"
       midpoint_color <- 0
@@ -147,13 +145,13 @@ server <- function(input, output) {
         midpoint = midpoint_color
       ) +
       labs(
-        x = "Bloque de Sesiones de Votación",
-        y = "Convencionales (Ordenados por posición en el bloque 01-15)"
+        x = NULL,
+        y = NULL
       ) +
       theme_minimal(base_size = 12) +
       theme(
         axis.text.x = element_text(angle = 45, hjust = 1),
-        axis.text.y = element_text(size = 6),
+        axis.text.y = element_text(size = 7),
         legend.position = "right",
         panel.grid = element_blank()
       )
