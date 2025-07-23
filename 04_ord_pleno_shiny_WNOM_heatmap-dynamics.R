@@ -3,10 +3,10 @@ library(shiny)
 library(ggplot2)
 library(dplyr)
 library(readr)
-library(tidyr) # for separate()
+library(tidyr) # Needed for separate()
 library(stringr)
 library(forcats)
-library(viridis) # color palettes
+library(viridis) # For better color palettes
 
 # --- 1. Load and Prepare Data -------------------------------------------------
 tryCatch({
@@ -17,63 +17,59 @@ tryCatch({
 
 # --- Data Preparation Logic ---
 
-# 1. Extract all "initial" positions from the raw data
+# 1. Extract all "initial" and "final" positions to create a clean, unified table
 data_inicial <- orden_votantes_t_raw %>%
   separate(comparacion, into = c("Periodo", "Periodo_end"), sep = " vs ", remove = FALSE) %>%
   select(Votante, Periodo, posicion_continua = pos_ideol_inicial)
 
-# 2. Extract and calculate all "final" positions from the raw data
 data_final <- orden_votantes_t_raw %>%
   separate(comparacion, into = c("Periodo_start", "Periodo"), sep = " vs ", remove = FALSE) %>%
-  mutate(posicion_continua = pos_ideol_inicial + dif_media) %>% # Calculate the position in the final period
+  mutate(posicion_continua = pos_ideol_inicial + dif_media) %>%
   select(Votante, Periodo, posicion_continua)
 
-# 3. Combine and get a single, unique position for each voter-period pair
 positions_data <- bind_rows(data_inicial, data_final) %>%
   distinct(Votante, Periodo, .keep_all = TRUE)
 
-# 4. Get the list of all unique periods and sort them
-periodos_unicos <- sort(unique(positions_data$Periodo))
+# Ensure correct chronological sorting of periods
+unique_periods_char <- unique(positions_data$Periodo)
+period_sorter <- tibble(Periodo = unique_periods_char) %>%
+  mutate(start_num = as.numeric(str_extract(Periodo, "^\\d+"))) %>%
+  arrange(start_num)
+periodos_unicos <- period_sorter$Periodo
 
 # 5. Build the final, full data frame with all metrics
 full_data <- positions_data %>%
-  # Ensure Periodo is an ordered factor for correct chronological sorting and plotting
   mutate(Periodo = factor(Periodo, levels = periodos_unicos, ordered = TRUE)) %>%
-  # Calculate ordinal position (rank) within each period block
   group_by(Periodo) %>%
   mutate(posicion_ordinal = rank(-posicion_continua, ties.method = "first")) %>%
   ungroup() %>%
-  # Arrange by Votante and Period to correctly calculate differences vs. the previous period
   arrange(Votante, Periodo) %>%
   group_by(Votante) %>%
   mutate(
-    # Calculate difference vs. previous period using lag()
     diferencia_continua = posicion_continua - lag(posicion_continua),
     diferencia_ordinal = posicion_ordinal - lag(posicion_ordinal)
   ) %>%
-  # Replace NA (for the first period) with 0, as there's no change from a prior state
   mutate(
     diferencia_continua = ifelse(is.na(diferencia_continua), 0, diferencia_continua),
     diferencia_ordinal = ifelse(is.na(diferencia_ordinal), 0, diferencia_ordinal)
   ) %>%
   ungroup()
 
-# 6. Get the definitive, unique order of Votantes based on their position in the FIRST period
+# 6. Get the definitive order of Votantes based on the FIRST period
 votante_order <- full_data %>%
   filter(Periodo == periodos_unicos[1]) %>%
-  arrange(posicion_continua) %>% # Order from left (-1) to right (1)
-  pull(Votante) # This will now be unique due to the corrected 'positions_data'
+  arrange(posicion_continua) %>%
+  pull(Votante)
 
-# 7. Apply this fixed order to the main data frame's Votante factor levels
-# The `rev()` call places left-wing (more negative) at the top of the heatmap
+# 7. Apply this fixed political order to the data frame's Votante factor
 full_data$Votante <- factor(full_data$Votante, levels = rev(votante_order))
 
-# Filter out any voters who might not have been present in the first period (and thus are NA in the factor)
 full_data <- full_data %>%
   filter(!is.na(Votante))
 
-# 8. Create a separate, alphabetically sorted list for the dropdown input ---
+# Create a separate, alphabetically sorted list for the dropdown input
 available_members_sorted <- sort(unique(as.character(full_data$Votante)))
+
 
 # --- 2. Define UI -------------------------------------------------------------
 ui <- fluidPage(
@@ -88,11 +84,10 @@ ui <- fluidPage(
                   choices = c("Continuo (-1 a 1)" = "continuo", "Ordinal (1 a 154)" = "ordinal"),
                   selected = "continuo"),
       
-      # --- MODIFIED: Use the alphabetically sorted list for choices ---
       selectizeInput("convencionales_seleccionados",
                      "2. Seleccione convencionales para el gráfico de dinámica:",
-                     choices = available_members_sorted, # Uses the new sorted list
-                     selected = c("Marinovic, Teresa", "Zuñiga, Luis Arturo"), # Default selection
+                     choices = available_members_sorted,
+                     selected = c("Marinovic, Teresa", "Zuñiga, Luis Arturo"),
                      multiple = TRUE,
                      options = list(placeholder = 'Escriba un nombre...')),
       
@@ -123,27 +118,33 @@ server <- function(input, output) {
   # --- 3.1. Heatmap Plot ---
   output$heatmap_plot <- renderPlot({
     
+    # --- FINAL CORRECTION: Invert color mapping for Ordinal scale ---
     if (input$tipo_ordenamiento == "continuo") {
       fill_var <- "posicion_continua"
       midpoint_color <- 0
-      color_limits <- c(-1, 1)
       legend_title <- "Posición Continua"
+      # For continuous, low values (-1) are left-wing (red)
+      low_color <- "red"
+      high_color <- "blue"
     } else {
       fill_var <- "posicion_ordinal"
-      midpoint_color <- 77.5 # Midpoint for 1-154 positions
-      color_limits <- c(1, 154)
+      midpoint_color <- 77.5 
       legend_title <- "Posición Ordinal"
+      # For ordinal, low rank numbers (e.g. 1) are right-wing (blue),
+      # and high rank numbers (e.g. 154) are left-wing (red).
+      # So we must map 'low' to blue and 'high' to red.
+      low_color <- "blue"
+      high_color <- "red"
     }
     
     ggplot(full_data, aes(x = Periodo, y = Votante, fill = .data[[fill_var]])) +
       geom_tile(color = "white", lwd = 0.2) +
       scale_fill_gradient2(
-        low = "red",
+        name = legend_title,
+        low = low_color,
         mid = "white",
-        high = "blue",
-        midpoint = midpoint_color,
-        limit = color_limits,
-        name = legend_title
+        high = high_color,
+        midpoint = midpoint_color
       ) +
       labs(
         x = "Bloque de Sesiones de Votación",
@@ -152,7 +153,6 @@ server <- function(input, output) {
       theme_minimal(base_size = 12) +
       theme(
         axis.text.x = element_text(angle = 45, hjust = 1),
-        # --- MODIFIED: Font size for Y-axis labels is now 6 ---
         axis.text.y = element_text(size = 6),
         legend.position = "right",
         panel.grid = element_blank()
@@ -172,11 +172,11 @@ server <- function(input, output) {
     if (input$tipo_ordenamiento == "continuo") {
       diff_var <- "diferencia_continua"
       y_limits <- c(-1, 1)
-      y_label <- "Diferencia de Posición Continua (vs. bloque anterior)"
+      y_label <- "<--  Izquierda  /  Derecha  -->"
     } else {
       diff_var <- "diferencia_ordinal"
       y_limits <- c(-50, 50)
-      y_label <- "Diferencia de Posición Ordinal (vs. bloque anterior)"
+      y_label <- "<--  Derecha  /  Izquierda  -->"
     }
     
     ggplot(dynamics_data, aes(x = Periodo, y = .data[[diff_var]], group = Votante, color = Votante)) +
@@ -198,7 +198,5 @@ server <- function(input, output) {
   })
 }
 
-
 # --- 4. Run the Application ---------------------------------------------------
 shinyApp(ui = ui, server = server)
-
