@@ -72,40 +72,41 @@ available_members_sorted <- sort(unique(as.character(full_data$Votante)))
 
 # --- 2. Define UI -------------------------------------------------------------
 ui <- fluidPage(
-  titlePanel("Análisis de Dinámica Política en la Convención Constitucional (2021-2022)"),
+  titlePanel("Dinámica Política en la Convención Constitucional (2021-2022)"),
   
   sidebarLayout(
     sidebarPanel(
       h4("Controles de Visualización"),
       
       selectInput("tipo_ordenamiento",
-                  "1. Seleccione el tipo de ordenamiento:",
+                  "1. Tipo de ordenamiento:",
                   choices = c("Continuo (-1 a 1)" = "continuo", "Ordinal (1 a 154)" = "ordinal"),
                   selected = "continuo"),
       
       selectizeInput("convencionales_seleccionados",
-                     "2. Seleccione convencionales para el gráfico de dinámica:",
+                     "2. Convencionales para el gráfico de dinámica:",
                      choices = available_members_sorted,
-                     selected = c("Marinovic, Teresa", "Zuñiga, Luis Arturo"),
+                     selected = c("Marinovic, Teresa"),
                      multiple = TRUE,
                      options = list(placeholder = 'Escriba un nombre...')),
       
       hr(),
-      p(strong("Heatmap de Posicionamiento (Gráfico Superior):")),
+      
+      p(strong("Gráfico de Dinámica - Gráfico Superior:")),
+      p("Muestra el cambio en la posición de los convencionales seleccionados. ",
+        "El eje Y representa la diferencia de posición con respecto al bloque de sesiones inmediatamente anterior. Un valor positivo indica un movimiento hacia la derecha; uno negativo, hacia la izquierda."),
+      
+      p(strong("Heatmap de Posicionamiento - Gráfico Inferior:")),
       p("Muestra la posición ideológica de cada convencional a lo largo del tiempo. ",
         "El eje Y está ordenado de izquierda (arriba) a derecha (abajo) según la posición en el primer bloque (01-15). ",
-        "El color rojo indica una posición de izquierda, el azul de derecha y el blanco de centro."),
-      
-      p(strong("Gráfico de Dinámica (Gráfico Inferior):")),
-      p("Muestra el cambio en la posición de los convencionales seleccionados. ",
-        "El eje Y representa la diferencia de posición con respecto al bloque de sesiones inmediatamente anterior. Un valor positivo indica un movimiento hacia la derecha; uno negativo, hacia la izquierda.")
+        "El color rojo indica una posición de izquierda, el azul de derecha y el blanco de centro.")
     ),
     
     mainPanel(
-      h3("Dinámica de Cambio en el Posicionamiento"),
+      h3("Dinámica individual - Ordenamiento político"),
       plotOutput("dynamics_plot", height = "400px"),
       hr(),
-      h3("Heatmap de Posicionamiento Político por Bloque de Sesiones"),
+      h3("Heatmap global - Ordenamiento político"),
       plotOutput("heatmap_plot", height = "900px")
     )
   )
@@ -186,7 +187,7 @@ server <- function(input, output) {
       labs(
         x = "Bloque de Sesiones de Votación",
         y = y_label,
-        title = "Cambio en Posición Respecto al Bloque Anterior"
+        title = NULL
       ) +
       theme_minimal(base_size = 14) +
       theme(
