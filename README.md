@@ -6,6 +6,8 @@ Repositorio para la exploración de datos de la Convención Constitucional. Los 
 
 La estimación del ordenamiento ideológico proviene de https://github.com/jfabregalacoa/rcp_convencion 
 
+Proyecto parte de FONDECYT 1231131.
+
 ### Dinámica ordenamiento de convencionales
 
 Para comprobar que existe dinámica en el ordenamiento político 1D dentro de la Convención Constitucional, se juntaron los datos de todas las sesiones en ventanas de ~40 días, sin considerar aquellas que no tenían votos, o cuyos votos tenían una índole distinta de la puramente política (ver https://github.com/jfabregalacoa/rcp_convencion ). 
