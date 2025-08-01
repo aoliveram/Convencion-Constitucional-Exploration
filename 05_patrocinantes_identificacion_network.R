@@ -56,7 +56,7 @@ print(paste("Unique document IDs found:", length(unique_docs)))
 print(paste("Unique conventionals found:", length(unique_convs)))
 
 
-# 3. Create the bipartite graph (igraph)
+# 3. Create the bipartite graph
 
 g_bipartite <- graph_from_data_frame(edge_list_df, directed = FALSE)
 
@@ -96,7 +96,7 @@ legend("topleft", legend=c("Documento", "Convencional"),
        col=c("salmon", "lightblue"), pt.cex=2, cex=0.8, bty="n")
 
 
-# 5. Network Projections
+# 5. Network Projections =======================================================
 
 proj_conv <- bipartite_projection(g_bipartite, which = TRUE)
 E(proj_conv)$weight
@@ -107,7 +107,7 @@ E(proj_docs)$weight
 summary(proj_docs)
 
 
-# Patrocinantes Network
+# Patrocinantes Network --------------------------------------------------------
 V(proj_conv)$size <- 4
 V(proj_conv)$label.cex <- 0.6
 l_conv <- layout_with_fr(proj_conv)
@@ -123,7 +123,32 @@ plot(proj_conv,
      # vertex.label = NA # Uncomment to hide labels if too crowded
 )
 
-# Iniciativas Network
+# filtramos por peso
+umbral_de_peso <- 5
+proj_conv_filtrado <- delete_edges(proj_conv, E(proj_conv)[weight <= umbral_de_peso])
+
+# remover nodos aislados
+proj_conv_filtrado <- delete_vertices(proj_conv_filtrado, which(degree(proj_conv_filtrado) == 0))
+
+# Se recalcula el layout para el grafo filtrado, ya que su estructura ha cambiado
+l_conv_filtrado <- layout_with_kk(proj_conv_filtrado)
+
+# Plot del grafo filtrado
+plot(proj_conv_filtrado,
+     layout = l_conv_filtrado,
+     main = paste("Red de Patrocinantes (Lazos con más de", umbral_de_peso, 
+                  "iniciativas en común)"),
+     vertex.color = "lightblue",
+     vertex.shape = "circle",
+     vertex.size = 4,
+     vertex.label.cex = 0.6,
+     vertex.label.color="black",
+     # El grosor del lazo ahora se basa en el grafo filtrado
+     edge.width = E(proj_conv_filtrado)$weight / mean(E(proj_conv_filtrado)$weight),
+     edge.color = "gray70"
+)
+
+# Iniciativas Network ----------------------------------------------------------
 V(proj_docs)$size <- 4
 V(proj_docs)$label.cex <- 0.5
 l_docs <- layout_with_fr(proj_docs)
@@ -138,3 +163,43 @@ plot(proj_docs,
      edge.color = "gray70"
      # vertex.label = NA # Uncomment to hide labels if too crowded
 )
+
+#--- Líneas para el Arreglo de Subplots de Detección de Comunidades ---
+
+# Se guarda el layout original para usarlo en todos los subplots.
+l_docs <- layout_with_fr(proj_docs)
+
+# Se configura el dispositivo gráfico para un arreglo de 2x2.
+# mar=c(1, 1, 2, 1) reduce los márgenes para dar más espacio a los gráficos.
+par(mfrow = c(2, 2), mar = c(1, 1, 2, 1))
+
+# --- Subplot 1: Algoritmo Walktrap (el que ya tenías) ---
+comunidades_walktrap <- cluster_walktrap(proj_docs)
+plot(proj_docs, layout = l_docs, main = "Comunidades con Walktrap",
+     vertex.size = 4, vertex.label = NA, # Se quitan las etiquetas para mayor claridad
+     vertex.color = membership(comunidades_walktrap),
+     mark.groups = comunidades_walktrap)
+
+# --- Subplot 2: Algoritmo Louvain ---
+comunidades_louvain <- cluster_louvain(proj_docs)
+plot(proj_docs, layout = l_docs, main = "Comunidades con Louvain",
+     vertex.size = 4, vertex.label = NA,
+     vertex.color = membership(comunidades_louvain),
+     mark.groups = comunidades_louvain)
+
+# --- Subplot 3: Algoritmo Fast Greedy ---
+comunidades_fastgreedy <- cluster_fast_greedy(proj_docs)
+plot(proj_docs, layout = l_docs, main = "Comunidades con Fast Greedy",
+     vertex.size = 4, vertex.label = NA,
+     vertex.color = membership(comunidades_fastgreedy),
+     mark.groups = comunidades_fastgreedy)
+
+# --- Subplot 4: Algoritmo Infomap ---
+comunidades_infomap <- cluster_infomap(proj_docs)
+plot(proj_docs, layout = l_docs, main = "Comunidades con Infomap",
+     vertex.size = 4, vertex.label = NA,
+     vertex.color = membership(comunidades_infomap),
+     mark.groups = comunidades_infomap)
+
+# Se restaura el dispositivo gráfico a su configuración original (un solo plot).
+par(mfrow = c(1, 1))
