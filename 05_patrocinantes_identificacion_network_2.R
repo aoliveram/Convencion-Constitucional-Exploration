@@ -127,6 +127,35 @@ master_layout <- layout_with_fr(g_for_layout, weights = edge_weights_for_layout)
 rownames(master_layout) <- V(g_for_layout)$name
 cat("Layout maestro calculado.\n")
 
+# --- Visualización de las Comunidades del Período Final ---
+
+# Extraer los nombres de los nodos que están activos en este período específico
+nodes_in_final_period <- V(proj_conv_layout_base)$name
+
+# Filtrar el layout maestro para usar solo las coordenadas de los nodos activos
+layout_for_final_plot <- master_layout[nodes_in_final_period, ]
+
+# Abrir un nuevo dispositivo gráfico (opcional, pero bueno si trabajas en RStudio)
+# dev.new() 
+
+plot(proj_conv_layout_base,
+     layout = layout_for_final_plot,
+     main = "Comunidades en el Período Final (28-Ene a 01-Feb)",
+     # Colorear cada nodo según la comunidad a la que pertenece
+     vertex.color = membership(communities_final),
+     # Dibujar polígonos alrededor de cada comunidad
+     mark.groups = communities_final,
+     vertex.size = 5,
+     vertex.label.cex = 0.6,
+     vertex.label.color = "black",
+     edge.color = "gray50",
+     # Usar la misma escala logarítmica para el grosor de los lazos
+     edge.width = log(E(proj_conv_layout_base)$weight + 1) * 1.5
+)
+
+cat("Plot estático generado.\n")
+
+# --- FIN DEL CÓDIGO A AGREGAR ---
 
 #############################################################################
 # PARTE 2: GENERACIÓN DEL GIF CON LAYOUT Y LAZOS CORREGIDOS
