@@ -36,7 +36,7 @@ except Exception as config_err:
      raise RuntimeError(f"Error configurando la API: {config_err}")
 
 # --- 2. Modelo y Prompt ---
-MODEL_NAME = 'gemini-2.0-flash'
+MODEL_NAME = 'gemini-2.5-flash-lite'
 print(f"Usando el modelo: {MODEL_NAME}")
 
 # Cargar el prompt desde el archivo
