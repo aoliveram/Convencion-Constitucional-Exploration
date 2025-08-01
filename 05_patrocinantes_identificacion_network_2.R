@@ -135,9 +135,6 @@ nodes_in_final_period <- V(proj_conv_layout_base)$name
 # Filtrar el layout maestro para usar solo las coordenadas de los nodos activos
 layout_for_final_plot <- master_layout[nodes_in_final_period, ]
 
-# Abrir un nuevo dispositivo gráfico (opcional, pero bueno si trabajas en RStudio)
-# dev.new() 
-
 plot(proj_conv_layout_base,
      layout = layout_for_final_plot,
      main = "Comunidades en el Período Final (28-Ene a 01-Feb)",
@@ -152,8 +149,6 @@ plot(proj_conv_layout_base,
      # Usar la misma escala logarítmica para el grosor de los lazos
      edge.width = log(E(proj_conv_layout_base)$weight + 1) * 1.5
 )
-
-cat("Plot estático generado.\n")
 
 # --- FIN DEL CÓDIGO A AGREGAR ---
 
