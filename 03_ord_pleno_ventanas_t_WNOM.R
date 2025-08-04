@@ -116,11 +116,11 @@ execution_time_parallel # 1.86 min M1 (200), 3.33 min M4 (1000)
 votantes_01_15_bootstrap <- ordenamiento_1D_WNOM_01_15_bootstrap$legislador[ordenamiento_1D_WNOM_01_15_bootstrap$iteracion == 1]
 
 write.csv(ordenamiento_1D_WNOM_01_15_bootstrap,
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_01_15_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -162,11 +162,11 @@ votantes_16_21_bootstrap <- ordenamiento_1D_WNOM_16_21_bootstrap$legislador[orde
 votantes_01_15_bootstrap[!votantes_01_15_bootstrap %in% votantes_16_21_bootstrap] # Check
 
 write.csv(ordenamiento_1D_WNOM_16_21_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -208,11 +208,11 @@ votantes_22_37_bootstrap <- ordenamiento_1D_WNOM_22_37_bootstrap$legislador[orde
 votantes_01_15_bootstrap[!votantes_01_15_bootstrap %in% votantes_22_37_bootstrap] # Check
 
 write.csv(ordenamiento_1D_WNOM_22_37_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -250,11 +250,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 1.1 seg M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_38_46_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_38_46_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -292,11 +292,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 53.7 sec M4 (1000) 
 
 write.csv(ordenamiento_1D_WNOM_47_55_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_47_55_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -334,11 +334,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel #  10.01 min CHPC (200), 19.37 min M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_56_75_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_56_75_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -376,11 +376,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 28.61 min CHPC (200), 44.11 min M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_76_99_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_76_99_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -418,11 +418,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 6.23 min CHPC (200), 9.56 min M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_100_106_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_100_106_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -460,11 +460,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # --- failed
 
 write.csv(ordenamiento_1D_WNOM_107_109_bootstrap, 
-          file = "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv", 
+          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_107_109_bootstrap <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -485,7 +485,7 @@ archivos_csv_bootstrap <- c("ordenamiento_1D_WNOM_01-15_bootstrap.csv",
 
 # Función para leer y procesar cada archivo
 leer_csv_boot <- function(archivo_bootstrap) {
-  df <- read.csv(paste0("data - pleno/ordenamientos_pleno/", archivo_bootstrap), 
+  df <- read.csv(paste0("scripts - files/ordenamientos_pleno/", archivo_bootstrap), 
                  stringsAsFactors = FALSE, 
                  encoding = "UTF-8")
   df <- df[, 3] %>% data.frame()
@@ -524,42 +524,42 @@ orden_votantes_t <- ordenamientos_completos %>%
 # ----- Cargamos posición inicial del candidato 
 
 ordenamiento_1D_WNOM_01_15 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_01_15 <- ordenamiento_1D_WNOM_01_15[order(ordenamiento_1D_WNOM_01_15$nombre_votante), ]
 
 ordenamiento_1D_WNOM_16_21 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_16_21 <- ordenamiento_1D_WNOM_16_21[order(ordenamiento_1D_WNOM_16_21$nombre_votante), ]
 
 ordenamiento_1D_WNOM_22_37 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_22_37 <- ordenamiento_1D_WNOM_22_37[order(ordenamiento_1D_WNOM_22_37$nombre_votante), ]
 
 ordenamiento_1D_WNOM_56_75 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
 ordenamiento_1D_WNOM_56_75 <- ordenamiento_1D_WNOM_56_75[order(ordenamiento_1D_WNOM_56_75$nombre_votante), ]
 
 ordenamiento_1D_WNOM_76_99 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
 ordenamiento_1D_WNOM_76_99 <- ordenamiento_1D_WNOM_76_99[order(ordenamiento_1D_WNOM_76_99$nombre_votante), ]
 
 ordenamiento_1D_WNOM_100_106 <- read.csv(
-  "data - pleno/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv",
+  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
