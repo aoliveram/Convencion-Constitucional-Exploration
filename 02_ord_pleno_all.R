@@ -1,3 +1,7 @@
+# This script estimates the ideological ordering of the Constitutional Convention members.
+# It creates the objetcs ordenamiento_1D_WNOM_01-15.csv, ordenamiento_1D_WNOM_16-21.csv, etc., 
+# and ordenamiento_1D_MCMC_01-15.csv, ordenamiento_1D_MCMC_16-21.csv, etc.
+
 library(readr)
 library(wnominate)
 library(dplyr)
