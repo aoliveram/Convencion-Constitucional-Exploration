@@ -19,7 +19,7 @@ LISTA_OFICIAL_NOMBRES = [
     "Barraza, Marcos", "Bassa, Jaime", "Botto, Miguel Angel", "Bown, Carol",
     "Bravo, Daniel", "Caamano, Francisco", "Caiguan, Alexis", "Calvo, Carlos",
     "Cancino, Adriana", "Cantuarias, Rocio", "Carrillo, Alondra", "Castillo, Eduardo",
-    "Castillo, Trinidad", "Castro, Claudia", "Catrileo, Rosa", "Celedon, Roberto",
+    "Castillo, Maria Trinidad", "Castro, Claudia", "Catrileo, Rosa", "Celedon, Roberto",
     "Celis, Raul", "Chahin, Fuad", "Chinga, Eric", "Cozzi, Ruggero",
     "Cretton, Eduardo", "Cruz, Andres", "Cubillos, Marcela", "Cespedes, Lorena",
     "Daza, Mauricio", "De la Maza, Bernardo", "Delgado, Aurora", "Dominguez, Gaspar",

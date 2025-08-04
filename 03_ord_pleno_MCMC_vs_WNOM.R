@@ -230,7 +230,7 @@ name_mapping_dictionary <- c(
   "Cancino Meneses, Adriana" = "Cancino, Adriana",
   "Cantuarias Rubio, Roc'io" = "Cantuarias, Rocio",
   "Carrillo Vidal, Alondra" = "Carrillo, Alondra",
-  "Castillo Boilet, Mar'ia Trinidad" = "Castillo, Trinidad",
+  "Castillo Boilet, Mar'ia Trinidad" = "Castillo, Maria Trinidad",
   "Castillo Vigouroux, Eduardo" = "Castillo, Eduardo",
   "Castro Guti'errez, Claudia" = "Castro, Claudia",
   "Catrileo Arias, Rosa" = "Catrileo, Rosa",
