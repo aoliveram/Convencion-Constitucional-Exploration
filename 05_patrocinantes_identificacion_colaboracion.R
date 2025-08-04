@@ -50,7 +50,7 @@ co_sponsor_counts <- co_sponsorships_filtered %>%
 
 # --- 3. Generación del Gráfico ---
 
-pdf("scripts - plots/n_colaboracion_por_convencional.pdf", width = 10, height = 6)
+pdf("scripts - plots/n_colaboracion_por_convencional.pdf", width = 12, height = 6)
 
 ggplot(co_sponsor_counts, 
        aes(x = reorder(convencional, -unique_co_sponsors), y = unique_co_sponsors)) +
@@ -80,6 +80,16 @@ dev.off()
 library(readr) 
 ordenamiento_1D_WNOM_01_15 <- read_csv("scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv")
 
+library(stringi)
+normalizar_nombres <- function(texto) {
+  if (is.null(texto) || all(is.na(texto))) return(texto)
+  texto_limpio <- stri_trans_general(as.character(texto), "Latin-ASCII")
+  texto_limpio <- gsub("\"", "", texto_limpio) # Eliminar comillas dobles si aún persisten
+  return(trimws(texto_limpio))
+}
+
+ordenamiento_1D_WNOM_01_15$nombre_votante <- normalizar_nombres(ordenamiento_1D_WNOM_01_15$nombre_votante)
+
 # Unimos usando 'convencional' y 'nombre_votante' como claves
 plot_data_ideological <- inner_join(
   co_sponsor_counts,
@@ -88,12 +98,13 @@ plot_data_ideological <- inner_join(
 )
 
 
-pdf("scripts - plots/n_colaboracion_por_convencional_izq-der.pdf", width = 10, height = 6)
+pdf("scripts - plots/n_colaboracion_por_convencional_izq-der.pdf", width = 12, height = 6)
 
 ggplot(plot_data_ideological, 
        # reorder() ahora usa 'posicion_izq_der'
        aes(x = reorder(convencional, posicion_izq_der), y = unique_co_sponsors)) +
-  geom_col(fill = "darkred", width = 0.7, alpha=0.9) + # color para diferenciarlo del primer gráfico
+  #geom_col(fill = "darkred", width = 0.7, alpha=0.9) + 
+  geom_col(fill = "steelblue", width = 0.7) +
   labs(
     title = "N° de colaboradores por Convencional",
     subtitle = "Ordenado por posición ideológica, bloques 01-15",
