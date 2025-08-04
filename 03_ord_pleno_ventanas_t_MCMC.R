@@ -233,7 +233,7 @@ transformar_nombre_votante_revisado <- function(nombre) {
   # Corrección "Loreto" -> "Rossana" para Vidal
   # Esta corrección cambia el nombre de pila, lo cual es inusual para una
   # transformación de formato. Asumo que es un caso específico que necesitas igualar.
-  if (nombre_transformado == "Vidal, Loreto") { # Verifica el nombre transformado
+  if (nombre_transformado == "Vidal, Rossana") { # Verifica el nombre transformado
     nombre_transformado <- "Vidal, Rossana"
   }
   # Nota: Si hay otros casos similares (cambios de nombre de pila no derivados),
