@@ -48,7 +48,7 @@ coalicion = c(rep("Coordinadora Constituyente Plurinacional y Popular", 15),
               rep("Vamos por Chile", 37), rep("Sin Grupo", 5)))
 
 # 2. Reclasificamos las coaliciones, asignando a De la Maza a "Sin Grupo"
-coaliciones_actualizadas <- coaliciones_convencionales %>%
+coaliciones_convencionales_2 <- coaliciones_convencionales %>%
   mutate(coalicion = case_when(
     
     # Caso especial para Bernardo de la Maza
@@ -81,5 +81,5 @@ coaliciones_actualizadas <- coaliciones_convencionales %>%
 
 # 3. Verificamos el nuevo conteo
 print("Conteo de miembros por coalición en la tabla final actualizada:")
-coaliciones_actualizadas %>%
+coaliciones_convencionales_2 %>%
   count(coalicion, sort = TRUE)

@@ -1,99 +1,59 @@
-# --- 0. Instalación y Carga de Paquetes ---
-
-# Asegúrate de tener todos los paquetes instalados. Si no, ejecútalo una vez:
-# install.packages(c("pdftools", "jsonlite", "purrr", "dplyr", "tidyr", "tidytext", "text2vec", "stringr", "parallel", "doParallel"))
-
-# Cargar las librerías necesarias
-library(pdftools)
 library(jsonlite)
 library(purrr)
 library(dplyr)
 library(tidyr)
-library(tidytext)
+library(tidytext) # Aunque no usemos unnest_sentences, es útil para stop_words
 library(text2vec)
 library(stringr)
-library(parallel) # Para makeCluster
-library(doParallel) # Para registrar el backend paralelo
+library(parallel)
+library(doParallel)
 
 # --- 1. Configuración ---
 cat("--- Configuración del Proceso ---\n")
 
-# Ruta al PDF del borrador final
-BORRADOR_PDF_PATH <- "patrocinantes_identificacion/PROPUESTA-DE-BORRADOR-CONSTITUCIONAL-14-05-22.pdf" # <-- ¡MODIFICA ESTA RUTA!
+# Ruta al JSON del borrador final estructurado
+BORRADOR_JSON_PATH <- "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
 
 # Ruta a la carpeta que contiene los archivos JSON de las iniciativas
-INICIATIVAS_JSON_FOLDER <- "patrocinantes_identificacion/" # <-- ¡MODIFICA ESTA RUTA!
+INICIATIVAS_JSON_FOLDER <- "patrocinantes_identificacion/"
+# Patrón para encontrar los archivos de iniciativas
+INICIATIVAS_PATTERN <- "api_extracted_\\d+_\\d+_corrected_3\\.json$"
 
-# Umbral de similitud: solo se considerarán coincidencias por encima de este valor (0 a 1)
-SIMILARITY_THRESHOLD <- 0.65 # Puedes ajustar este valor
-
-cat(paste0("Ruta del Borrador PDF: ", BORRADOR_PDF_PATH, "\n"))
+cat(paste0("Ruta del Borrador JSON: ", BORRADOR_JSON_PATH, "\n"))
 cat(paste0("Carpeta de Iniciativas JSON: ", INICIATIVAS_JSON_FOLDER, "\n"))
-cat(paste0("Umbral de Similitud: ", SIMILARITY_THRESHOLD, "\n"))
+cat("Estrategia de selección: Top 10 mejores coincidencias por oración.\n")
 
-# --- 2. Carga y Pre-procesamiento de Datos ---
-cat("\n--- Paso 1: Carga y Pre-procesamiento de Datos ---\n")
+# --- 2. Carga y Tokenización de Datos ---
+cat("\n--- Paso 1: Carga y Tokenización de Datos ---\n")
 
-# --- 2.1 Cargar y Estructurar el Borrador Final (PDF) ---
-cat("Cargando y estructurando el borrador final (PDF)...\n")
-
-if (!file.exists(BORRADOR_PDF_PATH)) {
-  stop("El archivo PDF del borrador no fue encontrado en la ruta especificada.")
+# --- 2.1 Cargar y Procesar el Borrador Final (JSON) ---
+cat("Cargando y procesando el borrador final...\n")
+if (!file.exists(BORRADOR_JSON_PATH)) {
+  stop("El archivo JSON del borrador no fue encontrado en la ruta especificada.")
 }
 
-# Leer el texto de todas las páginas y unirlas
-texto_completo_borrador <- pdf_text(BORRADOR_PDF_PATH) %>%
-  paste(collapse = " \n ")
+borrador_df <- fromJSON(BORRADOR_JSON_PATH) %>% as_tibble()
 
-# Limpieza inicial
-texto_completo_borrador <- texto_completo_borrador %>%
-  str_replace_all("-\n", "") %>%
-  str_replace_all("\n", " ") %>%
-  str_squish()
-
-# Grupo 1: (\d{1,3}) -> El número identificador global
-# Grupo 2: (Artículo.*?) -> El texto completo del artículo, incluyendo "Artículo X.-"
-# Lookahead: (?=...) -> Termina la coincidencia justo antes del siguiente artículo o del fin del texto
-extract_pattern <- "(\\d{1,3})\\.\\-\\s*(Artículo.*?)(?=\\d{1,3}\\.\\-|$)"
-
-# Usar str_match_all para encontrar todas las ocurrencias y capturar los grupos
-matches <- str_match_all(texto_completo_borrador, extract_pattern)
-
-# str_match_all devuelve una lista con una matriz. La extraemos.
-# Columna 1: Coincidencia completa
-# Columna 2: Grupo 1 (nuestro ID)
-# Columna 3: Grupo 2 (nuestro texto de artículo)
-articulos_borrador_df <- as_tibble(matches[[1]][, c(2, 3)], .name_repair = "minimal")
-colnames(articulos_borrador_df) <- c("id_articulo_borrador", "texto_articulo")
-
-# Limpiar y convertir el ID a numérico
-articulos_borrador_df <- articulos_borrador_df %>%
-  mutate(
-    id_articulo_borrador = as.numeric(id_articulo_borrador),
-    # Limpiar el texto del artículo para quitar el "Artículo X.-" inicial
-    texto_articulo_limpio = str_remove(texto_articulo, regex("^Artículo\\s+[\\d°ºA-Za-z]+\\.?-\\s*", ignore_case = TRUE)) %>% str_squish()
-  ) %>%
-  filter(!is.na(id_articulo_borrador)) # Asegurarse de que no haya IDs fallidos
-
-# Tokenizar el borrador en oraciones
-oraciones_borrador_df <- articulos_borrador_df %>%
+oraciones_borrador_df <- borrador_df %>%
   select(id_articulo_borrador, texto_articulo_limpio) %>%
-  unnest_sentences(oracion, texto_articulo_limpio, to_lower = FALSE) %>%
-  filter(str_length(oracion) > 10) %>%
+  # Usar separate_rows para dividir por puntos. El patrón busca un punto seguido de espacio o al final de la cadena.
+  separate_rows(texto_articulo_limpio, sep = "\\.\\s*") %>%
+  rename(oracion = texto_articulo_limpio) %>%
+  filter(str_length(str_trim(oracion)) > 10) %>% # Filtrar oraciones muy cortas
   mutate(
     id_oracion_borrador = row_number(),
-    oracion_limpia = str_to_lower(oracion) %>% str_remove_all("[[:punct:]]")
+    # Texto limpio para el análisis de similitud
+    oracion_limpia = str_to_lower(oracion) %>% str_remove_all("[[:punct:]]") %>% str_squish()
   )
 
-cat(paste0("-> Se extrajeron ", nrow(oraciones_borrador_df), " oraciones de ", n_distinct(oraciones_borrador_df$id_articulo_borrador), " artículos únicos del borrador final.\n"))
+cat(paste0("-> Se extrajeron ", nrow(oraciones_borrador_df), " oraciones de ", n_distinct(oraciones_borrador_df$id_articulo_borrador), " artículos del borrador.\n"))
 
+# --- 2.2 Cargar y Procesar las Iniciativas (JSONs) ---
+cat("Cargando y procesando las iniciativas...\n")
 
-# --- 2.2 Cargar y Estructurar las Iniciativas (JSONs) ---
-cat("Cargando y estructurando las iniciativas (JSONs)...\n")
-
-json_files <- list.files(path = INICIATIVAS_JSON_FOLDER, pattern = "api_extracted_.*\\.json", full.names = TRUE)
+json_files <- list.files(path = INICIATIVAS_JSON_FOLDER, pattern = INICIATIVAS_PATTERN, full.names = TRUE)
 if (length(json_files) == 0) {
-  stop("No se encontraron archivos JSON de iniciativas en la carpeta especificada.")
+  stop("No se encontraron archivos JSON de iniciativas con el patrón especificado.")
 }
 
 todas_iniciativas_df <- map_dfr(json_files, ~{
@@ -109,23 +69,23 @@ todas_iniciativas_df <- map_dfr(json_files, ~{
   filter(propuesta_norma != "")
 
 oraciones_iniciativas_df <- todas_iniciativas_df %>%
-  unnest_sentences(oracion, propuesta_norma, to_lower = FALSE) %>%
-  filter(str_length(oracion) > 10) %>%
+  separate_rows(propuesta_norma, sep = "\\.\\s*") %>%
+  rename(oracion = propuesta_norma) %>%
+  filter(str_length(str_trim(oracion)) > 10) %>%
   mutate(
     id_oracion_iniciativa = row_number(),
-    oracion_limpia = str_to_lower(oracion) %>% str_remove_all("[[:punct:]]")
+    oracion_limpia = str_to_lower(oracion) %>% str_remove_all("[[:punct:]]") %>% str_squish()
   )
 
 cat(paste0("-> Se extrajeron ", nrow(oraciones_iniciativas_df), " oraciones de ", nrow(todas_iniciativas_df), " iniciativas.\n"))
 
-
 # --- 3. Cálculo de Similitud con TF-IDF ---
 cat("\n--- Paso 2: Cálculo de Similitud con TF-IDF ---\n")
-cat("Preparando corpus y calculando similitud del coseno...\n")
+cat("Preparando corpus y calculando la matriz de similitud del coseno...\n")
 
 corpus_oraciones <- c(oraciones_borrador_df$oracion_limpia, oraciones_iniciativas_df$oracion_limpia)
 tokens <- space_tokenizer(corpus_oraciones)
-vocab <- create_vocabulary(itoken(tokens), stopwords = tidytext::stop_words$word[tidytext::stop_words$lexicon == "snowball"])
+vocab <- create_vocabulary(itoken(tokens), stopwords = stop_words$word[stop_words$lexicon == "snowball"])
 vectorizer <- vocab_vectorizer(vocab)
 dtm <- create_dtm(itoken(tokens), vectorizer)
 tfidf_model <- TfIdf$new()
@@ -138,8 +98,8 @@ dtm_iniciativas <- dtm_tfidf[(n_borrador + 1):nrow(dtm_tfidf), ]
 similarity_matrix <- sim2(x = dtm_borrador, y = dtm_iniciativas, method = "cosine", norm = "l2")
 cat("-> Matriz de similitud calculada.\n")
 
-# --- 4. Encontrar las Mejores Coincidencias (EN PARALELO) ---
-cat("\n--- Paso 3: Encontrando las Mejores Coincidencias (en Paralelo) ---\n")
+# --- 4. Encontrar las Top 10 Coincidencias (EN PARALELO) ---
+cat("\n--- Paso 3: Encontrando las Top 10 Coincidencias (en Paralelo) ---\n")
 cat("Configurando cluster de 8 núcleos (FORK)...\n")
 
 # Configurar y registrar el cluster paralelo
@@ -149,25 +109,25 @@ registerDoParallel(cl)
 cat("Iniciando búsqueda en paralelo...\n")
 start_time <- Sys.time()
 
-# Usar foreach para iterar en paralelo. El resultado se combinará en una lista.
-# .combine='rbind' junta cada resultado (un data frame de una fila) en un único data frame.
-# .packages='dplyr' asegura que cada núcleo tenga acceso a las funciones de dplyr.
-parallel_results <- foreach(i = 1:n_borrador, .combine = 'rbind', .packages = c('dplyr')) %dopar% {
-  # Encontrar el índice y el valor de la máxima similitud en la fila i
-  max_sim_idx <- which.max(similarity_matrix[i, ])
+# Usar foreach para iterar en paralelo sobre cada oración del borrador
+# El resultado se combinará en un único data frame
+top_10_matches <- foreach(i = 1:n_borrador, .combine = 'rbind', .packages = c('dplyr')) %dopar% {
+  # Tomar la fila de similitudes para la oración i-ésima del borrador
+  sim_vector <- similarity_matrix[i, ]
   
-  if (length(max_sim_idx) > 0) {
-    max_sim_value <- similarity_matrix[i, max_sim_idx]
-    
-    # Si la similitud supera el umbral, devolver una fila con los datos
-    if (max_sim_value >= SIMILARITY_THRESHOLD) {
-      tibble(
-        id_oracion_borrador = i,
-        id_oracion_iniciativa_match = max_sim_idx,
-        similitud = max_sim_value
-      )
-    }
-  }
+  # Ordenar las similitudes de mayor a menor y obtener los índices
+  top_indices <- order(sim_vector, decreasing = TRUE)[1:10]
+  
+  # Obtener los valores de similitud para esos índices
+  top_similarities <- sim_vector[top_indices]
+  
+  # Crear un tibble con los resultados para esta oración del borrador
+  tibble(
+    id_oracion_borrador = i,
+    rank = 1:10, # Rango de la coincidencia (1 a 10)
+    id_oracion_iniciativa_match = top_indices,
+    similitud = top_similarities
+  )
 }
 
 end_time <- Sys.time()
@@ -177,57 +137,58 @@ cat(paste0("-> Búsqueda en paralelo completada en: ", round(execution_time_para
 # Detener el cluster
 stopCluster(cl)
 
-# Unir los resultados paralelos con los data frames originales
-resultados_finales_df <- parallel_results %>%
-  left_join(oraciones_borrador_df, by = "id_oracion_borrador") %>%
-  left_join(
-    oraciones_iniciativas_df %>% select(id_oracion_iniciativa, filename, oracion_iniciativa_original = oracion),
-    by = c("id_oracion_iniciativa_match" = "id_oracion_iniciativa")
-  ) %>%
-  select(
-    id_articulo_borrador,
-    oracion_borrador = oracion,
-    similitud,
-    origen_iniciativa_pdf = filename,
-    oracion_iniciativa_original
-  ) %>%
-  arrange(id_articulo_borrador, oracion_borrador)
+# --- 5. Unir Resultados y Calcular Contribuciones ---
+cat("\n--- Paso 4: Agregando Resultados y Calculando Contribuciones ---\n")
 
-cat("-> Proceso de coincidencia completado.\n")
+# Unir con la información de las oraciones del borrador
+full_results_df <- top_10_matches %>%
+  left_join(oraciones_borrador_df %>% select(id_oracion_borrador, id_articulo_borrador, oracion_borrador = oracion), 
+            by = "id_oracion_borrador") %>%
+  # Unir con la información de las oraciones de las iniciativas
+  left_join(oraciones_iniciativas_df %>% select(id_oracion_iniciativa_match = id_oracion_iniciativa, 
+                                                origen_iniciativa_pdf = filename, 
+                                                oracion_iniciativa = oracion), 
+            by = "id_oracion_iniciativa_match")
 
-# --- 5. Mostrar Resultados ---
+# Filtrar para obtener solo la MEJOR coincidencia para cada oración del borrador
+best_match_per_oracion <- full_results_df %>%
+  filter(rank == 1)
+
+# Calcular Contribución(N, M)
+total_oraciones_por_articulo <- oraciones_borrador_df %>%
+  count(id_articulo_borrador, name = "total_oraciones_articulo")
+
+contribuciones_df <- best_match_per_oracion %>%
+  group_by(id_articulo_borrador, origen_iniciativa_pdf) %>%
+  summarise(oraciones_aportadas = n(), .groups = 'drop') %>%
+  left_join(total_oraciones_por_articulo, by = "id_articulo_borrador") %>%
+  mutate(contribucion_pct = (oraciones_aportadas / total_oraciones_articulo) * 100) %>%
+  select(id_articulo_borrador, origen_iniciativa_pdf, contribucion_pct, oraciones_aportadas, total_oraciones_articulo) %>%
+  arrange(id_articulo_borrador, desc(contribucion_pct))
+
+# --- 6. Mostrar Resultados ---
 cat("\n--- Resultados Finales ---\n")
 
-if (nrow(resultados_finales_df) > 0) {
-  cat("Mostrando las primeras 20 coincidencias encontradas:\n")
-  print(head(resultados_finales_df, 20), width = 150)
-  
-  # Resumen por artículo
-  resumen_por_articulo <- resultados_finales_df %>%
-    group_by(id_articulo_borrador) %>%
-    summarise(
-      oraciones_coincidentes = n(),
-      iniciativas_principales = paste(names(sort(table(origen_iniciativa_pdf), decreasing = TRUE)[1:2]), collapse = ", "),
-      similitud_promedio = mean(similitud),
-      .groups = 'drop' # Para evitar warnings de agrupación
-    )
-  
-  cat("\n--- Resumen de Contribuciones por Artículo ---\n")
-  print(as.data.frame(resumen_por_articulo)) # Imprimir como data.frame para mejor formato
-  
-  # Resumen por iniciativa
-  resumen_por_iniciativa <- resultados_finales_df %>%
-    group_by(origen_iniciativa_pdf) %>%
-    summarise(
-      oraciones_aportadas = n(),
-      .groups = 'drop'
-    ) %>%
-    arrange(desc(oraciones_aportadas))
-  
-  cat("\n--- Resumen de Aportes por Iniciativa (Top 10) ---\n")
-  print(head(resumen_por_iniciativa, 10))
-  
-} else {
-  cat(paste0("ADVERTENCIA: No se encontraron coincidencias por encima del umbral de similitud (", SIMILARITY_THRESHOLD, ").\n"))
-  cat("Intenta bajar el umbral (ej. 0.5) o revisa el pre-procesamiento de texto.\n")
-}
+cat("\n--- Ejemplo de las Mejores 3 Coincidencias para la Primera Oración del Borrador ---\n")
+print(
+  full_results_df %>%
+    filter(id_oracion_borrador == 1, rank <= 3) %>%
+    select(rank, similitud, oracion_borrador, origen_iniciativa_pdf, oracion_iniciativa)
+)
+
+cat("\n--- Iniciativas con Mayor Contribución al Artículo 1 del Borrador ---\n")
+print(
+  contribuciones_df %>%
+    filter(id_articulo_borrador == 1) %>%
+    arrange(desc(contribucion_pct))
+)
+
+cat("\n--- Artículos con Mayor Contribución de la Iniciativa '1001-...' ---\n")
+# Busca una iniciativa que exista en tus datos para probar
+ejemplo_iniciativa <- contribuciones_df$origen_iniciativa_pdf[1]
+print(
+  contribuciones_df %>%
+    filter(str_detect(origen_iniciativa_pdf, str_extract(ejemplo_iniciativa, "^\\d+"))) %>%
+    arrange(desc(contribucion_pct)) %>%
+    head(10)
+)
