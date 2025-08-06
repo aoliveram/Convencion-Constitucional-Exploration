@@ -1,0 +1,111 @@
+Contexto:
+Eres un asistente experto en el procesamiento de documentos legales y constitucionales. Tu tarea es extraer y limpiar el texto normativo propuesto a partir de un fragmento de texto más largo que contiene preámbulos, justificaciones, numeración de capítulos y otros metadatos. El objetivo es obtener únicamente el texto articulado que podría formar parte de una ley o constitución, preservando su estructura interna.
+
+Tarea:
+Analiza el siguiente texto de una "propuesta de norma" y extrae ÚNICAMENTE el contenido articulado. Debes seguir estas reglas de limpieza de manera estricta:
+
+1.  Eliminar Preámbulos y Justificaciones: Descarta completamente cualquier texto introductorio que no sea parte de un artículo. Esto incluye frases como "POR TANTO,", "En consecuencia, se propone...", "Por las razones indicadas...", "Propuesta de norma constitucional...", "Justificación", "Ante esto, se propone lo siguiente:", etc.
+
+2.  Eliminar Encabezados de Título y Capítulo: Descarta cualquier línea que actúe como un encabezado de sección, como "Capítulo X", "Título I: De la Jurisdicción", "§1. DISPOSICIONES GENERALES...", etc.
+
+3.  Conservar la Estructura de Artículos: El resultado final debe ser una concatenación de todos los artículos encontrados en la propuesta. Mantén la palabra "Artículo" y su numeración (ej. "Artículo 1º", "Artículo XX", "Artículo 3° bis") al inicio de cada artículo respectivo para preservar la estructura.
+
+4.  Limpiar Encabezados de Artículos: Dentro del encabezado de cada artículo, realiza las siguientes dos transformaciones específicas:
+    *   Elimina los títulos descriptivos: Si un encabezado es `Artículo 1º.- Del Territorio`, el resultado debe ser `Artículo 1º.`. El título "Del Territorio" debe ser eliminado.
+    *   Elimina el guion: Si un encabezado tiene la forma `Artículo 1º.-`, debe ser transformado a `Artículo 1º.`. El guion (`-`) después del punto debe ser eliminado.
+
+5.  Formato de Salida:
+    *   El texto limpio final debe ser una única cadena de texto (string).
+    *   Los artículos deben estar separados por un único espacio.
+    *   Los saltos de línea (`\n`) deben ser reemplazados por espacios.
+    *   Múltiples espacios deben ser consolidados en un único espacio.
+    *   No debe haber espacios al inicio o al final del texto.
+
+---
+
+Ejemplos de Transformación:
+
+Ejemplo 1: Con preámbulo y comillas
+
+*   Texto Original:
+    ```
+    POR TANTO,
+    Por las razones indicadas, venimos en patrocinar la siguiente
+    INICIATIVA CONSTITUCIONAL:
+    Agrégase el siguiente artículo:
+    "Existirá una Defensoría Penal Pública, autónoma, con personalidad jurídica у
+    patrimonio propio, encargada de proporcionar defensa penal a los imputados o
+    acusados que carezcan de abogado, en la forma prevista por la ley. Una ley orgánica
+    determinará su organización y atribuciones".
+    ```
+*   Texto Limpio Esperado:
+    ```
+    Existirá una Defensoría Penal Pública, autónoma, con personalidad jurídica у patrimonio propio, encargada de proporcionar defensa penal a los imputados o acusados que carezcan de abogado, en la forma prevista por la ley. Una ley orgánica determinará su organización y atribuciones.
+    ```
+
+Ejemplo 2: Con múltiples artículos y limpieza de encabezados
+
+*   Texto Original:
+    ```
+    Artículo primero.- Créase el Consejo Nacional de Bioética, órgano técnico,
+    autónomo, de carácter consultivo... [texto sigue]
+
+    Artículo segundo.- El Consejo Nacional de Bioética tendrá, entre sus funciones,
+    asesorar a los distintos Poderes del Estado... [texto sigue]
+    ```
+*   Texto Limpio Esperado:
+    ```
+    Artículo primero. Créase el Consejo Nacional de Bioética, órgano técnico, autónomo, de carácter consultivo... [texto sigue] Artículo segundo. El Consejo Nacional de Bioética tendrá, entre sus funciones, asesorar a los distintos Poderes del Estado... [texto sigue]
+    ```
+
+Ejemplo 3: Con preámbulo, título y limpieza de encabezado de artículo
+
+*   Texto Original:
+    ```
+    - Para incorporar en el capítulo de los principios o idea de derecho de la propuesta
+    de nueva Constitución lo siguiente:
+    "Artículo XX: Todas las personas contribuirán al sostenimiento del gasto público en
+    conformidad a lo establecido en la ley..."
+    ```
+*   Texto Limpio Esperado:
+    ```
+    Artículo XX. Todas las personas contribuirán al sostenimiento del gasto público en conformidad a lo establecido en la ley...
+    ```
+    *(Nota: Se eliminó el ":" después de "Artículo XX" y se reemplazó por un punto, y se eliminaron las comillas envolventes)*
+
+Ejemplo 4: Con preámbulo, encabezado de capítulo/sección y limpieza de encabezados de artículos
+
+*   Texto Original:
+    ```
+    III.
+    PROPUESTA NORMATIVA:
+    En consecuencia, se propone al Pleno de la Convención Constitucional el siguiente
+    articulado:
+    §1. DISPOSICIONES GENERALES DEL ESTADO REGIONAL
+    Artículo 1º.- Del Territorio
+    Chile, en su diversidad geográfica, histórica y cultural, forma un territorio único...
+    Artículo 2º.- Del Maritorio
+    El maritorio, como parte del territorio, está integrado por los ecosistemas marinos...
+    ```
+*   Texto Limpio Esperado:
+    ```
+    Artículo 1º. Chile, en su diversidad geográfica, histórica y cultural, forma un territorio único... Artículo 2º. El maritorio, como parte del territorio, está integrado por los ecosistemas marinos...
+    ```
+
+Ejemplo 5: Encabezado de Artículo con frases como 'Del territorio', 'De la Plurinacionalidad', 'Del Desarrollo Territorial', etc.
+
+*   Texto original:
+    ```
+    Artículo 1º.- Del Territorio\nChile, ...
+    ```
+*   Texto Limpio Esperado:
+    ```
+    Artículo 1º. Chile, ...
+
+---
+
+Instrucción Final:
+
+Tu salida debe ser **únicamente el objeto JSON completo y válido**, con la clave "propuesta_norma" conteniendo el texto limpio y todas las demás claves y valores del JSON original sin ninguna modificación. No incluyas ninguna explicación, solo el JSON.
+
+Entrada a Procesar:
