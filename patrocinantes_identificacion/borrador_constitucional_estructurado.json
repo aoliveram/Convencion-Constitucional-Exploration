@@ -748,5 +748,505 @@
     "id_articulo_borrador": 150,
     "comision": 3,
     "texto_articulo_limpio": "El Estado garantiza un tratamiento equitativo y un desarrollo armónico y solidario entre las diversas entidades territoriales, propendiendo al interés general, no pudiendo establecer diferencias arbitrarias entre ellas, asegurando a su vez, las mismas condiciones de acceso a los servicios públicos, al empleo y a todas las prestaciones estatales, sin perjuicio del lugar que habiten en el territorio, estableciendo de ser necesario, acciones afirmativas en favor de los grupos empobrecidos e históricamente vulnerados. El Estado de Chile promoverá un desarrollo territorial equitativo, armónico y solidario que permita una integración efectiva de las distintas localidades, tanto urbanas como rurales, promoviendo la equidad horizontal en la provisión de bienes y servicios."
+  },
+  {
+    "id_articulo_borrador": 151,
+    "comision": 3,
+    "texto_articulo_limpio": "Las entidades territoriales y sus órganos reconocen, garantizan y promueven en todo su actuar el reconocimiento político y jurídico de los pueblos y naciones preexistentes al Estado que habitan sus territorios; su supervivencia, existencia y desarrollo armónico e integral; la distribución equitativa del poder y de los espacios de participación política; el uso, reconocimiento y promoción de las lenguas indígenas que se hablan en ellas, propiciando el entendimiento intercultural, el respeto de formas diversas de ver, organizar y concebir el mundo y de relacionarse con la naturaleza; la protección y el respeto de los derechos de autodeterminación y de autonomía de los territorios indígenas, en coordinación con el resto de las entidades territoriales."
+  },
+  {
+    "id_articulo_borrador": 152,
+    "comision": 3,
+    "texto_articulo_limpio": "La elección de las y los representantes por votación popular de las entidades territoriales se efectuará asegurando la paridad de género, la probidad, la representatividad territorial, la pertenencia territorial, avecindamiento y la representación efectiva de los pueblos y naciones preexistentes al Estado. La Constitución y la ley establecerán los requisitos para la postulación y las causales de cesación de dichos cargos. La calificación y procedencia de estas causales de cesación se realizará a través de un procedimiento expedito ante la justicia electoral, en conformidad a la ley."
+  },
+  {
+    "id_articulo_borrador": 153,
+    "comision": 3,
+    "texto_articulo_limpio": "Ninguna entidad territorial podrá ejercer tutela sobre otra entidad territorial, sin perjuicio de la aplicación de los principios de coordinación, de asociatividad, de solidaridad, y los conflictos de competencias que puedan ocasionarse."
+  },
+  {
+    "id_articulo_borrador": 154,
+    "comision": 3,
+    "texto_articulo_limpio": "Sin perjuicio de las competencias que establece esta Constitución y la ley, el Estado podrá transferir a las entidades territoriales aquellas competencias de titularidad estatal que por su propia naturaleza son susceptibles de transferencia. Estas transferencias deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución. Una ley regulará el régimen jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control."
+  },
+  {
+    "id_articulo_borrador": 155,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley establecerá el procedimiento para resolución de las distintas contiendas de competencia que se susciten entre el Estado y las entidades territoriales, o entre ellas, las que serán conocidas por el órgano encargado de la justicia constitucional."
+  },
+  {
+    "id_articulo_borrador": 156,
+    "comision": 3,
+    "texto_articulo_limpio": "Las funciones públicas deberán radicarse priorizando la entidad local sobre la regional y ésta última sobre el Estado, sin perjuicio de aquellas competencias que la propia Constitución o las leyes reserven a cada una de estas entidades territoriales. La Región Autónoma o el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la entidad local."
+  },
+  {
+    "id_articulo_borrador": 157,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado deberá generar políticas públicas diferenciadas y transferir las competencias que mejor se ajusten a las necesidades y particularidades de los entes territoriales, con los respectivos recursos. La ley establecerá los criterios y requisitos para la aplicación de diferencias territoriales, así como los mecanismos de solidaridad y equidad que compensen las desigualdades entre los distintos niveles territoriales."
+  },
+  {
+    "id_articulo_borrador": 158,
+    "comision": 3,
+    "texto_articulo_limpio": "Las Regiones autónomas son entidades políticas y territoriales dotadas de personalidad jurídica de derecho público y patrimonio propio que gozan de autonomía para el desarrollo de los intereses regionales, la gestión de sus recursos económicos y el ejercicio de las atribuciones legislativa, reglamentaria, ejecutiva y fiscalizadora a través de sus órganos en el ámbito de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 159,
+    "comision": 3,
+    "texto_articulo_limpio": "Las competencias no expresamente conferidas a la Región autónoma corresponden al Estado, sin perjuicio de las transferencias de competencia que regula la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 160,
+    "comision": 3,
+    "texto_articulo_limpio": "Cada Región Autónoma establecerá su organización administrativa y funcionamiento interno, en el marco de las competencias fiscalizadoras, normativas, resolutivas, administrativas y las demás establecidas en la Constitución y las leyes. El Estatuto Regional debe respetar los derechos fundamentales y los principios del Estado social y democrático de derecho reconocidos en los términos establecidos en la Constitución."
+  },
+  {
+    "id_articulo_borrador": 161,
+    "comision": 3,
+    "texto_articulo_limpio": "El proyecto de Estatuto Regional será propuesto por la Gobernadora o Gobernador Regional a la Asamblea Regional respectiva, para su deliberación y acuerdo, el cual será aprobado por la mayoría absoluta de sus miembros en ejercicio. El proceso de elaboración y reforma del Estatuto Regional deberá garantizar la participación popular, democrática y vinculante de sus habitantes."
+  },
+  {
+    "id_articulo_borrador": 162,
+    "comision": 3,
+    "texto_articulo_limpio": "La organización institucional de las Regiones Autónomas se compone del Gobernador o Gobernadora Regional y de la Asamblea Regional."
+  },
+  {
+    "id_articulo_borrador": 163,
+    "comision": 3,
+    "texto_articulo_limpio": "El Gobierno Regional es el órgano ejecutivo de la Región Autónoma. Una Gobernadora o Gobernador Regional dirigirá el Gobierno Regional, ejerciendo la función administrativa y reglamentaria y representará a la Región autónoma ante las demás autoridades nacionales e internacionales, en el marco de la política nacional de relaciones internacionales con funciones de coordinación e intermediación entre el gobierno central y la región. La Gobernadora o Gobernador regional tendrá la representación judicial y extrajudicial de la región. En la elección de Gobernadora o Gobernador Regional, resultará electo quien obtenga la mayoría de los votos válidamente emitidos, pero si ningún candidato logra al menos el cuarenta por ciento de los votos se producirá una segunda votación entre los candidatos o candidatas que hayan obtenido las dos más altas mayorías, resultando elegido el que obtuviere la mayoría de los votos válidamente emitidos. La Gobernadora o Gobernador Regional ejercerá sus funciones por el término de cuatro años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. En este caso, se considerará que se ha ejercido el cargo durante un período cuando el Gobernador o Gobernadora Regional haya cumplido más de la mitad del mandato. La Gobernadora o Gobernador regional, será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 164,
+    "comision": 3,
+    "texto_articulo_limpio": "El Consejo de Alcaldes y Alcaldesas es un órgano de carácter consultivo que estará integrado por los alcaldes y alcaldesas de todas las comunas de la región autónoma y de las ciudades respectivas, el cual será coordinado por quien determinen sus integrantes por mayoría absoluta. El Consejo deberá sesionar y abordar las problemáticas de la región autónoma, promover una coordinación efectiva entre los distintos órganos con presencia regional y fomentar una cooperación eficaz entre los gobiernos locales en la forma que determine la ley."
+  },
+  {
+    "id_articulo_borrador": 165,
+    "comision": 3,
+    "texto_articulo_limpio": "La Asamblea Regional es el órgano colegiado de representación regional que, en conformidad a la Constitución, está dotado de potestades normativas, resolutivas y fiscalizadoras. Una ley determinará los requisitos generales para acceder al cargo de Asambleísta Regional y su número en proporción a la población regional. La elección de Asambleístas Regionales será por sufragio universal, directo y secreto. Los y las Asambleístas Regionales ejercerán sus funciones por el término de cuatro años, pudiendo ser reelegidos consecutivamente sólo una vez para el período inmediatamente siguiente. En este caso, se considerará que se ha ejercido el cargo durante un período cuando hayan cumplido más de la mitad de su mandato."
+  },
+  {
+    "id_articulo_borrador": 166,
+    "comision": 3,
+    "texto_articulo_limpio": "El Consejo Social Regional es el encargado de promover la participación popular en los asuntos públicos regionales de carácter participativo y consultivo. Su integración y competencias serán determinadas por ley. La Constitución y la ley establecerán las bases de los mecanismos y procedimientos de participación popular, velando por un involucramiento efectivo de las personas y sus organizaciones dentro de la Región Autónoma. El Gobernador o Gobernadora Regional y las jefaturas de los servicios públicos regionales deberán rendir cuenta ante el Consejo Social Regional, a lo menos, una vez al año de la ejecución presupuestaria y el desarrollo de proyectos en los términos prescritos por el Estatuto Regional."
+  },
+  {
+    "id_articulo_borrador": 167,
+    "comision": 3,
+    "texto_articulo_limpio": "Son competencias de la Región autónoma: 1. La organización del Gobierno Regional, en conformidad con la Constitución y su Estatuto. 2. La organización político-administrativa y financiera de la Región autónoma, en función de la responsabilidad y eficiencia económica, con arreglo a la Constitución y las leyes. 3. Fomentar el desarrollo social, productivo y económico de la Región autónoma en el ámbito de sus competencias, en coordinación con las políticas, planes y programas nacionales. 4.- Participar en acciones de cooperación internacional, dentro de los marcos establecidos por los tratados y los convenios vigentes, en conformidad a los procedimientos establecidos en la Constitución y las leyes. 5. El desarrollo de la investigación, tecnología y las ciencias en materias correspondientes a la competencia regional. 6. La conservación, preservación, protección y restauración de la naturaleza, del equilibrio ecológico y el uso racional del agua y los demás elementos naturales de su territorio. 7. Aprobar, mediando procesos de participación ciudadana, los planes de descontaminación ambientales de la región autónoma. 8. El fomento y la protección de las culturas, las artes, el patrimonio histórico, inmaterial arqueológico, lingüístico y arquitectónico; y la formación artística en su territorio. 9. La planificación, ordenamiento territorial y manejo integrado de cuencas. 10. La política regional de vivienda, urbanismo, salud, transporte y educación en coordinación con las políticas, planes y programas nacionales, respetando la universalidad de los derechos garantizados por esta Constitución. 11. Las obras públicas de interés ejecutadas en el territorio de la región autónoma. 12. La planificación e implementación de la conectividad física y digital. 13. La promoción y fomento del deporte, el ocio y la recreación. 15. La regulación y administración de los bosques, las reservas y los parques de las áreas silvestres protegidas y cualquier otro predio fiscal que se considere necesario para el cuidado de los servicios ecosistémicos que se otorgan a las comunidades, en el ámbito de sus competencias. 16. La promoción y ordenación del turismo en el ámbito territorial de la región autónoma, en coordinación con la Comuna Autónoma. 17. Coordinar y delegar las competencias constitucionales compartidas con las demás entidades territoriales. 18. Establecer contribuciones y tasas dentro de su territorio previa autorización por ley. 19. La creación de empresas públicas regionales por parte de los órganos de la Región Autónoma competentes, en conformidad a los procedimientos regulados en la Constitución y la ley. 20.- Establecer una política permanente de desarrollo sostenible y armónico con la naturaleza. 21.- Ejercer autónomamente la administración y coordinación de todos los servicios públicos de su dependencia. 22.- Promover la participación popular en asuntos de interés regional. 24.- Las demás competencias que determine la Constitución y ley nacional. El ejercicio de estas competencias por la Región Autónoma no excluye la concurrencia y desarrollo coordinado con otros órganos del Estado, conforme a la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 168,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley determinará cuáles Servicios Públicos, Instituciones Autónomas o Empresas del Estado, en virtud de sus fines fiscalizadores, o por razones de eficiencia y de interés general, mantendrán una organización centralizada y desconcentrada en todo el territorio de la República."
+  },
+  {
+    "id_articulo_borrador": 169,
+    "comision": 3,
+    "texto_articulo_limpio": "El Consejo de Gobernaciones, presidido por el Presidente de la República y conformado por las y los Gobernadores de cada Región, coordinará las relaciones entre el Estado Central y las entidades territoriales, velando por el bienestar social y económico equilibrado de la República en su conjunto. Son facultades del Consejo de Gobernaciones: a) La coordinación, la complementación y la colaboración en la ejecución de políticas públicas en las Regiones; b) La coordinación económica y presupuestaria entre el Estado y las Regiones Autónomas; c) Debatir sobre las actuaciones conjuntas de carácter estratégico, que afecten a los ámbitos competenciales estatal y regional, así como velar por el respeto de las autonomías de las entidades territoriales; d) Velar por la correcta aplicación de los principios de equidad, solidaridad y justicia territorial, y de los mecanismos de compensación económica interterritorial, en conformidad con la Constitución y la ley. e) Convocar encuentros sectoriales entre entidades territoriales. f) Acordar la creación de comisiones o grupos de trabajo para el estudio de asuntos de interés común. g) Las demás que establezcan la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 170,
+    "comision": 3,
+    "texto_articulo_limpio": "Las Regiones Autónomas contarán con las competencias para coordinarse con las y los representantes de Ministerios y Servicios Públicos con presencia en la Región Autónoma. El Gobierno Regional podrá solicitar al Estado la transferencia de competencias de Ministerios y Servicios Públicos. A su vez, las Municipalidades podrán solicitar al Gobierno Regional la transferencia de competencias. La ley regulará este procedimiento."
+  },
+  {
+    "id_articulo_borrador": 171,
+    "comision": 3,
+    "texto_articulo_limpio": "Son atribuciones de la Asamblea Regional, en conformidad a la Constitución, la ley y el Estatuto Regional: 1. Fiscalizar los actos del Gobierno Regional de acuerdo con el procedimiento establecido en el Estatuto Regional. 2. Fiscalizar los actos de la administración regional, para lo cual podrá requerir información de autoridades o jefaturas que desempeñen sus funciones en la Región Autónoma, citar a funcionarios públicos o autoridades regionales y crear comisiones especiales. 3. Solicitar al Gobernador o Gobernadora Regional rendir cuenta sobre su participación en el Consejo de Gobernaciones. 4. Aprobar, modificar o rechazar el Presupuesto Regional, el Plan de Desarrollo Regional y los Planes de Ordenamiento Territorial. 5. Aprobar, modificar o rechazar el Plan Regional de manejo integrado de cuencas. 6. Dictar su reglamento interno de funcionamiento. 7. Aprobar, a propuesta del Gobernador o Gobernadora Regional y previa ratificación del Consejo Territorial, la creación de empresas públicas regionales o la participación en empresas regionales. 8. Concurrir, en conjunto con el Gobernador Regional, en el ejercicio de la potestad reglamentaria, en la forma prescrita por la Constitución y las leyes. 9. Ejercer la potestad reglamentaria de ejecución de ley cuando esta lo encomiende y dictar los demás reglamentos en materias de competencia de la región autónoma. 10. Dictar las normas regionales que hagan aplicables las leyes de acuerdo regional. 11. Iniciar el trámite legislativo ante el Consejo Territorial en materias de interés regional. 12. Solicitar al Congreso la transferencia de la potestad legislativa en materias de interés de la Región Autónoma respectiva, en conformidad a la ley. 13. Las demás atribuciones que determine la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 172,
+    "comision": 3,
+    "texto_articulo_limpio": "Son atribuciones exclusivas de los Gobiernos Regionales las siguientes: 1. Preparar y presentar ante la Asamblea Regional el Plan de Desarrollo Regional, en conformidad al Estatuto Regional. 2. Preparar y presentar ante la Asamblea Regional el proyecto de Presupuesto Regional, en conformidad a esta Constitución y el Estatuto Regional. 3. Administrar y ejecutar el Presupuesto Regional, realizar actos y contratos en los que tenga interés, ejercer competencias fiscales propias conforme a la ley, y elaborar la planificación presupuestaria sobre la destinación y uso del presupuesto regional. 4. Preparar y presentar ante la Asamblea Regional el plan regional de ordenamiento territorial, los planes de desarrollo urbano de las áreas metropolitanas y los planes de manejo integrado de cuencas, en conformidad al Estatuto Regional y la ley. 5. Organizar, administrar, supervigilar y fiscalizar los servicios públicos de la Región Autónoma y coordinarse con el Gobierno respecto de aquellos que detenten un carácter nacional y que funcionen en la Región. 6. Ejercer la potestad reglamentaria en todas aquellas materias que se encuentren dentro del ámbito de sus competencias, en conformidad a la Constitución, la ley y el Estatuto Regional. 8. Adoptar e implementar políticas públicas que fomenten y promocionen el desarrollo social, productivo, económico y cultural de la región autónoma, especialmente en ámbitos de competencia de la región autónoma. 9. Proponer a la Asamblea Regional la creación de empresas públicas regionales o la participación en empresas regionales para la gestión de servicios de su competencia, según lo dispuesto en la Constitución, la ley y el Estatuto Regional. 12. Celebrar y ejecutar convenios con los Gobiernos de otras regiones autónomas para efectos de implementar programas y políticas públicas interregionales, así como toda otra forma de asociatividad territorial. 13. Celebrar y ejecutar acciones de cooperación internacional, dentro de los marcos establecidos por los tratados y convenios que el país celebre al efecto y en conformidad a los procedimientos regulados en la ley. 17. Promover la innovación, la competitividad y la inversión en la respectiva región autónoma. 18. Convocar a referéndum y plebiscitos regionales en virtud de lo previsto en la Constitución, el Estatuto Regional y la ley. 19. Establecer sistemas de gestión de crisis entre los órganos que tienen asiento en la Región Autónoma, que incluyan, a lo menos, su preparación, prevención, administración y manejo. 20. Las demás atribuciones que señalen la Constitución, el Estatuto Regional y las leyes."
+  },
+  {
+    "id_articulo_borrador": 173,
+    "comision": 3,
+    "texto_articulo_limpio": "La comuna autónoma es la entidad territorial base del Estado regional, dotada de personalidad jurídica de derecho público y patrimonio propio, que goza de autonomía para el cumplimiento de sus fines y el ejercicio de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley. (Inciso tercero) La ley clasificará las comunas en distintos tipos, las que deberán ser consideradas por los órganos del Estado para el establecimiento de regímenes administrativos y económico-fiscales diferenciados, la implementación de políticas, planes y programas atendiendo a las diversas realidades locales, y en especial, para el traspaso de competencias y recursos. El establecimiento de los tipos comunales deberá considerar, a lo menos, criterios demográficos, económicos, culturales, geográficos, socioambientales, urbanos y rurales."
+  },
+  {
+    "id_articulo_borrador": 174,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado garantizará a la municipalidad el financiamiento y recursos suficientes, para el justo y equitativo desarrollo de cada comuna, conforme a los mecanismos que señale la Constitución y la ley. Para el gobierno comunal se observará como principio básico la búsqueda de un desarrollo territorial armónico y equitativo, propendiendo a que todas las personas tengan acceso a igual nivel y calidad de servicios públicos municipales, sin distingo del lugar que habiten."
+  },
+  {
+    "id_articulo_borrador": 175,
+    "comision": 3,
+    "texto_articulo_limpio": "La creación, división o fusión de comunas autónomas, o la modificación de sus límites o denominación, se determinará por ley, respetando en todo caso criterios objetivos, según lo dispuesto en el artículo 2 de esta Constitución. Una ley regulará la administración transitoria de las comunas que se creen, el procedimiento de instalación de las nuevas municipalidades, de traspaso del personal municipal y de los servicios y los resguardos necesarios para cautelar el uso y disposición de los bienes que se encuentren situados en los territorios de las nuevas comunas."
+  },
+  {
+    "id_articulo_borrador": 176,
+    "comision": 3,
+    "texto_articulo_limpio": "En los términos que establezca la ley, las regiones y comunas autónomas ubicadas en zonas fronterizas podrán vincularse con las entidades territoriales limítrofes del país vecino, de igual nivel, a través de sus respectivas autoridades, para establecer programas de cooperación e integración, dirigidos a fomentar el desarrollo comunitario, la prestación de servicios públicos y la conservación del medio ambiente."
+  },
+  {
+    "id_articulo_borrador": 177,
+    "comision": 3,
+    "texto_articulo_limpio": "Las municipalidades, para el cumplimiento de sus funciones, podrán establecer sus plantas de personal y los órganos o unidades de su estructura interna, en conformidad a la Constitución y la ley. Estas facultades se ejercerán cautelando su debido financiamiento y el carácter técnico y profesional de dichos empleos."
+  },
+  {
+    "id_articulo_borrador": 178,
+    "comision": 3,
+    "texto_articulo_limpio": "Las municipalidades tienen el deber de promover y garantizar la participación ciudadana de la comunidad local en la gestión, en la construcción de políticas de desarrollo local y en la planificación del territorio, así como en los casos que esta Constitución, la ley y los estatutos regionales o comunales señalen. Las municipalidades proveerán los mecanismos, espacios, recursos, alfabetización digital, formación y educación cívica y todo aquello que sea necesario para concretar dicha participación que será consultiva, incidente y/o vinculante de acuerdo a la legislación respectiva."
+  },
+  {
+    "id_articulo_borrador": 179,
+    "comision": 3,
+    "texto_articulo_limpio": "El gobierno de la comuna autónoma reside en la municipalidad, la que estará constituida por el alcalde o alcaldesa y el concejo municipal, con la participación de la comunidad que habita en su territorio."
+  },
+  {
+    "id_articulo_borrador": 180,
+    "comision": 3,
+    "texto_articulo_limpio": "El concejo municipal es el órgano colegiado de representación popular y vecinal, dotado de funciones normativas, resolutivas y fiscalizadoras, en conformidad a la Constitución y la ley. El concejo municipal estará integrado por el número de personas que determine la ley, en proporción a la población de la comuna, según los criterios de inclusión, paridad de género y escaños reservados para pueblos y naciones indígenas considerando su población dentro de la jurisdicción electoral respectiva. La elección de concejales y concejalas será por sufragio universal, directo y secreto, en conformidad a la ley. Los concejales o concejalas ejercerán sus funciones por el término de cuatro años, y podrán ser reelegidos o reelegidas consecutivamente sólo una vez para el período siguiente. Para estos efectos se entenderá que los concejales y concejalas han ejercido su cargo durante un período cuando hayan cumplido más de la mitad de su mandato. La ley y el estatuto comunal determinarán las normas sobre organización y funcionamiento del concejo. Será necesario el acuerdo del concejo para la aprobación del plan comunal de desarrollo, del presupuesto municipal y de los proyectos de inversión respectivos, y otros que determine la ley. Los Concejales y Concejalas dispondrán de las condiciones y recursos necesarios para el desempeño eficiente y probo del cargo. La ley establecerá un régimen de inhabilidades e incompatibilidades. Será igualmente necesario el acuerdo del Concejo para la aprobación del plan regulador comunal."
+  },
+  {
+    "id_articulo_borrador": 181,
+    "comision": 3,
+    "texto_articulo_limpio": "El alcalde o alcaldesa es la máxima autoridad ejecutiva del gobierno comunal, integra el concejo municipal y representa judicial y extrajudicialmente a la comuna. El alcalde o alcaldesa ejercerá sus funciones por el término de cuatros años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. Para estos efectos se entenderá que el alcalde o alcaldesa ha ejercido su cargo durante un período cuando haya cumplido más de la mitad de su mandato. El alcalde o alcaldesa será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley. El alcalde o alcaldesa ejercerá la presidencia del concejo municipal."
+  },
+  {
+    "id_articulo_borrador": 182,
+    "comision": 3,
+    "texto_articulo_limpio": "El alcalde o alcaldesa, con aprobación del Concejo Municipal, podrá establecer delegaciones para el ejercicio de las facultades de la comuna autónoma en los casos y formas que determine la ley."
+  },
+  {
+    "id_articulo_borrador": 183,
+    "comision": 3,
+    "texto_articulo_limpio": "Las comunas autónomas establecerán en el ámbito de sus competencias, territorios denominados unidades vecinales. Dentro de ellas, se constituirá una junta vecinal, representativa de las personas que residen en una misma unidad vecinal, que gozará de personalidad jurídica y será sin fines de lucro, cuyo objeto será hacer efectiva la participación popular en la gestión comunal y en el desarrollo de la comunidad, y las demás atribuciones que determine la ley. En Comunas Autónomas con población rural, podrá constituirse además una Unión Comunal de Juntas Vecinales de carácter rural. La ley dispondrá la forma de determinar el territorio de las unidades vecinales, el procedimiento de constitución de las juntas vecinales y uniones comunales y sus atribuciones."
+  },
+  {
+    "id_articulo_borrador": 184,
+    "comision": 3,
+    "texto_articulo_limpio": "La asamblea social comunal tiene la finalidad de promover la participación popular y ciudadana en los asuntos públicos de la comuna autónoma, de carácter consultivo, incidente y representativo de las organizaciones de la comuna. Su integración, organización, funcionamiento y atribuciones serán establecidas por ley y complementada por el Estatuto Regional."
+  },
+  {
+    "id_articulo_borrador": 185,
+    "comision": 3,
+    "texto_articulo_limpio": "Cada Comuna Autónoma tendrá un Estatuto Comunal elaborado y discutido por el Concejo Municipal correspondiente, que establecerá la organización administrativa y funcionamiento de los órganos comunales, los mecanismos de democracia vecinal y las normas de elaboración de ordenanzas comunales. Todo lo anterior se entenderá sin perjuicio de los mínimos generales que establezca la ley respectiva para todas las comunas autónomas."
+  },
+  {
+    "id_articulo_borrador": 186,
+    "comision": 3,
+    "texto_articulo_limpio": "La comuna autónoma cuenta con todas las potestades y competencias de autogobierno para satisfacer las necesidades de la comunidad local. Son competencias esenciales de la comuna autónoma: 1. El desarrollo estratégico de la comuna mediante el plan de desarrollo comunal. 2. La prestación de los servicios públicos que determine la ley. 3. Construir las obras que demande el progreso local en el marco de sus atribuciones. 4. La planificación del territorio mediante el plan regulador comunal acordado de forma participativa con la comunidad de su respectivo territorio. 5. Garantizar la participación popular y el fortalecimiento de la democracia. 6. El fomento del comercio local. 7. El desarrollo sostenible e integral de la comuna. 8. La conservación, custodia y resguardo de los patrimonios culturales y naturales. 9. Fomento y protección a las culturas, las artes y los patrimonios culturales y naturales, así como la investigación y la formación artística en sus territorios. 10. Proteger los ecosistemas comunales y los derechos de la naturaleza. 12. Desarrollar, con el nivel regional y central, actividades y servicios en materias de educación, salud, vivienda, turismo, recreación, deporte y las demás que establezca la ley. 13. Ejercer funciones de gobierno y administración dentro de la comuna y en el ámbito de sus competencias. 14. Fomentar las actividades productivas. 15. La creación, organización y administración de los servicios públicos municipales en el ámbito de sus funciones, conforme a la Constitución y la ley. 16. La dictación de normas generales y obligatorias en materias de carácter comunal, con arreglo a la Constitución y las leyes. 18. El fomento de la reintegración y reinserción de las personas en situación de calle que así lo requieran, mediante la planificación, coordinación y ejecución de programas al efecto. 19. Ejercer las acciones pertinentes en resguardo de la Naturaleza y sus derechos reconocidos por esta Constitución y la ley. 20. La ejecución de los mecanismos y acciones de protección ambiental en la forma que determine la Constitución, la ley, los instrumentos de gestión ambiental y normas afines. 21. Las demás competencias que determinen la Constitución y la ley. Las leyes deberán reconocer las diferencias existentes entre los distintos tipos de comunas y municipalidades, velando por la equidad, inclusión y cohesión territorial. (Número nuevo). Gestionar la reducción de riesgos frente a desastres. (Número nuevo). Desarrollar el aseo y ornato de la comuna. (Número nuevo). La promoción de la Seguridad ciudadana. Las Comunas Autónomas, a través de sus órganos de gobierno y administración, tendrán competencias preeminentes sobre las Regiones Autónomas y el Estado, en relación a las funciones de gobierno local que puedan ser cumplidas de modo adecuado y eficaz, sin perjuicio de una necesaria coordinación para su ejercicio y la distribución de competencias establecida en esta Constitución y las leyes. A fin de garantizar el respeto, protección y realización progresiva de los derechos económicos y sociales en igualdad de condiciones, las comunas autónomas podrán encomendar temporalmente una o más competencias a las región autónoma respectiva o al Estado central, conforme lo establecido en la ley. A petición del alcalde o alcaldesa con acuerdo del concejo municipal, la región autónoma o el Estado, cuando así lo exija el interés general, podrán subrogar de manera transitoria y supletoria las competencias que no puedan ser asumidas por la comuna autónoma."
+  },
+  {
+    "id_articulo_borrador": 187,
+    "comision": 3,
+    "texto_articulo_limpio": "Las comunas autónomas podrán asociarse entre sí, de manera permanente o temporal, pudiendo dichas organizaciones contar con personalidad jurídica de derecho privado, rigiéndose por la normativa propia de dicho sector. Sin perjuicio de lo dispuesto en el inciso precedente, las asociaciones quedarán sujetas a la fiscalización de la entidad contralora y deberán cumplir con la normativa de probidad administrativa y de transparencia en el ejercicio de la función que desarrollan."
+  },
+  {
+    "id_articulo_borrador": 188,
+    "comision": 3,
+    "texto_articulo_limpio": "Las comunas autónomas, previa autorización por ley general o especial, podrán establecer empresas, o participar en ellas, ya sea individualmente o asociadas con otras entidades públicas o privadas, a fin de cumplir con las funciones y ejercer las atribuciones que les asignan la Constitución y las leyes. Las empresas públicas municipales tendrán personalidad jurídica y patrimonio propio y se regirán por las normas del derecho común."
+  },
+  {
+    "id_articulo_borrador": 189,
+    "comision": 3,
+    "texto_articulo_limpio": "La provincia es una división territorial establecida con fines administrativos y está compuesta por una agrupación de comunas autónomas, conforme a lo establecido en la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 190,
+    "comision": 3,
+    "texto_articulo_limpio": "Las Autonomías Territoriales Indígenas son entidades territoriales dotadas de personalidad jurídica de derecho público y patrimonio propio, donde los pueblos y naciones indígenas ejercen derechos de autonomía, en coordinación con las demás entidades territoriales que integran el Estado Regional de conformidad a la Constitución y la ley. Es deber del Estado reconocer, promover y garantizar las Autonomías Territoriales Indígenas, para el cumplimiento de sus propios fines."
+  },
+  {
+    "id_articulo_borrador": 191,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley, mediante un proceso de participación y consulta previa, creará un procedimiento oportuno, eficiente y transparente para la constitución de las Autonomías Territoriales Indígenas. Dicho procedimiento deberá iniciarse a requerimiento de los pueblos y naciones indígenas interesados, a través de sus autoridades representativas."
+  },
+  {
+    "id_articulo_borrador": 192,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley deberá establecer las competencias exclusivas de las Autonomías Territoriales Indígenas y las compartidas con las demás entidades territoriales, de conformidad con lo que establece esta Constitución. Las Autonomías Territoriales Indígenas deberán tener las competencias y el financiamiento necesario para el adecuado ejercicio del derecho de libre determinación de los pueblos y naciones indígenas."
+  },
+  {
+    "id_articulo_borrador": 193,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado de Chile reconoce la existencia del maritorio como una categoría jurídica que, al igual que el territorio, debe contar con regulación normativa específica, que reconozca sus características propias en los ámbitos social, cultural, medioambiental y económico. Una ley establecerá la división administrativa del maritorio y los principios básicos que deberán informar los cuerpos legales que materialicen su institucionalización."
+  },
+  {
+    "id_articulo_borrador": 194,
+    "comision": 3,
+    "texto_articulo_limpio": "Son territorios especiales Rapa Nui y el Archipiélago Juan Fernández, los cuales estarán regidos por sus respectivos estatutos. Sin perjuicio de lo establecido en esta Constitución, la ley podrá crear territorios especiales en virtud de las particularidades geográficas, climáticas, ambientales, económicas, sociales y culturales de una determinada entidad territorial o parte de esta. En los territorios especiales, la ley podrá establecer regímenes económicos y administrativos diferenciados, así como su duración, teniendo en consideración las características y particularidades propias de estas entidades."
+  },
+  {
+    "id_articulo_borrador": 195,
+    "comision": 3,
+    "texto_articulo_limpio": "Para el cumplimiento de los fines establecidos en la creación de territorios especiales, el Estado y las entidades territoriales autónomas deberán destinar recursos de sus presupuestos respectivos, en conformidad a la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 196,
+    "comision": 3,
+    "texto_articulo_limpio": "En el territorio especial de Rapa Nui, el Estado garantiza el derecho a la libre determinación y autonomía del pueblo nación polinésico Rapa Nui, asegurando los medios para financiar y promover su desarrollo, protección y bienestar en virtud del Acuerdo de Voluntades firmado en 1888, por el cual se incorpora a Chile. Se reconoce la titularidad colectiva de los derechos sobre el territorio al pueblo Rapa Nui con excepción de los derechos sobre tierras individuales de sus miembros. El territorio Rapa Nui se regulará por un estatuto de autonomía."
+  },
+  {
+    "id_articulo_borrador": 197,
+    "comision": 3,
+    "texto_articulo_limpio": "El Archipiélago Juan Fernández es un territorio especial, conformado por las islas Robinson Crusoe, Alejandro Selkirk, Santa Clara, San Félix y San Ambrosio, así como también el territorio marítimo adyacente a ellas. El gobierno y administración de este territorio se regirá por los estatutos especiales que establezcan las leyes respectivas."
+  },
+  {
+    "id_articulo_borrador": 198,
+    "comision": 3,
+    "texto_articulo_limpio": "Todas las personas y entidades deberán contribuir al sostenimiento de los gastos públicos mediante el pago de los impuestos, las tasas y las contribuciones que autorice la ley. El Sistema tributario se funda en los principios de igualdad, progresividad, solidaridad y justicia material el cual, en ningún caso, tendrá alcance confiscatorio. El sistema tributario tendrá dentro de sus objetivos la reducción de las desigualdades y la pobreza. Los tributos y los beneficios tributarios se crean, modifican o suprimen por ley, salvo las excepciones que establezca esta Constitución. El ejercicio de la potestad tributaria admite la creación de tributos que respondan principalmente a fines distintos de la recaudación, debiendo tener en consideración límites tales como la necesidad, la razonabilidad y la transparencia."
+  },
+  {
+    "id_articulo_borrador": 199,
+    "comision": 3,
+    "texto_articulo_limpio": "Los Gobiernos Regionales y las Municipalidades gozan de autonomía financiera para el cumplimiento de sus funciones, dentro del marco establecido por esta Constitución y las leyes. La Ley de Presupuestos de la Nación deberá propender a que, progresivamente, una parte significativa del gasto público sea ejecutado a través de los gobiernos subnacionales, en función de las responsabilidades propias que debe asumir cada nivel de gobierno. El deber y la facultad de velar por la estabilidad macroeconómica y fiscal será centralizada, conforme a lo dispuesto en esta Constitución."
+  },
+  {
+    "id_articulo_borrador": 200,
+    "comision": 3,
+    "texto_articulo_limpio": "Los tributos que se recauden, cualquiera sea su naturaleza, ingresarán al erario público del Estado o a las entidades territoriales según corresponda conforme a la Constitución. Excepcionalmente, la ley podrá crear tributos en favor de las entidades territoriales que graven las actividades o bienes con una clara identificación con los territorios."
+  },
+  {
+    "id_articulo_borrador": 201,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley de Presupuestos no puede crear tributos ni beneficios tributarios. No procederán iniciativas populares ni plebiscito y referéndum en materia tributaria."
+  },
+  {
+    "id_articulo_borrador": 202,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley creará y regulará la administración de un Fondo para Territorios Especiales, cuyos recursos serán destinados exclusivamente a los fines para los cuales fueron creados."
+  },
+  {
+    "id_articulo_borrador": 203,
+    "comision": 3,
+    "texto_articulo_limpio": "Las entidades territoriales mencionadas en el artículo 5° de esta Constitución, gozarán de autonomía financiera en sus ingresos y gastos para el cumplimiento de sus competencias, la cual deberá ajustarse a los principios de suficiencia, coordinación, equilibrio presupuestario, solidaridad y compensación interterritorial, sostenibilidad, responsabilidad y eficiencia económica."
+  },
+  {
+    "id_articulo_borrador": 204,
+    "comision": 3,
+    "texto_articulo_limpio": "Las entidades territoriales, de conformidad a la Constitución y las leyes, tendrán las siguientes fuentes de ingresos: 1. Los recursos asignados por la Ley de Presupuestos del Estado. 2. Los impuestos en favor de la entidad territorial 3. La distribución de los impuestos establecida en la Ley de Presupuestos. 4. Las tasas y contribuciones. 5. La distribución de los fondos solidarios. 6. La transferencia fiscal interterritorial. 8. La administración y aprovechamiento de su patrimonio. 9. Las donaciones, herencias y legados que reciban conforme a la ley. 10. Otras que determine la Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 205,
+    "comision": 3,
+    "texto_articulo_limpio": "Sólo la ley podrá crear, modificar y suprimir impuestos y beneficios tributarios aplicables a estos. Las entidades territoriales solo podrán establecer tasas y contribuciones dentro de su territorio conforme a una ley marco que establecerá el hecho gravado."
+  },
+  {
+    "id_articulo_borrador": 206,
+    "comision": 3,
+    "texto_articulo_limpio": "Los ingresos fiscales generados por impuestos serán distribuidos entre el Estado y las entidades territoriales en la forma establecida en la Ley de Presupuestos. Durante el trámite legislativo presupuestario, el organismo competente sugerirá una fórmula de distribución de ingresos fiscales, la cual considerará los criterios de distribución establecidos por la ley."
+  },
+  {
+    "id_articulo_borrador": 207,
+    "comision": 3,
+    "texto_articulo_limpio": "La autonomía financiera de las entidades territoriales implica la facultad de ordenar y gestionar sus finanzas públicas en el marco de la Constitución y las leyes, en beneficio de sus habitantes, bajo los criterios de responsabilidad y sostenibilidad financiera. (Inciso tercero) La suficiencia financiera se determinará bajo criterios objetivos tales como correspondencia entre competencias y recursos necesarios para su cumplimiento, equilibrio presupuestario, coordinación, no discriminación arbitraria entre entidades territoriales, igualdad en las prestaciones sociales, desarrollo armónico de los territorios, unidad, objetividad, razonabilidad, oportunidad y transparencia."
+  },
+  {
+    "id_articulo_borrador": 208,
+    "comision": 3,
+    "texto_articulo_limpio": "La actividad financiera de las entidades territoriales se realizará coordinadamente entre ellas, el Estado y las autoridades competentes, las cuales deberán cooperar y colaborar entre sí y evitar la duplicidad e interferencia de funciones, velando en todo momento por la satisfacción del interés general. Este principio se aplicará también respecto de todas las competencias o potestades que se atribuyan a las entidades territoriales."
+  },
+  {
+    "id_articulo_borrador": 209,
+    "comision": 3,
+    "texto_articulo_limpio": "Los gobiernos regionales y locales podrán emitir deuda en conformidad a lo que disponga la ley, general o especial, la que establecerá al menos las siguientes regulaciones: a) La prohibición de destinar los fondos recaudados mediante emisión de deuda o empréstitos al financiamiento de gasto corriente. b) Los mecanismos que garanticen que la deuda sea íntegra y debidamente servida por el deudor. c) La prohibición del establecimiento de garantías o cauciones del fisco. d) El establecimiento de límites máximos de endeudamiento como porcentaje del presupuesto anual del gobierno regional y municipal respectivo y la obligación de mantener una clasificación de riesgo actualizada. e) Restricciones en períodos electorales. f) Estos recursos no podrán ser destinados a remuneraciones ni a gasto corriente."
+  },
+  {
+    "id_articulo_borrador": 210,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley definirá el organismo encargado de recopilar y sistematizar la información necesaria para proponer al Poder Legislativo las fórmulas de distribución de los ingresos fiscales, de compensación fiscal entre entidades territoriales y de los recursos a integrar en los diversos fondos. Para estos efectos se deberá considerar la participación y representación de las entidades territoriales."
+  },
+  {
+    "id_articulo_borrador": 211,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado y las entidades territoriales deben Contribuir a la corrección de las desigualdades que existan entre ellas. La ley establecerá fondos de compensación para las entidades territoriales con una menor capacidad fiscal. El organismo competente, sobre la base de criterios objetivos, sugerirá al legislador los recursos que deberán ser integrados a estos fondos. El Estado deberá realizar transferencias directas incondicionales a las entidades territoriales que cuenten con ingresos fiscales inferiores a la mitad del promedio ponderado de estas. La ley establecerá un fondo de contingencia y estabilización macroeconómica para garantizar los recursos de las entidades territoriales ante fluctuaciones de ingresos ordinarios."
+  },
+  {
+    "id_articulo_borrador": 212,
+    "comision": 3,
+    "texto_articulo_limpio": "Las regiones y comunas que cuenten con ingresos por sobre el promedio ponderado de ingresos fiscales, transferirán recursos a aquellas equivalentes con ingresos bajo el promedio. El organismo competente sugerirá una fórmula al legislador para realizar tales transferencias."
+  },
+  {
+    "id_articulo_borrador": 213,
+    "comision": 3,
+    "texto_articulo_limpio": "Es deber del Estado y de las entidades territoriales, en el ámbito de sus competencias financieras, establecer una política permanente de desarrollo sostenible y armónico con la naturaleza. Con el objeto de contar con recursos para el cuidado y la reparación de los ecosistemas, la ley podrá establecer tributos sobre actividades que afecten al medio ambiente. Asimismo, la ley podrá establecer tributos sobre el uso de bienes comunes naturales, bienes nacionales de uso público o bienes fiscales. Cuando dichas actividades estén territorialmente circunscritas, la ley debe distribuir recursos a la entidad territorial que corresponda."
+  },
+  {
+    "id_articulo_borrador": 214,
+    "comision": 3,
+    "texto_articulo_limpio": "Las entidades territoriales, sus representantes y sus autoridades que incumplan con sus obligaciones en materia financiera, deberán asumir, en la parte que les sea imputable, las responsabilidades que de tal incumplimiento se deriven con arreglo a la Constitución y las leyes. Sin perjuicio de los distintos tipos de responsabilidad a que pueda dar lugar el incumplimiento de las obligaciones en materia financiera, la ley deberá establecer mecanismos para un resarcimiento efectivo del patrimonio fiscal o de la entidad territorial respectiva."
+  },
+  {
+    "id_articulo_borrador": 215,
+    "comision": 3,
+    "texto_articulo_limpio": "El principio de eficiencia económica implica que las entidades territoriales deberán usar sus recursos de forma económicamente razonable, óptima y eficaz, en beneficio de sus habitantes y en función de los objetivos que la Constitución y las leyes les impongan."
+  },
+  {
+    "id_articulo_borrador": 216,
+    "comision": 3,
+    "texto_articulo_limpio": "Anualmente la autoridad competente publicará los ingresos afectos a impuestos y las cargas tributarias estatales, regionales y comunales, así como los beneficios tributarios, subsidios, subvenciones o bonificaciones de fomento a la actividad empresarial, incluyendo personas naturales y jurídicas. También deberá estimarse anualmente en la Ley de Presupuestos y publicarse el costo de estos beneficios fiscales. La ley determinará la información que deberá ser publicada y la forma de llevarla a cabo."
+  },
+  {
+    "id_articulo_borrador": 217,
+    "comision": 3,
+    "texto_articulo_limpio": "Las entidades territoriales deberán promover, fomentar y garantizar los mecanismos de participación en las políticas públicas, planes y programas que se implementen en cada nivel territorial, en los casos que esta Constitución, la ley y los estatutos regionales señalen."
+  },
+  {
+    "id_articulo_borrador": 218,
+    "comision": 3,
+    "texto_articulo_limpio": "En el ejercicio de la función pública se deberá observar una conducta funcionaria intachable y responsable, desempeñando la función o el cargo correspondiente en forma leal, honesta, objetiva e imparcial, sin incurrir en discriminaciones de ningún tipo, con preeminencia del interés general por sobre el particular. La función pública se deberá brindar con pertinencia territorial, cultural y lingüística."
+  },
+  {
+    "id_articulo_borrador": 219,
+    "comision": 3,
+    "texto_articulo_limpio": "Es deber del Estado proveer de servicios públicos universales y de calidad a todas las personas que habiten en su territorio, los cuales contarán con un financiamiento suficiente. El Estado planificará y coordinará de manera intersectorial la provisión, prestación y cobertura de estos servicios, bajo los principios de generalidad, uniformidad, regularidad y pertinencia territorial."
+  },
+  {
+    "id_articulo_borrador": 220,
+    "comision": 3,
+    "texto_articulo_limpio": "Los órganos de la Administración tienen por objeto satisfacer las necesidades de las personas y las comunidades. La Administración Pública ejecutará políticas públicas, planes y programas, y proveerá o garantizará, en su caso, la prestación de servicios públicos en forma continua y permanente. La Administración Pública se somete en su organización y funcionamiento a los principios de juridicidad, publicidad, celeridad, objetividad, participación, control, jerarquía, eficiencia, eficacia, rendición de cuentas, buen trato, primacía del interés general y los demás principios que señale la Constitución y la ley. Cualquier persona que hubiere sido vulnerada en sus derechos por la Administración Pública podrá reclamar ante las instancias administrativas y jurisdiccionales que establezcan esta Constitución y la ley."
+  },
+  {
+    "id_articulo_borrador": 221,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley establecerá la organización básica de la Administración Pública en el Estado y en las entidades territoriales. Cada autoridad y jefatura, dentro del ámbito de su competencia, podrá dictar normas, resoluciones e instrucciones para el mejor y más eficaz desarrollo de sus funciones. La ley podrá conferir, a lo menos, potestades fiscalizadoras, instructoras, normativas, interpretativas y sancionatorias a los órganos de la Administración Pública. En ningún caso estas potestades implicarán ejercicio de jurisdicción."
+  },
+  {
+    "id_articulo_borrador": 222,
+    "comision": 3,
+    "texto_articulo_limpio": "La Administración Pública desarrolla sus funciones propias y habituales a través de funcionarias y funcionarios públicos. El ingreso a estas funciones se realizará mediante un sistema abierto, transparente, imparcial, ágil y que privilegie el mérito, la especialidad e idoneidad para el cargo, observando en todo momento criterios objetivos y predeterminados. El desarrollo, evaluación de desempeño y cese en estas funciones deberá respetar su carácter técnico y profesional. La ley regulará las bases de la carrera funcionaria, permitiendo la movilidad de los funcionarios dentro de toda la Administración Pública y la capacitación funcionaria, teniendo en cuenta la pertinencia territorial y cultural del lugar en el que se presta el servicio. La ley establecerá un sistema de formación, capacitación y perfeccionamiento de las funcionarias y funcionarios públicos. Los cargos que esta Constitución o la ley califiquen como de exclusiva confianza, atendiendo a la naturaleza de sus funciones, son parte del gobierno y tendrán el régimen de ingreso, desempeño y cesación que establezca la ley. Las personas que tengan la calidad de cónyuge, conviviente civil o parientes hasta el cuarto grado de consanguinidad y segundo de afinidad inclusive, no podrán ser nombrados en cargos de la administración pública respecto de las autoridades y de los funcionarios directivos del organismo del Estado al que postulan. Se exceptúan los nombramientos que se hagan en aplicación de las normas vigentes sobre ingreso o ascenso por méritos en cargos de carrera."
+  },
+  {
+    "id_articulo_borrador": 223,
+    "comision": 3,
+    "texto_articulo_limpio": "Es deber del Estado definir mecanismos de modernización de sus procesos y organización, ajustando su funcionamiento a las condiciones sociales, ambientales y culturales de cada localidad. El Estado deberá destinar recursos para que sus órganos adopten las medidas que resulten necesarias para la incorporación de avances tecnológicos, innovación y el mejor uso de los recursos que permitan optimizar la provisión de bienes y servicios públicos. El Estado deberá fomentar los mecanismos de participación, la relación con las personas y promover la gestión eficiente y moderna, acorde a las necesidades de las personas y comunidades."
+  },
+  {
+    "id_articulo_borrador": 224,
+    "comision": 3,
+    "texto_articulo_limpio": "La ley encomendará a un organismo la elaboración de planes para promover la modernización de la Administración del Estado, monitorear su implementación, elaborar diagnósticos periódicos sobre el funcionamiento de los servicios públicos y las demás funciones que establezca la ley. Este organismo contará con un consejo consultivo cuya integración considerará, entre otros, a las y los usuarios y funcionarios de los servicios públicos y las entidades territoriales."
+  },
+  {
+    "id_articulo_borrador": 225,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado reconoce la ruralidad como una expresión territorial donde las formas de vida y producción se desarrollan en torno a la relación directa de las personas y comunidades con la tierra, el agua y el mar. El Estado promoverá el desarrollo integral de los territorios rurales."
+  },
+  {
+    "id_articulo_borrador": 226,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado y las entidades territoriales facilitarán la participación de las comunidades rurales a nivel local y regional en el diseño e implementación de programas y políticas públicas que les afectan o conciernen."
+  },
+  {
+    "id_articulo_borrador": 227,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado fomentará los mercados locales, ferias libres y circuitos cortos de comercialización e intercambio de bienes y productos relacionados a la ruralidad."
+  },
+  {
+    "id_articulo_borrador": 228,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado protegerá la función ecológica y social de la tierra."
+  },
+  {
+    "id_articulo_borrador": 229,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado reconoce y apoya la agricultura campesina e indígena, la recolección y la pesca artesanal, entre otros, como actividades fundamentales de la producción de alimentos."
+  },
+  {
+    "id_articulo_borrador": 230,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado tomará las medidas necesarias para prevenir la violencia y superar las desigualdades que afrontan mujeres y niñas rurales, promoviendo la implementación de políticas públicas para garantizar su acceso igualitario a los derechos que esta Constitución consagra."
+  },
+  {
+    "id_articulo_borrador": 231,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado es garante de la conectividad del país en coordinación con los gobiernos regionales. Se fomentará la conectividad regional con especial atención a territorios aislados, rurales y de difícil acceso."
+  },
+  {
+    "id_articulo_borrador": 232,
+    "comision": 3,
+    "texto_articulo_limpio": "La designación de las y los representantes de los Ministerios y Servicios Públicos con presencia en la Región Autónoma será decisión de la Presidencia de la República."
+  },
+  {
+    "id_articulo_borrador": 233,
+    "comision": 3,
+    "texto_articulo_limpio": "Las regiones autónomas, para el cumplimiento de sus funciones, podrán establecer sus plantas de personal y las unidades de su estructura interna, en conformidad a la Constitución y la ley. Estas facultades serán ejercidas por el Gobernador o Gobernadora Regional, previo acuerdo de la Asamblea Regional, cautelando la carrera funcionaria, su debido financiamiento y el carácter técnico y profesional de dichos empleos."
+  },
+  {
+    "id_articulo_borrador": 234,
+    "comision": 3,
+    "texto_articulo_limpio": "Son atribuciones de la Asamblea Regional, en conformidad a la Constitución, la ley y el Estatuto Regional: 1. Pronunciarse sobre la convocatoria a consultas o plebiscitos regionales. 2. Administrar sus bienes y patrimonio propio. 3. Aprobar, rechazar o modificar la inversión de los recursos de los fondos solidarios que se creen y otros recursos públicos que disponga la ley. 4. Pronunciarse en conjunto con los órganos competentes respecto de los procedimientos de evaluación ambiental."
+  },
+  {
+    "id_articulo_borrador": 235,
+    "comision": 3,
+    "texto_articulo_limpio": "El Estado y las entidades territoriales tienen el deber de ordenar y planificar el territorio nacional. Para esto utilizarán unidades de ordenación que consideren las cuencas hidrográficas. Este deber tendrá como fin asegurar una adecuada localización de los asentamientos y las actividades productivas, que permitan tanto un manejo responsable de los ecosistemas como de las actividades humanas, con criterios de equidad y justicia territorial para el bienestar intergeneracional. La ordenación y planificación de los territorios será vinculante en las materias que la ley determine y realizada de manera coordinada, integrada y enfocada en el interés público, considerando procesos participativos en sus diferentes etapas. Los planes de ordenamiento y planificación contemplarán los impactos que los usos de suelos causen en la disponibilidad y calidad de las aguas. Estos podrán definir áreas de protección ambiental o cultural."
+  },
+  {
+    "id_articulo_borrador": 236,
+    "comision": 3,
+    "texto_articulo_limpio": "En cada región existirá, al menos, una universidad estatal y una institución de formación técnico profesional de nivel superior estatal. Estas se relacionarán de manera coordinada y preferente con las entidades territoriales y servicios públicos con presencia regional, de acuerdo a las necesidades locales."
+  },
+  {
+    "id_articulo_borrador": 237,
+    "comision": 3,
+    "texto_articulo_limpio": "Los Cuerpos de Bomberos de Chile son una institución perteneciente al sistema de protección civil, cuyo objeto es atender las emergencias causadas por la naturaleza o el ser humano, sin perjuicio de la competencia específica que tengan otros organismos públicos y/o privados. Será deber del Estado dar cobertura financiera para cubrir la totalidad de sus gastos operacionales, capacitación y equipos, como también otorgar cobertura médica a su personal por accidentes o enfermedades contraídas por actos de servicio. La ley regulará el régimen de financiamiento y prestaciones sociales en época de vejez e invalidez. Los Cuerpos de Bomberos de Chile se sujetarán en todas sus actuaciones a los principios de probidad, transparencia y rendición de cuentas."
+  },
+  {
+    "id_articulo_borrador": 238,
+    "comision": 4,
+    "texto_articulo_limpio": "Los derechos fundamentales son inherentes a la persona humana, universales, inalienables, indivisibles e interdependientes. El pleno ejercicio de estos derechos es esencial para la vida digna de las personas y los pueblos, la democracia, la paz y el equilibrio de la Naturaleza."
+  },
+  {
+    "id_articulo_borrador": 239,
+    "comision": 4,
+    "texto_articulo_limpio": "El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todos los obstáculos que pudieran limitar o entorpecer su realización. Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes."
+  },
+  {
+    "id_articulo_borrador": 240,
+    "comision": 4,
+    "texto_articulo_limpio": "El Estado debe adoptar todas las medidas necesarias para lograr de manera progresiva la plena satisfacción de los derechos fundamentales. Ninguna medida podrá tener un carácter regresivo que disminuya, menoscabe o impida injustificadamente su ejercicio."
+  },
+  {
+    "id_articulo_borrador": 241,
+    "comision": 4,
+    "texto_articulo_limpio": "El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad."
+  },
+  {
+    "id_articulo_borrador": 242,
+    "comision": 4,
+    "texto_articulo_limpio": "Las personas naturales son titulares de derechos fundamentales. Los derechos podrán ser ejercidos y exigidos individual o colectivamente. Los Pueblos y Naciones Indígenas son titulares de derechos fundamentales colectivos. La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables."
+  },
+  {
+    "id_articulo_borrador": 243,
+    "comision": 4,
+    "texto_articulo_limpio": "Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias. Ninguna religión, ni creencia es la oficial del Estado, sin perjuicio de su reconocimiento y libre ejercicio en el espacio público o privado, mediante el culto, la celebración de los ritos, las prácticas espirituales y la enseñanza. Podrán erigir templos, dependencias y lugares para el culto; mantener, proteger y acceder a los lugares sagrados y aquellos de relevancia espiritual, rescatar y preservar los objetos de culto o que tengan un significado sagrado. El Estado reconoce la espiritualidad como elemento esencial del ser humano. Las agrupaciones religiosas y espirituales podrán organizarse como personas jurídicas de conformidad a la ley. Respetando los derechos, deberes y principios que esta Constitución establece. Éstas no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente de acuerdo con lo que establezca la ley."
+  },
+  {
+    "id_articulo_borrador": 244,
+    "comision": 4,
+    "texto_articulo_limpio": "Toda persona, natural o jurídica, tiene derecho a la libertad de expresión y opinión, en cualquier forma y por cualquier medio. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole. No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley."
+  },
+  {
+    "id_articulo_borrador": 245,
+    "comision": 4,
+    "texto_articulo_limpio": "Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorios. Las acciones de prevención, persecución y sanción de los delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos."
+  },
+  {
+    "id_articulo_borrador": 246,
+    "comision": 4,
+    "texto_articulo_limpio": "Ninguna persona puede ser privado de su libertad arbitrariamente ni ésta ser restringida sino en los casos y en la forma determinados por la Constitución y las leyes. Ninguna persona puede ser arrestada o detenida sino por orden judicial, salvo que fuera sorprendida en delito flagrante. (Inciso tercero) La persona arrestada o detenida deberá ser puesta a disposición del tribunal competente en un plazo máximo de veinticuatro horas. Se le deberán informar de manera inmediata y comprensible sus derechos y los motivos de la privación de su libertad. Además, tendrá derecho a comunicarse con su abogado o quien estime pertinente. (Inciso cuarto) Ninguna persona puede ser arrestada o detenida, sujeta a prisión preventiva o presa, sino en su domicilio o en los lugares públicos destinados a este objeto. Su ingreso deberá constar en un registro público. (Inciso sexto) No existirá la detención por deudas, salvo en caso de incumplimiento de deberes alimentarios."
+  },
+  {
+    "id_articulo_borrador": 247,
+    "comision": 4,
+    "texto_articulo_limpio": "Toda persona tiene derecho a trasladarse, residir y permanecer en cualquier lugar del territorio nacional, así como a entrar y salir de éste. La ley regulará el ejercicio de este derecho."
+  },
+  {
+    "id_articulo_borrador": 248,
+    "comision": 4,
+    "texto_articulo_limpio": "Ninguna persona será sometida a desplazamiento forzado dentro del territorio nacional, salvo en las excepciones que establezca la ley."
+  },
+  {
+    "id_articulo_borrador": 249,
+    "comision": 4,
+    "texto_articulo_limpio": "Toda persona tiene derecho al libre desarrollo y pleno reconocimiento de su identidad, en todas sus dimensiones y manifestaciones, incluyendo las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas. El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes."
+  },
+  {
+    "id_articulo_borrador": 250,
+    "comision": 4,
+    "texto_articulo_limpio": "Toda persona tiene derecho a su autonomía personal, al libre desarrollo de la personalidad, identidad y de sus proyectos de vida. Se prohíbe la esclavitud, el trabajo forzado, la servidumbre y la trata de personas en cualquiera de sus formas. El Estado adoptará las medidas de prevención, sanción y erradicación de la esclavitud, el trabajo forzado, la servidumbre y la trata de personas, y de protección, plena restauración de derechos, remediación y reinserción social de las víctimas."
   }
 ]
