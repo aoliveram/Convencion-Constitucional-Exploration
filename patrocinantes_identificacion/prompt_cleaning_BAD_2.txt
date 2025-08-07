@@ -1,0 +1,97 @@
+Contexto:
+Eres un asistente experto en el procesamiento de documentos legales y constitucionales. Tu tarea es analizar un ARRAY JSON que contiene una lista de objetos, donde cada objeto representa una propuesta de norma. Debes procesar CADA objeto dentro del array de manera independiente, limpiando el valor de su clave "propuesta_norma" y manteniendo todas las demás claves y valores intactos.
+
+Tarea:
+Analiza el siguiente ARRAY JSON de entrada, el cual contiene uno o más objetos. Para CADA objeto dentro del array, limpia el valor de la clave "propuesta_norma" siguiendo las reglas estrictas a continuación. Tu salida DEBE SER un ARRAY JSON que contenga los objetos completos y limpios, en el mismo orden que la entrada y con exactamente la misma estructura.
+
+Reglas de Limpieza para el texto de "propuesta_norma":
+
+1.  Eliminar Preámbulos y Justificaciones: Descarta completamente cualquier texto introductorio que no sea parte del texto de un artículo. Esto incluye "POR TANTO,", "En consecuencia, se propone...", "Propuesta de norma...", "Justificación:", "INICIATIVA CONSTITUCIONAL:", etc., así como cualquier numeración romana (ej. "II.", "III.") o viñetas que introduzcan la propuesta.
+
+2.  Eliminar Encabezados de Sección: Descarta cualquier línea que actúe como un encabezado, como "Capítulo X", "Título I: De la Jurisdicción", "§1. DISPOSICIONES GENERALES...", etc.
+
+3.  Conservar la Estructura de Artículos: El resultado final debe ser una concatenación de todos los artículos encontrados. Mantén la palabra "Artículo" y su numeración (ej. "Artículo 1º", "Artículo XX") al inicio de cada artículo respectivo para preservar la estructura.
+
+4.  Limpiar Encabezados de Artículos: Dentro del encabezado de cada artículo, realiza estas dos transformaciones:
+    *   Elimina los títulos descriptivos: Si un encabezado es `Artículo 1º.- Del Territorio`, el resultado debe ser `Artículo 1º.`.
+    *   Elimina el guion: Si un encabezado es `Artículo 1º.-`, debe ser transformado a `Artículo 1º.`.
+
+5.  Formato del Texto Limpio:
+    *   El texto limpio final debe ser una única cadena de texto (string).
+    *   Los artículos deben estar separados por un único espacio.
+    *   Los saltos de línea (`\n`) deben ser reemplazados por espacios y los espacios múltiples consolidados en uno solo.
+    *   No debe haber espacios al inicio o al final del texto.
+
+---
+
+Ejemplo de Transformación (Formato de Array Completo):
+
+Este ejemplo muestra cómo debes procesar un array JSON que contiene un único objeto. Si el array de entrada contiene múltiples objetos, debes aplicar el mismo proceso a cada uno de ellos y devolverlos todos en el array de salida.
+
+*   Entrada (un array con un objeto):
+    ```json
+    [
+      {
+        "893-Iniciativa-Convencional-Constituyente-del-cc-Benito-Baranda-sobre-Sociedad-Civil.pdf": {
+          "propuesta_norma": "III.\nPROPUESTA DE NORMA\nArtículo I. El Estado, a través de la constitución, las leyes y sus políticas públicas debe\nproporcionar el financiamiento suficiente y todos los recursos necesarios para asegurar y\ngarantizar que los ciudadanos y ciudadanas, sin distinción alguna, puedan acceder y recibir\neducación pública, gratuita y de calidad.\nArtículo II. La diversidad cultural debe entenderse como los rasgos que diferencian a una\nComunidad de otra, los cuales se manifiestan a través de sus costumbres, prácticas, los\nacontecimientos comunitarios, y que expresan su visión de Mundo, y el sentido de lo esencial\nde su existencia; el folklore con su lenguaje simbólico y metafórico.\nEl Estado, debe garantizar el respeto a la diversidad cultural, estableciendo que la base de\nsustento valórico en los Planes y Programas de Educación, este dada por las distintas\ncosmovisiones que existen en los diversos pueblos y comunidades del país.\nArtículo III. La identidad cultural supone tanto la preservación como la reformulación en el\npresente, de un patrimonio pasado, que puede así ser proyectado hacia el futuro y asimilado\npor las nuevas generaciones. De esta manera, se asegura a la vez la identidad, el desarrollo y\nla evolución de los pueblos y las comunidades.\nEl Estado, debe garantizar que la formación integral de los y las docentes, contemple el\nestudio y conocimiento de las tradiciones culturales de los pueblos de Chile, asegurando con\nello una educación integral, con arraigo, identidad y pertenencia.",
+          "error": null,
+          "autor": "Baranda, Benito",
+          "autor_matched": "Baranda, Benito",
+          "comision": null,
+          "comision_n": null,
+          "fecha": "01/Febrero/2022",
+          "firmantes": [
+            "Benito Baranda Ferrán",
+            "Tania Madariaga Flores"
+          ],
+          "firmantes_matched": [
+            "Baranda, Benito",
+            "Madriaga, Tania"
+          ],
+          "firmantes_not_matched": [],
+          "n_firmantes": 2,
+          "n_firmantes_matched": 2,
+          "n_firmantes_not_matched": 0,
+          "error_limpieza": null
+        }
+      }
+    ]
+    ```
+*   Salida Esperada (un array con el objeto limpiado):
+    ```json
+    [
+      {
+        "893-Iniciativa-Convencional-Constituyente-del-cc-Benito-Baranda-sobre-Sociedad-Civil.pdf": {
+          "propuesta_norma": "Artículo I. El Estado, a través de la constitución, las leyes y sus políticas públicas debe proporcionar el financiamiento suficiente y todos los recursos necesarios para asegurar y garantizar que los ciudadanos y ciudadanas, sin distinción alguna, puedan acceder y recibir educación pública, gratuita y de calidad. Artículo II. La diversidad cultural debe entenderse como los rasgos que diferencian a una Comunidad de otra, los cuales se manifiestan a través de sus costumbres, prácticas, los acontecimientos comunitarios, y que expresan su visión de Mundo, y el sentido de lo esencial de su existencia; el folklore con su lenguaje simbólico y metafórico. El Estado, debe garantizar el respeto a la diversidad cultural, estableciendo que la base de sustento valórico en los Planes y Programas de Educación, este dada por las distintas cosmovisiones que existen en los diversos pueblos y comunidades del país. Artículo III. La identidad cultural supone tanto la preservación como la reformulación en el presente, de un patrimonio pasado, que puede así ser proyectado hacia el futuro y asimilado por las nuevas generaciones. De esta manera, se asegura a la vez la identidad, el desarrollo y la evolución de los pueblos y las comunidades. El Estado, debe garantizar que la formación integral de los y las docentes, contemple el estudio y conocimiento de las tradiciones culturales de los pueblos de Chile, asegurando con ello una educación integral, con arraigo, identidad y pertenencia.",
+          "error": null,
+          "autor": "Baranda, Benito",
+          "autor_matched": "Baranda, Benito",
+          "comision": null,
+          "comision_n": null,
+          "fecha": "01/Febrero/2022",
+          "firmantes": [
+            "Benito Baranda Ferrán",
+            "Tania Madariaga Flores"
+          ],
+          "firmantes_matched": [
+            "Baranda, Benito",
+            "Madriaga, Tania"
+          ],
+          "firmantes_not_matched": [],
+          "n_firmantes": 2,
+          "n_firmantes_matched": 2,
+          "n_firmantes_not_matched": 0,
+          "error_limpieza": null
+        }
+      }
+    ]
+    ```
+
+---
+
+Instrucción Final:
+Tu salida debe ser **únicamente el ARRAY JSON completo y válido**, con los valores de "propuesta_norma" limpios en cada objeto, y los otros valores intactos. No incluyas ninguna explicación, solo el JSON.
+
+Entrada a Procesar:
+
+[Aquí, el script de Python insertará el array JSON del lote de iniciativas]
