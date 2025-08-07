@@ -12,12 +12,12 @@ library(doParallel)
 cat("--- Configuración del Proceso ---\n")
 
 # Ruta al JSON del borrador final estructurado
-BORRADOR_JSON_PATH <- "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
+BORRADOR_JSON_PATH <- "patrocinantes_identificacion/propuesta_borrador_const_estructurado.json"
 
 # Ruta a la carpeta que contiene los archivos JSON de las iniciativas
 INICIATIVAS_JSON_FOLDER <- "patrocinantes_identificacion/"
 # Patrón para encontrar los archivos de iniciativas
-INICIATIVAS_PATTERN <- "api_extracted_\\d+_\\d+_corrected_3\\.json$"
+INICIATIVAS_PATTERN <- "api_extracted_\\d+_\\d+_corrected_4\\.json$"
 
 cat(paste0("Ruta del Borrador JSON: ", BORRADOR_JSON_PATH, "\n"))
 cat(paste0("Carpeta de Iniciativas JSON: ", INICIATIVAS_JSON_FOLDER, "\n"))
@@ -162,7 +162,7 @@ contribuciones_df <- best_match_per_oracion %>%
   group_by(id_articulo_borrador, origen_iniciativa_pdf) %>%
   summarise(oraciones_aportadas = n(), .groups = 'drop') %>%
   left_join(total_oraciones_por_articulo, by = "id_articulo_borrador") %>%
-  mutate(contribucion_pct = (oraciones_aportadas / total_oraciones_articulo) * 100) %>%
+  mutate(contribucion_pct = oraciones_aportadas / total_oraciones_articulo) %>%
   select(id_articulo_borrador, origen_iniciativa_pdf, contribucion_pct, oraciones_aportadas, total_oraciones_articulo) %>%
   arrange(id_articulo_borrador, desc(contribucion_pct))
 
