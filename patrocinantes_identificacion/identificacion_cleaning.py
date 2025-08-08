@@ -15,7 +15,7 @@ INPUT_FILE_PATTERN = "api_extracted_*_corrected_3.json"
 OUTPUT_FILE_SUFFIX = "corrected_4.json"
 
 # --- Constantes de Límite de Frecuencia y Reintentos ---
-MAX_REQUESTS_PER_MINUTE = 10 # Para Gemini 2.5 Flash
+MAX_REQUESTS_PER_MINUTE = 15 # Para Gemini 2.5 Flash
 SECONDS_WINDOW = 60
 MAX_RETRIES = 3
 RETRY_DELAY = 5 # segundos
@@ -31,7 +31,7 @@ except Exception as e:
     sys.exit(1)
 
 # Modelo a utilizar
-MODEL_NAME = 'gemini-2.5-flash'
+MODEL_NAME = 'gemini-2.5-flash-lite'
 print(f"Usando el modelo de Gemini: {MODEL_NAME}")
 model = genai.GenerativeModel(MODEL_NAME)
 
