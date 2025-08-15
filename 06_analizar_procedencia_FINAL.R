@@ -324,3 +324,70 @@ plot_aportes_ordenado <- ggplot(datos_plot, aes(x = convencional, y = oraciones_
 plot_aportes_ordenado
 
 ggsave("scripts - plots/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
+
+# --- 5. Bump chart: posición ideológica promedio por coalición ---
+
+# Cargar el ordenamiento por ventanas para todos los convencionales
+ORDEN_T_PATH_RDS <- "scripts - files/03_orden_votantes_t.rds"
+if (!file.exists(ORDEN_T_PATH_RDS)) {
+  stop("No se encontró '03_orden_votantes_t.rds' en 'scripts - files/'.")
+}
+orden_t_df <- readRDS(ORDEN_T_PATH_RDS)
+
+# Construir tabla larga con posiciones iniciales y finales (incluye 100-106 desde Periodo2)
+orden_t_long <- dplyr::bind_rows(
+  orden_t_df %>% dplyr::transmute(Votante, Periodo = Periodo1, posicion_ideologica = pos_ideol_inicial),
+  orden_t_df %>% dplyr::transmute(Votante, Periodo = Periodo2, posicion_ideologica = pos_ideol_final)
+)
+
+# Quedarnos con una fila por (Votante, Periodo)
+orden_t_slim <- orden_t_long %>%
+  dplyr::group_by(Votante, Periodo) %>%
+  dplyr::summarise(posicion_ideologica = mean(posicion_ideologica, na.rm = TRUE), .groups = "drop")
+
+# Unir coaliciones a cada votante
+orden_t_joined <- orden_t_slim %>%
+  dplyr::left_join(coaliciones_convencionales, by = c("Votante" = "nombre"))
+
+# Promedios por coalición y periodo
+promedios_coal_periodo <- orden_t_joined %>%
+  dplyr::filter(!is.na(coalicion)) %>%
+  dplyr::group_by(coalicion, Periodo) %>%
+  dplyr::summarise(
+    posicion_media = mean(posicion_ideologica, na.rm = TRUE),
+    n = dplyr::n(),
+    .groups = "drop"
+  )
+
+# Orden temporal de los bloques (usar sólo los presentes)
+niveles_periodo <- c("01-15","16-21","22-37","56-75","76-99","100-106")
+niveles_periodo <- niveles_periodo[niveles_periodo %in% promedios_coal_periodo$Periodo]
+
+promedios_coal_periodo <- promedios_coal_periodo %>%
+  dplyr::mutate(Periodo = factor(Periodo, levels = niveles_periodo)) %>%
+  dplyr::arrange(Periodo)
+
+# Bump chart de posición promedio por coalición
+bump_coaliciones <- ggplot(promedios_coal_periodo,
+                           aes(x = Periodo, y = posicion_media, group = coalicion, color = coalicion)) +
+  geom_line(size = 1) +
+  geom_point(size = 2) +
+  labs(
+    title = "Evolución de la Posición Promedio por Coalición",
+    subtitle = "Bloques de sesiones de votación (W-NOMINATE 1D)",
+    x = "Bloque de sesiones",
+    y = "Posición ideológica promedio"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(hjust = 0.5, face = "bold"),
+    plot.subtitle = element_text(hjust = 0.5),
+    axis.title.x = element_text(margin = margin(t = 6))
+  )
+
+# Mostrar el gráfico antes de guardar
+show(bump_coaliciones)
+
+# Guardar el gráfico en PDF
+ggsave("scripts - plots/bump_chart_coaliciones.pdf", plot = bump_coaliciones, width = 12, height = 7, dpi = 300)
