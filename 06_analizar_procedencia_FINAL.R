@@ -3,6 +3,8 @@ library(dplyr)
 library(tidyr)
 library(ggplot2)
 library(stringr)
+library(cowplot)
+library(gridExtra)
 
 # --- 1. Cargar los Datos ---
 
@@ -355,39 +357,114 @@ promedios_coal_periodo <- orden_t_joined %>%
   dplyr::group_by(coalicion, Periodo) %>%
   dplyr::summarise(
     posicion_media = mean(posicion_ideologica, na.rm = TRUE),
+    sd_pos = stats::sd(posicion_ideologica, na.rm = TRUE),
     n = dplyr::n(),
     .groups = "drop"
   )
+
+# Abreviaciones y paleta de colores por coalición
+abbr_map <- c(
+  "Coordinadora Constituyente Plurinacional y Popular" = "CCPP",
+  "Escaños Reservados" = "Esc. Res.",
+  "Frente Amplio" = "FA",
+  "Colectivo Socialista" = "Col. Soc.",
+  "Movimientos Sociales Constituyentes" = "Mov. SC",
+  "Pueblo Constituyente" = "Pueblo. C.",
+  "Independientes No Neutrales" = "INN",
+  "Chile Digno" = "Chile Digno",
+  "Colectivo del Apruebo" = "Col. A",
+  "Sin Grupo" = "Sin. G.",
+  "Chile Libre" = "Chile Libre",
+  "Unidos por Chile" = "Un. x Ch.",
+  "Chile Unido" = "Chile Unido",
+  "Independientes RN-Evópoli" = "RN-Evo",
+  "Vamos por Chile" = "V. x C."
+)
+
+cols_coal <- c(
+  "CCPP"      = "#1f77b4",
+  "Esc. Res." = "#ff7f0e",
+  "FA"        = "#2ca02c",
+  "Col. Soc." = "#d62728",
+  "Mov. SC"   = "#9467bd",
+  "Pueblo. C."= "#8c564b",
+  "INN"       = "#e377c2",
+  "Chile Digno" = "#7f7f7f",
+  "Col. A"    = "#bcbd22",
+  "Sin. G."   = "#17becf",
+  "Chile Libre"= "#1b9e77",
+  "Un. x Ch." = "#d95f02",
+  "Chile Unido"= "#7570b3",
+  "RN-Evo"    = "#e7298a",
+  "V. x C."   = "#66a61e"
+)
 
 # Orden temporal de los bloques (usar sólo los presentes)
 niveles_periodo <- c("01-15","16-21","22-37","56-75","76-99","100-106")
 niveles_periodo <- niveles_periodo[niveles_periodo %in% promedios_coal_periodo$Periodo]
 
 promedios_coal_periodo <- promedios_coal_periodo %>%
-  dplyr::mutate(Periodo = factor(Periodo, levels = niveles_periodo)) %>%
+  dplyr::mutate(
+    Periodo = factor(Periodo, levels = niveles_periodo),
+    Periodo_num = as.numeric(Periodo),
+    coal_abbr = dplyr::recode(coalicion, !!!abbr_map, .default = coalicion)
+  ) %>%
   dplyr::arrange(Periodo)
 
-# Bump chart de posición promedio por coalición
+RIBBON_SD_MULT <- 0.15  # puedes bajar a 0.10 si aún hay mucho solapamiento
+
+# Bump chart de posición promedio por coalición con banda de desviación estándar (±k·DE)
 bump_coaliciones <- ggplot(promedios_coal_periodo,
-                           aes(x = Periodo, y = posicion_media, group = coalicion, color = coalicion)) +
-  geom_line(size = 1) +
-  geom_point(size = 2) +
+                           aes(x = Periodo_num, y = posicion_media, group = coal_abbr, color = coal_abbr)) +
+  geom_ribbon(aes(ymin = posicion_media - RIBBON_SD_MULT * sd_pos,
+                  ymax = posicion_media + RIBBON_SD_MULT * sd_pos,
+                  fill = coal_abbr),
+              alpha = 0.18, color = NA) +
+  geom_line(size = 0.9) +
+  geom_point(size = 1.8) +
+  scale_x_continuous(breaks = seq_along(niveles_periodo), labels = niveles_periodo) +
+  scale_color_manual(values = cols_coal, guide = "none") +
+  scale_fill_manual(values = cols_coal, guide = "none") +
   labs(
     title = "Evolución de la Posición Promedio por Coalición",
-    subtitle = "Bloques de sesiones de votación (W-NOMINATE 1D)",
-    x = "Bloque de sesiones",
+    subtitle = paste0("Curvas con banda ±", RIBBON_SD_MULT, "·SD"),
+    x = NULL,
     y = "Posición ideológica promedio"
   ) +
   theme_minimal(base_size = 12) +
   theme(
-    legend.position = "bottom",
+    legend.position = "none",
     plot.title = element_text(hjust = 0.5, face = "bold"),
     plot.subtitle = element_text(hjust = 0.5),
     axis.title.x = element_text(margin = margin(t = 6))
   )
 
-# Mostrar el gráfico antes de guardar
-show(bump_coaliciones)
+# Tabla/lista de valores finales (último periodo observado por coalición), usando abreviaciones y color
+ultimos <- promedios_coal_periodo %>%
+  dplyr::group_by(coal_abbr) %>%
+  dplyr::slice_max(Periodo_num, n = 1, with_ties = FALSE) %>%
+  dplyr::ungroup() %>%
+  dplyr::arrange(desc(posicion_media)) %>%
+  dplyr::transmute(coal_abbr, posicion_media)
 
-# Guardar el gráfico en PDF
-ggsave("scripts - plots/bump_chart_coaliciones.pdf", plot = bump_coaliciones, width = 12, height = 7, dpi = 300)
+# Panel derecho como un ggplot con texto coloreado
+etiquetas <- ultimos %>%
+  dplyr::mutate(label = sprintf("%s    %.3f", coal_abbr, posicion_media))
+
+tabla_derecha <- ggplot(etiquetas, aes(x = 0, y = reorder(coal_abbr, posicion_media))) +
+  geom_text(aes(label = label, color = coal_abbr), hjust = 0, size = 3.2) +
+  scale_color_manual(values = cols_coal, guide = "none") +
+  scale_x_continuous(limits = c(0, 1), expand = c(0, 0)) +
+  labs(x = NULL, y = NULL) +
+  theme_void() +
+  theme(plot.margin = margin(10, 10, 10, 10))
+
+# Combinar gráfico principal + tabla a la derecha
+combinado <- cowplot::plot_grid(bump_coaliciones, tabla_derecha, ncol = 2, rel_widths = c(4, 1.4))
+
+
+
+# Mostrar y guardar solo el combinado (sin diccionario)
+show(combinado)
+
+ggsave("scripts - plots/bump_chart_coaliciones.pdf", plot = combinado, width = 12, height = 10.2, dpi = 300)
