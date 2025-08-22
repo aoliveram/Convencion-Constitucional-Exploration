@@ -1,3 +1,5 @@
+# creates bump_chart_coaliciones.pdf"
+
 library(jsonlite)
 library(dplyr)
 library(tidyr)
@@ -87,6 +89,8 @@ coaliciones_convencionales <- coaliciones_convencionales %>%
     # El resto queda igual
     TRUE ~ coalicion
   ))
+
+saveRDS(coaliciones_convencionales, "scripts - files/coaliciones_convencionales.rds")
 
 # Cargar los datos de ordenamiento
 ORDENAMIENTO_CSV_PATH <- "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv"
