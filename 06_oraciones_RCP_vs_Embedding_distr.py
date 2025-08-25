@@ -238,6 +238,75 @@ valid_base = df_score_base.dropna(subset=['score_contenido']).copy()
 valid_relax = df_score_relax.dropna(subset=['score_contenido']).copy()
 
 # -------------------------------
+# GRÁFICOS DE DIFERENCIAS ENTRE EMBEDDING Y TF-IDF
+# -------------------------------
+# Calcula diferencias entre rank1 y ranks 2–5 y grafica en una grilla 2x4
+# Fila 1: Embedding, Fila 2: TF-IDF
+
+ranks_to_compare = [2, 3, 4, 5]
+
+# Prepara listas de diferencias
+diffs_emb = []
+diffs_tfidf = []
+for r in ranks_to_compare:
+    d_emb = (pivot_emb[1] - pivot_emb[r]).dropna()
+    d_tfidf = (pivot_tfidf[1] - pivot_tfidf[r]).dropna()
+    diffs_emb.append(d_emb)
+    diffs_tfidf.append(d_tfidf)
+
+# Calcular límites comunes por fila
+# Embedding
+max_freq_emb = 0
+max_val_emb = 0
+for s in diffs_emb:
+    counts, bins = np.histogram(s, bins=50)
+    if counts.max() > max_freq_emb:
+        max_freq_emb = counts.max()
+    if s.max() > max_val_emb:
+        max_val_emb = s.max()
+
+# TF-IDF
+max_freq_tfidf = 0
+max_val_tfidf = 0
+for s in diffs_tfidf:
+    counts, bins = np.histogram(s, bins=50)
+    if counts.max() > max_freq_tfidf:
+        max_freq_tfidf = counts.max()
+    if s.max() > max_val_tfidf:
+        max_val_tfidf = s.max()
+
+# Crear figura 2x4
+fig, axes = plt.subplots(2, 4, figsize=(20, 8), sharey=False)
+
+# Fila 1: Embedding
+for i, r in enumerate(ranks_to_compare):
+    ax = axes[0, i]
+    ax.hist(diffs_emb[i], bins=50, color='tab:blue')
+    ax.set_ylim(0, max_freq_emb * 1.05)
+    ax.set_xlim(0, max_val_emb * 1.05)
+    ax.set_title(f"Emb. Rank1 - Rank{r}")
+    if i == 0:
+        ax.set_ylabel("Frecuencia")
+    if i == 0 or i == len(ranks_to_compare) - 1:
+        ax.set_xlabel("Diferencia similitud")
+
+# Fila 2: TF-IDF
+for i, r in enumerate(ranks_to_compare):
+    ax = axes[1, i]
+    ax.hist(diffs_tfidf[i], bins=50, color='tab:orange')
+    ax.set_ylim(0, max_freq_tfidf * 1.05)
+    ax.set_xlim(0, max_val_tfidf * 1.05)
+    ax.set_title(f"TF-IDF Rank1 - Rank{r}")
+    if i == 0:
+        ax.set_ylabel("Frecuencia")
+    if i == 0 or i == len(ranks_to_compare) - 1:
+        ax.set_xlabel("Diferencia similitud")
+
+plt.tight_layout()
+plt.savefig("scripts - plots/diferencias_embedding_tfidf.pdf")
+plt.show()
+
+# -------------------------------
 # HISTOGRAMAS COMPARABLES
 # -------------------------------
 

@@ -1,4 +1,4 @@
-# 08_score_similitud_prof_vs_pipeline.py
+# 06_oraciones_RCP_vs_Embedding.py
 # Compara, por artículo, los apellidos del .xlsx del profesor vs.
 # los apellidos provenientes de firmantes de iniciativas top-1 (Embedding)
 # asociadas a las oraciones de cada artículo del borrador.
