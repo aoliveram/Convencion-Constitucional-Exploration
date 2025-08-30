@@ -1,30 +1,30 @@
 "posicion_ideologica","nombre_votante","n_votante","posicion_izq_der"
 -1,"Woldarsky, Manuel","152",1
--0.996238774297661,"Zárate, Camila","153",2
+-0.996238774297661,"Zarate, Camila","153",2
 -0.981945701073946,"Olivares, Ivanna","105",3
 -0.979727742112388,"Madriaga, Tania","85",4
 -0.97779534723388,"Llanquileo, Natividad","82",5
 -0.977569843809498,"Linconao, Francisca","81",6
--0.972481115224491,"Hurtado, Ruth","71",7
+-0.972481115224491,"Caiguan, Alexis","71",7
 -0.969062722254873,"Arellano, Marco","14",8
 -0.964774975599952,"Perez, Alejandra","109",9
 -0.964243844586001,"Labrana, Elsa","77",10
--0.961758826717306,"González, Lidia","62",11
--0.935669320687654,"Caiguan, Alexis","27",12
--0.934010218038696,"Calvo, Carlos","28",13
+-0.961758826717306,"Grandon, Giovanna","62",11
+-0.935669320687654,"Antilef, Victorino","27",12
+-0.934010218038696,"Chinga, Eric","28",13
 -0.925170263039388,"San Juan, Constanza","123",14
--0.924844052499768,"Caamaño, Francisco","26",15
--0.907246539231801,"Quinteros, María Elisa","114",16
--0.901987108515293,"Castillo, Eduardo","32",17
+-0.924844052499768,"Caamano, Francisco","26",15
+-0.907246539231801,"Quinteros, Maria Elisa","114",16
+-0.901987108515293,"Carrillo, Alondra","32",17
 -0.899937708980656,"Vidal, Rossana","147",18
 -0.898969401302044,"Flores, Alejandra","51",19
--0.893011254101291,"Giustinianovich, Elisa","57",20
+-0.893011254101291,"Godoy, Isabel","57",20
 -0.888105369640402,"Vergara, Lisette","146",21
--0.884468875316767,"Rivera, Pollyana","118",22
--0.883346357838872,"Gómez, Yarela","60",23
+-0.884468875316767,"Rivera, Maria Magdalena","118",22
+-0.883346357838872,"Gonzalez, Dayana","60",23
 -0.879264960128001,"Salinas, Fernando","122",24
 -0.878643835521711,"Royo, Manuela","120",25
--0.873386677370666,"Andrade, Cristóbal","10",26
+-0.873386677370666,"Andrade, Cristobal","10",26
 -0.870936332357894,"Dorador, Cristina","49",27
 -0.868566176440749,"Alvarado, Gloria","5",28
 -0.868342555999178,"Bacian, Wilfredo","17",29
@@ -33,58 +33,58 @@
 -0.859195544940583,"Vallejos, Loreto","140",32
 -0.855543727032682,"Meneses, Janis","93",33
 -0.853239865096618,"Vargas, Margarita","141",34
--0.850692903586443,"Antilef, Victorino","11",35
+-0.850692903586443,"Galleguillos, Felix","11",35
 -0.848786805536865,"Loncon, Elisa","84",36
--0.840087165222294,"González, Dayana","61",37
--0.828450915816286,"Garin, Renato","56",38
+-0.840087165222294,"Gonzalez, Lidia","61",37
+-0.828450915816286,"Giustinianovich, Elisa","56",38
 -0.82759662599348,"Ampuero, Adriana","9",39
--0.825374381622763,"Grandon, Giovanna","63",40
--0.825278609221103,"Harboe, Felipe","66",41
+-0.825374381622763,"Grandon, Paola","63",40
+-0.825278609221103,"Henriquez, Natalia","66",41
 -0.824922920260905,"Saldana, Alvin","121",42
--0.823216548250315,"Henríquez, Natalia","67",43
+-0.823216548250315,"Hoppe, Vanessa","67",43
 -0.819627972592731,"Pinto, Malucha","110",44
--0.810705750723658,"Labbé, Bastián","75",45
--0.810450054643837,"Celedón, Roberto","36",46
+-0.810705750723658,"Labbe, Bastian","75",45
+-0.810450054643837,"Catrileo, Rosa","36",46
 -0.807517211518024,"Villena, Ingrid","151",47
--0.804548721579662,"Velásquez, Hernán","144",48
--0.80298526147148,"Uribe, César","136",49
--0.796219834087787,"Jiménez, Luis","72",50
+-0.804548721579662,"Velasquez, Hernan","144",48
+-0.80298526147148,"Uribe, Cesar","136",49
+-0.796219834087787,"Jimenez, Luis","72",50
 -0.794414767805656,"Tirado, Fernando","133",51
 -0.789118781250413,"Portilla, Ericka","112",52
 -0.787763617999537,"Arauna, Francisca","13",53
 -0.776285409288878,"Bravo, Daniel","25",54
--0.711495736683424,"Grandón, Paola","64",55
+-0.711495736683424,"Gutierrez, Hugo","64",55
 -0.700885647979675,"Serey, Mariela","128",56
 -0.700061745603633,"Baranda, Benito","19",57
 -0.685504924925313,"Mamani, Isabella","86",58
--0.684061521204026,"Núñez, Nicolás","104",59
--0.657353357924872,"Reyes, María Ramona","116",60
--0.655273570943471,"Celis, Raúl","37",61
+-0.684061521204026,"Nunez, Nicolas","104",59
+-0.657353357924872,"Reyes, Maria Ramona","116",60
+-0.655273570943471,"Celedon, Roberto","37",61
 -0.651273855728389,"Delgado, Aurora","47",62
 -0.644960539010972,"Barraza, Marcos","21",63
 -0.634586082880527,"Vargas, Mario","142",64
 -0.622273258270929,"Valenzuela, Paulina","139",65
 -0.597253351409103,"Aguilera, Tiare","4",66
--0.591093465325667,"Domínguez, Gaspar","48",67
--0.57679490547962,"Martín, Juan José","88",68
+-0.591093465325667,"Dominguez, Gaspar","48",67
+-0.57679490547962,"Martin, Juan Jose","88",68
 -0.56538114023245,"Abarca, Jorge","2",69
--0.561166959768092,"Cantuarias, Rocío","30",70
--0.552842520011481,"Sepúlveda, Carolina","127",71
+-0.561166959768092,"Cancino, Adriana","30",70
+-0.552842520011481,"Sepulveda, Carolina","127",71
 -0.552762882824609,"Miranda, Valentina","95",72
 -0.550023564880591,"Gallardo, Bessy","54",73
 -0.512728103482762,"Videla, Carolina","148",74
 -0.503383671415863,"Abarca, Damaris","1",75
--0.483184590136163,"Gómez, Claudio","59",76
+-0.483184590136163,"Gomez, Yarela","59",76
 -0.474184841319577,"Alvez, Amaya","8",77
 -0.450347772316081,"Daza, Mauricio","45",78
--0.444060979684141,"Godoy, Isabel","58",79
+-0.444060979684141,"Gomez, Claudio","58",79
 -0.43192918114629,"Mella, Jeniffer","91",80
 -0.423744958678754,"Fuchslocher, Javier","53",81
 -0.393409975711794,"Namor, Guillermo","101",82
--0.391422422422975,"Cancino, Adriana","29",83
--0.390384996289063,"Sepúlveda, Bárbara","126",84
+-0.391422422422975,"Calvo, Carlos","29",83
+-0.390384996289063,"Sepulveda, Barbara","126",84
 -0.385665072613499,"Politzer, Patricia","111",85
--0.385596928114826,"Chahín, Fuad","39",86
+-0.385596928114826,"Cespedes, Lorena","39",86
 -0.373745109642031,"Baradit, Jorge","18",87
 -0.347596776632105,"Roa, Giovanna","119",88
 -0.338265006001358,"Alvarez, Julio","6",89
@@ -92,64 +92,64 @@
 -0.320207006040122,"Achurra, Ignacio","3",91
 -0.313691008948616,"Urrutia, Tatiana","137",92
 -0.302918480512086,"Bassa, Jaime","22",93
--0.300791326773389,"Sánchez, Beatriz","124",94
--0.300211173275877,"Martínez, Helmuth","89",95
+-0.300791326773389,"Sanchez, Beatriz","124",94
+-0.300211173275877,"Martinez, Helmuth","89",95
 -0.300126601375428,"Schonhaut, Constanza","125",96
--0.296207399908182,"Galleguillos, Félix","55",97
+-0.296207399908182,"Garin, Renato","55",97
 -0.288861283350831,"Logan, Rodrigo","83",98
--0.285018147896158,"Orellana, Matías","106",99
--0.282550433990203,"Castillo, María Trinidad","33",100
--0.257830002558584,"Laibe, Tomás","78",101
--0.247262914039919,"Oyarzún, María José","108",102
--0.245139039288534,"Valenzuela, César","138",103
--0.240852542544617,"Muñoz, Pedro","100",104
+-0.285018147896158,"Orellana, Matias","106",99
+-0.282550433990203,"Castillo, Maria Trinidad","33",100
+-0.257830002558584,"Laibe, Tomas","78",101
+-0.247262914039919,"Oyarzun, Maria Jose","108",102
+-0.245139039288534,"Valenzuela, Cesar","138",103
+-0.240852542544617,"Munoz, Pedro","100",104
 -0.221707168707111,"Pustilnick, Tammy","113",105
--0.205588884531696,"Squella, Agustín","130",106
+-0.205588884531696,"Squella, Agustin","130",106
 -0.193135160863384,"Viera, Christian","149",107
 -0.187307897200696,"Montero, Ricardo","98",108
--0.183781151556319,"Fernández, Patricio","50",109
--0.172384170828356,"Botto, Miguel Ángel","23",110
--0.161462951680096,"Cruz, Andrés","43",111
+-0.183781151556319,"Fernandez, Patricio","50",109
+-0.172384170828356,"Botto, Miguel Angel","23",110
+-0.161462951680096,"Cruz, Andres","43",111
 -0.128541748634586,"Hurtado, Maximiliano","70",112
--0.122446792992953,"Barceló, Luis","20",113
+-0.122446792992953,"Barcelo, Luis","20",113
 -0.12167557355413,"Atria, Fernando","16",114
--0.085252789468594,"Castro, Claudia","34",115
--0.048856874411507,"Chinga, Eric","40",116
-0.0794736027399088,"Gutiérrez, Hugo","65",117
+-0.085252789468594,"Castillo, Eduardo","34",115
+-0.048856874411507,"Chahin, Fuad","40",116
+0.0794736027399088,"Harboe, Felipe","65",117
 0.221505364893987,"De la Maza, Bernardo","46",118
 0.344683964547589,"Silva, Luciano","129",119
 0.442101021833088,"Monckeberg, Cristian","96",120
 0.47920860699756,"Veloso, Paulina","145",121
-0.497027857724286,"Tepper, María Angélica","132",122
+0.497027857724286,"Tepper, Maria Angelica","132",122
 0.506358881654952,"Navarrete, Geoconda","102",123
-0.511746777250568,"Ossandón, Manuel","107",124
+0.511746777250568,"Ossandon, Manuel","107",124
 0.515648837081178,"Labra, Patricia","76",125
-0.5164871540153,"Rebolledo, Bárbara","115",126
+0.5164871540153,"Rebolledo, Barbara","115",126
 0.541643414804913,"Cozzi, Ruggero","41",127
-0.559817510396094,"Larraín, Hernán","79",128
+0.559817510396094,"Larrain, Hernan","79",128
 0.567014465496012,"Vega, Roberto","143",129
-0.591900615647724,"Céspedes, Lorena","38",130
+0.591900615647724,"Celis, Raul","38",130
 0.593778728676883,"Fontaine, Bernardo","52",131
 0.603278182173588,"Mayol, Luis","90",132
-0.677361283983903,"Jofré, Alvaro","73",133
-0.900263335146299,"Hube, Constanza","69",134
-0.902243778551741,"Rivera, María Magdalena","117",135
+0.677361283983903,"Jofre, Alvaro","73",133
+0.900263335146299,"Hurtado, Ruth","69",134
+0.902243778551741,"Rivera, Pollyana","117",135
 0.905496858616528,"Mena, Felipe","92",136
 0.912312152579526,"Moreno, Alfredo","99",137
 0.925915015206872,"Arancibia, Jorge","12",138
-0.941709280245079,"Hoppe, Vanessa","68",139
+0.941709280245079,"Hube, Constanza","68",139
 0.945166761340662,"Cubillos, Marcela","44",140
 0.947734435661773,"Alvarez, Rodrigo","7",141
 0.949050186134474,"Neumann, Ricardo","103",142
-0.949835584758527,"Ubilla, María Cecilia","135",143
+0.949835584758527,"Ubilla, Maria Cecilia","135",143
 0.96190407611562,"Letelier, Margarita","80",144
-0.9662674018048,"Catrileo, Rosa","35",145
+0.9662674018048,"Castro, Claudia","35",145
 0.973010622977396,"Toloza, Pablo","134",146
 0.975467396103907,"Montealegre, Katerine","97",147
-0.97590100159427,"Arrau, Martín","15",148
+0.97590100159427,"Arrau, Martin","15",148
 0.976707502611908,"Jurgensen, Harry","74",149
 0.977568220548453,"Marinovic, Teresa","87",150
 0.979345301810167,"Bown, Carol","24",151
-0.983820177998365,"Carrillo, Alondra","31",152
+0.983820177998365,"Cantuarias, Rocio","31",152
 0.999444844722582,"Cretton, Eduardo","42",153
-1,"Zúñiga, Luis Arturo","154",154
+1,"Zuniga, Luis Arturo","154",154

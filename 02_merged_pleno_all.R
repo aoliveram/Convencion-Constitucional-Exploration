@@ -63,10 +63,9 @@ process_session <- function(file_path) {
 
 # ------------------------------- 01-15
 
-session_files <- c('data - pleno/sesion_5.xls')
-#, 'data - pleno/sesion_7.xls', 'data - pleno/sesion_8.xls', 
-#                   'data - pleno/sesion_10.xls', 'data - pleno/sesion_12.xls', 'data - pleno/sesion_13.xls', 
-#                   'data - pleno/sesion_14.xls', 'data - pleno/sesion_15.xls')
+session_files <- c('data - pleno/sesion_5.xls', 'data - pleno/sesion_7.xls', 'data - pleno/sesion_8.xls', 
+                   'data - pleno/sesion_10.xls', 'data - pleno/sesion_12.xls', 'data - pleno/sesion_13.xls', 
+                   'data - pleno/sesion_14.xls', 'data - pleno/sesion_15.xls')
 
 all_sessions <- lapply(session_files, process_session)
 all_votaciones_df <- do.call(rbind, all_sessions)
@@ -77,24 +76,26 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_01_15_2.csv", 
+          file = "scripts - files/votaciones_01_15.csv", 
           row.names = FALSE)
 
-votaciones_al_14ago2021_manual_2 <-read.csv("scripts - files/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
-votaciones_al_14ago2021_manual_2$X14072021_880[155] # Arturo Zúñiga NA
-
-votaciones_Luis_Zuniga_1 <- votaciones_al_14ago2021_manual_2 %>% filter(NOMBRE == "Zúñiga Jory, Luis Arturo")
-votaciones_Luis_Zuniga_1 <- votaciones_Luis_Zuniga_1[,-1]
-table(unlist(votaciones_Luis_Zuniga_1), useNA = "ifany")
-
-votaciones_al_14ago2021 <- read_csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv", locale = locale(encoding = "LATIN1"))
-votaciones_al_14ago2021$X14072021_05[155] # Arturo Zúniga 0
-votaciones_Luis_Zuniga_2 <- votaciones_al_14ago2021 %>% filter(candidato == "Zúñiga, Luis Arturo")
-votaciones_Luis_Zuniga_2 <- votaciones_Luis_Zuniga_2[,-c(1,2)]
-table(unlist(votaciones_Luis_Zuniga_2), useNA = "ifany")
+# votaciones_al_14ago2021_manual_2 <-read.csv("scripts - files/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
+# votaciones_al_14ago2021_manual_2$X14072021_880[155] # Arturo Zúñiga NA
+# 
+# votaciones_Luis_Zuniga_1 <- votaciones_al_14ago2021_manual_2 %>% filter(NOMBRE == "Zúñiga Jory, Luis Arturo")
+# votaciones_Luis_Zuniga_1 <- votaciones_Luis_Zuniga_1[,-1]
+# table(unlist(votaciones_Luis_Zuniga_1), useNA = "ifany")
+# 
+# votaciones_al_14ago2021 <- read_csv("rcp_convencion/RCP_votaciones_al_14ago2021.csv", locale = locale(encoding = "LATIN1"))
+# votaciones_al_14ago2021$X14072021_05[155] # Arturo Zúniga 0
+# votaciones_Luis_Zuniga_2 <- votaciones_al_14ago2021 %>% filter(candidato == "Zúñiga, Luis Arturo")
+# votaciones_Luis_Zuniga_2 <- votaciones_Luis_Zuniga_2[,-c(1,2)]
+# table(unlist(votaciones_Luis_Zuniga_2), useNA = "ifany")
 
 # NO son equivalentes la mía y la de Jorge. 
 # Sin embargo, sirve para comparar ventanas de tiempo.
+
+votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 147 votaciones
 
 # ----------------------------- 16 - 21
 
@@ -110,7 +111,7 @@ write.csv(final_votaciones_df,
           file = "scripts - files/votaciones_16_21.csv", 
           row.names = FALSE)
 
-votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 183 votaciones
+votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 182 votaciones
 
 # ----------------------------- 22 - 37
 

@@ -9,10 +9,10 @@ library(foreach)
 # --- Helper Functions ---
 
 # Function to clean legislator names (remove accents, etc.)
-normalizar_nombres <- function(texto) {
-  texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
-  return(texto_limpio)
-}
+# normalizar_nombres <- function(texto) {
+#   texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
+#   return(texto_limpio)
+# }
 
 # Function to validate uniqueness of legislator names in rollcall object
 validar_unicidad <- function(rc_object) {
@@ -45,6 +45,7 @@ run_ideal_estimation_combined <- function(votaciones, votantes, dataset_name,
   estimation_successful <- FALSE
   
   tryCatch({
+    set.seed(1234) # SEED for reproducibility
     # Run the ideal() function (pscl v1.5.9 compatible)
     ideal_result <- ideal(object = rc,
                           d = dims,             # Number of dimensions to estimate
@@ -208,15 +209,15 @@ run_ideal_estimation_combined <- function(votaciones, votantes, dataset_name,
 # Define the datasets to process
 # Updated output suffixes to reflect the two types of files
 datasets_info <- list(
-  list(name = "01_15", file = "scripts - files/votaciones_01_15.csv", output_suffix = "01-15_ideal"),
-  list(name = "16_21", file = "scripts - files/votaciones_16_21.csv", output_suffix = "16-21_ideal"),
-  list(name = "22_37", file = "scripts - files/votaciones_22_37.csv", output_suffix = "22-37_ideal"),
-  list(name = "38_46", file = "scripts - files/votaciones_38_46.csv", output_suffix = "38-46_ideal"),
-  list(name = "47_55", file = "scripts - files/votaciones_47_55.csv", output_suffix = "47-55_ideal"),
-  list(name = "56_75", file = "scripts - files/votaciones_56_75.csv", output_suffix = "56-75_ideal"),
-  list(name = "76_99", file = "scripts - files/votaciones_76_99.csv", output_suffix = "76-99_ideal"),
-  list(name = "100_106", file = "scripts - files/votaciones_100_106.csv", output_suffix = "100-106_ideal"),
-  list(name = "107_109", file = "scripts - files/votaciones_107_109.csv", output_suffix = "107-109_ideal")
+  list(name = "01_15", file = "scripts - files/votaciones_01_15.csv", output_suffix = "01-15"),
+  list(name = "16_21", file = "scripts - files/votaciones_16_21.csv", output_suffix = "16-21"),
+  list(name = "22_37", file = "scripts - files/votaciones_22_37.csv", output_suffix = "22-37"),
+  list(name = "38_46", file = "scripts - files/votaciones_38_46.csv", output_suffix = "38-46"),
+  list(name = "47_55", file = "scripts - files/votaciones_47_55.csv", output_suffix = "47-55"),
+  list(name = "56_75", file = "scripts - files/votaciones_56_75.csv", output_suffix = "56-75"),
+  list(name = "76_99", file = "scripts - files/votaciones_76_99.csv", output_suffix = "76-99"),
+  list(name = "100_106", file = "scripts - files/votaciones_100_106.csv", output_suffix = "100-106"),
+  list(name = "107_109", file = "scripts - files/votaciones_107_109.csv", output_suffix = "107-109")
 )
 
 # --- NON - PARALLEL RUNNIG ----------------------------------
@@ -251,7 +252,7 @@ for (ds_info in datasets_info) {
       cat("WARNING: No rows left after filtering for", ds_info$name, "- Skipping.\n")
       next
     }
-    votantes <- normalizar_nombres(as.vector(votaciones_df[[1]]))
+    votantes <- as.vector(votaciones_df[[1]]) # normalizar_nombres(as.vector(votaciones_df[[1]]))
     votaciones_data <- votaciones_df[,-1, drop = FALSE]
     if(ncol(votaciones_data) == 0) {
       cat("WARNING: No voting columns left for", ds_info$name, "- Skipping.\n")
@@ -338,7 +339,7 @@ all_ideal_sample_results <- list()
 all_ideal_mean_results <- list()
 
 # Set up parallel computing (adjust cores as needed)
-cl <- parallel::makeCluster(11, type = "FORK")
+cl <- parallel::makeCluster(8, type = "FORK")
 doParallel::registerDoParallel(cl)
 
 # Start timing
@@ -375,7 +376,7 @@ processed_datasets <- foreach(ds_info = datasets_info, .packages = c("data.table
       return(result)
     }
     
-    votantes <- normalizar_nombres(as.vector(votaciones_df[[1]]))
+    votantes <- as.vector(votaciones_df[[1]]) # normalizar_nombres(as.vector(votaciones_df[[1]]))
     votaciones_data <- votaciones_df[,-1, drop = FALSE]
     
     if(ncol(votaciones_data) == 0) {
@@ -407,12 +408,12 @@ processed_datasets <- foreach(ds_info = datasets_info, .packages = c("data.table
     if (is.list(estimation_output) && all(c("samples", "means") %in% names(estimation_output))) {
       # Save files directly in worker
       if (!is.null(estimation_output$samples) && nrow(estimation_output$samples) > 0) {
-        output_filename_samples <- paste0("data - pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, "_samples.csv")
+        output_filename_samples <- paste0("scripts - files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, "_samples.csv")
         data.table::fwrite(estimation_output$samples, file = output_filename_samples, row.names = FALSE)
       }
       
       if (!is.null(estimation_output$means) && nrow(estimation_output$means) > 0) {
-        output_filename_means <- paste0("data - pleno/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, ".csv")
+        output_filename_means <- paste0("scripts - files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, ".csv")
         data.table::fwrite(estimation_output$means, file = output_filename_means, row.names = FALSE)
       }
       
@@ -448,5 +449,5 @@ for (ds in processed_datasets) {
 }
 
 # Print execution time
-end_time <- Sys.time() # 2.11 min M4
+end_time <- Sys.time() # 2.17 min M4
 cat("Parallel execution time:", capture.output(end_time - start_time), "\n")
