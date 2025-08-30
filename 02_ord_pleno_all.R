@@ -6,104 +6,165 @@ library(readr)
 library(wnominate)
 library(dplyr)
 
-# ================ ANÁLISIS DE ROBUSTEZ ========================================
-
-# ================ SIN QUITAR A ROJAS, RODRIGO =================================
-
-# Cargamos votantes
-votantes <- readRDS("scripts - files/01_votantes.rds")
-#votantes <- votantes[-120] # quitamos rodrigo rojas
-
-# Reescalamos dentro de [-1,1]
-reescalar <- function(vector_original) {
-  min_original <- min(vector_original)
-  max_original <- max(vector_original)
-  a <- -1
-  b <- 1
-  vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
-  return(vector_reescalado)
-}
-
-votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 145 votaciones
-#votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
-votaciones_01_15 <- votaciones_01_15[,-1]
-votaciones_01_15_rc <- rollcall(
-  votaciones_01_15,             
-  yea = 1,
-  nay = 0,
-  missing = NA,
-  #notInLegis = NULL,
-  legis.names = votantes,
-  desc = "Votaciones Conv. Const. 01-15"
+votantes_apellido_nombre <- c(
+"Abarca, Damaris",
+"Abarca, Jorge",
+"Achurra, Ignacio",
+"Aguilera, Tiare",
+"Alvarado, Gloria",
+"Alvarez, Julio",
+"Alvarez, Rodrigo",
+"Alvez, Amaya",
+"Ampuero, Adriana",
+"Andrade, Cristobal",
+"Galleguillos, Felix",
+"Arancibia, Jorge",
+"Arauna, Francisca",
+"Arellano, Marco",
+"Arrau, Martin",
+"Atria, Fernando",
+"Bacian, Wilfredo",
+"Baradit, Jorge",
+"Baranda, Benito",
+"Barcelo, Luis",
+"Barraza, Marcos",
+"Bassa, Jaime",
+"Botto, Miguel Angel",
+"Bown, Carol",
+"Bravo, Daniel",
+"Caamano, Francisco",
+"Antilef, Victorino",
+"Chinga, Eric",
+"Calvo, Carlos",
+"Cancino, Adriana",
+"Cantuarias, Rocio",
+"Carrillo, Alondra",
+"Castillo, Maria Trinidad",
+"Castillo, Eduardo",
+"Castro, Claudia",
+"Catrileo, Rosa",
+"Celedon, Roberto",
+"Celis, Raul",
+"Cespedes, Lorena",
+"Chahin, Fuad",
+"Cozzi, Ruggero",
+"Cretton, Eduardo",
+"Cruz, Andres",
+"Cubillos, Marcela",
+"Daza, Mauricio",
+"De la Maza, Bernardo",
+"Delgado, Aurora",
+"Dominguez, Gaspar",
+"Dorador, Cristina",
+"Fernandez, Patricio",
+"Flores, Alejandra",
+"Fontaine, Bernardo",
+"Fuchslocher, Javier",
+"Gallardo, Bessy",
+"Garin, Renato",
+"Giustinianovich, Elisa",
+"Godoy, Isabel",
+"Gomez, Claudio",
+"Gomez, Yarela",
+"Gonzalez, Dayana",
+"Gonzalez, Lidia",
+"Grandon, Giovanna",
+"Grandon, Paola",
+"Gutierrez, Hugo",
+"Harboe, Felipe",
+"Henriquez, Natalia",
+"Hoppe, Vanessa",
+"Hube, Constanza",
+"Hurtado, Ruth",
+"Hurtado, Maximiliano",
+"Caiguan, Alexis",
+"Jimenez, Luis",
+"Jofre, Alvaro",
+"Jurgensen, Harry",
+"Labbe, Bastian",
+"Labra, Patricia",
+"Labrana, Elsa",
+"Laibe, Tomas",
+"Larrain, Hernan",
+"Letelier, Margarita",
+"Linconao, Francisca",
+"Llanquileo, Natividad",
+"Logan, Rodrigo",
+"Loncon, Elisa",
+"Madriaga, Tania",
+"Mamani, Isabella",
+"Marinovic, Teresa",
+"Martin, Juan Jose",
+"Martinez, Helmuth",
+"Mayol, Luis",
+"Mella, Jeniffer",
+"Mena, Felipe",
+"Meneses, Janis",
+"Millabur, Adolfo",
+"Miranda, Valentina",
+"Monckeberg, Cristian",
+"Montealegre, Katerine",
+"Montero, Ricardo",
+"Moreno, Alfredo",
+"Munoz, Pedro",
+"Namor, Guillermo",
+"Navarrete, Geoconda",
+"Neumann, Ricardo",
+"Nunez, Nicolas",
+"Olivares, Ivanna",
+"Orellana, Matias",
+"Ossandon, Manuel",
+"Oyarzun, Maria Jose",
+"Perez, Alejandra",
+"Pinto, Malucha",
+"Politzer, Patricia",
+"Portilla, Ericka",
+"Pustilnick, Tammy",
+"Quinteros, Maria Elisa",
+"Rebolledo, Barbara",
+"Reyes, Maria Ramona",
+"Rivera, Pollyana",
+"Rivera, Maria Magdalena",
+"Roa, Giovanna",
+"Rojas, Rodrigo",
+"Royo, Manuela",
+"Saldana, Alvin",
+"Salinas, Fernando",
+"San Juan, Constanza",
+"Sanchez, Beatriz",
+"Schonhaut, Constanza",
+"Sepulveda, Barbara",
+"Sepulveda, Carolina",
+"Serey, Mariela",
+"Silva, Luciano",
+"Squella, Agustin",
+"Stingo, Daniel",
+"Tepper, Maria Angelica",
+"Tirado, Fernando",
+"Toloza, Pablo",
+"Ubilla, Maria Cecilia",
+"Uribe, Cesar",
+"Urrutia, Tatiana",
+"Valenzuela, Cesar",
+"Valenzuela, Paulina",
+"Vallejos, Loreto",
+"Vargas, Margarita",
+"Vargas, Mario",
+"Vega, Roberto",
+"Velasquez, Hernan",
+"Veloso, Paulina",
+"Vergara, Lisette",
+"Vidal, Rossana",
+"Videla, Carolina",
+"Viera, Christian",
+"Vilches, Carolina",
+"Villena, Ingrid",
+"Woldarsky, Manuel",
+"Zarate, Camila",
+"Zuniga, Luis Arturo"
 )
 
-ordenamiento_WNOM_01_15 <- wnominate(
-  votaciones_01_15_rc, 
-  dims = 2,
-  polarity = c(87,87) # anclamos en marinovic
-)
-
-ordenamiento_1D_WNOM_01_15 <- data.frame(posicion_ideologica = ordenamiento_WNOM_01_15$legislators$coord1D)
-ordenamiento_1D_WNOM_01_15 <- reescalar(ordenamiento_1D_WNOM_01_15) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:155)) %>%
-  arrange(posicion_ideologica)
-ordenamiento_1D_WNOM_01_15$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_01_15)) #índice izq-der
-
-write.csv(ordenamiento_1D_WNOM_01_15, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01_15_155.csv", row.names = FALSE)
-
-ordenamiento_1D_WNOM_01_15_155 <- read_csv("scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01_15_155.csv")
-
-# ================ CON QUITAR A ROJAS, RODRIGO =================================
-
-# Cargamos votantes
-votantes <- readRDS("scripts - files/01_votantes.rds")
-votantes <- votantes[-120] # quitamos rodrigo rojas
-
-# Reescalamos dentro de [-1,1]
-reescalar <- function(vector_original) {
-  min_original <- min(vector_original)
-  max_original <- max(vector_original)
-  a <- -1
-  b <- 1
-  vector_reescalado <- ((vector_original - min_original) / (max_original - min_original)) * (b - a) + a
-  return(vector_reescalado)
-}
-
-votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 145 votaciones
-votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
-votaciones_01_15 <- votaciones_01_15[,-1]
-votaciones_01_15_rc <- rollcall(
-  votaciones_01_15,             
-  yea = 1,
-  nay = 0,
-  missing = NA,
-  #notInLegis = NULL,
-  legis.names = votantes,
-  desc = "Votaciones Conv. Const. 01-15"
-)
-
-ordenamiento_WNOM_01_15 <- wnominate(
-  votaciones_01_15_rc, 
-  dims = 2,
-  polarity = c(87,87) # anclamos en marinovic
-)
-
-ordenamiento_1D_WNOM_01_15 <- data.frame(posicion_ideologica = ordenamiento_WNOM_01_15$legislators$coord1D)
-ordenamiento_1D_WNOM_01_15 <- reescalar(ordenamiento_1D_WNOM_01_15) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
-  arrange(posicion_ideologica)
-ordenamiento_1D_WNOM_01_15$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_01_15)) #índice izq-der
-
-write.csv(ordenamiento_1D_WNOM_01_15, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01_15_154.csv", row.names = FALSE)
-
-ordenamiento_1D_WNOM_01_15_154 <- read_csv("scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01_15_154.csv")
-
-# ================= FIN ANÁLISIS DE ROBUSTEZ ===================================
-
-
-# Cargamos votantes
-votantes <- readRDS("scripts - files/01_votantes.rds")
-votantes <- votantes[-120] # quitamos rodrigo rojas
+votantes_apellido_nombre <- votantes_apellido_nombre[-120] # quitamos rodrigo rojas
 
 # Reescalamos dentro de [-1,1]
 reescalar <- function(vector_original) {
@@ -127,7 +188,7 @@ votaciones_al_14ago2021_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 01-15"
 )
 
@@ -140,7 +201,7 @@ votaciones_16_21_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 16-21"
 )
 
@@ -153,7 +214,7 @@ votaciones_22_37_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 22-37"
 )
 
@@ -166,7 +227,7 @@ votaciones_38_46_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 38-46"
 )
 
@@ -180,7 +241,7 @@ votaciones_47_55_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 47-55"
 )
 
@@ -193,7 +254,7 @@ votaciones_56_75_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 56-75"
 )
 
@@ -206,7 +267,7 @@ votaciones_76_99_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 76-99"
 )
 
@@ -219,7 +280,7 @@ votaciones_100_106_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 100-106"
 )
 
@@ -232,7 +293,7 @@ votaciones_107_109_rc <- rollcall(
   nay = 0,
   missing = NA,
   #notInLegis = NULL,
-  legis.names = votantes,
+  legis.names = votantes_apellido_nombre,
   desc = "Votaciones Conv. Const. 107-109"
 )
 
@@ -250,7 +311,7 @@ ordenamiento_WNOM_al_14ago2021 <- wnominate(
 
 ordenamiento_1D_WNOM_al_14ago2021 <- data.frame(posicion_ideologica = ordenamiento_WNOM_al_14ago2021$legislators$coord1D)
 ordenamiento_1D_WNOM_al_14ago2021 <- reescalar(ordenamiento_1D_WNOM_al_14ago2021) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_al_14ago2021$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_al_14ago2021)) #índice izq-der
 
@@ -266,7 +327,7 @@ ordenamiento_WNOM_16_21 <- wnominate(
 
 ordenamiento_1D_WNOM_16_21 <- data.frame(posicion_ideologica = ordenamiento_WNOM_16_21$legislators$coord1D)
 ordenamiento_1D_WNOM_16_21 <- reescalar(ordenamiento_1D_WNOM_16_21) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_16_21$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_16_21)) #índice izq-der
 
@@ -282,7 +343,7 @@ ordenamiento_WNOM_22_37 <- wnominate(
 
 ordenamiento_1D_WNOM_22_37 <- data.frame(posicion_ideologica = ordenamiento_WNOM_22_37$legislators$coord1D)
 ordenamiento_1D_WNOM_22_37 <- reescalar(ordenamiento_1D_WNOM_22_37) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_22_37$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_22_37)) #índice izq-der
 
@@ -298,7 +359,7 @@ ordenamiento_WNOM_38_46 <- wnominate(
 
 ordenamiento_1D_WNOM_38_46 <- data.frame(posicion_ideologica = ordenamiento_WNOM_38_46$legislators$coord1D)
 ordenamiento_1D_WNOM_38_46 <- reescalar(ordenamiento_1D_WNOM_38_46) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_38_46$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_38_46)) #índice izq-der
 
@@ -314,7 +375,7 @@ ordenamiento_WNOM_47_55 <- wnominate(
 
 ordenamiento_1D_WNOM_47_55 <- data.frame(posicion_ideologica = ordenamiento_WNOM_47_55$legislators$coord1D)
 ordenamiento_1D_WNOM_47_55 <- reescalar(ordenamiento_1D_WNOM_47_55) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_47_55$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_47_55)) #índice izq-der
 
@@ -330,7 +391,7 @@ ordenamiento_WNOM_56_75 <- wnominate(
 
 ordenamiento_1D_WNOM_56_75 <- data.frame(posicion_ideologica = ordenamiento_WNOM_56_75$legislators$coord1D)
 ordenamiento_1D_WNOM_56_75 <- reescalar(ordenamiento_1D_WNOM_56_75) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_56_75$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_56_75)) #índice izq-der
 
@@ -346,7 +407,7 @@ ordenamiento_WNOM_76_99 <- wnominate(
 
 ordenamiento_1D_WNOM_76_99 <- data.frame(posicion_ideologica = ordenamiento_WNOM_76_99$legislators$coord1D)
 ordenamiento_1D_WNOM_76_99 <- reescalar(ordenamiento_1D_WNOM_76_99) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_76_99$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_76_99)) #índice izq-der
 
@@ -362,7 +423,7 @@ ordenamiento_WNOM_100_106 <- wnominate(
 
 ordenamiento_1D_WNOM_100_106 <- data.frame(posicion_ideologica = ordenamiento_WNOM_100_106$legislators$coord1D)
 ordenamiento_1D_WNOM_100_106 <- reescalar(ordenamiento_1D_WNOM_100_106) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_100_106$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_100_106)) #índice izq-der
 
@@ -378,7 +439,7 @@ ordenamiento_WNOM_107_109 <- wnominate(
 
 ordenamiento_1D_WNOM_107_109 <- data.frame(posicion_ideologica = ordenamiento_WNOM_107_109$legislators$coord1D)
 ordenamiento_1D_WNOM_107_109 <- reescalar(ordenamiento_1D_WNOM_107_109) %>%
-  mutate(nombre_votante = votantes, n_votante = as.character(1:154)) %>%
+  mutate(nombre_votante = votantes_apellido_nombre, n_votante = as.character(1:154)) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_107_109$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_107_109)) #índice izq-der
 

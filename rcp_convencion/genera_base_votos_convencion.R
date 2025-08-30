@@ -1,13 +1,6 @@
-# lee votos y los asigna a columnas en planilla de destino
-
-rm(list=ls())
-require(here)
-require(car)
-aqui <- here()
-
 # carga el listado de convencionales constituyentes
-l <- list.files(paste0(aqui,"/data/votos_convencion/"))
-listado <- paste0(aqui,"/data/votos_convencion/",l[1])
+l <- list.files("rcp_convencion/votos_convencion/")
+listado <- paste0("rcp_convencion/votos_convencion/", l[1])
 listado <- read.csv(listado, header = F, sep="\n", encoding = "UTF-8")
 listado <- as.data.frame(listado)
 
@@ -27,7 +20,7 @@ dispensado <- NA
 
 for(i in 2:length(l)){
   # carga los votos
-  archivo <- paste0(aqui,"/data/votos_convencion/",l[i])
+  archivo <- paste0("rcp_convencion/votos_convencion/", l[i])
   v <- read.csv(archivo, header = F, sep="\n", encoding = "UTF-8")
   
   for(k in 1:NROW(v)){
@@ -74,8 +67,6 @@ for(i in 2:length(l)){
     
   }
   
-
-  
   agregando_votos <- rbind(a1,a2,a3,g)
   listado <- cbind(listado,agregando_votos)
   
@@ -91,5 +82,5 @@ for(k in 1:NROW(listado)){
 v <- date()
 v1 <- substr(v, start = 5, stop = 7)
 v2 <- substr(v, start = 9, stop = 10)
-write.csv(listado, paste0(aqui,"/data/votos_para_rollcall",v1,"_",v2,".csv"))
+write.csv(listado, paste0("rcp_convencion/votos_para_rollcall",v1,"_",v2,".csv"))
 
