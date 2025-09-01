@@ -13,10 +13,171 @@ library(purrr)
 # Funciones
 #------------------------------------------------------------------------------
 
-normalizar_nombres <- function(texto) {
-  texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
-  return(texto_limpio)
-}
+# normalizar_nombres <- function(texto) {
+#   texto_limpio <- iconv(texto, from = "UTF-8", to = "ASCII//TRANSLIT")
+#   return(texto_limpio)
+# }
+
+votantes_apellido_nombre <- c(
+  "Abarca, Damaris",
+  "Abarca, Jorge",
+  "Achurra, Ignacio",
+  "Aguilera, Tiare",
+  "Alvarado, Gloria",
+  "Alvarez, Julio",
+  "Alvarez, Rodrigo",
+  "Alvez, Amaya",
+  "Ampuero, Adriana",
+  "Andrade, Cristobal",
+  "Galleguillos, Felix",
+  "Arancibia, Jorge",
+  "Arauna, Francisca",
+  "Arellano, Marco",
+  "Arrau, Martin",
+  "Atria, Fernando",
+  "Bacian, Wilfredo",
+  "Baradit, Jorge",
+  "Baranda, Benito",
+  "Barcelo, Luis",
+  "Barraza, Marcos",
+  "Bassa, Jaime",
+  "Botto, Miguel Angel",
+  "Bown, Carol",
+  "Bravo, Daniel",
+  "Caamano, Francisco",
+  "Antilef, Victorino",
+  "Chinga, Eric",
+  "Calvo, Carlos",
+  "Cancino, Adriana",
+  "Cantuarias, Rocio",
+  "Carrillo, Alondra",
+  "Castillo, Maria Trinidad",
+  "Castillo, Eduardo",
+  "Castro, Claudia",
+  "Catrileo, Rosa",
+  "Celedon, Roberto",
+  "Celis, Raul",
+  "Cespedes, Lorena",
+  "Chahin, Fuad",
+  "Cozzi, Ruggero",
+  "Cretton, Eduardo",
+  "Cruz, Andres",
+  "Cubillos, Marcela",
+  "Daza, Mauricio",
+  "De la Maza, Bernardo",
+  "Delgado, Aurora",
+  "Dominguez, Gaspar",
+  "Dorador, Cristina",
+  "Fernandez, Patricio",
+  "Flores, Alejandra",
+  "Fontaine, Bernardo",
+  "Fuchslocher, Javier",
+  "Gallardo, Bessy",
+  "Garin, Renato",
+  "Giustinianovich, Elisa",
+  "Godoy, Isabel",
+  "Gomez, Claudio",
+  "Gomez, Yarela",
+  "Gonzalez, Dayana",
+  "Gonzalez, Lidia",
+  "Grandon, Giovanna",
+  "Grandon, Paola",
+  "Gutierrez, Hugo",
+  "Harboe, Felipe",
+  "Henriquez, Natalia",
+  "Hoppe, Vanessa",
+  "Hube, Constanza",
+  "Hurtado, Ruth",
+  "Hurtado, Maximiliano",
+  "Caiguan, Alexis",
+  "Jimenez, Luis",
+  "Jofre, Alvaro",
+  "Jurgensen, Harry",
+  "Labbe, Bastian",
+  "Labra, Patricia",
+  "Labrana, Elsa",
+  "Laibe, Tomas",
+  "Larrain, Hernan",
+  "Letelier, Margarita",
+  "Linconao, Francisca",
+  "Llanquileo, Natividad",
+  "Logan, Rodrigo",
+  "Loncon, Elisa",
+  "Madriaga, Tania",
+  "Mamani, Isabella",
+  "Marinovic, Teresa",
+  "Martin, Juan Jose",
+  "Martinez, Helmuth",
+  "Mayol, Luis",
+  "Mella, Jeniffer",
+  "Mena, Felipe",
+  "Meneses, Janis",
+  "Millabur, Adolfo",
+  "Miranda, Valentina",
+  "Monckeberg, Cristian",
+  "Montealegre, Katerine",
+  "Montero, Ricardo",
+  "Moreno, Alfredo",
+  "Munoz, Pedro",
+  "Namor, Guillermo",
+  "Navarrete, Geoconda",
+  "Neumann, Ricardo",
+  "Nunez, Nicolas",
+  "Olivares, Ivanna",
+  "Orellana, Matias",
+  "Ossandon, Manuel",
+  "Oyarzun, Maria Jose",
+  "Perez, Alejandra",
+  "Pinto, Malucha",
+  "Politzer, Patricia",
+  "Portilla, Ericka",
+  "Pustilnick, Tammy",
+  "Quinteros, Maria Elisa",
+  "Rebolledo, Barbara",
+  "Reyes, Maria Ramona",
+  "Rivera, Pollyana",
+  "Rivera, Maria Magdalena",
+  "Roa, Giovanna",
+  "Rojas, Rodrigo",
+  "Royo, Manuela",
+  "Saldana, Alvin",
+  "Salinas, Fernando",
+  "San Juan, Constanza",
+  "Sanchez, Beatriz",
+  "Schonhaut, Constanza",
+  "Sepulveda, Barbara",
+  "Sepulveda, Carolina",
+  "Serey, Mariela",
+  "Silva, Luciano",
+  "Squella, Agustin",
+  "Stingo, Daniel",
+  "Tepper, Maria Angelica",
+  "Tirado, Fernando",
+  "Toloza, Pablo",
+  "Ubilla, Maria Cecilia",
+  "Uribe, Cesar",
+  "Urrutia, Tatiana",
+  "Valenzuela, Cesar",
+  "Valenzuela, Paulina",
+  "Vallejos, Loreto",
+  "Vargas, Margarita",
+  "Vargas, Mario",
+  "Vega, Roberto",
+  "Velasquez, Hernan",
+  "Veloso, Paulina",
+  "Vergara, Lisette",
+  "Vidal, Rossana",
+  "Videla, Carolina",
+  "Viera, Christian",
+  "Vilches, Carolina",
+  "Villena, Ingrid",
+  "Woldarsky, Manuel",
+  "Zarate, Camila",
+  "Zuniga, Luis Arturo"
+)
+
+votantes_apellido_nombre <- votantes_apellido_nombre[-120] # Remove "Rojas, Rodrigo"
+
 
 # Reescalamos dentro de [-1,1]
 reescalar <- function(vector_original) {
@@ -85,9 +246,9 @@ parallel_bootstrap_wnom <- function(votaciones, votantes, N_votos, n_iter = 1000
 
 # -------------------- bootstrap
 
-votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 183 votaciones
+votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 147 votaciones
 votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_01_15[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_01_15[[1]]))
 votaciones_01_15 <- votaciones_01_15[,-1]
 
 n_votos <- length(votaciones_01_15)
@@ -102,7 +263,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_01_15_bootstrap <- parallel_bootstrap_wnom(
   votaciones_01_15,
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -129,9 +290,9 @@ ordenamiento_1D_WNOM_01_15_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 183 votaciones
+votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 182 votaciones
 votaciones_16_21 <- votaciones_16_21[votaciones_16_21[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_16_21[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_16_21[[1]]))
 votaciones_16_21 <- votaciones_16_21[,-1]
 
 n_votos <- length(votaciones_16_21)
@@ -146,7 +307,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_16_21_bootstrap <- parallel_bootstrap_wnom(
   votaciones_16_21, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -177,7 +338,7 @@ ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
 
 votaciones_22_37 <-read.csv("scripts - files/votaciones_22_37.csv") # 598 votaciones
 votaciones_22_37 <- votaciones_22_37[votaciones_22_37[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_22_37[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_22_37[[1]]))
 votaciones_22_37 <- votaciones_22_37[,-1]
 
 n_votos <- length(votaciones_22_37)
@@ -192,7 +353,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_22_37_bootstrap <- parallel_bootstrap_wnom(
   votaciones_22_37, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -217,13 +378,13 @@ ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
   encoding = "UTF-8"         # Maintain special characters
 )
 
-# ------------------------------- 38 - 46
+# ------------------------------- 38 - 46 -- NO
 
 # -------------------- bootstrap
 
 votaciones_38_46 <-read.csv("scripts - files/votaciones_38_46.csv") # 51 votaciones
 votaciones_38_46 <- votaciones_38_46[votaciones_38_46[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_38_46[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_38_46[[1]]))
 votaciones_38_46 <- votaciones_38_46[,-1]
 
 n_votos <- length(votaciones_38_46)
@@ -238,7 +399,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_38_46_bootstrap <- parallel_bootstrap_wnom(
   votaciones_38_46, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -259,13 +420,13 @@ ordenamiento_1D_WNOM_38_46_bootstrap <- read.csv(
   encoding = "UTF-8"         # Maintain special characters
 )
 
-# ------------------------------- 47 - 55
+# ------------------------------- 47 - 55 -- NO
 
 # -------------------- bootstrap
 
 votaciones_47_55 <-read.csv("scripts - files/votaciones_47_55.csv") # 64 votaciones
 votaciones_47_55 <- votaciones_47_55[votaciones_47_55[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_47_55[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_47_55[[1]]))
 votaciones_47_55 <- votaciones_47_55[,-1]
 
 n_votos <- length(votaciones_47_55)
@@ -280,7 +441,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_47_55_bootstrap <- parallel_bootstrap_wnom(
   votaciones_47_55, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -307,7 +468,7 @@ ordenamiento_1D_WNOM_47_55_bootstrap <- read.csv(
 
 votaciones_56_75 <-read.csv("scripts - files/votaciones_56_75.csv") # 899 votaciones
 votaciones_56_75 <- votaciones_56_75[votaciones_56_75[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_56_75[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_56_75[[1]]))
 votaciones_56_75 <- votaciones_56_75[,-1]
 
 n_votos <- length(votaciones_56_75)
@@ -322,7 +483,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_56_75_bootstrap <- parallel_bootstrap_wnom(
   votaciones_56_75, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -332,6 +493,8 @@ stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
 execution_time_parallel #  10.01 min CHPC (200), 19.37 min M4 (1000)
+
+print(execution_time_parallel)
 
 write.csv(ordenamiento_1D_WNOM_56_75_bootstrap, 
           file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
@@ -349,7 +512,7 @@ ordenamiento_1D_WNOM_56_75_bootstrap <- read.csv(
 
 votaciones_76_99 <-read.csv("scripts - files/votaciones_76_99.csv") # 2182 votaciones
 votaciones_76_99 <- votaciones_76_99[votaciones_76_99[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_76_99[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_76_99[[1]]))
 votaciones_76_99 <- votaciones_76_99[,-1]
 
 n_votos <- length(votaciones_76_99)
@@ -357,14 +520,14 @@ n_votos <- length(votaciones_76_99)
 # --- Run bootstrap ---
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(11, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(8, type = "FORK")  # Uses 6 cores (4P + 2E)
 #cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_76_99_bootstrap <- parallel_bootstrap_wnom(
   votaciones_76_99, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -374,6 +537,8 @@ stopCluster(cl)
 
 execution_time_parallel <- end_time - start_time
 execution_time_parallel # 28.61 min CHPC (200), 44.11 min M4 (1000)
+
+print(execution_time_parallel)
 
 write.csv(ordenamiento_1D_WNOM_76_99_bootstrap, 
           file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv", 
@@ -391,7 +556,7 @@ ordenamiento_1D_WNOM_76_99_bootstrap <- read.csv(
 
 votaciones_100_106 <-read.csv("scripts - files/votaciones_100_106.csv") # 514 votaciones
 votaciones_100_106 <- votaciones_100_106[votaciones_100_106[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_100_106[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_100_106[[1]]))
 votaciones_100_106 <- votaciones_100_106[,-1]
 
 n_votos <- length(votaciones_100_106)
@@ -399,14 +564,14 @@ n_votos <- length(votaciones_100_106)
 # --- Run bootstrap ---
 
 # Set up parallel computing for M1/M2 (4 performance cores + 2 efficiency)
-cl <- makeCluster(11, type = "FORK")  # Uses 6 cores (4P + 2E)
+cl <- makeCluster(8, type = "FORK")  # Uses 6 cores (4P + 2E)
 #cl <- makeCluster(12, type = "FORK") # CHPC 
 registerDoParallel(cl)
 
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_100_106_bootstrap <- parallel_bootstrap_wnom(
   votaciones_100_106, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -433,7 +598,7 @@ ordenamiento_1D_WNOM_100_106_bootstrap <- read.csv(
 
 votaciones_107_109 <-read.csv("scripts - files/votaciones_107_109.csv") # 72 votaciones
 votaciones_107_109 <- votaciones_107_109[votaciones_107_109[[1]] != "Rojas Vade, Rodrigo", ]
-votantes <- normalizar_nombres(as.vector(votaciones_107_109[[1]]))
+# votantes <- normalizar_nombres(as.vector(votaciones_107_109[[1]]))
 votaciones_107_109 <- votaciones_107_109[,-1]
 
 n_votos <- length(votaciones_107_109)
@@ -448,7 +613,7 @@ registerDoParallel(cl)
 start_time <- Sys.time()
 ordenamiento_1D_WNOM_107_109_bootstrap <- parallel_bootstrap_wnom(
   votaciones_107_109, 
-  votantes,
+  votantes_apellido_nombre,
   n_iter = 1000,
   N_votos = as.integer(round(n_votos * 0.7))
 )
@@ -498,7 +663,7 @@ lista_bootstrap <- lapply(archivos_csv_bootstrap, leer_csv_boot)
 
 # Combinar todos los dataframes
 ordenamientos_completos <- cbind(
-  Votante = rep(votantes, times = 200),
+  Votante = rep(votantes_apellido_nombre, times = 200),
   do.call(cbind, lista_bootstrap)
 )
 
@@ -585,20 +750,22 @@ ordenamientos_completos <- ordenamientos_completos %>%
 # Normalizar nombres y períodos
 orden_votantes_t <- orden_votantes_t %>%
   mutate(
-    Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
+    #Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
     Periodo = str_squish(sub(" .*", "", comparacion))  # Extrae el primer período de la comparación
   )
 
-ordenamientos_completos <- ordenamientos_completos %>%
-  mutate(
-    Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
-    Periodo = str_squish(Periodo)
-  )
-
+# ordenamientos_completos_2 <- ordenamientos_completos %>%
+#   mutate(
+#     Votante = str_squish(stri_trans_general(Votante, "Latin-ASCII")),
+#     Periodo = str_squish(Periodo)
+#   )
+# 
 orden_votantes_t <- orden_votantes_t %>%
   left_join(ordenamientos_completos, by = c("Votante", "Periodo"))
 
 # --- Modificaciones adicionales ---
+
+library(tidyr)
 
 orden_votantes_t <- orden_votantes_t %>%
   separate(comparacion, into = c("Periodo1", "Periodo2"), sep = " vs ", remove = FALSE) %>%
@@ -631,135 +798,135 @@ orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 # Grafica de comparación entre dos bloques de sesiones
 #------------------------------------------------------------------------------
 
-# Cargamos datos
-orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv")
-
-# Objeto con toda la información para plot
-orden_votantes_t_procesado <- orden_votantes_t %>%
-  # Agregamos nuevas columnas
-  mutate(
-    posicion_inicial = posicion_ideologica,
-    posicion_final = posicion_ideologica + diferencia_media,
-    direccion_cambio = case_when(
-      diferencia_media > 0 ~ "Derecha",
-      diferencia_media < 0 ~ "Izquierda",
-      TRUE ~ "Sin cambio" # por si acaso
-    ),
-    significativo = p_valor < 0.05,
-    etiqueta_significancia = ifelse(significativo, "Significativo (p < 0.05)", "No Significativo (p >= 0.05)")
-  ) %>%
-  # Algunos más para plot
-  mutate(
-    direccion_cambio_factor = factor(direccion_cambio, levels = c("Izquierda", "Derecha")), 
-    etiqueta_significancia_factor = factor(etiqueta_significancia, levels = c("Significativo (p < 0.05)", "No Significativo (p >= 0.05)"))
-  )
-
-# Fijamos escalas y formas para ambos plots consistentes
-common_y_scale <- scale_y_continuous(limits = c(-1.1, 1.1), breaks = seq(-1, 1, by = 0.5))
-common_color_scale <- scale_color_manual(
-  name = "Dirección del Cambio",
-  values = c("Izquierda" = "red", "Derecha" = "blue"),
-  na.translate = FALSE # No mostrar NA si "Sin cambio" no existe
-)
-common_shape_scale <- scale_shape_manual(
-  name = "Significancia Estadística",
-  values = c(
-    "Significativo (p < 0.05)" = 21,    # círculo 
-    "No Significativo (p >= 0.05)" = 24 # triángulo hacia arriba 
-  ),
-  drop = FALSE
-)
-common_fill_scale <- scale_fill_manual(
-  name = "Significancia Estadística",
-  values = c(
-    "Significativo (p < 0.05)" = "white", # Círculo blanco
-    "No Significativo (p >= 0.05)" = "black"  # Triángulo rojo
-  ),
-  drop = FALSE
-)
-common_guides <- guides(
-  shape = guide_legend(title = "Significancia Estadística"),
-  fill = guide_legend(title = "Significancia Estadística"),
-  color = guide_legend(title = "Dirección del Cambio")
-)
-
-# --- Crear plot 1 (01-15 vs 16-21) ---
-
-data_plot_1 <- orden_votantes_t_procesado %>% filter(comparacion == "01-15 vs 16-21")
-
-plot_1 <- ggplot(data_plot_1, aes(x = reorder(Votante, posicion_inicial), y = posicion_inicial)) +
-  geom_segment(
-    aes(xend = reorder(Votante, posicion_inicial), yend = posicion_final, color = direccion_cambio_factor),
-    arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
-  ) +
-  geom_point(
-    aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
-    size = 2.75, stroke = 0.5, color = "darkgrey" # Borde negro por defecto
-  ) +
-  common_y_scale +
-  common_color_scale +
-  common_shape_scale +
-  common_fill_scale +
-  common_guides +
-  labs(
-    title = "01-15 vs 16-21", # Título plot 1
-    x = NULL, # sin labels eje-x
-    y = "Posición Política"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 11), # Título del subplot
-    axis.text.x = element_blank(),   # sin texto en eje-x
-    axis.ticks.x = element_blank(),  # quitamos marcas del eje X
-    legend.position = "none",        # la leyenda se coloca al final
-    panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2), # Grilla vertical sutil
-    panel.grid.minor.x = element_blank()
-  )
-
-# --- Crear plot 2 (01-15 vs 76-99) ---
-
-data_plot_2 <- orden_votantes_t_procesado %>% filter(comparacion == "01-15 vs 76-99")
-
-plot_2 <- ggplot(data_plot_2, aes(x = reorder(Votante, posicion_inicial), y = posicion_inicial)) +
-  geom_segment(
-    aes(xend = reorder(Votante, posicion_inicial), yend = posicion_final, color = direccion_cambio_factor),
-    arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
-  ) +
-  geom_point(
-    aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
-    size = 2.50, stroke = 0.5, color = "darkgrey" # Borde negro por defecto
-  ) +
-  common_y_scale +
-  common_color_scale +
-  common_shape_scale +
-  common_fill_scale +
-  common_guides +
-  labs(
-    title = "01-15 vs 76-99", # Título específico
-    x = "Votante (por posición inicial en 01-15)", # Mantenemos etiqueta eje-X
-    y = "Posición Política"
-  ) +
-  theme_minimal(base_size = 15) + # Tamaño label 'Votante' en eje-x
-  theme(
-    plot.title = element_text(hjust = 0.5, face = "bold", size = 11), # Título de la subtrama
-    axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 8), # Texto del eje-X
-    legend.position = "none",        # La leyenda se colectará al final
-    panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2), # Grilla vertical sutil
-    panel.grid.minor.x = element_blank()
-  )
-
-# --- Combinar plots---
-
-plot_combinado <- plot_1 / plot_2 + # El "/" apila verticalmente
-  plot_layout(guides = 'collect') + # Colecta las leyendas de abajo
-  plot_annotation( 
-    title = "Cambio en la Posición Política de Convencionales",
-    subtitle = "Comparación posición ideológica con W-Nominate, según ventanas de sesiones",
-    theme = theme(plot.title = element_text(hjust = 0.5, size = 18, face="bold"),
-                  plot.subtitle = element_text(hjust = 0.5, size = 12))
-  ) 
-
-print(plot_combinado)
-
-# --- Guardamos el plot combinado ---
-ggsave("scripts - plots/cambio_posiciones_pleno_1.png", plot_combinado, width = 16, height = 10, units = "in", dpi = 600)
+# # Cargamos datos
+# orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv")
+# 
+# # Objeto con toda la información para plot
+# orden_votantes_t_procesado <- orden_votantes_t %>%
+#   # Agregamos nuevas columnas
+#   mutate(
+#     posicion_inicial = posicion_ideologica,
+#     posicion_final = posicion_ideologica + diferencia_media,
+#     direccion_cambio = case_when(
+#       diferencia_media > 0 ~ "Derecha",
+#       diferencia_media < 0 ~ "Izquierda",
+#       TRUE ~ "Sin cambio" # por si acaso
+#     ),
+#     significativo = p_valor < 0.05,
+#     etiqueta_significancia = ifelse(significativo, "Significativo (p < 0.05)", "No Significativo (p >= 0.05)")
+#   ) %>%
+#   # Algunos más para plot
+#   mutate(
+#     direccion_cambio_factor = factor(direccion_cambio, levels = c("Izquierda", "Derecha")), 
+#     etiqueta_significancia_factor = factor(etiqueta_significancia, levels = c("Significativo (p < 0.05)", "No Significativo (p >= 0.05)"))
+#   )
+# 
+# # Fijamos escalas y formas para ambos plots consistentes
+# common_y_scale <- scale_y_continuous(limits = c(-1.1, 1.1), breaks = seq(-1, 1, by = 0.5))
+# common_color_scale <- scale_color_manual(
+#   name = "Dirección del Cambio",
+#   values = c("Izquierda" = "red", "Derecha" = "blue"),
+#   na.translate = FALSE # No mostrar NA si "Sin cambio" no existe
+# )
+# common_shape_scale <- scale_shape_manual(
+#   name = "Significancia Estadística",
+#   values = c(
+#     "Significativo (p < 0.05)" = 21,    # círculo 
+#     "No Significativo (p >= 0.05)" = 24 # triángulo hacia arriba 
+#   ),
+#   drop = FALSE
+# )
+# common_fill_scale <- scale_fill_manual(
+#   name = "Significancia Estadística",
+#   values = c(
+#     "Significativo (p < 0.05)" = "white", # Círculo blanco
+#     "No Significativo (p >= 0.05)" = "black"  # Triángulo rojo
+#   ),
+#   drop = FALSE
+# )
+# common_guides <- guides(
+#   shape = guide_legend(title = "Significancia Estadística"),
+#   fill = guide_legend(title = "Significancia Estadística"),
+#   color = guide_legend(title = "Dirección del Cambio")
+# )
+# 
+# # --- Crear plot 1 (01-15 vs 16-21) ---
+# 
+# data_plot_1 <- orden_votantes_t_procesado %>% filter(comparacion == "01-15 vs 16-21")
+# 
+# plot_1 <- ggplot(data_plot_1, aes(x = reorder(Votante, posicion_inicial), y = posicion_inicial)) +
+#   geom_segment(
+#     aes(xend = reorder(Votante, posicion_inicial), yend = posicion_final, color = direccion_cambio_factor),
+#     arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
+#   ) +
+#   geom_point(
+#     aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
+#     size = 2.75, stroke = 0.5, color = "darkgrey" # Borde negro por defecto
+#   ) +
+#   common_y_scale +
+#   common_color_scale +
+#   common_shape_scale +
+#   common_fill_scale +
+#   common_guides +
+#   labs(
+#     title = "01-15 vs 16-21", # Título plot 1
+#     x = NULL, # sin labels eje-x
+#     y = "Posición Política"
+#   ) +
+#   theme_minimal(base_size = 12) +
+#   theme(
+#     plot.title = element_text(hjust = 0.5, face = "bold", size = 11), # Título del subplot
+#     axis.text.x = element_blank(),   # sin texto en eje-x
+#     axis.ticks.x = element_blank(),  # quitamos marcas del eje X
+#     legend.position = "none",        # la leyenda se coloca al final
+#     panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2), # Grilla vertical sutil
+#     panel.grid.minor.x = element_blank()
+#   )
+# 
+# # --- Crear plot 2 (01-15 vs 76-99) ---
+# 
+# data_plot_2 <- orden_votantes_t_procesado %>% filter(comparacion == "01-15 vs 76-99")
+# 
+# plot_2 <- ggplot(data_plot_2, aes(x = reorder(Votante, posicion_inicial), y = posicion_inicial)) +
+#   geom_segment(
+#     aes(xend = reorder(Votante, posicion_inicial), yend = posicion_final, color = direccion_cambio_factor),
+#     arrow = arrow(length = unit(0.15, "cm"), type = "closed"), linewidth = 0.8
+#   ) +
+#   geom_point(
+#     aes(shape = etiqueta_significancia_factor, fill = etiqueta_significancia_factor),
+#     size = 2.50, stroke = 0.5, color = "darkgrey" # Borde negro por defecto
+#   ) +
+#   common_y_scale +
+#   common_color_scale +
+#   common_shape_scale +
+#   common_fill_scale +
+#   common_guides +
+#   labs(
+#     title = "01-15 vs 76-99", # Título específico
+#     x = "Votante (por posición inicial en 01-15)", # Mantenemos etiqueta eje-X
+#     y = "Posición Política"
+#   ) +
+#   theme_minimal(base_size = 15) + # Tamaño label 'Votante' en eje-x
+#   theme(
+#     plot.title = element_text(hjust = 0.5, face = "bold", size = 11), # Título de la subtrama
+#     axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5, size = 8), # Texto del eje-X
+#     legend.position = "none",        # La leyenda se colectará al final
+#     panel.grid.major.x = element_line(color = "grey90", linewidth = 0.2), # Grilla vertical sutil
+#     panel.grid.minor.x = element_blank()
+#   )
+# 
+# # --- Combinar plots---
+# 
+# plot_combinado <- plot_1 / plot_2 + # El "/" apila verticalmente
+#   plot_layout(guides = 'collect') + # Colecta las leyendas de abajo
+#   plot_annotation( 
+#     title = "Cambio en la Posición Política de Convencionales",
+#     subtitle = "Comparación posición ideológica con W-Nominate, según ventanas de sesiones",
+#     theme = theme(plot.title = element_text(hjust = 0.5, size = 18, face="bold"),
+#                   plot.subtitle = element_text(hjust = 0.5, size = 12))
+#   ) 
+# 
+# print(plot_combinado)
+# 
+# # --- Guardamos el plot combinado ---
+# ggsave("scripts - plots/cambio_posiciones_pleno_1.png", plot_combinado, width = 16, height = 10, units = "in", dpi = 600)
