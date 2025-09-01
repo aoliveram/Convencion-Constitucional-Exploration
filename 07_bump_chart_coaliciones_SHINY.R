@@ -145,7 +145,7 @@ ui <- fluidPage(
       sliderInput(
         inputId = "ribbon_mult",
         label   = "Ancho de banda (multiplicador de DE):",
-        min = 0, max = 0.5, value = 0.15, step = 0.01
+        min = 0, max = 1, value = 0.5, step = 0.01
       ),
       hr(),
       helpText("Colores y abreviaciones fijados para coherencia visual con tus gráficos.")
@@ -227,6 +227,7 @@ server <- function(input, output, session) {
       labs(x = "Bloque de sesiones", y = "Posición ideológica promedio",
            title = "Evolución de la posición promedio por coalición",
            subtitle = paste0("Banda ±", k, "·DE (W-NOMINATE 1D)")) +
+      ylim(-1, 1) +
       theme_minimal(base_size = 12) +
       theme(
         legend.position = "none",
@@ -277,6 +278,7 @@ server <- function(input, output, session) {
       labs(x = "Bloque de sesiones", y = "Posición ideológica",
            title = paste0("Evolución por convencional (", coal_lab, ")"),
            subtitle = paste0(length(unique(df$Votante)), " convencionales seleccionados")) +
+      ylim(-1, 1) +
       theme_minimal(base_size = 12) +
       theme(
         legend.position = "none",
