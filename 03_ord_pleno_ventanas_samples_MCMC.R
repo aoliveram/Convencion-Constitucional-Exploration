@@ -315,8 +315,8 @@ run_ideal_estimation_combined <- function(votaciones, votantes, dataset_name,
   }
   
   # --- START MODIFICATION: Sign Flipping Logic ---
-  # Define the target legislator (using the already normalized name format)
-  target_legislator <- "Marinovic Vial, Teresa" # Assumes normalizar_nombres doesn't change this specific name
+  # Define the target legislator
+  target_legislator <- "Marinovic, Teresa"
   
   # Check if results were generated and if the target legislator exists in the means table
   if (nrow(results_dt_means) > 0 && target_legislator %in% results_dt_means$nombre_votante) {
