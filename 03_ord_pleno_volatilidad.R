@@ -1,3 +1,5 @@
+# Creates volatilidad_ordenamiento_politico.pdf
+
 # --- 0. Load Libraries ---
 library(ggplot2)
 library(dplyr)
