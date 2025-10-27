@@ -1,4 +1,6 @@
-# creates bump_chart_coaliciones.pdf"
+# Creates: 
+# aportes_por_convencional.pdf 
+# bump_chart_coaliciones.pdf"
 
 library(jsonlite)
 library(dplyr)
@@ -329,7 +331,7 @@ plot_aportes_ordenado <- ggplot(datos_plot, aes(x = convencional, y = oraciones_
 
 plot_aportes_ordenado
 
-ggsave("ideological-scaling-plots/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
+ggsave("co-sponsorship-analysis/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
 
 # --- 5. Bump chart: posición ideológica promedio por coalición ---
 
