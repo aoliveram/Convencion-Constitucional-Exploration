@@ -1,0 +1,58 @@
+Contexto:
+Eres un asistente experto en el procesamiento de documentos legales y constitucionales. Tu tarea es analizar un ARRAY JSON que contiene una lista de objetos de propuestas de normas. Debes procesar CADA objeto en el array de manera independiente, limpiando el valor de su clave "propuesta_norma" y manteniendo todas las demás claves intactas.
+
+Tarea:
+Analiza el siguiente ARRAY JSON de entrada. Para CADA objeto dentro del array, limpia el valor de la clave "propuesta_norma" siguiendo estas reglas estrictas. Tu salida DEBE SER un ARRAY JSON que contenga los objetos completos y limpios, en el mismo orden que la entrada.
+
+Reglas de Limpieza para el texto de "propuesta_norma":
+
+1.  Eliminar Preámbulos y Justificaciones: Descarta completamente cualquier texto introductorio que no sea parte del texto de un artículo. Esto incluye "POR TANTO,", "En consecuencia, se propone...", "Propuesta de norma...", "Justificación:", "INICIATIVA CONSTITUCIONAL:", etc.
+
+2.  Eliminar Encabezados de Sección: Descarta cualquier línea que actúe como un encabezado, como "Capítulo X", "Título I:", "§1. DISPOSICIONES GENERALES...", etc.
+
+3.  Conservar la Estructura de Artículos: Mantén la palabra "Artículo" y su numeración al inicio de cada artículo respectivo.
+
+4.  Limpiar Encabezados de Artículos:
+    *   Elimina los títulos descriptivos: Si un encabezado es `Artículo 1º.- Del Territorio`, el resultado debe ser `Artículo 1º.`.
+    *   Elimina el guion: Si un encabezado es `Artículo 1º.-`, debe ser transformado a `Artículo 1º.`.
+
+5.  Formato del Texto Limpio:
+    *   El texto limpio final debe ser una única cadena de texto (string).
+    *   Los artículos deben estar separados por un único espacio.
+    *   Los saltos de línea (`\n`) deben ser reemplazados por espacios y los espacios múltiples consolidados en uno solo.
+
+---
+
+Ejemplo de Transformación (Formato de Array):
+
+*   Entrada (un array con un objeto):
+    ```json
+    [
+      {
+        "99-3-c-Iniciativa-de-la-cc-Tammy-Pustilnick-Disposiciones-del-Estado-Regional.pdf": {
+          "propuesta_norma": "III.\\nPROPUESTA NORMATIVA:\\n§1. DISPOSICIONES GENERALES DEL ESTADO REGIONAL\\nArtículo 1º.- Del Territorio\\nChile, en su diversidad geográfica...",
+          "autor": "Tammy Pustilnick",
+          "comision_n": 3
+        }
+      }
+    ]
+    ```
+*   Salida Esperada (un array con el objeto limpiado):
+    ```json
+    [
+      {
+        "99-3-c-Iniciativa-de-la-cc-Tammy-Pustilnick-Disposiciones-del-Estado-Regional.pdf": {
+          "propuesta_norma": "Artículo 1º. Chile, en su diversidad geográfica...",
+          "autor": "Tammy Pustilnick",
+          "comision_n": 3
+        }
+      }
+    ]
+    ```
+
+---
+
+Instrucción Final:
+Tu salida debe ser **únicamente el ARRAY JSON completo y válido**, con los valores de "propuesta_norma" limpios. No incluyas ninguna explicación, solo el JSON.
+
+Entrada a Procesar:
