@@ -50,7 +50,7 @@ co_sponsor_counts <- co_sponsorships_filtered %>%
 
 # --- 3. Generación del Gráfico ---
 
-pdf("scripts - plots/n_colaboracion_por_convencional.pdf", width = 12, height = 6)
+pdf("ideological-scaling-plots/n_colaboracion_por_convencional.pdf", width = 12, height = 6)
 
 ggplot(co_sponsor_counts, 
        aes(x = reorder(convencional, -unique_co_sponsors), y = unique_co_sponsors)) +
@@ -78,7 +78,7 @@ dev.off()
 # --- 4. Generación del Gráfico Ordenado por Posición Política ---
 
 library(readr) 
-ordenamiento_1D_WNOM_01_15 <- read_csv("scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv")
+ordenamiento_1D_WNOM_01_15 <- read_csv("ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv")
 
 library(stringi)
 normalizar_nombres <- function(texto) {
@@ -98,7 +98,7 @@ plot_data_ideological <- inner_join(
 )
 
 
-pdf("scripts - plots/n_colaboracion_por_convencional_izq-der.pdf", width = 12, height = 6)
+pdf("ideological-scaling-plots/n_colaboracion_por_convencional_izq-der.pdf", width = 12, height = 6)
 
 ggplot(plot_data_ideological, 
        # reorder() ahora usa 'posicion_izq_der'

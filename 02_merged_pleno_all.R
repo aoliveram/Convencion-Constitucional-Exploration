@@ -76,10 +76,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_01_15.csv", 
+          file = "ideological-scaling-files/votaciones_01_15.csv", 
           row.names = FALSE)
 
-# votaciones_al_14ago2021_manual_2 <-read.csv("scripts - files/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
+# votaciones_al_14ago2021_manual_2 <-read.csv("ideological-scaling-files/votaciones_al_14ago2021_manual_2.csv") # __ votaciones
 # votaciones_al_14ago2021_manual_2$X14072021_880[155] # Arturo Zúñiga NA
 # 
 # votaciones_Luis_Zuniga_1 <- votaciones_al_14ago2021_manual_2 %>% filter(NOMBRE == "Zúñiga Jory, Luis Arturo")
@@ -95,7 +95,7 @@ write.csv(final_votaciones_df,
 # NO son equivalentes la mía y la de Jorge. 
 # Sin embargo, sirve para comparar ventanas de tiempo.
 
-votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 147 votaciones
+votaciones_01_15 <-read.csv("ideological-scaling-files/votaciones_01_15.csv") # 147 votaciones
 
 # ----------------------------- 16 - 21
 
@@ -108,10 +108,10 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_16_21.csv", 
+          file = "ideological-scaling-files/votaciones_16_21.csv", 
           row.names = FALSE)
 
-votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 182 votaciones
+votaciones_16_21 <-read.csv("ideological-scaling-files/votaciones_16_21.csv") # 182 votaciones
 
 # ----------------------------- 22 - 37
 
@@ -131,10 +131,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-nrow(final_votaciones_df), ]
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_22_37.csv", 
+          file = "ideological-scaling-files/votaciones_22_37.csv", 
           row.names = FALSE)
 
-votaciones_22_37 <-read.csv("scripts - files/votaciones_22_37.csv") # 599 votaciones
+votaciones_22_37 <-read.csv("ideological-scaling-files/votaciones_22_37.csv") # 599 votaciones
 
 # ----------------------------- 38 - 46
 # 49 días
@@ -152,10 +152,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-150,]
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_38_46.csv", 
+          file = "ideological-scaling-files/votaciones_38_46.csv", 
           row.names = FALSE)
 
-votaciones_38_46 <-read.csv("scripts - files/votaciones_38_46.csv") # 52 votaciones
+votaciones_38_46 <-read.csv("ideological-scaling-files/votaciones_38_46.csv") # 52 votaciones
 
 # ----------------------------- 47 - 55
 # 42 días
@@ -174,10 +174,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-c(nrow(final_votaciones_df), nrow(final_votaciones_df)-5), ] # eliminamos *failed to decode
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_47_55.csv", 
+          file = "ideological-scaling-files/votaciones_47_55.csv", 
           row.names = FALSE)
 
-votaciones_47_55 <-read.csv("scripts - files/votaciones_47_55.csv") # 65 votaciones
+votaciones_47_55 <-read.csv("ideological-scaling-files/votaciones_47_55.csv") # 65 votaciones
 
 # ----------------------------- 56 - 75
 # 37 días
@@ -198,10 +198,10 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_56_75.csv", 
+          file = "ideological-scaling-files/votaciones_56_75.csv", 
           row.names = FALSE)
 
-votaciones_56_75 <-read.csv("scripts - files/votaciones_56_75.csv") # 900 votaciones
+votaciones_56_75 <-read.csv("ideological-scaling-files/votaciones_56_75.csv") # 900 votaciones
 
 # ----------------------------- 76 - 99
 # 39 días
@@ -228,10 +228,10 @@ final_votaciones_df <- all_votaciones_df %>%
 #  dplyr::filter(n > 1L)
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_76_99.csv", 
+          file = "ideological-scaling-files/votaciones_76_99.csv", 
           row.names = FALSE)
 
-votaciones_76_99 <-read.csv("scripts - files/votaciones_76_99.csv") # 2183 votaciones
+votaciones_76_99 <-read.csv("ideological-scaling-files/votaciones_76_99.csv") # 2183 votaciones
 
 # ----------------------------- 100 - 106
 # 39 días
@@ -249,10 +249,10 @@ final_votaciones_df <- all_votaciones_df %>%
 final_votaciones_df <- final_votaciones_df[-156,]
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_100_106.csv", 
+          file = "ideological-scaling-files/votaciones_100_106.csv", 
           row.names = FALSE)
 
-votaciones_100_106 <-read.csv("scripts - files/votaciones_100_106.csv") # 515 votaciones
+votaciones_100_106 <-read.csv("ideological-scaling-files/votaciones_100_106.csv") # 515 votaciones
 
 # ----------------------------- 107 - 109
 # 10 días
@@ -267,7 +267,7 @@ final_votaciones_df <- all_votaciones_df %>%
   pivot_wider(names_from = VOTACIONID, values_from = VOTACION)
 
 write.csv(final_votaciones_df, 
-          file = "scripts - files/votaciones_107_109.csv", 
+          file = "ideological-scaling-files/votaciones_107_109.csv", 
           row.names = FALSE)
 
-votaciones_107_109 <-read.csv("scripts - files/votaciones_107_109.csv") # 72 votaciones
+votaciones_107_109 <-read.csv("ideological-scaling-files/votaciones_107_109.csv") # 72 votaciones

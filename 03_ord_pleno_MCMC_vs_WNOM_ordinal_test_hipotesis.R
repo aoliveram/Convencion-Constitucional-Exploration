@@ -19,8 +19,8 @@ normalizar_nombres <- function(texto) {
 # --- 2. Configuración ---
 base_path <- "data - pleno/ordenamientos_pleno" # Ajusta según tu estructura
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106") # Todos tus períodos
-output_file_comparison <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.csv"
-output_rds_comparison <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds"
+output_file_comparison <- "ideological-scaling-files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.csv"
+output_rds_comparison <- "ideological-scaling-files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds"
 
 # --- 3. Procesamiento Paralelo ---
 
@@ -555,7 +555,7 @@ library(forcats)   # Para fct_reorder
 library(stringr)   # Para str_wrap si los nombres son muy largos
 
 # --- 1. Cargar Datos ---
-file_path <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds" # Asegúrate que la ruta es correcta
+file_path <- "ideological-scaling-files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE_orig.rds" # Asegúrate que la ruta es correcta
 if (!file.exists(file_path)) {
   stop("El archivo ", file_path, " no se encuentra.")
 }
@@ -622,4 +622,4 @@ p_value_plot <- ggplot(plot_data, aes(x = legislador_factor, y = wilcox_p_value,
 
 print(p_value_plot)
 
-ggsave("scripts - plots/comparacion_MCMC_vs_WNOM_p_value.png", plot = p_value_plot, bg = 'white', width = 18, height = 10, dpi = 550)
+ggsave("ideological-scaling-plots/comparacion_MCMC_vs_WNOM_p_value.png", plot = p_value_plot, bg = 'white', width = 18, height = 10, dpi = 550)

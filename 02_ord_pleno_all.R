@@ -179,7 +179,7 @@ reescalar <- function(vector_original) {
 # -------------------- Rollcalls
 
 # Votaciones en el pleno hasta el 14 de Agosto de 2021. 147 Votaciones
-votaciones_01_15 <- as.data.frame(read.csv("scripts - files/votaciones_01_15.csv")) # 147 votaciones
+votaciones_01_15 <- as.data.frame(read.csv("ideological-scaling-files/votaciones_01_15.csv")) # 147 votaciones
 votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_01_15 <- votaciones_01_15[,-1]
 votaciones_01_15_rc <- rollcall(
@@ -192,7 +192,7 @@ votaciones_01_15_rc <- rollcall(
   desc = "Votaciones Conv. Const. 01-15"
 )
 
-votaciones_16_21 <- as.data.frame(read_csv("scripts - files/votaciones_16_21.csv")) # 182 votaciones
+votaciones_16_21 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_16_21.csv")) # 182 votaciones
 votaciones_16_21 <- votaciones_16_21[votaciones_16_21[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_16_21 <- votaciones_16_21[,-1]
 votaciones_16_21_rc <- rollcall(
@@ -205,7 +205,7 @@ votaciones_16_21_rc <- rollcall(
   desc = "Votaciones Conv. Const. 16-21"
 )
 
-votaciones_22_37 <- as.data.frame(read.csv("scripts - files/votaciones_22_37.csv")) # 598 votaciones
+votaciones_22_37 <- as.data.frame(read.csv("ideological-scaling-files/votaciones_22_37.csv")) # 598 votaciones
 votaciones_22_37 <- votaciones_22_37[votaciones_22_37[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_22_37 <- votaciones_22_37[,-1]
 votaciones_22_37_rc <- rollcall(
@@ -218,7 +218,7 @@ votaciones_22_37_rc <- rollcall(
   desc = "Votaciones Conv. Const. 22-37"
 )
 
-votaciones_38_46 <- as.data.frame(read_csv("scripts - files/votaciones_38_46.csv")) # WILL FAIL - NOT SAME ORDER AS votantes_apellido_nombre
+votaciones_38_46 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_38_46.csv")) # WILL FAIL - NOT SAME ORDER AS votantes_apellido_nombre
 votaciones_38_46 <- votaciones_38_46[votaciones_38_46[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_38_46 <- votaciones_38_46[,-1]
 votaciones_38_46_rc <- rollcall(
@@ -231,7 +231,7 @@ votaciones_38_46_rc <- rollcall(
   desc = "Votaciones Conv. Const. 38-46"
 )
 
-votaciones_47_55 <- as.data.frame(read_csv("scripts - files/votaciones_47_55.csv")) # WILL FAIL - NOT SAME ORDER AS votantes_apellido_nombre
+votaciones_47_55 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_47_55.csv")) # WILL FAIL - NOT SAME ORDER AS votantes_apellido_nombre
 votaciones_47_55 <- votaciones_47_55[votaciones_47_55[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_47_55 <- votaciones_47_55[-c(151,156),]
 votaciones_47_55 <- votaciones_47_55[,-1]
@@ -245,7 +245,7 @@ votaciones_47_55_rc <- rollcall(
   desc = "Votaciones Conv. Const. 47-55"
 )
 
-votaciones_56_75 <- as.data.frame(read_csv("scripts - files/votaciones_56_75.csv"))
+votaciones_56_75 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_56_75.csv"))
 votaciones_56_75 <- votaciones_56_75[votaciones_56_75[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_56_75 <- votaciones_56_75[,-1]
 votaciones_56_75_rc <- rollcall(
@@ -258,7 +258,7 @@ votaciones_56_75_rc <- rollcall(
   desc = "Votaciones Conv. Const. 56-75"
 )
 
-votaciones_76_99 <- as.data.frame(read_csv("scripts - files/votaciones_76_99.csv"))
+votaciones_76_99 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_76_99.csv"))
 votaciones_76_99 <- votaciones_76_99[votaciones_76_99[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_76_99 <- votaciones_76_99[,-1]
 votaciones_76_99_rc <- rollcall(
@@ -271,7 +271,7 @@ votaciones_76_99_rc <- rollcall(
   desc = "Votaciones Conv. Const. 76-99"
 )
 
-votaciones_100_106 <- as.data.frame(read_csv("scripts - files/votaciones_100_106.csv"))
+votaciones_100_106 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_100_106.csv"))
 votaciones_100_106 <- votaciones_100_106[votaciones_100_106[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_100_106 <- votaciones_100_106[,-1]
 votaciones_100_106_rc <- rollcall(
@@ -284,7 +284,7 @@ votaciones_100_106_rc <- rollcall(
   desc = "Votaciones Conv. Const. 100-106"
 )
 
-votaciones_107_109 <- as.data.frame(read_csv("scripts - files/votaciones_107_109.csv"))
+votaciones_107_109 <- as.data.frame(read_csv("ideological-scaling-files/votaciones_107_109.csv"))
 votaciones_107_109 <- votaciones_107_109[votaciones_107_109[[1]] != "Rojas Vade, Rodrigo", ]
 votaciones_107_109 <- votaciones_107_109[,-1]
 votaciones_107_109_rc <- rollcall(
@@ -315,7 +315,7 @@ ordenamiento_1D_WNOM_01_15 <- reescalar(ordenamiento_1D_WNOM_01_15) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_01_15$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_01_15)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_01_15, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_01_15, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv", row.names = FALSE)
 
 # ---- 16-21
 
@@ -331,7 +331,7 @@ ordenamiento_1D_WNOM_16_21 <- reescalar(ordenamiento_1D_WNOM_16_21) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_16_21$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_16_21)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_16_21, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_16_21, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv", row.names = FALSE)
 
 # ---- 22-37
 
@@ -347,7 +347,7 @@ ordenamiento_1D_WNOM_22_37 <- reescalar(ordenamiento_1D_WNOM_22_37) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_22_37$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_22_37)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_22_37, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_22_37, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv", row.names = FALSE)
 
 # ---- 38-46 # WILL FAIL (minimum vote requirements)
 
@@ -363,7 +363,7 @@ ordenamiento_1D_WNOM_38_46 <- reescalar(ordenamiento_1D_WNOM_38_46) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_38_46$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_38_46)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_38_46, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_38_46, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46.csv", row.names = FALSE)
 
 # ---- 47-55 # WORKS BUT NOT THE BOOTSTRAP
 
@@ -379,7 +379,7 @@ ordenamiento_1D_WNOM_47_55 <- reescalar(ordenamiento_1D_WNOM_47_55) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_47_55$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_47_55)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_47_55, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_47_55, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55.csv", row.names = FALSE)
 
 # ---- 56-75
 
@@ -395,7 +395,7 @@ ordenamiento_1D_WNOM_56_75 <- reescalar(ordenamiento_1D_WNOM_56_75) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_56_75$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_56_75)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_56_75, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_56_75, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv", row.names = FALSE)
 
 # ---- 76-99
 
@@ -411,7 +411,7 @@ ordenamiento_1D_WNOM_76_99 <- reescalar(ordenamiento_1D_WNOM_76_99) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_76_99$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_76_99)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_76_99, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_76_99, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv", row.names = FALSE)
 
 # ---- 100-106
 
@@ -427,7 +427,7 @@ ordenamiento_1D_WNOM_100_106 <- reescalar(ordenamiento_1D_WNOM_100_106) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_100_106$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_100_106)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_100_106, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_100_106, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv", row.names = FALSE)
 
 # ---- 107-109 # WILL FAIL (minimum vote requirements)
 
@@ -443,4 +443,4 @@ ordenamiento_1D_WNOM_107_109 <- reescalar(ordenamiento_1D_WNOM_107_109) %>%
   arrange(posicion_ideologica)
 ordenamiento_1D_WNOM_107_109$posicion_izq_der <- as.integer(row.names(ordenamiento_1D_WNOM_107_109)) #índice izq-der
 
-write.csv(ordenamiento_1D_WNOM_107_109, file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109.csv", row.names = FALSE)
+write.csv(ordenamiento_1D_WNOM_107_109, file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109.csv", row.names = FALSE)

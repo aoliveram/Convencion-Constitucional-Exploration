@@ -6,10 +6,10 @@ import re
 
 # --- 1. Rutas a datos estructurados y comparaciones ---
 BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
-INICIATIVAS_ORACIONES_CSV_PATH = "scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
-COMPARACION_CSV_PATH = "scripts - files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
+COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
 
-OUTPUT_LATEX_PATH = "scripts - files/analizar_procedencia_borrador/borrador_anotado.tex"
+OUTPUT_LATEX_PATH = "ideological-scaling-files/analizar_procedencia_borrador/borrador_anotado.tex"
 
 
 # --- 2. Función para Escapar Caracteres de LaTeX ---

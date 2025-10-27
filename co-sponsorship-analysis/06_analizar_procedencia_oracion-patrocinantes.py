@@ -7,7 +7,7 @@ from tqdm import tqdm # barra de progreso
 # --- 1. Configuración de Archivos ---
 
 BASE_FOLDER = "patrocinantes_identificacion"
-ANALYSIS_FOLDER = "scripts - files/analizar_procedencia_borrador"
+ANALYSIS_FOLDER = "ideological-scaling-files/analizar_procedencia_borrador"
 
 # Rutas de los archivos de entrada
 BORRADOR_JSON_PATH = os.path.join(BASE_FOLDER, "borrador_constitucional_estructurado.json")
@@ -19,7 +19,7 @@ INICIATIVAS_METADATA_FOLDER = BASE_FOLDER
 INICIATIVAS_METADATA_PATTERN = r"api_extracted_.*_corrected_4\.json$"
 
 # Ruta del archivo de salida JSON
-OUTPUT_JSON_PATH = "scripts - files/analisis_procedencia_final.json"
+OUTPUT_JSON_PATH = "ideological-scaling-files/analisis_procedencia_final.json"
 
 # --- 2. Carga y Preparación de Datos ---
 

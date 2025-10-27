@@ -8,9 +8,9 @@ library(forcats)
 
 # --- 1. Load Data -----------------------------------------------------------
 tryCatch({
-  orden_votantes_t_raw <- readRDS("scripts - files/03_orden_votantes_t.rds")
+  orden_votantes_t_raw <- readRDS("ideological-scaling-files/03_orden_votantes_t.rds")
 }, error = function(e) {
-  stop("Error loading scripts - files/03_orden_votantes_t.rds. Make sure the file exists. Original error: ", e$message)
+  stop("Error loading ideological-scaling-files/03_orden_votantes_t.rds. Make sure the file exists. Original error: ", e$message)
 })
 
 # --- 2. Identify the Correct Sequence of Periods ----------------------------
@@ -61,7 +61,7 @@ volatility_data <- orden_votantes_t_raw %>%
 
 # --- 4. Create the Plot -----------------------------------------------------
 
-pdf("scripts - plots/volatilidad_ordenamiento_politico.pdf", width = 10, height = 6)
+pdf("ideological-scaling-plots/volatilidad_ordenamiento_politico.pdf", width = 10, height = 6)
 
 ggplot(volatility_data, aes(x = comparacion, y = indice_volatilidad)) +
   geom_col(fill = "#0072B2", alpha = 0.8, width = 0.7) +

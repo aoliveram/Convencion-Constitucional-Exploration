@@ -10,8 +10,8 @@ suppressPackageStartupMessages({
 })
 
 # Rutas por defecto (ajusta si las cambias)
-ORDEN_T_PATH_RDS <- "scripts - files/03_orden_votantes_t.rds"
-COAL_RDS_PATH    <- "scripts - files/coaliciones_convencionales.rds"
+ORDEN_T_PATH_RDS <- "ideological-scaling-files/03_orden_votantes_t.rds"
+COAL_RDS_PATH    <- "ideological-scaling-files/coaliciones_convencionales.rds"
 
 # Abreviaciones y paleta (claves = abreviaciones)
 abbr_map <- c(
@@ -74,7 +74,7 @@ validate_coal <- function(tbl) {
 
 load_orden_t <- function() {
   if (!file.exists(ORDEN_T_PATH_RDS)) {
-    stop("No se encontró 'scripts - files/03_orden_votantes_t.rds'.")
+    stop("No se encontró 'ideological-scaling-files/03_orden_votantes_t.rds'.")
   }
   readRDS(ORDEN_T_PATH_RDS)
 }

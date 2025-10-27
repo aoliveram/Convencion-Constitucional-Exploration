@@ -15,8 +15,8 @@ from typing import List, Set, Dict
 # 0) RUTAS / ENTRADAS
 # -------------------------------
 BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
-COMPARACION_CSV_PATH = "scripts - files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
-INICIATIVAS_ORACIONES_CSV_PATH = "scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
+COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
 
 API_DIR_GLOB = "patrocinantes_identificacion/api_extracted_*_corrected_4.json"
 
@@ -24,8 +24,8 @@ PROF_XLSX_PATH = "rcp_convencion/autores_indicaciones_aprobadas.xlsx"
 PROF_SHEET = "Hoja3"   # ajusta si la hoja cambia
 
 # Salidas
-OUT_CSV = "scripts - files/analizar_procedencia_borrador/score_similitud_prof_vs_pipeline.csv"
-OUT_JSON = "scripts - files/analizar_procedencia_borrador/score_similitud_prof_vs_pipeline.json"
+OUT_CSV = "ideological-scaling-files/analizar_procedencia_borrador/score_similitud_prof_vs_pipeline.csv"
+OUT_JSON = "ideological-scaling-files/analizar_procedencia_borrador/score_similitud_prof_vs_pipeline.json"
 
 # -------------------------------
 # 1) UTILIDADES

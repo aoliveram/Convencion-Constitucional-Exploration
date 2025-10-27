@@ -17,8 +17,8 @@ from typing import Dict, Set, List, Tuple
 # RUTAS (ajústalas si difieren)
 # -------------------------------
 BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
-COMPARACION_CSV_PATH = "scripts - files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
-INICIATIVAS_ORACIONES_CSV_PATH = "scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
+COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
 API_DIR_GLOB = "patrocinantes_identificacion/api_extracted_*_corrected_4.json"
 
 PROF_XLSX_PATH = "rcp_convencion/autores_indicaciones_aprobadas.xlsx"
@@ -303,7 +303,7 @@ for i, r in enumerate(ranks_to_compare):
         ax.set_xlabel("Diferencia similitud")
 
 plt.tight_layout()
-plt.savefig("scripts - plots/diferencias_embedding_tfidf.pdf")
+plt.savefig("ideological-scaling-plots/diferencias_embedding_tfidf.pdf")
 plt.show()
 
 # -------------------------------
@@ -333,7 +333,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("scripts - plots/score_contenido_base.pdf", bbox_inches="tight")
+plt.savefig("ideological-scaling-plots/score_contenido_base.pdf", bbox_inches="tight")
 plt.show()
 
 plt.figure()
@@ -343,7 +343,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("scripts - plots/score_contenido_p75.pdf", bbox_inches="tight")
+plt.savefig("ideological-scaling-plots/score_contenido_p75.pdf", bbox_inches="tight")
 plt.show()
 
 # -------------------------------

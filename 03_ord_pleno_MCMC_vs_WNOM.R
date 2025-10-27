@@ -1,6 +1,6 @@
 # # Este script genera 
-# "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
-# "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
+# "ideological-scaling-files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
+# "ideological-scaling-files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
 
 # --- 0. Cargar Librerías Necesarias ---
 library(data.table)
@@ -37,10 +37,10 @@ reescalar <- function(vector_original) {
 # --- 2. Configuración ---
 # Asumimos que los archivos CSV de ejemplo están en el directorio de trabajo
 # o ajusta base_path según sea necesario.
-base_path <- "scripts - files/ordenamientos_pleno" # Directorio actual
+base_path <- "ideological-scaling-files/ordenamientos_pleno" # Directorio actual
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
-output_file_comparison <- "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
-output_rds_comparison <- "scripts - files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
+output_file_comparison <- "ideological-scaling-files/03_comparacion_t_MCMC_vs_WNOMINATE.csv"
+output_rds_comparison <- "ideological-scaling-files/03_comparacion_t_MCMC_vs_WNOMINATE.rds"
 
 # --- 3. Cargar y Procesar Datos de Muestras (IDEAL y WNOMINATE) ---
 

@@ -246,7 +246,7 @@ parallel_bootstrap_wnom <- function(votaciones, votantes, N_votos, n_iter = 1000
 
 # -------------------- bootstrap
 
-votaciones_01_15 <-read.csv("scripts - files/votaciones_01_15.csv") # 147 votaciones
+votaciones_01_15 <-read.csv("ideological-scaling-files/votaciones_01_15.csv") # 147 votaciones
 votaciones_01_15 <- votaciones_01_15[votaciones_01_15[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_01_15[[1]]))
 votaciones_01_15 <- votaciones_01_15[,-1]
@@ -277,11 +277,11 @@ execution_time_parallel # 1.86 min M1 (200), 3.33 min M4 (1000)
 votantes_01_15_bootstrap <- ordenamiento_1D_WNOM_01_15_bootstrap$legislador[ordenamiento_1D_WNOM_01_15_bootstrap$iteracion == 1]
 
 write.csv(ordenamiento_1D_WNOM_01_15_bootstrap,
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_01_15_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -290,7 +290,7 @@ ordenamiento_1D_WNOM_01_15_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_16_21 <-read.csv("scripts - files/votaciones_16_21.csv") # 182 votaciones
+votaciones_16_21 <-read.csv("ideological-scaling-files/votaciones_16_21.csv") # 182 votaciones
 votaciones_16_21 <- votaciones_16_21[votaciones_16_21[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_16_21[[1]]))
 votaciones_16_21 <- votaciones_16_21[,-1]
@@ -323,11 +323,11 @@ votantes_16_21_bootstrap <- ordenamiento_1D_WNOM_16_21_bootstrap$legislador[orde
 votantes_01_15_bootstrap[!votantes_01_15_bootstrap %in% votantes_16_21_bootstrap] # Check
 
 write.csv(ordenamiento_1D_WNOM_16_21_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -336,7 +336,7 @@ ordenamiento_1D_WNOM_16_21_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_22_37 <-read.csv("scripts - files/votaciones_22_37.csv") # 598 votaciones
+votaciones_22_37 <-read.csv("ideological-scaling-files/votaciones_22_37.csv") # 598 votaciones
 votaciones_22_37 <- votaciones_22_37[votaciones_22_37[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_22_37[[1]]))
 votaciones_22_37 <- votaciones_22_37[,-1]
@@ -369,11 +369,11 @@ votantes_22_37_bootstrap <- ordenamiento_1D_WNOM_22_37_bootstrap$legislador[orde
 votantes_01_15_bootstrap[!votantes_01_15_bootstrap %in% votantes_22_37_bootstrap] # Check
 
 write.csv(ordenamiento_1D_WNOM_22_37_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -382,7 +382,7 @@ ordenamiento_1D_WNOM_22_37_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_38_46 <-read.csv("scripts - files/votaciones_38_46.csv") # 51 votaciones
+votaciones_38_46 <-read.csv("ideological-scaling-files/votaciones_38_46.csv") # 51 votaciones
 votaciones_38_46 <- votaciones_38_46[votaciones_38_46[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_38_46[[1]]))
 votaciones_38_46 <- votaciones_38_46[,-1]
@@ -411,11 +411,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 1.1 seg M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_38_46_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_38_46_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_38-46_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -424,7 +424,7 @@ ordenamiento_1D_WNOM_38_46_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_47_55 <-read.csv("scripts - files/votaciones_47_55.csv") # 64 votaciones
+votaciones_47_55 <-read.csv("ideological-scaling-files/votaciones_47_55.csv") # 64 votaciones
 votaciones_47_55 <- votaciones_47_55[votaciones_47_55[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_47_55[[1]]))
 votaciones_47_55 <- votaciones_47_55[,-1]
@@ -453,11 +453,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 53.7 sec M4 (1000) 
 
 write.csv(ordenamiento_1D_WNOM_47_55_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_47_55_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_47-55_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -466,7 +466,7 @@ ordenamiento_1D_WNOM_47_55_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_56_75 <-read.csv("scripts - files/votaciones_56_75.csv") # 899 votaciones
+votaciones_56_75 <-read.csv("ideological-scaling-files/votaciones_56_75.csv") # 899 votaciones
 votaciones_56_75 <- votaciones_56_75[votaciones_56_75[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_56_75[[1]]))
 votaciones_56_75 <- votaciones_56_75[,-1]
@@ -497,11 +497,11 @@ execution_time_parallel #  10.01 min CHPC (200), 19.37 min M4 (1000)
 print(execution_time_parallel)
 
 write.csv(ordenamiento_1D_WNOM_56_75_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_56_75_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -510,7 +510,7 @@ ordenamiento_1D_WNOM_56_75_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_76_99 <-read.csv("scripts - files/votaciones_76_99.csv") # 2182 votaciones
+votaciones_76_99 <-read.csv("ideological-scaling-files/votaciones_76_99.csv") # 2182 votaciones
 votaciones_76_99 <- votaciones_76_99[votaciones_76_99[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_76_99[[1]]))
 votaciones_76_99 <- votaciones_76_99[,-1]
@@ -541,11 +541,11 @@ execution_time_parallel # 28.61 min CHPC (200), 44.11 min M4 (1000)
 print(execution_time_parallel)
 
 write.csv(ordenamiento_1D_WNOM_76_99_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_76_99_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -554,7 +554,7 @@ ordenamiento_1D_WNOM_76_99_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_100_106 <-read.csv("scripts - files/votaciones_100_106.csv") # 514 votaciones
+votaciones_100_106 <-read.csv("ideological-scaling-files/votaciones_100_106.csv") # 514 votaciones
 votaciones_100_106 <- votaciones_100_106[votaciones_100_106[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_100_106[[1]]))
 votaciones_100_106 <- votaciones_100_106[,-1]
@@ -583,11 +583,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # 6.23 min CHPC (200), 9.56 min M4 (1000)
 
 write.csv(ordenamiento_1D_WNOM_100_106_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_100_106_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -596,7 +596,7 @@ ordenamiento_1D_WNOM_100_106_bootstrap <- read.csv(
 
 # -------------------- bootstrap
 
-votaciones_107_109 <-read.csv("scripts - files/votaciones_107_109.csv") # 72 votaciones
+votaciones_107_109 <-read.csv("ideological-scaling-files/votaciones_107_109.csv") # 72 votaciones
 votaciones_107_109 <- votaciones_107_109[votaciones_107_109[[1]] != "Rojas Vade, Rodrigo", ]
 # votantes <- normalizar_nombres(as.vector(votaciones_107_109[[1]]))
 votaciones_107_109 <- votaciones_107_109[,-1]
@@ -625,11 +625,11 @@ execution_time_parallel <- end_time - start_time
 execution_time_parallel # --- failed
 
 write.csv(ordenamiento_1D_WNOM_107_109_bootstrap, 
-          file = "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv", 
+          file = "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv", 
           row.names = FALSE)
 
 ordenamiento_1D_WNOM_107_109_bootstrap <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_107-109_bootstrap.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
@@ -650,7 +650,7 @@ archivos_csv_bootstrap <- c("ordenamiento_1D_WNOM_01-15_bootstrap.csv",
 
 # Función para leer y procesar cada archivo
 leer_csv_boot <- function(archivo_bootstrap) {
-  df <- read.csv(paste0("scripts - files/ordenamientos_pleno/", archivo_bootstrap), 
+  df <- read.csv(paste0("ideological-scaling-files/ordenamientos_pleno/", archivo_bootstrap), 
                  stringsAsFactors = FALSE, 
                  encoding = "UTF-8")
   df <- df[, 3] %>% data.frame()
@@ -689,42 +689,42 @@ orden_votantes_t <- ordenamientos_completos %>%
 # ----- Cargamos posición inicial del candidato 
 
 ordenamiento_1D_WNOM_01_15 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_01-15.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_01_15 <- ordenamiento_1D_WNOM_01_15[order(ordenamiento_1D_WNOM_01_15$nombre_votante), ]
 
 ordenamiento_1D_WNOM_16_21 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_16-21.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_16_21 <- ordenamiento_1D_WNOM_16_21[order(ordenamiento_1D_WNOM_16_21$nombre_votante), ]
 
 ordenamiento_1D_WNOM_22_37 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_22-37.csv",
   stringsAsFactors = FALSE,  # Preserve string formatting
   encoding = "UTF-8"         # Maintain special characters
 )
 ordenamiento_1D_WNOM_22_37 <- ordenamiento_1D_WNOM_22_37[order(ordenamiento_1D_WNOM_22_37$nombre_votante), ]
 
 ordenamiento_1D_WNOM_56_75 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_56-75.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
 ordenamiento_1D_WNOM_56_75 <- ordenamiento_1D_WNOM_56_75[order(ordenamiento_1D_WNOM_56_75$nombre_votante), ]
 
 ordenamiento_1D_WNOM_76_99 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
 ordenamiento_1D_WNOM_76_99 <- ordenamiento_1D_WNOM_76_99[order(ordenamiento_1D_WNOM_76_99$nombre_votante), ]
 
 ordenamiento_1D_WNOM_100_106 <- read.csv(
-  "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv",
+  "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_100-106.csv",
   stringsAsFactors = FALSE,  
   encoding = "UTF-8"         
 )
@@ -789,17 +789,17 @@ orden_votantes_t <- orden_votantes_t %>%
 
 
 # Guardamos
-write.csv(orden_votantes_t, "scripts - files/03_orden_votantes_t.csv", row.names = FALSE)
-saveRDS(orden_votantes_t, "scripts - files/03_orden_votantes_t.rds")
+write.csv(orden_votantes_t, "ideological-scaling-files/03_orden_votantes_t.csv", row.names = FALSE)
+saveRDS(orden_votantes_t, "ideological-scaling-files/03_orden_votantes_t.rds")
 
-orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
+orden_votantes_t <- readRDS("ideological-scaling-files/03_orden_votantes_t.rds")
 
 #------------------------------------------------------------------------------
 # Grafica de comparación entre dos bloques de sesiones
 #------------------------------------------------------------------------------
 
 # # Cargamos datos
-# orden_votantes_t <- read_csv("scripts - files/03_orden_votantes_t.csv")
+# orden_votantes_t <- read_csv("ideological-scaling-files/03_orden_votantes_t.csv")
 # 
 # # Objeto con toda la información para plot
 # orden_votantes_t_procesado <- orden_votantes_t %>%
@@ -929,4 +929,4 @@ orden_votantes_t <- readRDS("scripts - files/03_orden_votantes_t.rds")
 # print(plot_combinado)
 # 
 # # --- Guardamos el plot combinado ---
-# ggsave("scripts - plots/cambio_posiciones_pleno_1.png", plot_combinado, width = 16, height = 10, units = "in", dpi = 600)
+# ggsave("ideological-scaling-plots/cambio_posiciones_pleno_1.png", plot_combinado, width = 16, height = 10, units = "in", dpi = 600)

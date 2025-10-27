@@ -9,9 +9,9 @@ library(viridis) # For better color palettes
 
 # --- 1. Load and Prepare Data -------------------------------------------------
 tryCatch({
-  orden_votantes_t_raw <- readRDS("scripts - files/03_orden_votantes_t.rds")
+  orden_votantes_t_raw <- readRDS("ideological-scaling-files/03_orden_votantes_t.rds")
 }, error = function(e) {
-  stop("Error loading scripts - files/03_orden_votantes_t.rds. Make sure the file exists. Original error: ", e$message)
+  stop("Error loading ideological-scaling-files/03_orden_votantes_t.rds. Make sure the file exists. Original error: ", e$message)
 })
 
 # --- Data Preparation Logic ---

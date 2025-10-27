@@ -264,7 +264,7 @@ print(
 # --- 7. Guardar objetos para usar en Python ---
 cat("\n--- Guardando objetos para análisis en Python ---\n")
 
-saveRDS(oraciones_borrador_df, file = "scripts - files/analizar_procedencia_borrador/oraciones_borrador_df.rds")
-saveRDS(oraciones_iniciativas_df, file = "scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.rds")
-readr::write_csv(oraciones_iniciativas_df, "scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv")
-saveRDS(top_10_matches, file = "scripts - files/analizar_procedencia_borrador/top10_tfidf_matches.rds")
+saveRDS(oraciones_borrador_df, file = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_borrador_df.rds")
+saveRDS(oraciones_iniciativas_df, file = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.rds")
+readr::write_csv(oraciones_iniciativas_df, "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv")
+saveRDS(top_10_matches, file = "ideological-scaling-files/analizar_procedencia_borrador/top10_tfidf_matches.rds")

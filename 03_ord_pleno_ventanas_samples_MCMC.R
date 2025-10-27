@@ -363,15 +363,15 @@ run_ideal_estimation_combined <- function(votaciones, votantes, dataset_name,
 # Define the datasets to process
 # Updated output suffixes to reflect the two types of files
 datasets_info <- list(
-  list(name = "01_15", file = "scripts - files/votaciones_01_15.csv", output_suffix = "01-15"),
-  list(name = "16_21", file = "scripts - files/votaciones_16_21.csv", output_suffix = "16-21"),
-  list(name = "22_37", file = "scripts - files/votaciones_22_37.csv", output_suffix = "22-37"),
-  list(name = "38_46", file = "scripts - files/votaciones_38_46.csv", output_suffix = "38-46"),
-  list(name = "47_55", file = "scripts - files/votaciones_47_55.csv", output_suffix = "47-55"),
-  list(name = "56_75", file = "scripts - files/votaciones_56_75.csv", output_suffix = "56-75"),
-  list(name = "76_99", file = "scripts - files/votaciones_76_99.csv", output_suffix = "76-99"),
-  list(name = "100_106", file = "scripts - files/votaciones_100_106.csv", output_suffix = "100-106"),
-  list(name = "107_109", file = "scripts - files/votaciones_107_109.csv", output_suffix = "107-109")
+  list(name = "01_15", file = "ideological-scaling-files/votaciones_01_15.csv", output_suffix = "01-15"),
+  list(name = "16_21", file = "ideological-scaling-files/votaciones_16_21.csv", output_suffix = "16-21"),
+  list(name = "22_37", file = "ideological-scaling-files/votaciones_22_37.csv", output_suffix = "22-37"),
+  list(name = "38_46", file = "ideological-scaling-files/votaciones_38_46.csv", output_suffix = "38-46"),
+  list(name = "47_55", file = "ideological-scaling-files/votaciones_47_55.csv", output_suffix = "47-55"),
+  list(name = "56_75", file = "ideological-scaling-files/votaciones_56_75.csv", output_suffix = "56-75"),
+  list(name = "76_99", file = "ideological-scaling-files/votaciones_76_99.csv", output_suffix = "76-99"),
+  list(name = "100_106", file = "ideological-scaling-files/votaciones_100_106.csv", output_suffix = "100-106"),
+  list(name = "107_109", file = "ideological-scaling-files/votaciones_107_109.csv", output_suffix = "107-109")
 )
 
 # --- PARALLEL RUNNING ---------------------------------------
@@ -452,12 +452,12 @@ processed_datasets <- foreach(ds_info = datasets_info, .packages = c("data.table
     if (is.list(estimation_output) && all(c("samples", "means") %in% names(estimation_output))) {
       # Save files directly in worker
       if (!is.null(estimation_output$samples) && nrow(estimation_output$samples) > 0) {
-        output_filename_samples <- paste0("scripts - files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, "_samples.csv")
+        output_filename_samples <- paste0("ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, "_samples.csv")
         data.table::fwrite(estimation_output$samples, file = output_filename_samples, row.names = FALSE)
       }
       
       if (!is.null(estimation_output$means) && nrow(estimation_output$means) > 0) {
-        output_filename_means <- paste0("scripts - files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, ".csv")
+        output_filename_means <- paste0("ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_MCMC_", ds_info$output_suffix, ".csv")
         data.table::fwrite(estimation_output$means, file = output_filename_means, row.names = FALSE)
       }
       

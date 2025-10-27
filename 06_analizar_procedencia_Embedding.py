@@ -6,9 +6,9 @@ import pyreadr
 from tqdm import tqdm
 
 # --- 1. Cargar datos de R ---
-borrador_df = pyreadr.read_r('scripts - files/analizar_procedencia_borrador/oraciones_borrador_df.rds')[None]
-iniciativas_df = pyreadr.read_r('scripts - files/analizar_procedencia_borrador/oraciones_iniciativas_df.rds')[None]
-top10_tfidf = pyreadr.read_r('scripts - files/analizar_procedencia_borrador/top10_tfidf_matches.rds')[None]
+borrador_df = pyreadr.read_r('ideological-scaling-files/analizar_procedencia_borrador/oraciones_borrador_df.rds')[None]
+iniciativas_df = pyreadr.read_r('ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.rds')[None]
+top10_tfidf = pyreadr.read_r('ideological-scaling-files/analizar_procedencia_borrador/top10_tfidf_matches.rds')[None]
 
 # Aseguramos que estén en el mismo orden de indexación que en R
 borrador_texts = borrador_df['oracion_limpia'].tolist()
@@ -78,4 +78,4 @@ print(pct_match_by_rank)
 print(f"\nCorrelación de similitud (rank 1): {rank1_corr:.4f}")
 
 # --- 5. Guardar resultados ---
-comparison_df.to_csv("scripts - files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv", index=False)
+comparison_df.to_csv("ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv", index=False)

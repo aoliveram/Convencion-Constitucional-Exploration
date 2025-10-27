@@ -14,7 +14,7 @@ library(cowplot) # Para extraer la leyenda (get_legend)
 # --- Configuración Global ---
 # Asegúrate de que estos directorios existan o créalos
 BASE_JSON_DIR <- "patrocinantes_identificacion/"
-BASE_PLOT_DIR <- "scripts - plots/"
+BASE_PLOT_DIR <- "ideological-scaling-plots/"
 if (!dir.exists(BASE_PLOT_DIR)) dir.create(BASE_PLOT_DIR, recursive = TRUE)
 
 

@@ -5,7 +5,7 @@
 library(data.table)
 
 # 1. Resultados del test de Wilcoxon
-file_path <- "scripts - files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE.rds"
+file_path <- "ideological-scaling-files/03_comparacion_non-parametric_MCMC_vs_WNOMINATE.rds"
 if (!file.exists(file_path)) stop("Archivo de resultados no paramétricos no encontrado.")
 comparison_data <- readRDS(file_path)
 setDT(comparison_data)
@@ -86,7 +86,7 @@ heatmap_plot <- ggplot(
 
 print(heatmap_plot)
 
-# ggsave("scripts - plots/equivalencia_MCMC_vs_WNOM_tost_heatmap.png", plot = heatmap_plot, width = 10, height = 16, dpi = 300)
+# ggsave("ideological-scaling-plots/equivalencia_MCMC_vs_WNOM_tost_heatmap.png", plot = heatmap_plot, width = 10, height = 16, dpi = 300)
 
 
 # ------------------------------------------------------------------------------
@@ -108,7 +108,7 @@ normalizar_nombres <- function(texto) {
   return(trimws(texto_limpio))
 }
 
-base_path <- "scripts - files/ordenamientos_pleno"
+base_path <- "ideological-scaling-files/ordenamientos_pleno"
 periods <- c("01-15", "16-21", "22-37", "56-75", "76-99", "100-106")
 # delta_rank <- 8  (Mismo delta_rank de TOST)
 rope_probability_threshold <- 0.95 # Umbral para declarar equivalencia

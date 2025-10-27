@@ -11,7 +11,7 @@ library(gridExtra)
 # --- 1. Cargar los Datos ---
 
 # Cargar el JSON final con el análisis de procedencia
-ANALISIS_JSON_PATH <- "scripts - files/analisis_procedencia_oracion-patrocinante.json"
+ANALISIS_JSON_PATH <- "ideological-scaling-files/analisis_procedencia_oracion-patrocinante.json"
 if (!file.exists(ANALISIS_JSON_PATH)) {
   stop("El archivo JSON no fue encontrado. Asegúrate de que esté en el directorio correcto.")
 }
@@ -90,10 +90,10 @@ coaliciones_convencionales <- coaliciones_convencionales %>%
     TRUE ~ coalicion
   ))
 
-saveRDS(coaliciones_convencionales, "scripts - files/coaliciones_convencionales.rds")
+saveRDS(coaliciones_convencionales, "ideological-scaling-files/coaliciones_convencionales.rds")
 
 # Cargar los datos de ordenamiento
-ORDENAMIENTO_CSV_PATH <- "scripts - files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv"
+ORDENAMIENTO_CSV_PATH <- "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv"
 if (!file.exists(ORDENAMIENTO_CSV_PATH)) {
   stop(paste0("El archivo '", ORDENAMIENTO_CSV_PATH, "' no fue encontrado."))
 }
@@ -329,14 +329,14 @@ plot_aportes_ordenado <- ggplot(datos_plot, aes(x = convencional, y = oraciones_
 
 plot_aportes_ordenado
 
-ggsave("scripts - plots/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
+ggsave("ideological-scaling-plots/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
 
 # --- 5. Bump chart: posición ideológica promedio por coalición ---
 
 # Cargar el ordenamiento por ventanas para todos los convencionales
-ORDEN_T_PATH_RDS <- "scripts - files/03_orden_votantes_t.rds"
+ORDEN_T_PATH_RDS <- "ideological-scaling-files/03_orden_votantes_t.rds"
 if (!file.exists(ORDEN_T_PATH_RDS)) {
-  stop("No se encontró '03_orden_votantes_t.rds' en 'scripts - files/'.")
+  stop("No se encontró '03_orden_votantes_t.rds' en 'ideological-scaling-files/'.")
 }
 orden_t_df <- readRDS(ORDEN_T_PATH_RDS)
 
@@ -471,4 +471,4 @@ combinado <- cowplot::plot_grid(bump_coaliciones, tabla_derecha, ncol = 2, rel_w
 # Mostrar y guardar solo el combinado (sin diccionario)
 show(combinado)
 
-ggsave("scripts - plots/bump_chart_coaliciones.pdf", plot = combinado, width = 12, height = 10.2, dpi = 300)
+ggsave("ideological-scaling-plots/bump_chart_coaliciones.pdf", plot = combinado, width = 12, height = 10.2, dpi = 300)
