@@ -1,3 +1,8 @@
+# Creates 
+# oraciones_borrador_df.rds
+# oraciones_iniciativas_df.rds
+# top10_tfidf_matches.rds
+
 library(jsonlite)
 library(purrr)
 library(dplyr)

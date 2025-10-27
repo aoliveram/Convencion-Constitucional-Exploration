@@ -333,7 +333,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("ideological-scaling-plots/score_contenido_base.pdf", bbox_inches="tight")
+plt.savefig("ideological-scaling-plots/RCP_vs_Embedding_score.pdf", bbox_inches="tight")
 plt.show()
 
 plt.figure()
@@ -343,7 +343,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("ideological-scaling-plots/score_contenido_p75.pdf", bbox_inches="tight")
+plt.savefig("ideological-scaling-plots/RCP_vs_Embedding_score_p75.pdf", bbox_inches="tight")
 plt.show()
 
 # -------------------------------

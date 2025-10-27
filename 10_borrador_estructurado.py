@@ -1,4 +1,6 @@
-# Genera 'patrocinantes_identificacion/borrador_constitucional_estructurado.csv'
+# Creates 
+# borrador_constitucional_estructurado.csv
+
 import pdfplumber
 import pandas as pd
 import re

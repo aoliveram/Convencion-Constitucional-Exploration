@@ -1,4 +1,7 @@
-# construye borrador_anotado.tex, a partir de borrador_constitucional_estructurado.json, oraciones_iniciativas_df.csv, comparacion_tfidf_embeddings.csv
+# Creates 
+# borrador_anotado.tex 
+# From 
+# borrador_constitucional_estructurado.json, oraciones_iniciativas_df.csv, comparacion_tfidf_embeddings.csv
 
 import pandas as pd
 import json
