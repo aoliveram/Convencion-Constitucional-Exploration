@@ -1,3 +1,7 @@
+# Creates 
+# n_colaboracion_por_convencional.pdf
+# n_colaboracion_por_convencional_izq-der.pdf
+
 # --- ANÁLISIS DE COLABORADORES ÚNICOS POR CONVENCIONAL ---
 
 library(jsonlite)
