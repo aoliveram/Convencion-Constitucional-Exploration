@@ -20,8 +20,8 @@ Thumbs.db
 *.feather
 
 # Carpetas específicas para ignorar
-documentos - papers/
-scripts - playground/
-patrocinantes_identificacion/iniciativas_normas
-old scripts/
-rcp_convencion/votos_convencion
+A-documentos-papers/
+playground/
+co-sponsorship-analysis/iniciativas_normas
+B-old scripts/
+B-rcp_convencion/votos_convencion
