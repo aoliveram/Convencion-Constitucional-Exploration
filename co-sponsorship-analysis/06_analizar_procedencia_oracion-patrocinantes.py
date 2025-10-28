@@ -1,3 +1,6 @@
+# Creates
+# analisis_procedencia_oracion-patrocinante.json
+
 import pandas as pd
 import json
 import re
@@ -19,7 +22,7 @@ INICIATIVAS_METADATA_FOLDER = BASE_FOLDER
 INICIATIVAS_METADATA_PATTERN = r"api_extracted_.*_corrected_4\.json$"
 
 # Ruta del archivo de salida JSON
-OUTPUT_JSON_PATH = "ideological-scaling-files/analisis_procedencia_final.json"
+OUTPUT_JSON_PATH = "ideological-scaling-files/analisis_procedencia_oracion-patrocinante.json"
 
 # --- 2. Carga y Preparación de Datos ---
 
