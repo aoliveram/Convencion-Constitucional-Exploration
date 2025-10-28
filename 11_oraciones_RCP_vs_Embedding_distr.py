@@ -1,4 +1,6 @@
-# 06_oraciones_RCP_vs_Embedding_distr.py
+# Creates:
+# RCP_vs_Embedding_score.pdf
+# RCP_vs_Embedding_score_P75.pdf
 # - Hist A: distribución de score_contenido (solo top-1 Embedding)
 # - Hist B: distribución de score_contenido (top-1 + top-2 si delta Embedding está en el 25% más bajo)
 # Mantiene mismo rango/bins para comparabilidad.
