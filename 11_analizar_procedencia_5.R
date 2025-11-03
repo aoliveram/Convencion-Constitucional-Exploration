@@ -422,7 +422,7 @@ promedios_coal_periodo <- promedios_coal_periodo %>%
   ) %>%
   dplyr::arrange(Periodo)
 
-RIBBON_SD_MULT <- 0.15  # puedes bajar a 0.10 si aún hay mucho solapamiento
+RIBBON_SD_MULT <- 0.50  # solapamiento barras
 
 # Bump chart de posición promedio por coalición con banda de desviación estándar (±k·DE)
 bump_coaliciones <- ggplot(promedios_coal_periodo,
