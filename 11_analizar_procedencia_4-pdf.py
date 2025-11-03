@@ -2,6 +2,7 @@
 # borrador_anotado.tex 
 # From 
 # borrador_constitucional_estructurado.json, 11-TFIDF-sentences_iniciativas.csv, 11-TFIDF-vs-Emb.csv
+# It doesn't use 11-analisis_procedencia_oracion-patrocinante.json
 
 import pandas as pd
 import json
@@ -9,10 +10,10 @@ import re
 
 # --- 1. Rutas a datos estructurados y comparaciones ---
 BORRADOR_JSON_PATH = "co-sponsorship-analysis/borrador_constitucional_estructurado.json"
-INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv"
-COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv"
+COMPARACION_CSV_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
 
-OUTPUT_LATEX_PATH = "ideological-scaling-files/analizar_procedencia_borrador/borrador_anotado.tex"
+OUTPUT_LATEX_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-borrador_anotado.tex"
 
 
 # --- 2. Función para Escapar Caracteres de LaTeX ---
@@ -55,11 +56,11 @@ df_oraciones_borrador['id_oracion_borrador'] = df_oraciones_borrador.index + 1
 # --- 4. Unir los DataFrames para obtener la información completa ---
 
 # Filtrar solo las 2 mejores coincidencias de embeddings
-df_top2_emb = df_comparacion[df_comparacion['rank'].isin([1, 2])].copy()
+df_top_emb = df_comparacion[df_comparacion['rank'] <= 3].copy()
 
 # Uniendo con el texto de las oraciones del borrador (Los IDs deben coincidir)
 merged_df = pd.merge(
-    df_top2_emb,
+    df_top_emb,
     df_oraciones_borrador[['id_oracion_borrador', 'id_articulo_borrador', 'oracion']],
     on='id_oracion_borrador',
     how='left'
