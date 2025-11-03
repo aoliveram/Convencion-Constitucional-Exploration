@@ -20,7 +20,7 @@ from typing import Dict, Set, List, Tuple
 # -------------------------------
 BORRADOR_JSON_PATH = "co-sponsorship-analysis/borrador_constitucional_estructurado.json"
 COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
-INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-sentences_iniciativas.csv"
 API_DIR_GLOB = "co-sponsorship-analysis/api_extracted_*_corrected_4.json"
 
 PROF_XLSX_PATH = "rcp_convencion/autores_indicaciones_aprobadas.xlsx"

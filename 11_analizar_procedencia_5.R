@@ -92,7 +92,7 @@ coaliciones_convencionales <- coaliciones_convencionales %>%
     TRUE ~ coalicion
   ))
 
-# saveRDS(coaliciones_convencionales, "co-sponsorship-analysis/analizar_procedencia_borrador/coaliciones_convencionales.rds")
+# saveRDS(coaliciones_convencionales, "co-sponsorship-analysis/coaliciones_convencionales.rds")
 
 # Cargar los datos de ordenamiento
 ORDENAMIENTO_CSV_PATH <- "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv"

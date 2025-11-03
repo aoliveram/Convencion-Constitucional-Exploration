@@ -9,8 +9,8 @@ import pyreadr
 from tqdm import tqdm
 
 # --- 1. Cargar datos de R ---
-borrador_df = pyreadr.read_r('co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_borrador.rds')[None]
-iniciativas_df = pyreadr.read_r('co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.rds')[None]
+borrador_df = pyreadr.read_r('co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_borrador.rds')[None]
+iniciativas_df = pyreadr.read_r('co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_iniciativas.rds')[None]
 top10_tfidf = pyreadr.read_r('co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-top10_matches.rds')[None]
 
 # Aseguramos que estén en el mismo orden de indexación que en R

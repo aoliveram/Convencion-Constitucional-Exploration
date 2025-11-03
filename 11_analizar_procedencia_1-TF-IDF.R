@@ -1,6 +1,6 @@
 # Creates 
-# 11-TFIDF-sentences_borrador.rds
-# 11-TFIDF-sentences_iniciativas.rds
+# 11-sentences_borrador.rds
+# 11-sentences_iniciativas.rds
 # 11-TFIDF-top10_matches.rds
 
 library(jsonlite)
@@ -269,8 +269,8 @@ print(
 # --- 7. Guardar objetos para usar en Python ---
 cat("\n--- Guardando objetos para análisis en Python ---\n")
 
-saveRDS(oraciones_borrador_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_borrador.rds")
-saveRDS(oraciones_iniciativas_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.rds")
-readr::write_csv(oraciones_iniciativas_df, "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv")
+saveRDS(oraciones_borrador_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_borrador.rds")
+saveRDS(oraciones_iniciativas_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_iniciativas.rds")
+readr::write_csv(oraciones_iniciativas_df, "co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_iniciativas.csv")
 saveRDS(top_10_matches, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-top10_matches.rds")
 readr::write_csv(top_10_matches, "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-top10_matches.csv")
