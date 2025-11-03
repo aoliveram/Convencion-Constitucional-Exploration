@@ -53,7 +53,7 @@ LISTA_OFICIAL_NOMBRES = [
 ]
 LISTA_OFICIAL_SET = set(LISTA_OFICIAL_NOMBRES)
 
-BASE_FOLDER = "patrocinantes_identificacion"
+BASE_FOLDER = "co-sponsorship-analysis"
 INPUT_FOLDER = os.path.join(BASE_FOLDER)
 OUTPUT_FOLDER = os.path.join(BASE_FOLDER)
 PROMPT_FILE = os.path.join(BASE_FOLDER, "prompt_matching.txt")

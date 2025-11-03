@@ -8,7 +8,7 @@ import os
 
 # --- Configuración ---
 PDF_FILENAME = "PROPUESTA-DE-BORRADOR-CONSTITUCIONAL-14-05-22.pdf"
-PDF_FOLDER = "patrocinantes_identificacion"
+PDF_FOLDER = "co-sponsorship-analysis"
 OUTPUT_CSV_FILENAME = "borrador_constitucional_estructurado.csv"
 
 BORRADOR_PDF_PATH = os.path.join(PDF_FOLDER, PDF_FILENAME)

@@ -10,7 +10,7 @@ library(purrr)
 library(ggplot2)
 
 # --- 1. Datos ---
-data_folder <- "patrocinantes_identificacion"
+data_folder <- "co-sponsorship-analysis"
 json_files <- list.files(path = data_folder,
                          pattern = "api_extracted_\\d+_\\d+_corrected_3\\.json$",
                          full.names = TRUE)

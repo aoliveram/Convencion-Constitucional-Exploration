@@ -9,20 +9,20 @@ from tqdm import tqdm # barra de progreso
 
 # --- 1. Configuración de Archivos ---
 
-BASE_FOLDER = "patrocinantes_identificacion"
-ANALYSIS_FOLDER = "ideological-scaling-files/analizar_procedencia_borrador"
+BASE_FOLDER = "co-sponsorship-analysis"
+ANALYSIS_FOLDER = "co-sponsorship-analysis/analizar_procedencia_borrador"
 
 # Rutas de los archivos de entrada
 BORRADOR_JSON_PATH = os.path.join(BASE_FOLDER, "borrador_constitucional_estructurado.json")
 COMPARACION_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "11-TFIDF-vs-Emb.csv")
-INICIATIVAS_ORACIONES_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "oraciones_iniciativas_df.csv")
+INICIATIVAS_ORACIONES_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "11-TFIDF-sentences_iniciativas.csv")
 
 # Carpeta que contiene los JSON originales con metadatos de firmantes
 INICIATIVAS_METADATA_FOLDER = BASE_FOLDER
 INICIATIVAS_METADATA_PATTERN = r"api_extracted_.*_corrected_4\.json$"
 
 # Ruta del archivo de salida JSON
-OUTPUT_JSON_PATH = "ideological-scaling-files/analisis_procedencia_oracion-patrocinante.json"
+OUTPUT_JSON_PATH = "co-sponsorship-analysis/analisis_procedencia_oracion-patrocinante.json"
 
 # --- 2. Carga y Preparación de Datos ---
 

@@ -18,10 +18,10 @@ from typing import Dict, Set, List, Tuple
 # -------------------------------
 # RUTAS (ajústalas si difieren)
 # -------------------------------
-BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
+BORRADOR_JSON_PATH = "co-sponsorship-analysis/borrador_constitucional_estructurado.json"
 COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
-INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
-API_DIR_GLOB = "patrocinantes_identificacion/api_extracted_*_corrected_4.json"
+INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv"
+API_DIR_GLOB = "co-sponsorship-analysis/api_extracted_*_corrected_4.json"
 
 PROF_XLSX_PATH = "rcp_convencion/autores_indicaciones_aprobadas.xlsx"
 PROF_SHEET = "Hoja3"

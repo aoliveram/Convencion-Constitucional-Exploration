@@ -8,8 +8,8 @@ from collections import deque
 import sys
 
 # --- 1. Configuración ---
-INPUT_FOLDER = "patrocinantes_identificacion/"
-OUTPUT_FOLDER = "patrocinantes_identificacion/"
+INPUT_FOLDER = "co-sponsorship-analysis/"
+OUTPUT_FOLDER = "co-sponsorship-analysis/"
 PROMPT_FILE = os.path.join(INPUT_FOLDER, "prompt_cleaning.txt")
 INPUT_FILE_PATTERN = "api_extracted_*_corrected_3.json"
 OUTPUT_FILE_SUFFIX = "corrected_4.json"

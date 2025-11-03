@@ -7,10 +7,10 @@ from collections import deque
 import sys
 
 # --- 1. Configuración ---
-PDF_FOLDER = "patrocinantes_identificacion/iniciativas_normas" # Carpeta de los archivos de entrada
+PDF_FOLDER = "co-sponsorship-analysis/iniciativas_normas" # Carpeta de los archivos de entrada
 # BASE para los nombres de archivo de salida por rango (ahora incluye la ruta de destino)
-OUTPUT_PATH_BASE = "patrocinantes_identificacion/api_extracted" # Correcto: destino fuera de la carpeta de PDFs
-PROMPT_FILE = "patrocinantes_identificacion/prompt.txt" # Archivo que contiene el prompt
+OUTPUT_PATH_BASE = "co-sponsorship-analysis/api_extracted" # Correcto: destino fuera de la carpeta de PDFs
+PROMPT_FILE = "co-sponsorship-analysis/prompt.txt" # Archivo que contiene el prompt
 
 MAX_REQUESTS_PER_MINUTE = 15
 SECONDS_WINDOW = 60

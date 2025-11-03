@@ -10,9 +10,9 @@ import glob
 
 # --- 1. Configuración ---
 # Rutas relativas a la carpeta donde se ejecuta el script
-PDF_FOLDER = "patrocinantes_identificacion/iniciativas_normas"
-JSON_FOLDER = "patrocinantes_identificacion"
-PROMPT_FILE = "patrocinantes_identificacion/prompt_augmentation.txt" # <<-- NUEVO PROMPT
+PDF_FOLDER = "co-sponsorship-analysis/iniciativas_normas"
+JSON_FOLDER = "co-sponsorship-analysis"
+PROMPT_FILE = "co-sponsorship-analysis/prompt_augmentation.txt" # <<-- NUEVO PROMPT
 
 # Sufijos para los archivos JSON de entrada y salida
 INPUT_SUFFIX = "_corrected_2.json"
