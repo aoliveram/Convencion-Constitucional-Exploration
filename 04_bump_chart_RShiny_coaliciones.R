@@ -11,7 +11,7 @@ suppressPackageStartupMessages({
 
 # Rutas por defecto (ajusta si las cambias)
 ORDEN_T_PATH_RDS <- "ideological-scaling-files/03_orden_votantes_t.rds"
-COAL_RDS_PATH    <- "ideological-scaling-files/coaliciones_convencionales.rds"
+COAL_RDS_PATH    <- "co-sponsorship-analysis/coaliciones_convencionales.rds"
 
 # Abreviaciones y paleta (claves = abreviaciones)
 abbr_map <- c(
