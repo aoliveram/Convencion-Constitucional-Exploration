@@ -13,7 +13,7 @@ library(gridExtra)
 # --- 1. Cargar los Datos ---
 
 # Cargar el JSON final con el análisis de procedencia
-ANALISIS_JSON_PATH <- "co-sponsorship-analysis/analisis_procedencia_oracion-patrocinante.json"
+ANALISIS_JSON_PATH <- "co-sponsorship-analysis/analizar_procedencia_borrador/11-analisis_procedencia_oracion-patrocinante.json"
 if (!file.exists(ANALISIS_JSON_PATH)) {
   stop("El archivo JSON no fue encontrado.")
 }
@@ -92,7 +92,7 @@ coaliciones_convencionales <- coaliciones_convencionales %>%
     TRUE ~ coalicion
   ))
 
-saveRDS(coaliciones_convencionales, "ideological-scaling-files/coaliciones_convencionales.rds")
+# saveRDS(coaliciones_convencionales, "co-sponsorship-analysis/analizar_procedencia_borrador/coaliciones_convencionales.rds")
 
 # Cargar los datos de ordenamiento
 ORDENAMIENTO_CSV_PATH <- "ideological-scaling-files/ordenamientos_pleno/ordenamiento_1D_WNOM_76-99.csv"
@@ -331,7 +331,12 @@ plot_aportes_ordenado <- ggplot(datos_plot, aes(x = convencional, y = oraciones_
 
 plot_aportes_ordenado
 
-ggsave("co-sponsorship-analysis/aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
+ggsave("co-sponsorship-analysis/analizar_procedencia_borrador/11-aportes_por_convencional.pdf", plot = plot_aportes_ordenado, width = 16, height = 9, dpi = 300)
+
+
+# =======================================
+# Aprovechamos para hacer un Bump Chart 
+# =======================================
 
 # --- 5. Bump chart: posición ideológica promedio por coalición ---
 
@@ -467,8 +472,6 @@ tabla_derecha <- ggplot(etiquetas, aes(x = 0, y = reorder(coal_abbr, posicion_me
 
 # Combinar gráfico principal + tabla a la derecha
 combinado <- cowplot::plot_grid(bump_coaliciones, tabla_derecha, ncol = 2, rel_widths = c(4, 1.4))
-
-
 
 # Mostrar y guardar solo el combinado (sin diccionario)
 show(combinado)
