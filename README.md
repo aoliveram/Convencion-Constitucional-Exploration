@@ -19,10 +19,10 @@ Para la estimación de ordenamiento se utilizó W-Nominate, dejando como ancla a
 
 La siguiente imagen muestra los p-value para cada convencional según el conjunto de sesiones de referencia y de comparación. Por ejemplo, en 01-15 vs 16-21, se están comparando las votaciones dentro de las primeras 15 sesiones del pleno con las votaciones de las sesiones 16-21 del pleno. Se añaden los nombres de los convencionales que No han cambiado su posición significativamente. De esta forma, podemos ver que entre las primeras sesiones (01-15) y las tardías (76-99), todos los convencionales -salvo uno- se han desplazado de su valor numérico de posición original.
 
-![image alt](https://github.com/aoliveram/Convencion-Constitucional-Exploration/blob/main/scripts%20-%20plots/matriz_comparaciones_sesiones_5.png)
+![image alt](https://github.com/aoliveram/Convencion-Constitucional-Exploration/blob/main/ideological-scaling-plots/matriz_comparaciones_sesiones_4.jpeg)
 
 Si aislamos las comparaciones entre las primeras sesiones (01-15 vs 16-21) y entre las primeras y las últimas (01-15 vs 76-99), vemos que entre las primeras sesiones hay baja dinámica del ordenamiento, péro una alta dinámica de las últimas sesiones en comparación a las primeras. En el siguiente plot, se muetran las posiciones políticas (la izquierda con valores <0, la derecha con valores >0) para ambas comparaciones. Los círculos blancos indican que existe un cambio estadíticamente significativo en su posición, y los triángulos azules indican una ausencia de significancia estadística. Como vemos, en las primeras sesiones hay varios convencionales que no han cambiado su posición, pero las posiciones son todas significativamente distintas (menos uno). 
 
-![image alt](https://github.com/aoliveram/Convencion-Constitucional-Exploration/blob/main/scripts%20-%20plots/cambio_posiciones_pleno_1.png)
+![image alt](https://github.com/aoliveram/Convencion-Constitucional-Exploration/blob/main/ideological-scaling-plots/cambio_posiciones_pleno_1.png)
 
 Las flechas indican la dirección del cambio. Resulta sorprendente evidenciar que, comparando las últimas sesiones con las primeras, practicamente todos se movieron más a la derecha. Este cambio es más fuerte entre convencionales de centro-izquierda; y algunos de derecha mostraron una postura más flexible en las últimas sesiones.
