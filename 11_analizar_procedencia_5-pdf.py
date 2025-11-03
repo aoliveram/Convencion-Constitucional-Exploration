@@ -1,7 +1,7 @@
 # Creates 
 # borrador_anotado.tex 
 # From 
-# borrador_constitucional_estructurado.json, oraciones_iniciativas_df.csv, comparacion_tfidf_embeddings.csv
+# borrador_constitucional_estructurado.json, oraciones_iniciativas_df.csv, 11-TFIDF-vs-Emb.csv
 
 import pandas as pd
 import json
@@ -10,7 +10,7 @@ import re
 # --- 1. Rutas a datos estructurados y comparaciones ---
 BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
 INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
-COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
+COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
 
 OUTPUT_LATEX_PATH = "ideological-scaling-files/analizar_procedencia_borrador/borrador_anotado.tex"
 

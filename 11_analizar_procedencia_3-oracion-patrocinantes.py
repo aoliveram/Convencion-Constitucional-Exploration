@@ -14,7 +14,7 @@ ANALYSIS_FOLDER = "ideological-scaling-files/analizar_procedencia_borrador"
 
 # Rutas de los archivos de entrada
 BORRADOR_JSON_PATH = os.path.join(BASE_FOLDER, "borrador_constitucional_estructurado.json")
-COMPARACION_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "comparacion_tfidf_embeddings.csv")
+COMPARACION_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "11-TFIDF-vs-Emb.csv")
 INICIATIVAS_ORACIONES_CSV_PATH = os.path.join(ANALYSIS_FOLDER, "oraciones_iniciativas_df.csv")
 
 # Carpeta que contiene los JSON originales con metadatos de firmantes

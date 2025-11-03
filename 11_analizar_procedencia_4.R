@@ -13,9 +13,9 @@ library(gridExtra)
 # --- 1. Cargar los Datos ---
 
 # Cargar el JSON final con el análisis de procedencia
-ANALISIS_JSON_PATH <- "ideological-scaling-files/analisis_procedencia_oracion-patrocinante.json"
+ANALISIS_JSON_PATH <- "co-sponsorship-analysis/analisis_procedencia_oracion-patrocinante.json"
 if (!file.exists(ANALISIS_JSON_PATH)) {
-  stop("El archivo JSON no fue encontrado. Asegúrate de que esté en el directorio correcto.")
+  stop("El archivo JSON no fue encontrado.")
 }
 analisis_df <- fromJSON(ANALISIS_JSON_PATH, flatten = TRUE) %>% as_tibble()
 

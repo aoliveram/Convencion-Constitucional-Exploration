@@ -19,7 +19,7 @@ from typing import Dict, Set, List, Tuple
 # RUTAS (ajústalas si difieren)
 # -------------------------------
 BORRADOR_JSON_PATH = "patrocinantes_identificacion/borrador_constitucional_estructurado.json"
-COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/comparacion_tfidf_embeddings.csv"
+COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
 INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv"
 API_DIR_GLOB = "patrocinantes_identificacion/api_extracted_*_corrected_4.json"
 
@@ -89,7 +89,7 @@ need_cols = [
 ]
 missing = [c for c in need_cols if c not in df_comp.columns]
 if missing:
-    raise RuntimeError(f"Faltan columnas en comparacion_tfidf_embeddings.csv: {missing}")
+    raise RuntimeError(f"Faltan columnas en 11-TFIDF-vs-Emb.csv: {missing}")
 
 df_e = df_comp[need_cols].dropna(subset=['id_oracion_borrador','rank','id_oracion_iniciativa_match_emb','similitud_emb']).copy()
 
