@@ -30,10 +30,12 @@ Si aislamos las comparaciones entre las primeras sesiones (01-15 vs 16-21) y ent
 
 Las flechas indican la dirección del cambio:
 
-Flechas azules --\> posición movida a la derecha. Flechas rojas --\> posición movida a la izquierda.
+Flechas azules --\> posición movida a la derecha. 
 
-También podemos ver el ordenamiento de los bloques (o coaliciones) dentro de la Convención Constitucional 2021-2022:
+Flechas rojas --\> posición movida a la izquierda.
+
+También podemos ver el ordenamiento de las coaliciones dentro de la Convención Constitucional 2021-2022, según los bloques de sesiones de votación en el pleno:
 
 ![image alt](https://github.com/aoliveram/Convencion-Constitucional-Exploration/blob/main/ideological-scaling-plots/bump_chart_coaliciones.png)
 
-Para detalles sobre las metodologías utilizadas, contáctame! [an.oliveram\@udd.cl](mailto:an.oliveram@udd.cl){.email}
+Para detalles sobre las metodologías utilizadas, contáctame! [an.oliveram\@udd.cl](mailto:an.oliveram@udd.cl)
