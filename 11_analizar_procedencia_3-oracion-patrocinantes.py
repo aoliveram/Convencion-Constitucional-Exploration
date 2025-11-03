@@ -5,7 +5,7 @@ import pandas as pd
 import json
 import re
 import os
-from tqdm import tqdm # barra de progreso 
+from tqdm import tqdm  # barra de progreso
 
 # --- 1. Configuración de Archivos ---
 
@@ -22,7 +22,7 @@ INICIATIVAS_METADATA_FOLDER = BASE_FOLDER
 INICIATIVAS_METADATA_PATTERN = r"api_extracted_.*_corrected_4\.json$"
 
 # Ruta del archivo de salida JSON
-OUTPUT_JSON_PATH = "co-sponsorship-analysis/analisis_procedencia_oracion-patrocinante.json"
+OUTPUT_JSON_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-analisis_procedencia_oracion-patrocinante.json"
 
 # --- 2. Carga y Preparación de Datos ---
 
@@ -32,10 +32,10 @@ try:
 
     # Cargar los datos de comparación
     df_comparacion = pd.read_csv(COMPARACION_CSV_PATH)
-    
+
     # Cargar el CSV de oraciones de iniciativas
     df_oraciones_iniciativas = pd.read_csv(INICIATIVAS_ORACIONES_CSV_PATH)
-    
+
     # Cargar los metadatos de todas las iniciativas (firmantes)
     all_metadata = {}
     for filename in os.listdir(INICIATIVAS_METADATA_FOLDER):
@@ -46,7 +46,7 @@ try:
                 for pdf_name, content in data.items():
                     # Guardar solo los firmantes matcheados, o una lista vacía si no existen
                     all_metadata[pdf_name] = content.get('firmantes_matched', [])
-    
+
     df_metadata_iniciativas = pd.DataFrame(list(all_metadata.items()), columns=['filename', 'firmantes_matched'])
 
 except FileNotFoundError as e:
@@ -81,36 +81,56 @@ df_comparacion_enriquecida = pd.merge(
     how='left'
 )
 
-# --- 4. Pivotar los datos para tener Rank 1 y Rank 2 como columnas ---
 
-# Separar rank 1 y rank 2
-df_rank1 = df_comparacion_enriquecida[df_comparacion_enriquecida['rank'] == 1]
-df_rank2 = df_comparacion_enriquecida[df_comparacion_enriquecida['rank'] == 2]
+def prepare_rank(df, rank_number, suffix):
+    """Filtra por rank, elimina la columna de rank y agrega sufijos únicos."""
+    rank_df = df[df['rank'] == rank_number].copy()
+    rank_df = rank_df.drop(columns=['rank'])
+    rename_map = {col: f"{col}_{suffix}" for col in rank_df.columns if col != 'id_oracion_borrador'}
+    return rank_df.rename(columns=rename_map)
+
+
+# --- 4. Pivotar los datos para tener Rank 1, Rank 2 y Rank 3 como columnas ---
+
+df_rank1 = prepare_rank(df_comparacion_enriquecida, 1, 'r1')
+df_rank2 = prepare_rank(df_comparacion_enriquecida, 2, 'r2')
+df_rank3 = prepare_rank(df_comparacion_enriquecida, 3, 'r3')
 
 # Unir todo junto, empezando por todas las oraciones del borrador
 df_final_plano = pd.merge(
     df_oraciones_borrador,
     df_rank1,
     on='id_oracion_borrador',
-    how='left',
-    suffixes=('', '_r1')
+    how='left'
 )
 
 df_final_plano = pd.merge(
     df_final_plano,
     df_rank2,
     on='id_oracion_borrador',
-    how='left',
-    suffixes=('_r1', '_r2')
+    how='left'
+)
+
+df_final_plano = pd.merge(
+    df_final_plano,
+    df_rank3,
+    on='id_oracion_borrador',
+    how='left'
 )
 
 # --- 5. Generar la Estructura JSON Anidada Final ---
 
 output_list = []
 
+coincidence_map = [
+    ('1st_coincidencia', 'r1'),
+    ('2nd_coincidencia', 'r2'),
+    ('3rd_coincidencia', 'r3'),
+]
+
 # Usar tqdm para mostrar una barra de progreso
 for _, row in tqdm(df_final_plano.iterrows(), total=df_final_plano.shape[0]):
-    
+
     # Construir el objeto base para cada oración del borrador
     oracion_obj = {
         "id_art_borrador": row['id_articulo_borrador'],
@@ -118,31 +138,20 @@ for _, row in tqdm(df_final_plano.iterrows(), total=df_final_plano.shape[0]):
         "txt_oracion_borrador": row['oracion']
     }
 
-    # Construir el objeto para la 1ra mejor coincidencia
-    # Usamos pd.notna() para verificar que no sea un valor NaN (resultado de un left join sin coincidencia)
-    if pd.notna(row['nombre_pdf_r1']):
-        oracion_obj['1st_coincidencia'] = {
-            "nombre_pdf": row['nombre_pdf_r1'],
-            "txt_oracion_iniciativa": row['txt_oracion_iniciativa_r1'],
-            "puntaje_embedding": row['similitud_emb_r1'],
-            "puntaje_tfidf": row['similitud_tfidf_r1'],
-            "firmantes_matched": row['firmantes_matched_r1']
-        }
-    else:
-        oracion_obj['1st_coincidencia'] = None
+    for label, suffix in coincidence_map:
+        nombre_col = f"nombre_pdf_{suffix}"
+        nombre_val = row.get(nombre_col)
+        if pd.notna(nombre_val):
+            oracion_obj[label] = {
+                "nombre_pdf": nombre_val,
+                "txt_oracion_iniciativa": row[f"txt_oracion_iniciativa_{suffix}"],
+                "puntaje_embedding": row[f"similitud_emb_{suffix}"],
+                "puntaje_tfidf": row[f"similitud_tfidf_{suffix}"],
+                "firmantes_matched": row[f"firmantes_matched_{suffix}"]
+            }
+        else:
+            oracion_obj[label] = None
 
-    # Construir el objeto para la 2da mejor coincidencia
-    if pd.notna(row['nombre_pdf_r2']):
-        oracion_obj['2nd_coincidencia'] = {
-            "nombre_pdf": row['nombre_pdf_r2'],
-            "txt_oracion_iniciativa": row['txt_oracion_iniciativa_r2'],
-            "puntaje_embedding": row['similitud_emb_r2'],
-            "puntaje_tfidf": row['similitud_tfidf_r2'],
-            "firmantes_matched": row['firmantes_matched_r2']
-        }
-    else:
-        oracion_obj['2nd_coincidencia'] = None
-        
     output_list.append(oracion_obj)
 
 # --- 6. Guardar ---
