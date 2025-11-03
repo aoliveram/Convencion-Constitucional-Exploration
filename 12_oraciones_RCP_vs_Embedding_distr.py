@@ -19,11 +19,11 @@ from typing import Dict, Set, List, Tuple
 # RUTAS (ajústalas si difieren)
 # -------------------------------
 BORRADOR_JSON_PATH = "co-sponsorship-analysis/borrador_constitucional_estructurado.json"
-COMPARACION_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
-INICIATIVAS_ORACIONES_CSV_PATH = "ideological-scaling-files/analizar_procedencia_borrador/11-sentences_iniciativas.csv"
+COMPARACION_CSV_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-vs-Emb.csv"
+INICIATIVAS_ORACIONES_CSV_PATH = "co-sponsorship-analysis/analizar_procedencia_borrador/11-sentences_iniciativas.csv"
 API_DIR_GLOB = "co-sponsorship-analysis/api_extracted_*_corrected_4.json"
 
-PROF_XLSX_PATH = "rcp_convencion/autores_indicaciones_aprobadas.xlsx"
+PROF_XLSX_PATH = "B-rcp_convencion/autores_indicaciones_aprobadas.xlsx"
 PROF_SHEET = "Hoja3"
 
 # -------------------------------
@@ -250,6 +250,12 @@ ranks_to_compare = [2, 3, 4, 5]
 # Prepara listas de diferencias
 diffs_emb = []
 diffs_tfidf = []
+
+pivot_emb = df_comp.pivot(index='id_oracion_borrador', columns='rank', values='similitud_emb')
+pivot_tfidf = df_comp.pivot(index='id_oracion_borrador', columns='rank', values='similitud_tfidf')
+pivot_emb = pivot_emb[[1] + ranks_to_compare]
+pivot_tfidf = pivot_tfidf[[1] + ranks_to_compare]
+
 for r in ranks_to_compare:
     d_emb = (pivot_emb[1] - pivot_emb[r]).dropna()
     d_tfidf = (pivot_tfidf[1] - pivot_tfidf[r]).dropna()
@@ -305,7 +311,7 @@ for i, r in enumerate(ranks_to_compare):
         ax.set_xlabel("Diferencia similitud")
 
 plt.tight_layout()
-plt.savefig("ideological-scaling-plots/diferencias_embedding_tfidf.pdf")
+plt.savefig("co-sponsorship-analysis/12-diferencias_embedding_tfidf.pdf")
 plt.show()
 
 # -------------------------------
@@ -335,7 +341,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("ideological-scaling-plots/RCP_vs_Embedding_score.pdf", bbox_inches="tight")
+plt.savefig("co-sponsorship-analysis/12-RCP_vs_Embedding_score.pdf", bbox_inches="tight")
 plt.show()
 
 plt.figure()
@@ -345,7 +351,7 @@ plt.xlabel("score_contenido")
 plt.ylabel("frecuencia")
 plt.ylim(0, 15)
 plt.tight_layout()
-plt.savefig("ideological-scaling-plots/RCP_vs_Embedding_score_p75.pdf", bbox_inches="tight")
+plt.savefig("co-sponsorship-analysis/12-RCP_vs_Embedding_score_p75.pdf", bbox_inches="tight")
 plt.show()
 
 # -------------------------------
