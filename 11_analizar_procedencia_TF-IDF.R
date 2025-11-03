@@ -18,10 +18,10 @@ library(stringr)
 cat("--- Configuración del Proceso ---\n")
 
 # borrador final estructurado
-BORRADOR_JSON_PATH <- "patrocinantes_identificacion/propuesta_borrador_const_estructurado.json"
+BORRADOR_JSON_PATH <- "co-sponsorship-analysis/borrador_constitucional_estructurado.json"
 
 # archivos JSON de las iniciativas
-INICIATIVAS_JSON_FOLDER <- "patrocinantes_identificacion/"
+INICIATIVAS_JSON_FOLDER <- "co-sponsorship-analysis/"
 INICIATIVAS_PATTERN <- "api_extracted_\\d+_\\d+_corrected_4\\.json$"
 
 # --- 2. Carga y Tokenización de Datos ---
@@ -216,7 +216,7 @@ metricas_agregadas <- best_match_per_oracion %>%
   )
 
 # Paso 2: Unir métricas agregadas al data frame de coincidencias individuales
-contribuciones_df_detallado <- best_match_per_oracion %>%
+contribuciones_df <- best_match_per_oracion %>%
   # Unir con las métricas agregadas que acabamos de calcular
   left_join(metricas_agregadas, by = c("id_articulo_borrador", "origen_iniciativa_pdf")) %>%
   # Unir con el conteo total de oraciones por artículo
@@ -269,7 +269,8 @@ print(
 # --- 7. Guardar objetos para usar en Python ---
 cat("\n--- Guardando objetos para análisis en Python ---\n")
 
-saveRDS(oraciones_borrador_df, file = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_borrador_df.rds")
-saveRDS(oraciones_iniciativas_df, file = "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.rds")
-readr::write_csv(oraciones_iniciativas_df, "ideological-scaling-files/analizar_procedencia_borrador/oraciones_iniciativas_df.csv")
-saveRDS(top_10_matches, file = "ideological-scaling-files/analizar_procedencia_borrador/top10_tfidf_matches.rds")
+saveRDS(oraciones_borrador_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_borrador.rds")
+saveRDS(oraciones_iniciativas_df, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.rds")
+readr::write_csv(oraciones_iniciativas_df, "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-sentences_iniciativas.csv")
+saveRDS(top_10_matches, file = "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-top10_tfidf_matches.rds")
+readr::write_csv(top_10_matches, "co-sponsorship-analysis/analizar_procedencia_borrador/11-TFIDF-top10_tfidf_matches.csv")
