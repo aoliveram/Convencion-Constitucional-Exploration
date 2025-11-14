@@ -89,75 +89,86 @@ prep_long <- function(orden_t_df) {
     summarise(posicion_ideologica = mean(posicion_ideologica, na.rm = TRUE), .groups = "drop")
 }
 
-# Carga base
-coaliciones_convencionales <- load_coaliciones()
-orden_t_df  <- load_orden_t()
-orden_t_slim <- prep_long(orden_t_df)
-
-# Join con coaliciones, y resumen por coalición / periodo
-base_join <- orden_t_slim %>%
-  left_join(coaliciones_convencionales, by = c("Votante" = "nombre"))
-
-promedios_coal_periodo <- base_join %>%
-  filter(!is.na(coalicion)) %>%
-  group_by(coalicion, Periodo) %>%
-  summarise(
-    posicion_media = mean(posicion_ideologica, na.rm = TRUE),
-    sd_pos         = sd(posicion_ideologica, na.rm = TRUE),
-    n              = n(),
-    .groups = "drop"
-  ) %>%
-  mutate(
-    Periodo = factor(Periodo, levels = niveles_periodo),
-    Periodo_num = as.numeric(Periodo),
-    coal_abbr = dplyr::recode(coalicion, !!!abbr_map, .default = coalicion)
-  ) %>%
-  arrange(Periodo)
-
-# Para UI: opciones limpias y ordenadas
-coal_opts <- promedios_coal_periodo %>%
-  distinct(coalicion, coal_abbr) %>%
-  arrange(coal_abbr)
+# Función para cargar datos de forma lazy (se ejecuta una sola vez)
+load_data <- function() {
+  coaliciones_convencionales <- load_coaliciones()
+  orden_t_df  <- load_orden_t()
+  orden_t_slim <- prep_long(orden_t_df)
+  
+  # Join con coaliciones, y resumen por coalición / periodo
+  base_join <- orden_t_slim %>%
+    left_join(coaliciones_convencionales, by = c("Votante" = "nombre"))
+  
+  promedios_coal_periodo <- base_join %>%
+    filter(!is.na(coalicion)) %>%
+    group_by(coalicion, Periodo) %>%
+    summarise(
+      posicion_media = mean(posicion_ideologica, na.rm = TRUE),
+      sd_pos         = sd(posicion_ideologica, na.rm = TRUE),
+      n              = n(),
+      .groups = "drop"
+    ) %>%
+    mutate(
+      Periodo = factor(Periodo, levels = niveles_periodo),
+      Periodo_num = as.numeric(Periodo),
+      coal_abbr = dplyr::recode(coalicion, !!!abbr_map, .default = coalicion)
+    ) %>%
+    arrange(Periodo)
+  
+  # Para UI: opciones limpias y ordenadas
+  coal_opts <- promedios_coal_periodo %>%
+    distinct(coalicion, coal_abbr) %>%
+    arrange(coal_abbr)
+  
+  list(
+    base_join = base_join,
+    promedios_coal_periodo = promedios_coal_periodo,
+    coal_opts = coal_opts
+  )
+}
 
 # --- 2. Define UI ------------------------------------------------------------
 ui <- fluidPage(
   titlePanel("Dinámica de posiciones: coaliciones y convencionales"),
-  sidebarLayout(
-    sidebarPanel(
-      # Sección 1: controles
-      h4("1) Selección"),
-      helpText("Elige coaliciones para el primer gráfico y convencionales de una coalición para el segundo."),
-      selectizeInput(
-        inputId = "coalitions_selected",
-        label   = "Coaliciones para 'bump' por coalición:",
-        choices = setNames(coal_opts$coalicion, coal_opts$coal_abbr),
-        selected = coal_opts$coalicion, multiple = TRUE,
-        options = list(plugins = list("remove_button"))
+  conditionalPanel(
+    condition = "!output.data_ready",
+    div(
+      style = "text-align: center; margin-top: 100px;",
+      h3("Cargando datos..."),
+      tags$div(
+        class = "progress progress-striped active",
+        style = "width: 50%; margin: 20px auto;",
+        tags$div(class = "progress-bar", style = "width: 100%")
+      )
+    )
+  ),
+  conditionalPanel(
+    condition = "output.data_ready",
+    sidebarLayout(
+      sidebarPanel(
+        # Sección 1: controles
+        h4("1) Selección"),
+        helpText("Elige coaliciones para el primer gráfico y convencionales de una coalición para el segundo."),
+        uiOutput("coalition_selector"),
+        uiOutput("coalition_for_people_selector"),
+        uiOutput("people_picker"),
+        sliderInput(
+          inputId = "ribbon_mult",
+          label   = "Ancho de banda (multiplicador de DE):",
+          min = 0, max = 1, value = 0.5, step = 0.01
+        ),
+        hr(),
+        helpText("Colores y abreviaciones fijados para coherencia visual con tus gráficos.")
       ),
-      selectizeInput(
-        inputId = "coalition_for_people",
-        label   = "Coalición para 'bump' de convencionales:",
-        choices = setNames(coal_opts$coalicion, coal_opts$coal_abbr),
-        selected = if (nrow(coal_opts)>0) coal_opts$coalicion[1] else NULL,
-        multiple = FALSE
-      ),
-      uiOutput("people_picker"),
-      sliderInput(
-        inputId = "ribbon_mult",
-        label   = "Ancho de banda (multiplicador de DE):",
-        min = 0, max = 1, value = 0.5, step = 0.01
-      ),
-      hr(),
-      helpText("Colores y abreviaciones fijados para coherencia visual con tus gráficos.")
-    ),
-    mainPanel(
-      # Sección 2: bump por coalición
-      h4("2) Bump chart por coaliciones"),
-      plotOutput("plot_coal", height = "520px"),
-      tags$br(),
-      # Sección 3: bump por convencionales
-      h4("3) Bump chart por convencionales (coalición seleccionada)"),
-      plotOutput("plot_people", height = "520px")
+      mainPanel(
+        # Sección 2: bump por coalición
+        h4("2) Bump chart por coaliciones"),
+        plotOutput("plot_coal", height = "520px"),
+        tags$br(),
+        # Sección 3: bump por convencionales
+        h4("3) Bump chart por convencionales (coalición seleccionada)"),
+        plotOutput("plot_people", height = "520px")
+      )
     )
   )
 )
@@ -165,10 +176,68 @@ ui <- fluidPage(
 # --- 3. Define Server Logic --------------------------------------------------
 server <- function(input, output, session) {
   
+  # Flag para indicar cuando los datos están listos
+  data_ready <- reactiveVal(FALSE)
+  
+  # Cargar datos una sola vez (lazy loading) - en background
+  data <- reactiveVal(NULL)
+  
+  # Output para el conditionalPanel
+  output$data_ready <- reactive({
+    data_ready()
+  })
+  outputOptions(output, "data_ready", suspendWhenHidden = FALSE)
+  
+  # Cargar datos inmediatamente después de que la app inicie
+  observe({
+    if (is.null(data())) {
+      # Cargar datos en background
+      isolate({
+        data(load_data())
+        data_ready(TRUE)
+      })
+    }
+  })
+  
+  # Función helper para acceder a datos
+  load_data_once <- function() {
+    req(data())
+    data()
+  }
+  
+  # Renderizar selector de coaliciones
+  output$coalition_selector <- renderUI({
+    d <- load_data_once()
+    req(d)
+    coal_opts <- d$coal_opts
+    selectizeInput(
+      inputId = "coalitions_selected",
+      label   = "Coaliciones para 'bump' por coalición:",
+      choices = setNames(coal_opts$coalicion, coal_opts$coal_abbr),
+      selected = coal_opts$coalicion, multiple = TRUE,
+      options = list(plugins = list("remove_button"))
+    )
+  })
+  
+  # Renderizar selector de coalición para convencionales
+  output$coalition_for_people_selector <- renderUI({
+    d <- load_data_once()
+    req(d)
+    coal_opts <- d$coal_opts
+    selectizeInput(
+      inputId = "coalition_for_people",
+      label   = "Coalición para 'bump' de convencionales:",
+      choices = setNames(coal_opts$coalicion, coal_opts$coal_abbr),
+      selected = if (nrow(coal_opts)>0) coal_opts$coalicion[1] else NULL,
+      multiple = FALSE
+    )
+  })
+  
   # Actualiza la lista de convencionales al cambiar la coalición
   choices_people <- reactive({
-    req(input$coalition_for_people)
-    base_join %>%
+    d <- load_data_once()
+    req(d, input$coalition_for_people)
+    d$base_join %>%
       filter(coalicion == input$coalition_for_people) %>%
       distinct(Votante) %>%
       arrange(Votante) %>%
@@ -176,6 +245,7 @@ server <- function(input, output, session) {
   })
   
   output$people_picker <- renderUI({
+    req(choices_people())
     selectizeInput(
       inputId = "people_selected",
       label = "Convencionales:",
@@ -188,8 +258,9 @@ server <- function(input, output, session) {
   
   # Datos filtrados para el gráfico por coalición
   coal_df <- reactive({
-    req(input$coalitions_selected, length(input$coalitions_selected) > 0)
-    promedios_coal_periodo %>%
+    d <- load_data_once()
+    req(d, input$coalitions_selected, length(input$coalitions_selected) > 0)
+    d$promedios_coal_periodo %>%
       filter(coalicion %in% input$coalitions_selected) %>%
       mutate(
         coal_abbr = dplyr::recode(coalicion, !!!abbr_map, .default = coalicion),
@@ -251,8 +322,9 @@ server <- function(input, output, session) {
   
   # Datos para gráfico de convencionales
   people_df <- reactive({
-    req(input$coalition_for_people, input$people_selected)
-    base_join %>%
+    d <- load_data_once()
+    req(d, input$coalition_for_people, input$people_selected)
+    d$base_join %>%
       filter(coalicion == input$coalition_for_people,
              Votante %in% input$people_selected) %>%
       mutate(
