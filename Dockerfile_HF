@@ -1,0 +1,32 @@
+FROM rocker/r-ver:4.3.1
+
+# Instalar dependencias del sistema
+RUN apt-get update && apt-get install -y \
+    libcurl4-openssl-dev \
+    libssl-dev \
+    libxml2-dev \
+    libfontconfig1-dev \
+    libharfbuzz-dev \
+    libfribidi-dev \
+    libfreetype6-dev \
+    libpng-dev \
+    libtiff5-dev \
+    libjpeg-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Instalar paquetes de R necesarios
+RUN R -e "install.packages(c('shiny', 'dplyr', 'tidyr', 'ggplot2', 'cowplot', 'readr', 'stringr'), repos='https://cloud.r-project.org/')"
+
+# Crear directorio de la app
+WORKDIR /app
+
+# Copiar archivos de la aplicación
+COPY 04_bump_chart_RShiny_coaliciones.R /app/app.R
+COPY ideological-scaling-files/03_orden_votantes_t.rds /app/ideological-scaling-files/03_orden_votantes_t.rds
+COPY co-sponsorship-analysis/coaliciones_convencionales.rds /app/co-sponsorship-analysis/coaliciones_convencionales.rds
+
+# Exponer puerto
+EXPOSE 7860
+
+# Comando para ejecutar la app
+CMD ["R", "-e", "shiny::runApp('/app/app.R', host='0.0.0.0', port=7860)"]
