@@ -1,0 +1,241 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\froman\fcharset0 Times-Roman;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww10540\viewh5040\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 Este proyecto investiga las posiciones pol\'edticas y la red de apoyos para aprobar iniciativas en el marco de la Convenci\'f3n Constitucional 2021-2022, desarrollada en Chile. Ya tengo bastantes an\'e1lisis realizados, pero hay uno que considero sumamente complejo: hacer un mapeo completo de quienes "construyeron" el primer borrador de la nueva constituci\'f3n. \}\
+\
+Con "construir" me refiero a la siguiente cadena de pasos:\
+1. La convenci\'f3n constitucional const\'f3 de 8 comisiones. Los 154 convencionales se repart\'edan entre estas comisiones. \
+2. Dentro de cada comisi\'f3n, cada convencional pod\'eda proponer una "iniciativa" de art\'edculo constitucional. Las iniciativas deb\'edan tener el apoyo de otros convencionales para poder ser presentadas. Este apoyo se llama "patrocinio". \
+3. Si una iniciativa es aprobada, se dice que tanto el autor de la iniciativa como los patrocinantes "aportaron al borrador" de la constituci\'f3n. Pero antes de pasar a formar parte del borrador, se presentaba al pleno un resumen de los art\'edculos aprobados por la comisi\'f3n, que votaba cada uno. Algunos lo aprobaban, pero casi todos los rechazaban. \
+4. Los incisos rechazados sufr\'edan modificaciones. Las modificaciones se llaman "indicaciones". Cada convencional de su comisi\'f3n pod\'eda presentar "indicaciones". Algunas eran aprobadas; la mayor\'eda, rechazadas. \
+5. Si una indicaci\'f3n es aprobada, se dice que el autor y quienes lo apoyaron "aportaron al borrador". \
+6. Hubo varias iteraciones de presentaciones de las "indicaciones".  Los detalles m\'e1s granulares se encuentran en informes no estructurados de la comisi\'f3n. Son PDF, por lo que resulta un poco dif\'edcil tener un panorama completo y elaborar el mapeo de quienes aportaron al borrador de la constituci\'f3n. \
+7. Hay un documento que usaremos como "documento final de borrador" y que contiene el texto total que produjo la convenci\'f3n constitucional. Lo malo es que solo tiene el detalle del texto, no el de qui\'e9n fue el autor de cada secci\'f3n. \
+\
+Quiero construir el mapeo completo enfocado, mientras tanto, en la comisi\'f3n 6. Tengo todos los informes pertinentes en la carpeta "\\constitutional_proposal_tracking\\comision-6". En esa carpeta, hay un archivo llamado "texto-sistematizado-01-25.pdf" que contienen la informaci\'f3n de cu\'e1l fue la iniciativa que di\'f3 lugar a cada uno de los art\'edculos. Te adjunto un pantallazo de ese archivo. Por ejemplo, podemos saber que el art\'edculo 1 se obtuvo de la iniciativa 41-6; el art\'edculo 1 A se obtuvo del 88-6, y el art\'edculo 1 B del 97-6, aunque solo recupera los tres primero incisos (o p\'e1rrafos) de la iniciativa 97-6 original. Con esto podemos mapear el primer texto (a\'fan no el primer BORRADOR) con las iniciativas. \
+\
+Pero \'bfqui\'e9n apoy\'f3 cada iniciativa? En la carpeta "\\constitutional_proposal_tracking\\submitted_initiatives" hay varios archivos del estilo "api_extracted_XX_XX_corrected_4.json", que contiene este tipo de informaci\'f3n: \
+\
+```\
+"98-6-Iniciativa-del-cc-Ruggero-Cozzi-Funcion-y-Principios-de-la-Jurisdiccion.pdf": \{\
+    "propuesta_norma": "Aqu\'ed va el texto completo de la iniciativa de norma.",\
+    "error": null,\
+    "autor": "Ruggero-Cozzi",\
+    "autor_matched": "Cozzi, Ruggero",\
+    "comision": "N6. Comisi\'f3n sobre Sistemas de Justicia, \'d3rganos Aut\'f3nomos de Control y Reforma Constitucional",\
+    "comision_n": 6,\
+    "fecha": "03/enero/2022",\
+    "firmantes": [\
+      "Ruggero Cozzi E.",\
+      "Luis Mayol Bouchon",\
+      "Patricia Labra B.",\
+      "Carol Bown. S.",\
+      "Ruth Hurtado O.",\
+      "Rodrigo \'c1lvarez Z.",\
+      "Hern\'e1n Larrain M.",\
+      "Cristi\'e1n Monckeberg",\
+      "Bernardo Fontaine T.",\
+      "B\'e1rbara Rebolledo"\
+    ],\
+    "firmantes_matched": [\
+      "Cozzi, Ruggero",\
+      "Mayol, Luis",\
+      "Labra, Patricia",\
+      "Bown, Carol",\
+      "Hurtado, Ruth",\
+      "Alvarez, Rodrigo",\
+      "Larrain, Hernan",\
+      "Monckeberg, Cristian",\
+      "Fontaine, Bernardo",\
+      "Rebolledo, Barbara"\
+    ],\
+    "firmantes_not_matched": [],\
+    "n_firmantes": 10,\
+    "n_firmantes_matched": 10,\
+    "n_firmantes_not_matched": 0,\
+    "error_limpieza": null\
+```\
+\
+Los nombres relevantes est\'e1n en "firmantes_matched", dado que usan una forma estandarizada de los nombres. Esta es la lista completa de nombres normalizados de convencionales:\
+```\
+**Lista Oficial de Nombres (Formato "Apellido, Nombre"):**\
+Abarca, Damaris\
+Abarca, Jorge\
+Achurra, Ignacio\
+Aguilera, Tiare\
+Alvarado, Gloria\
+Alvarez, Julio\
+Alvarez, Rodrigo\
+Alvez, Amaya\
+Ampuero, Adriana\
+Andrade, Cristobal\
+Antilef, Victorino\
+Arancibia, Jorge\
+Arauna, Francisca\
+Arellano, Marco\
+Arrau, Martin\
+Atria, Fernando\
+Bacian, Wilfredo\
+Baradit, Jorge\
+Baranda, Benito\
+Barcelo, Luis\
+Barraza, Marcos\
+Bassa, Jaime\
+Botto, Miguel Angel\
+Bown, Carol\
+Bravo, Daniel\
+Caamano, Francisco\
+Caiguan, Alexis\
+Calvo, Carlos\
+Cancino, Adriana\
+Cantuarias, Rocio\
+Carrillo, Alondra\
+Castillo, Eduardo\
+Castillo, Maria Trinidad\
+Castro, Claudia\
+Catrileo, Rosa\
+Celedon, Roberto\
+Celis, Raul\
+Chahin, Fuad\
+Chinga, Eric\
+Cozzi, Ruggero\
+Cretton, Eduardo\
+Cruz, Andres\
+Cubillos, Marcela\
+Cespedes, Lorena\
+Daza, Mauricio\
+De la Maza, Bernardo\
+Delgado, Aurora\
+Dominguez, Gaspar\
+Dorador, Cristina\
+Fernandez, Patricio\
+Flores, Alejandra\
+Fontaine, Bernardo\
+Fuchslocher, Javier\
+Gallardo, Bessy\
+Galleguillos, Felix\
+Garin, Renato\
+Giustinianovich, Elisa\
+Godoy, Isabel\
+Gonzalez, Dayana\
+Gonzalez, Lidia\
+Grandon, Giovanna\
+Grandon, Paola\
+Gutierrez, Hugo\
+Gomez, Claudio\
+Gomez, Yarela\
+Harboe, Felipe\
+Henriquez, Natalia\
+Hoppe, Vanessa\
+Hube, Constanza\
+Hurtado, Maximiliano\
+Hurtado, Ruth\
+Jimenez, Luis\
+Jofre, Alvaro\
+Jurgensen, Harry\
+Labbe, Bastian\
+Labra, Patricia\
+Labrana, Elsa\
+Laibe, Tomas\
+Larrain, Hernan\
+Letelier, Margarita\
+Linconao, Francisca\
+Llanquileo, Natividad\
+Logan, Rodrigo\
+Loncon, Elisa\
+Madriaga, Tania\
+Mamani, Isabella\
+Marinovic, Teresa\
+Martin, Juan Jose\
+Martinez, Helmuth\
+Mayol, Luis\
+Mella, Jeniffer\
+Mena, Felipe\
+Meneses, Janis\
+Millabur, Adolfo\
+Miranda, Valentina\
+Monckeberg, Cristian\
+Montealegre, Katerine\
+Montero, Ricardo\
+Moreno, Alfredo\
+Munoz, Pedro\
+Namor, Guillermo\
+Navarrete, Geoconda\
+Neumann, Ricardo\
+Nunez, Nicolas\
+Olivares, Ivanna\
+Orellana, Matias\
+Ossandon, Manuel\
+Oyarzun, Maria Jose\
+Pinto, Malucha\
+Politzer, Patricia\
+Portilla, Ericka\
+Pustilnick, Tammy\
+Perez, Alejandra\
+Quinteros, Maria Elisa\
+Rebolledo, Barbara\
+Reyes, Maria Ramona\
+Rivera, Maria Magdalena\
+Rivera, Pollyana\
+Roa, Giovanna\
+Royo, Manuela\
+Saldana, Alvin\
+Salinas, Fernando\
+San Juan, Constanza\
+Schonhaut, Constanza\
+Sepulveda, Barbara\
+Sepulveda, Carolina\
+Serey, Mariela\
+Silva, Luciano\
+Squella, Agustin\
+Stingo, Daniel\
+Sanchez, Beatriz\
+Tepper, Maria Angelica\
+Tirado, Fernando\
+Toloza, Pablo\
+Ubilla, Maria Cecilia\
+Uribe, Cesar\
+Urrutia, Tatiana\
+Valenzuela, Cesar\
+Valenzuela, Paulina\
+Vallejos, Loreto\
+Vargas, Margarita\
+Vargas, Mario\
+Vega, Roberto\
+Veloso, Paulina\
+Velasquez, Hernan\
+Vergara, Lisette\
+Vidal, Rossana\
+Videla, Carolina\
+Viera, Christian\
+Vilches, Carolina\
+Villena, Ingrid\
+Woldarsky, Manuel\
+Zarate, Camila\
+Zuniga, Luis Arturo\
+```\
+\
+Entonces s\'ed podemos mapear qui\'e9nes fueron los que "aportaron" al primer texto. Sin embargo, luego vinieron un mont\'f3n de "indicaciones", que parecen ser m\'e1s dif\'edciles de mapear. \
+\
+Las indicaciones est\'e1n detalladas en algunos PDF con la direcci\'f3n "\\constitutional_proposal_tracking\\informe-indicaciones-#-##-##.pdf". En esos PDF puedes encontrar secciones como "(iii) Votaci\'f3n en particular" o "III.- DELIBERACI\'d3N DE LA NUEVA PROPUESTA CONSTITUCIONAL". La estructura general es de este estilo: \
+- Art\'edculo:\
+- Cita textual del art\'edculo.\
+- "Indicaci\'f3n N\'b0 #, de los convencionales Convencional_1, Convencional_2, ..., Convencional_N"...\
+- Detalle de la indicaci\'f3n.\
+- "Se somete a votaci\'f3n la indicaci\'f3n, resultado (Aprobada o Rechazada). \
+\
+Hay que centrarse solo en las indicaciones Aprobadas. As\'ed que podr\'edamos primero fijarnos solo en las indicaciones aprobadas, luego saber de qu\'e9 trataban (puede ser eliminar un inciso, o modificaci\'f3n de un art\'edculo), y luego saber qui\'e9n era el autor (o autores) de esas indicaciones (que podemos mapear a la lista de nombres normalizados). \
+\
+Lo que propongo es:\
+1. Guardemos la lista de nombres de los convencionales en un archivo JSON para que sea m\'e1s f\'e1cil acceder a ella despu\'e9s. \
+2. Con la informaci\'f3n de "texto-sistematizado-01-25.pdf" y "api_extracted_XX_XX_corrected_4.json" construir un primer texto. Como tendremos varias versiones de este texto (a medida que revisamos las indicaciones), mejor guardarlo en una carpeta aparte. Ahora, \'bfC\'f3mo hacerlo? Lo \'fanico que se me ocurre es crear c\'f3digos en Python que utilicen una API de Gemini para procesar los PDF, junto con un prompt sumamente detallado y estructurado. \
+3. Podemos construir otro script de Python, con otro conjunto de prompts sumamente estructurados, que lea los archivos "informe-indicaciones-#-##-##.pdf" para obtener informaci\'f3n sobre las indicaciones aprobadas. Con la informaci\'f3n recabada de las indicaciones podemos saber qu\'e9 modificaciones se le hicieron al texto que nosotros mismos construimos. \
+4. Por ahora solo tengo la informaci\'f3n de "comision-6", pero despu\'e9s tendremos que hacer lo mismo con las otras comisiones. Una vez hecho todo con todas las comisiones, podremos tener el borrador final listo, con el mapeo completo de quienes "aportaron". \
+\
+Por ahora, lo que quiero es que avancemos con los puntos 1 y 2 de mi propuesta. Adem\'e1s, quiero que escribas un texto en formato txt que sea un informe completo de lo que se puede hacer para llevar a cabo las tareas 3 y 4. Para que tengas una idea, el archivo "informe-indicaciones-1-02-08.pdf" pesa 5.3 MB, por lo que puede ser muy pesado para la API. Adem\'e1s, quiero que eventualmente me pidas como input los detalles de los Pricings de cada modelo de Gemini, para saber de antemano si ser\'e1 muy caro o no. Por cada comisi\'f3n pueden ser 6 de esos archivos.}
