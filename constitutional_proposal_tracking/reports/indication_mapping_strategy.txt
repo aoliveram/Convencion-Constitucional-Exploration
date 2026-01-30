@@ -1,0 +1,83 @@
+# Strategy Report: Indication Mapping & Pricing Analysis
+
+## 1. Objective
+To map approved "Indications" (amendments) from commission reports to the Constitutional Draft, identifying the text changes and the authors who proposed them.
+
+## 2. Technical Strategy
+
+### A. Data Source
+The primary sources are PDF files like `informe-indicaciones-1-02-08.pdf`.
+Estimated Size: ~5.3 MB per file.
+Volume: ~6 files per commission x 8 commissions = ~48 files.
+
+### B. Extraction logic (Step 3)
+We will develop a Python script (e.g., `03_extract_indications.py`) using `google.generativeai` to process these files.
+
+**Key Challenges:**
+1.  **Unstructured Format:** The detailed voting results ("Votación en particular") are embedded in long documents.
+2.  ** Granularity:** We only care about **APPROVED** indications.
+3.  **Author Identification:** Authors are listed as strings (e.g., "De los convencionales A, B y C"). These must be matched to our `convention_members.json`.
+
+**Proposed Prompt Structure:**
+To handle the file size and complexity, we should instruct the model to:
+1.  Scan for sections labeled "Votación en particular" or "DELIBERACIÓN".
+2.  Iterate through each "Indicación".
+3.  Check the result. If "Rechazada", SIKP.
+4.  If "Aprobada", extract:
+    - **Target Article/Inciso**: What is being modified?
+    - **Action**: Add, Delete, Modify.
+    - **Content**: The text of the indication.
+    - **Authors**: The list of names.
+
+**Sample JSON Output:**
+```json
+[
+  {
+    "indication_number": "15",
+    "result": "Approved",
+    "target_article": "Article 1",
+    "modification_type": "Substitution",
+    "authors_raw": ["Ruggero Cozzi", "Hernan Larrain"],
+    "content": "New text of the article..."
+  }
+]
+```
+
+### C. Integrating with the Draft (Step 4)
+Once we have the list of approved indications, we will need a "Reconstruction Script" that:
+1.  Takes the "Base Text" (Draft 1 from `draft_1_text.json`).
+2.  Applies the modifications in chronological order (File 1 -> File 2...).
+3.  Updates the metadata for the affected text blocks to include the new authors (Indication Authors).
+
+## 3. Pricing & Token Analysis
+
+### Token Estimation
+The user notes that files rarely exceed **60 pages**.
+- **Estimate:** 60 pages * ~800 tokens/page ≈ **48,000 tokens**.
+- **Buffer:** Let's assume **60k tokens** per file to be safe.
+
+### Cost Analysis (Per File)
+Pricing for **Gemini 3.0 Flash** (Preview/Pay-as-you-go):
+
+#### **Gemini 3.0 Flash**
+- **Input Price:** $0.50 per 1 million tokens.
+- **Output Price:** $3.00 per 1 million tokens.
+- **Context Caching:** $0.05 per 1 million tokens (if applicable for repeated queries).
+
+**Cost per file (60k tokens input + ~5k tokens output JSON):**
+- **Input Cost:** (60,000 / 1,000,000) * $0.50 = **$0.03**.
+- **Output Cost:** (5,000 / 1,000,000) * $3.00 = **$0.015**.
+- **Total per file:** ~$0.045 (approx **4.5 cents**).
+
+**Total for Project (~48 files):**
+- 48 files * $0.045 = **$2.16**.
+
+### Recommendation
+1.  **Use Gemini 3.0 Flash:** It is extremely cost-effective (approx $2 total for the entire batch).
+2.  **Implementation:** The script `02_map_initiatives.py` should be updated to use `gemini-3.0-flash-preview` (or the stable alias when available).
+3.  **Process:** We can process all files without splitting, as 60 pages fits comfortably within the context window.
+
+## 4. Next Steps
+1.  Run `01_structured_draft.py` to get the base text.
+2.  Run `02_map_initiatives.py` to get the base authorship.
+3.  Select a pilot indication file and test extraction with Gemini 1.5 Flash.
