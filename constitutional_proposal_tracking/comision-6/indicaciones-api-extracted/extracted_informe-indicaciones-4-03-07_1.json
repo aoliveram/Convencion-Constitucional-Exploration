@@ -1,0 +1,756 @@
+[
+  {
+    "number": "2",
+    "target_article": "Título § Función jurisdiccional",
+    "action": "MODIFY",
+    "content": "§ De los Tribunales del Sistema Nacional de Justicia",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "5",
+    "target_article": "Artículo 1",
+    "action": "MODIFY",
+    "content": "Artículo 1.- Principio de unidad jurisdiccional. Los tribunales de justicia se estructuran conforme al principio de unidad jurisdiccional como base de su organización y funcionamiento, estando sujetos al mismo estatuto jurídico y principios.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "15",
+    "target_article": "Artículo 2",
+    "action": "MODIFY",
+    "content": "Artículo 2.- Diferenciación funcional y estatuto común de los tribunales. Las y los integrantes de los órganos jurisdiccionales, unipersonales o colegiados, se denominarán juezas o jueces. No existirá jerarquía entre quienes ejercen jurisdicción y sólo se diferenciarán por la función que desempeñen. Las juezas o jueces no recibirán tratamiento honorífico alguno. Sólo la ley podrá́ establecer cargos de jueces y juezas. La Corte Suprema y las Cortes de Apelaciones no podrán ser integradas por personas que no tengan la calidad de juezas o jueces titulares. La planta de personal y organización administrativa interna de los tribunales será establecida por la ley.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "26 y 27",
+    "target_article": "Artículo 3",
+    "action": "DELETE",
+    "content": "Artículo 3.- Mecanismos colaborativos, autocompositivos y restaurativos de justicia. La tutela jurídica de los derechos contemplará tanto el derecho a la acción mediante la jurisdicción como el derecho a elegir, acceder y participar en mecanismos colaborativos, autocompositivos y restaurativos de justicia. La ley determinará la forma y condiciones de funcionamiento de estos mecanismos y su relación con el poder judicial.",
+    "authors_raw": "CC Labra, Mayol y Cozzi; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "29",
+    "target_article": "Artículo 3",
+    "action": "ADD",
+    "content": "Artículo 3.- Cesación de juezas y jueces. Las juezas y jueces cesan en sus cargos por alcanzar los setenta años de edad, por renuncia, por constatarse una infraestructura legal sobreviniente o por remoción.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "30",
+    "target_article": "Artículo 3 A",
+    "action": "ADD",
+    "content": "Artículo 3 A.- Fuero. Las juezas y los jueces no podrán ser acusados o privados de libertad, salvo el caso de delito flagrante, si la Corte de Apelaciones correspondiente no declara admisible uno o más capítulos de la acusación respectiva. La resolución que se pronuncie sobre la querella de capítulos será apelable para ante la Corte Suprema. Encontrándose firme la resolución que acoge la querella, el procedimiento penal continuará de acuerdo a las reglas generales y la jueza o el juez quedará suspendido del ejercicio de sus funciones.",
+    "authors_raw": "Bravo, Villena, Viera y Cruz",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid",
+      "Viera, Christian",
+      "Cruz, Andres"
+    ]
+  },
+  {
+    "number": "31, 32 y 33",
+    "target_article": "Artículo 4",
+    "action": "DELETE",
+    "content": "Artículo 4.- Aplicación de la Constitución, los tratados internacionales y derecho indígena. Los tribunales aplicarán directamente la Constitución, velarán por el respeto de su jerarquía normativa e interpretarán sus disposiciones con el propósito de obtener el mayor respeto de las garantías y derechos establecidas por ella. De la misma forma los tribunales deberán respetar, promover y garantizar la vigencia y aplicación directa de los derechos fundamentales. Los tribunales aplicarán directamente los tratados internacionales vigentes en Chile. Los tribunales reconocerán las tradiciones, costumbres y autoridades de los pueblos originarios, contribuirán al fortalecimiento de la democracia, garantizar el pluralismo político, no pudiendo invocar otros preceptos constitucionales para desconocer o restringir los derechos fundamentales, y aplicarán directamente la Constitución y las normas dictadas conforme a ella, restando eficacia a toda disposición anterior que afecte el objetivo y fin de esta Carta fundamental.",
+    "authors_raw": "CC Labra, Mayol y Cozzi; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 4",
+    "action": "ADD",
+    "content": "Artículo 4.- Autonomía financiera. El Sistema Nacional de Justicia gozará de autonomía financiera. Anualmente, se destinarán en la Ley de Presupuestos del Estado los fondos necesarios para su adecuado funcionamiento.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "40",
+    "target_article": "Artículo 5",
+    "action": "DELETE",
+    "content": "Artículo 5.- Resoluciones judiciales. Los jueces y juezas, en el pronunciamiento de las resoluciones y en sus actuaciones judiciales, sólo están sometidos al imperio de esta Constitución, la ley y los tratados internacionales relativos a derechos humanos ratificados por Chile. Las sentencias de la Corte Interamericana de Derechos Humanos y demás tribunales internacionales reconocidos por el Estado de Chile, se someterán en cuanto a su cumplimiento y en cuanto a las autoridades concernidas en éste, a las reglas que fije la ley.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "44",
+    "target_article": "Artículo 5",
+    "action": "ADD",
+    "content": "Artículo 5.- Publicidad. Todas las etapas de los procedimientos y las resoluciones judiciales son públicas. Excepcionalmente, la ley podrá establecer su reserva o secreto en casos calificados.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "45, 46 y 47",
+    "target_article": "Artículo 6",
+    "action": "DELETE",
+    "content": "Artículo 6.- Separación de funciones en el sistema judicial. La actividad propia del Poder Judicial, debe consagrar la separación de funciones, desde su gobierno central hasta el funcionamiento interno de cada tribunal, de manera que la labor esencial de la jurisdicción no se vea entorpecida con labores administrativas. La dirección y supervisión del funcionamiento, y gestión de Tribunales de justicia, quedará radicado exclusivamente en el órgano de Gobierno Judicial que se establezca, separadamente de aquellos que ejerzan la función jurisdiccional. Asimismo deberá resguardarse la autonomía de la gestión y administración profesional al interior de tribunales respecto de la función jurisdiccional, a través de la regulación de las dimensiones administrativas y jurisdiccionales, garantizando el acceso oportuno a la Justicia.",
+    "authors_raw": "CC Cruz y Laibe; Labra, Mayol y Cozzi y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "51",
+    "target_article": "Artículo 6",
+    "action": "ADD",
+    "content": "Artículo 6.- Principio de proximidad e itinerancia. Los tribunales, con la finalidad de garantizar el acceso a la justicia y a la tutela judicial efectiva, podrán funcionar en localidades situadas fuera de su lugar de asiento, siempre dentro de su territorio jurisdiccional.",
+    "authors_raw": "Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "52",
+    "target_article": "Título § De los Tribunales",
+    "action": "DELETE",
+    "content": "§ De los Tribunales",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "55",
+    "target_article": "Artículo 7",
+    "action": "MODIFY",
+    "content": "Artículo 7.- De los tribunales. El Sistema Nacional de Justicia está integrado por la justicia vecinal, los tribunales de instancia, las Cortes de Apelaciones y la Corte Suprema. Todos los tribunales estarán sometidos, a lo menos cada cinco años, a una revisión integral por el Consejo de la Justicia, que incluirá audiencias públicas, para determinar el correcto ejercicio de sus funciones en conformidad a lo señalado en la Constitución y la ley.",
+    "authors_raw": "Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "59 y 60",
+    "target_article": "Artículo 7 A",
+    "action": "DELETE",
+    "content": "Artículo 7 A.- Órganos jurisdiccionales ordinarios. Sin perjuicio del establecimiento o reconocimiento por esta Constitución de otros órganos con iguales potestades, el sistema de justicia estará integrado por los siguientes órganos jurisdiccionales ordinarios: 1. La Corte Suprema de Justicia. 2. Las Cortes de Apelaciones. 3. Los tribunales de instancia. 4. Los centros de justicia comunitaria. Conforme al principio de unidad de jurisdicción, no podrán establecerse tribunales especiales ajenos a la jurisdicción ordinaria, sin perjuicio que, en el seno de los órganos jurisdiccionales ordinarios, puedan contemplarse secciones especializadas para materias determinadas. Las sucesivas instancias procesales, en su caso, se agotarán ante órganos jurisdiccionales ordinarios situados en el mismo territorio de la región en que se encuentre situado el órgano competente en primera instancia, sin perjuicio de lo señalado en el artículo siguiente. Todos los órganos jurisdiccionales estarán sometidos a un estatuto orgánico común determinado por la ley. Las y los integrantes de los órganos jurisdiccionales, unipersonales o colegiados, se llamarán jueces o juezas, y no recibirán tratamiento honorífico alguno y sólo se requerirá proceder a su respecto en términos respetuosos. La planta de personal y organización administrativa interna de los tribunales será establecida por la ley.",
+    "authors_raw": "CC Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "62 y 63",
+    "target_article": "Artículo 7 B",
+    "action": "DELETE",
+    "content": "Artículo 7 B.- Estructura orgánica del Sistema Nacional de Justicia. El Sistema Nacional de Justicia estará compuesto por los siguientes Tribunales: 1. Un Tribunal Supremo de Justicia, con jurisdicción nacional, que será el órgano superior de todos los Tribunales de Justicia del país y tendrá como principal labor velar por la correcta aplicación del derecho por todos los Tribunales del Sistema de Justicia, así como las demás atribuciones que establezca esta Constitución y la ley. 2. Tribunales de Apelaciones, con jurisdicción sobre una región o parte de ella, encargadas principalmente de conocer los recursos de apelación que procedan contra resoluciones judiciales de Tribunales de Instancia, así como las demás competencias que establezca la Constitución y la ley. 3. Tribunales de Instancia, en los territorios y según la materia que la Constitución y la Iey definan.",
+    "authors_raw": "CC Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "64",
+    "target_article": "Artículo XX (nuevo)",
+    "action": "ADD",
+    "content": "Artículo XX. Acceso a la justicia intercultural. Las personas indígenas tienen derecho a una asistencia jurídica especializada, intérpretes, facilitadores interculturales y peritajes consultivos. El Estado debe garantizar que los órganos que intervienen en el proceso respeten y promuevan el derecho a acceder a una justicia con perspectiva intercultural. En sus resoluciones y razonamientos, los tribunales deberán considerar las costumbres, tradiciones, protocolos y el derecho propio de los pueblos y naciones.",
+    "authors_raw": "CC Jiménez",
+    "authors_matched": [
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "65",
+    "target_article": "Artículo XX (nuevo)",
+    "action": "ADD",
+    "content": "Artículo XX. Tutela efectiva de los derechos de los pueblos y naciones indígenas. Las personas pertenecientes a pueblos y naciones indígenas tienen derecho a acceder a un proceso judicial en la justicia ordinaria, a la tutela efectiva de sus derechos, a la pronta resolución de los conflictos y a la reparación efectiva de los daños causados, con pleno respeto a sus prácticas, sistemas jurídicos propios y los derechos garantizados en esta Constitución y el Derecho Internacional de los Derechos Humanos.",
+    "authors_raw": "CC Jiménez",
+    "authors_matched": [
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "66",
+    "target_article": "Artículo xx (nuevo)",
+    "action": "ADD",
+    "content": "Artículo xx: De los principios para la composición paritaria y plurinacional de los Tribunales del Sistema Nacional de Justicia. El Consejo Supremo de Justicia deberá asegurar que los nombramientos de juezas y jueces en los Tribunales del Sistema Nacional de Justicia se realizarán respetando los principios de paridad de género y de plurinacionalidad.",
+    "authors_raw": "CC Antilef, Coiguan y Linconao",
+    "authors_matched": [
+      "Antilef, Victorino",
+      "Caiguan, Alexis",
+      "Linconao, Francisca"
+    ]
+  },
+  {
+    "number": "67",
+    "target_article": "Epígrafes § De la Corte Suprema y § Tribunal Supremo de Justicia",
+    "action": "DELETE",
+    "content": "§ De la Corte Suprema” y “§ Tribunal Supremo de Justicia",
+    "authors_raw": "Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "72",
+    "target_article": "Artículo 8",
+    "action": "MODIFY",
+    "content": "Artículo 8.- De la Corte Suprema. La Corte Suprema es un órgano colegiado con jurisdicción en todo el país, que tiene como función velar por la correcta aplicación del derecho y uniformar su interpretación, así como las demás atribuciones que establezca esta Constitución y la ley. Se compone de veintiún juezas y jueces, elegidos conforme a criterios de paridad de género, plurinacionalidad y descentralización. Sus juezas y jueces duran en sus cargos un máximo de doce años sin posibilidad de reelección, pudiendo postular al término de dicho mandato a cualquier otro cargo del Sistema Nacional de Justicia distinto al de jueza o juez de la Corte Suprema. Funcionará en pleno o salas especializadas integradas por cinco juezas o jueces, de conformidad a lo dispuesto por la ley. La presidencia de la Corte Suprema será ejercida por una persona elegida por sus pares. Durará en sus funciones dos años sin posibilidad de ejercer nuevamente el cargo. Quien ejerza la Presidencia no podrá integrar alguna de las salas.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "77 y 78",
+    "target_article": "Artículo 8 A",
+    "action": "DELETE",
+    "content": "Artículo 8 A.- Funciones y composición. La Corte Suprema es el máximo tribunal que ejerce jurisdicción, y velará por la uniforme interpretación y aplicación de la ley, así como por la efectiva vigencia de los derechos y garantías constitucionales. Se compondrá de veintiún ministros, que durarán 10 años en el ejercicio de sus funciones o hasta cumplir los 75 años de edad. Cinco de los miembros de la Corte Suprema deberán ser abogados extraños a la administración de justicia, tener a lo menos quince años de título, haberse destacado en la actividad profesional o universitaria y cumplir los demás requisitos que señale la ley. Para ser ministro de la Corte Suprema, no será necesario haber sido ministro de corte de apelaciones, pudiendo ser designado cualquier juez de la República conforme al procedimiento antes referido y que cumpla con los requisitos que la ley señale, siempre que haya ejercido la función jurisdiccional por al menos 10 años.",
+    "authors_raw": "CC Saldaña; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Saldana, Alvin",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "85, 86 y 87",
+    "target_article": "Artículo 8 B",
+    "action": "DELETE",
+    "content": "Artículo 8 B.- Funciones y composición. Habrá una Corte Suprema, cuya función principal será uniformar la interpretación y aplicación judicial de la ley. Se compondrá de veintiún ministros, que durarán quince años en el ejercicio de sus funciones o hasta cumplir los setenta y cinco años de edad. Para ser ministro de la Corte Suprema, se requerirá cumplir con los requisitos que la ley señale y haber ejercido la función jurisdiccional por al menos quince años. Sin perjuicio de lo anterior, cinco de los miembros de la Corte Suprema deberán ser abogados extraños a la administración de justicia, tener a lo menos quince años de título, haberse destacado en la actividad profesional o universitaria y cumplir los demás requisitos que señale la ley.",
+    "authors_raw": "CC Saldaña; CC Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Saldana, Alvin",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "90, 91 y 92",
+    "target_article": "Artículo 8 C",
+    "action": "DELETE",
+    "content": "Artículo 8 C.- Corte Suprema. La Corte Suprema de Justicia es el máximo tribunal de la jurisdicción ordinaria, cuya función es velar por la correcta aplicación del derecho y uniformar su interpretación. Tendrá su sede en la capital del país, sin perjuicio de la posibilidad de sesionar extraordinariamente en cualquier punto del territorio. Se compondrá paritariamente de veintiún juezas y jueces, uno de los cuales será su presidenta o presidente, elegido por sus pares y que ejercerá sus funciones durante dos años.",
+    "authors_raw": "CC Saldaña; CC Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Saldana, Alvin",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "96, 97 y 98",
+    "target_article": "Artículo 8 D",
+    "action": "DELETE",
+    "content": "Artículo 8 D.- Tribunal Supremo de Justicia. El Tribunal Supremo es un órgano colegiado compuesto por veintiún integrantes, y tiene su sede en la capital de la República. La presidencia del Tribunal Supremo de Justicia será ejercida por la persona que resulte electa en votación directa por la mayoría de sus integrantes en ejercicio, quien durará en sus funciones dos años, sin reelección. Quien ejerza su Presidencia detentará las atribuciones administrativas que establezca la ley, y tendrá la vocería del Tribunal. Quienes integren el Tribunal Supremo de Justicia ejercerán su cargo por diez años, sin reelección. Cesarán en el cargo al cumplir 75 años de edad, por renuncia aceptada por tres quintos de los miembros en ejercicio del Consejo Supremo de Justicia, haber sido condenado por delitos contra la probidad o que merezcan pena aflictiva, o por cualquiera de las demás causales establecidas en la Constitución. La ley regulará el régimen de vacancias, subrogaciones y suplencias aplicable a los jueces del Tribunal Supremo de Justicia.",
+    "authors_raw": "CC Harboe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "102",
+    "target_article": "Artículo 9",
+    "action": "DELETE",
+    "content": "Artículo 9.- Nombramiento. Los jueces y juezas de la Corte Suprema serán designados por el Consejo Nacional de la Jurisdicción de acuerdo con lo que señale la ley. Para ser juez o jueza de la Corte Suprema se requiere haber desempeñado previamente el cargo de juez o jueza de Corte de Apelaciones por al menos cinco años.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "105",
+    "target_article": "Artículo 9 A",
+    "action": "DELETE",
+    "content": "Artículo 9 A.- Nombramiento de ministros y ministras. Los ministros de la Corte Suprema serán nombrados por el Presidente de la República con acuerdo del Senado. Para estos efectos, se formará una nómina de cinco personas que, en cada caso, elaborará el Consejo de la Judicatura, tras un concurso público de antecedentes y oposición regulado en conformidad a la ley. El Senado se reunirá en sesión especialmente convocada al efecto y resolverá la propuesta del Presidente de la República con acuerdo de la mayoría absoluta de los Senadores en ejercicio, dentro del plazo de quince días corridos contados desde conocida la propuesta. Si esta no fuere aprobada dentro de plazo, el Consejo de la Judicatura deberá completar la quina proponiendo un nuevo nombre en sustitución del rechazado, hasta que se efectúe un nombramiento. El procedimiento no se realizará más de tres veces, y en última instancia prevalecerá la propuesta del Presidente de la República, si no se reuniere el quórum.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "109",
+    "target_article": "Artículo 9 B",
+    "action": "DELETE",
+    "content": "Artículo 9 B.- Nombramientos. Los ministros de la Corte Suprema serán nombrados por el Presidente de la República con acuerdo del Senado. Para estos efectos, se formará una nómina de cinco personas que, en cada caso, elaborará el Consejo de la Judicatura, tras un concurso regulado en la ley. El Senado se reunirá en sesión especialmente convocada al efecto y resolverá la propuesta del Presidente de la República con acuerdo de dos tercios de los Senadores en ejercicio. Si el Senado no aprobare la propuesta del Presidente de la República, el Consejo de la Judicatura completará la quina proponiendo un nuevo nombre en sustitución del rechazado, repitiéndose el procedimiento hasta que se apruebe el nombramiento.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "111, 112 y 113",
+    "target_article": "Artículo 9 C",
+    "action": "DELETE",
+    "content": "Artículo 9 C.- Nombramientos.- Las juezas y jueces de la Corte Suprema durarán quince años en el ejercicio de sus funciones o hasta que cumplan setenta y cinco años, y serán nombrados por el Presidente o Presidenta de la República, con acuerdo de la mayoría absoluta de la Cámara Territorial, a partir de una quina elaborada por el Consejo de la Justicia. Para la confección de la quina, se deberá realizar un concurso público, transparente, con criterios técnicos y de mérito profesional.",
+    "authors_raw": "CC Harboe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "115 y 116",
+    "target_article": "Artículo 10",
+    "action": "DELETE",
+    "content": "Artículo 10.- Funcionamiento.- La Corte Suprema funcionará en salas especializadas, integradas por cinco juezas o jueces, o en pleno, de conformidad a lo dispuesto por la ley.",
+    "authors_raw": "CC Labra, Mayol y Cozzi; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "118 y 119",
+    "target_article": "Artículo 10 A",
+    "action": "DELETE",
+    "content": "Artículo 10 A.- Funcionamiento del Tribunal Supremo de Justicia. El Tribunal Supremo funcionará en Pleno o en Salas. Corresponderá a quien ejerza su Presidencia la asignación de las causas a cada una de sus salas según la materia en que recaigan, instalar diariamente las salas para su funcionamiento, elaborar las tablas de que deban conocer las salas y el pleno. Quien ejerza la Presidencia no podrá integrar alguna de las salas. Para el conocimiento de los asuntos de su competencia, el Tribunal Supremo funcionará dividido en cuatro salas permanentes, integrada cada una de ellas por cinco de sus miembros, quienes no podrán pertenecer a más de una sala simultáneamente. La Iey establecerá la forma de distribución de quienes integren el Tribunal Supremo entre las diferentes salas y de las materias que conocerá cada una de ellas.",
+    "authors_raw": "CC Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "122",
+    "target_article": "Artículo 11",
+    "action": "DELETE",
+    "content": "Artículo 11.- Requisitos. Cinco de los jueces y juezas de la Corte Suprema deberán ser abogados o abogadas extraños a la administración de justicia, tener a lo menos quince años de título profesional, haberse destacado en la actividad profesional o universitaria y cumplir los demás requisitos que señale la ley. Serán designados por el Consejo Nacional de la Jurisdicción mediante concurso público de antecedentes.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "124, 125 y 126",
+    "target_article": "Artículo 11 A",
+    "action": "DELETE",
+    "content": "Artículo 11 A.- Requisitos. Para ser juez o jueza de la Corte Suprema, se requerirá cumplir con los requisitos que la ley señale y haber ejercido con buen desempeño la función jurisdiccional por al menos diez años. Sin perjuicio de lo anterior, cinco integrantes de la Corte Suprema deberán ser abogadas o abogados que no integren órganos jurisdiccionales, tener a lo menos quince años de título, haberse destacado en la actividad profesional o universitaria y cumplir los demás requisitos que señale la ley.",
+    "authors_raw": "CC Harboe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "128, 129, 130",
+    "target_article": "Artículo 11 B",
+    "action": "DELETE",
+    "content": "Artículo 11 B.- Requisitos para ser juez del Tribunal Supremo de Justicia. Para asumir el cargo de juez del Tribunal Supremo se requiere: 1. Contar con la nacionalidad chilena. 2. Tener ciudadanía con derecho a sufragio. 3. Haber obtenido el título de abogado, con no menos de veinte años de antelación a su nombramiento. 4. No haber sido condenado por delitos contra la probidad o que merezca pena aflictiva. 5. Haber cursado satisfactoriamente el programa de formación especial para el ingreso a la función jurisdiccional establecido por la ley. 6. Contar con una trayectoria de excelencia en el ámbito judicial, académico o profesional. 7. Los demás que establezca esta Constitución y las leyes. En caso de que un integrante del Tribunal Supremo deje de cumplir con alguno de los requisitos señalados en este artículo, cesará en su cargo previa verificación en procedimiento sustanciado ante el Consejo Supremo de Justicia.",
+    "authors_raw": "CC Harboe; Bown y Hurtado: y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "132",
+    "target_article": "Epígrafes § Cortes de Apelaciones y § Tribunales de Apelaciones",
+    "action": "DELETE",
+    "content": "§ Cortes de Apelaciones” y “§ Tribunales de Apelaciones",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "137",
+    "target_article": "Artículo 12",
+    "action": "MODIFY",
+    "content": "Artículo 9.- De las Cortes de Apelaciones. Las Cortes de Apelaciones son órganos colegiados con jurisdicción sobre una región o parte de ella, cuya función principal es resolver las impugnaciones que se interpongan contra resoluciones de los tribunales de instancia, así como las demás competencias que establezca la Constitución y la ley. Se componen por el número de juezas o jueces que determine la ley, con un mínimo de cuatro conforme a criterios de paridad de género, plurinacionalidad y descentralización. Funcionará en pleno, o en salas preferentemente especializadas integradas por tres juezas o jueces, de conformidad a lo dispuesto por la ley. La presidencia de cada Corte de Apelaciones será ejercida por una persona elegida por sus pares. Durará en sus funciones dos años, sin posibilidad de ejercer nuevamente el cargo.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "143, 144 y 145",
+    "target_article": "Artículo 12 A",
+    "action": "DELETE",
+    "content": "Artículo 12 A.- Los Tribunales de Apelaciones. Los Tribunales de Apelaciones son órganos colegiados, cada uno de los cuales se componen por al menos cuatro integrantes. La ley determinará el número de Tribunales de Apelaciones que se establecerán para toda la República, así como las comunas que les servirán de asiento a cada uno de aquellos, su territorio jurisdiccional y el número de integrantes que las conforman. Cada Tribunal de Apelación nombrará a quien ejercerá su Presidencia de entre sus miembros, quien durará en sus funciones dos años, no pudiendo ser reelegido. La presidencia del Tribunal tendrá su vocería y Io representará ante los demás órganos del Estado, sin perjuicio de las demás atribuciones que le confiera la Constitución y la ley. Quienes integren los Tribunales de Apelaciones ejercerán su cargo por ocho años, no pudiendo ser reelegidos para la misma jurisdicción. Cesarán en el cargo al cumplir 75 años de edad, por renuncia aceptada por el Consejo Supremo de Justicia, por haber sido condenado por delitos contra la probidad o que merezcan pena aflictiva, o por cualquiera de las demás causales establecidas en la Constitución y la ley. La ley regulará el régimen de vacancias, subrogaciones y suplencias aplicable a los jueces de los Tribunales de Apelaciones.",
+    "authors_raw": "CC. Cruz y Laibe; Harboe; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Harboe, Felipe",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "147, 148, 149 y 150",
+    "target_article": "Artículo 13",
+    "action": "DELETE",
+    "content": "Artículo 13.- Funcionamiento de los Tribunales de Apelaciones. Los Tribunales de Apelaciones podrán funcionar en Pleno o en Salas especializadas. La Iey determinará el número de salas en que se dividirán para su funcionamiento y las materias de las cuales conocerán según sea el caso. Cada sala se integrará por tres jueces, quienes no podrán integrar más salas de forma simultánea. Quienes ejerzan la Presidencia de los Tribunales de Apelaciones deberán instalar diariamente las salas para su funcionamiento, elaborar las tablas de que deban conocer las salas y el pleno, y ejercer las demás atribuciones que establezca la Iey. La persona que ejerza la Presidencia no podrá integrar salas.",
+    "authors_raw": "CC. Cruz y Laibe; Labra, Mayol y Cozzi; Harboe; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Harboe, Felipe",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "151, 152, 153, y 154",
+    "target_article": "Artículo 14",
+    "action": "DELETE",
+    "content": "Artículo 14.- Requisitos para ser juez de los Tribunales de Apelaciones. Para asumir el cargo de juez de un Tribunal de Apelaciones se requiere: 1. Contar con la nacionalidad chilena. 2. Tener ciudadana con derecho a voto. 3. Haber obtenido el título de abogado, con no menos de diez años de antelación a su nombramiento. 4. No haber sido condenado por delitos contra la probidad o que merezca pena aflictiva. 5. Haber cursado satisfactoriamente el programa de formación especial para el ingreso a la función jurisdiccional establecido por la ley. 6. Contar con una trayectoria destacada en el ámbito judicial, académico o profesional. 7. Los demás que establezca esta Constitución y las leyes. En caso de que un integrante de un Tribunal de Apelaciones deje de cumplir con alguno de los requisitos señalados en este artículo, cesará en su cargo previa verificación en procedimiento sustanciado ante el Consejo Supremo de Justicia.",
+    "authors_raw": "CC. Cruz y Laibe; Labra, Mayol y Cozzi; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "156 y 157",
+    "target_article": "Epígrafe § Tribunales de Instancia",
+    "action": "DELETE",
+    "content": "§ Tribunales de Instancia",
+    "authors_raw": "CC. Cruz y Laibe; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "161",
+    "target_article": "Artículo 15",
+    "action": "MODIFY",
+    "content": "Artículo 10.- De los Tribunales de Instancia. Son tribunales de instancia los civiles, penales, de ejecución de penas, de familia, laborales, administrativos, ambientales, de competencia común o mixtos, vecinales y demás que establezca la ley. La competencia de estos tribunales y el número de juezas o jueces que los integrarán serán determinados por la ley.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "167, 168 y 169",
+    "target_article": "Artículo 15 A",
+    "action": "DELETE",
+    "content": "Artículo 15 A.- De los Tribunales de Instancia. Los Tribunales llamados a conocer en primera instancia de los conflictos jurídicos a lo largo del país serán los Tribunales de Letras, los Tribunales Administrativos, y los Tribunales Penales. La organización administrativa y la conformación de cada uno de los Tribunales de Instancia, así como su planta, será fijado por las normas que defina la Iey. Los Tribunales de Letras tendrán asiento en cada una de las comunas o agrupación de comunas que determine la Iey. Estarán integrados por una cantidad de jueces proporcional al número de habitantes del territorio en donde ejercen jurisdicción, en conformidad a la ley. Los Tribunales de Letras se organizan en salas unipersonales, las que podrán detentar una competencia común u organizarse por materias especializadas, tales como derecho civil, comercial, laboral, de familia, de ejecución de sentencias, o toda otra que determine la Iey. Habrá a lo menos un Tribunal Administrativo por región, según determine la ley, los que estarán integrados por no menos de cinco miembros, en conformidad a la Iey respectiva. Los Juzgados de Letras en lo Contencioso Administrativo contarán con, a lo menos, una sala especializada en (i) Derecho Administrativo, con competencia residual en materias de Derecho Público, (ii) Acciones constitucionales y de tutela de derechos fundamentales, (iii) Derecho Tributario y Aduanero, y (iv) Juicio de cuentas. Las demás salas podrán detentar una competencia en derecho público común u organizarse por materias especializadas en el ámbito público, según determine la Iey. Los Tribunales Penales estarán integrados por los Tribunales de Garantías, Tribunales de Ejecución de Penas y Tribunales de Juicio Oral en lo Penal. Los Tribunales de Garantías y los Tribunales de Ejecución de Penas estarán conformados por uno o más jueces con competencia en un mismo territorio jurisdiccional. Los Tribunales de Juicio Oral en lo Penal funcionarán en una o más salas integradas por tres de sus miembros. Las competencias, atribuciones, funcionamiento, territorios jurisdiccionales y la administración interna de los Tribunales Penales serán determinados por la Iey. Quienes ejercen jurisdicción en los Tribunales de Justicia señalados en los incisos anteriores permanecerán en sus cargos por ocho años o hasta el cumplimiento de los 75 años de edad, pudiendo ser reelegidos. La ley regulará el régimen de vacancias, subrogaciones y suplencias aplicable a los jueces de los Tribunales de Instancia.",
+    "authors_raw": "CC Cruz y Laibe; Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Bown y Hurtado",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Bown, Carol",
+      "Hurtado, Maximiliano"
+    ]
+  },
+  {
+    "number": "174, 175, 176, 177 y 178",
+    "target_article": "Artículo 16",
+    "action": "DELETE",
+    "content": "Artículo 16.- De los Tribunales de Instancia Especiales. La Iey podrá crear Tribunales de Instancia Especiales para conocer causas de una materia específica. La Iey establecerá su ámbito de competencia, así como la determinación de su planta de funcionarios. Todo Tribunal de Instancia Especial deberá configurarse en conformidad a los principios y normas establecidos en la presente Constitución, y sujetarse a la regulación orgánica que establezca la ley para el Sistema Nacional de Justicia, en respeto al principio de unidad jurisdiccional. No podrán crearse tribunales especiales fuera del Sistema Nacional de Justicia.",
+    "authors_raw": "CC Cruz y Laibe; Labra, Mayol y Cozzi; Harboe; Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Bown y Hurtado",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Harboe, Felipe",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Bown, Carol",
+      "Hurtado, Maximiliano"
+    ]
+  },
+  {
+    "number": "181, 182, 183 y 184",
+    "target_article": "Artículo 17",
+    "action": "DELETE",
+    "content": "Artículo 17.- Requisitos para ser Juez de un Tribunal de Instancia o Tribunal de Instancia Especial. Para asumir el cargo de juez de un Tribunal de Instancia o de Instancia Especial se requiere: 1. Contar con la nacionalidad chilena. 2. Tener ciudadanía con derecho a sufragio. 3. Contar con el título de abogado, en el caso de los Tribunales de Primera Instancia. En el caso de los Tribunales de Instancia Especial, se deberá contar con un título profesional pertinente a la materia de su competencia. 4. No haber sido condenado por delitos contra la probidad o que merezca pena aflictiva. 5. Haber cursado satisfactoriamente el programa de formación especial para el ingreso a la función jurisdiccional establecido por la Iey. 6. Contar con una trayectoria destacada en el ámbito judicial, académico o profesional. 7. Los demás que establezca esta Constitución y las leyes. En caso de que un integrante de un Tribunal de Instancia o de Instancia especial deje de cumplir con alguno de los requisitos señalados en este artículo cesará en su cargo previa verificación en procedimiento sustanciado ante el Consejo Supremo de Justicia.",
+    "authors_raw": "CC Cruz y Laibe; Labra, Mayol y Cozzi; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "188, 189, 190 y 191",
+    "target_article": "Artículo 18",
+    "action": "DELETE",
+    "content": "Artículo 18.- De los principios para la composición paritaria y plurinacional de los Tribunales del Sistema Nacional de Justicia. El Consejo Supremo de Justicia deberá asegurar que los nombramientos de juezas y jueces en los Tribunales del Sistema Nacional de Justicia se realizarán respetando los principios de paridad de género y de plurinacionalidad. En el nombramiento de las juezas y jueces integrantes de los Tribunales de Apelaciones y Tribunales de Instancia, se garantizará un número de cargos para jueces pertenecientes a pueblos originarios en conformidad a la proporción que tengan dichos pueblos en la población total del territorio jurisdiccional que corresponda. La Iey establecerá los procedimientos adecuados para garantizar dicha proporcionalidad.",
+    "authors_raw": "CC Cruz y Laibe; Labra, Mayol y Cozzi; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Labbe, Bastian",
+      "Mayol, Luis",
+      "Cozzi, Ruggero",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "194, 195 y 196",
+    "target_article": "Epígrafe § Justicia administrativa",
+    "action": "DELETE",
+    "content": "§ Justicia administrativa",
+    "authors_raw": "CC Harboe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Maximiliano",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  }
+]

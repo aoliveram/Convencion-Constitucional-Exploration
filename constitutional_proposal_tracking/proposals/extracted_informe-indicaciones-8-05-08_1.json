@@ -1,0 +1,667 @@
+[
+  {
+    "number": "1",
+    "target_article": "Nuevo artículo (antes del Artículo 1)",
+    "action": "ADD",
+    "content": "Artículo nuevo.- Juezas o jueces especialistas y no letrados. La ley podrá determinar que, en la composición de los tribunales de instancia que fueren colegiados, uno o más de las o los jueces sea un profesional especialista en la materia de su competencia y que no posea la calidad de abogada o abogado. Con todo, la mayoría de dichos integrantes deberán tener el título de abogada o abogado.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "2",
+    "target_article": "Artículo 1, inciso tercero",
+    "action": "MODIFY",
+    "content": "Habrá al menos un Tribunal Ambiental en cada región del país.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "4",
+    "target_article": "Artículo 1",
+    "action": "ADD",
+    "content": "La ley regulará la integración, competencia y demás aspectos que sean necesarios para su adecuado funcionamiento.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "5",
+    "target_article": "Artículo 3, inciso tercero",
+    "action": "MODIFY",
+    "content": "La facultad exclusiva de ciertos órganos de la administración para presentar denuncias y querellas, no impedirá que el Ministerio Público investigue y ejerza la acción penal pública, en el caso de delitos que atenten en contra de la probidad, el patrimonio público o lesionen bienes jurídicos colectivos.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "6",
+    "target_article": "Artículo 6",
+    "action": "MODIFY",
+    "content": "Artículo 6.- Dirección del Ministerio Público. La dirección superior del Ministerio Público reside en la o el Fiscal Nacional, quien durará seis años en el cargo, sin reelección.\nLa o el Fiscal Nacional será nombrado por la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y la Cámara de las Regiones en sesión conjunta, a partir de una terna propuesta por la o el Presidente de la República, quien contará con la asistencia técnica del Consejo de la Alta Dirección Pública, conforme al procedimiento que determine la ley.\nCorresponderá al Fiscal Nacional:\na) Dirigir las sesiones ordinarias y extraordinarias del Comité del Ministerio Público.\nb) Representar a la institución ante los demás órganos del Estado.\nc) Impulsar la ejecución de la política de persecución penal en el país.\nd) Determinar la política de gestión profesional de las y los funcionarios del Ministerio Público.\ne) Presidir el Comité del Ministerio Público.\nf) Designar a los fiscales regionales, a partir de una terna elaborada por la Asamblea Regional respectiva.\ng) Designar a los fiscales adjuntos, a partir de una terna elaborada por el Comité del Ministerio Público.\nh) Las demás atribuciones que establezca la Constitución y la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "14",
+    "target_article": "Artículo 7",
+    "action": "MODIFY",
+    "content": "Artículo 7°.- De los requisitos para el cargo de Fiscal Nacional. La o el Fiscal Nacional debe tener a lo menos quince años de título de abogado, tener ciudadanía con derecho a sufragio y contar con comprobadas competencias para el cargo.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "16",
+    "target_article": "Artículo 8",
+    "action": "MODIFY",
+    "content": "Artículo 8.- Atribuciones del Comité del Ministerio Público. Son atribuciones del Comité del Ministerio Público las siguientes:\na) Asesorar al Fiscal Nacional en la dirección del organismo, velando por el cumplimiento de sus objetivos.\nb) Evaluar y calificar permanentemente el desempeño de las y los funcionarios del Ministerio Público.\nc) Ejercer la potestad disciplinaria respecto de las y los funcionarios del Ministerio Público, en conformidad a la ley.\nd) Designar al Director Ejecutivo Nacional.\ne) Proponer al Fiscal Nacional las ternas para el nombramiento de los fiscales adjuntos.\nf) Las demás atribuciones que establezca la Constitución y la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "20",
+    "target_article": "Nuevo artículo (12 bis)",
+    "action": "ADD",
+    "content": "Artículo 12 bis. Remoción. El Fiscal Nacional y los fiscales regionales serán removidos por la Corte Suprema, a requerimiento del Presidente de la República, del Congreso de Diputadas y Diputados, o de diez de sus miembros, por incapacidad, falta grave a la probidad o negligencia manifiesta en el ejercicio de sus funciones. La Corte conocerá del asunto en pleno especialmente convocado al efecto y para acordar la remoción deberá reunir el voto conforme de la mayoría de sus miembros en ejercicio. La remoción de los fiscales regionales también podrá ser solicitada por el o la Fiscal Nacional.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "21",
+    "target_article": "Nuevo artículo (13 bis)",
+    "action": "ADD",
+    "content": "Artículo 13 bis.- Del principio de legalidad de los procedimientos. Los procedimientos judiciales serán establecidos por ley.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "22",
+    "target_article": "Nuevo artículo (13 ter)",
+    "action": "ADD",
+    "content": "Artículo 13 ter.- La Constitución asegura la asistencia y ajustes de procedimientos necesarios y adecuados a la edad o discapacidad de las personas, según corresponda, a fin de poder de que ellas puedan intervenir debidamente en el proceso.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "24",
+    "target_article": "Artículo 16",
+    "action": "MODIFY",
+    "content": "Artículo 16. Del principio de legalidad de los delitos y las penas. Ninguna persona podrá ser condenada por acciones u omisiones que al producirse no constituyan delito, según la legislación vigente en aquel momento.\nNingún delito se castigará con otra pena que la señalada por una ley que haya entrado en vigencia con anterioridad a su perpetración, a menos que una nueva ley favorezca al imputado.\nNinguna ley podrá establecer penas sin que la conducta que se sanciona esté descrita de manera clara y precisa en ella.\nLo establecido en este artículo también será aplicable a las medidas de seguridad.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "27",
+    "target_article": "Artículo 20, inciso segundo",
+    "action": "MODIFY",
+    "content": "En las causas en que intervenga la Defensoría Penal Pública, podrá concurrir ante los organismos internacionales de derechos humanos.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "29",
+    "target_article": "Artículo 21",
+    "action": "MODIFY",
+    "content": "Artículo 21.- De la defensa penal pública. La función de defensa penal pública será ejercida exclusivamente por defensoras y defensores penales públicos.\nLos servicios de defensa jurídica que preste la Defensoría Penal Pública no podrán ser licitados o delegados en abogados particulares, sin perjuicio de la contratación excepcional que pueda realizar en los casos y forma que establezca la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "31",
+    "target_article": "Artículo 22",
+    "action": "MODIFY",
+    "content": "Articulo 22.- Dirección de la Defensoría Penal Pública. La dirección superior de la Defensoría Penal Pública será ejercida por la o el Defensor Nacional, quien durará seis años en su cargo, sin reelección. La Defensora o Defensor Nacional será nombrado por la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y la Cámara de las Regiones en sesión conjunta, a partir de una terna propuesta por la o el Presidente de la República, conforme al procedimiento que determine la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 27, inciso segundo",
+    "action": "MODIFY",
+    "content": "Todo órgano deberá colaborar con los requerimientos de la Defensoría del Pueblo, pudiendo acceder a la información necesaria, y constituirse en dependencias de los órganos objeto de fiscalización, en conformidad a la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "40",
+    "target_article": "Artículo 28, inciso primero",
+    "action": "MODIFY",
+    "content": "Artículo 28.- Organización de la Defensoría del Pueblo. La dirección de la Defensoría del Pueblo estará a cargo de una Defensora o Defensor del Pueblo, quien será designado por la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y de la Cámara de las Regiones, en sesión conjunta, a partir de una terna elaborada por las organizaciones sociales y de derechos humanos, en la forma que determine la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "41",
+    "target_article": "Artículo 31",
+    "action": "MODIFY",
+    "content": "Artículo 31.- Atribuciones de la Defensoría de Naturaleza. La Defensoría de la Naturaleza tendrá las siguientes atribuciones: Fiscalizar a los órganos del Estado en el cumplimiento de sus obligaciones en materia de derechos ambientales y derechos de la Naturaleza; formular recomendaciones en las materias de su competencia; tramitar y hacer seguimiento de los reclamos sobre vulneraciones de derechos ambientales y derivar en su caso; deducir acciones constitucionales y legales, cuando se vulneren derechos ambientales y de la naturaleza, y las demás que le encomiende la Constitución y la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "42",
+    "target_article": "Artículo 32",
+    "action": "MODIFY",
+    "content": "Artículo 32.- Dirección de la Defensoría de la Naturaleza. La dirección de la Defensoría de la Naturaleza estará a cargo de una Defensora o Defensor de la Naturaleza, quien será designado por la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y de la Cámara de las Regiones, en sesión conjunta, a partir de una terna elaborada por las organizaciones ambientales de la sociedad civil, en la forma que determine la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "44",
+    "target_article": "Epígrafe de Capítulo",
+    "action": "ADD",
+    "content": "Capítulo [XX].- Consejo y Agencia del Medio Ambiente.",
+    "authors_raw": "CC Villena y Bravo",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel"
+    ]
+  },
+  {
+    "number": "45",
+    "target_article": "Artículo 33",
+    "action": "MODIFY",
+    "content": "Artículo 33.- Del Consejo del Medio Ambiente. El Consejo del Medio Ambiente es un órgano autónomo, colegiado, con personalidad jurídica y patrimonio propio, encargado de la evaluación de impacto ambiental de proyectos, dictar la autorización final del proceso de evaluación ambiental y demás facultades que establezca ley. Las decisiones que dicte este órgano sólo serán impugnables ante los tribunales de justicia. Las y los integrantes del órgano de dirección del Consejo del Medio Ambiente serán elegidos por el Congreso de Diputadas y Diputados y de la Cámara de las Regiones en sesión conjunta. La ley determinará la organización, funcionamiento y procedimientos del Consejo del Medio Ambiente.",
+    "authors_raw": "CC Villena y Bravo",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel"
+    ]
+  },
+  {
+    "number": "47",
+    "target_article": "Artículo 34",
+    "action": "MODIFY",
+    "content": "Artículo 34.- De la Agencia del Medio Ambiente. La fiscalización y sanción de las infracciones a las normas e instrumentos de protección ambiental será competencia de la Agencia del Medioambiente, órgano autónomo cuya integración y atribuciones serán determinadas por la ley. La autoridad de dirección de la Agencia del Medio Ambiente será elegida por la Cámara de las Regiones.",
+    "authors_raw": "CC Villena y Bravo",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel"
+    ]
+  },
+  {
+    "number": "48",
+    "target_article": "Artículo 35, inciso segundo",
+    "action": "MODIFY",
+    "content": "Entre las demás funciones que determine la ley, la Agencia Nacional del Agua deberá liderar y coordinar a los organismos con competencia en materia hídrica; velar por el cumplimiento de la Política Hídrica Nacional que establezca la autoridad respectiva; otorgar, revisar, modificar, caducar o revocar autorizaciones administrativas sobre las aguas; implementar y monitorear los instrumentos de gestión y protección ambiental establecidos en ella; coordinar y elaborar un sistema unificado de información de carácter público; e impulsar la constitución de organismos a nivel de cuencas, a quienes prestará asistencia, para que realicen la gestión integrada, gobernanza participativa y planificación de las intervenciones en los cuerpos de agua y los ecosistemas asociados a la o las respectivas cuencas.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "50",
+    "target_article": "Nuevo artículo (35 bis)",
+    "action": "ADD",
+    "content": "Artículo 35 bis.- De la coordinación de la Autoridad Nacional del Agua. La ley regulará las instancias de coordinación entre la Autoridad Nacional del Agua y el Ejecutivo, especialmente respecto de la Política Nacional Hídrica, así también la organización, designación, estructura, funcionamiento, y demás funciones y competencias de la Autoridad Nacional, como de los organismos de cuenca.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "51",
+    "target_article": "Artículo 36",
+    "action": "MODIFY",
+    "content": "Artículo 36.- De la Dirección de la Agencia Nacional del Agua. La Agencia Nacional del Agua tendrá una o un Director Nacional, quien será designado por la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y la Cámara de las Regiones, en sesión conjunta, a partir de una terna elaborada por el Consejo de Alta Dirección Pública, por un período de seis años y no podrá ser designado para un nuevo período. Las candidatas y candidatos no podrán haber desempeñado cargos de elección popular, así como tampoco podrán haber desarrollado funciones en el gobierno o administración del Estado en cargos que sean de exclusiva confianza de la o el Presidente de la República, en los últimos dieciocho meses. La ley regulará las instancias de coordinación entre la Agencia Nacional del Agua y el gobierno, especialmente respecto de la Política Hídrica Nacional, la organización, estructura, competencias y funcionamiento de la Agencia.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "54",
+    "target_article": "Artículo 38",
+    "action": "MODIFY",
+    "content": "Artículo 38.- Objeto del Banco Central. Le corresponderá en especial al Banco Central, para contribuir al bienestar de la población, velar por la estabilidad de los precios y el normal funcionamiento de los pagos internos y externos. Para el cumplimiento de sus objetivos, el Banco Central deberá considerar la estabilidad financiera, la volatilidad cambiaria, la protección del empleo, el cuidado del medioambiente y patrimonio natural y los principios que señale la Constitución y la ley. El Banco, al adoptar sus decisiones, deberá tener presente la orientación general de la política económica del gobierno.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "61",
+    "target_article": "Artículo 39",
+    "action": "MODIFY",
+    "content": "Artículo 39.- Atribuciones del Banco Central. Son atribuciones del Banco Central la regulación de la cantidad de dinero y de crédito en circulación, la ejecución de operaciones de crédito y cambios internacionales, como, asimismo, la dictación de normas en materia monetaria, crediticia, financiera y de cambios internacionales, y las demás que establezca la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "64",
+    "target_article": "Artículo 40",
+    "action": "MODIFY",
+    "content": "Artículo 40.- De las limitaciones. El Banco Central sólo podrá efectuar operaciones con instituciones financieras, sean éstas públicas o privadas. De ninguna manera podrá otorgar a ellas su garantía, ni adquirir documentos emitidos por el Estado, sus organismos o empresas. Ningún gasto público o préstamo podrá financiarse con créditos directos e indirectos del Banco Central. Sin perjuicio de lo anterior, en situaciones excepcionales y transitorias en las que así lo requiera la preservación del normal funcionamiento de los pagos internos y externos, el Banco Central podrá comprar durante un período determinado y vender en el mercado secundario abierto, instrumentos de deuda emitidos por el Fisco, en conformidad a la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "68",
+    "target_article": "Nuevo artículo (40 bis)",
+    "action": "ADD",
+    "content": "Artículo 40 bis.- Del principio de no discriminación. El Banco Central no podrá adoptar ningún acuerdo que signifique de una manera directa o indirecta establecer normas o requisitos diferentes o discriminatorios en relación a personas, instituciones o entidades que realicen operaciones de la misma naturaleza.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "69",
+    "target_article": "Artículo 42, incisos segundo, tercero y cuarto",
+    "action": "MODIFY",
+    "content": "“El Consejo estará integrado por siete consejeras y consejeros designados por la o el Presidente de la República, con acuerdo de la mayoría de las y los integrantes del Congreso de las Diputadas y Diputados y la Cámara de las Regiones, en sesión conjunta.\nDurarán en el cargo por un período de diez años, no reelegibles, renovándose por parcialidades en conformidad a la ley.\nLas y los consejeros del Banco Central deben ser profesionales de comprobada idoneidad y trayectoria en materias relacionadas con las competencias de la institución.\nLa o el Presidente del Consejo, que lo será también del Banco, será designado por la o el Presidente de la República de entre las y los integrantes del Consejo, y durará cinco años en este cargo o el tiempo menor que le reste como consejero, pudiendo ser reelegido para un nuevo periodo.”",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "72",
+    "target_article": "Artículo 43",
+    "action": "MODIFY",
+    "content": "Artículo 43.- Responsabilidad de las y los consejeros del Banco Central. Las y los integrantes del Consejo podrán ser destituidos de sus cargos por resolución de la mayoría de los integrantes del pleno de la Corte Suprema, previo requerimiento de la mayoría de quienes ejerzan como consejeros, de la o el Presidente de la República, de la mayoría de los integrantes del Congreso de Diputadas y Diputados o de la Cámara de las Regiones, conforme al procedimiento que establezca la ley. La remoción sólo podrá fundarse en la circunstancia de que el consejero afectado hubiere realizado actos graves en contra de la probidad pública, o haber incurrido en alguna de las prohibiciones o incompatibilidades establecidas en la Constitución o la ley, o haya concurrido con su voto a decisiones que afectan gravemente la consecución del objeto del Banco. La persona destituida no podrá ser designada nuevamente como integrante del Consejo, ni ser funcionaria o funcionario del Banco Central o prestarle servicios, sin perjuicio de las demás sanciones que establezca la ley.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "75",
+    "target_article": "Artículo 44",
+    "action": "MODIFY",
+    "content": "Artículo 44.- Inhabilidades e incompatibilidades de consejeras y consejeros. No podrán integrar el Consejo quienes en los doce meses anteriores a su designación hayan participado en la propiedad o ejercido como director, gerente o ejecutivo principal de una empresa bancaria, administradora de fondos, o cualquiera otra que preste servicios de intermediación financiera, sin perjuicio de las demás inhabilidades que establezca la ley. Una vez que hayan cesado en sus cargos, los integrantes del Consejo tendrán la misma incompatibilidad por un periodo de doce meses.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "76",
+    "target_article": "Artículo 46, inciso primero",
+    "action": "MODIFY",
+    "content": "Artículo 46.- De la dirección de la Contraloría General de la República. La dirección de la Contraloría General de la República estará a cargo de una Contralora o Contralor General, quien será designado por la o el Presidente de la República, con acuerdo de la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y la Cámara de las Regiones, en sesión conjunta.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "78",
+    "target_article": "Artículo 47, inciso tercero",
+    "action": "MODIFY",
+    "content": "Tratándose de la representación por inconstitucionalidad no procederá insistencia y el pronunciamiento de la Contraloría será reclamable ante la Corte Constitucional.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "80",
+    "target_article": "Artículo 51",
+    "action": "MODIFY",
+    "content": "Artículo 51.- Del Consejo de Defensa del Estado. El Consejo de Defensa del Estado es un servicio público, dotado de personalidad jurídica, bajo la supervigilancia directa del Presidente de la República e independiente de los diversos Ministerios, que tiene por objeto, principalmente, la defensa judicial de los intereses del Estado.\nSe compondrá de doce abogadas o abogados elegidos por el Presidente de la República, de una terna elaborada por el Consejo de Alta Dirección Pública, previo concurso público.\nPodrán ser consejeras o consejeros abogadas y abogados con, a lo menos, diez años desde la obtención del título de abogado, y que se hayan destacado en la actividad profesional.\nLas y los integrantes del Consejo serán inamovibles en sus cargos y ejercerán sus funciones de forma exclusiva, no pudiendo desempeñar otro empleo o función. Durarán en sus cargos por un plazo de diez años, sin posibilidad de reelección.\nUna ley regulará su organización, atribuciones, procedimientos y su planta funcionaria.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "81",
+    "target_article": "Artículo 52",
+    "action": "MODIFY",
+    "content": "Artículo 52.- Del Servicio Electoral. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Servicio Electoral, ejercerá la administración, supervigilancia y fiscalización de los procesos electorales y plebiscitarios, del cumplimiento de las normas sobre transparencia, límite y control del gasto electoral, de las normas sobre organizaciones políticas, de las normas relativas a mecanismos de democracia directa y participación ciudadana, así como las demás funciones que señale la Constitución y la ley. La dirección superior del Servicio Electoral corresponderá a un Consejo Directivo, el que ejercerá de forma exclusiva las atribuciones que le encomienden la Constitución y las leyes. Dicho Consejo estará integrado por cinco consejeras y consejeros designados por la o el Presidente de la República, con acuerdo de la mayoría de las y los integrantes del Congreso de Diputadas y Diputados y de la Cámara de las Regiones en sesión conjunta. Las y los consejeros durarán ocho años en sus cargos, no podrán ser reelegidos y se renovarán por parcialidades cada cuatro años. Las y los consejeros sólo podrán ser removidos por la Corte Suprema a requerimiento de la o el Presidente de la República, de la mayoría absoluta de los miembros en ejercicio del Congreso de Diputadas y DIputados o de la Cámara de las Regiones, por infracción grave a la Constitución o a las leyes, incapacidad legal sobreviniente, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones. La Corte conocerá del asunto en pleno especialmente convocado al efecto y, para acordar la remoción deberá reunir el voto conforme de la mayoría de sus juezas y jueces.",
+    "authors_raw": "CC Villena, Bravo, Hoppe, Royo, Jiménez, Cruz, Laibe, Stingo, Viera, Woldarsky, Llanquileo, Gutiérrez y Daza",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Jimenez, Luis",
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Stingo, Daniel",
+      "Viera, Christian",
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio"
+    ]
+  }
+]

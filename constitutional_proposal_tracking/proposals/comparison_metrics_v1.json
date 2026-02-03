@@ -1,0 +1,3495 @@
+[
+  {
+    "Article ID": "1",
+    "Final Length": 933,
+    "Similarity": 0.02763677382966723,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "2",
+    "Final Length": 498,
+    "Similarity": 0.017249828481819073,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "3",
+    "Final Length": 653,
+    "Similarity": 0.026281208935611037,
+    "Source Initiatives": "97-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "4",
+    "Final Length": 163,
+    "Similarity": 0.006688285366842318,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "5",
+    "Final Length": 366,
+    "Similarity": 0.012709760699036838,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "6",
+    "Final Length": 1599,
+    "Similarity": 0.0199929228591649,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "7",
+    "Final Length": 97,
+    "Similarity": 0.0023596242079965044,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "8",
+    "Final Length": 498,
+    "Similarity": 0.024110555718906204,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "9",
+    "Final Length": 693,
+    "Similarity": 0.01865743412194653,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "10",
+    "Final Length": 1405,
+    "Similarity": 0.02304230423042304,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "11",
+    "Final Length": 302,
+    "Similarity": 0.015589087638652943,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "12",
+    "Final Length": 807,
+    "Similarity": 0.02149923896499239,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "13",
+    "Final Length": 2660,
+    "Similarity": 0.024747270521633644,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "14",
+    "Final Length": 1238,
+    "Similarity": 0.015150253891617414,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "15",
+    "Final Length": 279,
+    "Similarity": 0.010416666666666666,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "16",
+    "Final Length": 278,
+    "Similarity": 0.014828544949026877,
+    "Source Initiatives": "97-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "17",
+    "Final Length": 580,
+    "Similarity": 0.01011181332036947,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "18",
+    "Final Length": 1451,
+    "Similarity": 0.02491932592326999,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "19",
+    "Final Length": 645,
+    "Similarity": 0.013669999435123991,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "20",
+    "Final Length": 259,
+    "Similarity": 0.003926777155396431,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "21",
+    "Final Length": 468,
+    "Similarity": 0.010812936203676399,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "22",
+    "Final Length": 151,
+    "Similarity": 0.002435064935064935,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "23",
+    "Final Length": 293,
+    "Similarity": 0.017003400680136026,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "24",
+    "Final Length": 1040,
+    "Similarity": 0.014268927312405573,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "25",
+    "Final Length": 1740,
+    "Similarity": 0.019571865443425075,
+    "Source Initiatives": "41-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "26",
+    "Final Length": 2806,
+    "Similarity": 0.011955927170430569,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "27",
+    "Final Length": 169,
+    "Similarity": 0.0027878207082806987,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "28",
+    "Final Length": 460,
+    "Similarity": 0.009818472428359402,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "29",
+    "Final Length": 1682,
+    "Similarity": 0.022567267817533033,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "30",
+    "Final Length": 1048,
+    "Similarity": 0.01869542886492039,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "31",
+    "Final Length": 1377,
+    "Similarity": 0.02344992050874404,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "32",
+    "Final Length": 2138,
+    "Similarity": 0.021295318549806406,
+    "Source Initiatives": "220-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "33",
+    "Final Length": 1488,
+    "Similarity": 0.014348894348894348,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "34",
+    "Final Length": 1019,
+    "Similarity": 0.024792581747193752,
+    "Source Initiatives": "220-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "35",
+    "Final Length": 523,
+    "Similarity": 0.012357173085061363,
+    "Source Initiatives": "319-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "36",
+    "Final Length": 435,
+    "Similarity": 0.015690287371024132,
+    "Source Initiatives": "319-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "37",
+    "Final Length": 1205,
+    "Similarity": 0.013421531972006519,
+    "Source Initiatives": "220-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "38",
+    "Final Length": 556,
+    "Similarity": 0.011478730587440918,
+    "Source Initiatives": "319-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "39",
+    "Final Length": 1206,
+    "Similarity": 0.018883021283405344,
+    "Source Initiatives": "319-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "40",
+    "Final Length": 126,
+    "Similarity": 0.004729374671571204,
+    "Source Initiatives": "319-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "41",
+    "Final Length": 560,
+    "Similarity": 0.027684654482534876,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "42",
+    "Final Length": 1774,
+    "Similarity": 0.010096897646771436,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "43",
+    "Final Length": 327,
+    "Similarity": 0.0038070516980315814,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "44",
+    "Final Length": 162,
+    "Similarity": 0.003747276688453159,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "45",
+    "Final Length": 607,
+    "Similarity": 0.0066680914725368665,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "46",
+    "Final Length": 382,
+    "Similarity": 0.007768666378938282,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "47",
+    "Final Length": 615,
+    "Similarity": 0.0035413899955732625,
+    "Source Initiatives": "226-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "48",
+    "Final Length": 91,
+    "Similarity": 0.011111111111111112,
+    "Source Initiatives": "242-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "49",
+    "Final Length": 1245,
+    "Similarity": 0.017660044150110375,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "50",
+    "Final Length": 930,
+    "Similarity": 0.018244731047499213,
+    "Source Initiatives": "242-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "51",
+    "Final Length": 768,
+    "Similarity": 0.016572754391779913,
+    "Source Initiatives": "242-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "52",
+    "Final Length": 153,
+    "Similarity": 0.012489592006661115,
+    "Source Initiatives": "242-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "53",
+    "Final Length": 400,
+    "Similarity": 0.01933301111648139,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "54",
+    "Final Length": 327,
+    "Similarity": 0.018633540372670808,
+    "Source Initiatives": "242-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "55",
+    "Final Length": 1673,
+    "Similarity": 0.004435409351321382,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "56",
+    "Final Length": 3674,
+    "Similarity": 0.00836481381543443,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "57",
+    "Final Length": 539,
+    "Similarity": 0.03740939911152677,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "58",
+    "Final Length": 382,
+    "Similarity": 0.01407766990291262,
+    "Source Initiatives": "324-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "59",
+    "Final Length": 411,
+    "Similarity": 0.003707056338635286,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "60",
+    "Final Length": 212,
+    "Similarity": 0.009945536348567369,
+    "Source Initiatives": "190-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "61",
+    "Final Length": 498,
+    "Similarity": 0.009390746678882272,
+    "Source Initiatives": "190-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "62",
+    "Final Length": 451,
+    "Similarity": 0.0204951065054692,
+    "Source Initiatives": "190-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "63",
+    "Final Length": 246,
+    "Similarity": 0.011084905660377358,
+    "Source Initiatives": "190-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "64",
+    "Final Length": 711,
+    "Similarity": 0.007208387942332897,
+    "Source Initiatives": "95-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "65",
+    "Final Length": 211,
+    "Similarity": 0.007412125774509237,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "66",
+    "Final Length": 169,
+    "Similarity": 0.004968383017163505,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "67",
+    "Final Length": 449,
+    "Similarity": 0.01926444833625219,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "68",
+    "Final Length": 503,
+    "Similarity": 0.011935940921385942,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "69",
+    "Final Length": 694,
+    "Similarity": 0.010561280981177071,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "70",
+    "Final Length": 721,
+    "Similarity": 0.024447278911564625,
+    "Source Initiatives": "88-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "71",
+    "Final Length": 290,
+    "Similarity": 0.00853124279455845,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "72",
+    "Final Length": 179,
+    "Similarity": 0.009508348794063079,
+    "Source Initiatives": "95-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "73",
+    "Final Length": 849,
+    "Similarity": 0.015063481816225521,
+    "Source Initiatives": "95-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "74",
+    "Final Length": 376,
+    "Similarity": 0.005935938877461064,
+    "Source Initiatives": "90-6, 98-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "75",
+    "Final Length": 350,
+    "Similarity": 0.010454963235294117,
+    "Source Initiatives": "232-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "76",
+    "Final Length": 499,
+    "Similarity": 0.025916561314791402,
+    "Source Initiatives": "198-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "77",
+    "Final Length": 185,
+    "Similarity": 0.004004701170939799,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "78",
+    "Final Length": 228,
+    "Similarity": 0.004171011470281543,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "79",
+    "Final Length": 419,
+    "Similarity": 0.010772611711983453,
+    "Source Initiatives": "90-6",
+    "Status": "Mapped"
+  },
+  {
+    "Article ID": "80",
+    "Final Length": 204,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "81",
+    "Final Length": 512,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "82",
+    "Final Length": 386,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "83",
+    "Final Length": 392,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "84",
+    "Final Length": 606,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "85",
+    "Final Length": 649,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "86",
+    "Final Length": 1476,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "87",
+    "Final Length": 171,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "88",
+    "Final Length": 515,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "89",
+    "Final Length": 1336,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "90",
+    "Final Length": 1165,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "91",
+    "Final Length": 3054,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "92",
+    "Final Length": 705,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "93",
+    "Final Length": 2319,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "94",
+    "Final Length": 1013,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "95",
+    "Final Length": 271,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "96",
+    "Final Length": 1063,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "97",
+    "Final Length": 1005,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "98",
+    "Final Length": 881,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "99",
+    "Final Length": 1062,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "100",
+    "Final Length": 294,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "101",
+    "Final Length": 705,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "102",
+    "Final Length": 443,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "103",
+    "Final Length": 413,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "104",
+    "Final Length": 673,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "105",
+    "Final Length": 603,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "106",
+    "Final Length": 320,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "107",
+    "Final Length": 381,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "108",
+    "Final Length": 132,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "109",
+    "Final Length": 186,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "110",
+    "Final Length": 144,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "111",
+    "Final Length": 655,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "112",
+    "Final Length": 426,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "113",
+    "Final Length": 522,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "114",
+    "Final Length": 301,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "115",
+    "Final Length": 1025,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "116",
+    "Final Length": 1186,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "117",
+    "Final Length": 152,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "118",
+    "Final Length": 198,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "119",
+    "Final Length": 626,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "120",
+    "Final Length": 181,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "121",
+    "Final Length": 395,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "122",
+    "Final Length": 948,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "123",
+    "Final Length": 417,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "124",
+    "Final Length": 512,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "125",
+    "Final Length": 392,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "126",
+    "Final Length": 251,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "127",
+    "Final Length": 865,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "128",
+    "Final Length": 292,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "129",
+    "Final Length": 984,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "130",
+    "Final Length": 215,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "131",
+    "Final Length": 682,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "132",
+    "Final Length": 167,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "133",
+    "Final Length": 79,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "134",
+    "Final Length": 362,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "135",
+    "Final Length": 383,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "136",
+    "Final Length": 745,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "137",
+    "Final Length": 681,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "138",
+    "Final Length": 1573,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "139",
+    "Final Length": 409,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "140",
+    "Final Length": 223,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "141",
+    "Final Length": 2164,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "142",
+    "Final Length": 346,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "143",
+    "Final Length": 781,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "144",
+    "Final Length": 228,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "145",
+    "Final Length": 413,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "146",
+    "Final Length": 414,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "147",
+    "Final Length": 988,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "148",
+    "Final Length": 520,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "149",
+    "Final Length": 544,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "150",
+    "Final Length": 773,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "151",
+    "Final Length": 757,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "152",
+    "Final Length": 586,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "153",
+    "Final Length": 236,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "154",
+    "Final Length": 513,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "155",
+    "Final Length": 250,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "156",
+    "Final Length": 437,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "157",
+    "Final Length": 420,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "158",
+    "Final Length": 445,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "159",
+    "Final Length": 175,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "160",
+    "Final Length": 416,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "161",
+    "Final Length": 375,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "162",
+    "Final Length": 130,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "163",
+    "Final Length": 1409,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "164",
+    "Final Length": 537,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "165",
+    "Final Length": 715,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "166",
+    "Final Length": 709,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "167",
+    "Final Length": 3067,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "168",
+    "Final Length": 277,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "169",
+    "Final Length": 1180,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "170",
+    "Final Length": 422,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "171",
+    "Final Length": 1725,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "172",
+    "Final Length": 2552,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "173",
+    "Final Length": 832,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "174",
+    "Final Length": 468,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "175",
+    "Final Length": 565,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "176",
+    "Final Length": 413,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "177",
+    "Final Length": 314,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "178",
+    "Final Length": 585,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "179",
+    "Final Length": 203,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "180",
+    "Final Length": 1516,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "181",
+    "Final Length": 666,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "182",
+    "Final Length": 192,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "183",
+    "Final Length": 759,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "184",
+    "Final Length": 355,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "185",
+    "Final Length": 425,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "186",
+    "Final Length": 3431,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "187",
+    "Final Length": 476,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "188",
+    "Final Length": 433,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "189",
+    "Final Length": 190,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "190",
+    "Final Length": 472,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "191",
+    "Final Length": 331,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "192",
+    "Final Length": 403,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "193",
+    "Final Length": 435,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "194",
+    "Final Length": 606,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "195",
+    "Final Length": 239,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "196",
+    "Final Length": 546,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "197",
+    "Final Length": 340,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "198",
+    "Final Length": 812,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "199",
+    "Final Length": 574,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "200",
+    "Final Length": 347,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "201",
+    "Final Length": 157,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "202",
+    "Final Length": 173,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "203",
+    "Final Length": 377,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "204",
+    "Final Length": 576,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "205",
+    "Final Length": 255,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "206",
+    "Final Length": 364,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "207",
+    "Final Length": 678,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "208",
+    "Final Length": 433,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "209",
+    "Final Length": 799,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "210",
+    "Final Length": 391,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "211",
+    "Final Length": 726,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "212",
+    "Final Length": 271,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "213",
+    "Final Length": 631,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "214",
+    "Final Length": 542,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "215",
+    "Final Length": 260,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "216",
+    "Final Length": 498,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "217",
+    "Final Length": 269,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "218",
+    "Final Length": 403,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "219",
+    "Final Length": 382,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "220",
+    "Final Length": 816,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "221",
+    "Final Length": 518,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "222",
+    "Final Length": 1541,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "223",
+    "Final Length": 628,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "224",
+    "Final Length": 463,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "225",
+    "Final Length": 278,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "226",
+    "Final Length": 213,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "227",
+    "Final Length": 158,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "228",
+    "Final Length": 62,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "229",
+    "Final Length": 174,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "230",
+    "Final Length": 268,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "231",
+    "Final Length": 205,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "232",
+    "Final Length": 166,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "233",
+    "Final Length": 416,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "234",
+    "Final Length": 474,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "235",
+    "Final Length": 925,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "236",
+    "Final Length": 305,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "237",
+    "Final Length": 751,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "238",
+    "Final Length": 276,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "239",
+    "Final Length": 374,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "240",
+    "Final Length": 251,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "241",
+    "Final Length": 131,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "242",
+    "Final Length": 318,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "243",
+    "Final Length": 1036,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "244",
+    "Final Length": 325,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "245",
+    "Final Length": 579,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "246",
+    "Final Length": 955,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "247",
+    "Final Length": 185,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "248",
+    "Final Length": 133,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "249",
+    "Final Length": 376,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "250",
+    "Final Length": 484,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "251",
+    "Final Length": 738,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "252",
+    "Final Length": 756,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "253",
+    "Final Length": 1097,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "254",
+    "Final Length": 387,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "255",
+    "Final Length": 401,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "256",
+    "Final Length": 650,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "257",
+    "Final Length": 689,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "258",
+    "Final Length": 94,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "259",
+    "Final Length": 179,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "260",
+    "Final Length": 220,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "261",
+    "Final Length": 287,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "262",
+    "Final Length": 365,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "263",
+    "Final Length": 202,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "264",
+    "Final Length": 505,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "265",
+    "Final Length": 446,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "266",
+    "Final Length": 442,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "267",
+    "Final Length": 316,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "268",
+    "Final Length": 97,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "269",
+    "Final Length": 261,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "270",
+    "Final Length": 180,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "271",
+    "Final Length": 1568,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "272",
+    "Final Length": 1140,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "273",
+    "Final Length": 1592,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "274",
+    "Final Length": 218,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "275",
+    "Final Length": 980,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "276",
+    "Final Length": 482,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "277",
+    "Final Length": 1838,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "278",
+    "Final Length": 1198,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "279",
+    "Final Length": 2350,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "280",
+    "Final Length": 64,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "281",
+    "Final Length": 1412,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "282",
+    "Final Length": 1945,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "283",
+    "Final Length": 492,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "284",
+    "Final Length": 461,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "285",
+    "Final Length": 1046,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "286",
+    "Final Length": 428,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "287",
+    "Final Length": 1205,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "288",
+    "Final Length": 301,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "289",
+    "Final Length": 601,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "290",
+    "Final Length": 1117,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "291",
+    "Final Length": 1758,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "292",
+    "Final Length": 239,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "293",
+    "Final Length": 359,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "294",
+    "Final Length": 348,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "295",
+    "Final Length": 538,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "296",
+    "Final Length": 330,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "297",
+    "Final Length": 382,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "298",
+    "Final Length": 136,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "299",
+    "Final Length": 464,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "300",
+    "Final Length": 452,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "301",
+    "Final Length": 190,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "302",
+    "Final Length": 436,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "303",
+    "Final Length": 345,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "304",
+    "Final Length": 120,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "305",
+    "Final Length": 255,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "306",
+    "Final Length": 278,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "307",
+    "Final Length": 233,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "308",
+    "Final Length": 372,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "309",
+    "Final Length": 323,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "310",
+    "Final Length": 286,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "311",
+    "Final Length": 910,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "312",
+    "Final Length": 279,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "313",
+    "Final Length": 171,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "314",
+    "Final Length": 74,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "315",
+    "Final Length": 136,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "316",
+    "Final Length": 430,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "317",
+    "Final Length": 242,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "318",
+    "Final Length": 161,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "319",
+    "Final Length": 377,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "320",
+    "Final Length": 275,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "321",
+    "Final Length": 267,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "322",
+    "Final Length": 131,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "323",
+    "Final Length": 571,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "324",
+    "Final Length": 523,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "325",
+    "Final Length": 287,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "326",
+    "Final Length": 175,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "327",
+    "Final Length": 93,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "328",
+    "Final Length": 536,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "329",
+    "Final Length": 236,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "330",
+    "Final Length": 239,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "331",
+    "Final Length": 634,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "332",
+    "Final Length": 462,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "333",
+    "Final Length": 642,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "334",
+    "Final Length": 62,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "335",
+    "Final Length": 123,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "336",
+    "Final Length": 53,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "337",
+    "Final Length": 115,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "338",
+    "Final Length": 207,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "339",
+    "Final Length": 693,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "340",
+    "Final Length": 556,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "341",
+    "Final Length": 863,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "342",
+    "Final Length": 177,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "343",
+    "Final Length": 485,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "344",
+    "Final Length": 242,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "345",
+    "Final Length": 293,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "346",
+    "Final Length": 627,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "347",
+    "Final Length": 183,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "348",
+    "Final Length": 235,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "349",
+    "Final Length": 487,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "350",
+    "Final Length": 330,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "351",
+    "Final Length": 250,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "352",
+    "Final Length": 484,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "353",
+    "Final Length": 585,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "354",
+    "Final Length": 260,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "355",
+    "Final Length": 191,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "356",
+    "Final Length": 621,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "357",
+    "Final Length": 159,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "358",
+    "Final Length": 515,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "359",
+    "Final Length": 179,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "360",
+    "Final Length": 165,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "361",
+    "Final Length": 221,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "362",
+    "Final Length": 488,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "363",
+    "Final Length": 363,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "364",
+    "Final Length": 664,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "365",
+    "Final Length": 487,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "366",
+    "Final Length": 311,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "367",
+    "Final Length": 485,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "368",
+    "Final Length": 652,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "369",
+    "Final Length": 557,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "370",
+    "Final Length": 602,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "371",
+    "Final Length": 460,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "372",
+    "Final Length": 683,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "373",
+    "Final Length": 591,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "374",
+    "Final Length": 456,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "375",
+    "Final Length": 273,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "376",
+    "Final Length": 456,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "377",
+    "Final Length": 1688,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "378",
+    "Final Length": 1221,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "379",
+    "Final Length": 471,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "380",
+    "Final Length": 529,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "381",
+    "Final Length": 418,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "382",
+    "Final Length": 606,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "383",
+    "Final Length": 481,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "384",
+    "Final Length": 940,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "385",
+    "Final Length": 208,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "386",
+    "Final Length": 1877,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "387",
+    "Final Length": 676,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "388",
+    "Final Length": 558,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "389",
+    "Final Length": 1176,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "390",
+    "Final Length": 171,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "391",
+    "Final Length": 591,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "392",
+    "Final Length": 397,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "393",
+    "Final Length": 179,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "394",
+    "Final Length": 276,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "395",
+    "Final Length": 566,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "396",
+    "Final Length": 786,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "397",
+    "Final Length": 56,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "398",
+    "Final Length": 221,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "399",
+    "Final Length": 1828,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "400",
+    "Final Length": 530,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "401",
+    "Final Length": 314,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "402",
+    "Final Length": 291,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "403",
+    "Final Length": 494,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "404",
+    "Final Length": 723,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "405",
+    "Final Length": 336,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "406",
+    "Final Length": 440,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "407",
+    "Final Length": 852,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "408",
+    "Final Length": 1586,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "409",
+    "Final Length": 1296,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "410",
+    "Final Length": 617,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "411",
+    "Final Length": 681,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "412",
+    "Final Length": 536,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "413",
+    "Final Length": 380,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "414",
+    "Final Length": 1646,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "415",
+    "Final Length": 317,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "416",
+    "Final Length": 315,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "417",
+    "Final Length": 568,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "418",
+    "Final Length": 316,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "419",
+    "Final Length": 690,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "420",
+    "Final Length": 304,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "421",
+    "Final Length": 1137,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "422",
+    "Final Length": 988,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "423",
+    "Final Length": 487,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "424",
+    "Final Length": 777,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "425",
+    "Final Length": 818,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "426",
+    "Final Length": 1193,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "427",
+    "Final Length": 817,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "428",
+    "Final Length": 754,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "429",
+    "Final Length": 367,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "430",
+    "Final Length": 2030,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "431",
+    "Final Length": 1413,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "432",
+    "Final Length": 1319,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "433",
+    "Final Length": 194,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "434",
+    "Final Length": 1503,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "435",
+    "Final Length": 233,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "436",
+    "Final Length": 414,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "437",
+    "Final Length": 1880,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "438",
+    "Final Length": 350,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "439",
+    "Final Length": 351,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "440",
+    "Final Length": 181,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "441",
+    "Final Length": 4463,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "442",
+    "Final Length": 889,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "443",
+    "Final Length": 2477,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "444",
+    "Final Length": 1453,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "445",
+    "Final Length": 417,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "446",
+    "Final Length": 577,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "447",
+    "Final Length": 736,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "448",
+    "Final Length": 1397,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "449",
+    "Final Length": 758,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "450",
+    "Final Length": 1316,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "451",
+    "Final Length": 749,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "452",
+    "Final Length": 506,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "453",
+    "Final Length": 607,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "454",
+    "Final Length": 229,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "455",
+    "Final Length": 387,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "456",
+    "Final Length": 378,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "457",
+    "Final Length": 310,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "458",
+    "Final Length": 216,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "459",
+    "Final Length": 159,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "460",
+    "Final Length": 216,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "461",
+    "Final Length": 123,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "462",
+    "Final Length": 303,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "463",
+    "Final Length": 1074,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "464",
+    "Final Length": 678,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "465",
+    "Final Length": 477,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "466",
+    "Final Length": 255,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "467",
+    "Final Length": 424,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "468",
+    "Final Length": 160,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "469",
+    "Final Length": 167,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "470",
+    "Final Length": 368,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "471",
+    "Final Length": 364,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "472",
+    "Final Length": 84,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "473",
+    "Final Length": 392,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "474",
+    "Final Length": 418,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "475",
+    "Final Length": 574,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "476",
+    "Final Length": 648,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "477",
+    "Final Length": 99,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "478",
+    "Final Length": 453,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "479",
+    "Final Length": 189,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "480",
+    "Final Length": 162,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "481",
+    "Final Length": 402,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "482",
+    "Final Length": 135,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "483",
+    "Final Length": 231,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "484",
+    "Final Length": 247,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "485",
+    "Final Length": 270,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "486",
+    "Final Length": 115,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "487",
+    "Final Length": 108,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "488",
+    "Final Length": 94,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "489",
+    "Final Length": 552,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "490",
+    "Final Length": 479,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "491",
+    "Final Length": 993,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "492",
+    "Final Length": 278,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "493",
+    "Final Length": 230,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "494",
+    "Final Length": 190,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "495",
+    "Final Length": 163,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "496",
+    "Final Length": 385,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "497",
+    "Final Length": 157,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "498",
+    "Final Length": 553,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  },
+  {
+    "Article ID": "499",
+    "Final Length": 191,
+    "Similarity": 0.0,
+    "Source Initiatives": "No Mapping Found",
+    "Status": "Unmapped"
+  }
+]

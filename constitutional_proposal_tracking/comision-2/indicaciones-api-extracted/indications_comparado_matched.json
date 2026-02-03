@@ -1,0 +1,14 @@
+[
+  {
+    "number": "110",
+    "target_article": "Artículo 4",
+    "action": "MODIFY",
+    "content": "Artículo 4.- Plurinacionalidad. Chile es un Estado plurinacional que reconoce la coexistencia de diversos pueblos y naciones dentro de su territorio en igualdad de derechos, y sin discriminación en la distribución y ejercicio del poder. El Estado respeta y garantiza su derecho a la autodeterminación y demás derechos colectivos, mediante los mecanismos que establece esta constitución, las leyes y tratados internacionales e instrumentos de derechos humanos ratificados por Chile y que se encuentren vigentes.",
+    "authors_matched": [
+      "Cretton, Eduardo"
+    ],
+    "match_score": 1.0,
+    "original_candidate_text": "Indicación del señor Cretton para agregar, en el inciso segundo del artículo 13, después de la frase “sin discriminación”, la palabra “arbitraria”.",
+    "note": "Matched via Comparado logic"
+  }
+]

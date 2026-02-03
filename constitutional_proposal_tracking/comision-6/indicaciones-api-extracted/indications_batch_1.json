@@ -1,0 +1,395 @@
+[
+  {
+    "number": "2",
+    "target_article": "Denominación del Capítulo",
+    "action": "DELETE",
+    "content": "Órganos de la Jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "3",
+    "target_article": "Denominación del Título",
+    "action": "DELETE",
+    "content": "Principios generales de los sistemas de justicia",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "4",
+    "target_article": "Denominación del Título",
+    "action": "DELETE",
+    "content": "Principios de la Jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "5",
+    "target_article": "Denominación del Título",
+    "action": "DELETE",
+    "content": "Función y principios de la jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "8",
+    "target_article": "Artículo 1",
+    "action": "MODIFY",
+    "content": "Artículo 1.- La función jurisdiccional. La jurisdicción es una función pública que se ejerce en nombre de los pueblos y que consiste en conocer, juzgar y ejecutar con efecto de cosa juzgada todos los conflictos de relevancia jurídica, por medio de un debido proceso, de conformidad a la Constitución, las leyes y los estándares internacionales de derechos humanos. Se ejerce exclusivamente por los tribunales de justicia y los demás órganos o autoridades indígenas reconocidos por la Constitución y las leyes dictadas conforme a ella. Al ejercer la jurisdicción se debe velar por la tutela y promoción de los derechos fundamentales, del sistema democrático y el principio de juridicidad.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "17",
+    "target_article": "Artículo 1, inciso segundo",
+    "action": "MODIFY",
+    "content": "reemplazar en el inciso segundo la expresión “derechos fundamentales” por “derechos humanos y de la naturaleza”",
+    "authors_raw": "del convencional",
+    "authors_matched": [
+      "Vargas, Margarita"
+    ]
+  },
+  {
+    "number": "20",
+    "target_article": "Artículo 1A",
+    "action": "DELETE",
+    "content": "Artículo 1A.- Función Jurisdiccional. La justicia se administra en nombre del pueblo por tribunales de justicia nacionales ordinarios, especiales y autónomos...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "22",
+    "target_article": "Artículo 1B",
+    "action": "DELETE",
+    "content": "Artículo 1 B.- Función jurisdiccional. La potestad jurisdiccional es una función pública cuyo ejercicio, en nombre de los pueblos, es confiado a los jueces, juezas y tribunales...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "33",
+    "target_article": "Artículo 1C",
+    "action": "DELETE",
+    "content": "Artículo 1 C.- Función jurisdiccional. La función jurisdiccional consiste en la facultad de conocer y resolver los conflictos de relevancia jurídica...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "37",
+    "target_article": "Artículo 2",
+    "action": "MODIFY",
+    "content": "Artículo 2.- Pluralismo jurídico. El Sistema Nacional de Justicia coexiste, en un plano de igualdad, con los Sistemas Jurídicos Indígenas. Es deber del Estado garantizar una adecuada coordinación entre ambos, con pleno respeto al derecho a la libre determinación y los estándares internacionales de derechos humanos interpretados interculturalmente.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "38",
+    "target_article": "Artículo 2A",
+    "action": "DELETE",
+    "content": "Artículo 2 A.- Unidad jurisdiccional. Los tribunales de justicia se organizarán conforme al principio de unidad jurisdiccional...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 2B",
+    "action": "DELETE",
+    "content": "Artículo 2 B.- Unidad jurisdiccional. Tanto los tribunales ordinarios como los especiales estarán sometidos a los mismos principios.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "40",
+    "target_article": "Título nuevo",
+    "action": "ADD",
+    "content": "§ Principios generales del Sistema Nacional de Justicia",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "41",
+    "target_article": "Artículo 3",
+    "action": "DELETE",
+    "content": "Artículo 3.- Diferenciación funcional. La potestad jurisdiccional se organizará en virtud del principio de diferenciación funcional...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "42",
+    "target_article": "Artículo 3",
+    "action": "DELETE",
+    "content": "Artículo 3.- Diferenciación funcional (suprimiendo el contenido propuesto)",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "45",
+    "target_article": "Artículo 3A",
+    "action": "DELETE",
+    "content": "Artículo 3 A.- Escalafón judicial único. La potestad jurisdiccional se organizará en virtud del principio de diferenciación de competencia por materia...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "47",
+    "target_article": "Artículo 4 (pasa a ser 3)",
+    "action": "MODIFY",
+    "content": "Artículo 3.- Independencia jurisdiccional, imparcialidad y exclusividad. Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo otro poder o autoridad, debiendo actuar y resolver de forma imparcial. La función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos. Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "50",
+    "target_article": "Artículo 3",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán militar en partidos políticos.",
+    "authors_raw": "convencional Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "51",
+    "target_article": "Artículo 3",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán participar como candidatas o candidatos en procesos de elección popular, salvo en los casos autorizados por esta Constitución.",
+    "authors_raw": "convencional Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "52",
+    "target_article": "Artículo 4A",
+    "action": "DELETE",
+    "content": "Artículo 4A.- Independencia e imparcialidad. La función jurisdiccional se ejercerá bajo los principios de independencia, imparcialidad, gratuidad...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "55",
+    "target_article": "Artículo 4B",
+    "action": "DELETE",
+    "content": "Artículo 4B.- Independencia.- Los tribunales de justicia son independientes de todo otro poder o autoridad del Estado...",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "63",
+    "target_article": "Artículo 4F",
+    "action": "DELETE",
+    "content": "Artículo 4 F.- Independencia externa e interna. Los miembros de los tribunales de justicia son independientes entre sí y de todo otro poder o autoridad.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "66",
+    "target_article": "Artículo 5 (pasa a ser 4)",
+    "action": "MODIFY",
+    "content": "Artículo 4°. De la inamovilidad. Las juezas y jueces son inamovibles y no pueden ser suspendidos, trasladados o removidos sino por el Consejo de la Justicia, conforme a las causales y procedimientos establecidos por la Constitución y las leyes. Cesan en sus cargos únicamente al cumplirse la duración prevista para el mismo, por alcanzar los setenta años de edad, por renuncia voluntaria, por constatarse una incapacidad legal sobreviniente o por remoción.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "105",
+    "target_article": "Artículo 9 (pasa a ser 7)",
+    "action": "MODIFY",
+    "content": "Artículo 7.- Inexcusabilidad e indelegabilidad. Reclamada su intervención en la forma legal y sobre materias de su competencia, los tribunales y los demás órganos que ejerzan jurisdicción no podrán excusarse de ejercer su función en un tiempo razonable ni aún a falta de norma jurídica expresa que resuelva el asunto sometido a su decisión. El ejercicio de la jurisdicción es indelegable.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "112",
+    "target_article": "Artículo 10 (pasa a ser 8)",
+    "action": "MODIFY",
+    "content": "Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar sus resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los órganos que ejercen jurisdicción podrán impartir órdenes o instrucciones directas a la fuerza pública y a toda otra autoridad o persona, quienes deberán cumplir lo mandatado de forma rápida y expedita, sin poder calificar su justicia, fundamento, oportunidad o legalidad. Las sentencias y resoluciones dictadas en el Sistema Internacional de Protección de los Derechos Humanos permitirán revisar el efecto de cosa juzgada de las sentencias firmes dictadas por tribunales del Estado de Chile.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "198",
+    "target_article": "Artículo 15 (nuevo)",
+    "action": "ADD",
+    "content": "Artículo 15.- Mecanismos Colaborativos de Resolución de Conflictos. Es deber del Estado promover e implementar mecanismos colaborativos de resolución de conflictos que garanticen la participación activa y el diálogo. Sólo la ley podrá determinar los requisitos y efectos de los mecanismos alternativos de resolución de conflictos.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  }
+]

@@ -1,0 +1,776 @@
+[
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "indication": "2",
+    "target": "Cap\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "indication": "3",
+    "target": "T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "indication": "4",
+    "target": "T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "indication": "5",
+    "target": "T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-3-02-23-r.json",
+    "indication": "17",
+    "target": "Ep\u00edgrafe \u00a7 Principios generales del sistema nacional de justicia",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "2",
+    "target": "T\u00edtulo \u00a7 Funci\u00f3n jurisdiccional",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "52",
+    "target": "T\u00edtulo \u00a7 De los Tribunales",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "67",
+    "target": "Ep\u00edgrafes \u00a7 De la Corte Suprema y \u00a7 Tribunal Supremo de Justicia",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "132",
+    "target": "Ep\u00edgrafes \u00a7 Cortes de Apelaciones y \u00a7 Tribunales de Apelaciones",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "156 y 157",
+    "target": "Ep\u00edgrafe \u00a7 Tribunales de Instancia",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "indication": "194, 195 y 196",
+    "target": "Ep\u00edgrafe \u00a7 Justicia administrativa",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "194, 195, 196",
+    "target": "Ep\u00edgrafe \u00a7 Justicia administrativa",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "226, 227",
+    "target": "Ep\u00edgrafe \u00a7 Tribunales de ejecuci\u00f3n de pena",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "249, 250",
+    "target": "T\u00edtulo \u00a7 Justicia local",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "302, 303",
+    "target": "T\u00edtulo \u00a7 Jurisdicci\u00f3n militar",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "312, 313",
+    "target": "T\u00edtulo \u00a7 Justicia intercultural",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "indication": "389, 390, 400, 401, 402",
+    "target": "Ep\u00edgrafes \u00a7 Consejo de la Judicatura y \u00a7 Consejo Supremo de Justicia",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "601",
+    "target": "Disposici\u00f3n transitoria primera",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "606, 607",
+    "target": "Disposici\u00f3n transitoria primera A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "611",
+    "target": "Disposici\u00f3n transitoria segunda",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "614",
+    "target": "Disposici\u00f3n transitoria tercera",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "616, 617, 618",
+    "target": "Disposici\u00f3n transitoria tercera A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "621, 623",
+    "target": "Disposici\u00f3n transitoria cuarta",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "626, 627",
+    "target": "Disposici\u00f3n transitoria quinta",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "631",
+    "target": "Disposici\u00f3n transitoria quinta A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "632",
+    "target": "Disposici\u00f3n transitoria sexta",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "indication": "634, 635, 636",
+    "target": "Disposici\u00f3n transitoria s\u00e9ptima",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-5-04-01-1.json",
+    "indication": "33",
+    "target": "Ep\u00edgrafe \u00a7 Sistemas jur\u00eddicos ind\u00edgenas",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "indication": "6",
+    "target": "Ep\u00edgrafe \u00a7 Ministerio P\u00fablico",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "indication": "112",
+    "target": "Ep\u00edgrafe \u00a7 Garant\u00edas procesales y asistencia jur\u00eddica",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "indication": "145",
+    "target": "Ep\u00edgrafe \u00a7 Defensor\u00eda Penal P\u00fablica",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_2.json",
+    "indication": "178",
+    "target": "T\u00edtulos",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_2.json",
+    "indication": "275",
+    "target": "Subt\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "315",
+    "target": "Ep\u00edgrafe \u00a7 Tribunales Electorales y Servicio Electoral",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "317",
+    "target": "Art\u00edculo 82",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "320, 321, 322, 323, 324, 325, 326, 327",
+    "target": "Art\u00edculo 82 A, Art\u00edculo 82 B, Art\u00edculo 83, Art\u00edculo 84, Art\u00edculo 85, Art\u00edculo 86",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "328",
+    "target": "Subt\u00edtulo \u00a7 Justicia Electoral",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "329",
+    "target": "Art\u00edculo 87",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "332, 333, 334",
+    "target": "Art\u00edculo 87 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "335",
+    "target": "Art\u00edculo 88",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "339, 340, 341, 342",
+    "target": "Art\u00edculo 88 A, Art\u00edculo 88 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "343",
+    "target": "Art\u00edculo 89",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "344, 345",
+    "target": "Art\u00edculo 89 A, Art\u00edculo 90",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "346",
+    "target": "Ep\u00edgrafe \u00a7 De la Direcci\u00f3n de Servicio Civil",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "347",
+    "target": "Art\u00edculo 91",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "349, 350, 351, 352, 353, 354",
+    "target": "Art\u00edculo 91 A, Art\u00edculo 92, Art\u00edculo 93, Art\u00edculo 94, Art\u00edculo 95, Art\u00edculo 96",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "357",
+    "target": "Art\u00edculo 97",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "359",
+    "target": "Art\u00edculo 98",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "360",
+    "target": "Art\u00edculo 99",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "361",
+    "target": "Art\u00edculo 100",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "362",
+    "target": "Ep\u00edgrafe \u00a7 Servicio Nacional del Consumidor",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "363",
+    "target": "Art\u00edculo 101",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "368",
+    "target": "Ep\u00edgrafe \u00a7 Revisi\u00f3n represiva de la ley",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "370",
+    "target": "Art\u00edculo 108",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "371, 372, 373",
+    "target": "Art\u00edculo 109, Art\u00edculo 110, Art\u00edculo 111",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "374",
+    "target": "Art\u00edculo 112",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "376, 377",
+    "target": "Art\u00edculo 113 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "378",
+    "target": "Art\u00edculo 114",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "381",
+    "target": "Art\u00edculo 114 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "382",
+    "target": "Art\u00edculo 114 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "383",
+    "target": "Art\u00edculo 115",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "385, 386, 387",
+    "target": "Art\u00edculo 115 A, Art\u00edculo 115 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "388",
+    "target": "Art\u00edculo 116",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "390, 391, 392",
+    "target": "Art\u00edculo 116 A, Art\u00edculo 116 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "393",
+    "target": "Art\u00edculo 117",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "396",
+    "target": "Art\u00edculo 117 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "397",
+    "target": "Art\u00edculo 118",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "401",
+    "target": "Art\u00edculo 118 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "402",
+    "target": "Art\u00edculo 118 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "indication": "403",
+    "target": "Art\u00edculo 119",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "406",
+    "target": "Art\u00edculo 119 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "408, 409 y 410",
+    "target": "Art\u00edculos 119 B y 120",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "411 a 416",
+    "target": "t\u00edtulo \u201c\u00a7 Consejo de Contiendas de Competencia\u201d, art\u00edculos 121, 122, 123, 124, y 125",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "417 y 418",
+    "target": "Art\u00edculo 126",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "420",
+    "target": "Art\u00edculo 127",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "423, 424 y 425",
+    "target": "Art\u00edculos 127 A, 127 B y 127 C",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "426",
+    "target": "Art\u00edculo 128",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "428",
+    "target": "Art\u00edculo 129",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "431",
+    "target": "Art\u00edculo 129 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "434",
+    "target": "Art\u00edculo 129 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "435",
+    "target": "Art\u00edculo 130",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "436",
+    "target": "Art\u00edculo 131",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "438, 439, 441 y 442",
+    "target": "Art\u00edculos 132, 133 y 133 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "443 y 444",
+    "target": "Art\u00edculos 134 y 134 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "446",
+    "target": "Art\u00edculo 135",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "447",
+    "target": "Art\u00edculo 136",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "449",
+    "target": "Art\u00edculo 136 A",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "458",
+    "target": "Art\u00edculo 137",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "459 y 460",
+    "target": "Art\u00edculos 137 A y 137 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "461",
+    "target": "Art\u00edculo 138",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "464 y 465",
+    "target": "Art\u00edculos 138 A y 139",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "467",
+    "target": "Art\u00edculo 140",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "468 y 469",
+    "target": "Art\u00edculos 140 A y 140 B",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "470",
+    "target": "Art\u00edculo 141",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "471",
+    "target": "Art\u00edculo 142",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "472",
+    "target": "Art\u00edculo 143",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "474",
+    "target": "Art\u00edculo 144",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "475",
+    "target": "Art\u00edculo 145",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "478",
+    "target": "Art\u00edculo 146",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "480",
+    "target": "Art\u00edculo 147",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "483",
+    "target": "Art\u00edculo 149",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "484",
+    "target": "Art\u00edculo 149",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_4.json",
+    "indication": "485",
+    "target": "Art\u00edculo 150",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "indication": "98",
+    "target": "Ep\u00edgrafe \u00a7 Del Consejo Aut\u00f3nomo del Medio Ambiente",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "indication": "102",
+    "target": "Ep\u00edgrafe \u00a7 Agencia Nacional del Agua",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "indication": "108",
+    "target": "Ep\u00edgrafe \u00a7 Banco Central",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "indication": "152",
+    "target": "Ep\u00edgrafe Cap\u00edtulo XX",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "indication": "193",
+    "target": "Ep\u00edgrafe \u00a7 Del Consejo de Pueblos Ind\u00edgenas",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "203",
+    "target": "Ep\u00edgrafe \u00a7 Justicia Constitucional",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "261",
+    "target": "Ep\u00edgrafe \u00a7 Reforma y Reemplazo de la Constituci\u00f3n",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "279",
+    "target": "Art\u00edculo 80",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "281",
+    "target": "Art\u00edculo 81",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "284",
+    "target": "Art\u00edculo 82",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "292",
+    "target": "Art\u00edculo 83",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "294",
+    "target": "Art\u00edculo 84",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "299",
+    "target": "Art\u00edculo 86 (Incisos 1-2)",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "301",
+    "target": "Art\u00edculo 87",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "indication": "302",
+    "target": "Art\u00edculo 89",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "98",
+    "target": "Ep\u00edgrafe \u00a7 Servicios Notariales y Registrales de Car\u00e1cter P\u00fablico",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "133",
+    "target": "Art\u00edculo 80",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "134",
+    "target": "Art\u00edculo 81",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "140",
+    "target": "Art\u00edculo 82",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "142",
+    "target": "Art\u00edculo 84",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "147",
+    "target": "Art\u00edculo 88",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "indication": "148",
+    "target": "Art\u00edculo 89",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "indications_batch_1.json",
+    "indication": "2",
+    "target": "Denominaci\u00f3n del Cap\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "indications_batch_1.json",
+    "indication": "3",
+    "target": "Denominaci\u00f3n del T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "indications_batch_1.json",
+    "indication": "4",
+    "target": "Denominaci\u00f3n del T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  },
+  {
+    "file": "indications_batch_1.json",
+    "indication": "5",
+    "target": "Denominaci\u00f3n del T\u00edtulo",
+    "reason": "Target ID not found in genesis or created yet"
+  }
+]

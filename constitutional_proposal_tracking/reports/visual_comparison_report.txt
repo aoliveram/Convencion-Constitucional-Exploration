@@ -1,0 +1,31 @@
+# Report: Interpretation of Stability Index Plot (draft_0 vs draft_final)
+
+## 1. Overview
+The visualization `plots/stability_comparison_v1.html` compares the textual similarity between two versions of the constitutional text:
+1.  **Source (Draft 0):** The text of the *original initiatives* that were mapped as the progenitors of each article.
+2.  **Target (Final Draft):** The actual text found in the final draft (`draft_final_text.json`).
+
+## 2. Methodology
+- **Mapping:** We use `draft_0_mapping.json` to identify which initiative(s) correspond to which final article (e.g., "Article 1" came from "Initiative 41-6").
+- **Text Retrieval:** For each final article, we fetch the full text of its source initiative(s).
+- **Metric:** We calculate a **Similarity Score (0-1)** using `difflib.SequenceMatcher.ratio()`.
+    - **Score 1.0:** The final text is identical to the initiative text (Extremely rare, as initiatives are often long proposals from which only a paragraph is taken).
+    - **Score ~0.0:** The final text shares almost no common sequences with the source (High Mutation).
+    - **Low Scores (current reality):** You see very low scores (0.02 - 0.03) because we are comparing a *short final article* against a *very long initiative document* containing headers, arguments, and other articles. Ideally, we should refine this to compare against the specific *fragment* of the initiative, but currently, it serves as a "Raw Provenance" index.
+
+## 3. Scope Limitation (Why only ~81 articles?)
+You observed that the plot only shows meaningful data for Article IDs up to ~81.
+- **Cause:** Our current mapping (`draft_0_mapping.json`) is derived **exclusively from Commission 6** ("Sistemas de Justicia...").
+- **Commission 6 Mandate:** This commission was responsible for the articles regarding the Judiciary, which correspond to the first block of articles processed or a specific numeric range in the harmonization phase.
+- **Missing Data:** Articles > 81 belong to other commissions (Political System, Fundamental Rights, etc.) which we have **not yet processed**. They appear in `draft_final_text.json` (the full draft has ~499 articles) but have "No Mapping Found" in our current dataset, hence 0 similarity.
+
+## 4. How to Read the Plot
+- **X-Axis:** Article ID in the Final Draft.
+- **Y-Axis:** Similarity Score.
+- **Color:** Intensity of similarity (Red = Higher similarity relative to the set).
+- **Tooltip:** Hovering over a bar shows:
+    - Source Initiative ID (e.g., "198-6").
+    - Length of the final text.
+
+## 5. Conclusion
+This plot currently validates that **we successfully mapped the Commission 6 block**. The low absolute similarity values confirm that the "harmonization" and "indication" process heavily transformed the text, or that the "extraction granularity" needs refinement (comparing paragraph vs whole document).

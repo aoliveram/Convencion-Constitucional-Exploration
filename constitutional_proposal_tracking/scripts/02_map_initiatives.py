@@ -19,8 +19,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MEMBERS_PATH = os.path.join(BASE_DIR, "convention_members.json")
 INITIATIVES_DIR = os.path.join(BASE_DIR, "submitted_initiatives")
 # Specific file mention by user for Comision 6
-PDF_PATH = os.path.join(BASE_DIR, "comision-6", "texto-sistematizado-01-25.pdf")
-OUTPUT_PATH = os.path.join(BASE_DIR, "proposals", "draft_1_mapping.json")
+PDF_PATH = os.path.join(BASE_DIR, "comision-6", "PDFs", "texto-sistematizado-01-25.pdf")
+OUTPUT_PATH = os.path.join(BASE_DIR, "proposals", "draft_0_mapping.json")
 
 def load_json(path):
     with open(path, 'r', encoding='utf-8') as f:

@@ -1,0 +1,563 @@
+[
+  {
+    "number": "194, 195, 196",
+    "target_article": "Epígrafe § Justicia administrativa",
+    "action": "DELETE",
+    "content": "§ Justicia administrativa",
+    "authors_raw": "CC Harboe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "201",
+    "target_article": "Artículo 19",
+    "action": "MODIFY",
+    "content": "Artículo 11.- Tribunales administrativos. Los Tribunales Administrativos conocen y resuelven las acciones dirigidas en contra de la Administración del Estado o promovidas por ésta y de las demás materias que establezca la ley.\nHabrá al menos un Tribunal Administrativo en cada región del país, los que podrán funcionar en salas especializadas.\nLos asuntos de competencia de estos tribunales no podrán ser sometidos a arbitraje.\nLa ley establecerá un procedimiento unificado, simple y expedito para conocer y resolver tales asuntos.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "203, 207, 209",
+    "target_article": "Artículos 19 A, 19 B y 19 C",
+    "action": "DELETE",
+    "content": "Artículos 19 A, 19 B y 19 C",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "212, 214, 217, 221, 223",
+    "target_article": "Artículos 20, 21, 22, epígrafe § Justicia del Trabajo y de Seguridad Social, y artículo 23",
+    "action": "DELETE",
+    "content": "Artículo 20, Artículo 21, Artículo 22, epígrafe § Justicia del Trabajo y de Seguridad Social, Artículo 23",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "226, 227",
+    "target_article": "Epígrafe § Tribunales de ejecución de pena",
+    "action": "MODIFY",
+    "content": "§ Sistema penitenciario",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Hoppe, Royo, Llanquileo, Woldarsky y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Woldarsky, Manuel"
+    ]
+  },
+  {
+    "number": "228",
+    "target_article": "Nuevo artículo (entre 23 y 24)",
+    "action": "ADD",
+    "content": "Artículo XX. Establecimientos penitenciarios. Sólo el Estado puede ejecutar el cumplimiento de penas y medidas privativas de libertad, a través de instituciones públicas especialmente establecidas para estos fines.\nLa función establecida en este artículo no podrá ser ejercida por privados.\nPara la inserción, integración y reparación de las personas privadas de libertad, los establecimientos penitenciarios deben contar con espacios para el estudio, trabajo, deporte, las artes y culturas.\nEn el caso de mujeres embarazadas y madres de lactantes, el Estado adoptará las medidas necesarias tales como infraestructura y equipamiento tanto en el régimen de control cerrado, abierto y post penitenciario.",
+    "authors_raw": "convencional Jiménez",
+    "authors_matched": [
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "231",
+    "target_article": "Artículo 24",
+    "action": "MODIFY",
+    "content": "Artículo 12.- Principios y deberes. El sistema de cumplimiento de las sanciones penales y de las medidas de seguridad se organizará sobre la base del respeto a los derechos humanos y tendrá como objetivos el cumplimiento de la pena y la integración e inserción social de la persona que cumpla una condena judicial.\nEs deber del Estado, en su especial posición de garante frente a las personas privadas de libertad, velar por la protección y ejercicio efectivo de sus derechos fundamentales consagrados en esta Constitución y en los tratados e instrumentos internacionales sobre derechos humanos.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "242",
+    "target_article": "Artículo 25 A",
+    "action": "MODIFY",
+    "content": "Artículo 14. Tribunales de ejecución de penas. Habrá tribunales de ejecución de penas que velarán por los derechos fundamentales de las personas condenadas o sujetas a medidas de seguridad, conforme a lo reconocido en esta Constitución y los tratados e instrumentos internacionales de derechos humanos, procurando su integración e inserción social.\nEjercerán funciones jurisdiccionales en materia de ejecución de penas y medidas de seguridad, control jurisdiccional de la potestad disciplinaria de las autoridades penitenciarias, protección de los derechos y beneficios de los internos en los establecimientos penitenciarios y demás que señale la ley.\nEn aquellos casos que se impongan sanciones a personas indígenas, se deberá tener en cuenta sus características económicas, sociales y culturales, y dar preferencia a tipos de sanción distintos del encarcelamiento.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "244, 245, 246",
+    "target_article": "Artículo 25 B",
+    "action": "DELETE",
+    "content": "Artículo 25 B",
+    "authors_raw": "CC Cruz y Laibe; Bown y Hurtado; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "249, 250",
+    "target_article": "Título § Justicia local",
+    "action": "MODIFY",
+    "content": "§ Justicia Vecinal",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Bravo, Daniel",
+      "Jimenez, Luis",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "254, 255",
+    "target_article": "Artículo 26",
+    "action": "MODIFY",
+    "content": "Artículo 15.- De la justicia vecinal y los juzgados vecinales. La justicia vecinal se compone por los juzgados vecinales y los centros de justicia vecinal.\nEn cada comuna del país que sea asiento de una municipalidad habrá, a lo menos, un juzgado vecinal que ejerce la función jurisdiccional respecto de todas aquellas controversias jurídicas que se susciten a nivel comunal que no sean competencia de otro tribunal y de los demás asuntos que la ley les encomiende, conforme a un procedimiento breve, oral, simple y expedito.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Bravo, Daniel",
+      "Jimenez, Luis",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "258, 259, 260, 261, 262, 263, 264, 265, 266, 267",
+    "target_article": "Artículos 26 A, 26 B, 26 C y 26 D",
+    "action": "DELETE",
+    "content": "Artículos 26 A, 26 B, 26 C y 26 D",
+    "authors_raw": "CC Cruz y Laibe; Royo, Bravo, Daza, Jiménez, Llanquileo, Logan; Harboe; y Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Harboe, Felipe",
+      "Villena, Ingrid",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "269, 270",
+    "target_article": "Artículo 27",
+    "action": "MODIFY",
+    "content": "Artículo 16.- Centros de justicia vecinal. Los centros de justicia vecinal son órganos encargados de promover la solución de conflictos vecinales y de pequeña cuantía dentro de una comunidad determinada por ley, en base al diálogo social, la paz y la participación de las partes involucradas, debiendo priorizar su instalación en zonas rurales y lugares alejados de áreas urbanas.\nLos centros de justicia vecinal deberán orientar e informar al público en materias jurídicas, haciendo las derivaciones que fuesen necesarias, así como ejercer las demás funciones que la ley les encomiende.\nLa organización, atribuciones, materias y procedimientos que correspondan a los centros de justicia vecinal se regirán por la ley respectiva.",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; y Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Bravo, Daniel",
+      "Jimenez, Luis",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "275",
+    "target_article": "Artículo 28",
+    "action": "MODIFY",
+    "content": "Artículo.- El Sistema de Justicia deberá adoptar todas las medidas para prevenir, sancionar y erradicar la violencia contra mujeres, disidencias y diversidades sexo genéricas, en todas sus manifestaciones y ámbitos.\nEl Consejo de la Justicia deberá asegurar la formación inicial y capacitación constante de la totalidad de funcionarias y funcionarios y auxiliares de la administración de justicia, con el fin de eliminar estereotipos de género y garantizar la incorporación de la perspectiva de género, el enfoque interseccional y de derechos humanos, sin discriminación en la administración de justicia.\nSe promoverá la creación de salas especializadas para conocer las causas de acoso, discriminación y otras formas de violencia contra mujeres, disidencias y diversidades sexo genéricas, en coordinación con los organismos e instituciones necesarias para otorgar una respuesta estatal adecuada, oportuna e integral.\nTodos los órganos auxiliares de justicia que intervengan en las salas especializadas, deben tener formación en la materia.",
+    "authors_raw": "CC Hoppe, Royo, Llanquileo, Woldarsky y Gutiérrez",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "281",
+    "target_article": "Artículo 28-B",
+    "action": "MODIFY",
+    "content": "Artículo. Perspectiva de género y paridad. La función jurisdiccional debe ejercerse con perspectiva de género y bajo un enfoque interseccional, debiendo sus agentes garantizar la igualdad sustantiva de género y el cumplimiento de las obligaciones internacionales de derechos humanos en la materia.\nEste mandato es extensivo a toda persona u órgano jurisdiccional, órganos auxiliares y funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.\nEl principio de paridad de género orientará la estructura, organización y puesta en práctica de la función jurisdiccional. El Consejo de la Justicia garantizará que los nombramientos de los órganos del Sistema Nacional de Justicia respeten este principio en todos los escalafones, incluyendo la designación de las presidencias que se sujetarán, a lo menos, al criterio de alternancia de género. Para un adecuado cumplimiento de este mandato el Consejo de la Justicia implementará medidas de acción afirmativa.",
+    "authors_raw": "CC CC Hoppe, Royo, Llanquileo, Woldarsky y Gutiérrez",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo"
+    ]
+  },
+  {
+    "number": "284",
+    "target_article": "Artículo 28 C",
+    "action": "DELETE",
+    "content": "Artículo 28 C",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "286",
+    "target_article": "Artículo 29",
+    "action": "DELETE",
+    "content": "Artículo 29",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "287",
+    "target_article": "Artículo 30",
+    "action": "DELETE",
+    "content": "Artículo 30",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "288",
+    "target_article": "Artículo 30 A",
+    "action": "DELETE",
+    "content": "Artículo 30 A",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "290",
+    "target_article": "Artículo 31",
+    "action": "DELETE",
+    "content": "Artículo 31",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "292",
+    "target_article": "Artículo 32",
+    "action": "DELETE",
+    "content": "Artículo 32",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "294",
+    "target_article": "Artículo 33",
+    "action": "DELETE",
+    "content": "Artículo 33",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "295",
+    "target_article": "Artículo 34",
+    "action": "DELETE",
+    "content": "Artículo 34",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "296",
+    "target_article": "Artículo 36",
+    "action": "DELETE",
+    "content": "Artículo 36",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "297",
+    "target_article": "Artículo 36",
+    "action": "DELETE",
+    "content": "Artículo 36",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "298",
+    "target_article": "Artículo 37",
+    "action": "DELETE",
+    "content": "Artículo 37",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "301",
+    "target_article": "Artículo 38",
+    "action": "DELETE",
+    "content": "Artículo 38",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "302, 303",
+    "target_article": "Título § Jurisdicción militar",
+    "action": "DELETE",
+    "content": "Título § Jurisdicción militar",
+    "authors_raw": "CC Harboe; Bown y Hurtado",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "312, 313",
+    "target_article": "Título § Justicia intercultural",
+    "action": "MODIFY",
+    "content": "§ Sistemas jurídicos indígenas",
+    "authors_raw": "CC Llanquileo y Jiménez; Daza, Woldarsky, Royo, Gutiérrez y Villena",
+    "authors_matched": [
+      "Llanquileo, Natividad",
+      "Jimenez, Luis",
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "317",
+    "target_article": "Artículo 40",
+    "action": "MODIFY",
+    "content": "Artículo XX: De los sistemas jurídicos de los pueblos y naciones indígenas. Los pueblos y naciones indígenas tienen derecho a conservar, fortalecer y desarrollar sus sistemas jurídicos, que comprenden sus autoridades, instituciones, derecho propio y funciones jurisdiccionales, con pleno respeto a los derechos humanos y de la naturaleza interpretados con enfoque intercultural.\nEs deber del Estado respetar, garantizar y promover los sistemas jurídicos indígenas.",
+    "authors_raw": "CC Llanquileo y Jiménez",
+    "authors_matched": [
+      "Llanquileo, Natividad",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "321, 322, 323, 324",
+    "target_article": "Artículos 40 A y 40 B",
+    "action": "DELETE",
+    "content": "Artículos 40 A y 40 B",
+    "authors_raw": "CC Daza, Woldarsky, Royo, Gutiérrez y Villena; y Bown y Hurtado",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "329",
+    "target_article": "Artículo 40 C",
+    "action": "DELETE",
+    "content": "Artículo 40 C",
+    "authors_raw": "CC Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "331",
+    "target_article": "Artículo 41",
+    "action": "MODIFY",
+    "content": "Artículo XX.- Coordinación y cooperación. El Estado, con consentimiento de los pueblos, establecerá los mecanismos de coordinación entre las jurisdicciones indígenas y las entidades estatales; las distintas formas de cooperación; los requisitos, procedimientos y efectos de la acción de competencia y del recurso de revisión, el auxilio de la fuerza pública para la ejecución de las decisiones de la jurisdicción indígena y las demás materias necesarias para su implementación.\nLas partes siempre podrán ejercer una acción de competencia cuando consideren que su caso debe ser conocido por una sede jurisdiccional distinta.",
+    "authors_raw": "CC Daza, Woldarsky, Royo, Gutiérrez y Villena",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "334",
+    "target_article": "Artículo 41",
+    "action": "ADD",
+    "content": "El derecho de las personas para optar por un sistema de justicia indígena propio o por el sistema nacional de justicia se determinará conforme a las reglas que establezca la ley",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "337",
+    "target_article": "Artículo 42",
+    "action": "MODIFY",
+    "content": "Artículo XX.- Del recurso de revisión de los actos de la jurisdicción indígena. Las decisiones de la jurisdicción indígena sólo serán revisables por el tribunal de integración plurinacional que establezca la ley, a través de un recurso de revisión por vulneración de derechos humanos consagrados en la Constitución y los tratados e instrumentos internacionales sobre derechos humanos de los cuales Chile es parte.\nDe constatarse la vulneración, el tribunal dictará una sentencia que reemplace la decisión en base a una perspectiva intercultural con el fin de maximizar la protección de derechos individuales y colectivos.",
+    "authors_raw": "CC Daza, Woldarsky, Royo, Gutiérrez y Villena",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "340, 341, 342, 343, 345, 346, 356, 357",
+    "target_article": "Artículos 43, 43 A, 43 B, 43 C y 44",
+    "action": "DELETE",
+    "content": "Artículos 43, 43 A, 43 B, 43 C y 44",
+    "authors_raw": "CC Bown y Hurtado; y Daza, Woldarsky, Royo, Gutiérrez y Villena",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "368, 369, 370",
+    "target_article": "Artículo 46",
+    "action": "DELETE",
+    "content": "Artículo 46",
+    "authors_raw": "CC Cruz y Laibe; Daza, Woldarsky, Royo, Gutiérrez; y Bown y Hurtado",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "372, 373, 374",
+    "target_article": "Artículo 47",
+    "action": "DELETE",
+    "content": "Artículo 47",
+    "authors_raw": "CC Cruz y Laibe; Daza, Woldarsky, Royo, Gutiérrez y Villena; y Bown y Hurtado",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "378, 380 a 388",
+    "target_article": "Título Justicia Mapuche y Artículos 48, 49, 50 y 51",
+    "action": "DELETE",
+    "content": "Título Justicia Mapuche, Artículos 48, 49, 50, 51",
+    "authors_raw": "CC Daza, Woldarsky, Royo, Gutiérrez y Villena; Harboe; Bown y Hurtado",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Woldarsky, Manuel",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Villena, Ingrid",
+      "Harboe, Felipe",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "389, 390, 400, 401, 402",
+    "target_article": "Epígrafes § Consejo de la Judicatura y § Consejo Supremo de Justicia",
+    "action": "DELETE",
+    "content": "Epígrafes § Consejo de la Judicatura y § Consejo Supremo de Justicia",
+    "authors_raw": "CC Daza, Villena, Laibe, Royo, Llanquileo y Gutiérrez; Cruz y Laibe; y Bown y Hurtado",
+    "authors_matched": [
+      "Daza, Mauricio",
+      "Villena, Ingrid",
+      "Laibe, Tomas",
+      "Royo, Manuela",
+      "Llanquileo, Natividad",
+      "Gutierrez, Hugo",
+      "Cruz, Andres",
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "ind": "2",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Cap\u00edtulo' (ID:Cap\u00edtulo) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "ind": "3",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo' (ID:T\u00edtulo) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "ind": "4",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo' (ID:T\u00edtulo) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "ind": "5",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo' (ID:T\u00edtulo) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-1-02-08.json",
+    "ind": "17",
+    "type": "EMPTY_AUTHORS",
+    "msg": "No authors matched for indication 17."
+  },
+  {
+    "file": "extracted_informe-indicaciones-3-02-23-r.json",
+    "ind": "17",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Principios generales del sistema nacional de justicia' (ID:Ep\u00edgrafe \u00a7 Principios generales del sistema nacional de justicia) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "2",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo \u00a7 Funci\u00f3n jurisdiccional' (ID:T\u00edtulo \u00a7 Funci\u00f3n jurisdiccional) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "52",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo \u00a7 De los Tribunales' (ID:T\u00edtulo \u00a7 De los Tribunales) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "67",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafes \u00a7 De la Corte Suprema y \u00a7 Tribunal Supremo de Justicia' (ID:Ep\u00edgrafes \u00a7 De la Corte Suprema y \u00a7 Tribunal Supremo de Justicia) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "132",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafes \u00a7 Cortes de Apelaciones y \u00a7 Tribunales de Apelaciones' (ID:Ep\u00edgrafes \u00a7 Cortes de Apelaciones y \u00a7 Tribunales de Apelaciones) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "156 y 157",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Tribunales de Instancia' (ID:Ep\u00edgrafe \u00a7 Tribunales de Instancia) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_1.json",
+    "ind": "194, 195 y 196",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Justicia administrativa' (ID:Ep\u00edgrafe \u00a7 Justicia administrativa) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "194, 195, 196",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Justicia administrativa' (ID:Ep\u00edgrafe \u00a7 Justicia administrativa) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "226, 227",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Tribunales de ejecuci\u00f3n de pena' (ID:Ep\u00edgrafe \u00a7 Tribunales de ejecuci\u00f3n de pena) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "249, 250",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo \u00a7 Justicia local' (ID:T\u00edtulo \u00a7 Justicia local) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "302, 303",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo \u00a7 Jurisdicci\u00f3n militar' (ID:T\u00edtulo \u00a7 Jurisdicci\u00f3n militar) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "312, 313",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulo \u00a7 Justicia intercultural' (ID:T\u00edtulo \u00a7 Justicia intercultural) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_2.json",
+    "ind": "389, 390, 400, 401, 402",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafes \u00a7 Consejo de la Judicatura y \u00a7 Consejo Supremo de Justicia' (ID:Ep\u00edgrafes \u00a7 Consejo de la Judicatura y \u00a7 Consejo Supremo de Justicia) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "601",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria primera' (ID:Disposici\u00f3n transitoria primera) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "606, 607",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria primera A' (ID:Disposici\u00f3n transitoria primera A) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "611",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria segunda' (ID:Disposici\u00f3n transitoria segunda) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "614",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria tercera' (ID:Disposici\u00f3n transitoria tercera) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "616, 617, 618",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria tercera A' (ID:Disposici\u00f3n transitoria tercera A) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "621, 623",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria cuarta' (ID:Disposici\u00f3n transitoria cuarta) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "626, 627",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria quinta' (ID:Disposici\u00f3n transitoria quinta) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "631",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria quinta A' (ID:Disposici\u00f3n transitoria quinta A) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "632",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria sexta' (ID:Disposici\u00f3n transitoria sexta) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-4-03-07_3.json",
+    "ind": "634, 635, 636",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Disposici\u00f3n transitoria s\u00e9ptima' (ID:Disposici\u00f3n transitoria s\u00e9ptima) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-5-04-01-1.json",
+    "ind": "33",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Sistemas jur\u00eddicos ind\u00edgenas' (ID:Ep\u00edgrafe \u00a7 Sistemas jur\u00eddicos ind\u00edgenas) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "ind": "6",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Ministerio P\u00fablico' (ID:Ep\u00edgrafe \u00a7 Ministerio P\u00fablico) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "ind": "112",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Garant\u00edas procesales y asistencia jur\u00eddica' (ID:Ep\u00edgrafe \u00a7 Garant\u00edas procesales y asistencia jur\u00eddica) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_1.json",
+    "ind": "145",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Defensor\u00eda Penal P\u00fablica' (ID:Ep\u00edgrafe \u00a7 Defensor\u00eda Penal P\u00fablica) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_2.json",
+    "ind": "178",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'T\u00edtulos' (ID:T\u00edtulos) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_2.json",
+    "ind": "275",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Subt\u00edtulo' (ID:Subt\u00edtulo) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "ind": "315",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Tribunales Electorales y Servicio Electoral' (ID:Ep\u00edgrafe \u00a7 Tribunales Electorales y Servicio Electoral) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "ind": "328",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Subt\u00edtulo \u00a7 Justicia Electoral' (ID:Subt\u00edtulo \u00a7 Justicia Electoral) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "ind": "346",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 De la Direcci\u00f3n de Servicio Civil' (ID:Ep\u00edgrafe \u00a7 De la Direcci\u00f3n de Servicio Civil) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "ind": "362",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Servicio Nacional del Consumidor' (ID:Ep\u00edgrafe \u00a7 Servicio Nacional del Consumidor) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-6-04-01-2_3.json",
+    "ind": "368",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Revisi\u00f3n represiva de la ley' (ID:Ep\u00edgrafe \u00a7 Revisi\u00f3n represiva de la ley) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_1.json",
+    "ind": "44",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe' (ID:Ep\u00edgrafe) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_1.json",
+    "ind": "75",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe' (ID:Ep\u00edgrafe) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_1.json",
+    "ind": "93",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe' (ID:Ep\u00edgrafe) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "ind": "98",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Del Consejo Aut\u00f3nomo del Medio Ambiente' (ID:Ep\u00edgrafe \u00a7 Del Consejo Aut\u00f3nomo del Medio Ambiente) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "ind": "102",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Agencia Nacional del Agua' (ID:Ep\u00edgrafe \u00a7 Agencia Nacional del Agua) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "ind": "108",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Banco Central' (ID:Ep\u00edgrafe \u00a7 Banco Central) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "ind": "152",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe Cap\u00edtulo XX' (ID:Ep\u00edgrafe Cap\u00edtulo XX) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_2.json",
+    "ind": "193",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Del Consejo de Pueblos Ind\u00edgenas' (ID:Ep\u00edgrafe \u00a7 Del Consejo de Pueblos Ind\u00edgenas) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "ind": "203",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Justicia Constitucional' (ID:Ep\u00edgrafe \u00a7 Justicia Constitucional) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-7-04-27-r_3.json",
+    "ind": "261",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Reforma y Reemplazo de la Constituci\u00f3n' (ID:Ep\u00edgrafe \u00a7 Reforma y Reemplazo de la Constituci\u00f3n) which is not in final draft."
+  },
+  {
+    "file": "extracted_informe-indicaciones-8-05-08_2.json",
+    "ind": "98",
+    "type": "GHOST_ARTICLE",
+    "msg": "Refers to 'Ep\u00edgrafe \u00a7 Servicios Notariales y Registrales de Car\u00e1cter P\u00fablico' (ID:Ep\u00edgrafe \u00a7 Servicios Notariales y Registrales de Car\u00e1cter P\u00fablico) which is not in final draft."
+  }
+]

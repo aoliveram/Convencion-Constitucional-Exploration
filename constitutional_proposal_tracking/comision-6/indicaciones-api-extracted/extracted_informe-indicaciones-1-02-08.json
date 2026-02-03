@@ -1,0 +1,1560 @@
+[
+  {
+    "number": "2",
+    "target_article": "Capítulo",
+    "action": "DELETE",
+    "content": "Órganos de la Jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "3",
+    "target_article": "Título",
+    "action": "DELETE",
+    "content": "Principios generales de los sistemas de justicia",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "4",
+    "target_article": "Título",
+    "action": "DELETE",
+    "content": "Principios de la Jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "5",
+    "target_article": "Título",
+    "action": "DELETE",
+    "content": "Función y principios de la jurisdicción",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "8",
+    "target_article": "Artículo 1",
+    "action": "MODIFY",
+    "content": "Artículo 1.- La función jurisdiccional. La jurisdicción es una función pública que se ejerce en nombre de los pueblos y que consiste en conocer, juzgar y ejecutar con efecto de cosa juzgada todos los conflictos de relevancia jurídica, por medio de un debido proceso, de conformidad a la Constitución, las leyes y los estándares internacionales de derechos humanos. Se ejerce exclusivamente por los tribunales de justicia y los demás órganos o autoridades indígenas reconocidos por la Constitución y las leyes dictadas conforme a ella. Al ejercer la jurisdicción se debe velar por la tutela y promoción de los derechos fundamentales, del sistema democrático y el principio de juridicidad.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "17",
+    "target_article": "Artículo 1",
+    "action": "MODIFY",
+    "content": "Reemplazar en el inciso segundo la expresión “derechos fundamentales” por “derechos humanos y de la naturaleza”",
+    "authors_raw": "del convencional",
+    "authors_matched": []
+  },
+  {
+    "number": "20",
+    "target_article": "Artículo 1A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 1A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "22",
+    "target_article": "Artículo 1B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 1B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "33",
+    "target_article": "Artículo 1C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 1C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "37",
+    "target_article": "Artículo 2",
+    "action": "MODIFY",
+    "content": "Artículo 2.- Pluralismo jurídico. El Sistema Nacional de Justicia coexiste, en un plano de igualdad, con los Sistemas Jurídicos Indígenas. Es deber del Estado garantizar una adecuada coordinación entre ambos, con pleno respeto al derecho a la libre determinación y los estándares internacionales de derechos humanos interpretados interculturalmente.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "38",
+    "target_article": "Artículo 2A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 2A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 2B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 2B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "40",
+    "target_article": "Título",
+    "action": "ADD",
+    "content": "§ Principios generales del Sistema Nacional de Justicia",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "41",
+    "target_article": "Artículo 3",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 3",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "42",
+    "target_article": "Artículo 3",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 3",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "45",
+    "target_article": "Artículo 3A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 3A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "47",
+    "target_article": "Artículo 4 (pasa a ser 3)",
+    "action": "MODIFY",
+    "content": "Artículo 3.- Independencia jurisdiccional, imparcialidad y exclusividad. Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo otro poder o autoridad, debiendo actuar y resolver de forma imparcial. La función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos. Las juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley. Las juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "50",
+    "target_article": "Artículo 3",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán militar en partidos políticos.",
+    "authors_raw": "Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "51",
+    "target_article": "Artículo 3",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán participar como candidatas o candidatos en procesos de elección popular, salvo en los casos autorizados por esta Constitución.",
+    "authors_raw": "Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "52",
+    "target_article": "Artículo 4A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "55",
+    "target_article": "Artículo 4B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "56",
+    "target_article": "Artículo 4C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "59",
+    "target_article": "Artículo 4D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4D",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "61",
+    "target_article": "Artículo 4E",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4E",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "63",
+    "target_article": "Artículo 4F",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 4F",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "66",
+    "target_article": "Artículo 4",
+    "action": "MODIFY",
+    "content": "Artículo 4°. De la inamovilidad. Las juezas y jueces son inamovibles y no pueden ser suspendidos, trasladados o removidos sino por el Consejo de la Justicia, conforme a las causales y procedimientos establecidos por la Constitución y las leyes. Cesan en sus cargos únicamente al cumplirse la duración prevista para el mismo, por alcanzar los setenta años de edad, por renuncia voluntaria, por constatarse una incapacidad legal sobreviniente o por remoción.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "68",
+    "target_article": "Artículo 5A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "70",
+    "target_article": "Artículo 5B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "71",
+    "target_article": "Artículo 5C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "72",
+    "target_article": "Artículo 5C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5C",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "73",
+    "target_article": "Artículo 5D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5D",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "74",
+    "target_article": "Artículo 5D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5D",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "76",
+    "target_article": "Artículo 5E",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 5E",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "79",
+    "target_article": "Artículo 6 (pasa a ser 5)",
+    "action": "MODIFY",
+    "content": "Artículo 5.- Derecho de acceso a la justicia. La Constitución garantiza el pleno acceso a la justicia a todas las personas y colectivos. Es deber del Estado remover los obstáculos normativos, sociales, culturales y económicos que impidan o limiten la posibilidad de acudir a los órganos jurisdiccionales para la tutela y el ejercicio de sus derechos. Los tribunales deben brindar una atención adecuada a quienes presenten peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una ley establecerá sus derechos y deberes.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "81",
+    "target_article": "Artículo 6A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 6A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "82",
+    "target_article": "Artículo 6B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 6B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "83",
+    "target_article": "Artículo 6C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 6C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "86",
+    "target_article": "Artículo 7 (pasa a ser 6)",
+    "action": "MODIFY",
+    "content": "Artículo 6.- Tutela jurisdiccional efectiva. Todas las personas tienen derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e intereses legítimos, de manera oportuna y eficaz conforme a los principios y estándares reconocidos en la Constitución y las leyes.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "87",
+    "target_article": "Artículo 7A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 7A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "89",
+    "target_article": "Artículo 7B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 7B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "90",
+    "target_article": "Artículo 7C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 7C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "91",
+    "target_article": "Artículo 8",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "93",
+    "target_article": "Artículo 8A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "96",
+    "target_article": "Artículo 8B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "97",
+    "target_article": "Artículo 8C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "98",
+    "target_article": "Artículo 8C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8C",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "99",
+    "target_article": "Artículo 8D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8D",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "100",
+    "target_article": "Artículo 8D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8D",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "101",
+    "target_article": "Artículo 8E",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8E",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "102",
+    "target_article": "Artículo 8F",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 8F",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "105",
+    "target_article": "Artículo 9 (pasa a ser 7)",
+    "action": "MODIFY",
+    "content": "Artículo 7.- Inexcusabilidad e indelegabilidad. Reclamada su intervención en la forma legal y sobre materias de su competencia, los tribunales y los demás órganos que ejerzan jurisdicción no podrán excusarse de ejercer su función en un tiempo razonable ni aún a falta de norma jurídica expresa que resuelva el asunto sometido a su decisión. El ejercicio de la jurisdicción es indelegable.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "106",
+    "target_article": "Artículo 9A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 9A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "107",
+    "target_article": "Artículo 9B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 9B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "108",
+    "target_article": "Artículo 9C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 9C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "109",
+    "target_article": "Artículo 9D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 9D",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "112",
+    "target_article": "Artículo 10 (pasa a ser 8)",
+    "action": "MODIFY",
+    "content": "Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar sus resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los órganos que ejercen jurisdicción podrán impartir órdenes o instrucciones directas a la fuerza pública y a toda otra autoridad o persona, quienes deberán cumplir lo mandatado de forma rápida y expedita, sin poder calificar su justicia, fundamento, oportunidad o legalidad. Las sentencias y resoluciones dictadas en el Sistema Internacional de Protección de los Derechos Humanos permitirán revisar el efecto de cosa juzgada de las sentencias firmes dictadas por tribunales del Estado de Chile.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "114",
+    "target_article": "Artículo 10A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 10A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "115",
+    "target_article": "Artículo 10B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 10B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "116",
+    "target_article": "Artículo 10C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 10C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "117",
+    "target_article": "Artículo 10D",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 10D",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "120",
+    "target_article": "Artículo 11 (pasa a ser 9)",
+    "action": "MODIFY",
+    "content": "Artículo 9.- Fundamentación y lenguaje claro. Las resoluciones judiciales serán siempre motivadas, salvo en los casos establecidos por la ley. En todo evento, la sentencia que ponga término a un procedimiento siempre deberá ser fundada y redactada en lenguaje claro e inclusivo.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "121",
+    "target_article": "Artículo 11A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 11A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "123",
+    "target_article": "Artículo 11B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 11B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "126",
+    "target_article": "Artículo 12 (pasa a ser 10)",
+    "action": "MODIFY",
+    "content": "Artículo 10.- Gratuidad. El acceso a la función jurisdiccional será gratuito, sin perjuicio de las actuaciones judiciales y sanciones procesales establecidas por la ley. La justicia arbitral será siempre voluntaria. La ley no podrá establecer arbitrajes forzosos.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "128",
+    "target_article": "Artículo 12A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 12A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "130",
+    "target_article": "Artículo 12B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 12B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "133",
+    "target_article": "Artículo 13",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 13",
+    "authors_raw": "Cruz y Laibe",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas"
+    ]
+  },
+  {
+    "number": "134",
+    "target_article": "Artículo 13",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 13",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "135",
+    "target_article": "Artículo 13",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 13",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "137",
+    "target_article": "Artículo 14",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 14",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "138",
+    "target_article": "Artículo 14",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 14",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "139",
+    "target_article": "Artículo 14A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 14A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "143",
+    "target_article": "Artículo 14B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 14B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "144",
+    "target_article": "Artículo 14B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 14B",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "147",
+    "target_article": "Artículo 15 (pasa a ser 11)",
+    "action": "MODIFY",
+    "content": "Artículo 11.- Principio de responsabilidad jurisdiccional. Las juezas y jueces son personalmente responsables por los delitos de cohecho, falta de observancia en materia sustancial de las leyes que reglan el procedimiento, y, en general, por toda prevaricación, denegación o torcida administración de justicia. La ley determinará los casos y el modo de hacer efectiva esta responsabilidad. Los perjuicios provocados por error judicial otorgan derecho a una indemnización conforme al procedimiento establecido por la Constitución y las leyes.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "150",
+    "target_article": "Artículo 15A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 15A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "152",
+    "target_article": "Artículo 15B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 15B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "153",
+    "target_article": "Artículo 15B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 15B",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "154",
+    "target_article": "Artículo 15C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 15C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "155",
+    "target_article": "Artículo 16",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 16",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "158",
+    "target_article": "Artículo 16A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 16A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "159",
+    "target_article": "Artículo 16B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 16B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "160",
+    "target_article": "Artículo 17",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 17",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "164",
+    "target_article": "Artículo 17A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 17A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "165",
+    "target_article": "Artículo 17B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 17B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "167",
+    "target_article": "Artículo 17C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 17C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "170",
+    "target_article": "Artículo 18 (pasa a ser 12)",
+    "action": "MODIFY",
+    "content": "Artículo 12.- Publicidad, Probidad y Transparencia. Todas las etapas de los procedimientos y las resoluciones judiciales son públicas. Excepcionalmente, la ley podrá establecer su reserva o secreto en aquellos casos en que la publicidad pueda significar un peligro grave de afectación a la integridad e intimidad de las personas. En los procesos en que intervengan niñas, niños y adolescentes, se deberá procurar el resguardo de su identidad. Los principios de probidad y de transparencia serán aplicables a todas las personas que ejercen jurisdicción en el país. La ley establecerá las responsabilidades correspondientes en caso de infracción a esta disposición.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "173",
+    "target_article": "Artículo 18B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 18B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "174",
+    "target_article": "Artículo 19",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 19",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "175",
+    "target_article": "Artículo 20",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 20",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "179",
+    "target_article": "Artículo 21 (pasa a ser 13)",
+    "action": "MODIFY",
+    "content": "Artículo 13.- Paridad y perspectiva de género. La función jurisdiccional se regirá por los principios de paridad y perspectiva de género. Todos los órganos y personas que intervienen en la función jurisdiccional deben garantizar la igualdad sustantiva. El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la designación de las presidencias. Los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "180",
+    "target_article": "Artículo 21A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 21A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "181",
+    "target_article": "Artículo 21A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 21A",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "184",
+    "target_article": "Artículo 22 (pasa a ser 14)",
+    "action": "MODIFY",
+    "content": "Artículo 14. Plurinacionalidad, pluralismo jurídico e interculturalidad. La función jurisdiccional se define en su estructura, integración y procedimientos conforme a los principios de plurinacionalidad, pluralismo jurídico e interculturalidad. Los órganos y personas que intervienen en el desarrollo de la jurisdicción, deben adoptar una perspectiva intercultural en el tratamiento y resolución de las materias de su competencia, respetando las costumbres, tradiciones, protocolos y el derecho propio de los pueblos indígenas, conforme a los estándares internacionales de derechos humanos.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "185",
+    "target_article": "Artículo 22A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "186",
+    "target_article": "Artículo 22A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22A",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "188",
+    "target_article": "Artículo 22B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22B",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "189",
+    "target_article": "Artículo 22B",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22B",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "191",
+    "target_article": "Artículo 22C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22C",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "192",
+    "target_article": "Artículo 22C",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 22C",
+    "authors_raw": "Bown y Hurtado",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ]
+  },
+  {
+    "number": "193",
+    "target_article": "Artículo 23",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 23",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "197",
+    "target_article": "Artículo 23A",
+    "action": "DELETE",
+    "content": "Eliminar el artículo 23A",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "198",
+    "target_article": "Artículo 15 (nuevo)",
+    "action": "ADD",
+    "content": "Artículo 15.- Mecanismos Colaborativos de Resolución de Conflictos. Es deber del Estado promover e implementar mecanismos colaborativos de resolución de conflictos que garanticen la participación activa y el diálogo. Sólo la ley podrá determinar los requisitos y efectos de los mecanismos alternativos de resolución de conflictos.",
+    "authors_raw": "Royo, Bravo, Daza, Jiménez, Llanquileo, Logan y Stingo",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ]
+  }
+]

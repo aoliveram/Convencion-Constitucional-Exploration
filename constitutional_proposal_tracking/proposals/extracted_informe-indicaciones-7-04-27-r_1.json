@@ -1,0 +1,686 @@
+[
+  {
+    "number": "1",
+    "target_article": "Epígrafe",
+    "action": "ADD",
+    "content": "§ Justicia Ambiental",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "2",
+    "target_article": "Artículo 1",
+    "action": "MODIFY",
+    "content": "Artículo 1.- Tribunales ambientales. Los Tribunales Ambientales conocerán y resolverán sobre la legalidad de los actos administrativos en materia ambiental, de la acción de tutela de derechos fundamentales ambientales y de los derechos de la Naturaleza, la reparación por daño ambiental y las demás que señale la Constitución y la ley. Las acciones para impugnar la legalidad de los actos administrativos que se pronuncien sobre materia ambiental, podrán interponerse directamente a los Tribunales Ambientales, sin que pueda exigirse el agotamiento previo de la vía administrativa. Habrá al menos un Tribunal Ambiental en cada región del país. La ley regulará la integración, competencia y demás que sean necesarias para su adecuado funcionamiento. En el caso de actos de la administración que decidan un proceso de evaluación ambiental y de la solicitud de medidas cautelares no se podrá exigir el agotamiento de la vía administrativa para acceder a la justicia ambiental.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "4",
+    "target_article": "Artículo 2 BIS",
+    "action": "ADD",
+    "content": "Artículo 2 BIS: Principio de paridad en órganos autónomos. Todos los órganos autónomos se rigen por el principio de paridad. Se promueve la implementación de medidas de acción afirmativa, asegurando que, al menos, el cincuenta por ciento de su integración sean mujeres.",
+    "authors_raw": "Villena, Hoppe y Royo",
+    "authors_matched": [
+      "Villena, Ingrid",
+      "Hoppe, Vanessa",
+      "Royo, Manuela"
+    ]
+  },
+  {
+    "number": "5",
+    "target_article": "Capítulo",
+    "action": "ADD",
+    "content": "Capítulo [XX].- Ministerio Público",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "6",
+    "target_article": "Artículo 3",
+    "action": "MODIFY",
+    "content": "Artículo 3.- Del Ministerio Público. El Ministerio Público es un organismo autónomo y jerarquizado, con personalidad jurídica y patrimonio propio que tiene como función dirigir en forma exclusiva la investigación de los hechos que pudiesen ser constitutivos de delito, los que determinen la participación punible y los que acrediten la inocencia del imputado. Ejercerá la acción penal pública en representación exclusiva de la sociedad, en la forma prevista por la ley. En dichas funciones deberá velar por el respeto y promoción de los derechos humanos, considerando también los intereses de la víctima, respecto de quienes deberá adoptar todas aquellas medidas que sean necesarias para protegerlas, al igual que a los testigos. Ninguna ley ni autoridad podrá en caso alguno impedir o establecer condiciones que entorpezcan el desarrollo de la investigación y el ejercicio de la acción penal pública cuando se trate de hechos que comprometan el interés público, el patrimonio de la nación o contra bienes jurídicos colectivos. En caso alguno podrá ejercer funciones jurisdiccionales. La víctima del delito y las demás personas que determine la ley podrán ejercer igualmente la acción penal. El Ministerio Público podrá impartir órdenes directas a las Fuerzas de Orden y Seguridad Pública para el ejercicio de sus funciones. La autoridad policial requerida deberá cumplir sin más trámite dichas órdenes y no podrá calificar su fundamento, oportunidad, justicia o legalidad, salvo requerir la exhibición, a menos que ésta sea verbal, de la autorización judicial. Las actuaciones que amenacen, priven o perturben al imputado o a terceros del ejercicio de los derechos que esta Constitución asegura, requerirán siempre de autorización judicial previa y motivada.",
+    "authors_raw": "Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "8",
+    "target_article": "Artículo 3",
+    "action": "MODIFY",
+    "content": "en cuyo caso podrá además participar, tanto en la fijación de metas y objetivos, como en la evaluación del cumplimiento de estas órdenes, metas y objetivos.",
+    "authors_raw": "CC Logan",
+    "authors_matched": [
+      "Logan, Rodrigo"
+    ]
+  },
+  {
+    "number": "10",
+    "target_article": "Artículo 4",
+    "action": "MODIFY",
+    "content": "Artículo 4.- De la organización y atribuciones del Ministerio Público. Una ley determinará la organización y atribuciones del Ministerio Público, señalará las calidades y requisitos que deberán tener y cumplir las y los fiscales para su nombramiento y las causales de su remoción. Los fiscales cesarán en su cargo al cumplir los 70 años. Las autoridades superiores de la institución deberán siempre fundar aquellas órdenes e instrucciones dirigidas a los fiscales que puedan afectar una investigación o el ejercicio de la acción penal.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "13",
+    "target_article": "Artículo 4",
+    "action": "MODIFY",
+    "content": "Las y los fiscales y funcionarios tendrán un sistema de promoción y ascenso que garantice una carrera que permita fomentar la excelencia técnica y la acumulación de experiencia en las funciones que éstos desempeñan",
+    "authors_raw": "CC Logan",
+    "authors_matched": [
+      "Logan, Rodrigo"
+    ]
+  },
+  {
+    "number": "14",
+    "target_article": "Artículo 5",
+    "action": "MODIFY",
+    "content": "Artículo 5.- De las Fiscalías Regionales. Existirá una Fiscalía Regional en cada región del país, sin perjuicio que la ley podrá establecer más de una por región. Las y los fiscales regionales deberán haberse desempeñado como fiscales adjuntos durante cinco o más años, no haber ejercido como fiscal regional, haber aprobado cursos de formación especializada y poseer las demás calidades que establezca la ley. Durarán cuatro años y una vez concluida su labor, podrán retornar a la función que ejercían en el Ministerio Público. No podrán ser reelectos ni postular nuevamente al cargo de fiscal regional.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "19",
+    "target_article": "Artículo 6",
+    "action": "MODIFY",
+    "content": "Artículo 6.- Dirección del Ministerio Público. La dirección superior del Ministerio Público reside en la o el Fiscal Nacional y en un Consejo Superior, órgano colegiado y paritario. Al Consejo Superior le corresponderá designar a la o el Fiscal Nacional, de entre sus integrantes. Además, designará a una o un director ejecutivo nacional, por concurso público.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "24",
+    "target_article": "Artículo 7",
+    "action": "MODIFY",
+    "content": "Artículo 7.- Del Consejo Superior del Ministerio Público. El Consejo del Ministerio Público estará compuesto por siete integrantes, designados de la siguiente manera: a) Tres integrantes elegidos por las y los fiscales entre sus pares. b) Una o un integrante elegido por funcionarias y funcionarios del Ministerio Público entre sus pares. c) Tres integrantes elegidos por el Congreso, a partir de ternas elaboradas por el Consejo de Alta Dirección Pública. Los candidatos y candidatas no podrán haber desempeñado cargos de elección popular ni haber sido candidatos a ellos, así como tampoco podrán haber desarrollado funciones en el gobierno o administración del Estado en cargos que sean de exclusiva confianza del Presidente de la República, en los últimos cuatro años. La ley establecerá el procedimiento y los requisitos que deberán reunir las y los consejeros del Ministerio Público. Las y los consejeros durarán cuatro años en sus cargos y no podrán ser reelectos, debiendo renovarse por parcialidades en conformidad a lo que señale la ley. La calidad de consejera o consejero es incompatible con todo otro cargo o función sea o no remunerada, con excepción de la docencia universitaria con los límites que señale la ley. Las y los consejeros indicados en las letras a) y b) se entenderán suspendidos del ejercicio de su función mientras dure su cometido, pudiendo retornar al ejercicio de sus funciones una vez cumplido este desempeño.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "30",
+    "target_article": "Artículo 8",
+    "action": "MODIFY",
+    "content": "Artículo 8.- Atribuciones del Consejo Superior del Ministerio Público. El Consejo Superior del Ministerio Público tendrá las siguientes atribuciones: a) Dirigir el organismo, velando por el cumplimiento de sus objetivos; b) Determinar la política de gestión profesional de las y los funcionarios del Ministerio Público. c) Supervigilar la política de persecución penal adoptada por el Comité del Ministerio Público. d) Evaluar y calificar permanentemente el desempeño de las y los funcionarios. e) Designar a la o el Fiscal Nacional, a las o los fiscales regionales, fiscales adjuntos y demás funcionarios del Ministerio Público, en conformidad a la ley. f) Ejercer la potestad disciplinaria respecto de las y los funcionarios, en conformidad a la ley. g) Definir las necesidades presupuestarias, gestionando los recursos para su adecuado funcionamiento. h) Las demás atribuciones que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "32",
+    "target_article": "Artículo 9",
+    "action": "MODIFY",
+    "content": "Artículo 9.- De la o el Fiscal Nacional. La o el Fiscal Nacional dirigirá las sesiones ordinarias y extraordinarias del Consejo del Ministerio Público, representará a la institución ante los demás órganos del Estado, coordinará la ejecución de la política de persecución penal, y tendrá las demás atribuciones que señale la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "34",
+    "target_article": "Artículo 10",
+    "action": "MODIFY",
+    "content": "Artículo 10.- Del Comité del Ministerio Público. Existirá un Comité del Ministerio Público, integrado por las y los fiscales regionales y la o el Fiscal Nacional, quien lo presidirá. El Comité deberá fijar la política de persecución penal y los criterios de actuación para el cumplimiento de dichos objetivos, debiendo siempre velar por la transparencia y objetividad, resguardando los intereses de la sociedad y el respeto de los derechos humanos.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "36",
+    "target_article": "Artículo 11",
+    "action": "MODIFY",
+    "content": "Artículo 11.- Fiscales adjuntos del Ministerio Público. Existirán fiscales adjuntos del Ministerio Público quienes ejercerán su labor en los casos específicos que se les asignen, conforme a lo establecido en la Constitución y las leyes.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "41",
+    "target_article": "Artículo 12",
+    "action": "MODIFY",
+    "content": "Artículo 12.- De la rendición de cuentas. La o el Fiscal Nacional y las y los fiscales regionales deberán rendir, anualmente, una cuenta pública de su gestión. En el caso de la o el Fiscal Nacional se rendirá la cuenta ante el Congreso, y en el caso de las y los fiscales regionales ante la Asamblea Regional respectiva.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "44",
+    "target_article": "Epígrafe",
+    "action": "MODIFY",
+    "content": "§ Derecho a un proceso con las debidas garantías",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "45",
+    "target_article": "Artículo 13",
+    "action": "MODIFY",
+    "content": "Artículo 13.- Derecho a un proceso con las debidas garantías. Toda persona tiene derecho a un proceso razonable y justo, en que se salvaguarden las garantías que se señalan en esta Constitución, sin perjuicio de las que se establezcan en la ley y en los tratados internacionales que se encuentren vigentes y hayan sido ratificados por Chile. Dicho proceso se realizará ante el tribunal competente, independiente e imparcial, establecido por la ley. Toda persona tiene derecho a ser oída y juzgada en igualdad de condiciones y dentro de un plazo razonable. Las sentencias serán fundadas, asegurando la existencia de un recurso adecuado y efectivo ante el tribunal que determine la ley. Toda persona tiene derecho a defensa jurídica y ninguna autoridad o individuo podrá impedir, restringir o perturbar la debida intervención del letrado.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "46",
+    "target_article": "Artículo 13",
+    "action": "MODIFY",
+    "content": "establecido con anterioridad por la ley",
+    "authors_raw": "CC Hoppe y Cruz",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Cruz, Andres"
+    ]
+  },
+  {
+    "number": "49",
+    "target_article": "Artículo 15",
+    "action": "MODIFY",
+    "content": "Articulo 15.- Garantías procesales penales. Toda persona tiene derecho a las siguientes garantías procesales penales mínimas: a) A que toda actuación de la investigación o procedimiento que le prive, restrinja o perturbe el ejercicio de los derechos que asegura la Constitución, requiere previa autorización judicial. b) A conocer los antecedentes de la investigación seguida en su contra, salvo las excepciones que la ley señale. c) A que se presuma su inocencia mientras no exista una sentencia condenatoria firme dictada en su contra. d) A que no se presuma de derecho la responsabilidad penal. e) A ser informada, sin demora y en forma detallada, de sus derechos y causa de la investigación seguida en su contra. f) A guardar silencio ni a ser obligada a declarar contra sí misma o reconocer su responsabilidad. No podrán ser obligados a declarar en contra del imputado sus ascendientes, descendientes, cónyuge, conviviente civil y demás personas que señale la ley. g) A que su libertad sea la regla general. Las medidas cautelares personales son excepcionales, temporales y proporcionales, debiendo la ley regular los casos de procedencia y requisitos. h) A no ser sometida a un nuevo procedimiento, investigación o persecución penal por el mismo hecho respecto del cual haya sido condenada, absuelta o sobreseída definitivamente por sentencia ejecutoriada. i) A ser sancionada de forma proporcional a la infracción cometida. j) A que no se le imponga la pena de confiscación de bienes, sin perjuicio del comiso en los casos establecidos por las leyes. k) A que no se le imponga como pena la pérdida de los derechos previsionales. l) A que la detención o la internación de una o un adolescente se utilice sólo de forma excepcional, durante el período más breve que proceda y conforme a lo establecido en esta Constitución, la ley y los tratados internacionales de derechos humanos.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "53",
+    "target_article": "Artículo 15 bis",
+    "action": "ADD",
+    "content": "Artículo 15 bis. Ámbito de aplicación de las garantías procesales. Las garantías procesales consignadas en los artículos precedentes son aplicables, en lo que sea pertinente, a toda clase de procedimientos judiciales, administrativos o de cualquier otra naturaleza.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "55",
+    "target_article": "Artículo 16",
+    "action": "MODIFY",
+    "content": "Artículo 16. Del principio de legalidad de los delitos y las penas. Ninguna persona podrá ser condenada o sometida a medida de seguridad por acciones u omisiones que al producirse no constituyan delito o infracción administrativa, según la legislación vigente en aquel momento. Ningún delito se castigará con otra pena que la señalada por una ley que haya entrado en vigencia con anterioridad a su perpetración, a menos que una nueva ley favorezca al imputado. Lo anterior también se aplicará a las medidas de seguridad. Ninguna ley podrá establecer penas o medidas de seguridad sin que la conducta que se sanciona esté descrita de manera clara y precisa en ella.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "57",
+    "target_article": "Epígrafe",
+    "action": "ADD",
+    "content": "§ Derecho a asesoría jurídica gratuita",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "58",
+    "target_article": "Artículo 16 bis",
+    "action": "ADD",
+    "content": "Artículo 16 bis. Derecho a asesoría jurídica gratuita. Toda persona tiene derecho a la asesoría jurídica gratuita en los casos y en la forma que establezca la Constitución y la ley. El Estado asegura la asesoría jurídica gratuita e integra por parte de abogadas y abogados habilitados para el ejercicio de la profesión, a toda persona que no pueda obtenerla por sí misma.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "47",
+    "target_article": "Artículo 18",
+    "action": "ADD",
+    "content": "Es deber del Estado otorgar asistencia jurídica especializada para la protección del interés superior de los niños, niñas y adolescentes, especialmente cuando estos han sido sujetos de medidas de protección, procurando crear todas las condiciones necesarias para el resguardo de sus derechos",
+    "authors_raw": "CC Labra, Bown, Hurtado, Cozzi y Mayol",
+    "authors_matched": [
+      "Labra, Patricia",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Mayol, Luis"
+    ]
+  },
+  {
+    "number": "59",
+    "target_article": "Artículo 17",
+    "action": "MODIFY",
+    "content": "Artículo 17.- Servicio Integral de Acceso a la Justicia. Un organismo desconcentrado de carácter técnico, denominado Servicio Integral de Acceso a la Justicia, tendrá por función prestar asesoría, defensa y representación letrada de calidad a las personas, así como también brindar apoyo profesional de tipo psicológico y social en los casos que corresponda. La ley determinará la organización, áreas de atención, composición y planta de personal del Servicio Integral de Acceso a la Justicia, considerando un despliegue territorialmente desconcentrado.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "60",
+    "target_article": "Capítulo",
+    "action": "ADD",
+    "content": "Capítulo [XX].- Defensoría Penal Pública",
+    "authors_raw": "Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "61",
+    "target_article": "Artículo 18",
+    "action": "MODIFY",
+    "content": "Artículo 18.- De la Defensoría Penal Pública. La Defensoría Penal Pública es un organismo autónomo, con personalidad jurídica y patrimonio propio, que tiene por función proporcionar defensa penal a los imputados por hechos que pudiesen ser constitutivos de delito, que deban ser conocidos por los tribunales con competencia en lo penal, desde la primera actuación de la investigación dirigida en su contra y hasta la completa ejecución de la pena que le haya sido impuesta, y que carezcan de defensa letrada. Estará facultada para denunciar al Estado ante los organismos internacionales de derechos humanos, cuando en el curso de las investigaciones y procedimientos penales en que intervenga, constate violaciones de derechos fundamentales, en coordinación con otros órganos del Estado. La ley determinará la organización y atribuciones de la Defensoría Penal Pública, debiendo garantizarse su independencia externa.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "64",
+    "target_article": "Artículo 19",
+    "action": "MODIFY",
+    "content": "Artículo 19.- De la defensa penal pública. La función de defensa penal pública será ejercida exclusivamente por defensoras y defensores penales públicos. Los servicios de defensa jurídica que preste la Defensoría Penal Pública no podrán ser licitados o delegados en abogados particulares, sin perjuicio de la contratación excepcional que pueda realizar en los casos y forma que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "66",
+    "target_article": "Artículo 20",
+    "action": "MODIFY",
+    "content": "Artículo 20.- Dirección de la Defensoría Penal Pública. La dirección superior de la Defensoría Penal Pública reside en un Consejo Superior, órgano colegiado y paritario, que designará de entre sus integrantes a una presidenta o presidente, denominada Defensora o Defensor Nacional, y a una directora o director ejecutivo.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "69",
+    "target_article": "Artículo 21",
+    "action": "MODIFY",
+    "content": "Artículo 21.- Del Consejo Superior de la Defensoría Penal Pública. El Consejo Superior de la Defensoría Penal Pública estará compuesto por siete integrantes designados de la siguiente manera: a) Tres integrantes elegidos por los defensores y defensoras entre sus pares. b) Una o un integrante elegido por funcionarias y funcionarios de la Defensoría Penal Pública entre sus pares. c) Tres integrantes elegidos por el Congreso, a partir de ternas elaboradas por el Consejo de Alta Dirección Pública. Los candidatos y candidatas no podrán haber desempeñado cargos de elección popular ni haber sido candidatos a ellos, así como tampoco podrán haber desarrollado funciones en el gobierno o administración del Estado en cargos que sean de exclusiva confianza del Presidente de la República, en los últimos cuatro años. La ley establecerá el procedimiento y los requisitos que deberán reunir los consejeros de la Defensoría Penal Pública. Las y los consejeros durarán cuatro años en sus cargos y no podrán ser reelegidos, debiendo renovarse por parcialidades en conformidad a lo que señale la ley. La calidad de consejera o consejero es incompatible con todo otro cargo o función sea o no remunerada, con excepción de la docencia universitaria con los límites que señale la ley. Las y los consejeros indicados en las letras a) y b) se entenderán suspendidos del ejercicio de su función mientras dure su cometido, pudiendo retornar al ejercicio de sus funciones una vez cumplido este desempeño.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "70",
+    "target_article": "Artículo 22",
+    "action": "MODIFY",
+    "content": "Artículo 22.- Atribuciones del Consejo Superior de la Defensoría Penal Pública. El Consejo Superior de la Defensoría Penal Pública tendrá las siguientes atribuciones: a) Dirigir el organismo, velando por el cumplimiento de sus objetivos; b) Determinar la política de gestión profesional de las y los funcionarios de la Defensoría Penal Pública. c) Evaluar y calificar permanentemente el desempeño de las y los funcionarios. d) Designar a la Defensora o Defensor Nacional y a las y los defensores regionales en conformidad a la ley. e) Ejercer la potestad disciplinaria respecto de las y los funcionarios, en conformidad a la ley. f) Definir las necesidades presupuestarias, gestionando los recursos para su adecuado funcionamiento. g) Las demás atribuciones que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "71",
+    "target_article": "Artículo 23",
+    "action": "MODIFY",
+    "content": "Artículo 23.- De la Defensora o Defensor Nacional. La o el Defensor Nacional dirigirá las sesiones ordinarias y extraordinarias del Consejo Superior de la Defensoría Penal Pública, representará a la institución ante los demás órganos del Estado, y tendrá las demás atribuciones que señale la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo, Daza y Llanquileo",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "78",
+    "target_article": "Capítulo/Título",
+    "action": "ADD",
+    "content": "De la Defensoría del Pueblo",
+    "authors_raw": "CC Woldarsky y Llanquileo",
+    "authors_matched": [
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "75",
+    "target_article": "Epígrafe",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Defensoría del Pueblo",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "79",
+    "target_article": "Artículo 24",
+    "action": "MODIFY",
+    "content": "Artículo 24.- De la Defensoría del Pueblo. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominada Defensoría del Pueblo, tendrá por finalidad la promoción y protección de los derechos humanos asegurados en esta Constitución, en los tratados internacionales de derechos humanos ratificados por Chile, así como los emanados de los principios generales del derecho y de las normas imperativas reconocidas por el derecho internacional, ante los actos u omisiones de los órganos de la administración del Estado y de entidades privadas que ejerzan actividades de servicio o utilidad pública, en la forma que establezca la ley. La Defensoría del Pueblo tendrá defensorías regionales, que funcionarán en forma desconcentrada, en conformidad a lo que establezca su ley. La ley determinará las atribuciones, organización, funcionamiento y procedimientos de la Defensoría del Pueblo.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "83",
+    "target_article": "Artículo 26",
+    "action": "MODIFY",
+    "content": "Artículo 26.- Atribuciones de la Defensoría del Pueblo. La Defensoría del Pueblo tendrá las siguientes atribuciones: 1. Fiscalizar a los órganos del Estado en el cumplimiento de sus obligaciones en materia de derechos humanos. 2. Formular recomendaciones en las materias de su competencia. 3. Realizar acciones de seguimiento y monitoreo respecto de las recomendaciones formuladas por los organismos internacionales en materia de derechos humanos y de las sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos. 4. Tramitar y hacer seguimiento de los reclamos sobre vulneraciones de derechos humanos, y derivar en su caso. 5. Deducir acciones y recursos que esta Constitución y las leyes establecen, cuando se identifiquen patrones de violación de derechos humanos. 6. Interponer acciones constitucionales y legales ante los tribunales de justicia respecto de hechos que revistan carácter de crímenes de genocidio, de lesa humanidad o de guerra, tortura, desaparición forzada de personas, trata de personas y demás que establezca la ley. 7. Custodiar y preservar los antecedentes reunidos por comisiones de verdad, justicia, reparación y garantías de no repetición. 8. Recomendar la presentación de proyectos de ley en materias de su competencia. 9. Las demás que le encomiende la Constitución y la ley. Las autoridades estarán obligadas a colaborar con los requerimientos de la Defensoría del Pueblo para el ejercicio de sus funciones, la que podrá acceder a la información reservada de las instituciones, sin obstáculo alguno, y podrá constituirse en dependencias de los órganos objeto de fiscalización. Durante los estados de excepción constitucional la Defensoría del Pueblo ejercerá plenamente sus atribuciones.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "87",
+    "target_article": "Artículo 27",
+    "action": "MODIFY",
+    "content": "Artículo 27.- Dirección de la Defensoría del Pueblo. La dirección de la Defensoría del Pueblo estará a cargo de una Defensora o de un Defensor del Pueblo, quien será designado por acuerdo de la mayoría absoluta de los integrantes en ejercicio del Congreso, a partir de una terna propuesta elaborada por las organizaciones sociales y de derechos humanos, en la forma que determine la ley. Existirá un Consejo de la Defensoría del Pueblo, cuya composición, funcionamiento y atribuciones será determinado por la ley. Las personas propuestas por las organizaciones deberán cumplir los requisitos de comprobada idoneidad y trayectoria en la defensa de los derechos humanos. La Defensora o el Defensor del Pueblo durará un período de seis años en el ejercicio del cargo, sin posibilidad de reelección. Al cesar su mandato y durante los dieciocho meses siguientes, no podrá optar a ningún cargo de elección popular ni de exclusiva confianza de alguna autoridad. Gozará de inamovilidad en su cargo y será inviolable en el ejercicio de sus atribuciones. Cesará en su cargo por cumplimiento de su periodo, por condena por crimen o simple delito, renuncia, enfermedad incompatible con el ejercicio de la función y por remoción. Podrá ser removido por la Corte Suprema, por notable abandono de deberes, en la forma que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "92",
+    "target_article": "Artículo 29",
+    "action": "ADD",
+    "content": "Existirá un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Defensoría de los Derechos de la Niñez, que tendrá por objeto la difusión, promoción y protección de los derechos de que son titulares los niños, en conformidad a la Constitución Política de la República, a la Convención sobre los Derechos del Niño y a los demás tratados internacionales ratificados por Chile que se encuentren vigentes, así como a la legislación nacional, velando por su interés superior. La ley determinará la organización, funciones, financiamiento y atribuciones de la Defensoría de los Derechos de la Niñez",
+    "authors_raw": "CC Labra, Bown, Hurtado, Cozzi y Mayol",
+    "authors_matched": [
+      "Labra, Patricia",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Mayol, Luis"
+    ]
+  },
+  {
+    "number": "93",
+    "target_article": "Epígrafe",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Defensoría de la Naturaleza",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "94",
+    "target_article": "Artículo 29",
+    "action": "MODIFY",
+    "content": "Artículo 29.- La Defensoría de la Naturaleza. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominada Defensoría de la Naturaleza, tendrá por finalidad la promoción y protección de los derechos de la naturaleza y de los derechos ambientales asegurados en esta Constitución, en los tratados internacionales ambientales ratificados por Chile, frente los actos u omisiones de los órganos de la administración del Estado y de entidades privadas. La Defensoría de la Naturaleza tendrá defensorías regionales, que funcionarán en forma desconcentrada, en conformidad a lo que establezca su ley. La ley determinará las atribuciones, organización, funcionamiento y procedimientos de la Defensoría de la Naturaleza.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "95",
+    "target_article": "Artículo 30",
+    "action": "MODIFY",
+    "content": "Artículo 30.- Atribuciones de la Defensoría de Naturaleza. La Defensoría de la Naturaleza tendrá las siguientes atribuciones: 1. Fiscalizar a los órganos del Estado en el cumplimiento de sus obligaciones en materia de derechos ambientales y derechos de la Naturaleza. 2. Formular recomendaciones en las materias de su competencia. 3. Realizar acciones de seguimiento y monitoreo respecto de las recomendaciones formuladas por los organismos internacionales en materia de derechos ambientales y de las sentencias dictadas contra el Estado de Chile por tribunales internacionales en materia ambiental. 4. Tramitar y hacer seguimiento de los reclamos sobre vulneraciones de derechos ambientales y derivar en su caso. 5. Deducir acciones constitucionales y legales, cuando se vulneren derechos ambientales y de la naturaleza. 6. Recomendar la presentación de proyectos de ley en materias de su competencia. 7. Las demás que le encomiende la Constitución y la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  }
+]

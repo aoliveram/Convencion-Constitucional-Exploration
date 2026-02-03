@@ -1,0 +1,27 @@
+# Summary Report: Indication Extraction - Comisión 6
+
+## 1. Overview
+This report summarizes the results of the batch extraction process performed on February 2nd, 2026, for all "Indicaciones" reports belonging to Commission 6 (Justice System).
+
+## 2. Statistical Breakdown
+Extraction was performed using Gemini 3.0 Flash. Only **APPROVED** indications were captured.
+
+| Report File | Approved Indications |
+| :--- | :---: |
+| informe-indicaciones-1-02-08 | 103 |
+| informe-indicaciones-2-02-23 | 2 |
+| informe-indicaciones-3-02-23-r | 8 |
+| informe-indicaciones-4-03-07 (Parts 1-3) | 117 |
+| informe-indicaciones-5-04-01-1 | 12 |
+| informe-indicaciones-6-04-01-2 (Parts 1-4) | 175 |
+| informe-indicaciones-7-04-27-r (Parts 1-3) | 134 |
+| informe-indicaciones-8-05-08 (Parts 1-2) | 77 |
+| **TOTAL** | **628** |
+
+## 3. Notable Patterns
+- **High Activity Reports**: Reports 1, 6, and 7 represent the peaks of modification activity for this commission.
+- **Structural Changes**: A significant number of indications (~50) target non-article elements such as "Capítulos" or "Títulos".
+- **Renumbering**: Several indications explicitly mention renumbering (e.g., "Art 4 passes to be Art 3"), which is recorded in the `target_article` field.
+
+## 4. Technical Status
+All extracted data is stored in individual JSON files within the `proposals/` directory under the naming convention `extracted_informe-indicaciones-*.json`.

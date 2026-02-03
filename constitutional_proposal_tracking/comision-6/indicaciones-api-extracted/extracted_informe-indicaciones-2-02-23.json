@@ -1,0 +1,34 @@
+[
+  {
+    "number": "3",
+    "target_article": "Artículo 4",
+    "action": "MODIFY",
+    "content": "“Artículo 4.- De la inamovilidad. Las juezas y jueces son inamovibles. No pueden ser suspendidos, trasladados o removidos sino conforme a las causales y procedimientos establecidos por la Constitución y las leyes.”",
+    "authors_raw": "Bravo, Llanquileo, Stingo, Daza, Royo, Gutiérrez y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Llanquileo, Natividad",
+      "Stingo, Daniel",
+      "Daza, Mauricio",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "10",
+    "target_article": "Artículo 8",
+    "action": "MODIFY",
+    "content": "“Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar las resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los tribunales de justicia podrán impartir órdenes o instrucciones directas a la fuerza pública, debiendo cumplir lo mandatado de forma rápida y expedita, sin poder calificar su fundamento, oportunidad o legalidad. Las sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos, cuya jurisdicción ha sido reconocida por éste, serán cumplidas por los tribunales de justicia conforme al procedimiento establecido por la ley, aun si contraviniere una sentencia firme pronunciada por estos.”",
+    "authors_raw": "Bravo, Llanquileo, Stingo, Daza, Royo, Gutiérrez y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Llanquileo, Natividad",
+      "Stingo, Daniel",
+      "Daza, Mauricio",
+      "Royo, Manuela",
+      "Gutierrez, Hugo",
+      "Jimenez, Luis"
+    ]
+  }
+]

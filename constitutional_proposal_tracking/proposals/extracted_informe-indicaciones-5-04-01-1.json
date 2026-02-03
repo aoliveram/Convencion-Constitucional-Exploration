@@ -1,0 +1,188 @@
+[
+  {
+    "number": "2",
+    "target_article": "Artículo 2",
+    "action": "MODIFY",
+    "content": "Sólo la ley podrá establecer cargos de jueces y juezas. La Corte Suprema y las Cortes de Apelaciones no podrán ser integradas por personas que no tengan la calidad de juezas o jueces titulares, interinos, suplentes o subrogantes.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "6",
+    "target_article": "Artículo 8",
+    "action": "MODIFY",
+    "content": "Todos los tribunales estarán sometidos, a lo menos cada cinco años, a una revisión integral de la gestión por el Consejo de la Justicia, que incluirá audiencias públicas, para determinar su correcto funcionamiento, en conformidad a lo establecido en la Constitución y la ley. Esta revisión, en ningún caso, incluirá las resoluciones judiciales.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "8",
+    "target_article": "Artículo 9",
+    "action": "MODIFY",
+    "content": "Artículo 9. Acceso a la justicia intercultural. Es deber del Estado garantizar que los órganos que intervienen en el proceso respeten y promuevan el derecho a acceder a una justicia con perspectiva intercultural. Las personas tienen derecho a una asistencia jurídica especializada, intérpretes, facilitadores interculturales y peritajes consultivos, cuando así lo requieran y no puedan proveérselas por sí mismas.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "15",
+    "target_article": "Artículo 12",
+    "action": "MODIFY",
+    "content": "Se compondrá de veintiún juezas y jueces y funcionará en pleno o salas especializadas. Sus juezas y jueces durarán en sus cargos un máximo de catorce años, sin posibilidad de reelección.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "23",
+    "target_article": "Artículo 13",
+    "action": "MODIFY",
+    "content": "Funcionarán en pleno o en salas preferentemente especializadas. La presidencia de cada Corte de Apelaciones será́ ejercida por una persona elegida por sus pares. Durará́ en sus funciones dos años.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "28",
+    "target_article": "Artículo 22",
+    "action": "MODIFY",
+    "content": "Artículo 22. Perspectiva interseccional. La función jurisdiccional debe ejercerse bajo un enfoque interseccional, debiendo garantizar la igualdad sustantiva y el cumplimiento de las obligaciones internacionales de derechos humanos en la materia. Este deber resulta extensivo a todo órgano jurisdiccional y auxiliar, funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "33",
+    "target_article": "Epígrafe § Sistemas jurídicos indígenas",
+    "action": "MODIFY",
+    "content": "Sistemas de justicia indígenas",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 24 bis",
+    "action": "ADD",
+    "content": "Artículo 24 bis.- Los sistemas de justicia indígenas solo conocerán conflictos entre miembros de un mismo pueblo originario. Los afectados siempre tendrán la opción de someter el asunto al Sistema Nacional de Justicia.",
+    "authors_raw": "Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "43",
+    "target_article": "Artículo 26",
+    "action": "MODIFY",
+    "content": "Artículo 26. Impugnaciones contra las decisiones de la jurisdicción indígena. La Corte Suprema conocerá y resolverá de las impugnaciones deducidas en contra de la decisiones de la jurisdicción indígena, en sala especializada y asistida por una consejería técnica integrada por expertos en su cultura y derecho propio, en la forma que establezca la ley.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "48",
+    "target_article": "Artículo 28",
+    "action": "MODIFY",
+    "content": "b) Adoptar las medidas disciplinarias de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia, incluida su remoción, conforme a lo dispuesto en esta Constitución y la ley. c) Efectuar una revisión integral de la gestión de todos los tribunales del sistema nacional de justicia. En ningún caso incluirá las resoluciones judiciales. d) Evaluar y calificar, periódicamente, el desempeño de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia. e) Decidir sobre promociones, traslados, permutas y cese de funciones de integrantes del sistema nacional de justicia. f) Definir las necesidades presupuestarias, ejecutar y gestionar los recursos para el adecuado funcionamiento del Sistema Nacional de Justicia. g) Pronunciarse sobre cualquier modificación legal en la organización y atribuciones del sistema nacional de justicia. El Congreso deberá oficiar al Consejo, el que deberá responder dentro treinta días contados desde su recepción. h) Proponer la creación, modificación o supresión de tribunales a la autoridad competente. i) Velar por la habilitación, formación y continuo perfeccionamiento de quienes integran el sistema nacional de justicia. Para estos efectos, la Academia Judicial estará sometida a la dirección del Consejo. j) Dictar instrucciones relativas a la organización y gestión administrativa de los tribunales. Estas instrucciones podrán tener un alcance nacional, regional o local. k) Las demás que encomiende esta Constitución y las leyes.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "50",
+    "target_article": "Artículo 29",
+    "action": "MODIFY",
+    "content": "Artículo 29.- Composición del Consejo de la Justicia. El Consejo de la Justicia se compone por diecisiete integrantes, conforme a la siguiente integración: a) Ocho integrantes serán juezas o jueces titulares elegidos por sus pares. b) Dos integrantes serán funcionarios o profesionales del Sistema Nacional de Justicia elegidos por sus pares. c) Dos integrantes elegidos por los pueblos indígenas en la forma que determine la Constitución y la ley. d) Cinco integrantes elegidos por el Congreso, previa determinación de las ternas correspondientes por concurso público, a cargo del Consejo de Alta Dirección Pública. Las y los integrantes señalados en la letra c) deberán ser personas de comprobada idoneidad para el ejercicio del cargo y que se hayan destacado en la función pública o social. En el caso de la letra d) deberán ser profesionales con a lo menos diez años del título correspondiente, que se hubieren destacado en la actividad profesional, académica o en la función pública. Las y los integrantes durarán seis años en sus cargos y no podrán ser reelegidos, debiendo renovarse por parcialidades cada tres años de conformidad a lo establecido por la ley. Sus integrantes serán elegidos de acuerdo a criterios de paridad de género, plurinacionalidad y equidad territorial.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "54",
+    "target_article": "Artículo 30",
+    "action": "MODIFY",
+    "content": "El Consejo se organizará desconcentradamente, en conformidad a lo que establezca la ley.",
+    "authors_raw": "Laibe, Daza, Jiménez, Llanquileo, Royo, Stingo y Villena",
+    "authors_matched": [
+      "Laibe, Tomas",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Royo, Manuela",
+      "Stingo, Daniel",
+      "Villena, Ingrid"
+    ]
+  }
+]

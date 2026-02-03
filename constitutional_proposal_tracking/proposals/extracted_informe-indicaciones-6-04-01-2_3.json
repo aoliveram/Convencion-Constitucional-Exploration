@@ -1,0 +1,604 @@
+[
+  {
+    "number": "302",
+    "target_article": "Artículo 75",
+    "action": "MODIFY",
+    "content": "Artículo 75.- Del control de constitucionalidad y legalidad de la Contraloría. En el ejercicio del control de constitucionalidad y legalidad, la Contraloría General tomará razón de los decretos, resoluciones y otros actos administrativos o representará su ilegalidad. Sin embargo, deberá darles curso cuando la o el Presidente de la República insista con la firma de todos sus Ministros, debiendo enviar copia de los respectivos decretos al Congreso. En ningún caso dará curso a los decretos de gastos que excedan el límite señalado en la Constitución o la ley y remitirá copia íntegra de los antecedentes al Congreso. Tratándose de la representación por inconstitucionalidad no procederá insistencia y el pronunciamiento de la Contraloría será reclamable ante el tribunal que señale la ley. Además, le corresponderá tomar razón de los decretos con fuerza de ley, debiendo representarlos, cuando ellos excedan o contravengan la respectiva ley delegatoria. Respecto de los decretos, resoluciones y otros actos administrativos de entidades territoriales que, de acuerdo a la ley, deban tramitarse por la Contraloría, la toma de razón corresponderá a la respectiva contraloría regional. Los antecedentes que debieran remitirse, en su caso, lo serán a la correspondiente asamblea regional.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "304, 305, 306, 307",
+    "target_article": "Artículo 75 A, Artículo 75 B",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 75 A y 75 B",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez; y Harboe",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis",
+      "Harboe, Felipe"
+    ]
+  },
+  {
+    "number": "308",
+    "target_article": "Artículo 76",
+    "action": "MODIFY",
+    "content": "Artículo 76.- De la potestad para emitir dictámenes y la facultad fiscalizadora de la Contraloría General de la República. La Contraloría General de la República podrá emitir dictámenes obligatorios para toda autoridad, funcionario o trabajador de cualquier órgano integrante de la Administración del Estado, de las regiones y de las comunas, incluyendo los directivos de empresas públicas o sociedades en las que tenga participación una entidad estatal o cualquier otra entidad territorial. Los órganos de la Administración del Estado, los Gobiernos Regionales y locales, órganos autónomos, empresas públicas, sociedades en que el Estado tenga participación, personas jurídicas que dispongan de recursos fiscales o administren bienes públicos, y los demás que defina la ley, estarán sujetos a la fiscalización y auditorías de la Contraloría General de la República. La ley regulará el ejercicio de estas potestades fiscalizadoras y auditoras.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "310",
+    "target_article": "Artículo 77 A",
+    "action": "DELETE",
+    "content": "para suprimir el artículo 77 A",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "311, 312, 313, 314",
+    "target_article": "Artículo 78 A, Artículo 79, Artículo 80, Artículo 81",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 78 A, 79, 80 y 81",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "315",
+    "target_article": "Epígrafe § Tribunales Electorales y Servicio Electoral",
+    "action": "MODIFY",
+    "content": "Capítulo XX. Tribunales Electorales y Servicio Electoral",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "317",
+    "target_article": "Artículo 82",
+    "action": "MODIFY",
+    "content": "Artículo 82.- Del Servicio Electoral. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Servicio Electoral, ejercerá la administración, supervigilancia y fiscalización de los procesos electorales y plebiscitarios, del cumplimiento de las normas sobre transparencia, límite y control del gasto electoral, de las normas sobre organizaciones políticas y las demás funciones que señale la ley. La dirección superior del Servicio Electoral corresponderá a un Consejo Directivo, el que ejercerá de forma exclusiva las atribuciones que le encomienden la Constitución y las leyes. Dicho Consejo estará integrado por cinco consejeras y consejeros designados por la mayoría absoluta de los integrantes del Congreso, a partir de ternas propuestas por el Consejo de la Alta Dirección Pública. Las y los consejeros durarán ocho años en sus cargos, no podrán ser reelegidos y se renovarán por parcialidades cada cuatro años. Las y los consejeros deberán ser profesionales de comprobada idoneidad para el cargo. No podrán haber sido candidatas o candidatos, desempeñado un cargo de elección popular, ni haber ocupado cargos de exclusiva confianza en los cuatro años anteriores a su nombramiento. Las y los consejeros sólo podrán ser removidos por la Corte Suprema a requerimiento de la o el Presidente de la República o de un tercio de los miembros en ejercicio del Congreso por infracción grave a la Constitución o a las leyes, incapacidad, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "320, 321, 322, 323, 324, 325, 326, 327",
+    "target_article": "Artículo 82 A, Artículo 82 B, Artículo 83, Artículo 84, Artículo 85, Artículo 86",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 82 A, 82 B, 83, 84, 85 y 86",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez; y Harboe",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis",
+      "Harboe, Felipe"
+    ]
+  },
+  {
+    "number": "328",
+    "target_article": "Subtítulo § Justicia Electoral",
+    "action": "DELETE",
+    "content": "para suprimir el subtítulo “§ Justicia Electoral”, quedando solo vigente el subtítulo “§ Tribunales Electorales”",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "329",
+    "target_article": "Artículo 87",
+    "action": "MODIFY",
+    "content": "Artículo 87.- Del Tribunal Calificador de Elecciones. El Tribunal Calificador de Elecciones conocerá del escrutinio general y de la calificación de las elecciones de las autoridades electas por votación popular a nivel nacional, resolverá las reclamaciones que se suscitaren y proclamará a los que resulten elegidas y elegidos. Además, conocerá y resolverá los reclamos administrativos que se entablen contra actos del Servicio Electoral y las decisiones emanadas de tribunales supremos u órganos equivalentes de las organizaciones políticas. Dicho Tribunal conocerá, asimismo, de los plebiscitos nacionales, y tendrá las demás atribuciones que determine la ley. El Tribunal valorará la prueba conforme a las reglas de la sana crítica. Estará constituido por cinco juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces del Tribunal Calificador de Elecciones durarán seis años en sus funciones. Una ley regulará la organización y funcionamiento del Tribunal Calificador de Elecciones, plantas, remuneraciones y estatuto del personal.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "332, 333, 334",
+    "target_article": "Artículo 87 A",
+    "action": "DELETE",
+    "content": "para suprimir el artículo 87 A",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez; Labra, Mayol, Bown, Hurtado, Cozzi, Fontaine, Tepper, Silva, Rebolledo, Vega, Ossandon, Celis, De la Maza, Jurgensen, Monckeberg y Larrain; y Harboe",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis",
+      "Labra, Patricia",
+      "Mayol, Luis",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Fontaine, Bernardo",
+      "Tepper, Maria Angelica",
+      "Silva, Luciano",
+      "Rebolledo, Barbara",
+      "Vega, Roberto",
+      "Ossandon, Manuel",
+      "Celis, Raul",
+      "De la Maza, Bernardo",
+      "Jurgensen, Harry",
+      "Monckeberg, Cristian",
+      "Larrain, Hernan",
+      "Harboe, Felipe"
+    ]
+  },
+  {
+    "number": "335",
+    "target_article": "Artículo 88",
+    "action": "MODIFY",
+    "content": "Artículo 88.- De los Tribunales Electorales Regionales. Habrá tribunales electorales regionales encargados de conocer el escrutinio general y la calificación de las elecciones de nivel regional y comunal, así como resolver las reclamaciones a que dieren lugar y proclamar las candidaturas que resultaren electas. Conocerán, asimismo, de los plebiscitos regionales y comunales, sin perjuicio de las demás atribuciones que determine la ley. Sus resoluciones serán apelables y su conocimiento corresponderá al Tribunal Calificador de Elecciones en la forma que determine la ley. Igualmente, les corresponderá conocer de la calificación de las elecciones de carácter gremial y de las que tengan lugar en aquellas organizaciones que la ley señale. Los tribunales electorales regionales estarán constituidos por tres juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces de los tribunales electorales regionales durarán seis años en sus funciones. Estos tribunales valorarán la prueba conforme a las reglas de la sana crítica. Una ley regulará la organización y funcionamiento de los tribunales electorales regionales, plantas, remuneraciones y estatuto del personal.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "339, 340, 341, 342",
+    "target_article": "Artículo 88 A, Artículo 88 B",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 88 A y 88 B",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez; y Harboe",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis",
+      "Harboe, Felipe"
+    ]
+  },
+  {
+    "number": "343",
+    "target_article": "Artículo 89",
+    "action": "MODIFY",
+    "content": "Artículo 89.- De la gestión y superintendencia. La gestión administrativa y la superintendencia directiva y correccional del Tribunal Calificador de Elecciones y de los tribunales electorales regionales corresponderán al Consejo de la Justicia.",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "344, 345",
+    "target_article": "Artículo 89 A, Artículo 90",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 89 A y 90",
+    "authors_raw": "Bravo, Hoppe, Daza, Viera, Laibe y Jiménez",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Hoppe, Vanessa",
+      "Daza, Mauricio",
+      "Viera, Christian",
+      "Laibe, Tomas",
+      "Jimenez, Luis"
+    ]
+  },
+  {
+    "number": "346",
+    "target_article": "Epígrafe § De la Dirección de Servicio Civil",
+    "action": "DELETE",
+    "content": "para suprimirlo",
+    "authors_raw": "Cruz y Laibe",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas"
+    ]
+  },
+  {
+    "number": "347",
+    "target_article": "Artículo 91",
+    "action": "MODIFY",
+    "content": "Artículo 91. Consejo del Servicio Civil.- El Consejo del Servicio Civil será un organismo autónomo de la Administración estatal, con personalidad jurídica y patrimonio propio, encargado de resguardar los principios de no discriminación, mérito y capacidad en los procedimientos de selección, desarrollo y cese de los cargos públicos que componen el servicio civil, así como su imparcialidad, agilidad y transparencia...",
+    "authors_raw": "Cruz y Laibe",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas"
+    ]
+  },
+  {
+    "number": "349, 350, 351, 352, 353, 354",
+    "target_article": "Artículo 91 A, Artículo 92, Artículo 93, Artículo 94, Artículo 95, Artículo 96",
+    "action": "DELETE",
+    "content": "para suprimirlos",
+    "authors_raw": "Cruz y Laibe",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas"
+    ]
+  },
+  {
+    "number": "355",
+    "target_article": "Nuevo artículo",
+    "action": "ADD",
+    "content": "Artículo.- Es deber del Estado el resguardo de la fe pública, la seguridad del tráfico jurídico, la regulación y supervigilancia en la formación de documentos que tengan valor probatorio o el carácter de auténticos, debiendo garantizar el acceso de la población a estos. La ley establecerá el pago de tasas o aranceles por las actuaciones que involucren el resguardo de la fe pública en atención a la cuantía y materia del asunto de que se trate.",
+    "authors_raw": "Cruz, Botto, Gutiérrez, Daza y Namor",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Botto, Miguel Angel",
+      "Gutierrez, Hugo",
+      "Daza, Mauricio",
+      "Namor, Guillermo"
+    ]
+  },
+  {
+    "number": "357",
+    "target_article": "Artículo 97",
+    "action": "MODIFY",
+    "content": "Artículo 97. Del Servicio Nacional de Fe Pública. El Servicio Nacional de Fe Pública, será el órgano encargado de la certificación y del debido registro, guarda, custodia y almacenamiento de los instrumentos públicos y privados que determine la ley. La designación de los notarios, archiveros y conservadores del Servicio de Fe Pública se realizará de forma objetiva, transparente y en función de sus méritos. La ley regulará los requisitos de su nombramiento, inhabilidades, atribuciones y remuneraciones.",
+    "authors_raw": "Hoppe y Royo",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela"
+    ]
+  },
+  {
+    "number": "359",
+    "target_article": "Artículo 98",
+    "action": "MODIFY",
+    "content": "Artículo 98.- Es deber del Estado garantizar el acceso gratuito a todos los servicios auxiliares de administración de Justicia, transitando hacia un modelo digitalizado, que asegure la transparencia, publicidad, simplificación y gratuidad.",
+    "authors_raw": "Hoppe y Royo",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela"
+    ]
+  },
+  {
+    "number": "360",
+    "target_article": "Artículo 99",
+    "action": "DELETE",
+    "content": "para eliminar el actual artículo 99",
+    "authors_raw": "Hoppe y Royo",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela"
+    ]
+  },
+  {
+    "number": "361",
+    "target_article": "Artículo 100",
+    "action": "MODIFY",
+    "content": "Artículo 100.- Todos servicios notariales y registrales son públicos. Sólo la ley podrá establecer el pago de tasas por actuaciones y certificaciones en atención a la cuantía y materia del asunto de que se trate. Los dineros recaudados irán a beneficio fiscal.",
+    "authors_raw": "Hoppe y Royo",
+    "authors_matched": [
+      "Hoppe, Vanessa",
+      "Royo, Manuela"
+    ]
+  },
+  {
+    "number": "362",
+    "target_article": "Epígrafe § Servicio Nacional del Consumidor",
+    "action": "MODIFY",
+    "content": "Agencia Nacional del Consumidor",
+    "authors_raw": "Stingo",
+    "authors_matched": [
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "363",
+    "target_article": "Artículo 101",
+    "action": "MODIFY",
+    "content": "Artículo 101. La Agencia Nacional del Consumidor es un organismo autónomo, cuya finalidad es la protección de las personas en su rol de consumidoras y usuarias de bienes y servicios. Para el debido cumplimiento de su finalidad, la Agencia Nacional del Consumidor contará con facultades fiscalizadoras, sancionatorias y regulatorias. Su composición, organización, atribuciones y funciones serán determinadas por una ley.",
+    "authors_raw": "Stingo",
+    "authors_matched": [
+      "Stingo, Daniel"
+    ]
+  },
+  {
+    "number": "368",
+    "target_article": "Epígrafe § Revisión represiva de la ley",
+    "action": "DELETE",
+    "content": "para suprimir el título “§ Revisión represiva de la ley”",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "370",
+    "target_article": "Artículo 108",
+    "action": "MODIFY",
+    "content": "Artículo 108.- De la justicia constitucional. La justicia constitucional será ejercida por una Corte Constitucional, con la finalidad de garantizar la supremacía de la Constitución, bajo los principios de deferencia a los electos con potestad legislativa presunción de constitucionalidad de la ley, búsqueda de una interpretación conforme con la Constitución y no justiciabilidad de asuntos de naturaleza exclusivamente política. Los órganos del Estado, en el ejercicio de sus atribuciones, deberán aplicar las normas, en el ámbito de sus competencias, efectuando una interpretación orientada hacia la Constitución. La Corte Constitucional deberá interpretar la Constitución ajustada a la pertinencia cultural de los pueblos indígenas, cuando corresponda.",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "371, 372, 373",
+    "target_article": "Artículo 109, Artículo 110, Artículo 111",
+    "action": "DELETE",
+    "content": "para suprimir los actuales artículos 109, 110 y 111",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "374",
+    "target_article": "Artículo 112",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 112",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "376, 377",
+    "target_article": "Artículo 113 A",
+    "action": "DELETE",
+    "content": "para suprimir el artículo 113 A",
+    "authors_raw": "Bravo y Villena; Labra, Mayol, Bown, Hurtado, Cozzi, Fontaine, Tepper, Silva, Rebolledo, Vega, Ossandon, Celis, De la Maza, Jurgensen, Monckeberg y Larrain",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid",
+      "Labra, Patricia",
+      "Mayol, Luis",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Fontaine, Bernardo",
+      "Tepper, Maria Angelica",
+      "Silva, Luciano",
+      "Rebolledo, Barbara",
+      "Vega, Roberto",
+      "Ossandon, Manuel",
+      "Celis, Raul",
+      "De la Maza, Bernardo",
+      "Jurgensen, Harry",
+      "Monckeberg, Cristian",
+      "Larrain, Hernan"
+    ]
+  },
+  {
+    "number": "378",
+    "target_article": "Artículo 114",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 114",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "381",
+    "target_article": "Artículo 114 A",
+    "action": "MODIFY",
+    "content": "Artículo 114 A.- Corte Constitucional. La Corte Constitucional es un órgano autónomo, técnico, profesional, independiente e imparcial, encargado del control de la supremacía de la Constitución, cuyas resoluciones se encuentran fundadas únicamente en razones de derecho. Estará conformada, paritariamente y con criterios de plurinacionalidad y equidad territorial, por quince juezas y jueces, uno de los cuales será su presidenta o presidente, elegido por sus pares y que ejercerá sus funciones durante dos años. Las juezas y los jueces de la Corte Constitucional durarán nueve años en sus cargos o hasta que cumplan setenta y cinco años, y se renovarán por parcialidades cada tres años. Funcionará en salas preferentemente especializadas, integradas por cinco juezas o jueces, o en pleno, de conformidad a lo dispuesto por la ley. Las juezas y los jueces de la Corte Constitucional serán elegidas y elegidos en base a criterios técnicos y de mérito profesional, de la siguiente manera: a) Un tercio será elegido por el Congreso, de nóminas de cinco personas que, en cada caso, propondrá el Consejo de Alta Dirección Pública. b) Un tercio será elegido por la Presidencia de la República, de nóminas de cinco personas que, en cada caso, propondrá el Consejo de la Justicia. c) Un tercio será elegido de entre las juezas y las jueces del Sistema Nacional de Justicia, por votación, entre sus pares que ostenten la calidad de titulares...",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "382",
+    "target_article": "Artículo 114 B",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 114 B",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "383",
+    "target_article": "Artículo 115",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 115",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "385, 386, 387",
+    "target_article": "Artículo 115 A, Artículo 115 B",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 115 A y 115 B",
+    "authors_raw": "Labra, Mayol, Bown, Hurtado, Cozzi, Fontaine, Tepper, Silva, Rebolledo, Vega, Ossandon, Celis, De la Maza, Jurgensen, Monckeberg y Larrain; y Bravo y Villena",
+    "authors_matched": [
+      "Labra, Patricia",
+      "Mayol, Luis",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Fontaine, Bernardo",
+      "Tepper, Maria Angelica",
+      "Silva, Luciano",
+      "Rebolledo, Barbara",
+      "Vega, Roberto",
+      "Ossandon, Manuel",
+      "Celis, Raul",
+      "De la Maza, Bernardo",
+      "Jurgensen, Harry",
+      "Monckeberg, Cristian",
+      "Larrain, Hernan",
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "388",
+    "target_article": "Artículo 116",
+    "action": "MODIFY",
+    "content": "Artículo 116. Inamovilidad e independencia. Las juezas y jueces de la Corte Constitucional son independientes de todo otro poder y gozan de inamovilidad. Cesarán en sus cargos por haber cumplido su periodo, por incapacidad legal sobreviniente, por renuncia, por sentencia penal condenatoria, por remoción, enfermedad incompatible con el ejercicio de la función u otra causa establecida en la ley.",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "390, 391, 392",
+    "target_article": "Artículo 116 A, Artículo 116 B",
+    "action": "DELETE",
+    "content": "para suprimir los artículos 116 A y 116 B",
+    "authors_raw": "Labra, Mayol, Bown, Hurtado, Cozzi, Fontaine, Tepper, Silva, Rebolledo, Vega, Ossandon, Celis, De la Maza, Jurgensen, Monckeberg y Larrain; y Bravo y Villena",
+    "authors_matched": [
+      "Labra, Patricia",
+      "Mayol, Luis",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Fontaine, Bernardo",
+      "Tepper, Maria Angelica",
+      "Silva, Luciano",
+      "Rebolledo, Barbara",
+      "Vega, Roberto",
+      "Ossandon, Manuel",
+      "Celis, Raul",
+      "De la Maza, Bernardo",
+      "Jurgensen, Harry",
+      "Monckeberg, Cristian",
+      "Larrain, Hernan",
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "393",
+    "target_article": "Artículo 117",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 117",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "396",
+    "target_article": "Artículo 117 A",
+    "action": "MODIFY",
+    "content": "Artículo 117 A. De las incompatibilidades e inhabilidades. El ejercicio del cargo de jueza o juez de la Corte Constitucional es de dedicación exclusiva. La ley determinará las demás incompatibilidades e inhabilidades para el desempeño de este cargo. Al terminar su periodo, y durante los dos años siguientes, no podrán optar a ningún cargo de elección popular ni de exclusiva confianza de alguna autoridad.",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "397",
+    "target_article": "Artículo 118",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 118",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "401",
+    "target_article": "Artículo 118 A",
+    "action": "MODIFY",
+    "content": "Artículo 118 A. Atribuciones de la Corte Constitucional. La Corte Constitucional tendrá las siguientes atribuciones, ejerciéndolas conforme a los principios referidos en el artículo 108 [De la justicia constitucional]: 1. Resolver las acciones de inconstitucionalidad en contra de leyes, disposiciones normativas con fuerza de ley, en contra de estatutos regionales, de autonomías territoriales indígenas y de cualquier otra entidad territorial. 2. Resolver las acciones de inconstitucionalidad por omisión de las medidas legislativas necesarias para el cumplimiento de las normas constitucionales. 3. Resolver la acción de inaplicabilidad por inconstitucionalidad de los preceptos legales... 4. Resolver la acción pública de inconstitucionalidad contra los preceptos legales que hayan sido declarados inaplicables en tres oportunidades previas... [y demás atribuciones hasta el numeral 11]",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "402",
+    "target_article": "Artículo 118 B",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 118 B",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  },
+  {
+    "number": "403",
+    "target_article": "Artículo 119",
+    "action": "DELETE",
+    "content": "para suprimir el actual artículo 119",
+    "authors_raw": "Bravo y Villena",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Villena, Ingrid"
+    ]
+  }
+]

@@ -1,0 +1,752 @@
+[
+  {
+    "number": "97",
+    "target_article": "Artículo 32",
+    "action": "MODIFY",
+    "content": "Artículo 32. Dirección de la Defensoría de la Naturaleza. La dirección de la Defensoría de la Naturaleza estará a cargo de una Defensora o de un Defensor, quien será designado por acuerdo de la mayoría absoluta de los integrantes en ejercicio del Congreso, a partir de una propuesta de terna elaborada por las organizaciones ambientales, en la forma que determine la ley. Existirá un Consejo de la Defensoría de la Naturaleza, cuya conformación, atribuciones y funcionamiento será determinado por la ley. Las personas propuestas por las organizaciones deberán cumplir los requisitos de comprobada idoneidad y trayectoria en materias ambiental. La Defensora o el Defensor de la Naturaleza durará un período de seis años en el ejercicio del cargo, sin posibilidad de reelección. Al cesar su mandato y durante los dieciocho meses siguientes, no podrá optar a ningún cargo de elección popular ni de exclusiva confianza de alguna autoridad. Gozará de inamovilidad en su cargo y será inviolable en el ejercicio de sus atribuciones. Cesará en su cargo por cumplimento de su periodo, por condena por crimen o simple delito, renuncia, enfermedad incompatible con el ejercicio de la función y por remoción. Podrá ser removido por la Corte Suprema, por notable abandono de deberes, en la forma que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "98",
+    "target_article": "Epígrafe § Del Consejo Autónomo del Medio Ambiente",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Consejo y Agencia del Medio Ambiente",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "99",
+    "target_article": "Artículo 35",
+    "action": "MODIFY",
+    "content": "Artículo 35.- Del Consejo del Medio Ambiente. El Consejo del Medio Ambiente es un órgano autónomo, colegiado, con personalidad jurídica y patrimonio propio, encargado de la evaluación de impacto ambiental de proyectos, dictar la autorización final del proceso de evaluación ambiental y demás facultades que establezca ley. El Consejo del Medio Ambiente estará dirigido por un Consejo Nacional, compuesto por cinco integrantes, con comprobada competencia en materia ambiental, elegidos por el Congreso a partir de ternas elaboradas por el Consejo de Alta Dirección Pública, por períodos de seis años y no podrán ser designados para un nuevo período. Serán elegidos por parcialidades cada tres años. Además, funcionará desconcentradamente a través de consejos regionales. La ley regulará, en lo demás, su integración y funcionamiento. Las decisiones que dicte este órgano sólo serán impugnables ante los tribunales de justicia.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "101",
+    "target_article": "Artículo 35 bis",
+    "action": "ADD",
+    "content": "Artículo 35 bis.- De la Agencia del Medio Ambiente. La fiscalización y sanción de las infracciones a las normas e instrumentos de protección ambiental será competencia de la Agencia del Medioambiente, órgano autónomo cuya integración y facultades serán determinadas por la ley. Este órgano estará dirigido por una directora o director, con comprobada competencia en materia ambiental, elegido por el Congreso a partir de una terna elaborada por el Consejo de Alta Dirección Pública, por un período de 6 años y no podrán ser designados para un nuevo período. La ley regulará, en lo demás, su integración y funcionamiento. Las sanciones impuestas por la agencia podrán ser reclamadas ante los tribunales de justicia.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "102",
+    "target_article": "Epígrafe § Agencia Nacional del Agua",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Agencia Nacional del Agua",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "103",
+    "target_article": "Artículo 36",
+    "action": "MODIFY",
+    "content": "Artículo 36.- Agencia Nacional del Agua. La Agencia Nacional del Agua es un órgano autónomo, con personalidad jurídica y patrimonio propio, que se organizará desconcentradamente, cuya finalidad es asegurar el uso sostenible del agua, para las generaciones presentes y futuras, el acceso al derecho humano al agua y al saneamiento y la conservación y preservación de sus ecosistemas asociados. Para ello, se encargará de recopilar información, coordinar, dirigir y fiscalizar la actuación de los órganos del Estado con competencias en materia hídrica y de los particulares en su caso. Será el órgano encargado de proponer e implementar la Política Hídrica Nacional, para lo cual deberá elaborar y gestionar un sistema público unificado de información hídrica con enfoque integrado de cuencas, que permita garantizar las prioridades de uso establecidas en esta Constitución. Además, estará a cargo de otorgar, revisar, modificar, caducar y revocar autorizaciones de uso de agua. Deberá fiscalizar el uso responsable y sostenible del agua y aplicar las sanciones administrativas que correspondan. Podrá determinar la calidad de los servicios sanitarios, así como las demás que señale la ley. Las sanciones impuestas por la agencia podrán ser reclamadas ante los tribunales de justicia.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "106",
+    "target_article": "Artículo 37",
+    "action": "MODIFY",
+    "content": "Artículo 37.- De la Dirección de la Agencia Nacional del Agua. La Agencia Nacional del Agua tendrá una o un Director Nacional, quien será designado por el Congreso, a partir de una terna elaborada por el Consejo de Alta Dirección Pública, por un período de seis años y no podrá ser designado para un nuevo período. Las candidatas y candidatos no podrán haber desempeñado cargos de elección popular ni haber sido candidatos a ellos, así como tampoco podrán haber desarrollado funciones en el Gobierno o Administración del Estado en cargos que sean de exclusiva confianza del Presidente de la República, en los últimos dieciocho meses. La ley regulará las instancias de coordinación entre la Agencia Nacional del Agua y el gobierno, especialmente respecto de la Política Hídrica Nacional, la organización, estructura, competencias y funcionamiento de la Agencia.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "108",
+    "target_article": "Epígrafe § Banco Central",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Banco Central.-",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "109",
+    "target_article": "Artículo 39",
+    "action": "MODIFY",
+    "content": "Artículo 39.- Del Banco Central. El Banco Central es un órgano autónomo con personalidad jurídica y patrimonio propio, de carácter técnico, encargado de formular y conducir la política monetaria. La ley regulará su organización, atribuciones y sistemas de control, así como la determinación de instancias de coordinación entre el Banco y el Gobierno.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "114",
+    "target_article": "Artículo 40",
+    "action": "MODIFY",
+    "content": "Le corresponderá en especial al Banco Central, para contribuir al bienestar de la población, velar por la estabilidad de los precios y el normal funcionamiento de los pagos internos y externos. El Banco, al adoptar sus decisiones, deberá tener presente la orientación general de la política económica del Gobierno. En la fundamentación de sus decisiones el Banco Central deberá considerar la estabilidad financiera, la volatilidad cambiaria, la protección del empleo y el cuidado del medioambiente.",
+    "authors_raw": "CC Labra, Bown, Hurtado, Cozzi y Mayol",
+    "authors_matched": [
+      "Labra, Patricia",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Mayol, Luis"
+    ]
+  },
+  {
+    "number": "118",
+    "target_article": "Artículo 41",
+    "action": "MODIFY",
+    "content": "Artículo 41.- Atribuciones. Son atribuciones del Banco Central la regulación de la cantidad de dinero en circulación, la ejecución de operaciones de crédito y cambios internacionales, como, asimismo, la dictación de normas en materia monetaria, crediticia, financiera y de cambios internacionales.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza; y Labra, Bown, Hurtado, Cozzi y Mayol",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Labra, Patricia",
+      "Bown, Carol",
+      "Hurtado, Ruth",
+      "Cozzi, Ruggero",
+      "Mayol, Luis"
+    ]
+  },
+  {
+    "number": "120",
+    "target_article": "Artículo 42",
+    "action": "MODIFY",
+    "content": "Artículo 42.- De las limitaciones. El Banco Central sólo podrá efectuar operaciones con instituciones financieras, sean éstas públicas o privadas. De ninguna manera podrá otorgar a ellas su garantía, ni adquirir documentos emitidos por el Estado, sus organismos o empresas. Ningún gasto público o préstamo podrá financiarse con créditos directos e indirectos del Banco Central. Sin perjuicio de lo anterior, en situaciones excepcionales y transitorias en las que así lo requiera la preservación del normal funcionamiento de los pagos internos y externos, el Banco Central podrá comprar durante un período determinado y vender en el mercado secundario abierto, instrumentos de deuda emitidos por el Fisco, en conformidad a la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "126",
+    "target_article": "Artículo 43",
+    "action": "MODIFY",
+    "content": "Artículo 43.- Rendición de cuentas. El Banco rendirá cuenta periódicamente al Congreso sobre la ejecución de las políticas a su cargo, respecto de las medidas y normas generales que adopte en el ejercicio de sus funciones y atribuciones y sobre los demás asuntos que se le soliciten mediante informes u otros mecanismos que determine la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "128",
+    "target_article": "Artículo 44",
+    "action": "MODIFY",
+    "content": "Artículo 44.- Del Consejo del Banco Central. La dirección y administración superior del Banco estará a cargo de un Consejo, al que le corresponderá cumplir las funciones y ejercer las atribuciones que señale la Constitución y la ley. El Consejo estará integrado por siete consejeras y consejeros designados por la mayoría de los integrantes del Congreso, a partir de ternas propuestas por el Consejo de Alta Dirección Pública. Durarán en el cargo por un período de nueve años, no reelegibles, renovándose por parcialidades cada tres años en conformidad a la ley. Los consejeros del Banco Central deben ser profesionales de comprobada idoneidad y trayectoria en materias relacionadas con las competencias de la institución. Para su designación se considerarán criterios de paridad de género y representación territorial. La o el Presidente del Consejo, que lo será también del Banco, será designado por la o el Presidente de la República de entre las y los integrantes del Consejo y durará tres años en este cargo o el tiempo menor que le reste como consejero, pudiendo ser reelegido para un nuevo periodo en el cargo. La ley determinará los requisitos, responsabilidades, inhabilidades e incompatibilidades para las y los consejeros del Banco.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "130",
+    "target_article": "Artículo 45",
+    "action": "MODIFY",
+    "content": "Artículo 45.- Responsabilidad de las y los consejeros. Las y los integrantes del Consejo podrán ser destituidos de sus cargos por resolución de la mayoría de los integrantes del pleno de la Corte Suprema, previo requerimiento de la mayoría de quienes ejerzan como consejeros o de la mayoría de los integrantes del Congreso, conforme al procedimiento que establezca la ley. La remoción sólo podrá fundarse en la circunstancia de que el consejero afectado hubiere realizado actos graves en contra de la probidad pública, o haber incurrido en alguna de las prohibiciones o incompatibilidades establecidas en la Constitución o la ley, o haya concurrido con su voto a decisiones que afectan gravemente la consecución del objeto del Banco. La persona destituida no podrá ser designada nuevamente como integrante del Consejo, ni ser funcionaria o funcionario del Banco Central o prestarle servicios, sin perjuicio de las demás sanciones que establezca la ley.",
+    "authors_raw": "De CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "134",
+    "target_article": "Artículo 46",
+    "action": "MODIFY",
+    "content": "Artículo 46.- Inhabilidades e incompatibilidades de consejeras y consejeros. No podrán integrar el Consejo quienes en los doce meses anteriores a su designación hayan participado en la propiedad o ejercido como director, gerente o ejecutivo principal de una empresa bancaria, administradora de fondos, o cualquiera otra que preste servicios de intermediación financiera, sin perjuicio de las demás inhabilidades que establezca la ley. Una vez que hayan cesado en sus cargos, los integrantes del Consejo tendrán la misma incompatibilidad por un periodo de dieciocho meses.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "135",
+    "target_article": "Título de Capítulo",
+    "action": "ADD",
+    "content": "Capítulo [XX].- Contraloría General de la República",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "137",
+    "target_article": "Artículo 47",
+    "action": "MODIFY",
+    "content": "Artículo 47.- De la Contraloría General de la República. La Contraloría General de la República es un órgano técnico, autónomo, con personalidad jurídica y patrimonio propio, encargada de velar por el cumplimiento del principio de probidad en la función pública, ejercer el control de constitucionalidad y legalidad de los actos de la Administración del Estado, incluidos los gobiernos regionales, locales y demás entidades, organismos y servicios que determine la ley. Estará encargado de fiscalizar y auditar el ingreso, cuentas y gastos de los fondos públicos. En el ejercicio de sus funciones, no podrá evaluar los aspectos de mérito o conveniencia de las decisiones políticas o administrativas. La ley establecerá la organización, funcionamiento, planta, procedimientos y demás atribuciones de la Contraloría General de la República.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "140",
+    "target_article": "Artículo 48",
+    "action": "MODIFY",
+    "content": "Artículo 48.- De la dirección de la Contraloría General de la República. La dirección de la Contraloría General de la República estará a cargo de una Contralora o Contralor General, quien será designado por el Congreso, a partir de una terna elaborada por el Consejo de Alta Dirección Pública. La Contralora o Contralor General durará en su cargo por un plazo de ocho años, sin posibilidad de reelección. Un Consejo de la Contraloría, cuya conformación y funcionamiento determinará la ley, aprobará anualmente el programa de fiscalización y auditoría de servicios públicos, determinando servicios o programas que, a su juicio, deben necesariamente ser incluidos en el programa referido. Los dictámenes que modifican la jurisprudencia administrativa de la Contraloría, deberán ser consultados ante el Consejo.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "143",
+    "target_article": "Artículo 49",
+    "action": "MODIFY",
+    "content": "Artículo 49.- Del control de constitucionalidad y legalidad de la Contraloría. En el ejercicio del control de constitucionalidad y legalidad, la Contraloría General tomará razón de los decretos, resoluciones y otros actos administrativos o representará su ilegalidad. Sin embargo, deberá darles curso cuando la o el Presidente de la República insista con la firma de todos sus Ministros, debiendo enviar copia de los respectivos decretos al Congreso. En ningún caso dará curso a los decretos de gastos que excedan el límite señalado en la Constitución o la ley y remitirá copia íntegra de los antecedentes al Congreso. Tratándose de la representación por inconstitucionalidad no procederá insistencia y el pronunciamiento de la Contraloría será reclamable ante el tribunal que señale la ley. Además, le corresponderá tomar razón de los decretos con fuerza de ley, debiendo representarlos, cuando ellos excedan o contravengan la respectiva ley delegatoria. Respecto de los decretos, resoluciones y otros actos administrativos de entidades territoriales que, de acuerdo a la ley, deban tramitarse por la Contraloría, la toma de razón corresponderá a la respectiva contraloría regional. Los antecedentes que debieran remitirse, en su caso, lo serán a la correspondiente asamblea regional.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "146",
+    "target_article": "Artículo 50",
+    "action": "MODIFY",
+    "content": "Artículo 50.- De la potestad para emitir dictámenes y la facultad fiscalizadora de la Contraloría General de la República. La Contraloría General de la República podrá emitir dictámenes obligatorios para toda autoridad, funcionario o trabajador de cualquier órgano integrante de la Administración del Estado, de las regiones y de las comunas, incluyendo los directivos de empresas públicas o sociedades en las que tenga participación una entidad estatal o cualquier otra entidad territorial. Los órganos de la Administración del Estado, los Gobiernos Regionales y locales, órganos autónomos, empresas públicas, sociedades en que el Estado tenga participación, personas jurídicas que dispongan de recursos fiscales o administren bienes públicos, y los demás que defina la ley, estarán sujetos a la fiscalización y auditorías de la Contraloría General de la República. La ley regulará el ejercicio de estas potestades fiscalizadoras y auditoras.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "147",
+    "target_article": "Artículo 51",
+    "action": "MODIFY",
+    "content": "Artículo 51.- De las Contralorías Regionales. La Contraloría General de la República funcionará desconcentradamente en cada una de las regiones del país mediante Contralorías Regionales. La dirección de cada contraloría regional estará a cargo de una o un Contralor Regional, designado por la o el Contralor General de la República. En el ejercicio de sus funciones deberán mantener la unidad de acción, con el fin de aplicar un criterio uniforme en todo el territorio del país. La ley determinará las demás atribuciones de las Contralorías Regionales y regulará su organización y funcionamiento.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "148",
+    "target_article": "Artículo 51",
+    "action": "ADD",
+    "content": "Respecto de las entidades territoriales, a través de las Contralorías Regionales, controlará la legalidad de su actividad financiera, la gestión y los resultados de la administración de los recursos públicos.",
+    "authors_raw": "CC Bravo",
+    "authors_matched": [
+      "Bravo, Daniel"
+    ]
+  },
+  {
+    "number": "150",
+    "target_article": "Artículo 52",
+    "action": "MODIFY",
+    "content": "Artículo 52.- Condición para el pago de las Tesorerías del Estado. Las Tesorerías del Estado no podrán efectuar ningún pago sino en virtud de un decreto o resolución expedido por autoridad competente, en que se exprese la ley o la parte del presupuesto que autorice aquel gasto. Los pagos se efectuarán considerando, además, el orden cronológico establecido en ella y previa refrendación presupuestaria del documento que ordene el pago.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "151",
+    "target_article": "Artículo 52 bis",
+    "action": "ADD",
+    "content": "Artículo 52 bis.- Del Consejo de Defensa del Estado. El Consejo de Defensa del Estado es un servicio público descentralizado, dotado de personalidad jurídica, bajo la supervigilancia directa del Presidente de la República e independiente de los diversos Ministerios, que tiene por objeto, principalmente, la defensa judicial de los intereses del Estado. Se compondrá de doce abogados elegidos por el Presidente de la República, previa terna determinada por el Consejo de Alta Dirección Pública, por concurso público. Sólo podrán ser consejeros abogados con comprobada idoneidad profesional y experiencia en litigación no menor a quince años. Los integrantes del Consejo serán inamovibles en sus cargos y ejercerán sus funciones de forma exclusiva, no pudiendo desempeñar otro empleo o función. Durarán en sus cargos por un plazo de nueve años, con posibilidad de reelección. La ley establecerá su organización, funcionamiento, planta, procedimientos y demás atribuciones.",
+    "authors_raw": "CC Daza",
+    "authors_matched": [
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "152",
+    "target_article": "Epígrafe Capítulo XX",
+    "action": "MODIFY",
+    "content": "Capítulo [XX].- Tribunales Electorales y Servicio Electoral",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "153",
+    "target_article": "Epígrafe § Servicio Electoral",
+    "action": "ADD",
+    "content": "§ Servicio Electoral",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "154",
+    "target_article": "Artículo 53",
+    "action": "MODIFY",
+    "content": "Artículo 53.- Del Servicio Electoral. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Servicio Electoral, ejercerá la administración, supervigilancia y fiscalización de los procesos electorales y plebiscitarios, del cumplimiento de las normas sobre transparencia, límite y control del gasto electoral, de las normas sobre organizaciones políticas, de las normas relativas a la participación ciudadana y fortalecimiento de la democracia, así como las demás funciones que señale la ley. La dirección superior del Servicio Electoral corresponderá a un Consejo Directivo, el que ejercerá de forma exclusiva las atribuciones que le encomienden la Constitución y las leyes. Dicho Consejo estará integrado por cinco consejeras y consejeros designados por la mayoría absoluta de los integrantes del Congreso, a partir de ternas propuestas por el Consejo de Alta Dirección Pública. Las y los consejeros durarán ocho años en sus cargos, no podrán ser reelegidos y se renovarán por parcialidades cada cuatro años. Las y los consejeros deberán ser profesionales de comprobada idoneidad para el cargo. No podrán haber sido candidatas o candidatos, desempeñado un cargo de elección popular, ni haber ocupado cargos de exclusiva confianza en los cuatro años anteriores a su nombramiento. Las y los consejeros sólo podrán ser removidos por la Corte Suprema a requerimiento de la o el Presidente de la República o de un tercio de los miembros en ejercicio del Congreso por infracción grave a la Constitución o a las leyes, incapacidad, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones. La Corte conocerá del asunto en pleno especialmente convocado al efecto y, para acordar la remoción deberá reunir el voto conforme de la mayoría de sus juezas y jueces en ejercicio.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "157",
+    "target_article": "Epígrafe § Tribunales Electorales",
+    "action": "ADD",
+    "content": "§ Tribunales Electorales",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "158",
+    "target_article": "Artículo 54",
+    "action": "MODIFY",
+    "content": "Artículo 54.- Del Tribunal Calificador de Elecciones. El Tribunal Calificador de Elecciones conocerá del escrutinio general y de la calificación de las elecciones de las autoridades electas por votación popular a nivel nacional, resolverá las reclamaciones que se suscitaren y proclamará a los que resulten elegidas y elegidos. Además, conocerá y resolverá los reclamos administrativos que se entablen contra actos del Servicio Electoral y las decisiones emanadas de tribunales supremos u órganos equivalentes de las organizaciones políticas. También conocerá y resolverá sobre las inhabilidades, incompatibilidades y causales de cesación en el cargo de las y los parlamentarios. De igual manera, calificará la renuncia de las y los parlamentarios, cuando les afecte una enfermedad grave, debidamente acreditada, que les impida desempeñar el cargo. Dicho Tribunal conocerá, asimismo, de los plebiscitos nacionales, y tendrá las demás atribuciones que determine la ley. El Tribunal valorará la prueba conforme a las reglas de la sana crítica. Estará constituido por cinco juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces del Tribunal Calificador de Elecciones durarán seis años en sus funciones. Una ley regulará la organización y funcionamiento del Tribunal Calificador de Elecciones, plantas, remuneraciones y estatuto del personal.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "161",
+    "target_article": "Artículo 55",
+    "action": "MODIFY",
+    "content": "Artículo 55.- De los Tribunales Electorales Regionales. Habrá tribunales electorales regionales encargados de conocer el escrutinio general y la calificación de las elecciones de nivel regional y comunal, así como resolver las reclamaciones a que dieren lugar y proclamar las candidaturas que resultaren electas. Conocerán, asimismo, de los plebiscitos regionales y comunales, sin perjuicio de las demás atribuciones que determine la ley. Sus resoluciones serán apelables y su conocimiento corresponderá al Tribunal Calificador de Elecciones en la forma que determine la ley. Igualmente, les corresponderá conocer de la calificación de las elecciones de carácter gremial y de las que tengan lugar en aquellas organizaciones que la ley señale. Los tribunales electorales regionales estarán constituidos por tres juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces de los tribunales electorales regionales durarán seis años en sus funciones. Estos tribunales valorarán la prueba conforme a las reglas de la sana crítica. Una ley regulará la organización y funcionamiento de los tribunales electorales regionales, plantas, remuneraciones y estatuto del personal.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "164",
+    "target_article": "Artículo 55",
+    "action": "MODIFY",
+    "content": "Suprimir la conjunción “y” entre las palabras regional y comunal, reemplazándola por una “coma”, y luego agregando la conjunción “y”, para luego continuar con la frase “de organismos de la sociedad civil y demás grupos intermedios reconocidos por esta constitución o por la ley”.",
+    "authors_raw": "CC Logan",
+    "authors_matched": [
+      "Logan, Rodrigo"
+    ]
+  },
+  {
+    "number": "165",
+    "target_article": "Artículo 56",
+    "action": "MODIFY",
+    "content": "Artículo 56.- De la gestión y superintendencia. La gestión administrativa y la superintendencia directiva y correccional del Tribunal Calificador de Elecciones y de los tribunales electorales regionales corresponderá al Consejo de la Justicia.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "167 y 168",
+    "target_article": "Epígrafe Capítulo [XX].- Servicio Civil",
+    "action": "ADD",
+    "content": "Capítulo [XX].- Servicio Civil",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza; Cruz y Laibe",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Cruz, Andres"
+    ]
+  },
+  {
+    "number": "169",
+    "target_article": "Artículo 57",
+    "action": "MODIFY",
+    "content": "Artículo 57. La Dirección del Servicio Civil.- La Dirección del Servicio Civil será un organismo autónomo, con personalidad jurídica y patrimonio propio, encargado del fortalecimiento de la función pública y de los procedimientos de selección de cargos en la Administración Pública y demás entidades que establezca la Constitución y la ley, resguardando los principios de transparencia, objetividad, no discriminación y mérito. Integran el Servicio Civil los cargos de la Administración Pública del nivel central, regional y municipal, que bajo la dirección del gobierno correspondiente a cada nivel, implementan, proveen o garantizan las políticas públicas. Se excluyen del Servicio Civil los cargos de exclusiva confianza del gobierno central, regional y municipal. La Dirección del Servicio Civil estará encargada de regular los procesos de selección de candidatas y candidatos a cargos del Sistema de Alta Dirección Pública, o de aquellos que deben seleccionarse con su participación y conducir los concursos destinados a proveer cargos de jefaturas superiores de servicios, a través de un Consejo de Alta Dirección Pública. El Consejo de Alta Dirección Pública también participará en la selección de autoridades que señale esta Constitución. La ley regulará la organización y demás atribuciones de la Dirección del Servicio Civil.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "172",
+    "target_article": "Artículo 57 bis",
+    "action": "ADD",
+    "content": "Artículo 57 bis. Consejo de Alta Dirección Pública.- El Consejo de Alta Dirección Pública estará compuesto de siete integrantes, que tengan una comprobada competencia en el ámbito de la gestión pública y, al menos, quince años de experiencia profesional, quienes serán designados de la siguiente forma: a) Tres integrantes serán nombrados por la Presidencia de la República, a partir de una terna confeccionada por el Congreso. b) Tres integrantes serán nombrados por el Congreso, a partir de una terna confeccionada por la Presidencia de la República. c) Un integrante nombrado por el Consejo de Gobernaciones, a partir de una terna confeccionada por el Consejo de Rectores de las Universidades Chilenas. Las y los consejeros elegirán de entre ellos a una presidenta o presidente. Durarán en el cargo por un período de seis años, no reelegibles, renovándose por parcialidades cada tres años en conformidad a la ley. Sólo podrán ser removidos anticipadamente por infracción grave de la Constitución o la ley o mal desempeño declarados por la Corte Suprema, conforme al procedimiento que establezca la ley.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "175",
+    "target_article": "Epígrafe § Servicios Notariales y Registrales de carácter público",
+    "action": "ADD",
+    "content": "Servicios Notariales y Registrales de Carácter Público",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "176",
+    "target_article": "Artículo 58",
+    "action": "MODIFY",
+    "content": "Artículo 58.- Del resguardo de la fe pública. Es deber del Estado el resguardo de la fe pública, la seguridad del tráfico jurídico, la regulación y supervigilancia en la formación de documentos que tengan valor probatorio o el carácter de auténticos, debiendo garantizar el acceso de la población a estos. La ley establecerá el pago de tasas o aranceles por las actuaciones que involucren el resguardo de la fe pública en atención a la cuantía y materia del asunto de que se trate.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "177",
+    "target_article": "Artículo 58",
+    "action": "ADD",
+    "content": "La ley establecerá la institucionalidad, la forma de certificación y nombramientos en esta materia.",
+    "authors_raw": "CC Botto",
+    "authors_matched": [
+      "Botto, Miguel Angel"
+    ]
+  },
+  {
+    "number": "178",
+    "target_article": "Artículo 59",
+    "action": "MODIFY",
+    "content": "Artículo 59.- Del Servicio Nacional de Fe Pública. El Servicio Nacional de Fe Pública, será el órgano encargado de la certificación y del debido registro, guarda, custodia y almacenamiento de los instrumentos públicos y privados que determine la ley. La designación de los notarios, archiveros y conservadores del Servicio de Fe Pública se realizará de forma objetiva, transparente y en función de sus méritos. La ley regulará los requisitos de su nombramiento, inhabilidades, atribuciones y remuneraciones.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "179",
+    "target_article": "Artículo 59",
+    "action": "ADD",
+    "content": "Agregar, después de la palabra registro y ante de la coma, la frase “público y de consulta gratuita”.",
+    "authors_raw": "CC Logan",
+    "authors_matched": [
+      "Logan, Rodrigo"
+    ]
+  },
+  {
+    "number": "181",
+    "target_article": "Artículo 60",
+    "action": "MODIFY",
+    "content": "Artículo 60.- De los servicios auxiliares de administración de justicia. Es deber del Estado garantizar el acceso gratuito a los servicios auxiliares de administración de Justicia, transitando hacia un modelo digitalizado, que asegure la transparencia, publicidad, simplificación y gratuidad.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "183",
+    "target_article": "Artículo 61",
+    "action": "MODIFY",
+    "content": "Artículo 61.- De los servicios notariales y registrales. Todos servicios notariales y registrales son públicos. Sólo la ley podrá establecer el pago de tasas por actuaciones y certificaciones en atención a la cuantía y materia del asunto de que se trate. Los dineros recaudados irán a beneficio fiscal.",
+    "authors_raw": "CC Stingo, Laibe, Woldarsky, Gutiérrez, Hoppe, Jiménez, Bravo y Daza",
+    "authors_matched": [
+      "Stingo, Daniel",
+      "Laibe, Tomas",
+      "Woldarsky, Manuel",
+      "Gutierrez, Hugo",
+      "Hoppe, Vanessa",
+      "Jimenez, Luis",
+      "Bravo, Daniel",
+      "Daza, Mauricio"
+    ]
+  },
+  {
+    "number": "184",
+    "target_article": "Epígrafe § Agencia Nacional del Consumidor y Artículo 62",
+    "action": "MODIFY",
+    "content": "Artículo 62.- La Agencia Nacional del Consumidor es un organismo autónomo, con responsabilidad de sus autoridades, cuya finalidad es la protección de las personas en su rol de consumidoras y usuarias de bienes y servicios. Para el debido cumplimiento de su finalidad, la Agencia Nacional del Consumidor contará con facultades fiscalizadoras, sancionatorias y regulatorias. Su composición, organización, atribuciones y funciones serán determinadas por una ley.",
+    "authors_raw": "CC Logan",
+    "authors_matched": [
+      "Logan, Rodrigo"
+    ]
+  },
+  {
+    "number": "185",
+    "target_article": "Artículo 62 bis",
+    "action": "ADD",
+    "content": "Artículo 62 bis.- Funciones normativas, interpretativas, fiscalizadoras y sancionatorias de órganos administrativos. La ley podrá establecer órganos administrativos con funciones normativas, interpretativas, instructoras, fiscalizadoras y sancionatorias, en las materias que le han sido encomendadas.",
+    "authors_raw": "CC Bravo",
+    "authors_matched": [
+      "Bravo, Daniel"
+    ]
+  },
+  {
+    "number": "193",
+    "target_article": "Epígrafe § Del Consejo de Pueblos Indígenas",
+    "action": "MODIFY",
+    "content": "Del Consejo de Pueblos Indígenas",
+    "authors_raw": "CC Llanquileo",
+    "authors_matched": [
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "194",
+    "target_article": "Artículo 64",
+    "action": "MODIFY",
+    "content": "Artículo 64. Del Consejo de Pueblos Indígenas. Existirá un órgano colegiado, autónomo, con patrimonio propio y personalidad jurídica de derecho público, continuador de la actual Corporación Nacional de Desarrollo Indígena, denominado Consejo de Pueblos Indígenas. Estará integrado por la totalidad de los consejos representantes de cada pueblo indígena y estará encabezado por una Dirección General, donde cada uno de ellos tendrá representación en la forma y proporción que determine la ley. En conformidad a los procedimientos establecidos en la ley, la Dirección General informará los estándares que deben cumplir los procesos de consulta conforme al derecho internacional de los derechos humanos de los pueblos indígenas; efectuará los nombramientos de aquellos cargos reservados a miembros de los pueblos y naciones indígenas que no sean de elección popular o, en su caso, propondrá los nombres a la autoridad encargada de efectuar el nombramiento; y ejercerá las demás funciones que determine la ley. El consejo respectivo de cada pueblo indígena tendrá autonomía para diseñar y proponer a los órganos estatales competentes, políticas públicas respetuosas de los derechos individuales y colectivos reconocidos por la Constitución, los tratados e instrumentos internacionales de derechos humanos de los que Chile es parte y que se encuentren vigentes. Es deber del Estado destinar el presupuesto necesario y suficiente para el adecuado cumplimiento de sus fines. Una ley, en consulta y con el consentimiento de los pueblos y naciones indígenas, determinará la organización interna del Consejo de Pueblos Indígenas, de su Dirección General y de los respectivos consejos representantes de cada pueblo; sus estatutos generales y las competencias de cada uno; la forma de elección popular de sus miembros; el progresivo traspaso de competencias de la actual Corporación Nacional de Desarrollo Indígena; y todas las demás materias necesarias para su cabal organización, implementación y funcionamiento.",
+    "authors_raw": "CC Llanquileo",
+    "authors_matched": [
+      "Llanquileo, Natividad"
+    ]
+  },
+  {
+    "number": "195",
+    "target_article": "Artículo 64",
+    "action": "MODIFY",
+    "content": "Artículo 64. Del Consejo de Pueblos Indígenas. Existirá un órgano colegiado, autónomo, con patrimonio propio y personalidad jurídica de derecho público, continuador de la actual Corporación Nacional de Desarrollo Indígena, denominado Consejo de Pueblos Indígenas. Estará integrado por la totalidad de los consejos representantes de cada pueblo indígena y estará encabezado por una Dirección General, donde cada uno de ellos tendrá representación en la forma y proporción que determine la ley. En conformidad a los procedimientos establecidos en la ley, la Dirección General informará los estándares que deben cumplir los procesos de consulta conforme al derecho internacional de los derechos humanos de los pueblos indígenas; efectuará los nombramientos de aquellos cargos reservados a miembros de los pueblos y naciones indígenas que no sean de elección popular o, en su caso, propondrá los nombres a la autoridad encargada de efectuar el nombramiento; y ejercerá las demás funciones que determine la ley. El consejo respectivo de cada pueblo indígena tendrá autonomía para diseñar y proponer a los órganos estatales competentes, políticas públicas respetuosas de los derechos individuales y colectivos reconocidos por la Constitución, los tratados e instrumentos internacionales de derechos humanos de los que Chile es parte y que se encuentren vigentes. Es deber del Estado destinar el presupuesto necesario y suficiente para el adecuado cumplimiento de sus fines. Una ley, en consulta y con el consentimiento de los pueblos y naciones indígenas, determinará la organización interna del Consejo de Pueblos Indígenas, de su Dirección General y de los respectivos consejos representantes de cada pueblo; sus estatutos generales y las competencias de cada uno; la forma de elección popular de sus miembros; el progresivo traspaso de competencias de la actual Corporación Nacional de Desarrollo Indígena; y todas las demás materias necesarias para su cabal organización, implementación y funcionamiento.",
+    "authors_raw": "CC Woldarsky y Llanquileo",
+    "authors_matched": [
+      "Woldarsky, Manuel",
+      "Llanquileo, Natividad"
+    ]
+  }
+]
