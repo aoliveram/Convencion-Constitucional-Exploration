@@ -1,0 +1,46 @@
+# Constitutional Draft Mapping Project Status Report
+Date: February 2nd, 2026
+
+## 1. Executive Summary
+The project aims to track the evolution of the Chilean Constitutional Draft from its original initiatives (Draft 0) to its final harmonized version. As of early February, we have successfully established the pipeline for Commission 6 (Justice System) and completed a first pass for Commission 2 (Principles and Rights), though the latter presents significant structural challenges.
+
+## 2. Commission Progress
+
+### A. Commission 6 (Justice System) - ADVANCED
+- **Genesis Mapping (Draft 0):** Successfully mapped Article IDs to their original source Initiative IDs (e.g., 41-6, 198-6).
+- **Indication Extraction:** 8 official "Voting Reports" (Reports 1 to 8) have been processed using Gemini 3.0 Flash.
+- **Data Extracted:** Approximately **628 approved indications** have been successfully extracted and organized into JSON files in `comision-6/indicaciones-api-extracted/`.
+- **Status:** This commission serves as the "Golden Standard" for the workflow. Data validation is pending manual review to ensure extraction accuracy.
+
+### B. Commission 2 (Fundamental Principles) - EXPERIMENTAL
+- **Genesis Mapping:** Completed using `texto-sistematizado-02-16.pdf`.
+- **Report 1 Extraction:** 158 approved indications extracted from the 3-column table format (`informe-reemplazo-1-03-02.pdf`).
+- **Reports 2, 3, and 4 (The Comparado Puzzle):** This commission uses a non-continuous table format that lacks clear indication-to-article linking in many cases. 
+- **Matching Logic:** A custom script (`04b_extract_com2_comparado.py`) was developed to match "Approved New Articles" against "Candidate Indications" using fuzzy matching.
+- **Challenges:** Matching results were low for complex articles (e.g., Art 6) because these articles were often constructed from multiple small indications (paragraph by paragraph) rather than a single replacement indication.
+- **Status:** On hold. Further refinement for paragraph-level matching is required.
+
+### C. Commission 1 (Political System) - PENDING
+- **Status:** Information and PDFs are collected, but no Gemini extraction has been performed yet, per user instruction.
+
+## 3. Core Datasets & Infrastructure
+
+### Data Files
+- `draft_1_text.json`: Structured representation of the draft's sentences, processed from the primary RDS data source.
+- `draft_final_text.json`: The terminal state of the constitutional draft used for final comparison.
+- `convention_members.json`: The official list of 155 members used to standardize authorship metadata.
+
+### The "Historian" Engine (`06_reconstruction_engine.py`)
+- A multi-commission reconstruction engine is now operational. 
+- It can ingest "Genesis" data and apply chronological patches (indications) from any `comision-*/indicaciones-api-extracted/` directory.
+- It produces an article-by-article history, tracking text mutations and cumulative authorship.
+
+## 4. Known Issues & Risks
+- **Extraction Accuracy:** While Gemini 3.0 Flash is highly effective at layout analysis, the 3-column tables in Commission 2 and the complex headers in Commission 6 reports require a second verification pass.
+- **Article Numbering Shifts:** Some indications lead to "Renumbering" (e.g., "Art 4 passes to be Art 3"). This logic is currently captured as metadata but requires more robust handling in the the reconstruction engine's state machine.
+
+## 5. Next Steps
+1. **Manual Validation:** User review of Commission 6 JSON outputs against original PDFs.
+2. **Commission 2 Refinement:** Retackle the "Comparado" puzzle using paragraph-level granularity.
+3. **Multi-Commission Integration:** Run a combined reconstruction across Commissions 2 and 6.
+4. **Sentence-Level Mapping:** Attempt to map specific sentences in `draft_1_text.json` back to their parent indications.
