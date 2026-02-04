@@ -89,5 +89,5 @@ def organize_files(dry_run=True):
 
 if __name__ == "__main__":
     # Default is SAFETY FIRST
-    organize_files(dry_run=True)
+    organize_files(dry_run=False)
     print("\nTo execute changes, set dry_run=False in the script execution.")
