@@ -25,3 +25,6 @@ playground/
 co-sponsorship-analysis/iniciativas_normas
 B-old scripts/
 B-rcp_convencion/votos_convencion
+# Python cache
+__pycache__/
+.ipynb_checkpoints/
