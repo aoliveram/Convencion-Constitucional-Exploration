@@ -1,0 +1,42 @@
+ESTRATEGIA DE EXTRACCIÓN Y SEGUIMIENTO DE DATOS - CONVENCIÓN CONSTITUCIONAL DE CHILE
+
+CONTEXTO GENERAL:
+Este proyecto tiene como objetivo reconstruir "la historia de vida" de cada artículo del borrador constitucional chileno de 2022. Queremos saber exactamente de qué iniciativa nació cada texto (Génesis/Draft 0), qué indicaciones lo transformaron (Evolución) y quiénes fueron los autores de cada cambio.
+
+ESTRADO ACTUAL DE LA ESTRATEGIA:
+Hasta ahora, hemos trabajado principalmente con la Comisión 6 (Sistemas de Justicia), logrando un flujo exitoso. Sin embargo, al intentar lo mismo con la Comisión 2, nos encontramos con estructuras de documentos radicalmente distintas que obligaron a crear scripts "ad-hoc".
+
+CÓMO FUNCIONA LA EXTRACCIÓN ACTUAL (BASADA EN COMISIÓN 6):
+
+1. MAPEÓ DE GÉNESIS (Script 02_map_initiatives.py):
+   - Insumo: PDF de "Texto Sistematizado" (ej. texto-sistematizado-01-25.pdf).
+   - Lógica: Se le entrega el PDF a una IA indicándole que busque la relación entre el número del artículo y el "Número de Iniciativa" o "Boletín" (ej. "41-6").
+   - Resultado: Un JSON que mapea: Artículo X -> Iniciativa Y, junto con los autores de dicha iniciativa extraídos de una base de datos previa (`convention_members.json`).
+
+2. EXTRACCIÓN DE INDICACIONES (Script 04_extract_indications.py):
+   - Insumo: PDFs de "Informe de Votación de Indicaciones".
+   - Lógica: Escaneo por lotes (batch) donde se filtran EXCLUSIVAMENTE las indicaciones con resultado "APROBADO".
+   - Campos extraídos: Número de indicación, Artículo de destino (target), Acción (AGREGAR, ELIMINAR, MODIFICAR), Contenido exacto del cambio y Autores (macheando sus nombres contra la lista oficial de 155 convencionales).
+
+EL DESAFÍO DE LA VARIABILIDAD:
+- La Comisión 6 es muy "textual" y lineal.
+- La Comisión 2 usa tablas de 3 columnas (Texto Original | Indicación | Resultado) y, en etapas avanzadas, usa informes "Comparados" cruzados con informes de "Reemplazo". Esto rompió el script base y nos obligó a crear lógica de "Fuzzy Matching" (similitud de texto) para entender de dónde venía cada párrafo.
+
+PROPUESTA DE ARQUITECTURA "BASE + ESPECIALISTAS":
+Queremos evaluar la pertinencia de crear un Script "Base" genérico que contenga la infraestructura (carga de PDFs, manejo de API, limpieza de JSON, match de autores) pero que permita cargar "Instrucciones (Prompts) Específicas" o "Funciones de Parsing" por cada comisión.
+
+TU TAREA COMO EVALUADOR ESPECIALISTA:
+Se te proporcionan varios PDFs de distintas comisiones (Comisión 1, 2, 3 y 6). Tu misión es analizar visual y estructuralmente estos documentos para responder:
+
+1. ¿Es viable un script base único? ¿O las diferencias en el diseño de las tablas y la forma de reportar los votos entre comisiones son tan grandes que justifican scripts totalmente independientes?
+2. Evalúa la arquitectura propuesta: ¿Qué elementos deberían ser parte del "Core" (corazón del script) y qué debería ser delegado a "Prompts Específicos" por comisión?
+3. Considera los siguientes puntos críticos:
+   - Formato de Tablas: Algunas comisiones usan tablas verticales, otras celdas combinadas.
+   - Referencias: ¿Cómo cita cada comisión los artículos? (¿"Artículo 1", "Art. 1°", "Artículo Nuevo", "Pasa a ser artículo 4"?).
+   - Autoría: ¿Cómo se presentan los firmantes? (¿Listas largas, "de los convencionales...", apellidos solamente?).
+   - Resultado: ¿Cómo se indica la aprobación? (¿"Aprobada", "Unanimidad", iconos, tablas de votación al final?).
+
+PREGUNTA FINAL:
+Basado en los PDFs adjuntos, ¿qué tan "escalable" es mi estrategia actual de la Comisión 6 hacia el resto? Define qué comisiones se parecen a la 6 y cuáles requerirán un tratamiento especial como la 2. Proclámate sobre si la idea de "Base + Prompts Especialistas" es el camino más eficiente o si ves un riesgo de alucinación alto por la complejidad de los layouts.
+
+POR FAVOR, SÉ EXHAUSTIVO Y CRÍTICO EN TU ANÁLISIS ESTRUCTURAL.
