@@ -1,0 +1,191 @@
+[
+  {
+    "number": "255",
+    "target_article": "78",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 78.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "256",
+    "target_article": "79",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 79.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "257 y 258",
+    "target_article": "80",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 80.",
+    "authors_raw": "05 Castillo, 21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "259",
+    "target_article": "81",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 81.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "260",
+    "target_article": "82",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 82.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "263",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "Artículo 83. Competencias. Se reconocen como competencias exclusivas de las Autonomías Territoriales Indígenas las siguientes, que podrán ser especificadas y reguladas de acuerdo a los sistemas jurídicos propios de cada pueblo en sus Estatutos Autonómicos.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "266",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "las autoridades de autogobierno que ejerzan las funciones administrativas y normativas en atención a sus sistemas jurídicos propios;",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "268",
+    "target_article": "83",
+    "action": "DEL",
+    "content": "eliminar en el numeral 3 del artículo 83 después de la palabra “cultural” la expresión “en atención a los principios de plurinacionalidad e interculturalidad y a los sistemas de conocimiento propio”",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "270",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "y el patrimonio material e inmaterial de los pueblos y naciones indígenas del territorio autonómico, en conformidad a lo establecido en la presente Constitución y la legislación sobre protección de los derechos de la naturaleza",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "272",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "5. Establecer, en su Plan de Desarrollo Autonómico, requisitos adicionales a los señalados por la legislación ambiental para regular la obtención de permisos, autorizaciones o concesiones para el uso, explotación, goce o aprovechamiento de los bienes naturales comunes. Asimismo podrán determinar la participación equitativa en los beneficios obtenidos por el aprovechamiento de estos.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "273",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "6.- Mantener y administrar áreas protegidas, centros arqueológicos, espacios sagrados o de significación cultural, museos, parques y/o reservas naturales y otros.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "274",
+    "target_article": "83",
+    "action": "ADD",
+    "content": "Indígena",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "275",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "8.- Ejercer funciones jurisdiccionales por sus autoridades conforme a sus sistemas jurídicos propios, en el marco de la Constitución y con pleno respeto a los derechos fundamentales, interpretados interculturalmente",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "277",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "9.- Preservar, resguardar y administrar el patrimonio cultural, espiritual, artístico, arqueológico, ceremonial, bioantropológico, soberanía alimentaria y la propiedad intelectual sobre los conocimientos tradicionales y expresiones culturales del respectivo territorio autonómico;",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "279",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "10.- Establecer, promover y difundir las lenguas y emblemas indígenas que se usarán de forma oficial en el territorio autonómico, además del castellano y los símbolos y emblemas del país;",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "281",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "11.- Crear, promover y/o asociarse con cooperativas, microempresas u otras unidades comunitarias para la producción de bienes o prestación de servicios atingentes a sus objetivos y competencias;",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "282",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "12.- Recibir donaciones de entes públicos o privados. nacionales o internacionales",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "283",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "13.- Las demás atribuciones que establezcan la Constitución, el Estatuto y las leyes",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "285, 286 y 287",
+    "target_article": "83",
+    "action": "DEL",
+    "content": "Para eliminar el numeral 14, 15 y 16 artículo 83.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "288",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "1.- Participar, en coordinación con otras entidades territoriales en la elaboración e implementación de los planes de ordenamiento territorial y del maritorio, bienes comunes naturales, incluyendo el uso de suelos, subsuelos y espacio aéreo, manejo integrado de cuencas y conservación de recursos forestales, velando por la protección de los derechos de la naturaleza",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "291",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "2. Establecer tasas y contribuciones de carácter y de afectación circunscrita a la Autonomía Territorial Indígena, en tanto no sean sobre los mismos hechos o bienes gravados por tributos aplicables a toda la República. La ley determinará el marco general para la creación de tasas y contribuciones de las Autonomías Territoriales Indígenas, debiendo quedar en su Estatuto Autonómico la regulación específica de éstas, incluyendo la determinación de los hechos y bienes gravados, así como la alícuota aplicable.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "292",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "4.- Crear, implementar e incidir en las políticas públicas, planes y programas en los ámbitos de su competencia de acuerdo con sus propios conocimientos, prácticas e instituciones propias, y en coordinación con las demás entidades territoriales y órganos del Estado.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "294",
+    "target_article": "83",
+    "action": "ADD",
+    "content": "5. Crear, previa ratificación del Consejo Territorial, empresas públicas indígenas en áreas de su interés y competencia, que le permitan desarrollar sistemas de producción e intercambio fundados en criterios de justicia, equidad social, pertinencia cultural y de respeto a todas las formas de vida.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "295 y 296",
+    "target_article": "84",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 84.",
+    "authors_raw": "05 Castillo, 21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "298 y 299",
+    "target_article": "85",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 85.",
+    "authors_raw": "05 Castillo, 21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "302",
+    "target_article": "86",
+    "action": "MOD",
+    "content": "Artículo 86. Regulación y coordinación de competencias. El legislador regulará el procedimiento de coordinación y modificación de competencias, de resolución de los conflictos o contiendas surgidas entre las entidades territoriales y los demás órganos de la Administración del Estado centralizados, descentralizados o autonómicos, y aquellos aspectos, ámbitos o competencias no señalados en la presente Constitución, respetando el derecho a la consulta previa libre e informada para obtener el consentimiento de los pueblos y sin afectar las autonomías territoriales indígenas en su competencias y atribuciones.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "304",
+    "target_article": "88",
+    "action": "MOD",
+    "content": "Si la autoridad administrativa deniega, retrasa o no se pronuncia en el plazo establecido respecto de la constitución de la Autonomía Territorial Indígena, procederá la acción cautelar de autonomía... [The text specifies a jurisdictional procedure before the Court of Appeals].",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  }
+]

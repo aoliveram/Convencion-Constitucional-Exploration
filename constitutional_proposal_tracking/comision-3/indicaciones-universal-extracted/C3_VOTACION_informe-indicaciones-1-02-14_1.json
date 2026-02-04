@@ -1,0 +1,317 @@
+[
+  {
+    "number": "4",
+    "target_article": "1",
+    "action": "ADD",
+    "content": "Para agregar al artículo 1° inciso 1° (Del Estado Regional) las expresiones \", plurinacional e intercultural” entre los vocablos \"Regional\" y “conformado”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "8",
+    "target_article": "1",
+    "action": "MOD",
+    "content": "Para agregar en el artículo 1° inciso 2° (Del Estado Regional), luego de la expresión “cooperación,”, la frase “la integración armónica y el”, suprimiendo a su vez la palabra “armónico” que se encuentra luego de “desarrollo”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "9",
+    "target_article": "1",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 1° inciso 2 (Del Estado Regional) luego de la coma “,” que pasa a ser un punto final, la expresión: “atendiendo especialmente a aquellas ubicadas en territorios insulares y zonas extremas”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "10 y 11",
+    "target_article": "1A",
+    "action": "DEL",
+    "content": "para eliminar el artículo 1°A (Forma de Estado).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros; 14 Mena, Navarrete, Jofré"
+  },
+  {
+    "number": "30",
+    "target_article": "2",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 2° inciso 1° (De las Entidades Territoriales) luego del vocablo “comunas”, el concepto “autónomas”, y en todas las veces en que ésta aparezca en adelante.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "31",
+    "target_article": "2",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 2° inciso 1° (De las Entidades Territoriales) luego de la coma “,”, el concepto “y territoriales insulares”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "37",
+    "target_article": "2",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 2° inciso 2° (De las Entidades Territoriales) luego de la palabra “límite”, el vocablo “sólo”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "38",
+    "target_article": "2",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 2° inciso 2 (De las Entidades Territoriales) luego de la expresión “regiones autónomas” la frase ‘‘autonomías territoriales indígenas y’’.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "42",
+    "target_article": "2",
+    "action": "MOD",
+    "content": "Para eliminar en el artículo 2° inciso 3° (De las Entidades Territoriales) el punto final, luego de la frase “sus habitantes” y, a continuación de ésta, agregar la frase “, de acuerdo con la Constitución y la ley”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "47",
+    "target_article": "2",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 2° (De las Entidades Territoriales) el inciso 4.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "49",
+    "target_article": "3",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 3° su inciso 1° (Del Territorio) por el siguiente: ‘‘Artículo 3.- Del Territorio. Chile, en su diversidad geográfica, natural, histórica y cultural, forma un territorio único e indivisible.’’",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "53",
+    "target_article": "4",
+    "action": "MOD",
+    "content": "Para reemplazar el artículo 4° (Del Maritorio) por el siguiente: “Artículo 4°. Del Maritorio. Chile es un país oceánico conformado por los ecosistemas marinos y marino-costeros continentales... [inciso completo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "63",
+    "target_article": "5",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 5° inciso 1 (De la Autonomía de las entidades territoriales) la frase ‘‘Las entidades territoriales’’ por ‘‘Las regiones autónomas, comunas autónomas y autonomías territoriales indígenas,’’.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "67",
+    "target_article": "5",
+    "action": "ADD",
+    "content": "Para agregar, en el artículo 5º inciso final, la expresión “podrá atentar en contra del carácter único e indivisible del Estado de Chile, ni” después de “autonomía”.",
+    "authors_raw": "14 Mena, Navarrete, Jofré"
+  },
+  {
+    "number": "68",
+    "target_article": "6",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 6° inciso 1 (De la solidaridad, cooperación y asociatividad territorial en el Estado Regional), luego del punto final, que pasa a ser una coma ‘‘,’’ la frase ‘‘evitando la duplicidad de funciones, en conformidad a los mecanismos que establezca la ley’’.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "71",
+    "target_article": "6",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 6° los incisos 3° y 4° (De la solidaridad, cooperación y asociatividad territorial en el Estado Regional) por los siguientes: “El Estado promoverá y apoyará la cooperación y asociatividad con las entidades territoriales y entre ellas... [incisos reemplazados]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "72 bis",
+    "target_article": "7",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 7° (De la Participación en las entidades territoriales en el Estado Regional) por el siguiente: “De la Participación en las entidades territoriales en el Estado Regional. Las entidades territoriales garantizan el derecho de sus habitantes a participar... [artículo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "79",
+    "target_article": "8",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 8° inciso 1° (Del Desarrollo Territorial) la frase “y en sus territorios jurisdiccionales”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "80",
+    "target_article": "8",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 8° inciso 1° (Del Desarrollo Territorial) luego de la expresión “establecer una política” la frase “permanente de equidad territorial de”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "84",
+    "target_article": "8",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 8° el inciso 2 (Del Desarrollo Territorial), por el siguiente: “Las entidades territoriales considerarán para su planificación social, política, administrativa, cultural, territorial y económica los criterios de suficiencia presupuestaria... [inciso reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "85",
+    "target_article": "8",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 8° (Del Desarrollo Territorial) el inciso final.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "88",
+    "target_article": "9",
+    "action": "MOD",
+    "content": "Para reemplazar el artículo 9° (De la equidad y justicia territorial) por el siguiente: “Artículo 9. De la equidad y justicia interterritorial. El Estado garantiza un tratamiento equitativo y un desarrollo armónico y solidario... [artículo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "89",
+    "target_article": "9",
+    "action": "ADD",
+    "content": "Para agregar, en el encabezado del artículo 9º, la expresión “, Solidaridad” después de “Equidad”.",
+    "authors_raw": "14 Mena, Navarrete, Jofré"
+  },
+  {
+    "number": "91",
+    "target_article": "9",
+    "action": "ADD",
+    "content": "Para agregar, en el artículo 9º, la expresión “. El Estado de Chile promoverá un desarrollo territorial equitativo, armónico y solidario que permita una integración efectiva de las distintas localidades... [frase añadida]” después de “desaventajados”.",
+    "authors_raw": "14 Mena, Navarrete, Jofré"
+  },
+  {
+    "number": "95",
+    "target_article": "10",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 10° (De la Plurinacionalidad e interculturalidad en el Estado Regional) la expresión “indígenas” por “preexistentes al Estado”, y en adelante cada vez que corresponda.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "99",
+    "target_article": "10",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 10° (De la Plurinacionalidad e interculturalidad en el Estado Regional) luego de la expresión “supervivencia”, la siguiente frase “ y desarrollo armónico e integral”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "100",
+    "target_article": "10",
+    "action": "MOD",
+    "content": "Para eliminar en el Artículo 10 la siguiente expresión: “deberán”. Para reemplazar “asegurar” por “reconocen, garantizan y promueven”. Para agregar “existencia”, después de la coma que sigue a “supervivencia”.",
+    "authors_raw": "13 Bacian, Chinga"
+  },
+  {
+    "number": "105",
+    "target_article": "11",
+    "action": "MOD",
+    "content": "Para reemplazar el artículo 11° (De la postulación y cesación a los cargos de las entidades territoriales), por el siguiente: “La elección de las y los representantes por votación popular de las entidades territoriales se efectuará asegurando la paridad de género... [artículo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "113",
+    "target_article": "12",
+    "action": "MOD",
+    "content": "Para eliminar en el artículo 12 (Principio de no tutela entre entidades territoriales) la frase ‘‘, en el reparto y ejercicio de sus competencias y atribuciones”, reemplazando la conjunción “y” entre las palabras “coordinación” y “de solidaridad” por una coma “,”.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "115",
+    "target_article": "12",
+    "action": "ADD",
+    "content": "Para agregar, en el artículo 12, la expresión “, asociatividad” después de “coordinación”.",
+    "authors_raw": "14 Mena, Navarrete, Jofré"
+  },
+  {
+    "number": "116",
+    "target_article": "12",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 12 (Principio de no tutela entre entidades territoriales), luego de solidaridad, cambiando el punto aparte “.” por una coma “,” la siguiente frase “y los conflictos de competencias que puedan ocasionarse.”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "120",
+    "target_article": "13",
+    "action": "MOD",
+    "content": "Para reemplazar en el artículo 13° inciso 1° (Correspondencia entre competencias y recursos) la expresión: “de competencias deberán ir acompañadas del financiamiento que permita su adecuada ejecución.” por la siguiente: “deberán ir acompañadas siempre por el personal y los recursos financieros suficientes y oportunos para su adecuada ejecución.”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "121",
+    "target_article": "13",
+    "action": "DEL",
+    "content": "Para eliminar en el artículo 13 (Correspondencia entre competencias y recursos) el inciso final.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "123",
+    "target_article": "13",
+    "action": "ADD",
+    "content": "Para agregar un nuevo inciso final en el artículo 13 (Correspondencia entre competencias y recursos) con la siguiente frase: “Una ley regulará el régimen jurídico del procedimiento de transferencia de competencias y sus sistemas de evaluación y control.”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "124",
+    "target_article": "14",
+    "action": "MOD",
+    "content": "Para reemplazar el artículo 14 (Cuestiones de competencia), por el siguiente: “Artículo 14. Cuestiones de competencia. La ley establecerá el procedimiento para resolución de las distintas contiendas de competencia... [artículo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "126",
+    "target_article": "15",
+    "action": "ADD",
+    "content": "Para agregar en el artículo 15 (Libertad de circulación entre entidades territoriales), luego del punto final, que pasa a ser coma ‘‘,’’, la frase ‘‘sin perjuicio de las limitaciones contempladas en esta Constitución y la ley’’.",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "127",
+    "target_article": "16",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 16 (Autonomía).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "130",
+    "target_article": "17",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 17 (División del territorio).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "133",
+    "target_article": "18",
+    "action": "MOD",
+    "content": "Para reemplazar el artículo 18 (Subsidiariedad territorial) por el siguiente: “Artículo 18. Radicación preferente de competencias. Las funciones públicas deberán radicarse priorizando la entidad local sobre la regional... [artículo reemplazado]”",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "139",
+    "target_article": "19",
+    "action": "MOD",
+    "content": "Para reemplazar artículo 19 (Diferenciación territorial) por el siguiente: “Artículo 19. Diferenciación territorial. El Estado deberá generar políticas públicas diferenciadas y transferir las competencias que mejor se ajusten... [artículo reemplazado]”",
+    "authors_raw": "09 Pustilnick, Reyes, C. Gómez, J. Álvarez, Martínez"
+  },
+  {
+    "number": "141",
+    "target_article": "20",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 20 (Prohibición de tutela).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "143",
+    "target_article": "21",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 21 (Coordinación y colaboración).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "144",
+    "target_article": "22",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 22 (Descentralización fiscal y equidad interterritorial).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "148",
+    "target_article": "23",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 23 (Suficiencia en el financiamiento de competencias).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  },
+  {
+    "number": "150",
+    "target_article": "24",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 24 (Interdicción de la arbitrariedad presupuestaria).",
+    "authors_raw": "07 Mella, Y. Gómez, Ampuero, Giustinianovich, Alvez, Uribe, Aguilera, Millabur, Pustilnick, Reyes, C. Gómez, J. Álvarez, Andrade, Velásquez, Martínez, Quinteros"
+  }
+]

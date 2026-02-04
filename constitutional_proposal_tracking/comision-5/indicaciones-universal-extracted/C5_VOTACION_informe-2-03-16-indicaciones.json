@@ -1,0 +1,240 @@
+[
+  {
+    "number": "1, 3, 4",
+    "target_article": "Artículo 2°",
+    "action": "DEL",
+    "content": "suprimir el artículo 2°",
+    "authors_raw": "Harboe (1), Martin y otros (3), Toloza (4)"
+  },
+  {
+    "number": "11, 12",
+    "target_article": "Artículo 3°",
+    "action": "DEL",
+    "content": "suprimir el artículo 3",
+    "authors_raw": "Martin y otros (11), Vega (12)"
+  },
+  {
+    "number": "17",
+    "target_article": "Artículo 4°",
+    "action": "MOD",
+    "content": "Artículo 4. De los derechos de la Naturaleza. La Naturaleza tiene derecho a que se respete y proteja su existencia, a la regeneración, a la mantención y a la restauración de sus funciones y equilibrios dinámicos, que comprenden los ciclos naturales, los ecosistemas y la biodiversidad. El Estado a través de sus instituciones debe garantizar y promover los derechos de la Naturaleza según lo determine la Constitución y las Leyes.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "26, 27",
+    "target_article": "Artículo 6°",
+    "action": "DEL",
+    "content": "suprimir el artículo 6",
+    "authors_raw": "Martin y otros (26), Álvarez (27)"
+  },
+  {
+    "number": "30, 31",
+    "target_article": "Artículo 7°",
+    "action": "DEL",
+    "content": "suprimir el artículo 7",
+    "authors_raw": "Martin y otros (30), Toloza (31)"
+  },
+  {
+    "number": "33, 34",
+    "target_article": "Artículo 8°",
+    "action": "DEL",
+    "content": "suprimir el artículo 8",
+    "authors_raw": "Martin y otros (33), Vega (34)"
+  },
+  {
+    "number": "39",
+    "target_article": "Artículo 9°",
+    "action": "MOD",
+    "content": "Artículo 9.- La Ley podrá establecer restricciones al ejercicio de determinados derechos o libertades para proteger el medio ambiente y la Naturaleza.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "42, 43",
+    "target_article": "Artículo 10°",
+    "action": "DEL",
+    "content": "suprimir el artículo 10",
+    "authors_raw": "Martin (42), Álvarez (43)"
+  },
+  {
+    "number": "45, 46",
+    "target_article": "Artículo 11°",
+    "action": "DEL",
+    "content": "suprimir el artículo 11",
+    "authors_raw": "Martin y otros (45), Toloza (46)"
+  },
+  {
+    "number": "53",
+    "target_article": "Artículo 12°",
+    "action": "MOD",
+    "content": "Artículo 12. De los bienes comunes naturales. Los bienes comunes naturales son elementos o componentes de la Naturaleza no susceptibles de apropiación. El Estado es custodio de estos bienes, debiendo conservarlos, resguardarlos y administrarlos, asegurando una gestión participativa y democrática. El Estado podrá otorgar autorizaciones administrativas respecto de los bienes comunes naturales que la Constitución determine. Estas autorizaciones estarán sujetas a causales de caducidad, revocación y a obligaciones específicas de conservación. No habrá derechos de propiedad sobre dichas autorizaciones. Los pueblos indígenas tienen derechos colectivos a los bienes naturales situados en sus territorios, en conformidad con los tratados e instrumentos internacionales de derechos humanos de los que Chile es parte.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "54, 55",
+    "target_article": "Artículo 13°",
+    "action": "DEL",
+    "content": "suprimir el artículo 13",
+    "authors_raw": "Martin y otros (54), Fontaine (55)"
+  },
+  {
+    "number": "58, 59",
+    "target_article": "Artículo 14°",
+    "action": "DEL",
+    "content": "suprimir el artículo 14",
+    "authors_raw": "Martin y otros (58), Álvarez (59)"
+  },
+  {
+    "number": "61, 62",
+    "target_article": "Artículo 15°",
+    "action": "DEL",
+    "content": "suprimir el artículo 15",
+    "authors_raw": "Martin y otros (61), Toloza (62)"
+  },
+  {
+    "number": "64, 65",
+    "target_article": "Artículo 16°",
+    "action": "DEL",
+    "content": "suprimir el artículo 16",
+    "authors_raw": "Martin y otros (64), Vega (65)"
+  },
+  {
+    "number": "66, 67, 68",
+    "target_article": "Artículo 17°",
+    "action": "DEL",
+    "content": "suprimir el artículo 17",
+    "authors_raw": "Harboe (66), Martin y otros (67), Fontaine (68)"
+  },
+  {
+    "number": "70, 71",
+    "target_article": "Artículo 18°",
+    "action": "DEL",
+    "content": "suprimir el artículo 18",
+    "authors_raw": "Martin y otros (70), Álvarez (71)"
+  },
+  {
+    "number": "75",
+    "target_article": "Artículo 19°",
+    "action": "MOD",
+    "content": "Artículo 19. Acceso responsable a la Naturaleza. Se reconoce a todas las personas el derecho de acceso responsable, universal y temporal a las montañas, riberas de ríos, mar, playas y lagos. Este derecho se ejercerá respetando los derechos de la Naturaleza y de los pueblos indígenas. La ley regulará el ejercicio de este derecho, las obligaciones de los propietarios aledaños y el régimen de responsabilidad aplicable, entre otros.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "81",
+    "target_article": "Artículo 20°",
+    "action": "MOD",
+    "content": "Artículo 20. De la gestión de residuos. Es deber del Estado normar y fomentar la gestión, reducción y valorización de residuos, en la forma que determine la Ley.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "85, 86",
+    "target_article": "Artículo 21°",
+    "action": "DEL",
+    "content": "suprimir el artículo 21",
+    "authors_raw": "Martin y otros (85), Fontaine (86)"
+  },
+  {
+    "number": "89, 90",
+    "target_article": "Artículo 22°",
+    "action": "DEL",
+    "content": "suprimir el artículo 22",
+    "authors_raw": "Martin y otros (89), Álvarez (90)"
+  },
+  {
+    "number": "94",
+    "target_article": "Artículo 24°",
+    "action": "DEL",
+    "content": "suprimir el artículo 24",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "99",
+    "target_article": "Artículo 26°",
+    "action": "MOD",
+    "content": "Artículo 26. Principios ambientales. Son principios para la protección de la Naturaleza y el medio ambiente, a lo menos, los principios de progresividad, precautorio, preventivo, justicia ambiental, solidaridad intergeneracional, responsabilidad y acción climática justa.",
+    "authors_raw": "Martin y otros"
+  },
+  {
+    "number": "104, 105, 106",
+    "target_article": "Artículo 27°",
+    "action": "DEL",
+    "content": "suprimir el artículo 27",
+    "authors_raw": "Harboe (104), Martin y otros (105), Toloza (106)"
+  },
+  {
+    "number": "113, 114",
+    "target_article": "Artículo 28°",
+    "action": "DEL",
+    "content": "suprimir el artículo 28",
+    "authors_raw": "Martin y otros (113), Vega (114)"
+  },
+  {
+    "number": "118, 119",
+    "target_article": "Artículo 29°",
+    "action": "DEL",
+    "content": "suprimir el artículo 29",
+    "authors_raw": "Martin y otros (118), Fontaine (119)"
+  },
+  {
+    "number": "124, 125",
+    "target_article": "Artículo 30°",
+    "action": "DEL",
+    "content": "suprimir el artículo 30",
+    "authors_raw": "Martin y otros (124), Álvarez (125)"
+  },
+  {
+    "number": "128, 129",
+    "target_article": "Artículo 31°",
+    "action": "DEL",
+    "content": "suprimir el artículo 31",
+    "authors_raw": "Martin y otros (128), Toloza (129)"
+  },
+  {
+    "number": "133, 134, 135",
+    "target_article": "Artículo 32°",
+    "action": "DEL",
+    "content": "suprimir el artículo 32",
+    "authors_raw": "Harboe (133), Martin y otros (134), Vega (135)"
+  },
+  {
+    "number": "138, 139",
+    "target_article": "Artículo 34°",
+    "action": "DEL",
+    "content": "suprimir el artículo 34",
+    "authors_raw": "Martin y otros (138), Álvarez (139)"
+  },
+  {
+    "number": "141, 142",
+    "target_article": "Artículo 35°",
+    "action": "DEL",
+    "content": "suprimir el artículo 35",
+    "authors_raw": "Martin y otros (141), Toloza (142)"
+  },
+  {
+    "number": "144, 145",
+    "target_article": "Artículo 36°",
+    "action": "DEL",
+    "content": "suprimir el artículo 36",
+    "authors_raw": "Martin y otros (144), Vega (145)"
+  },
+  {
+    "number": "148, 149",
+    "target_article": "Artículo 38°",
+    "action": "DEL",
+    "content": "suprimir el artículo 38",
+    "authors_raw": "Martin y otros (148), Álvarez (149)"
+  },
+  {
+    "number": "150, 151",
+    "target_article": "Artículo Transitorio Primero",
+    "action": "DEL",
+    "content": "suprimir el artículo transitorio primero",
+    "authors_raw": "Martin y otros (150), Toloza (151)"
+  },
+  {
+    "number": "152, 153",
+    "target_article": "Artículo Transitorio Segundo",
+    "action": "DEL",
+    "content": "suprimir el artículo transitorio segundo",
+    "authors_raw": "Martin y otros (152), Vega (153)"
+  }
+]

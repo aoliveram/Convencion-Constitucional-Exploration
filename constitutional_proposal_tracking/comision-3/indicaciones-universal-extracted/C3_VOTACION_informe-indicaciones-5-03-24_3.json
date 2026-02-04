@@ -1,0 +1,331 @@
+[
+  {
+    "number": "173",
+    "target_article": "54",
+    "action": "MOD",
+    "content": "Artículo 54.- Financiamiento. Para el cumplimiento de los fines establecidos en la creación de territorios especiales, el Estado y entidades territoriales autónomas deberá destinar recursos de sus presupuestos respectivos, en conformidad a la Constitución y la ley",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "175",
+    "target_article": "55",
+    "action": "MOD",
+    "content": "Artículo 55. Territorios de Ultramar. Son territorios de ultramar de la República de Chile, Rapa Nui, el Archipiélago Juan Fernández y la Antártica Chilena. El Estado ejerce soberanía y jurisdicción sobre sus territorios de ultramar en conformidad a la Constitución, la ley y el derecho internacional.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "180",
+    "target_article": "56",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 56.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "181",
+    "target_article": "56",
+    "action": "DEL",
+    "content": "Para suprimir íntegramente el artículo 56.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "184",
+    "target_article": "57",
+    "action": "MOD",
+    "content": "Artículo 57.- Chile es un país oceánico. El Estado reconoce la existencia del maritorio como una categoría jurídica que debe contar con una regulación específica en base a sus características geográficas, naturales, históricas y culturales. La ley establecerá la división administrativa del maritorio, reconociendo, protegiendo y promoviendo los usos ancestrales, consuetudinarios y locales.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "186",
+    "target_article": "57",
+    "action": "ADD",
+    "content": "El Estado ejerce soberanía y jurisdicción sobre el mar de conformidad al derecho internacional.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "189",
+    "target_article": "58",
+    "action": "MOD",
+    "content": "El Archipiélago Juan Fernández es un territorio de ultramar de la República de Chile que se regulará por los estatutos especiales que se dictarán para normar su administración y gobierno, en conformidad a la ley. Su territorio está conformado por las islas Robinson Crusoe, Alejandro Selkirk, Santa Clara, San Félix y San Ambrosio; así como por el territorio marítimo adyacente a ellas.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "190",
+    "target_article": "58",
+    "action": "MOD",
+    "content": "Es obligación del Estado garantizar los derechos de los habitantes del Archipiélago, la protección y restauración de sus ecosistemas, la infraestructura asociada, sitios, derecho de tránsito y uso histórico.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "191",
+    "target_article": "58",
+    "action": "MOD",
+    "content": "Para la protección de este territorio de ultramar y de las islas Desventuradas se podrán limitar los derechos de migración interna, trabajo o cualquier otra actividad pública o privada que pueda afectar al medio ambiente y el patrimonio cultural, en conformidad a las normas que al efecto establezca la ley.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "193",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para eliminar el inciso 4.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "194",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 4 del artículo 58.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "195",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para eliminar el inciso 5.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "196",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 5 del artículo 58.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "197",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para eliminar el inciso 6.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "198",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 6 del artículo 58.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "199",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para eliminar el inciso 7.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "200",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 7 del artículo 58.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "201",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para eliminar el inciso 8.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "202",
+    "target_article": "58",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 8 del artículo 58.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "203",
+    "target_article": "59",
+    "action": "MOD",
+    "content": "Artículo 59. Antártica Chilena. Chile es un país de vocación antártica. La Antártica está formada por las tierras, islas, islotes, arrecifes, glaciares y otros, conocidos y por conocer al sur del paralelo 60 de latitud sur. El Estado ejerce soberanía y jurisdicción, como Territorio de Ultramar, sobre la Antártica Chilena en conformidad a la Constitución y el Estatuto Antártico... [completes detailed Antartic status].",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "206",
+    "target_article": "60",
+    "action": "MOD",
+    "content": "Artículo 60.- Bioterritorio, refugio climático y reserva de la biósfera. Cuando el objeto del territorio especial sea permitir la conservación, recuperación, resiliencia, regeneración y manejo integral del agua en todos sus estados en coherencia con los usos de la tierra, se denominará bioterritorio... [completes environmental status terms].",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "207",
+    "target_article": "61",
+    "action": "DEL",
+    "content": "Para suprimir íntegramente el artículo 61.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "210",
+    "target_article": "62",
+    "action": "DEL",
+    "content": "Art 62: Ind. Supresiva, para eliminar el artículo 62.",
+    "authors_raw": "06 Arancibia, Rivera, Jurgensen, Navarrete"
+  },
+  {
+    "number": "211",
+    "target_article": "62",
+    "action": "DEL",
+    "content": "Para suprimir íntegramente el artículo 62.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "306",
+    "target_article": "89",
+    "action": "MOD",
+    "content": "El Estado reconoce el dominio colectivo sobre el territorio o kainga del pueblo nación Rapa Nui, Te Pito O Te Henua de origen polinésico, que corresponde a un territorio de ultramar, con pleno respeto de los derechos sobre tierras individuales que hayan adquirido o recibido con anterioridad miembros del pueblo Rapa Nui.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "307",
+    "target_article": "89",
+    "action": "MOD",
+    "content": "La relación entre la Nación Rapa Nui y el Estado de Chile se basa en el “Acuerdo de Voluntades”, tratado bilateral suscrito el 9 de septiembre de 1888, plenamente vigente en la actualidad. En virtud de dicho tratado, la Nación Rapa Nui goza de autonomía jurídica, política, administrativa y económica debiendo el Estado garantizar su libre determinación...",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "308",
+    "target_article": "89",
+    "action": "DEL",
+    "content": "Para suprimir los incisos 3, 5, 6 y 7 del artículo 89.",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "218",
+    "target_article": "63",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 63.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "219",
+    "target_article": "63",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 63.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "222",
+    "target_article": "64",
+    "action": "MOD",
+    "content": "Las Autonomías Territoriales Indígenas son entidades territoriales donde los pueblos y naciones indígenas ejercen su derecho al autogobierno, con autonomía política, administrativa, jurídica, lingüística y financiera.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "224",
+    "target_article": "65",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 65.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "227",
+    "target_article": "66",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 66.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "228",
+    "target_article": "66",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 66.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "229",
+    "target_article": "67",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 67.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "233",
+    "target_article": "69",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 69.",
+    "authors_raw": "03 Mena, Navarrete, Jurgensen, Jofré"
+  },
+  {
+    "number": "234",
+    "target_article": "69",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 69.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "235",
+    "target_article": "70",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 70.",
+    "authors_raw": "03 Mena, Navarrete, Jurgensen, Jofré"
+  },
+  {
+    "number": "236",
+    "target_article": "70",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 70.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "237",
+    "target_article": "70",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 70.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "238",
+    "target_article": "71",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 71.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "241",
+    "target_article": "72",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 72.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "243",
+    "target_article": "73",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 73.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "244",
+    "target_article": "73",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 73.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "248",
+    "target_article": "74",
+    "action": "MOD",
+    "content": "Artículo 74.- Constitución de las Autonomías Territoriales Indígenas. Los pueblos y naciones indígenas podrán presentar, conforme a sus patrones tradicionales de ocupación que sean debidamente acreditados, un requerimiento de constitución de Autonomía Territorial Indígena, ante el órgano administrativo competente.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "249",
+    "target_article": "75",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 75.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "250",
+    "target_article": "75",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 75.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "252",
+    "target_article": "76",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 76.",
+    "authors_raw": "21 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga"
+  }
+]

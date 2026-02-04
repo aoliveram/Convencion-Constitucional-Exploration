@@ -1,0 +1,51 @@
+[
+  {
+    "number": "352",
+    "target_article": "137",
+    "action": "MOD",
+    "content": "Art. 137. Los planes e instrumentos de ordenamiento y planificación territorial deberán considerar según corresponda: a) El diseño de ciudades y asentamientos poblados sostenibles, seguros e inclusivos; con criterios de equidad de género y justicia socioespacial. b) El reconocimiento o definición de áreas de protección ambiental y patrimonial. c) Los territorios indígenas, su biodiversidad y usos. d) Instrumentos especiales para las áreas de mayor vulnerabilidad, a fin de fortalecer integralmente el desarrollo local y comunitario. e) Utilizar criterios de justicia ambiental para evitar la concentración de contaminantes, deterioro o agotamiento de los elementos de la naturaleza en una determinada localidad. f) Identificar y orientar el desarrollo de actividades productivas, empresariales e industriales en el territorio, las que deberán desarrollarse en armonía con los centros poblados y los ecosistemas en que se pretendan instalar; g) La integración socioespacial, asegurando el acceso a equipamiento, servicios básicos y una movilidad segura, sostenible, con transporte público y vialidad comprometida con un espacio público e infraestructura urbana de calidad. h) Las demás que determinen la Constitución y las leyes.",
+    "authors_raw": "Uribe, Giustinianovich, Ampuero, Mella, Álvez, Chinga, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Quinteros, Bacian"
+  },
+  {
+    "number": "357",
+    "target_article": "138",
+    "action": "MOD",
+    "content": "Art. 138. Una Ley Marco de Ordenamiento y Planificación Territorial, basada en un enfoque socioecológico velará por el desarrollo del país integrando y coordinando los distintos niveles y escalas territoriales, sus relaciones y los diversos actores que cohabitan los territorios.",
+    "authors_raw": "Uribe, Giustinianovich, Ampuero, Mella, Álvez, Chinga, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Quinteros, Bacian"
+  },
+  {
+    "number": "358",
+    "target_article": "139",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 139 (Libertad de emprender y desarrollar actividades económicas).",
+    "authors_raw": "06 Y.Gómez, Giustinianovich, Ampuero, Navarrete, Álvez, Aguilera, Mella, Millabur, Pustilnick, Mena, C.Gómez, J.Álvarez, Andrade, Velásquez, Jofré, Martínez, Uribe, Reyes, Castillo"
+  },
+  {
+    "number": "360",
+    "target_article": "140",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 140 (Régimen constitucional minero).",
+    "authors_raw": "06 Y.Gómez, Giustinianovich, Ampuero, Navarrete, Álvez, Aguilera, Mella, Millabur, Pustilnick, Mena, C.Gómez, J.Álvarez, Andrade, Velásquez, Jofré, Martínez, Uribe, Reyes, Castillo"
+  },
+  {
+    "number": "362",
+    "target_article": "141",
+    "action": "MOD",
+    "content": "Artículo 141. De las instituciones estatales de educación superior. En cada región autónoma existirá, al menos, una universidad estatal, funcionalmente descentralizada, que actuará con plena autonomía académica, económica y administrativa y formarán parte de la Administración del Estado. Se relacionarán de manera preferente y coordinada con las instituciones estatales, autoridades regionales, autoridades comunales y con otros servicios públicos con presencia regional, para contribuir al desarrollo de sus funciones propias y en la elaboración, ejecución y evaluación de políticas y programas de desarrollo local, regional o nacional. La ley fijará un estatuto especial para el cumplimiento de las tareas universitarias. Del mismo modo, en cada región existirá, al menos, una institución de formación técnico profesional de nivel superior, de acuerdo a sus necesidades y requerimientos.",
+    "authors_raw": "14 Y.Gómez, Giustinianovich, Ampuero, Navarrete, Álvez, Aguilera, Mella, Millabur, Pustilnick, Mena, C.Gómez, J.Álvarez, Andrade, Velásquez, Jofré, Martínez, Uribe, Reyes, Castillo"
+  },
+  {
+    "number": "363",
+    "target_article": "142",
+    "action": "MOD",
+    "content": "Artículo 142.- Los Cuerpos de Bomberos de Chile son una institución perteneciente al sistema de protección civil, cuyo objeto es atender las emergencias causadas por la naturaleza o el ser humano, sin perjuicio de la competencia específica que tengan otros organismos públicos y/o privados. Será deber del Estado dar cobertura financiera para cubrir la totalidad de sus gastos operacionales, capacitación y equipos, como también otorgar cobertura médica a su personal por accidentes o enfermedades contraídas por actos de servicio. La ley regulará el régimen de financiamiento y prestaciones sociales en época de vejez e invalidez.",
+    "authors_raw": "14 Y.Gómez, Giustinianovich, Ampuero, Navarrete, Álvez, Aguilera, Mella, Millabur, Pustilnick, Mena, C.Gómez, J.Álvarez, Andrade, Velásquez, Jofré, Martínez, Uribe, Reyes, Castillo"
+  },
+  {
+    "number": "364",
+    "target_article": "142",
+    "action": "ADD",
+    "content": "El Estado reconoce y ampara los Cuerpos de Bomberos de Chile en su función esencial de servicio a la comunidad, garantizando la voluntariedad de afiliación de sus miembros y la debida autonomía institucional para el cumplimiento de sus fines específicos.",
+    "authors_raw": "18 Navarrete, Jofré, Mena"
+  }
+]

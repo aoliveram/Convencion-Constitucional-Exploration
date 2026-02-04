@@ -1,0 +1,226 @@
+[
+  {
+    "number": "2",
+    "target_article": "1",
+    "action": "MOD",
+    "content": "Artículo 1. El Estado debe proteger las aguas, en todos sus estados y fases, y su ciclo hidrológico. El agua es esencial para la vida y el ejercicio de los derechos humanos y de la Naturaleza. Siempre prevalecerá el ejercicio del derecho humano al agua, el saneamiento y el equilibrio de los ecosistemas. La ley determinará los demás usos.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "10",
+    "target_article": "2",
+    "action": "MOD",
+    "content": "Artículo 2. El Estado velará por un uso razonable de las aguas. Las autorizaciones de uso de agua serán otorgadas por la Agencia Nacional de Aguas, de carácter incomerciable, concedidas basándose en la disponibilidad efectiva de las aguas, y obligarán al titular al uso que justifica su otorgamiento.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "14",
+    "target_article": "3",
+    "action": "MOD",
+    "content": "Artículo 3. El Estado asegurará un sistema de gobernanza de las aguas participativo y descentralizado, a través del manejo integrado de cuencas, y siendo la cuenca hidrográfica la unidad mínima de gestión. Los Consejos de Cuenca serán los responsables de la administración de las aguas, sin perjuicio de la supervigilancia y demás atribuciones de la Agencia Nacional de las Aguas y otras instituciones competentes. La ley regulará las atribuciones, funcionamiento y composición de los Consejos. Esta deberá considerar, a lo menos, la presencia de los titulares de autorizaciones de aguas, la sociedad civil y las entidades territoriales con presencia en la respectiva cuenca, velando que ningún actor pueda alcanzar el control por sí solo. Los Consejos podrán coordinarse y asociarse cuando sea pertinente. En aquellos casos en que no se constituya un Consejo, la administración será determinada por la Agencia Nacional de Agua.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "16",
+    "target_article": "4",
+    "action": "MOD",
+    "content": "Artículo 4. La Constitución reconoce a los pueblos y naciones indígenas el uso tradicional de las aguas situadas en autonomías territoriales indígenas o territorios indígenas. Es deber del Estado garantizar su protección, integridad y abastecimiento, en conformidad a la Constitución y la ley.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "20",
+    "target_article": "5",
+    "action": "ADD",
+    "content": "Artículo X: Consejo de Cuencas. De los actores: Los comités de cuencas hidrográficas deberán ser compuestos por representantes del Estado, Usuarios y Sociedad Civil con actuación comprobada en la Cuenca. Los usuarios son aquellos que tienen el poder para usufructuar de los recursos hídricos, pudiendo estar sujetos a un permiso o una concesión formal de derechos de uso. Los representantes del Estado deben ser entidades integrantes de los gobiernos municipales, regionales y cuándo tratase de una Cuenca entre regiones, deberá estar representado el poder central. Los actores de la sociedad civil deben ser organizaciones o entidades que representan los intereses generales y difusos de la comunidad local y deben ser actores en la defensa de los intereses colectivos.",
+    "authors_raw": "Vargas"
+  },
+  {
+    "number": "27",
+    "target_article": "8",
+    "action": "DEL",
+    "content": "Suprimir el artículo 8º.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "28",
+    "target_article": "8",
+    "action": "DEL",
+    "content": "Suprimir el artículo 8º.",
+    "authors_raw": "Toloza"
+  },
+  {
+    "number": "39",
+    "target_article": "9",
+    "action": "MOD",
+    "content": "Artículo 9. El mar territorial, las playas y los ecosistemas oceánicos y costeros, son bienes comunes naturales inapropiables.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "48",
+    "target_article": "10",
+    "action": "DEL",
+    "content": "Suprime el artículo 10.",
+    "authors_raw": "Fontaine"
+  },
+  {
+    "number": "53",
+    "target_article": "11",
+    "action": "MOD",
+    "content": "El Estado preservará la criósfera, glaciares, permafrost y sus áreas conexas. Sólo se podrán realizar actividades científicas, deportivas, turísticas y usos ancestrales, las que deberán ser de bajo impacto y en ningún caso deben afectar el equilibrio dinámico de la criósfera y sus crioformas.",
+    "authors_raw": "Zárate"
+  },
+  {
+    "number": "59",
+    "target_article": "12",
+    "action": "MOD",
+    "content": "Artículo 12. Territorio chileno antártico. El territorio chileno antártico, incluyendo sus espacios marítimos y su plataforma continental, es un territorio especial y zona fronteriza en el cual Chile ejerce soberanía con pleno respeto a los tratados ratificados y vigentes. El Estado deberá conservar, proteger y cuidar la Antártica, mediante una política fundada en el conocimiento y orientada a la investigación científica, la colaboración internacional y la paz.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "62",
+    "target_article": "Epígrafe antes del artículo 13",
+    "action": "DEL",
+    "content": "Suprimir el epígrafe “§Estatuto constitucional de la tierra y el territorio”.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "63",
+    "target_article": "13",
+    "action": "ADD",
+    "content": "Artículo Nuevo. Los bienes comunes naturales son elementos o componentes de la Naturaleza sobre los cuales el Estado tiene un deber especial de custodia con el fin de asegurar los derechos de la Naturaleza y el interés de las generaciones presentes y futuras.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "65",
+    "target_article": "13",
+    "action": "MOD",
+    "content": "Artículo 13. De los humedales, bosques nativos y suelos. El Estado, como custodio de los humedales, bosques nativos y suelos, asegurará la integridad de estos ecosistemas, sus funciones, procesos y conectividad hídrica.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "72",
+    "target_article": "14",
+    "action": "MOD",
+    "content": "Artículo 14. De las Áreas Protegidas. El Estado, a través de un sistema nacional de áreas protegidas, único, integral y de carácter técnico deberá garantizar la preservación, restauración y la conservación de espacios naturales. Asimismo, deberá monitorear y mantener información actualizada relativa a los atributos de dichas áreas, y garantizar la participación de las comunidades locales y entidades territoriales.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "81",
+    "target_article": "15",
+    "action": "MOD",
+    "content": "Artículo 15. La ordenación y planificación de los territorios y del espacio marino y marino costero será realizada de manera participativa y coordinada, de manera de generar planes cuya observancia será obligatoria. El ordenamiento territorial tendrá como unidad base las cuencas hidrográficas y deberá considerar los impactos que los usos de suelo causen en la disponibilidad y calidad de agua y sus efectos sobre el clima. Los planes de ordenamiento y de planificación podrán definir áreas de protección ambiental y cultural, debiendo priorizarse la protección de las partes altas de la cuenca, glaciares, las zonas de recarga natural de acuíferos, los ecosistemas acuáticos, y las áreas de inundación de ríos.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "82",
+    "target_article": "16",
+    "action": "DEL",
+    "content": "Suprimir el artículo 16.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "83",
+    "target_article": "16",
+    "action": "DEL",
+    "content": "Suprimir el artículo 16.",
+    "authors_raw": "Fontaine"
+  },
+  {
+    "number": "86",
+    "target_article": "17",
+    "action": "MOD",
+    "content": "Artículo 17. Es deber del Estado asegurar la soberanía y seguridad alimentaria. Para esto promoverá la producción, distribución y consumo de alimentos que garanticen el derecho a la alimentación sana y adecuada, el comercio justo y sistemas alimentarios ecológicamente responsables.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "92",
+    "target_article": "18",
+    "action": "DEL",
+    "content": "Suprimir el artículo 18.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "93",
+    "target_article": "18",
+    "action": "DEL",
+    "content": "Suprimir el artículo 18.",
+    "authors_raw": "Fontaine"
+  },
+  {
+    "number": "95",
+    "target_article": "19",
+    "action": "DEL",
+    "content": "Suprimir el artículo 19.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "96",
+    "target_article": "19",
+    "action": "DEL",
+    "content": "Suprimir el artículo 19.",
+    "authors_raw": "Fontaine"
+  },
+  {
+    "number": "98",
+    "target_article": "20",
+    "action": "DEL",
+    "content": "Suprimir el artículo 20.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "99",
+    "target_article": "20",
+    "action": "DEL",
+    "content": "Suprimir el artículo 20.",
+    "authors_raw": "Vega"
+  },
+  {
+    "number": "104",
+    "target_article": "21",
+    "action": "MOD",
+    "content": "Artículo 21. Toda persona tiene derecho a un mínimo vital de energía asequible y segura. Es deber del Estado garantizar el acceso equitativo y no discriminatorio a la energía que permita a las personas satisfacer sus necesidades, velando por la continuidad de los servicios energéticos. El Estado deberá planificar y fomentar una matriz energética distribuida, descentralizada y diversificada, basada en energías renovables y de bajo impacto ambiental. La infraestructura energética es de interés público. El Estado fomentará y protegerá las empresas cooperativas de energía y el autoconsumo.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "114",
+    "target_article": "22",
+    "action": "MOD",
+    "content": "Artículo 22: El Estado tiene el dominio absoluto, exclusivo, inalienable e imprescriptible de todas las minas y las sustancias minerales, metálicas, no metálicas, y los depósitos de sustancias fósiles e hidrocarburos existentes en el territorio nacional, sin perjuicio de la propiedad sobre los terrenos en que estuvieren situadas. La exploración, explotación y aprovechamiento de estas sustancias se sujetará a una regulación que considere su carácter finito, no renovable, de interés público intergeneracional y la protección ambiental.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "121",
+    "target_article": "23",
+    "action": "MOD",
+    "content": "Artículo 23. El Estado establecerá una política para la actividad minera y su encadenamiento productivo, la que considerará, a lo menos, la protección ambiental y social, la innovación, la generación de valor agregado, el acceso y uso de tecnología y la protección de la pequeña minería y pirquineros.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "128",
+    "target_article": "24",
+    "action": "MOD",
+    "content": "Artículo 24. Quedarán excluidas de toda actividad minera las áreas protegidas, los glaciares, las zonas de origen de cuencas hidrográficas, sin perjuicio de las demás exclusiones que establezca la ley.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "143",
+    "target_article": "25",
+    "action": "MOD",
+    "content": "Artículo 25. De los impactos: El Estado deberá regular los impactos y efectos sinérgicos generados en las distintas etapas de la actividad minera, incluyendo su encadenamiento productivo, cierre o paralización, en la forma que establezca la ley. Será obligación de quien realice la actividad minera destinar recursos para reparar los daños causados, los pasivos ambientales y mitigar sus efectos nocivos en los territorios en que ésta se desarrolla.",
+    "authors_raw": "Vilches"
+  },
+  {
+    "number": "146",
+    "target_article": "26",
+    "action": "DEL",
+    "content": "Suprimir el artículo 26.",
+    "authors_raw": "Vega"
+  },
+  {
+    "number": "150",
+    "target_article": "27",
+    "action": "MOD",
+    "content": "Artículo 27. El Estado desarrollará de manera exclusiva la actividad minera sobre los hidrocarburos en estado líquido o gaseoso, litio y tierras raras. En el caso del cobre, el Estado explorará y explotará por sí mismo, y podrá hacerlo en asociación con particulares siempre resguardando la participación mayoritaria del Estado. De las Autorizaciones Administrativas: Todas las actividades mineras requerirán autorización administrativa otorgada por la autoridad competente. Estas determinarán las condiciones de exploración y extracción, cuotas y demás requisitos referidos al interés general que fundamentan su otorgamiento, y las obligaciones emanadas por esta Constitución y las leyes. Será competencia de un órgano administrativo la evaluación, otorgamiento y seguimiento de tales autorizaciones. También, podrá caducar o extinguir las autorizaciones en caso de no cumplirse los requisitos fijados para mantenerlas. Estas autorizaciones se otorgarán de forma temporal, mediante un procedimiento transparente y público, en los términos y condiciones que establezca la ley. Asimismo, no otorgarán propiedad a su titular. La ley asegurará la protección de los derechos del autorizado y en especial de sus facultades de defenderlos frente a terceros. En aquellas cuestiones sobre otorgamiento, ejercicio, caducidad o extinción de las autorizaciones, habrá siempre lugar a reclamo ante los tribunales ordinarios de justicia.",
+    "authors_raw": "Vilches"
+  }
+]

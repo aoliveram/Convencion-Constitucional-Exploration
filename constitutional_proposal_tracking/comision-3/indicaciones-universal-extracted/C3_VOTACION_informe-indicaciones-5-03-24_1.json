@@ -1,0 +1,359 @@
+[
+  {
+    "number": "IND 001",
+    "target_article": "Artículo 1",
+    "action": "MOD",
+    "content": "“Artículo 1°. De la Comuna Autónoma. La Comuna Autónoma es la entidad territorial base del Estado regional, dotada de personalidad jurídica de derecho público y patrimonio propio, que gozan de autonomía para el cumplimiento de sus fines y el ejercicio de sus competencias, con arreglo a lo dispuesto en la Constitución y la ley. Cada Comuna Autónoma contará con un Estatuto Comunal elaborado con arreglo al procedimiento establecido en esta Constitución. La ley clasificará las comunas en distintos tipos, las que deberán ser consideradas por los órganos del Estado para el establecimiento de regímenes administrativos y económico-fiscales diferenciados, la implementación de políticas, planes y programas atendiendo a las diversas realidades locales, y en especial, para el traspaso de competencias y recursos. El establecimiento de los tipos comunales deberá considerar, a lo menos, criterios demográficos, económicos, culturales, geográficos, socioambientales, urbanos y rurales.”",
+    "authors_raw": "04 Y. Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 002",
+    "target_article": "Artículo 2",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 2°.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 004",
+    "target_article": "Artículo 3",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 3°.",
+    "authors_raw": "04 04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 005",
+    "target_article": "Artículo 3",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 3.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 006",
+    "target_article": "Artículo 4",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 4°.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 007",
+    "target_article": "Artículo 4",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 4.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 008",
+    "target_article": "Artículo 5",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 5°.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 009",
+    "target_article": "Artículo 5",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 5.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 010",
+    "target_article": "Artículo 6",
+    "action": "MOD",
+    "content": "Para sustituir el artículo 6° por el siguiente: “Artículo 6. Igualdad en la prestación de los servicios públicos municipales y desarrollo equitativo. El Estado garantizará a la Municipalidad el financiamiento y recursos suficientes, para el justo y equitativo desarrollo de cada comuna, conforme a los mecanismos que señale la Constitución y la ley. Para el gobierno comunal se observará como principio básico la búsqueda de un desarrollo territorial armónico y equitativo, propendiendo a que todas las personas tengan acceso a igual nivel y calidad de servicios públicos municipales, sin distingo del lugar que habiten.”.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 011",
+    "target_article": "Artículo 7",
+    "action": "MOD",
+    "content": "Para sustituir el artículo 7° por el siguiente: “Artículo 7.- De la creación o supresión de Comunas Autónomas. La creación, división o fusión de comunas autónomas, o la modificación de sus límites o denominación, se determinará por ley, mediante el procedimiento establecido en el Estatuto Regional respectivo.”",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 013",
+    "target_article": "Artículo 7",
+    "action": "ADD",
+    "content": "Añadir un nuevo inciso al artículo 7° del siguiente tenor: “Una ley regulará la administración transitoria de las comunas que se creen, el procedimiento de instalación de las nuevas municipalidades, de traspaso del personal municipal y de los servicios y los resguardos necesarios para cautelar el uso y disposición de los bienes que se encuentren situados en los territorios de las nuevas comunas.”.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 014",
+    "target_article": "Artículo 8",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 8°.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 016",
+    "target_article": "Artículo 9",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 9°.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 017",
+    "target_article": "Artículo 10",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 10.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 019",
+    "target_article": "Artículo 11",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 11.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 020",
+    "target_article": "Artículo 12",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 12.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 022",
+    "target_article": "Artículo 13",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 13.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 023",
+    "target_article": "Artículo 13",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 13.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 024",
+    "target_article": "Artículo 14",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 14.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 025",
+    "target_article": "Artículo 14",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 14.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 026",
+    "target_article": "Artículo 15",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 15.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 027",
+    "target_article": "Artículo 16",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 16.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 029",
+    "target_article": "Artículo 17",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 17.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 030",
+    "target_article": "Artículo 18",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 18.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 033",
+    "target_article": "Artículo 20",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 20.",
+    "authors_raw": "04 Y. Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 034",
+    "target_article": "Artículo 20",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 20.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 035",
+    "target_article": "Artículo 21",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 21.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 036",
+    "target_article": "Artículo 21",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 21.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 037",
+    "target_article": "Artículo 22",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 22 inciso 1°en su primer párrafo.",
+    "authors_raw": "04 Y. Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 038",
+    "target_article": "Artículo 22",
+    "action": "MOD",
+    "content": "Para sustituir en el inciso 1°, la letra a) del artículo 22 por lo siguiente: “Las municipalidades, para el cumplimiento de sus funciones, podrán establecer sus plantas de personal y los órganos o unidades de su estructura interna, en conformidad a la Constitución y la ley. Estas facultades se ejercerán cautelando su debido financiamiento y el carácter técnico y profesional de dichos empleos.”.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 039",
+    "target_article": "Artículo 22",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 1°, la letra b) hasta la letra m) inclusive del artículo 22.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 040",
+    "target_article": "Artículo 22",
+    "action": "DEL",
+    "content": "Para suprimir el inciso 2° del artículo 22.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 041",
+    "target_article": "Artículo 23",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 23.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 042",
+    "target_article": "Artículo 24",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 24.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 044",
+    "target_article": "Artículo 25",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 25.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 046",
+    "target_article": "Artículo 26",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 26.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 050",
+    "target_article": "Artículo 27",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 27.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 053",
+    "target_article": "Artículo 28",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 28.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 056",
+    "target_article": "Artículo 29",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 29.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 058",
+    "target_article": "Artículo 30",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 30.",
+    "authors_raw": "12 Uribe, Giustinianovich, Mella, Álvez, Y.Gómez, Quinteros"
+  },
+  {
+    "number": "IND 063",
+    "target_article": "Artículo 31",
+    "action": "MOD",
+    "content": "Para sustituir los incisos 1° y 2° del artículo 31 por los siguientes: “Artículo 31. De la participación en la comuna autónoma. Las municipalidades tienen el deber de promover y garantizar la participación ciudadana de la comunidad local en la gestión, en la construcción de políticas de desarrollo local y en la planificación del territorio, así como en los casos que esta Constitución, la ley y los estatutos regionales o comunales señalen. Las Municipalidades proveerán los mecanismos, espacios, recursos, alfabetización digital, formación y educación cívica y todo aquello que sea necesario para concretar dicha participación que será consultiva, incidente y/o vinculante de acuerdo a la legislación respectiva.”.",
+    "authors_raw": "12 Uribe, Giustinianovich, Mella, Álvez, Y.Gómez, Quinteros"
+  },
+  {
+    "number": "IND 064",
+    "target_article": "Artículo 31",
+    "action": "ADD",
+    "content": "Para añadir un nuevo inciso final al artículo 31 del siguiente tenor: “La participación de la comunidad local estará orientada a construir territorios más justos y democráticos, que garanticen el buen vivir de todos sus habitantes, a fin de ser el instrumento que permita el ejercicio de la soberanía a sus habitantes, fortaleciendo la organización social y comunitaria.”.",
+    "authors_raw": "12 Uribe, Giustinianovich, Mella, Álvez, Y.Gómez, Quinteros"
+  },
+  {
+    "number": "IND 065",
+    "target_article": "Artículo 32",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 32.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 068",
+    "target_article": "Artículo 33",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 33.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 069",
+    "target_article": "Artículo 33",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 33.",
+    "authors_raw": "05 Castillo"
+  },
+  {
+    "number": "IND 070",
+    "target_article": "Artículo 34",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 34.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 071",
+    "target_article": "Artículo 35",
+    "action": "MOD",
+    "content": "Para sustituir los incisos 1° y 2° del artículo 35 por un inciso único del siguiente tenor: “Artículo 35. Del Gobierno Comunal. El gobierno de la Comuna Autónoma reside en la Municipalidad, la que estará constituida por el Alcalde o Alcaldesa y el Concejo Municipal, con la participación de la comunidad que habita en su territorio.”.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 073",
+    "target_article": "Artículo 36",
+    "action": "MOD",
+    "content": "Para suprimir en el inciso 1° del artículo 36 la expresión “deliberativa,”.",
+    "authors_raw": "04 Y. Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C. Gómez, J. Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 075",
+    "target_article": "Artículo 36",
+    "action": "MOD",
+    "content": "Para sustituir en el inciso 2° del artículo 36 la expresión “escaños reservados para pueblos y naciones preexistentes al Estado y representación barrial” por la frase: “y escaños reservados para pueblos y naciones indígenas considerando su población dentro de la jurisdicción electoral respectiva.”.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 076",
+    "target_article": "Artículo 36",
+    "action": "MOD",
+    "content": "Para indicar el segundo inciso del artículo 36, intercalar a continuación de “la ley” y antes de la coma “,” la oración “en proporción a la población de la comuna”.",
+    "authors_raw": "09 Uribe, Giustinianovich, Quinteros"
+  },
+  {
+    "number": "IND 078",
+    "target_article": "Artículo 36",
+    "action": "MOD",
+    "content": "Para sustituir el inciso final del artículo 36 por el siguiente: “Los concejales o concejalas ejercerán sus funciones por el término de cuatro años, pudiendo ser reelegidos o reelegidas consecutivamente sólo una vez para el período siguiente. Para estos efectos se entenderá que los concejales y concejalas han ejercido su cargo durante un período cuando hayan cumplido más de la mitad de su mandato.”.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  }
+]

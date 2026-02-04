@@ -1,0 +1,254 @@
+[
+  {
+    "number": "IND 079",
+    "target_article": "36",
+    "action": "ADD",
+    "content": "La ley y el estatuto comunal determinarán las normas sobre organización y funcionamiento del Concejo. Será necesario el acuerdo del Concejo para la aprobación del plan comunal de desarrollo, del presupuesto municipal y de los proyectos de inversión respectivos, y otros que determine la ley.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 080",
+    "target_article": "36",
+    "action": "ADD",
+    "content": "Los Concejales o Concejalas no podrán desempeñar simultáneamente cargos públicos en otros municipios durante el ejercicio de su cargo, sin perjuicio del régimen de incompatibilidades que estipule la ley.",
+    "authors_raw": "08 Ampuero"
+  },
+  {
+    "number": "IND 085",
+    "target_article": "37",
+    "action": "MOD",
+    "content": "Artículo 37. Del Alcalde o Alcaldesa. El Alcalde o Alcaldesa es la máxima autoridad ejecutiva del gobierno comunal, integra el Concejo Municipal y representa judicial y extrajudicialmente a la comuna. El alcalde o alcaldesa ejercerá sus funciones por el término de cuatros años, pudiendo ser reelegido o reelegida consecutivamente sólo una vez para el período siguiente. Para estos efectos se entenderá que el alcalde o alcaldesa ha ejercido su cargo durante un período cuando haya cumplido más de la mitad de su mandato. El alcalde o alcaldesa será elegido en votación directa, en conformidad con lo dispuesto en la Constitución y la ley.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 087",
+    "target_article": "37",
+    "action": "ADD",
+    "content": "El Alcalde o Alcaldesa ejercerá la presidencia del Concejo Municipal.",
+    "authors_raw": "14 Pustilnick, Reyes, C.Gómez, JÁlvarez, Martínez"
+  },
+  {
+    "number": "IND 088",
+    "target_article": "38",
+    "action": "MOD",
+    "content": "Artículo 38.- De las delegaciones comunales. Las comunas autónomas podrán designar o establecer delegados para el ejercicio de sus facultades en una o más localidades dentro de la respectiva comuna en los casos y formas que determine el estatuto comunal",
+    "authors_raw": "03 Mena, Navarrete, Jürgensen, Jofré"
+  },
+  {
+    "number": "IND 090",
+    "target_article": "39",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 39.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 095",
+    "target_article": "40",
+    "action": "MOD",
+    "content": "Artículo 40.- De las Unidades y Juntas Vecinales. Las Comunas Autónomas establecerán en el ámbito de sus competencias, territorios denominados unidades vecinales. Dentro de ellas, se constituirá una Junta Vecinal, representativa de las personas que residen en una misma unidad vecinal, que gozará de personalidad jurídica y será sin fines de lucro, cuyo objeto será hacer efectiva la participación popular en la gestión comunal y en el desarrollo de la comunidad, y las demás atribuciones que determine la ley.",
+    "authors_raw": "14 Pustilnick, Reyes, C.Gómez, JÁlvarez, Martínez"
+  },
+  {
+    "number": "IND 098",
+    "target_article": "40",
+    "action": "MOD",
+    "content": "Se constituirá una Junta Vecinal en cada Unidad Vecinal, y una Unión Comunal de Juntas Vecinales en cada Comuna Autónoma. En aquellas Comunas Autónomas en que la población rural supere el veinte por ciento de la población total, podrá constituirse además una Unión Comunal de Juntas Vecinales de carácter rural.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 100 y 101",
+    "target_article": "40",
+    "action": "ADD",
+    "content": "La ley dispondrá la forma de determinar el territorio de las Unidades Vecinales, el procedimiento de constitución de las Juntas Vecinales y Uniones Comunales y sus atribuciones.",
+    "authors_raw": "12 Uribe, Giustinianovich, Mella, Álvez, Y.Gómez, Quinteros; 04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 102",
+    "target_article": "41",
+    "action": "MOD",
+    "content": "Artículo 41.- De la Asamblea Social Comunal. La Asamblea Social Comunal tiene la finalidad de promover la participación popular y ciudadana en los asuntos públicos de la Comuna Autónoma, de carácter consultivo, incidente y representativo de las organizaciones de la comuna.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 104",
+    "target_article": "42",
+    "action": "MOD",
+    "content": "Artículo 42.- Del Estatuto Comunal. Cada Comuna Autónoma tendrá un Estatuto Comunal elaborado y discutido por el Concejo Municipal correspondiente, que establecerá la organización administrativa y funcionamiento de los órganos comunales, los mecanismos de democracia vecinal y las normas de elaboración de ordenanzas comunales. El proceso de elaboración, aprobación y reforma de los Estatutos Comunales deberá garantizar la participación y deliberación popular y democrática.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 109",
+    "target_article": "42",
+    "action": "ADD",
+    "content": "La ley establecerá un estatuto común de carácter transitorio para aquellas comunas que no cuenten con un estatuto propio.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 110",
+    "target_article": "43",
+    "action": "MOD",
+    "content": "Artículo 43.- De las Competencias de la Comuna Autónoma. La Comuna Autónoma cuenta con todas las potestades y competencias de autogobierno para satisfacer las necesidades de la comunidad local.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 112",
+    "target_article": "43",
+    "action": "MOD",
+    "content": "El desarrollo estratégico de la comuna mediante el Plan de Desarrollo Comunal.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 113",
+    "target_article": "43",
+    "action": "MOD",
+    "content": "4. La planificación del territorio mediante el Plan Regulador Comunal acordado de forma participativa con la comunidad de su respectivo territorio.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 116",
+    "target_article": "43",
+    "action": "MOD",
+    "content": "El desarrollo sostenible e integral de la comuna",
+    "authors_raw": "03 Mena, Navarrete, Jürgensen, Jofré"
+  },
+  {
+    "number": "IND 119 y 120",
+    "target_article": "43",
+    "action": "MOD",
+    "content": "Para trasladar el numeral 12 al último lugar de los numerales del artículo 43.",
+    "authors_raw": "04 Y.Gómez...; 15 Pustilnick..."
+  },
+  {
+    "number": "IND 121",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "Desarrollar, con el nivel regional y central, actividades y servicios en materias de educación, salud, vivienda, turismo, recreación, deporte y las demás que establezca la ley.",
+    "authors_raw": "03 Mena, Navarrete, Jurgensen, Jofré"
+  },
+  {
+    "number": "IND 122",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "Ejercer funciones de gobierno y administración dentro de la comuna y en el ámbito de sus competencias.",
+    "authors_raw": "03 Mena, Navarrete, Jurgensen, Jofré"
+  },
+  {
+    "number": "IND 123",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "Fomentar las actividades productivas.",
+    "authors_raw": "03 Mena, Navarrete, Jürgensen, Jofré"
+  },
+  {
+    "number": "IND 124",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "X. La creación, organización y administración de los servicios públicos municipales en el ámbito de sus funciones, conforme a la Constitución y la ley.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 125",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "X. La dictación de normas generales y obligatorias en materias de carácter comunal, con arreglo a la Constitución y las leyes.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 126",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "X. Iniciar el trámite legislativo ante el Congreso en materias de interés comunal.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 127",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "El fomento de la rehabilitación, reinserción e inclusión de las personas en situación de calle y todo grupo social históricamente marginado, mediante la planificación, coordinación y ejecución de programas al efecto.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 128",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "Ejercer las acciones pertinentes en representación de la Naturaleza y sus derechos reconocidos por esta Constitución y la Ley.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 129",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "La ejecución de los mecanismos y acciones de protección ambiental en la forma que determine la Constitución, la ley, los instrumentos de gestión ambiental y normas afines.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 131",
+    "target_article": "43",
+    "action": "ADD",
+    "content": "A petición del alcalde o alcaldesa con acuerdo del Concejo Municipal.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 132 y 133",
+    "target_article": "44",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 44.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez; 05 Castillo"
+  },
+  {
+    "number": "IND 134",
+    "target_article": "45",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 45.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  },
+  {
+    "number": "IND 136 y 137",
+    "target_article": "46",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 46.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez; 05 Castillo"
+  },
+  {
+    "number": "IND 138 y 139",
+    "target_article": "47",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 47.",
+    "authors_raw": "04 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Mena, Jurgensen, Velásquez, Navarrete, Jofré, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez; 05 Castillo"
+  },
+  {
+    "number": "IND 143",
+    "target_article": "49",
+    "action": "MOD",
+    "content": "Artículo 49.- De la asociatividad comunal. Las comunas autónomas podrán asociarse entre sí, de manera permanente o temporal, pudiendo dichas organizaciones contar con personalidad jurídica de derecho privado, rigiéndose por la normativa propia de dicho sector. Sin perjuicio de lo dispuesto en el inciso precedente, las asociaciones quedarán sujetas a la fiscalización de la entidad contralora y deberán cumplir con la normativa de probidad administrativa y de transparencia en el ejercicio de la función que desarrollan.",
+    "authors_raw": "14 Pustilnick, Reyes, C.Gómez, JÁlvarez, Martínez"
+  },
+  {
+    "number": "IND 144",
+    "target_article": "50",
+    "action": "MOD",
+    "content": "Artículo 50.- De las Empresas Públicas Municipales. La Comuna Autónoma podrá constituir empresas públicas municipales en áreas de su competencia, en conformidad a los procedimientos regulados en la Constitución y la ley.",
+    "authors_raw": "15 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "IND 149",
+    "target_article": "51",
+    "action": "MOD",
+    "content": "Artículo 51.- De las provincias. La provincia es una división territorial de una región, para los efectos que la Constitución o las leyes establezcan. Cada región está compuesta por, a lo menos, dos provincias, las cuales estarán integradas por dos o más comunas, según lo determine la ley.",
+    "authors_raw": "17 Uribe, Andrade"
+  },
+  {
+    "number": "IND 153",
+    "target_article": "52",
+    "action": "MOD",
+    "content": "Disposición transitoria X.- Una vez que entre en vigencia esta Constitución, el legislador deberá adoptar las medidas necesarias para consagrar, para los efectos del gobierno y administración del Estado, que el territorio de la República se dividirá en las siguientes Regiones Autónomas: Arica y Parinacota, Tarapacá, Antofagasta, Atacama, Coquimbo, Aconcagua, Valparaíso, Metropolitana, Del Libertador General Bernardo O’Higgins, Maule, Ñuble, Biobío, La Araucanía, Los Ríos, Los Lagos, Chiloé, Aysén del General Carlos Ibáñez del Campo y Magallanes y la Antártica Chilena. La ley delimitará los deslindes de cada una de estas entidades territoriales, garantizando la participación popular en su conformación",
+    "authors_raw": "03 Mena, Navarrete, Jurgensen, Jofré"
+  },
+  {
+    "number": "IND 161",
+    "target_article": "53",
+    "action": "MOD",
+    "content": "Artículo 53.- Territorios especiales. Cualquier parte del territorio de la República podrá adquirir la calidad de Territorio Especial, en consideración a sus particularidades geográficas, económicas, culturales, socioambientales, sus condiciones extremas, aisladas o de difícil acceso. Los territorios especiales serán creados por ley, la cual podrá ser de iniciativa del Congreso o de la Cámara Territorial, de la ciudadanía mediante iniciativa popular de ley, de oficio por parte del Gobierno para casos que así lo requieran, y de la Asamblea Regional en los términos establecidos en el número 10 del Art. 31 de la Constitución. Los Territorios Especiales contarán con un régimen diferenciado de orden económico y administrativo, a fin de asegurar la protección de los derechos de sus habitantes, de las comunidades o de la naturaleza, así como promover la planificación y ordenamiento territorial que garanticen dichos fines. La ley determinará las obligaciones que el Estado, las Regiones Autónomas y las Comunas Autónomas tendrán a fin de cumplir con los objetivos del territorio especial",
+    "authors_raw": "18 Y.Gómez, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Pustilnick, Andrade, Reyes, C.Gómez, J.Álvarez, Bacian, Quinteros, Chinga, Martínez"
+  }
+]

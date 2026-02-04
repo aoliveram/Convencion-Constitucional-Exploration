@@ -1,0 +1,331 @@
+[
+  {
+    "number": "146",
+    "target_article": "55",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 55.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "147",
+    "target_article": "56",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 56.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "149",
+    "target_article": "57",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 57.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "152",
+    "target_article": "58",
+    "action": "MOD",
+    "content": "‘‘Artículo 58.- Del ejercicio de la función pública. En el ejercicio de la función pública se deberá observar una conducta funcionaria intachable y responsable, desempeñando la función o el cargo correspondiente en forma leal, honesta, objetiva e imparcial, sin incurrir en discriminaciones de ningún tipo, con preeminencia del interés general por sobre el particular. La función pública se deberá brindar con pertinencia cultural y lingüística, adecuando las prestaciones que se entreguen de acuerdo con las características y particularidades de las personas beneficiarias de los servicios públicos.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "155",
+    "target_article": "58",
+    "action": "ADD",
+    "content": "“La función pública se deberá brindar con pertinencia cultural y lingüística, atendiendo la existencia de los diferentes pueblos y naciones que habitan el territorio, adecuando las prestaciones que se entreguen, de acuerdo con las características y particularidades que presenten las personas beneficiarias de los servicios públicos.”",
+    "authors_raw": "09 Mella, Álvez, Y.Gómez"
+  },
+  {
+    "number": "156",
+    "target_article": "59",
+    "action": "MOD",
+    "content": "‘‘Artículo 59.- La Administración Pública. Los órganos de la Administración tienen por objeto satisfacer las necesidades de las personas y las comunidades. La Administración Pública ejecutará políticas públicas, planes y programas, y proveerá o garantizará, en su caso, la prestación de servicios públicos en forma continua y permanente. La Administración Pública se somete en su organización y funcionamiento a los principios de juridicidad, publicidad, celeridad, objetividad, participación, control, jerarquía, eficiencia, eficacia, rendición de cuentas, buen trato, primacía del interés general y los demás principios que señale la Constitución y la ley. Cualquier persona que hubiere sido vulnerada en sus derechos por la Administración Pública podrá reclamar ante las instancias administrativas y jurisdiccionales que establezcan esta Constitución y la ley.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "159",
+    "target_article": "59 bis",
+    "action": "ADD",
+    "content": "“Artículo 59 bis.- Organización Administrativa. La Ley establecerá la organización básica de la Administración Pública en el nivel central y en las entidades territoriales, que será desarrollada por la potestad reglamentaria buscando el mejor y más eficiente desarrollo de sus funciones. La ley podrá conferir potestades fiscalizadoras, instructoras, normativas y sancionatorias a los órganos de la Administración Pública. En ningún caso estas potestades implicarán ejercicio de jurisdicción.”",
+    "authors_raw": "02 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "160",
+    "target_article": "60",
+    "action": "MOD",
+    "content": "‘‘Artículo 60.- Empleo público. La Administración Pública desarrolla sus funciones propias y habituales a través de funcionarias y funcionarios públicos. El ingreso a estas funciones se realizará mediante un sistema abierto, transparente, imparcial, ágil y que privilegie el mérito, la especialidad e idoneidad para el cargo, observando en todo momento criterios objetivos y predeterminados. El desarrollo, evaluación de desempeño y cese en estas funciones deberá respetar su carácter técnico y profesional. La ley regulará las bases de la carrera funcionaria, permitiendo la movilidad de los funcionarios dentro de toda la Administración Pública y la capacitación funcionaria, teniendo en cuenta la pertinencia territorial y cultural del lugar en el que se presta el servicio.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "163",
+    "target_article": "60",
+    "action": "ADD",
+    "content": "‘‘La ley establecerá un sistema de formación, capacitación y perfeccionamiento de las funcionarias y funcionarios públicos. Los cargos que esta Constitución o la ley califiquen como de exclusiva confianza, atendiendo a la naturaleza de sus funciones, son parte del gobierno y tendrán el régimen de ingreso, desempeño y cesación que establezca la ley.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "164",
+    "target_article": "60",
+    "action": "ADD",
+    "content": "“Se reconoce el derecho a la sindicalización, la negociación colectiva y la huelga de quienes se desempeñen en la Administración Pública, salvo que en este último caso se paralicen servicios esenciales o se impida la continuidad del servicio público. La ley que regulará el ejercicio y límites de los derechos que indica este inciso.”",
+    "authors_raw": "02 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga"
+  },
+  {
+    "number": "165",
+    "target_article": "60",
+    "action": "ADD",
+    "content": "“Las personas que tengan la calidad de cónyuge, conviviente civil o parientes hasta el cuarto grado de consanguinidad y segundo de afinidad inclusive, no podrán ser nombrados en cargos de la administración pública respecto de las autoridades y de los funcionarios directivos del organismo del Estado al que postulan. Se exceptúan los nombramientos que se hagan en aplicación de las normas vigentes sobre ingreso o ascenso por méritos en cargos de carrera.”",
+    "authors_raw": "22 Uribe, Ampuero, Giustinianovich, Millabur, Andrade, Chinga, Álvez, C.Gómez, Bacian, Aguilera"
+  },
+  {
+    "number": "166",
+    "target_article": "61",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 61 (Formación y perfeccionamiento permanente).",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "167",
+    "target_article": "62",
+    "action": "MOD",
+    "content": "‘‘Artículo 62.- Responsabilidad patrimonial del Estado. El Estado será responsable por los daños que sus órganos causen a particulares por falta de servicio u otro título de imputación determinado en la Constitución o en la ley. El Estado podrá siempre repetir en contra del funcionario que hubiere incurrido en dolo o imprudencia temeraria. La ley regulará, en lo demás, el régimen jurídico de esta responsabilidad.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "168",
+    "target_article": "62",
+    "action": "MOD",
+    "content": "Para trasladar el artículo 62 inmediatamente después del artículo 59.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "169",
+    "target_article": "63",
+    "action": "MOD",
+    "content": "‘‘Artículo 63. Sobre la modernización del Estado. Es deber del Estado definir mecanismos de modernización de sus procesos y organización, ajustando su funcionamiento a las condiciones sociales, ambientales y culturales de cada localidad. El Estado deberá destinar recursos para que sus órganos adopten las medidas que resulten necesarias para la incorporación de avances tecnológicos, innovación y el mejor uso de los recursos que permitan optimizar la provisión de bienes y servicios públicos. El Estado deberá fomentar los mecanismos de participación, la relación con las personas y promover la gestión eficiente y moderna, acorde a las necesidades de las personas y comunidades.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "171",
+    "target_article": "63b",
+    "action": "ADD",
+    "content": "‘‘Artículo 63b.- Órgano especializado para la modernización de la Administración Pública. Existirá un órgano especializado encargado de la elaboración de planes para promover la modernización de la Administración del Estado, monitorear la implementación de los mismos en las distintas instituciones públicas, elaborar diagnósticos periódicos sobre el funcionamiento de los servicios públicos y las demás atribuciones que establezca la ley. El legislador se encargará de determinar la denominación de este órgano, además de su integración y procedimientos internos, estableciendo directrices y lineamientos que permitan una constante modernización de las instituciones públicas nacionales, regionales y locales, contando con unidades especializadas en cada gobierno regional y comunal.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "173",
+    "target_article": "64",
+    "action": "MOD",
+    "content": "‘‘Artículo 64. De los servicios públicos. Es deber del Estado proveer de servicios públicos universales y de calidad a todas las personas que habiten en su territorio, los cuales contarán con un financiamiento suficiente El Estado planificará y coordinará de manera intersectorial la provisión, prestación y cobertura de estos servicios, bajo los principios de generalidad, uniformidad, regularidad y pertinencia territorial.’’",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "174",
+    "target_article": "64",
+    "action": "ADD",
+    "content": "‘‘El Estado definirá, monitoreará e implementará las políticas públicas, procurando que el ámbito geográfico supere el nivel regional y que sean necesarias para resguardar el carácter único e indivisible del Estado de Chile.’’",
+    "authors_raw": "12 Pustilnick, Martínez"
+  },
+  {
+    "number": "175",
+    "target_article": "64",
+    "action": "ADD",
+    "content": "Inciso nuevo.- “El Estado deberá incentivar y apoyar a aquellas comunidades urbanas o rurales que opten por sistemas autónomos, cooperativos, integrados y/o colectivos de estos servicios.” Inciso nuevo.- \"Las entidades territoriales participarán en la plusvalía que genere su acción urbanística, en la forma prescrita por la ley.”",
+    "authors_raw": "22 Uribe, Ampuero, Giustinianovich, Millabur, Andrade, Chinga, Álvez, C.Gómez, Bacian, Aguilera"
+  },
+  {
+    "number": "176",
+    "target_article": "64",
+    "action": "MOD",
+    "content": "Para trasladar el artículo 64 inmediatamente después del artículo 58.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "177",
+    "target_article": "65",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 65.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "182",
+    "target_article": "66",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 66.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "189",
+    "target_article": "67",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 67.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "191",
+    "target_article": "68",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 68.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "192",
+    "target_article": "69",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 69.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "194",
+    "target_article": "70",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 70.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "195",
+    "target_article": "71",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 71.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "196",
+    "target_article": "72",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 72.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "197",
+    "target_article": "73",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 73.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "198",
+    "target_article": "74",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 74.",
+    "authors_raw": "01 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "202",
+    "target_article": "75",
+    "action": "MOD",
+    "content": "“Artículo 75.- El Estado reconoce la ruralidad como una expresión territorial donde las formas de vida y producción se desarrollan en torno a la relación directa de las personas y comunidades con la tierra, el agua y el mar. El Estado promoverá el desarrollo integral de los territorios rurales.”",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "207",
+    "target_article": "76",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 76.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "208",
+    "target_article": "77",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 77.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "209",
+    "target_article": "78",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 78.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "211",
+    "target_article": "79",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 79.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "212",
+    "target_article": "80",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 80.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "215",
+    "target_article": "81",
+    "action": "MOD",
+    "content": "Artículo 81.- El Estado y las entidades territoriales facilitarán la participación de las comunidades rurales a nivel local y regional en el diseño e implementación de programas y políticas públicas que les afectan o conciernen.",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "219",
+    "target_article": "82",
+    "action": "MOD",
+    "content": "Artículo 82. El Estado fomentará los mercados locales, ferias libres y circuitos cortos de comercialización e intercambio de bienes, artesanías, alimentos u otros relacionados con la ruralidad.",
+    "authors_raw": "07 Chinga"
+  },
+  {
+    "number": "223",
+    "target_article": "83",
+    "action": "MOD",
+    "content": "Artículo 83. El Estado reconoce las prácticas e innovaciones materiales e inmateriales de las comunidades rurales como patrimonio común. Se deberá fomentar procesos educativos, formales e informales, con temáticas locales, tanto históricas, fundacionales, étnicas, ecológicas, geológicas y económicas. Se fomentará el desarrollo, financiamiento y acceso a tecnologías y conocimientos para la agricultura campesina e indígena, tanto de base científica, como de los saberes tradicionales.",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "226",
+    "target_article": "84",
+    "action": "MOD",
+    "content": "Artículo 84.- El Estado reconoce la función social y ecológica de la tierra, el agua, el mar, por lo que deberá regular su uso, fomentar su restauración y manejo ecológico, así como limitar y prevenir la concentración de su propiedad. El ordenamiento del territorio rural deberá proteger las aguas, conservar los suelos y prevenir su degradación.",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "227",
+    "target_article": "84",
+    "action": "ADD",
+    "content": "“Esta protección estatal, el manejo ecológicamente responsable, la prevención y restauración ante la degradación ambiental, estarán determinados por la ley y los estatutos regionales”.",
+    "authors_raw": "20 Velásquez"
+  },
+  {
+    "number": "229",
+    "target_article": "85",
+    "action": "MOD",
+    "content": "“Artículo 85.- Es deber del Estado garantizar el uso, manejo y libre intercambio de semillas y material vegetal de propagación. No se permitirá la privatización de la capacidad reproductiva de plantas y animales.”",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "230",
+    "target_article": "86",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 86.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "232",
+    "target_article": "87",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 87.",
+    "authors_raw": "04 Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete"
+  },
+  {
+    "number": "235",
+    "target_article": "88",
+    "action": "MOD",
+    "content": "“Artículo 88.- Las personas y los pueblos tienen el derecho fundamental a la alimentación. Las políticas agropecuarias, pesqueras y alimentarias del país deben ordenar su acción en pleno respeto de este derecho. El Estado garantizará los mecanismos para que los habitantes del país tengan acceso económico, físico y oportuno a una alimentación sana, saludable, diversa, nutricionalmente completa, sin contaminantes, suficiente y culturalmente adecuada. Será deber del Estado apoyar la agricultura campesina e indígena, la recolección artesanal, la pesca artesanal, las ferias libres, los mercados locales y el canal alimentario agropesquero tradicional como pilares fundamentales de la producción y abastecimiento de alimentos.”",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "238",
+    "target_article": "89",
+    "action": "MOD",
+    "content": "Para suprimir la expresión “e inalienable” después de “derecho fundamental” en el artículo 89.",
+    "authors_raw": "16 Chinga, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Bacian, Quinteros"
+  },
+  {
+    "number": "241",
+    "target_article": "89",
+    "action": "ADD",
+    "content": "“La ley deberá regular los plaguicidas, agroquímicos, aditivos y transgénicos sobre la base del principio precautorio. No se permitirá el uso de plaguicidas ni agroquímicos altamente peligrosos que pongan en riesgo la salud humana y los ecosistemas.”",
+    "authors_raw": "21 Giustinianovich"
+  }
+]

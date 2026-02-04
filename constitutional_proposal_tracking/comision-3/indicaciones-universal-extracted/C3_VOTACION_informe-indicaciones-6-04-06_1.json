@@ -1,0 +1,338 @@
+[
+  {
+    "number": "IND 001",
+    "target_article": "Articulo 1",
+    "action": "DEL",
+    "content": "Para eliminar el artículo 1, por encontrarse contenido en el Artículo 2 (ICC 723 – 5).",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 002",
+    "target_article": "Articulo 1",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 1°.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 004",
+    "target_article": "Articulo 2",
+    "action": "MOD",
+    "content": "“Artículo 2. De los tributos. Todas las personas y entidades deberán contribuir al sostenimiento de los gastos públicos mediante el pago de los impuestos, las tasas y las contribuciones que autorice la ley.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "IND 006",
+    "target_article": "Articulo 2 inciso 2",
+    "action": "MOD",
+    "content": "“El sistema tributario se funda en los principios de igualdad, progresividad, coherencia, no confiscatoriedad, solidaridad y justicia material; tendrá dentro de sus objetivos la reducción de las desigualdades y la pobreza.”.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C. Gómez, J. J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 008",
+    "target_article": "Articulo 2 inciso 3",
+    "action": "MOD",
+    "content": "“Los tributos y los beneficios tributarios se crean, modifican o suprimen por ley, salvo aquellas tasas y contribuciones especiales que, conforme a esta Constitución y la ley correspondiente y dentro de su jurisdicción, puedan ser establecidas por las entidades territoriales. En el ejercicio de las potestades tributarias, se deberán respetar los principios del sistema.”.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 009",
+    "target_article": "Articulo 2 inciso 4",
+    "action": "MOD",
+    "content": "“El ejercicio de la potestad tributaria admite la imposición de tributos que respondan a criterios extrafiscales debiendo tener en consideración límites tales como la necesidad, razonabilidad y transparencia”.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 012",
+    "target_article": "Articulo 3",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 3.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 013",
+    "target_article": "Articulo 3",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 3.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 014",
+    "target_article": "Articulo 4",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 4.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 020",
+    "target_article": "Articulo 6",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 6.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 022",
+    "target_article": "Articulo 7",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 7.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 023",
+    "target_article": "Articulo 8",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 8.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 025",
+    "target_article": "Articulo 9",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 9.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 028",
+    "target_article": "Articulo 10",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 10.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 032",
+    "target_article": "Articulo 11",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 11.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 036",
+    "target_article": "Articulo 12",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 12.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 037",
+    "target_article": "Articulo 13",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 13.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 038",
+    "target_article": "Articulo 14",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 14.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 040",
+    "target_article": "Articulo 15",
+    "action": "MOD",
+    "content": "“Artículo 15. De la afectación. Los tributos que se recauden, cualquiera sea su naturaleza, ingresarán al erario público del Estado o a las entidades territoriales según corresponda conforme a la Constitución.”",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "IND 041",
+    "target_article": "Articulo 15",
+    "action": "ADD",
+    "content": "“Excepcionalmente, la ley podrá crear tributos de afectación en favor de las entidades territoriales referidos a actividades o bienes con una clara identificación con los territorios, la prevención de contaminación medioambiental, la conservación y reparación de los ecosistemas, salud o educación. Una ley marco fijará los criterios para la creación de estos tributos.”.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 042",
+    "target_article": "Articulo 15 bis",
+    "action": "ADD",
+    "content": "“Artículo 15 bis. Prohibiciones en materia tributaria. La ley de Presupuestos no puede crear tributos ni beneficios tributarios. No procederá iniciativas populares ni plebiscito y referéndum en materia tributaria.“",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Mena, Jofré, Navarrete, Castillo"
+  },
+  {
+    "number": "IND 044",
+    "target_article": "Articulo 16",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 16.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 045",
+    "target_article": "Articulo 17",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 17.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 046",
+    "target_article": "Articulo 18",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 18.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 054",
+    "target_article": "Articulo 19",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 19.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 055",
+    "target_article": "Articulo 20",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 20.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen, Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 056",
+    "target_article": "Articulo 20",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 20.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 057",
+    "target_article": "Articulo 21",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 21.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 061",
+    "target_article": "Articulo 22",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 22.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 062",
+    "target_article": "Articulo 22",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 22.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 064",
+    "target_article": "Articulo 23",
+    "action": "MOD",
+    "content": "“Artículo 23. Coparticipación en los impuestos. Los ingresos fiscales generados por impuestos serán redistribuidos entre el Estado y las entidades territoriales en la forma establecida en la ley de presupuesto anual, según la fórmula de coparticipación sugerida por la Comisión de Equidad Territorial. [incluye criterios de evaluación y facultades del Consejo de Gobernaciones]”.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 065",
+    "target_article": "Articulo 23",
+    "action": "MOD",
+    "content": "Para trasladar el artículo 23 inmediatamente después del nuevo artículo 39 bis.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 068",
+    "target_article": "Articulo 25",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 25.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 069",
+    "target_article": "Articulo 25",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 25.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 070",
+    "target_article": "Articulo 26",
+    "action": "MOD",
+    "content": "“Artículo 26 Transparencia tributaria. En virtud del principio de transparencia e igualdad democrática, una vez al año, al concluir la operación de renta, el organismo competente publicará las rentas imponibles y cargas tributarias estatales, regionales y comunales determinadas por cada contribuyente de forma anónima, así como, los subsidios, subvenciones o bonificaciones pagadas que ordenen leyes de fomento a la actividad empresarial, incluyendo personas naturales y jurídicas, información que, en todo caso, deberá ser anónima. La ley determinará la información a ser publicada y la forma de llevarla a cabo. La Presidencia deberá incluir en la cuenta pública anual, las medidas adoptadas para disminuir la evasión y elusión de impuestos.”",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 071",
+    "target_article": "Articulo 26",
+    "action": "MOD",
+    "content": "Para trasladar el artículo 26 inmediatamente después del artículo 48.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 072",
+    "target_article": "Articulo 27",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 27.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 073",
+    "target_article": "Articulo 27",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 27.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 074",
+    "target_article": "Articulo 28",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 28.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 075",
+    "target_article": "Articulo 28",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 28.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen, Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 076",
+    "target_article": "Articulo 29",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 29.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 077",
+    "target_article": "Articulo 29",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 29.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 078",
+    "target_article": "Articulo 30",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 30.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 079",
+    "target_article": "Articulo 30",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 30.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 080",
+    "target_article": "Articulo 31",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 31.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 081",
+    "target_article": "Articulo 31",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 31.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  },
+  {
+    "number": "IND 082",
+    "target_article": "Articulo 32",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 32.",
+    "authors_raw": "Rivera, Arancibia, Jurgensen"
+  },
+  {
+    "number": "IND 083",
+    "target_article": "Articulo 32",
+    "action": "DEL",
+    "content": "Para suprimir el artículo 32.",
+    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Y.Gómez, Reyes, C.Gómez, J.Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros, Chinga, Castillo"
+  }
+]
