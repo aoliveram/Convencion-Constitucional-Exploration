@@ -1,360 +1,442 @@
 [
   {
-    "Number": "69",
-    "Target": "Inciso final, nuevo",
-    "Content": "“Las mociones parlamentarias que correspondan a materias de concurrencia presidencial necesaria deberán presentarse con una estimación de gastos y origen del financiamiento.”.",
-    "Authors": [
-      "Politzer",
-      "Namor",
-      "Pustilnick",
-      "Céspedes",
-      "Sepúlveda",
-      "Carolina",
-      "Daza",
-      "Valenzuela",
-      "Fuchslocher"
-    ]
+    "number": "69",
+    "authors_matched": [
+      "Politzer, Patricia",
+      "Namor, Guillermo",
+      "Pustilnick, Tammy",
+      "Cespedes, Lorena",
+      "Sepulveda, Carolina",
+      "Daza, Mauricio",
+      "Valenzuela, Paulina",
+      "Fuchslocher, Javier"
+    ],
+    "target_article": 27,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las mociones parlamentarias que correspondan a materias de concurrencia presidencial necesaria deberán presentarse con una estimación de gastos y origen del financiamiento.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un inciso final"
   },
   {
-    "Number": "70",
-    "Target": "ARTÍCULO 28",
-    "Content": "“Artículo 28.- Sólo son leyes de acuerdo regional las que reformen la Constitución; las que regulen la organización, atribuciones y funcionamiento de los sistemas de justicia, del poder legislativo y de los órganos autónomos constitucionales; las que regulen los estados de excepción constitucional; las que creen, modifiquen o supriman tributos o exenciones y determinen su progresión y proporcionalidad; las que directamente irroguen al Estado gastos cuya ejecución corresponda a las entidades territoriales; las que implementen el derecho a la salud, derecho a la educación y derecho a la vivienda; la de Presupuestos; las que aprueben el Estatuto Regional; las que regulen la elección, designación, competencias, atribuciones y procedimientos de los órganos y autoridades de las entidades territoriales; las que establezcan o alteren la división político-administrativa del país; las que establezcan los mecanismos de distribución fiscal y presupuestaria, y otros mecanismos de compensación económica entre las distintas entidades territoriales; las que autoricen la celebración de operaciones que comprometan la responsabilidad patrimonial de las entidades territoriales; las que autoricen a las entidades territoriales la creación de empresas públicas; las que deleguen potestades legislativas en conformidad al artículo 31 Nº12 de esta Constitución; las que regulen la planificación territorial y urbanística y su ejecución; las que regulen la protección del medio ambiente; las que regulen las votaciones populares y escrutinios; las que regulen las organizaciones políticas; y las demás que esta Constitución califique como de acuerdo regional.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "70",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Sólo son leyes de acuerdo regional las que reformen la Constitución; las que regulen la organización, atribuciones y funcionamiento de los sistemas de justicia, del poder legislativo y de los órganos autónomos constitucionales; las que regulen los estados de excepción constitucional; las que creen, modifiquen o supriman tributos o exenciones y determinen su progresión y proporcionalidad; las que directamente irroguen al Estado gastos cuya ejecución corresponda a las entidades territoriales; las que implementen el derecho a la salud, derecho a la educación y derecho a la vivienda; la de Presupuestos; las que aprueben el Estatuto Regional; las que regulen la elección, designación, competencias, atribuciones y procedimientos de los órganos y autoridades de las entidades territoriales; las que establezcan o alteren la división político-administrativa del país; las que establezcan los mecanismos de distribución fiscal y presupuestaria, y otros mecanismos de compensación económica entre las distintas entidades territoriales; las que autoricen la celebración de operaciones que comprometan la responsabilidad patrimonial de las entidades territoriales; las que autoricen a las entidades territoriales la creación de empresas públicas; las que deleguen potestades legislativas en conformidad al artículo 31 Nº12 de esta Constitución; las que regulen la planificación territorial y urbanística y su ejecución; las que regulen la protección del medio ambiente; las que regulen las votaciones populares y escrutinios; las que regulen las organizaciones políticas; y las demás que esta Constitución califique como de acuerdo regional.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "71",
-    "Target": "Inciso final (Art. 28)",
-    "Content": "“Si se generare un conflicto de competencia entre la Cámara de las Regiones y el Congreso de Diputadas y Diputados con relación a si una o más materias dispuestas en este artículo debe ser revisadas por la Cámara de las Regiones, ésta aprobará su competencia por mayoría simple de sus miembros y el Congreso lo ratificará por mayoría absoluta. En caso que el Congreso rechace la revisión aprobada por la Cámara de las Regiones, ésta podrá recurrir a la Corte Constitucional por acuerdo de mayoría simple.”.",
-    "Authors": [
-      "Chahin",
-      "Garín",
-      "Harboe"
-    ]
+    "number": "71",
+    "authors_matched": [
+      "Chahin, Fuad",
+      "Garin, Renato",
+      "Harboe, Felipe"
+    ],
+    "target_article": 28,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Si se generare un conflicto de competencia entre la Cámara de las Regiones y el Congreso de Diputadas y Diputados con relación a si una o más materias dispuestas en este artículo debe ser revisadas por la Cámara de las Regiones, ésta aprobará su competencia por mayoría simple de sus miembros y el Congreso lo ratificará por mayoría absoluta. En caso que el Congreso rechace la revisión aprobada por la Cámara de las Regiones, ésta podrá recurrir a la Corte Constitucional por acuerdo de mayoría simple.",
+    "content_to_remove": "",
+    "placement_instructions": "inciso final, en forma aditiva"
   },
   {
-    "Number": "72",
-    "Target": "EPÍGRAFE NUEVO",
-    "Content": "“Del procedimiento legislativo”",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "72",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Del procedimiento legislativo",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo epígrafe después del artículo 28"
   },
   {
-    "Number": "73",
-    "Target": "ARTÍCULO NUEVO (Art. 28 bis)",
-    "Content": "“Artículo 28 bis.- La Cámara de las Regiones conocerá de los estatutos regionales aprobados por una Asamblea Regional, de las propuestas de creación de empresas regionales efectuadas por una o más Asambleas Regionales de conformidad con lo dispuesto en el artículo 31 número 7 de esta Constitución y de las solicitudes de delegación de potestades legislativas realizadas por éstas. Recibida una propuesta, la Cámara podrá aprobar el proyecto o efectuar las enmiendas que estime necesarias. De aceptarse las enmiendas por la Asamblea respectiva, el proyecto quedará en estado de ser despachado al Congreso de Diputadas y Diputados para su tramitación como ley de acuerdo regional. Tratándose de las delegaciones, estas no podrán extenderse a ámbitos de concurrencia presidencial necesaria, a la nacionalidad, la ciudadanía y las elecciones, a los ámbitos que sean objeto de codificación general, ni a la organización, atribuciones y régimen de los órganos nacionales o de los Sistemas de Justicia. La ley que delegue potestades señalará las materias precisas sobre las que recaerá la delegación y podrá establecer o determinar las limitaciones, restricciones y formalidades que se estimen convenientes. La Contraloría General de la República deberá tomar razón de las leyes regionales dictadas de conformidad con este artículo, debiendo rechazarlas cuando ellas excedan o contravengan la autorización referida.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "73",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 28 bis.- La Cámara de las Regiones conocerá de los estatutos regionales aprobados por una Asamblea Regional, de las propuestas de creación de empresas regionales efectuadas por una o más Asambleas Regionales de conformidad con lo dispuesto en el artículo 31 número 7 de esta Constitución y de las solicitudes de delegación de potestades legislativas realizadas por éstas. Recibida una propuesta, la Cámara podrá aprobar el proyecto o efectuar las enmiendas que estime necesarias. De aceptarse las enmiendas por la Asamblea respectiva, el proyecto quedará en estado de ser despachado al Congreso de Diputadas y Diputados para su tramitación como ley de acuerdo regional. Tratándose de las delegaciones, estas no podrán extenderse a ámbitos de concurrencia presidencial necesaria, a la nacionalidad, la ciudadanía y las elecciones, a los ámbitos que sean objeto de codificación general, ni a la organización, atribuciones y régimen de los órganos nacionales o de los Sistemas de Justicia. La ley que delegue potestades señalará las materias precisas sobre las que recaerá la delegación y podrá establecer o determinar las limitaciones, restricciones y formalidades que se estimen convenientes. La Contraloría General de la República deberá tomar razón de las leyes regionales dictadas de conformidad con este artículo, debiendo rechazarlas cuando ellas excedan o contravengan la autorización referida.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo artículo"
   },
   {
-    "Number": "75",
-    "Target": "Inciso primero",
-    "Content": "\"Para el conocimiento del Estatuto Regional, el Congreso y la Cámara contarán con un plazo de seis meses.\".",
-    "Authors": [
-      "Sepúlveda",
-      "Barraza",
-      "Bassa",
-      "Schonhaut"
-    ]
+    "number": "75",
+    "authors_matched": [
+      "Sepulveda, Barbara",
+      "Barraza, Marcos",
+      "Bassa, Jaime",
+      "Schonhaut, Constanza"
+    ],
+    "target_article": 28,
+    "target_scope": "INCISO 1",
+    "action": "ADD",
+    "content": "Para el conocimiento del Estatuto Regional, el Congreso y la Cámara contarán con un plazo de seis meses.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora una frase final al inciso primero"
   },
   {
-    "Number": "77",
-    "Target": "ARTÍCULO 29",
-    "Content": "“Artículo 29.- Las leyes pueden iniciarse por mensaje del Presidente o Presidenta de la República o por moción de no menos del diez por ciento ni más del quince por ciento de las diputadas y diputados o representantes regionales. Adicionalmente, podrán tener su origen en iniciativa popular o iniciativa indígena de ley. Una o más Asambleas Regionales podrán presentar iniciativas a la Cámara de las Regiones en materias de interés regional. Si ésta las patrocina, serán ingresadas como moción parlamentaria ordinaria en el Congreso. Todos los proyectos de ley, cualquiera sea la forma de su iniciativa, comenzarán su tramitación en el Congreso de Diputadas y Diputados.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "77",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 29.- Las leyes pueden iniciarse por mensaje del Presidente o Presidenta de la República o por moción de no menos del diez por ciento ni más del quince por ciento de las diputadas y diputados o representantes regionales. Adicionalmente, podrán tener su origen en iniciativa popular o iniciativa indígena de ley. Una o más Asambleas Regionales podrán presentar iniciativas a la Cámara de las Regiones en materias de interés regional. Si ésta las patrocina, serán ingresadas como moción parlamentaria ordinaria en el Congreso. Todos los proyectos de ley, cualquiera sea la forma de su iniciativa, comenzarán su tramitación en el Congreso de Diputadas y Diputados.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "78",
-    "Target": "Inciso final, nuevo",
-    "Content": "“Todo proyecto puede ser objeto de adiciones o correcciones en los trámites que corresponda, tanto en el Congreso de Diputadas y Diputados como en la Cámara de las Regiones si ésta interviene en conformidad con lo establecido en esta Constitución, pero en ningún caso se admitirán las que no tengan relación directa con las ideas matrices o fundamentales del proyecto.”.",
-    "Authors": [
-      "Hurtado",
-      "Montero",
-      "Muñoz"
-    ]
+    "number": "78",
+    "authors_matched": [
+      "Hurtado, Maximiliano",
+      "Montero, Ricardo",
+      "Munoz, Pedro"
+    ],
+    "target_article": 29,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Todo proyecto puede ser objeto de adiciones o correcciones en los trámites que corresponda, tanto en el Congreso de Diputadas y Diputados como en la Cámara de las Regiones si ésta interviene en conformidad con lo establecido en esta Constitución, pero en ningún caso se admitirán las que no tengan relación directa con las ideas matrices o fundamentales del proyecto.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo inciso final"
   },
   {
-    "Number": "79",
-    "Target": "ARTÍCULOS NUEVOS (Art. 29 bis)",
-    "Content": "“Artículo 29 bis. Para la presentación de las iniciativas populares de ley se requerirá el patrocinio de un grupo de ciudadanos o ciudadanas con derecho a sufragio equivalente, a lo menos, al dos por ciento del padrón electoral. La recolección de los patrocinios deberá realizarse en un plazo máximo de seis meses desde su registro ante el Servicio Electoral y será deber del Estado garantizar su adecuada difusión. La ley señalará los requisitos formales para su presentación y podrá determinar mecanismos especiales para su tramitación.”.",
-    "Authors": [
-      "Schonhaut",
-      "Bassa",
-      "Atria"
-    ]
+    "number": "79",
+    "authors_matched": [
+      "Schonhaut, Constanza",
+      "Bassa, Jaime",
+      "Atria, Fernando"
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 29 bis. Para la presentación de las iniciativas populares de ley se requerirá el patrocinio de un grupo de ciudadanos o ciudadanas con derecho a sufragio equivalente, a lo menos, al dos por ciento del padrón electoral. La recolección de los patrocinios deberá realizarse en un plazo máximo de seis meses desde su registro ante el Servicio Electoral y será deber del Estado garantizar su adecuada difusión. La ley señalará los requisitos formales para su presentación y podrá determinar mecanismos especiales para su tramitación.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un artículo 29 bis"
   },
   {
-    "Number": "83",
-    "Target": "ARTÍCULO 30",
-    "Content": "“Artículo 30.- Las leyes deberán ser aprobadas, modificadas o derogadas por la mayoría de los miembros presentes en el Congreso de Diputadas y Diputados al momento de su votación. En caso de tratarse de una ley de acuerdo regional, la Presidencia del Congreso enviará el proyecto aprobado a la Cámara de las Regiones para continuar con su tramitación. Terminada la tramitación del proyecto en el Congreso de Diputadas y Diputados, será despachado al Presidente o Presidenta de la República para efectos de lo establecido en el artículo 32. La ley deberá establecer los mecanismos de deliberación y decisión considerando la participación y deliberación popular durante la tramitación de una norma de acuerdo a lo establecido en esta Constitución.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "83",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 30.- Las leyes deberán ser aprobadas, modificadas o derogadas por la mayoría de los miembros presentes en el Congreso de Diputadas y Diputados al momento de su votación. En caso de tratarse de una ley de acuerdo regional, la Presidencia del Congreso enviará el proyecto aprobado a la Cámara de las Regiones para continuar con su tramitación. Terminada la tramitación del proyecto en el Congreso de Diputadas y Diputados, será despachado al Presidente o Presidenta de la República para efectos de lo establecido en el artículo 32. La ley deberá establecer los mecanismos de deliberación y decisión considerando la participación y deliberación popular durante la tramitación de una norma de acuerdo a lo establecido en esta Constitución.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "84",
-    "Target": "ARTÍCULOS NUEVOS (Art. XX)",
-    "Content": "“Art. XX: Las leyes referidas a la organización, funcionamiento y procedimientos del Poder Legislativo y Poder Judicial; a los procesos electorales y plebiscitarios; a la regulación de los estados de excepción constitucional; y a la regulación de las organizaciones políticas, deberán ser aprobadas por el voto favorable de la mayoría en ejercicio de los miembros del Congreso de Diputadas y Diputados y de la Cámara de las Regiones.”.",
-    "Authors": [
-      "Hurtado",
-      "Montero",
-      "Muñoz"
-    ]
+    "number": "84",
+    "authors_matched": [
+      "Hurtado, Maximiliano",
+      "Montero, Ricardo",
+      "Munoz, Pedro"
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art. XX: Las leyes referidas a la organización, funcionamiento y procedimientos del Poder Legislativo y Poder Judicial; a los procesos electorales y plebiscitarios; a la regulación de los estados de excepción constitucional; y a la regulación de las organizaciones políticas, deberán ser aprobadas por el voto favorable de la mayoría en ejercicio de los miembros del Congreso de Diputadas y Diputados y de la Cámara de las Regiones.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un artículo nuevo"
   },
   {
-    "Number": "86",
-    "Target": "ARTÍCULO 31 / ARTÍCULO 31 BIS",
-    "Content": "“Artículo 31.- Recibido por la Cámara de las Regiones un proyecto de ley de acuerdo regional aprobado por el Congreso de las Diputadas y Diputados, la Cámara de las Regiones se pronunciará, aprobándolo o rechazándolo. Si lo aprobare, el proyecto será enviado al Congreso para que lo despache a la Presidenta o Presidente de la República para su promulgación como ley. Si lo rechazare, lo tramitará y propondrá al Congreso las enmiendas que considere pertinentes. Si el Congreso rechazare una o más de esas enmiendas u observaciones, se convocará a una comisión mixta que propondrá nuevas enmiendas para resolver la discrepancia... Artículo 31 bis.- En la sesión siguiente a su despacho por el Congreso de Diputados y Diputadas y con el voto favorable de la mayoría, la Cámara de las Regiones podrá requerir conocer de un proyecto de ley que no sea de acuerdo regional. La Cámara contará con 60 días desde que recibe el proyecto para formularle enmiendas y remitirlas al Congreso. Este podrá aprobarlas o insistir en el proyecto original con el voto favorable de la mayoría. Si dentro del plazo señalado la Cámara no evacúa su informe, el proyecto quedará en condiciones de ser despachado por el Congreso.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "86",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 31,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 31.- Recibido por la Cámara de las Regiones un proyecto de ley de acuerdo regional aprobado por el Congreso de las Diputadas y Diputados, la Cámara de las Regiones se pronunciará, aprobándolo o rechazándolo. Si lo aprobare, el proyecto será enviado al Congreso para que lo despache a la Presidenta o Presidente de la República para su promulgación como ley. Si lo rechazare, lo tramitará y propondrá al Congreso las enmiendas que considere pertinentes. Si el Congreso rechazare una o más de esas enmiendas u observaciones, se convocará a una comisión mixta que propondrá nuevas enmiendas para resolver la discrepancia. Estas enmiendas serán votadas por la Cámara y luego por el Congreso. Si todas ellas fueren aprobadas, el proyecto será despachado para su promulgación. Si la Cámara aprobare el informe de la comisión mixta, y el Congreso lo rechazare, éste podrá despachar el proyecto sin las disposiciones a las que se refieren las enmiendas originalmente propuestas por la Cámara y rechazadas por el Congreso, o insistir en ellas con el voto favorable de cuatro séptimos de sus miembros en ejercicio. Rechazado por la Cámara el informe de la comisión mixta, el Congreso podrá proceder del mismo modo. La comisión mixta estará conformada por igual número de diputadas y diputados y de representantes regionales. La ley fijará el mecanismo para designar a los integrantes de la comisión y establecerá el plazo en que deberá informar. De no evacuar su informe dentro de plazo, se entenderá que la comisión mixta mantiene las observaciones originalmente formuladas por la Cámara y rechazadas por el Congreso y se aplicará lo dispuesto en el inciso anterior. Artículo 31 bis.- En la sesión siguiente a su despacho por el Congreso de Diputadas y Diputadas y con el voto favorable de la mayoría, la Cámara de las Regiones podrá requerir conocer de un proyecto de ley que no sea de acuerdo regional. La Cámara contará con 60 días desde que recibe el proyecto para formularle enmiendas y remitirlas al Congreso. Este podrá aprobarlas o insistir en el proyecto original con el voto favorable de la mayoría. Si dentro del plazo señalado la Cámara no evacúa su informe, el proyecto quedará en condiciones de ser despachado por el Congreso.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "88",
-    "Target": "ARTÍCULO 32",
-    "Content": "“Artículo 32.- Si la Presidenta o Presidente de la República aprobare el proyecto despachado por el Congreso de Diputadas y Diputados, dispondrá su promulgación como ley. En caso contrario, lo devolverá dentro de treinta días con las observaciones que estime pertinentes o comunicando su rechazo total al proyecto. En ningún caso se admitirán las observaciones que no tengan relación directa con las ideas matrices o fundamentales del proyecto, a menos que hubieran sido consideradas en el mensaje respectivo. Las observaciones parciales podrán ser aprobadas por mayoría. Con el mismo quórum, el Congreso podrá insistir en el proyecto original. Si el Presidente hubiere rechazado totalmente el proyecto, el Congreso deberá desecharlo, salvo que insista por tres quintos de sus integrantes. Si la Presidenta o Presidente de la República no devolviere el proyecto dentro de treinta días, contados desde la fecha de su remisión, se entenderá que lo aprueba y se promulgará como ley. La promulgación deberá hacerse siempre dentro del plazo de diez días, contados desde que ella sea procedente. La publicación se hará dentro de los cinco días hábiles siguientes a la fecha en que quede totalmente tramitado el decreto promulgatorio.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "88",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 32.- Si la Presidenta o Presidente de la República aprobare el proyecto despachado por el Congreso de Diputadas y Diputados, dispondrá su promulgación como ley. En caso contrario, lo devolverá dentro de treinta días con las observaciones que estime pertinentes o comunicando su rechazo total al proyecto. En ningún caso se admitirán las observaciones que no tengan relación directa con las ideas matrices o fundamentales del proyecto, a menos que hubieran sido consideradas en el mensaje respectivo. Las observaciones parciales podrán ser aprobadas por mayoría. Con el mismo quórum, el Congreso podrá insistir en el proyecto original. Si el Presidente hubiere rechazado totalmente el proyecto, el Congreso deberá desecharlo, salvo que insista por tres quintos de sus integrantes. Si la Presidenta o Presidente de la República no devolviere el proyecto dentro de treinta días, contados desde la fecha de su remisión, se entenderá que lo aprueba y se promulgará como ley. La promulgación deberá hacerse siempre dentro del plazo de diez días, contados desde que ella sea procedente. La publicación se hará dentro de los cinco días hábiles siguientes a la fecha en que quede totalmente tramitado el decreto promulgatorio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "94",
-    "Target": "Artículo 45 bis",
-    "Content": "“Artículo 45 bis.- En el caso que la Presidenta o Presidente postulare a la reelección inmediata, y desde el día de la inscripción de su candidatura, no podrá ejecutar gasto que no sea de mera administración ni realizar actividades públicas que conlleven propaganda a su campaña para la reelección. La Contraloría General de la República deberá dictar un instructivo que regule las situaciones descritas en este inciso.”.",
-    "Authors": [
-      "Chahin",
-      "Garín",
-      "Harboe"
-    ]
+    "number": "94",
+    "authors_matched": [
+      "Chahin, Fuad",
+      "Garin, Renato",
+      "Harboe, Felipe"
+    ],
+    "target_article": 45,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 45 bis.- En el caso que la Presidenta o Presidente postulare a la reelección inmediata, y desde el día de la inscripción de su candidatura, no podrá ejecutar gasto que no sea de mera administración ni realizar actividades públicas que conlleven propaganda a su campaña para la reelección. La Contraloría General de la República deberá dictar un instructivo que regule las situaciones descritas en este inciso.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo artículo"
   },
   {
-    "Number": "95",
-    "Target": "ARTÍCULO 49",
-    "Content": "“Artículo 49.- Las y los Ministros de Estado son los colaboradores directos e inmediatos de la Presidenta o Presidente de la República en el gobierno y administración del Estado. La ley determinará el número y organización de los ministerios, así como el orden de precedencia de los Ministros titulares. La Presidenta o Presidente de la República podrá encomendar a uno o más Ministros la coordinación de la labor que corresponde a los secretarios de Estado y las relaciones del Gobierno con el Congreso de Diputadas y Diputados y la Cámara de las Regiones. El Gabinete será paritario y deberá orientarse por el principio de plurinacionalidad. Al menos una Ministra o Ministro deberá pertenecer a un pueblo o nación indígena.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "95",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 49,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 49.- Las y los Ministros de Estado son los colaboradores directos e inmediatos de la Presidenta o Presidente de la República en el gobierno y administración del Estado. La ley determinará el número y organización de los ministerios, así como el orden de precedencia de los Ministros titulares. La Presidenta o Presidente de la República podrá encomendar a uno o más Ministros la coordinación de la labor que corresponde a los secretarios de Estado y las relaciones del Gobierno con el Congreso de Diputadas y Diputados y la Cámara de las Regiones. El Gabinete será paritario y deberá orientarse por el principio de plurinacionalidad. Al menos una Ministra o Ministro deberá pertenecer a un pueblo o nación indígena.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "97",
-    "Target": "ARTÍCULO 55",
-    "Content": "“Artículo 55.- Las elecciones comunales, regionales y de Representantes Regionales se realizarán tres años después de la elección presidencial y del Congreso de Diputadas y Diputados. Estas autoridades sólo podrán ser electas de manera consecutiva por un período.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "97",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 55,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 55.- Las elecciones comunales, regionales y de Representantes Regionales se realizarán tres años después de la elección presidencial y del Congreso de Diputadas y Diputados. Estas autoridades sólo podrán ser electas de manera consecutiva por un período.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "103",
-    "Target": "ARTÍCULO 56",
-    "Content": "“Artículo 56.- En las votaciones populares, el sufragio será universal, igualitario, libre, directo, secreto y obligatorio para las personas que hayan cumplido dieciocho años. Su ejercicio constituye un derecho y un deber cívico. El sufragio será facultativo para las personas de dieciséis y diecisiete años de edad. Las chilenas y chilenos en el exterior podrán sufragar en los plebiscitos nacionales y elecciones presidenciales y de diputadas y diputados. Para esto se constituirá un distrito especial exterior. La ley establecerá las condiciones para asegurar el ejercicio de este derecho. El resguardo de la seguridad pública durante las votaciones populares y plebiscitarias corresponderá a las instituciones que indique la ley.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "103",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 56,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 56.- En las votaciones populares, el sufragio será universal, igualitario, libre, directo, secreto y obligatorio para las personas que hayan cumplido dieciocho años. Su ejercicio constituye un derecho y un deber cívico. El sufragio será facultativo para las personas de dieciséis y diecisiete años de edad. Las chilenas y chilenos en el exterior podrán sufragar en los plebiscitos nacionales y elecciones presidenciales y de diputadas y diputados. Para esto se constituirá un distrito especial exterior. La ley establecerá las condiciones para asegurar el ejercicio de este derecho. El resguardo de la seguridad pública durante las votaciones populares y plebiscitarias corresponderá a las instituciones que indique la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "105",
-    "Target": "ARTÍCULO 60",
-    "Content": "“Artículo 60.- Los escaños reservados en el Congreso de Diputadas y Diputados para los pueblos y naciones indígenas serán elegidos en un distrito único nacional. Su número se definirá en forma proporcional a la población indígena en relación a la población total del país. Se deberán adicionar al número total de integrantes del Congreso. La ley regulará los requisitos, procedimientos y distribución de los escaños reservados. Sin perjuicio de lo anterior, se deberá asegurar la representación de todos y cada uno de los pueblos indígenas reconocidos en esta Constitución. La integración de los escaños reservados en la Cámara de las Regiones será determinada por ley.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "105",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 60,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 60.- Los escaños reservados en el Congreso de Diputadas y Diputados para los pueblos y naciones indígenas serán elegidos en un distrito único nacional. Su número se definirá en forma proporcional a la población indígena en relación a la población total del país. Se deberán adicionar al número total de integrantes del Congreso. La ley regulará los requisitos, procedimientos y distribución de los escaños reservados. Sin perjuicio de lo anterior, se deberá asegurar la representación de todos y cada uno de los pueblos indígenas reconocidos en esta Constitución. La integración de los escaños reservados en la Cámara de las Regiones será determinada por ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "108",
-    "Target": "ARTÍCULO 62",
-    "Content": "“Artículo 62.- El pueblo tribal afrodescendiente chileno tendrá un escaño reservado de representación en el Congreso de Diputadas y Diputados y se adicionará al número total de integrantes. La ley determinará el mecanismo de elección y los requisitos para poder optar al cargo.”.",
-    "Authors": [
-      "Bassa",
-      "Catrileo",
-      "Namor",
-      "Montero",
-      "Muñoz",
-      "Schonhaut",
-      "Atria",
-      "Hurtado",
-      "Carrillo",
-      "Politzer",
-      "Barraza",
-      "Sepúlveda",
-      "Pustilnick",
-      "Flores"
-    ]
+    "number": "108",
+    "authors_matched": [
+      "Bassa, Jaime",
+      "Catrileo, Rosa",
+      "Namor, Guillermo",
+      "Montero, Ricardo",
+      "Munoz, Pedro",
+      "Schonhaut, Constanza",
+      "Atria, Fernando",
+      "Hurtado, Maximiliano",
+      "Carrillo, Alondra",
+      "Politzer, Patricia",
+      "Barraza, Marcos",
+      "Sepulveda, Barbara",
+      "Pustilnick, Tammy",
+      "Flores, Alejandra"
+    ],
+    "target_article": 62,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 62.- El pueblo tribal afrodescendiente chileno tendrá un escaño reservado de representación en el Congreso de Diputadas y Diputados y se adicionará al número total de integrantes. La ley determinará el mecanismo de elección y los requisitos para poder optar al cargo.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "119",
-    "Target": "ARTÍCULO 63",
-    "Content": "“Artículo 63.- La Constitución garantiza el pluralismo político. Las organizaciones políticas son personas jurídicas de derecho público, de carácter voluntario, que concurren a la formación de la voluntad popular. Deberán presentar un programa que oriente su actividad política... Las organizaciones políticas podrán constituirse a nivel nacional o regional, en la forma que establezca la ley.”.",
-    "Authors": [
-      "Politzer",
-      "Namor",
-      "Pustilnick",
-      "Céspedes",
-      "Sepúlveda",
-      "Carolina",
-      "Daza",
-      "Valenzuela",
-      "Fuchslocher"
-    ]
+    "number": "119",
+    "authors_matched": [
+      "Politzer, Patricia",
+      "Namor, Guillermo",
+      "Pustilnick, Tammy",
+      "Cespedes, Lorena",
+      "Sepulveda, Carolina",
+      "Daza, Mauricio",
+      "Valenzuela, Paulina",
+      "Fuchslocher, Javier"
+    ],
+    "target_article": 63,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 63.- La Constitución garantiza el pluralismo político. Las organizaciones políticas son personas jurídicas de derecho público, de carácter voluntario, que concurren a la formación de la voluntad popular. Deberán presentar un programa que oriente su actividad política. La ley regulará sus condiciones de constitución, organización, funcionamiento y disolución, así como las exigencias de transparencia, probidad y democracia interna que les serán aplicables. La Constitución protege el derecho de todas las personas a participar en organizaciones políticas y a postular a cargos de elección popular a través de ellas o como independientes. Se garantizará la plena igualdad a independientes y miembros de organizaciones políticas tanto en la presentación de candidaturas como en su participación en los procesos electorales. La ley regulará las condiciones del ejercicio de este derecho. Los partidos políticos y las candidaturas estarán sujetas a la supervigilancia y fiscalización del Servicio Electoral. Su contabilidad será pública y sus fuentes de financiamiento no podrán provenir de dineros, bienes, donaciones, aportes ni créditos de origen extranjero o de personas jurídicas. Las decisiones de supervigilancia, de fiscalización y sanción del Servicio Electoral podrán ser impugnadas ante los Tribunales de Justicia Electoral. Asimismo, las decisiones de los órganos internos de los partidos políticos establecidas en la ley o en los estatutos de éstas, podrán ser impugnadas ante los Tribunales de Justicia Electoral. El Estado garantizará la equitativa promoción, debate y difusión electoral de las candidaturas, a través de los medios de comunicación. Las organizaciones políticas podrán constituirse a nivel nacional o regional, en la forma que establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "126",
-    "Target": "ARTÍCULO 64",
-    "Content": "“Artículo 64.- Las organizaciones políticas reconocidas legalmente implementarán la paridad de género en sus espacios de dirección, asegurando la igualdad sustantiva en sus dimensiones organizativa y electoral, y promoviendo la plena participación política de las mujeres. A su vez, deberán destinar un financiamiento electoral proporcional al número de dichas candidaturas. El Estado y las organizaciones políticas deberán tomar las medidas necesarias para erradicar la violencia de género con el fin de asegurar que todas las personas ejerzan plenamente sus derechos políticos. La ley arbitrará los medios para incentivar la participación de las personas de las diversidades y disidencias sexuales y de género en los procesos electorales.”.",
-    "Authors": [
-      "Carrillo",
-      "Sepúlveda",
-      "Arauna",
-      "Schonhaut",
-      "Pustilnick",
-      "Politzer"
-    ]
+    "number": "126",
+    "authors_matched": [
+      "Carrillo, Alondra",
+      "Sepulveda, Barbara",
+      "Arauna, Francisca",
+      "Schonhaut, Constanza",
+      "Pustilnick, Tammy",
+      "Politzer, Patricia"
+    ],
+    "target_article": 64,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 64.- Las organizaciones políticas reconocidas legalmente implementarán la paridad de género en sus espacios de dirección, asegurando la igualdad sustantiva en sus dimensiones organizativa y electoral, y promoviendo la plena participación política de las mujeres. A su vez, deberán destinar un financiamiento electoral proporcional al número de dichas candidaturas. El Estado y las organizaciones políticas deberán tomar las medidas necesarias para erradicar la violencia de género con el fin de asegurar que todas las personas ejerzan plenamente sus derechos políticos. La ley arbitrará los medios para incentivar la participación de las personas de las diversidades y disidencias sexuales y de género en los procesos electorales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

@@ -1,156 +1,184 @@
 [
   {
-    "Number": "1",
-    "Target": "Artículo 1",
-    "Content": "Artículo X.- Objeto y fin. Los derechos fundamentales son universales, inalienables, indivisibles e interdependientes entre sí. Comprenden los derechos de la naturaleza, realidad íntimamente ligada al desarrollo de la vida, de las comunidades, de las naciones y de los pueblos como de las futuras generaciones. La protección, promoción y satisfacción de los derechos humanos es un fin primordial del Estado y de la sociedad. El pleno ejercicio de estos derechos es condición necesaria para asegurar la paz, la democracia, la vida digna y el pleno desarrollo de las personas y de los pueblos.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Celedón, Roberto",
-      "Meneses, Janis",
-      "Mamani, Isabella"
-    ]
+    "number": "1",
+    "authors_matched": [
+      "Fernandez, Patricio"
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo X.- Objeto y fin. Los derechos fundamentales son universales, inalienables, indivisibles e interdependientes entre sí. Comprenden los derechos de la naturaleza, realidad íntimamente ligada al desarrollo de la vida, de las comunidades, de las naciones y de los pueblos como de las futuras generaciones. La protección, promoción y satisfacción de los derechos humanos es un fin primordial del Estado y de la sociedad. \nEl pleno ejercicio de estos derechos es condición necesaria para asegurar la paz, la democracia, la vida digna y el pleno desarrollo de las personas y de los pueblos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "11",
-    "Target": "Artículo 2",
-    "Content": "Para suprimir el artículo 2.",
-    "Authors": [
+    "number": "11",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Castro, Claudia",
-      "Fernández, Patricio",
+      "Fernandez, Patricio",
       "Harboe, Felipe",
       "Montealegre, Katerine",
       "Moreno, Alfredo",
-      "Saldaña, Alvin",
+      "Saldana, Alvin",
       "Urrutia, Tatiana"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "17",
-    "Target": "Artículo 3",
-    "Content": "Para suprimir el artículo 3.",
-    "Authors": [
+    "number": "17",
+    "authors_matched": [
       "Cantuarias, Rocio",
-      "Fernández, Patricio",
+      "Fernandez, Patricio",
       "Montealegre, Katerine",
       "Moreno, Alfredo",
-      "Urrutia, Tatiana",
-      "Henríquez, Natalia"
-    ]
+      "Urrutia, Tatiana"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "23",
-    "Target": "Artículo 4 (inciso primero)",
-    "Content": "Artículo X.- Cláusula de obligaciones generales y sujetos obligados. El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todas las barreras administrativas, legales o de otra naturaleza que pudieran limitar o entorpecer su realización. Para dicho objetivo, se tendrán en especial consideración los derechos de los Pueblos y Naciones Indígenas.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Urrutia, Tatiana",
-      "Henríquez, Natalia"
-    ]
+    "number": "23",
+    "authors_matched": [
+      "Fernandez, Patricio",
+      "Urrutia, Tatiana"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo X.- Cláusula de obligaciones generales y sujetos obligados. El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todas las barreras administrativas, legales o de otra naturaleza que pudieran limitar o entorpecer su realización. Para dicho objetivo, se tendrán en especial consideración los derechos de los Pueblos y Naciones Indígenas.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "26",
-    "Target": "Artículo 4 inciso 2°",
-    "Content": "Para suprimir el inciso segundo.",
-    "Authors": [
+    "number": "26",
+    "authors_matched": [
       "Harboe, Felipe",
-      "Meneses, Janis",
-      "Ossandon, Manuel"
-    ]
-  },
-  {
-    "Number": "28",
-    "Target": "Artículo 4 (penúltimo inciso)",
-    "Content": "Las empresas deberán respetar los derechos fundamentales y prevenir, mitigar y reparar toda vulneración a estos que sea consecuencia de sus actos u omisiones.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Urrutia, Tatiana",
-      "Labbé, Bastian",
-      "Valenzuela, Cesar",
-      "Barceló, Luis",
-      "Labraña, Elsa",
-      "Baranda, Benito",
-      "Gonzalez, Dayana"
-    ]
-  },
-  {
-    "Number": "29",
-    "Target": "Artículo 4 Inciso 3",
-    "Content": "Toda persona, institución, grupo deberá respetar los derechos fundamentales, según lo establecido en esta Constitución y las leyes.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Labraña, Elsa",
-      "Fuchslocher, Javier",
-      "Baranda, Benito",
-      "Harboe, Felipe"
-    ]
-  },
-  {
-    "Number": "34",
-    "Target": "Artículo 5",
-    "Content": "Para suprimir el artículo 5.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Saldaña, Alvin",
-      "Labraña, Elsa"
-    ]
-  },
-  {
-    "Number": "43",
-    "Target": "Artículo 6",
-    "Content": "Para suprimir el artículo 6.",
-    "Authors": [
-      "Saldaña, Alvin",
-      "Fernández, Patricio",
-      "Baranda, Benito"
-    ]
-  },
-  {
-    "Number": "53",
-    "Target": "Artículo 7",
-    "Content": "Para suprimir el artículo 7.",
-    "Authors": [
-      "Cantuarias, Rocio",
-      "Fernández, Patricio",
-      "Montealegre, Katerine",
-      "Moreno, Alfredo",
-      "Saldaña, Alvin",
-      "Mamani, Isabella"
-    ]
-  },
-  {
-    "Number": "59",
-    "Target": "Artículo 8",
-    "Content": "Para suprimir el artículo 8.",
-    "Authors": [
-      "Cantuarias, Rocio",
-      "Fernández, Patricio",
-      "Harboe, Felipe",
-      "Montealegre, Katerine",
-      "Moreno, Alfredo",
-      "Saldaña, Alvin",
-      "Rebolledo, Barbara",
-      "Labbé, Bastian",
-      "Fuchslocher, Javier"
-    ]
-  },
-  {
-    "Number": "63",
-    "Target": "Artículo 9",
-    "Content": "Artículo X.- Principio de progresividad y no regresión de los derechos fundamentales. El Estado debe adoptar todas las medidas necesarias para lograr de manera progresiva la plena satisfacción de los derechos fundamentales. Ninguna medida podrá tener un carácter regresivo que disminuya, menoscabe o impida injustificadamente su ejercicio.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Fuchslocher, Javier"
-    ]
-  },
-  {
-    "Number": "72",
-    "Target": "Artículo 10",
-    "Content": "Artículo X.- Financiamiento de los derechos fundamentales. El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad. El Estado y sus órganos garantizan que el presupuesto público destinará el máximo de recursos disponibles para asegurar la satisfacción universal de los derechos fundamentales.",
-    "Authors": [
-      "Fernández, Patricio",
-      "Miranda, Valentina",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "28",
+    "authors_matched": [
+      "Fernandez, Patricio",
+      "Urrutia, Tatiana"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las empresas deberán respetar los derechos fundamentales y prevenir, mitigar y reparar toda vulneración a estos que sea consecuencia de sus actos u omisiones.",
+    "content_to_remove": "",
+    "placement_instructions": "Para incorporar un penúltimo inciso"
+  },
+  {
+    "number": "29",
+    "authors_matched": [
+      "Fernandez, Patricio"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "Toda persona, institución, grupo deberá respetar los derechos fundamentales, según lo establecido en esta Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "34",
+    "authors_matched": [
+      "Fernandez, Patricio",
+      "Saldana, Alvin"
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "43",
+    "authors_matched": [
+      "Saldana, Alvin",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "53",
+    "authors_matched": [
+      "Cantuarias, Rocio",
+      "Fernandez, Patricio",
+      "Montealegre, Katerine",
+      "Moreno, Alfredo",
+      "Saldana, Alvin"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "59",
+    "authors_matched": [
+      "Cantuarias, Rocio",
+      "Fernandez, Patricio",
+      "Harboe, Felipe",
+      "Montealegre, Katerine",
+      "Moreno, Alfredo",
+      "Saldana, Alvin",
+      "Rebolledo, Barbara"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "63",
+    "authors_matched": [
+      "Fernandez, Patricio"
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo X.- Principio de progresividad y no regresión de los derechos fundamentales. El Estado debe adoptar todas las medidas necesarias para lograr de manera progresiva la plena satisfacción de los derechos fundamentales. Ninguna medida podrá tener un carácter regresivo que disminuya, menoscabe o impida injustificadamente su ejercicio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "72",
+    "authors_matched": [
+      "Fernandez, Patricio"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo X.- Financiamiento de los derechos fundamentales. El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad. \nEl Estado y sus órganos garantizan que el presupuesto público destinará el máximo de recursos disponibles para asegurar la satisfacción universal de los derechos fundamentales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

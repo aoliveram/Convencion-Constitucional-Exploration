@@ -1,142 +1,494 @@
 [
   {
     "number": "2",
-    "target_article": "1",
-    "action": "MOD",
-    "content": "Artículo 1. Crisis climática y ecológica. El Estado reconoce la existencia de la crisis climática y ecológica como consecuencia de la actividad humana. Es deber del Estado desarrollar acciones y adoptar medidas en todos los niveles para la gestión de los riesgos, vulnerabilidades y efectos provocados por la crisis climática y ecológica, en función de los principios de acción climática justa, progresividad y no regresión, justicia intergeneracional, los derechos de los pueblos indígenas y la Naturaleza, y los principios establecidos por la Constitución y las Leyes. La ley establecerá los deberes del Estado y de las personas para enfrentar la crisis climática y ecológica. El Estado promoverá el diálogo, cooperación y solidaridad internacional para adaptarse, mitigar y afrontar la crisis climática y ecológica y proteger la Naturaleza.",
-    "authors_raw": "Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1. Crisis climática y ecológica. El Estado reconoce la existencia de la crisis climática y ecológica como consecuencia de la actividad humana. Es deber del Estado desarrollar acciones y adoptar medidas en todos los niveles para la gestión de los riesgos, vulnerabilidades y efectos provocados por la crisis climática y ecológica, en función de los principios de acción climática justa, progresividad y no regresión, justicia intergeneracional, los derechos de los pueblos indígenas y la Naturaleza, y los principios establecidos por la Constitución y las Leyes. La ley establecerá los deberes del Estado y de las personas para enfrentar la crisis climática y ecológica. El Estado promoverá el diálogo, cooperación y solidaridad internacional para adaptarse, mitigar y afrontar la crisis climática y ecológica y proteger la Naturaleza",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "7",
-    "target_article": "2",
-    "action": "MOD",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 2. Mejor evidencia científica y participación ciudadana. El Estado deberá destinar los recursos necesarios y crear un sistema que estudie y monitoree en forma permanente los efectos e impactos de la Crisis Climática y Ecológica en nuestro país, generando información basada en la mejor evidencia científica disponible y en las particularidades de los ecosistemas y comunidades afectadas, que oriente las decisiones de política pública y articule las actuaciones de los órganos competentes. El Estado organizará su acción ante la crisis climática y ecológica a través de planes e instrumentos que serán elaborados con la participación de la ciudadanía, previo proceso de consulta indígena en los términos establecidos por esta Constitución y las leyes.",
-    "authors_raw": "Nicolás Núñez y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "14",
-    "target_article": "3",
-    "action": "DEL",
-    "content": "Suprimir el artículo 3.",
-    "authors_raw": "Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "18",
-    "target_article": "4",
-    "action": "DEL",
-    "content": "Suprimir el artículo 4.",
-    "authors_raw": "Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "25",
-    "target_article": "5",
-    "action": "DEL",
-    "content": "Suprimir el artículo 5.",
-    "authors_raw": "Núñez"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "28, 29",
-    "target_article": "6",
-    "action": "DEL",
-    "content": "Suprimir el artículo 6.",
-    "authors_raw": "Núñez y otros, Rodrigo Álvarez"
+    "number": "28",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "35, 36, 37",
-    "target_article": "7",
-    "action": "DEL",
-    "content": "Suprimir el artículo 7.",
-    "authors_raw": "Vergara y otros, Núñez y otros, Roberto Vega"
+    "number": "35",
+    "authors_matched": [
+      "Vergara, Lisette"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "39",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "43",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "46",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "50",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "54",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "63",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "69",
-    "target_article": "Nuevo (Final del apartado Crisis Climática)",
+    "authors_matched": [
+      "San Juan, Constanza"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
     "action": "ADD",
     "content": "Artículo Nuevo. Para afrontar la crisis climática el Estado deberá fomentar las ciudades sostenibles a través de políticas, planes, programas u otros, que incorporen técnicas de construcción de bajo impacto ambiental, que implementen la eficiencia energética, la economía circular, los principios ambientales y otros que establecen esta constitución y las leyes que incentiven a la innovación y el rescate del patrimonio local, como las técnicas de Bioconstrucción.",
-    "authors_raw": "Constanza San Juan y otra"
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo final del apartado de Crisis Climática"
   },
   {
     "number": "70",
-    "target_article": "Transitorio Nuevo",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
     "action": "ADD",
     "content": "Artículo transitorio nuevo. Servicio para la Crisis Climática y Ecológica. Un servicio para enfrentar la crisis climática y ecológica, dependiente del Ministerio del Medio Ambiente, será el órgano, de carácter técnico, encargado de abordar de manera transdisciplinaria e integral la Crisis Climática y Ecológica. Su conformación será establecida por ley, considerando una integración plurinacional, debiendo incluir participación vinculante de la sociedad civil. Dicho servicio se implementará en el plazo de 2 años.",
-    "authors_raw": "Nicolás Núñez y otros"
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo transitorio en la temática 1 de Crisis Climática"
+  },
+  {
+    "number": "71",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "MODIFY_PHRASE",
+    "content": "Temática 2 Derechos de la Naturaleza",
+    "content_to_remove": "Temática 3 Derechos de la Naturaleza",
+    "placement_instructions": "cambiar de posición en el texto sistematizado"
   },
   {
     "number": "72",
-    "target_article": "Título temática 2",
-    "action": "MOD",
-    "content": "Sustituir 'bienes naturales comunes' por 'bienes comunes naturales'.",
-    "authors_raw": "Nicolás Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 0,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "bienes comunes naturales",
+    "content_to_remove": "bienes naturales comunes",
+    "placement_instructions": "en el título de la temática 2 y en la primera sección"
   },
   {
     "number": "74",
-    "target_article": "14",
-    "action": "MOD",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 14. De los bienes comunes naturales. Los bienes comunes naturales son aquellos elementos o componentes de la Naturaleza que son comunes a todos los seres vivos y pueblos y naciones de Chile. Estos bienes no son susceptibles de apropiación y existe un interés general prioritario en su preservación para la existencia de las generaciones presentes y futuras. Para los pueblos y naciones preexistentes estos bienes tienen una dimensión espiritual que trasciende lo visible, donde cohabitan fuerzas protectoras de los componentes de la Naturaleza, quienes contribuyen y velan por la armonía y equilibrio de los espacios. El Estado es el custodio de los bienes comunes naturales y deberá preservarlos, asegurar su gestión participativa, gobernanza democrática y acceso responsable.",
-    "authors_raw": "Nicolás Núñez y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "104",
-    "target_article": "Nuevo (después del artículo 14)",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
     "action": "ADD",
     "content": "Artículo nuevo. Son bienes comunes naturales a lo menos: las aguas en todas sus formas e interfaces, incluyendo glaciares y criósfera; el mar territorial, la altamar y el fondo marino; las playas, dunas y el borde costero; el subsuelo; los humedales; el aire, viento y atmósfera; la radiación solar; los campos geotérmicos; la alta montaña; el cielo y el espacio; y aquellos que declare la constitución y las leyes.",
-    "authors_raw": "Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": "inmediatamente después del artículo 14"
+  },
+  {
+    "number": "105",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo. Son bienes comunes naturales, a lo menos, aquellos que declara la Constitución y las Leyes.",
+    "content_to_remove": "",
+    "placement_instructions": "inmediatamente después del artículo 14"
   },
   {
     "number": "107",
-    "target_article": "15",
-    "action": "MOD",
-    "content": "Artículo 15. Autorizaciones de uso. El Estado podrá autorizar el uso por parte de particulares de esta clase de bienes. Esta autorización será inapropiable, incomerciable, intransferible e intransmisible. La ley establecerá las condiciones de otorgamiento, uso, obligaciones, restricciones, tarifas, temporalidad, renovación, extinción, y demás que sean pertinentes de dichas autorizaciones de uso. Establecerá además los procesos de participación de las comunidades en la toma de decisiones, los que deberán ser públicos y transparentes. El uso y la autorización de los bienes comunes naturales deberá estar orientado al buen vivir y respetar los derechos de la naturaleza y la posibilidad de su uso y acceso por las futuras generaciones.",
-    "authors_raw": "Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 15. Autorizaciones de uso. El Estado podrá autorizar el uso por parte de particulares de esta clase de bienes. Esta autorización será inapropiable, incomerciable, intransferible e intransmisible. La ley establecerá las condiciones de otorgamiento, uso, obligaciones, restricciones, tarifas, temporalidad, renovación, extinción, y demás que sean pertinentes de dichas autorizaciones de uso. Establecerá además los procesos de participación de las comunidades en la toma de decisiones, los que deberán ser públicos y transparentes. El uso y la autorización de los bienes comunes naturales deberá estar orientado al buen vivir y respetar los derechos de la naturaleza y la posibilidad de su uso y acceso por las futuras generaciones",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "109",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo nuevo. Regímenes especiales. Existirán regímenes especiales para ciertos bienes comunes naturales. En el caso del aire, los glaciares y la criósfera, el fondo marino, la alta montaña, no podrá otorgarse autorizaciones de uso. Respecto de bienes comunes naturales especialmente sensibles se podrán dictar normas especiales de preservación y restauración.",
+    "content_to_remove": "",
+    "placement_instructions": "inmediatamente después del artículo 15"
   },
   {
     "number": "111",
-    "target_article": "Nuevo (Final apartado bienes naturales comunes)",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
     "action": "ADD",
-    "content": "Artículo nuevo. Derechos de los pueblos indígenas. Los pueblos y naciones preexistentes tienen un régimen especial de titularidad colectiva de los bienes comunes naturales que se encuentran en sus tierras y territorios. En virtud de este régimen especial, tienen derecho a acceder, utilizar y controlar dichos bienes, los cuales forman parte de su identidad y permiten su pervivencia cultural, social y económica. El Estado reconocerá los usos ancestrales de bienes comunes naturales de los pueblos y naciones preexistentes, de acuerdo a los derechos de los pueblos indígenas reconocidos internacionalmente, reconociendo como límite el sistema jurídico de cada pueblo y los derechos de la naturaleza.",
-    "authors_raw": "Olivares y otros"
+    "content": "Artículo nuevo. Derechos de los pueblos indígenas. Los pueblos y naciones preexistentes tienen un régimen especial de titularidad colectiva de los bienes comunes naturales que se encuentran en sus tierras y territorios. En virtud de este régimen especial, tienen derecho a acceder, utilizar y controlar dichos bienes, los cuales forman parte de su identidad y permiten su pervivencia cultural, social y económica. El Estado reconocerá los usos ancestrales de bienes comunes naturales de los pueblos y naciones preexistentes, de acuerdo a los derechos de los pueblos indígenas reconocidos internacionalmente, reconociendo como límite el sistema jurídico de cada pueblo y los derechos de la naturaleza. El Estado no podrá constituir o asignar autorizaciones de uso sobre bienes comunes naturales existentes en tierras y territorios indígenas, en favor de personas naturales o jurídicas no indígenas o indígenas pertenecientes a otro pueblo, sin el consentimiento previo libre e informado de cada pueblo y nación respectivo.",
+    "content_to_remove": "",
+    "placement_instructions": "como artículo final del apartado de bienes naturales comunes"
+  },
+  {
+    "number": "113",
+    "authors_matched": [
+      "Alvez, Amaya"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "126",
+    "authors_matched": [
+      "Vergara, Lisette"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "130",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "140",
+    "authors_matched": [
+      "Sepulveda, Barbara"
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "145",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "164",
-    "target_article": "Nuevo (inciso en Art. 20)",
+    "authors_matched": [
+      "Sepulveda, Barbara"
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO",
     "action": "ADD",
-    "content": "Es deber del Estado asegurar que las frecuencias electromagnéticas que somete a la Naturaleza no provocan alteraciones graves a la salud de las personas, animales y ecosistemas, para ello se basará en la evidencia científica pertinente.",
-    "authors_raw": "Sepúlveda y otros"
+    "content": "Es deber del Estado asegurar que las frecuencias electromagnéticas que somete a la Naturaleza no provocan alteraciones graves a la salud de las personas, animales y ecosistemas, para ello se basará en la evidencia científica pertinente",
+    "content_to_remove": "",
+    "placement_instructions": "inciso nuevo al artículo"
   },
   {
-    "number": "166",
-    "target_article": "21",
-    "action": "MOD",
-    "content": "Artículo 21. Acceso a la Naturaleza. Se reconoce a todas las personas el derecho de acceso peatonal, gratuito, eficaz, universal y temporal para recorrer los bienes naturales comunes, a través de bienes públicos o privados, extendiéndose esta facultad a montañas, bosques nativos, salares, ríos y riberas, mar y playas, humedales, lagos, lagunas, y caminos ancestrales, sin perjuicio de los límites que establezca la ley y el derecho de los pueblos indígenas y de la Naturaleza establecidos en esta Constitución. Este derecho se ejercerá bajo la responsabilidad de evitar producir daño e impacto al momento del acceso y permanencia. La ley regulará el ejercicio de este derecho, las obligaciones de los propietarios aledaños y una acción de tutela del mismo.",
-    "authors_raw": "Núñez y otros"
+    "number": "173",
+    "authors_matched": [
+      "Vergara, Lisette"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "177",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "186",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "193",
-    "target_article": "25",
-    "action": "MOD",
-    "content": "Artículo 25. De la gestión de residuos: El Estado promoverá sistemas productivos y de consumo que minimicen la generación de residuos. Es deber del Estado garantizar e incentivar el reciclaje, recuperación, reducción u otro tipo de valorización de residuos, además de la reutilización, reparación y extensión de la vida útil de los productos, así como, el acceso a servicios de recolección, reciclaje y otros que determine la ley. El Estado regulará y fiscalizará la gestión de residuos de manera desconcentrada y descentralizada. Fomentará la coordinación y participación de recicladores de base, comunidades, municipalidades y las demás que establezca la ley, en los procesos de manejo y gestión de residuos, garantizando el mínimo impacto ecológico, el equilibrio de la Naturaleza y la Justicia Ambiental.",
-    "authors_raw": "Alvarado"
+    "authors_matched": [
+      "Alvarado, Gloria"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 25. De la gestión de residuos: El Estado promoverá sistemas productivos y de consumo que minimicen la generación de residuos. Es deber del Estado garantizar e incentivar el reciclaje, recuperación, reducción u otro tipo de valorización de residuos, además de la reutilización, reparación y extensión de la vida útil de los productos, así como, el acceso a servicios de recolección, reciclaje y otros que determine la ley. El Estado regulará y fiscalizará la gestión de residuos de manera desconcentrada y descentralizada. Fomentará la coordinación y participación de recicladores de base, comunidades, municipalidades y las demás que establezca la ley, en los procesos de manejo y gestión de residuos, garantizando el mínimo impacto ecológico, el equilibrio de la Naturaleza y la Justicia Ambiental. La ley establecerá las responsabilidades y obligaciones individuales y colectivas de productores, gestores, distribuidores y consumidores en la generación y gestión de residuos. Asimismo, determinará las acciones, medidas y objetivos para reducir la generación de residuos y la circulación de productos de un solo uso y los que la ley señale.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "191",
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "204",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 31,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "214",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "217",
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 33,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "241",
-    "target_article": "37",
-    "action": "MOD",
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 37,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 37. Vivienda digna y ecológica. El Estado reconoce y promueve el derecho a una vivienda digna y ecológica, con pertinencia territorial, indígena y cultural, que permita el buen vivir de sus habitantes en armonía con los ecosistemas. Será deber del Estado fomentar por medio de políticas, planes, programas u otros, la incorporación de técnicas de construcción de bajo impacto ambiental, que implementen la eficiencia energética, la economía circular, los principios ambientales y otros que establecen esta constitución y las leyes que incentiven a la innovación y el rescate del patrimonio local, como las técnicas de Bioconstrucción.",
-    "authors_raw": "Núñez y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "251",
-    "target_article": "38",
-    "action": "MOD",
-    "content": "Artículo 38. De la biodiversidad. El Estado debe velar y garantizar la protección, restauración y conservación de los vínculos ecosistémicos que sostienen la biodiversidad con especial esfuerzo en los reinos Animalia, Plantae y Fungi y especies endémicas, polinizadores nativos y otros que determina la Ley.",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 38,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 38. De la biodiversidad. El Estado debe velar y garantizar la protección, restauración y conservación de los vínculos ecosistémicos que sostienen la biodiversidad con especial esfuerzo en los reinos Animalia, Plantae y Fungi y especies endémicas, polinizadores nativos y otros que determina la Ley",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "253",
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 39,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "268",
-    "target_article": "Transitoria Segunda",
-    "action": "MOD",
-    "content": "Transitoria Segunda. Catastro de vertederos. El Estado deberá realizar un catastro de vertederos, basurales y micro basurales dentro del territorio nacional, al mismo tiempo analizará todas aquellas Resolución de Calificación Ambiental respecto a vertederos y rellenos sanitarios, determinando el cierre inmediato de aquellos que no cuentan con permisos de funcionamiento en un plazo de 3 años. En base al catastro el Estado determinará un Plan de cierre, valorización y transición ecológica de vertederos y rellenos sanitarios, para alcanzar una política nacional de Basura Cero con plazo máximo el año 2030.",
-    "authors_raw": "Núñez y otros"
+    "authors_matched": [
+      "Nunez, Nicolas"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Transitoria Segunda. Catastro de vertederos. El Estado deberá realizar un catastro de vertederos, basurales y micro basurales dentro del territorio nacional, al mismo tiempo analizará todas aquellas Resolución de Calificación Ambiental respecto a vertederos y rellenos sanitarios, determinando el cierre inmediato de aquellos que no cuentan con permisos de funcionamiento en un plazo de 3 años. En base al catastro el Estado determinará un Plan de cierre, valorización y transición ecológica de vertederos y rellenos sanitarios, para alcanzar una política nacional de Basura Cero con plazo máximo el año 2030. Todo aquello que contravenga con lo estipulado en los artículos precedentes, quedará derogado en el plazo de 2 años contados desde la publicación del presente instrumento.",
+    "content_to_remove": "",
+    "placement_instructions": "sustituye la disposición transitoria segunda"
   }
 ]

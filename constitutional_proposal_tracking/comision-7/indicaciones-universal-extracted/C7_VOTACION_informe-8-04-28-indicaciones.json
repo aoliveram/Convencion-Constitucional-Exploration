@@ -1,283 +1,454 @@
 [
   {
-    "Number": "1",
-    "Target": "Articulo 1, Inciso segundo",
-    "Content": "Las autoridades pertinentes junto a la comunidad local podrán gestionar de forma compartida las redes y servicios de conectividad. Su desarrollo e implementación estará determinado por ley",
-    "Authors": [
+    "number": 1,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Las autoridades pertinentes junto a la comunidad local podrán gestionar de forma compartida las redes y servicios de conectividad. Su desarrollo e implementación estará determinado por ley",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "4",
-    "Target": "Artículo 2",
-    "Content": "Artículo 2. Espectro radioeléctrico. El espectro radioeléctrico es un bien común natural de carácter inapropiable. Es deber del Estado planificar, gestionar y asignar su uso en todo el territorio, de acuerdo al interés general. El Estado debe evitar la concentración en la distribución del uso del espectro radioeléctrico. Corresponderá a la ley determinar la utilización y aprovechamiento del espectro radioeléctrico.",
-    "Authors": [
+    "number": 4,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2. Espectro radioeléctrico. El espectro radioeléctrico es un bien común natural de carácter inapropiable. Es deber del Estado planificar, gestionar y asignar su uso en todo el territorio, de acuerdo al interés general. El Estado debe evitar la concentración en la distribución del uso del espectro radioeléctrico. Corresponderá a la ley determinar la utilización y aprovechamiento del espectro radioeléctrico.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "12",
-    "Target": "Artículo 3",
-    "Content": "Artículo 3. De los Comunes Digitales. El Estado reconoce los Comunes Digitales como un conjunto de bienes intangibles de interés general, basados en datos, información y conocimientos, sujetos a libre uso y gestión compartida. Una ley determinará su desarrollo, promoción y protección, bajo los principios de reciprocidad y confianza.",
-    "Authors": [
+    "number": 12,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 3. De los Comunes Digitales. El Estado reconoce los Comunes Digitales como un conjunto de bienes intangibles de interés general, basados en datos, información y conocimientos, sujetos a libre uso y gestión compartida. Una ley determinará su desarrollo, promoción y protección, bajo los principios de reciprocidad y confianza.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "13",
-    "Target": "Artículo 4",
-    "Content": "Artículo 4.- Consejo Nacional de Comunicaciones. Habrá un Consejo Nacional de Comunicaciones, autónomo, con personalidad jurídica y patrimonio propio, encargado de proteger y promover el derecho a la comunicación social, la libertad de prensa, el pluralismo de los medios de comunicación y la diversidad de información, en los distintos soportes tecnológicos existentes. La ley señalará la organización y demás funciones y atribuciones de dicho Consejo. Su composición estará orientada por criterios técnicos y de idoneidad",
-    "Authors": [
+    "number": 13,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4.- Consejo Nacional de Comunicaciones. Habrá un Consejo Nacional de Comunicaciones, autónomo, con personalidad jurídica y patrimonio propio, encargado de proteger y promover el derecho a la comunicación social, la libertad de prensa, el pluralismo de los medios de comunicación y la diversidad de información, en los distintos soportes tecnológicos existentes. La ley señalará la organización y demás funciones y atribuciones de dicho Consejo. Su composición estará orientada por criterios técnicos y de idoneidad",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "18",
-    "Target": "Artículo 5, incisos segundo y tercero",
-    "Content": "Estos medios de comunicación serán pluralistas, descentralizados, y estarán coordinados entre sí. Asimismo, gozarán de independencia respecto del gobierno y contarán con financiamiento público para su funcionamiento. La ley regulará su organización y la composición de sus directorios, la que estará orientada por criterios de idoneidad y técnicos.",
-    "Authors": [
+    "number": 18,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 2-3",
+    "action": "SUBSTITUTE",
+    "content": "Estos medios de comunicación serán pluralistas, descentralizados, y estarán coordinados entre sí. Asimismo, gozarán de independencia respecto del gobierno y contarán con financiamiento público para su funcionamiento. La ley regulará su organización y la composición de sus directorios, la que estará orientada por criterios de idoneidad y técnicos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "24",
-    "Target": "Artículo 6",
-    "Content": "Artículo 6. De los Medios de Comunicación Comunitarios. Habrá un Sistema Nacional de Medios de Comunicación Comunitarios, que estará constituido por Consejos Regionales conformados por representantes de los medios comunitarios y por autoridades vinculadas a las culturas, comunicaciones y educación. Estos Consejos se encargarán de promover el desarrollo y fortalecimiento de los medios comunitarios de cada región, así como la valoración de los elementos identitarios, en todos sus soportes tecnológicos. La ley regulará lo relativo a su organización, estructura, competencias y funcionamiento.",
-    "Authors": [
+    "number": 24,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 6. De los Medios de Comunicación Comunitarios. Habrá un Sistema Nacional de Medios de Comunicación Comunitarios, que estará constituido por Consejos Regionales conformados por representantes de los medios comunitarios y por autoridades vinculadas a las culturas, comunicaciones y educación. Estos Consejos se encargarán de promover el desarrollo y fortalecimiento de los medios comunitarios de cada región, así como la valoración de los elementos identitarios, en todos sus soportes tecnológicos. La ley regulará lo relativo a su organización, estructura, competencias y funcionamiento.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "25",
-    "Target": "Artículo 7",
-    "Content": "Artículo 7.- Consejo Nacional de Bioética. El Consejo Nacional de Bioética será un órgano independiente, técnico, de carácter consultivo, pluralista y transdisciplinario, que tendrá, entre sus funciones, asesorar a los organismos del Estado en los asuntos bioéticos que puedan afectar a la vida humana, animal, la naturaleza y la biodiversidad, recomendando la dictación, modificación y supresión de normas que regulen dichas materias. La ley regulará la composición, funciones, organización y demás aspectos de este órgano.",
-    "Authors": [
+    "number": 25,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 7.- Consejo Nacional de Bioética. El Consejo Nacional de Bioética será un órgano independiente, técnico, de carácter consultivo, pluralista y transdisciplinario, que tendrá, entre sus funciones, asesorar a los organismos del Estado en los asuntos bioéticos que puedan afectar a la vida humana, animal, la naturaleza y la biodiversidad, recomendando la dictación, modificación y supresión de normas que regulen dichas materias. La ley regulará la composición, funciones, organización y demás aspectos de este órgano.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "26, 27",
-    "Target": "Artículo 8",
-    "Content": "Suprimir el Artículo 8",
-    "Authors": [
+    "number": 26,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
-      "Tepper, Maria Angelica",
-      "Valenzuela, Paulina"
-    ]
+      "Tepper, Maria Angelica"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "31",
-    "Target": "Artículo 9",
-    "Content": "Artículo 9.- Rol del Estado en el desarrollo de la Investigación. Es deber del Estado estimular, promover y fortalecer el desarrollo de la investigación científica y tecnológica en todas las áreas del conocimiento, contribuyendo así al enriquecimiento sociocultural del país y al mejoramiento de las condiciones de vida de sus habitantes. El Estado generará las condiciones necesarias para el desarrollo de la investigación científica transdisciplinaria en materias relevantes para el resguardo de la calidad de vida de la población y el equilibrio ecosistémico, además del monitoreo permanente de los riesgos medioambientales y sanitarios que afecten la salud de las comunidades y ecosistemas del país, realizándose, en ambos casos, de forma independiente y descentralizada. La creación y coordinación de entidades que cumplan los objetivos establecidos en el inciso anterior, su colaboración con centros de investigación públicos y privados con pertinencia territorial, además de sus características, funcionamiento y otros aspectos serán determinados por ley.",
-    "Authors": [
+    "number": 27,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "33",
-    "Target": "Artículo 10",
-    "Content": "Artículo 10. De las entidades para el desarrollo de las ciencias, tecnología, conocimientos e innovación. Las entidades que dirigen las políticas públicas relacionadas al desarrollo de las ciencias, tecnología, conocimiento e innovación tendrán un carácter integrado con otros actores u organismos para promover el desarrollo de los diversos sistemas de conocimiento, según lo establece esta Constitución y la ley, además de fomentar su acceso abierto a la sociedad, con el objeto de utilizar los avances científicos y tecnológicos disponibles para la reducción de las desigualdades.",
-    "Authors": [
+    "number": 31,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 9.- Rol del Estado en el desarrollo de la Investigación. Es deber del Estado estimular, promover y fortalecer el desarrollo de la investigación científica y tecnológica en todas las áreas del conocimiento, contribuyendo así al enriquecimiento sociocultural del país y al mejoramiento de las condiciones de vida de sus habitantes. El Estado generará las condiciones necesarias para el desarrollo de la investigación científica transdisciplinaria en materias relevantes para el resguardo de la calidad de vida de la población y el equilibrio ecosistémico, además del monitoreo permanente de los riesgos medioambientales y sanitarios que afecten la salud de las comunidades y ecosistemas del país, realizándose, en ambos casos, de forma independiente y descentralizada. La creación y coordinación de entidades que cumplan los objetivos establecidos en el inciso anterior, su colaboración con centros de investigación públicos y privados con pertinencia territorial, además de sus características, funcionamiento y otros aspectos serán determinados por ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "35",
-    "Target": "Artículo 11",
-    "Content": "Artículo 11.- Agencia Nacional de Protección de Datos. Existirá un órgano autónomo que velará por la promoción y protección de los datos personales, con facultades de investigar, normar, fiscalizar y sancionar respecto de entidades públicas y privadas, el que contará con las atribuciones, composición, funciones que determine la ley.",
-    "Authors": [
+    "number": 33,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 10. De las entidades para el desarrollo de las ciencias, tecnología, conocimientos e innovación. Las entidades que dirigen las políticas públicas relacionadas al desarrollo de las ciencias, tecnología, conocimiento e innovación tendrán un carácter integrado con otros actores u organismos para promover el desarrollo de los diversos sistemas de conocimiento, según lo establece esta Constitución y la ley, además de fomentar su acceso abierto a la sociedad, con el objeto de utilizar los avances científicos y tecnológicos disponibles para la reducción de las desigualdades.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "36",
-    "Target": "Artículo nuevo (post Artículo 11)",
-    "Content": "Artículo nuevo.- Agencia Nacional de Seguridad Informática. Una ley creará un organismo que velará por la promoción y protección efectiva de la seguridad informática con las atribuciones que ésta misma indique.",
-    "Authors": [
+    "number": 35,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 11.- Agencia Nacional de Protección de Datos. Existirá un órgano autónomo que velará por la promoción y protección de los datos personales, con facultades de investigar, normar, fiscalizar y sancionar respecto de entidades públicas y privadas, el que contará con las atribuciones, composición, funciones que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "37",
-    "Target": "Artículo 12",
-    "Content": "Suprimir el Artículo 12",
-    "Authors": [
+    "number": 36,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo nuevo.- Agencia Nacional de Seguridad Informática. Una ley creará un organismo que velará por la promoción y protección efectiva de la seguridad informática con las atribuciones que ésta misma indique.",
+    "content_to_remove": "",
+    "placement_instructions": "agregar un Artículo nuevo"
   },
   {
-    "Number": "41",
-    "Target": "Artículo 13",
-    "Content": "Artículo 13. Principio de educación en los sistemas de conocimientos. La educación es connatural a la vida, surge a partir de la curiosidad y favorece la creación de relaciones que permiten la comprensión e interrelación con la naturaleza y la sociedad, contribuyendo al desarrollo de los diversos sistemas de conocimientos.",
-    "Authors": [
+    "number": 37,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "43",
-    "Target": "Artículo 14",
-    "Content": "Artículo 14. Interculturalidad en la educación. El Estado asegura una educación intercultural en sus múltiples dimensiones, favoreciendo el aprendizaje recíproco entre culturas. La ley establecerá la institucionalidad necesaria y régimen aplicable a las personas que la impartan.",
-    "Authors": [
+    "number": 41,
+    "authors_matched": [
+      "Valenzuela, Paulina"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 13. Principio de educación en los sistemas de conocimientos. La educación es connatural a la vida, surge a partir de la curiosidad y favorece la creación de relaciones que permiten la comprensión e interrelación con la naturaleza y la sociedad, contribuyendo al desarrollo de los diversos sistemas de conocimientos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 43,
+    "authors_matched": [
       "Caiguan, Alexis"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 14. Interculturalidad en la educación. El Estado asegura una educación intercultural en sus múltiples dimensiones, favoreciendo el aprendizaje recíproco entre culturas. La ley establecerá la institucionalidad necesaria y régimen aplicable a las personas que la impartan.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "44",
-    "Target": "Artículo 14, inciso nuevo",
-    "Content": "El Estado, reconociendo la interculturalidad existente, establecerá un sistema de registro de los educadores tradicionales facultándolos para poder ejercer su labor en la educación formal.",
-    "Authors": [
+    "number": 44,
+    "authors_matched": [
       "Botto, Miguel Angel"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "El Estado, reconociendo la interculturalidad existente, establecerá un sistema de registro de los educadores tradicionales facultándolos para poder ejercer su labor en la educación formal.",
+    "content_to_remove": "",
+    "placement_instructions": "agregar un nuevo inciso siguiente"
   },
   {
-    "Number": "47",
-    "Target": "Artículo 16",
-    "Content": "Artículo 16.- El Estado reconoce la educación artística como aporte sustancial al desarrollo integral de las personas y garantiza su promoción en los diversos espacios de la sociedad, de acuerdo a los principios de diversidad y pertinencia territorial.",
-    "Authors": [
+    "number": 47,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 16.- El Estado reconoce la educación artística como aporte sustancial al desarrollo integral de las personas y garantiza su promoción en los diversos espacios de la sociedad, de acuerdo a los principios de diversidad y pertinencia territorial.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "51",
-    "Target": "Artículo 17, inciso segundo",
-    "Content": "El Estado promoverá la creación y producción editorial local.",
-    "Authors": [
+    "number": 51,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Estado promoverá la creación y producción editorial local.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "53",
-    "Target": "Artículo 17, inciso tercero",
-    "Content": "La comercialización de libros en cualquier formato estará exenta del impuesto al valor agregado.",
-    "Authors": [
+    "number": 53,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "La comercialización de libros en cualquier formato estará exenta del impuesto al valor agregado.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "54",
-    "Target": "Artículo 17, inciso nuevo segundo",
-    "Content": "Lo anterior se realizará mediante acciones que garanticen el acceso al libro en sus diferentes formatos",
-    "Authors": [
+    "number": 54,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "INCISO 2",
+    "action": "ADD",
+    "content": "Lo anterior se realizará mediante acciones que garanticen el acceso al libro en sus diferentes formatos",
+    "content_to_remove": "",
+    "placement_instructions": "agregar un nuevo inciso segundo al Artículo 17"
   },
   {
-    "Number": "55, 56",
-    "Target": "Artículo 18",
-    "Content": "Suprimir el Artículo 18",
-    "Authors": [
+    "number": 55,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
-      "Tepper, Maria Angelica",
+      "Tepper, Maria Angelica"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 56,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "61",
-    "Target": "Artículo nuevo (post Artículo 19)",
-    "Content": "Artículo nuevo.- El Estado reconoce los derechos laborales y de seguridad social a las y los trabajadores de las culturas, artes, patrimonios e investigación, en sus distintas modalidades y circunstancias específicas.",
-    "Authors": [
+    "number": 61,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo nuevo.- El Estado reconoce los derechos laborales y de seguridad social a las y los trabajadores de las culturas, artes, patrimonios e investigación, en sus distintas modalidades y circunstancias específicas.",
+    "content_to_remove": "",
+    "placement_instructions": "agregar a continuación del Artículo 19 por el siguiente artículo nuevo"
   },
   {
-    "Number": "65",
-    "Target": "Artículo 21",
-    "Content": "Artículo 21.- Estrategias de Innovación frente a los cambios globales. El Estado promoverá un estilo de desarrollo donde las personas y el medio ambiente sean el centro; donde el avance y enseñanza del conocimiento permitan reducir las desigualdades, hacer frente a la crisis climática y a los desafíos que presentan la ciencia, la tecnología y la innovación; y donde se aborden las exigencias del desarrollo, actual y futuro, de manera integral, intercultural y con apego a principios éticos y ecológicos. La ley establecerá los deberes, medidas y acciones, pertinentes y factibles, a fin de que este estilo del desarrollo sea llevado a cabo a nivel nacional, regional y territorial.",
-    "Authors": [
+    "number": 65,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 21.- Estrategias de Innovación frente a los cambios globales. El Estado promoverá un estilo de desarrollo donde las personas y el medio ambiente sean el centro; donde el avance y enseñanza del conocimiento permitan reducir las desigualdades, hacer frente a la crisis climática y a los desafíos que presentan la ciencia, la tecnología y la innovación; y donde se aborden las exigencias del desarrollo, actual y futuro, de manera integral, intercultural y con apego a principios éticos y ecológicos. La ley establecerá los deberes, medidas y acciones, pertinentes y factibles, a fin de que este estilo del desarrollo sea llevado a cabo a nivel nacional, regional y territorial.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "67",
-    "Target": "Artículo nuevo (post Artículo 21)",
-    "Content": "Artículo nuevo.- Estrategias de Innovación frente a los cambios globales. El Estado debe promover el avance de la innovación y los conocimientos para la reducción de las desigualdades, generando estrategias transversales y colaborativas para enfrentar la crisis climática y ecológica. La ley establecerá medidas y acciones que permitan el desarrollo científico y tecnológico para la prevención, mitigación y adaptación ante las causas y efectos de la crisis climática y ecológica.",
-    "Authors": [
+    "number": 67,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo nuevo.- Estrategias de Innovación frente a los cambios globales. El Estado debe promover el avance de la innovación y los conocimientos para la reducción de las desigualdades, generando estrategias transversales y colaborativas para enfrentar la crisis climática y ecológica. La ley establecerá medidas y acciones que permitan el desarrollo científico y tecnológico para la prevención, mitigación y adaptación ante las causas y efectos de la crisis climática y ecológica.",
+    "content_to_remove": "",
+    "placement_instructions": "agregar luego del Artículo 21 un nuevo Artículo"
   },
   {
-    "Number": "69",
-    "Target": "Artículo 22, Inciso segundo",
-    "Content": "Todo proceso de innovación en la adaptabilidad y mejora continua de los servicios públicos, considerará la participación de funcionarios como de los usuarios y beneficiarios, según lo establezca la ley",
-    "Authors": [
-      "Caamano, Francisco"
-    ]
+    "number": 69,
+    "authors_matched": [
+      "Caamaño, Francisco"
+    ],
+    "target_article": 22,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Todo proceso de innovación en la adaptabilidad y mejora continua de los servicios públicos, considerará la participación de funcionarios como de los usuarios y beneficiarios, según lo establezca la ley",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "72",
-    "Target": "Artículo 23",
-    "Content": "Artículo 23. Derechos de los consumidores. Toda persona tiene derechos, individual y colectivamente, en su condición de consumidor. Para ello el Estado protegerá, mediante procedimientos eficaces, sus derechos a la libre elección, a la información veraz, a no ser discriminados, a la seguridad, a la protección de la salud y el medio ambiente, a la reparación e indemnización adecuada y a la educación para el consumo responsable.",
-    "Authors": [
+    "number": 72,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 23. Derechos de los consumidores. Toda persona tiene derechos, individual y colectivamente, en su condición de consumidor. Para ello el Estado protegerá, mediante procedimientos eficaces, sus derechos a la libre elección, a la información veraz, a no ser discriminados, a la seguridad, a la protección de la salud y el medio ambiente, a la reparación e indemnización adecuada y a la educación para el consumo responsable.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "77",
-    "Target": "Artículo 24",
-    "Content": "Artículo 24.- Es deber del Estado desarrollar un sistema transversal de apoyos que establezca ajustes razonables y mecanismos especializados que permitan eliminar las barreras estructurales que impiden el ejercicio de sus derechos.",
-    "Authors": [
+    "number": 77,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 24.- Es deber del Estado desarrollar un sistema transversal de apoyos que establezca ajustes razonables y mecanismos especializados que permitan eliminar las barreras estructurales que impiden el ejercicio de sus derechos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "79, 80",
-    "Target": "Artículo 25, Inciso primero",
-    "Content": "Suprimir el Artículo 25",
-    "Authors": [
+    "number": 79,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
-      "Tepper, Maria Angelica",
-      "Valenzuela, Paulina"
-    ]
+      "Tepper, Maria Angelica"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "83",
-    "Target": "Artículo 26",
-    "Content": "Artículo 26. Resguardo y promoción del turismo. Todas las personas tienen derecho a gozar y participar del turismo. El Estado en coordinación con los Gobiernos regionales y locales deberá fomentar el turismo, así como resguardar los sitios y áreas de interés turístico.",
-    "Authors": [
+    "number": 80,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "85",
-    "Target": "Artículo 27",
-    "Content": "Artículo 27. Identidad filiatoria. Toda persona tiene derecho a conocer quiénes son sus progenitores, accediendo a la información necesaria para ello.",
-    "Authors": [
+    "number": 83,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 26. Resguardo y promoción del turismo. Todas las personas tienen derecho a gozar y participar del turismo. El Estado en coordinación con los Gobiernos regionales y locales deberá fomentar el turismo, así como resguardar los sitios y áreas de interés turístico.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "87",
-    "Target": "Artículo 28",
-    "Content": "Suprimir el Artículo 28",
-    "Authors": [
+    "number": 85,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 27. Identidad filiatoria. Toda persona tiene derecho a conocer quiénes son sus progenitores, accediendo a la información necesaria para ello.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "90",
-    "Target": "Artículo 29, inciso segundo",
-    "Content": "La Constitución asegura el derecho a las personas a tomar decisiones libres e informadas sobre sus cuidados y tratamientos al final de su vida.",
-    "Authors": [
-      "Valenzuela, Paulina"
-    ]
+    "number": 87,
+    "authors_matched": [
+      "Neumann, Ricardo",
+      "Letelier, Margarita",
+      "Tepper, Maria Angelica"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "93",
-    "Target": "Artículo 29, inciso cuarto",
-    "Content": "La ley regulará las condiciones para garantizar el ejercicio de este derecho, incluyendo el acceso a la información y el acompañamiento adecuado.",
-    "Authors": [
+    "number": 90,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 29,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "La Constitución asegura el derecho a las personas a tomar decisiones libres e informadas sobre sus cuidados y tratamientos al final de su vida.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "100",
-    "Target": "Artículo 30",
-    "Content": "Artículo 30.- Derecho de Acceso a la energía. Toda persona tiene derecho al acceso a energía suficiente y asequible para usos mínimos personales y domésticos. La ley establecerá las características de estos usos mínimos y las condiciones que aseguren la continuidad, eficiencia y sostenibilidad de los servicios energéticos, en consideración a diversos contextos sociales, culturales y territoriales.",
-    "Authors": [
+    "number": 93,
+    "authors_matched": [
       "Valenzuela, Paulina"
-    ]
+    ],
+    "target_article": 29,
+    "target_scope": "INCISO 4",
+    "action": "SUBSTITUTE",
+    "content": "La ley regulará las condiciones para garantizar el ejercicio de este derecho, incluyendo el acceso a la información y el acompañamiento adecuado.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 100,
+    "authors_matched": [
+      "Valenzuela, Paulina"
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 30.- Derecho de Acceso a la energía. Toda persona tiene derecho al acceso a energía suficiente y asequible para usos mínimos personales y domésticos. La ley establecerá las características de estos usos mínimos y las condiciones que aseguren la continuidad, eficiencia y sostenibilidad de los servicios energéticos, en consideración a diversos contextos sociales, culturales y territoriales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

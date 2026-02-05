@@ -1,9 +1,7 @@
 [
   {
-    "Number": "3",
-    "Target": "Artículo 4",
-    "Content": "Artículo 4.- De la inamovilidad. Las juezas y jueces son inamovibles. No pueden ser suspendidos, trasladados o removidos sino conforme a las causales y procedimientos establecidos por la Constitución y las leyes.",
-    "Authors": [
+    "number": "3",
+    "authors_matched": [
       "Bravo, Daniel",
       "Llanquileo, Natividad",
       "Stingo, Daniel",
@@ -11,13 +9,17 @@
       "Royo, Manuela",
       "Gutierrez, Hugo",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4.- De la inamovilidad. Las juezas y jueces son inamovibles. No pueden ser suspendidos, trasladados o removidos sino conforme a las causales y procedimientos establecidos por la Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "10",
-    "Target": "Artículo 8",
-    "Content": "Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar las resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los tribunales de justicia podrán impartir órdenes o instrucciones directas a la fuerza pública, debiendo cumplir lo mandatado de forma rápida y expedita, sin poder calificar su fundamento, oportunidad o legalidad. Las sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos, cuya jurisdicción ha sido reconocida por éste, serán cumplidas por los tribunales de justicia conforme al procedimiento establecido por la ley, aun si contraviniere una sentencia firme pronunciada por estos.",
-    "Authors": [
+    "number": "10",
+    "authors_matched": [
       "Bravo, Daniel",
       "Llanquileo, Natividad",
       "Stingo, Daniel",
@@ -25,6 +27,12 @@
       "Royo, Manuela",
       "Gutierrez, Hugo",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar las resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los tribunales de justicia podrán impartir órdenes o instrucciones directas a la fuerza pública, debiendo cumplir lo mandatado de forma rápida y expedita, sin poder calificar su fundamento, oportunidad o legalidad.\nLas sentencias dictadas contra el Estado de Chile por tribunales internacionales de derechos humanos, cuya jurisdicción ha sido reconocida por éste, serán cumplidas por los tribunales de justicia conforme al procedimiento establecido por la ley, aun si contraviniere una sentencia firme pronunciada por estos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

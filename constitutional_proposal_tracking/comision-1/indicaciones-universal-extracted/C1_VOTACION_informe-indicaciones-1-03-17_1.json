@@ -1,9 +1,7 @@
 [
   {
-    "Number": "16",
-    "Target": "Artículo 1 (Inciso segundo)",
-    "Content": "incorpora, entre las palabras “instituciones” y “del”, la expresión “y órganos”.",
-    "Authors": [
+    "number": "16",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Schonhaut, Constanza",
       "Arauna, Francisca",
@@ -14,15 +12,19 @@
       "Videla, Carolina",
       "Hoppe, Vanessa",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": " y órganos",
+    "content_to_remove": "",
+    "placement_instructions": "entre las palabras “instituciones” y “del”"
   },
   {
-    "Number": "17",
-    "Target": "Artículo 1 (Inciso segundo)",
-    "Content": "incorpora, entre las palabras “instituciones” y “del”, la expresión “y órganos”.",
-    "Authors": [
+    "number": "17",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -33,13 +35,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": " y órganos",
+    "content_to_remove": "",
+    "placement_instructions": "entre las palabras “instituciones” y “del”"
   },
   {
-    "Number": "18",
-    "Target": "Artículo 1 (Inciso segundo)",
-    "Content": "suprime la frase: “incluyendo las organizaciones sociales, profesionales, económicas y políticas,”.",
-    "Authors": [
+    "number": "18",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Schonhaut, Constanza",
       "Arauna, Francisca",
@@ -50,15 +56,19 @@
       "Videla, Carolina",
       "Hoppe, Vanessa",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "incluyendo las organizaciones sociales, profesionales, económicas y políticas,",
+    "placement_instructions": ""
   },
   {
-    "Number": "19",
-    "Target": "Artículo 1 (Inciso segundo)",
-    "Content": "suprime la frase: “incluyendo las organizaciones sociales, profesionales, económicas y políticas,”.",
-    "Authors": [
+    "number": "19",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -69,13 +79,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "incluyendo las organizaciones sociales, profesionales, económicas y políticas,",
+    "placement_instructions": ""
   },
   {
-    "Number": "31",
-    "Target": "Artículo 3",
-    "Content": "reemplaza la frase “históricamente desaventajados y excluidos” por la siguiente frase “oprimidos e históricamente excluidos”.",
-    "Authors": [
+    "number": "31",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Schonhaut, Constanza",
       "Arauna, Francisca",
@@ -86,15 +100,19 @@
       "Videla, Carolina",
       "Hoppe, Vanessa",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "oprimidos e históricamente excluidos",
+    "content_to_remove": "históricamente desaventajados y excluidos",
+    "placement_instructions": ""
   },
   {
-    "Number": "32",
-    "Target": "Artículo 3",
-    "Content": "reemplaza la frase “históricamente desaventajados y excluídos” por la siguiente frase: “oprimidos e históricamente excluidos”.",
-    "Authors": [
+    "number": "32",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -105,15 +123,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "oprimidos e históricamente excluidos",
+    "content_to_remove": "históricamente desaventajados y excluidos",
+    "placement_instructions": ""
   },
   {
-    "Number": "37",
-    "Target": "Artículo 3 (Incisos segundo y tercero)",
-    "Content": "“El Estado deberá garantizar la inclusión de estos grupos en las políticas públicas y en el proceso de formación de las leyes, mediante mecanismos de participación popular y deliberación política, asegurando medidas afirmativas que posibiliten su integración efectiva.”.",
-    "Authors": [
+    "number": "37",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -124,25 +146,33 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Estado deberá garantizar la inclusión de estos grupos en las políticas públicas y en el proceso de formación de las leyes, mediante mecanismos de participación popular y deliberación política, asegurando medidas afirmativas que posibiliten su integración efectiva.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "41",
-    "Target": "Artículo 4",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "41",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "42",
-    "Target": "Artículo 4",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "42",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -153,35 +183,47 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "48",
-    "Target": "Artículo 5",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "48",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "49",
-    "Target": "Artículo 5",
-    "Content": "lo elimina",
-    "Authors": [
+    "number": "49",
+    "authors_matched": [
       "Atria, Fernando",
       "Schonhaut, Constanza",
       "Bassa, Jaime"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "50",
-    "Target": "Artículo 5",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "50",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -192,24 +234,32 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "68",
-    "Target": "Artículo 6 (Inciso primero, nuevo)",
-    "Content": "“Chile es un Estado Plurinacional e Intercultural que reconoce la coexistencia de diversas naciones y pueblos en el marco de la unidad del Estado.”.",
-    "Authors": [
+    "number": "68",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 1",
+    "action": "ADD",
+    "content": "Chile es un Estado Plurinacional e Intercultural que reconoce la coexistencia de diversas naciones y pueblos en el marco de la unidad del Estado.",
+    "content_to_remove": "",
+    "placement_instructions": "como un reemplazo del inciso primero"
   },
   {
-    "Number": "74",
-    "Target": "Artículo 6 (Inciso segundo)",
-    "Content": "reemplaza la frase “en el marco de esta Constitución y en el Sistema Internacional de los Derechos Humanos y de los Pueblos Indígenas” por “conforme a esta Constitución, los tratados internacionales de derechos humanos ratificados y vigentes en Chile y la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas”.",
-    "Authors": [
+    "number": "74",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -220,15 +270,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "conforme a esta Constitución, los tratados internacionales de derechos humanos ratificados y vigentes en Chile y la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas",
+    "content_to_remove": "en el marco de esta Constitución y en el Sistema Internacional de los Derechos Humanos y de los Pueblos Indígenas",
+    "placement_instructions": ""
   },
   {
-    "Number": "79",
-    "Target": "Artículo 6 (Inciso tercero)",
-    "Content": "reemplaza la expresión “por la ley” por la frase “en la forma que establezca la ley”.",
-    "Authors": [
+    "number": "79",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -239,73 +293,101 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "en la forma que establezca la ley",
+    "content_to_remove": "por la ley",
+    "placement_instructions": ""
   },
   {
-    "Number": "86",
-    "Target": "Artículo 6 A",
-    "Content": "reemplaza “De la Plurinacionalidad. Chile es un Estado Plurinacional y pluricultural” por “Del pueblo tribal afrodescendiente”.",
-    "Authors": [
+    "number": "86",
+    "authors_matched": [
       "Arauna, Francisca",
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Del pueblo tribal afrodescendiente",
+    "content_to_remove": "De la Plurinacionalidad. Chile es un Estado Plurinacional y pluricultural",
+    "placement_instructions": ""
   },
   {
-    "Number": "88",
-    "Target": "Artículo 6 A (Inciso segundo)",
-    "Content": "“El Estado reconoce al pueblo tribal afrodescendiente y su titularidad de derechos colectivos reconocidos y garantizados por la Constitución, las leyes y los instrumentos internacionales reconocidos y ratificados por Chile”.",
-    "Authors": [
+    "number": "88",
+    "authors_matched": [
       "Arauna, Francisca",
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Estado reconoce al pueblo tribal afrodescendiente y su titularidad de derechos colectivos reconocidos y garantizados por la Constitución, las leyes y los instrumentos internacionales reconocidos y ratificados por Chile",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "93",
-    "Target": "Artículo 6 A (Inciso tercero)",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "93",
+    "authors_matched": [
       "Arauna, Francisca",
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "96",
-    "Target": "Artículo 6 A (Inciso cuarto)",
-    "Content": "suprime la frase: “, incorporando su representación en la estructura del Estado, sus órganos e instituciones ejecutivas, legislativas y judiciales, así como su representación política en órganos de elección popular”.",
-    "Authors": [
+    "number": "96",
+    "authors_matched": [
       "Larrain, Hernan"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 4",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": " incorporando su representación en la estructura del Estado, sus órganos e instituciones ejecutivas, legislativas y judiciales, así como su representación política en órganos de elección popular",
+    "placement_instructions": ""
   },
   {
-    "Number": "98",
-    "Target": "Artículo 6 A (Inciso final)",
-    "Content": "suprime la frase: “creando institucionalidad y promoviendo políticas públicas que favorezcan el reconocimiento y comprensión de la diversidad étnica y cultural, en la forma determinada por esta constitución, las leyes y Sistema Internacional de los Derechos Humanos y de los pueblos indígenas y tribales”.",
-    "Authors": [
+    "number": "98",
+    "authors_matched": [
       "Arauna, Francisca",
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO FINAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "creando institucionalidad y promoviendo políticas públicas que favorezcan el reconocimiento y comprensión de la diversidad étnica y cultural, en la forma determinada por esta constitución, las leyes y Sistema Internacional de los Derechos Humanos y de los pueblos indígenas y tribales",
+    "placement_instructions": ""
   },
   {
-    "Number": "104",
-    "Target": "Artículo 6 B",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "104",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "105",
-    "Target": "Artículo 6 B",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "105",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -316,25 +398,33 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "109",
-    "Target": "Artículo 6 C",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "109",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "110",
-    "Target": "Artículo 6 C",
-    "Content": "lo suprime",
-    "Authors": [
+    "number": "110",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -345,24 +435,32 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "118",
-    "Target": "Artículo 7 (Inciso primero)",
-    "Content": "sustituye la palabra “maritorios” por la frase “la protección del territorio marítimo”.",
-    "Authors": [
+    "number": "118",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "la protección del territorio marítimo",
+    "content_to_remove": "maritorios",
+    "placement_instructions": ""
   },
   {
-    "Number": "122",
-    "Target": "Artículo 7 (Inciso primero)",
-    "Content": "reemplaza en el inciso primero del artículo 7º la frase “al reconocimiento de sus instituciones y jurisdicciones propias” por la siguiente: “, a la cooperación e integración, al reconocimiento de sus instituciones, jurisdicciones y autoridades propias o tradicionales\".",
-    "Authors": [
+    "number": "122",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -373,15 +471,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": ", a la cooperación e integración, al reconocimiento de sus instituciones, jurisdicciones y autoridades propias o tradicionales",
+    "content_to_remove": "al reconocimiento de sus instituciones y jurisdicciones propias",
+    "placement_instructions": ""
   },
   {
-    "Number": "127",
-    "Target": "Artículo 7 (Inciso tercero)",
-    "Content": "sustituye el vocablo “deberá” por el vocablo “debe”.",
-    "Authors": [
+    "number": "127",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -392,15 +494,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "debe",
+    "content_to_remove": "deberá",
+    "placement_instructions": ""
   },
   {
-    "Number": "130",
-    "Target": "Artículo 7 (Inciso tercero)",
-    "Content": "agrega, luego de la frase que dice: “incorporando su representación en la estructura del Estado, sus órganos e instituciones, así como su representación política en los órganos de elección popular” la frase “a nivel local, regional y nacional\".",
-    "Authors": [
+    "number": "130",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -411,15 +517,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": " a nivel local, regional y nacional",
+    "content_to_remove": "",
+    "placement_instructions": "luego de la frase 'incorporando su representación en la estructura del Estado, sus órganos e instituciones, así como su representación política en los órganos de elección popular'"
   },
   {
-    "Number": "139",
-    "Target": "Artículo 8 (Inciso final, nuevo)",
-    "Content": "suprime la frase “o sus antecesores jurídicos”.",
-    "Authors": [
+    "number": "139",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -430,25 +540,33 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "o sus antecesores jurídicos",
+    "placement_instructions": ""
   },
   {
-    "Number": "140",
-    "Target": "Artículo 8 (Inciso final, nuevo)",
-    "Content": "suprime la expresión “o sus antecesores jurídicos”.",
-    "Authors": [
+    "number": "140",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "o sus antecesores jurídicos",
+    "placement_instructions": ""
   },
   {
-    "Number": "145",
-    "Target": "Artículo 9",
-    "Content": "suprime la expresión “, compensación”.",
-    "Authors": [
+    "number": "145",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -459,6 +577,12 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": ", compensación",
+    "placement_instructions": ""
   }
 ]

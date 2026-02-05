@@ -1,0 +1,623 @@
+[
+  {
+    "number": "133",
+    "authors_matched": [
+      "Cruz, Andres",
+      "Laibe, Tomas"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "134",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "135",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "137",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "138",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "139",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "143",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "144",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "147",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 11.- Principio de responsabilidad jurisdiccional. Las juezas y jueces son personalmente responsables por los delitos de cohecho, falta de observancia en materia sustancial de las leyes que reglan el procedimiento, y, en general, por toda prevaricación, denegación o torcida administración de justicia. La ley determinará los casos y el modo de hacer efectiva esta responsabilidad. Los perjuicios provocados por error judicial otorgan derecho a una indemnización conforme al procedimiento establecido por la Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "150",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "152",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "153",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "154",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "155",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "158",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "159",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "160",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "164",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "165",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "167",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "170",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 12.- Publicidad, Probidad y Transparencia. Todas las etapas de los procedimientos y las resoluciones judiciales son públicas. Excepcionalmente, la ley podrá establecer su reserva o secreto en aquellos casos en que la publicidad pueda significar un peligro grave de afectación a la integridad e intimidad de las personas. En los procesos en que intervengan niñas, niños y adolescentes, se deberá procurar el resguardo de su identidad. Los principios de probidad y de transparencia serán aplicables a todas las personas que ejercen jurisdicción en el país. La ley establecerá las responsabilidades correspondientes en caso de infracción a esta disposición",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "173",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "174",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "175",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "179",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 13.- Paridad y perspectiva de género. La función jurisdiccional se regirá por los principios de paridad y perspectiva de género. Todos los órganos y personas que intervienen en la función jurisdiccional deben garantizar la igualdad sustantiva. El Estado garantiza que los nombramientos en el Sistema Nacional de Justicia respeten el principio de paridad en todos los órganos de la jurisdicción, incluyendo la designación de las presidencias. Los tribunales, cualquiera sea su competencia, deben resolver con enfoque de género.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "180",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "181",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "184",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 14. Plurinacionalidad, pluralismo jurídico e interculturalidad. La función jurisdiccional se define en su estructura, integración y procedimientos conforme a los principios de plurinacionalidad, pluralismo jurídico e interculturalidad. Los órganos y personas que intervienen en el desarrollo de la jurisdicción, deben adoptar una perspectiva intercultural en el tratamiento y resolución de las materias de su competencia, respetando las costumbres, tradiciones, protocolos y el derecho propio de los pueblos indígenas, conforme a los estándares internacionales de derechos humanos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "185",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "186",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "188",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "189",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "191",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "192",
+    "authors_matched": [
+      "Bown, Carol",
+      "Hurtado, Ruth"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "193",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "197",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "198",
+    "authors_matched": [
+      "Royo, Manuela",
+      "Bravo, Daniel",
+      "Daza, Mauricio",
+      "Jimenez, Luis",
+      "Llanquileo, Natividad",
+      "Logan, Rodrigo",
+      "Stingo, Daniel"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 15.- Mecanismos Colaborativos de Resolución de Conflictos. Es deber del Estado promover e implementar mecanismos colaborativos de resolución de conflictos que garanticen la participación activa y el diálogo. Sólo la ley podrá determinar los requisitos y efectos de los mecanismos alternativos de resolución de conflictos.",
+    "content_to_remove": "",
+    "placement_instructions": "agregar un nuevo artículo 15"
+  }
+]

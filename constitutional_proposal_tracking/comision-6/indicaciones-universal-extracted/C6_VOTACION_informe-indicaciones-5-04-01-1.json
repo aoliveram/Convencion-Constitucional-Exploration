@@ -1,9 +1,7 @@
 [
   {
-    "Number": "2",
-    "Target": "Artículo 2º, inciso segundo",
-    "Content": "“Sólo la ley podrá establecer cargos de jueces y juezas. La Corte Suprema y las Cortes de Apelaciones no podrán ser integradas por personas que no tengan la calidad de juezas o jueces titulares, interinos, suplentes o subrogantes.”",
-    "Authors": [
+    "number": "2",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -11,13 +9,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Sólo la ley podrá establecer cargos de jueces y juezas. La Corte Suprema y las Cortes de Apelaciones no podrán ser integradas por personas que no tengan la calidad de juezas o jueces titulares, interinos, suplentes o subrogantes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "6",
-    "Target": "Artículo 8º, inciso segundo",
-    "Content": "“Todos los tribunales estarán sometidos, a lo menos cada cinco años, a una revisión integral de la gestión por el Consejo de la Justicia, que incluirá audiencias públicas, para determinar su correcto funcionamiento, en conformidad a lo establecido en la Constitución y la ley. Esta revisión, en ningún caso, incluirá las resoluciones judiciales.”",
-    "Authors": [
+    "number": "6",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -25,13 +27,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Todos los tribunales estarán sometidos, a lo menos cada cinco años, a una revisión integral de la gestión por el Consejo de la Justicia, que incluirá audiencias públicas, para determinar su correcto funcionamiento, en conformidad a lo establecido en la Constitución y la ley. Esta revisión, en ningún caso, incluirá las resoluciones judiciales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "8",
-    "Target": "Artículo 9º",
-    "Content": "“Artículo 9. Acceso a la justicia intercultural. Es deber del Estado garantizar que los órganos que intervienen en el proceso respeten y promuevan el derecho a acceder a una justicia con perspectiva intercultural. Las personas tienen derecho a una asistencia jurídica especializada, intérpretes, facilitadores interculturales y peritajes consultivos, cuando así lo requieran y no puedan proveérselas por sí mismas.”",
-    "Authors": [
+    "number": "8",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -39,13 +45,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 9. Acceso a la justicia intercultural. Es deber del Estado garantizar que los órganos que intervienen en el proceso respeten y promuevan el derecho a acceder a una justicia con perspectiva intercultural. Las personas tienen derecho a una asistencia jurídica especializada, intérpretes, facilitadores interculturales y peritajes consultivos, cuando así lo requieran y no puedan proveérselas por sí mismas.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "15",
-    "Target": "Artículo 12º, incisos segundo, tercero y cuarto",
-    "Content": "“Se compondrá de veintiún juezas y jueces y funcionará en pleno o salas especializadas. Sus juezas y jueces durarán en sus cargos un máximo de catorce años, sin posibilidad de reelección.”",
-    "Authors": [
+    "number": "15",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -53,13 +63,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "INCISO 2, 3, 4",
+    "action": "SUBSTITUTE",
+    "content": "Se compondrá de veintiún juezas y jueces y funcionará en pleno o salas especializadas. Sus juezas y jueces durarán en sus cargos un máximo de catorce años, sin posibilidad de reelección.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "23",
-    "Target": "Artículo 13º, incisos segundo, tercero y cuarto",
-    "Content": "“Funcionarán en pleno o salas preferentemente especializadas. La presidencia de cada Corte de Apelaciones será́ ejercida por una persona elegida por sus pares. Durará́ en sus funciones dos años.”",
-    "Authors": [
+    "number": "23",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -67,13 +81,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "INCISO 2, 3, 4",
+    "action": "SUBSTITUTE",
+    "content": "Funcionarán en pleno o salas preferentemente especializadas. La presidencia de cada Corte de Apelaciones será́ ejercida por una persona elegida por sus pares. Durará́ en sus funciones dos años.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "28",
-    "Target": "Artículo 22º",
-    "Content": "“Artículo 22. Perspectiva interseccional. La función jurisdiccional debe ejercerse bajo un enfoque interseccional, debiendo garantizar la igualdad sustantiva y el cumplimiento de las obligaciones internacionales de derechos humanos en la materia. Este deber resulta extensivo a todo órgano jurisdiccional y auxiliar, funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia.”",
-    "Authors": [
+    "number": "28",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -81,13 +99,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 22. Perspectiva interseccional. La función jurisdiccional debe ejercerse bajo un enfoque interseccional, debiendo garantizar la igualdad sustantiva y el cumplimiento de las obligaciones internacionales de derechos humanos en la materia. Este deber resulta extensivo a todo órgano jurisdiccional y auxiliar, funcionarias y funcionarios del Sistema de Justicia, durante todo el curso del proceso y en todas las actuaciones que realicen. Asimismo, los tribunales, cualquiera sea su competencia.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "33",
-    "Target": "Epígrafe “§ Sistemas jurídicos indígenas”",
-    "Content": "“Sistemas de justicia indígenas”",
-    "Authors": [
+    "number": "33",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -95,21 +117,29 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 24,
+    "target_scope": "WORDING",
+    "action": "SUBSTITUTE",
+    "content": "Sistemas de justicia indígenas",
+    "content_to_remove": "§ Sistemas jurídicos indígenas",
+    "placement_instructions": ""
   },
   {
-    "Number": "39",
-    "Target": "Artículo 24 bis (nuevo)",
-    "Content": "“Artículo 24 bis.- Los sistemas de justicia indígenas solo conocerán conflictos entre miembros de un mismo pueblo originario. Los afectados siempre tendrán la opción de someter el asunto al Sistema Nacional de Justicia.”",
-    "Authors": [
+    "number": "39",
+    "authors_matched": [
       "Daza, Mauricio"
-    ]
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 24 bis.- Los sistemas de justicia indígenas solo conocerán conflictos entre miembros de un mismo pueblo originario. Los afectados siempre tendrán la opción de someter el asunto al Sistema Nacional de Justicia.",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación del artículo 24, un nuevo artículo 24 bis"
   },
   {
-    "Number": "43",
-    "Target": "Artículo 26º",
-    "Content": "“Artículo 26. Impugnaciones contra las decisiones de la jurisdicción indígena. La Corte Suprema conocerá y resolverá de las impugnaciones deducidas en contra de la decisiones de la jurisdicción indígena, en sala especializada y asistida por una consejería técnica integrada por expertos en su cultura y derecho propio, en la forma que establezca la ley.”",
-    "Authors": [
+    "number": "43",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -117,13 +147,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 26. Impugnaciones contra las decisiones de la jurisdicción indígena. La Corte Suprema conocerá y resolverá de las impugnaciones deducidas en contra de la decisiones de la jurisdicción indígena, en sala especializada y asistida por una consejería técnica integrada por expertos en su cultura y derecho propio, en la forma que establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "48",
-    "Target": "Artículo 28º, letras b), c), d), e), f), g), h), i), j) y k)",
-    "Content": "“b) Adoptar las medidas disciplinarias de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia, incluida su remoción, conforme a lo dispuesto en esta Constitución y la ley. c) Efectuar una revisión integral de la gestión de todos los tribunales del sistema nacional de justicia. En ningún caso incluirá las resoluciones judiciales. d) Evaluar y calificar, periódicamente, el desempeño de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia. e) Decidir sobre promociones, traslados, permutas y cese de funciones de integrantes del sistema nacional de justicia. f) Definir las necesidades presupuestarias, ejecutar y gestionar los recursos para el adecuado funcionamiento del Sistema Nacional de Justicia. g) Pronunciarse sobre cualquier modificación legal en la organización y atribuciones del sistema nacional de justicia. El Congreso deberá oficiar al Consejo, el que deberá responder dentro treinta días contados desde su recepción. h) Proponer la creación, modificación o supresión de tribunales a la autoridad competente. i) Velar por la habilitación, formación y continuo perfeccionamiento de quienes integran el sistema nacional de justicia. Para estos efectos, la Academia Judicial estará sometida a la dirección del Consejo. j) Dictar instrucciones relativas a la organización y gestión administrativa de los tribunales. Estas instrucciones podrán tener un alcance nacional, regional o local. k) Las demás que encomiende esta Constitución y las leyes.”",
-    "Authors": [
+    "number": "48",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -131,13 +165,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 28,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "b) Adoptar las medidas disciplinarias de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia, incluida su remoción, conforme a lo dispuesto en esta Constitución y la ley. c) Efectuar una revisión integral de la gestión de todos los tribunales del sistema nacional de justicia. En ningún caso incluirá las resoluciones judiciales. d) Evaluar y calificar, periódicamente, el desempeño de juezas, jueces, funcionarias y funcionarios del Sistema Nacional de Justicia. e) Decidir sobre promociones, traslados, permutas y cese de funciones de integrantes del sistema nacional de justicia. f) Definir las necesidades presupuestarias, ejecutar y gestionar los recursos para el adecuado funcionamiento del Sistema Nacional de Justicia. g) Pronunciarse sobre cualquier modificación legal en la organización y atribuciones del sistema nacional de justicia. El Congreso deberá oficiar al Consejo, el que deberá responder dentro treinta días contados desde su recepción. h) Proponer la creación, modificación o supresión de tribunales a la autoridad competente. i) Velar por la habilitación, formación y continuo perfeccionamiento de quienes integran el sistema nacional de justicia. Para estos efectos, la Academia Judicial estará sometida a la dirección del Consejo. j) Dictar instrucciones relativas a la organización y gestión administrativa de los tribunales. Estas instrucciones podrán tener un alcance nacional, regional o local. k) Las demás que encomiende esta Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "50",
-    "Target": "Artículo 29º",
-    "Content": "“Artículo 29.- Composición del Consejo de la Justicia. El Consejo de la Justicia se compone por diecisiete integrantes, conforme a la siguiente integración: a) Ocho integrantes serán juezas o jueces titulares elegidos por sus pares. b) Dos integrantes serán funcionarios o profesionales del Sistema Nacional de Justicia elegidos por sus pares. c) Dos integrantes elegidos por los pueblos indígenas en la forma que determine la Constitución y la ley. d) Cinco integrantes elegidos por el Congreso, previa determinación de las ternas correspondientes por concurso público, a cargo del Consejo de Alta Dirección Pública. Las y los integrantes señalados en la letra c) deberán ser personas de comprobada idoneidad para el ejercicio del cargo y que se hayan destacado en la función pública o social. En el caso de la letra d) deberán ser profesionales con a lo menos diez años del título correspondiente, que se hubieren destacado en la actividad profesional, académica o en la función pública. Las y los integrantes durarán seis años en sus cargos y no podrán ser reelegidos, debiendo renovarse por parcialidades cada tres años de conformidad a lo establecido por la ley. Sus integrantes serán elegidos de acuerdo a criterios de paridad de género, plurinacionalidad y equidad territorial.”",
-    "Authors": [
+    "number": "50",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -145,13 +183,17 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 29.- Composición del Consejo de la Justicia. El Consejo de la Justicia se compone por diecisiete integrantes, conforme a la siguiente integración: a) Ocho integrantes serán juezas o jueces titulares elegidos por sus pares. b) Dos integrantes serán funcionarios o profesionales del Sistema Nacional de Justicia elegidos por sus pares. c) Dos integrantes elegidos por los pueblos indígenas en la forma que determine la Constitución y la ley. d) Cinco integrantes elegidos por el Congreso, previa determinación de las ternas correspondientes por concurso público, a cargo del Consejo de Alta Dirección Pública. Las y los integrantes señalados en la letra c) deberán ser personas de comprobada idoneidad para el ejercicio del cargo y que se hayan destacado en la función pública o social. En el caso de la letra d) deberán ser profesionales con a lo menos diez años del título correspondiente, que se hubieren destacado en la actividad profesional, académica o en la función pública. Las y los integrantes durarán seis años en sus cargos y no podrán ser reelegidos, debiendo renovarse por parcialidades cada tres años de conformidad a lo establecido por la ley. Sus integrantes serán elegidos de acuerdo a criterios de paridad de género, plurinacionalidad y equidad territorial.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "54",
-    "Target": "Artículo 30º, inciso segundo",
-    "Content": "“El Consejo se organizará desconcentradamente, en conformidad a lo que establezca la ley.”",
-    "Authors": [
+    "number": "54",
+    "authors_matched": [
       "Laibe, Tomas",
       "Daza, Mauricio",
       "Jimenez, Luis",
@@ -159,6 +201,12 @@
       "Royo, Manuela",
       "Stingo, Daniel",
       "Villena, Ingrid"
-    ]
+    ],
+    "target_article": 30,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Consejo se organizará desconcentradamente, en conformidad a lo que establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

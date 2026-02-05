@@ -1,38 +1,45 @@
 [
   {
-    "Number": "1",
-    "Target": "Artículo 3°",
-    "Content": "Artículo 3°.- Corresponderá al Estado, en sus diferentes ámbitos y funciones, garantizar la participación democrática e incidencia política de todas las personas, especialmente la de los grupos históricamente excluidos y de especial protección. El Estado deberá garantizar la inclusión de estos grupos en las políticas públicas y en el proceso de formación de las leyes, mediante mecanismos de participación popular y deliberación política, asegurando medidas afirmativas que posibiliten su participación efectiva",
-    "Authors": [
-      "Bárbara Sepúlveda",
-      "Constanza Schonhaut",
-      "Alondra Carrillo",
-      "Francisca Arauna",
-      "Valentina Miranda",
-      "Ingrid Villena",
-      "Mariela Serey",
-      "Carolina Sepúlveda",
-      "Aurora Delgado",
-      "Vanessa Hoppe",
-      "Alejandra Flores",
-      "Damaris Abarca",
-      "Maria Ramona Reyes",
-      "Carolina Videla",
-      "Tammy Pustilnick",
-      "Patricia Politzer"
-    ]
+    "number": "1",
+    "authors_matched": [
+      "Sepulveda, Barbara",
+      "Schonhaut, Constanza",
+      "Carrillo, Alondra",
+      "Arauna, Francisca",
+      "Miranda, Valentina",
+      "Villena, Ingrid",
+      "Serey, Mariela",
+      "Sepulveda, Carolina",
+      "Delgado, Aurora",
+      "Hoppe, Vanessa",
+      "Flores, Alejandra",
+      "Abarca, Damaris",
+      "Reyes, Maria Ramona",
+      "Videla, Carolina",
+      "Pustilnick, Tammy",
+      "Politzer, Patricia"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 3°.- Corresponderá al Estado, en sus diferentes ámbitos y funciones, garantizar la participación democrática e incidencia política de todas las personas, especialmente la de los grupos históricamente excluidos y de especial protección.\n\nEl Estado deberá garantizar la inclusión de estos grupos en las políticas públicas y en el proceso de formación de las leyes, mediante mecanismos de participación popular y deliberación política, asegurando medidas afirmativas que posibiliten su participación efectiva",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "9",
-    "Target": "Artículo 4°, Inciso segundo",
-    "Content": "Los pueblos y naciones indígenas son preexistentes a la conformación del Estado. Son titulares del derecho de libre determinación, así como de los demás derechos colectivos reconocidos y garantizados conforme a esta Constitución y los tratados internacionales de derechos humanos ratificados y vigentes en Chile.",
-    "Authors": [
-      "Rosa Catrileo",
-      "Alejandra Flores",
-      "Luis Jimenez",
-      "Adolfo Millabur",
-      "Tiare Aguilera",
-      "Marcos Barraza"
-    ]
+    "number": "9",
+    "authors_matched": [
+      "Catrileo, Rosa",
+      "Flores, Alejandra",
+      "Jimenez, Luis",
+      "Millabur, Adolfo",
+      "Aguilera, Tiare"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Los pueblos y naciones indígenas son preexistentes a la conformación del Estado. Son titulares del derecho de libre determinación, así como de los demás derechos colectivos reconocidos y garantizados conforme a esta Constitución y los tratados internacionales de derechos humanos ratificados y vigentes en Chile.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

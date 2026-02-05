@@ -1,51 +1,86 @@
 [
   {
     "number": "191",
-    "target_article": "Articulo nuevo",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": null,
+    "target_scope": "TOTAL",
     "action": "ADD",
-    "content": "Articulo nuevo. Ordenamiento Territorial. El ordenamiento territorial es de interés público. La ordenación y planificación de los territorios y del espacio marino costero será vinculante, realizada de manera participativa y coordinada. Su unidad de ordenamiento será la cuenca hidrográfica y deberá considerar los impactos que los usos de suelo causen en la disponibilidad y calidad de agua. Los planes de ordenamiento y de planificación podrán definir áreas de protección ambiental y cultural. Es deber del Estado Regional considerar en el ordenamiento territorial y de cuencas la protección de las partes altas de la cuenca, glaciares, las zonas de recarga natural de acuíferos, los ecosistemas de la cuenca como humedales, bofedales, salares, vertientes y turberas; las áreas de inundación de rios y las de biodiversidad endémica, nativa y migratoria.",
-    "authors_raw": "convencional Olivares y otros"
+    "content": "Ordenamiento Territorial. El ordenamiento territorial es de interés público. La ordenación y planificación de los territorios y del espacio marino costero será vinculante, realizada de manera participativa y coordinada. Su unidad de ordenamiento será la cuenca hidrográfica y deberá considerar los impactos que los usos de suelo causen en la disponibilidad y calidad de agua. Los planes de ordenamiento y de planificación podrán definir áreas de protección ambiental y cultural. Es deber del Estado Regional considerar en el ordenamiento territorial y de cuencas la protección de las partes altas de la cuenca, glaciares, las zonas de recarga natural de acuíferos, los ecosistemas de la cuenca como humedales, bofedales, salares, vertientes y turberas; las áreas de inundación de rios y las de biodiversidad endémica, nativa y migratoria.",
+    "content_to_remove": "",
+    "placement_instructions": "siguiente artículo"
   },
   {
     "number": "242",
-    "target_article": "Articulo 11 (sustituye previo)",
-    "action": "MOD",
-    "content": "Articulo 11. El Estado protegerá los bosques nativos y sus funciones ecosistémicas; velará por su preservación, restauración y regeneración; regulará el uso, manejo, conservación y monitoreo de estos con pertinencia ecológica, territorial y cultural; evitará su fragmentación; y favorecerá la conectividad hídrica de la cuenca.",
-    "authors_raw": "convencional Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 11. El Estado protegerá los bosques nativos y sus funciones ecosistémicas; velará por su preservación, restauración y regeneración; regulará el uso, manejo, conservación y monitoreo de estos con pertinencia ecológica, territorial y cultural; evitará su fragmentación; y favorecerá la conectividad hídrica de la cuenca.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "332",
-    "target_article": "Título de la temática 9",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 9,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
     "content": "De la soberanía alimentaria",
-    "authors_raw": "convencional Olivares"
+    "content_to_remove": "Soberanía alimentaria y resguardo de la semilla ancestral y campesina",
+    "placement_instructions": ""
   },
   {
     "number": "335",
-    "target_article": "Artículo 97",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 97,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 12. Los pueblos tienen el derecho a determinar sus propios sistemas alimentarios con pertinencia local y cultural. El Estado definirá las estrategias y promoverá las técnicas agroecológicas necesarias para la producción, distribución y consumo, que garanticen el derecho a la alimentación y el ejercicio de la soberanía alimentaria.",
-    "authors_raw": "convencional Olivares"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "339",
-    "target_article": "Artículo 98",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 98,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 13. El Estado fomentará las actividades necesarias para la soberanía alimentaria, especialmente a la pequeña agricultura familiar campesina e indígena, protegiendo a quienes las realizan y garantizará el acceso a los bienes necesarios para su ejercicio, en los términos establecidos por la ley.",
-    "authors_raw": "convencional Olivares"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "343",
-    "target_article": "Artículo 99",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 99,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 14. Es deber del Estado proteger y recuperar las semillas tradicionales, así como todo patrimonio genético necesario para el resguardo de la soberanía alimentaria, en el marco establecido por la ley.",
-    "authors_raw": "convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "350",
-    "target_article": "Artículo 100",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 100,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 15. El Estado promoverá una producción alimentaria sana, segura e informada, orientada al bienestar de las personas. Para ello regulará el etiquetado de alimentos y podrá limitar el uso de agroquímicos, de conformidad a la ley.",
-    "authors_raw": "convencional Olivares"
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

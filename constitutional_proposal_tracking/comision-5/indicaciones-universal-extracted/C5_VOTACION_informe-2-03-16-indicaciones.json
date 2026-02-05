@@ -1,240 +1,782 @@
 [
   {
-    "number": "1, 3, 4",
-    "target_article": "Artículo 2°",
-    "action": "DEL",
-    "content": "suprimir el artículo 2°",
-    "authors_raw": "Harboe (1), Martin y otros (3), Toloza (4)"
+    "number": 1,
+    "authors_matched": [
+      "Harboe, Felipe"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "11, 12",
-    "target_article": "Artículo 3°",
-    "action": "DEL",
-    "content": "suprimir el artículo 3",
-    "authors_raw": "Martin y otros (11), Vega (12)"
+    "number": 3,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "17",
-    "target_article": "Artículo 4°",
-    "action": "MOD",
+    "number": 4,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 11,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 12,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 17,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 4. De los derechos de la Naturaleza. La Naturaleza tiene derecho a que se respete y proteja su existencia, a la regeneración, a la mantención y a la restauración de sus funciones y equilibrios dinámicos, que comprenden los ciclos naturales, los ecosistemas y la biodiversidad. El Estado a través de sus instituciones debe garantizar y promover los derechos de la Naturaleza según lo determine la Constitución y las Leyes.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "26, 27",
-    "target_article": "Artículo 6°",
-    "action": "DEL",
-    "content": "suprimir el artículo 6",
-    "authors_raw": "Martin y otros (26), Álvarez (27)"
+    "number": 26,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "30, 31",
-    "target_article": "Artículo 7°",
-    "action": "DEL",
-    "content": "suprimir el artículo 7",
-    "authors_raw": "Martin y otros (30), Toloza (31)"
+    "number": 27,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "33, 34",
-    "target_article": "Artículo 8°",
-    "action": "DEL",
-    "content": "suprimir el artículo 8",
-    "authors_raw": "Martin y otros (33), Vega (34)"
+    "number": 30,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "39",
-    "target_article": "Artículo 9°",
-    "action": "MOD",
+    "number": 31,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 33,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 34,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 39,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 9.- La Ley podrá establecer restricciones al ejercicio de determinados derechos o libertades para proteger el medio ambiente y la Naturaleza.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "42, 43",
-    "target_article": "Artículo 10°",
-    "action": "DEL",
-    "content": "suprimir el artículo 10",
-    "authors_raw": "Martin (42), Álvarez (43)"
+    "number": 42,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "45, 46",
-    "target_article": "Artículo 11°",
-    "action": "DEL",
-    "content": "suprimir el artículo 11",
-    "authors_raw": "Martin y otros (45), Toloza (46)"
+    "number": 43,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "53",
-    "target_article": "Artículo 12°",
-    "action": "MOD",
+    "number": 45,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 46,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 53,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 12. De los bienes comunes naturales. Los bienes comunes naturales son elementos o componentes de la Naturaleza no susceptibles de apropiación. El Estado es custodio de estos bienes, debiendo conservarlos, resguardarlos y administrarlos, asegurando una gestión participativa y democrática. El Estado podrá otorgar autorizaciones administrativas respecto de los bienes comunes naturales que la Constitución determine. Estas autorizaciones estarán sujetas a causales de caducidad, revocación y a obligaciones específicas de conservación. No habrá derechos de propiedad sobre dichas autorizaciones. Los pueblos indígenas tienen derechos colectivos a los bienes naturales situados en sus territorios, en conformidad con los tratados e instrumentos internacionales de derechos humanos de los que Chile es parte.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "54, 55",
-    "target_article": "Artículo 13°",
-    "action": "DEL",
-    "content": "suprimir el artículo 13",
-    "authors_raw": "Martin y otros (54), Fontaine (55)"
+    "number": 54,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "58, 59",
-    "target_article": "Artículo 14°",
-    "action": "DEL",
-    "content": "suprimir el artículo 14",
-    "authors_raw": "Martin y otros (58), Álvarez (59)"
+    "number": 55,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "61, 62",
-    "target_article": "Artículo 15°",
-    "action": "DEL",
-    "content": "suprimir el artículo 15",
-    "authors_raw": "Martin y otros (61), Toloza (62)"
+    "number": 58,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "64, 65",
-    "target_article": "Artículo 16°",
-    "action": "DEL",
-    "content": "suprimir el artículo 16",
-    "authors_raw": "Martin y otros (64), Vega (65)"
+    "number": 59,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "66, 67, 68",
-    "target_article": "Artículo 17°",
-    "action": "DEL",
-    "content": "suprimir el artículo 17",
-    "authors_raw": "Harboe (66), Martin y otros (67), Fontaine (68)"
+    "number": 61,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "70, 71",
-    "target_article": "Artículo 18°",
-    "action": "DEL",
-    "content": "suprimir el artículo 18",
-    "authors_raw": "Martin y otros (70), Álvarez (71)"
+    "number": 62,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "75",
-    "target_article": "Artículo 19°",
-    "action": "MOD",
-    "content": "Artículo 19. Acceso responsable a la Naturaleza. Se reconoce a todas las personas el derecho de acceso responsable, universal y temporal a las montañas, riberas de ríos, mar, playas y lagos. Este derecho se ejercerá respetando los derechos de la Naturaleza y de los pueblos indígenas. La ley regulará el ejercicio de este derecho, las obligaciones de los propietarios aledaños y el régimen de responsabilidad aplicable, entre otros.",
-    "authors_raw": "Martin y otros"
+    "number": 64,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "81",
-    "target_article": "Artículo 20°",
-    "action": "MOD",
+    "number": 65,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 66,
+    "authors_matched": [
+      "Harboe, Felipe"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 67,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 68,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 70,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 71,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 75,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 19. Acceso responsable a la Naturaleza. Se reconoce a todas las personas el derecho de acceso responsable, universal y temporal a las montañas, riberas de ríos, mar, playas y lagos. Este derecho se ejercerá respetando los derechos de la Naturaleza y de los pueblos indígenas. La ley regulará el ejercicio de este derecho, las obligaciones de los propietarios aledaños y el régimen de responsabilidad aplicable, entre otros",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 81,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 20. De la gestión de residuos. Es deber del Estado normar y fomentar la gestión, reducción y valorización de residuos, en la forma que determine la Ley.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "85, 86",
-    "target_article": "Artículo 21°",
-    "action": "DEL",
-    "content": "suprimir el artículo 21",
-    "authors_raw": "Martin y otros (85), Fontaine (86)"
+    "number": 85,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "89, 90",
-    "target_article": "Artículo 22°",
-    "action": "DEL",
-    "content": "suprimir el artículo 22",
-    "authors_raw": "Martin y otros (89), Álvarez (90)"
+    "number": 86,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "94",
-    "target_article": "Artículo 24°",
-    "action": "DEL",
-    "content": "suprimir el artículo 24",
-    "authors_raw": "Martin y otros"
+    "number": 89,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "99",
-    "target_article": "Artículo 26°",
-    "action": "MOD",
+    "number": 90,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 94,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 99,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 26. Principios ambientales. Son principios para la protección de la Naturaleza y el medio ambiente, a lo menos, los principios de progresividad, precautorio, preventivo, justicia ambiental, solidaridad intergeneracional, responsabilidad y acción climática justa.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "104, 105, 106",
-    "target_article": "Artículo 27°",
-    "action": "DEL",
-    "content": "suprimir el artículo 27",
-    "authors_raw": "Harboe (104), Martin y otros (105), Toloza (106)"
+    "number": 104,
+    "authors_matched": [
+      "Harboe, Felipe"
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "113, 114",
-    "target_article": "Artículo 28°",
-    "action": "DEL",
-    "content": "suprimir el artículo 28",
-    "authors_raw": "Martin y otros (113), Vega (114)"
+    "number": 105,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "118, 119",
-    "target_article": "Artículo 29°",
-    "action": "DEL",
-    "content": "suprimir el artículo 29",
-    "authors_raw": "Martin y otros (118), Fontaine (119)"
+    "number": 106,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "124, 125",
-    "target_article": "Artículo 30°",
-    "action": "DEL",
-    "content": "suprimir el artículo 30",
-    "authors_raw": "Martin y otros (124), Álvarez (125)"
+    "number": 113,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "128, 129",
-    "target_article": "Artículo 31°",
-    "action": "DEL",
-    "content": "suprimir el artículo 31",
-    "authors_raw": "Martin y otros (128), Toloza (129)"
+    "number": 114,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "133, 134, 135",
-    "target_article": "Artículo 32°",
-    "action": "DEL",
-    "content": "suprimir el artículo 32",
-    "authors_raw": "Harboe (133), Martin y otros (134), Vega (135)"
+    "number": 118,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "138, 139",
-    "target_article": "Artículo 34°",
-    "action": "DEL",
-    "content": "suprimir el artículo 34",
-    "authors_raw": "Martin y otros (138), Álvarez (139)"
+    "number": 119,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "141, 142",
-    "target_article": "Artículo 35°",
-    "action": "DEL",
-    "content": "suprimir el artículo 35",
-    "authors_raw": "Martin y otros (141), Toloza (142)"
+    "number": 124,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "144, 145",
-    "target_article": "Artículo 36°",
-    "action": "DEL",
-    "content": "suprimir el artículo 36",
-    "authors_raw": "Martin y otros (144), Vega (145)"
+    "number": 125,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "148, 149",
-    "target_article": "Artículo 38°",
-    "action": "DEL",
-    "content": "suprimir el artículo 38",
-    "authors_raw": "Martin y otros (148), Álvarez (149)"
+    "number": 128,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 31,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "150, 151",
-    "target_article": "Artículo Transitorio Primero",
-    "action": "DEL",
-    "content": "suprimir el artículo transitorio primero",
-    "authors_raw": "Martin y otros (150), Toloza (151)"
+    "number": 129,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 31,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "number": "152, 153",
-    "target_article": "Artículo Transitorio Segundo",
-    "action": "DEL",
-    "content": "suprimir el artículo transitorio segundo",
-    "authors_raw": "Martin y otros (152), Vega (153)"
+    "number": 133,
+    "authors_matched": [
+      "Harboe, Felipe"
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 134,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 135,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 138,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 34,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 139,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 34,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 141,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 35,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 142,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 35,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 144,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 36,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 145,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 36,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 148,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 38,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 149,
+    "authors_matched": [
+      "Alvarez, Rodrigo"
+    ],
+    "target_article": 38,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 150,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 151,
+    "authors_matched": [
+      "Toloza, Pablo"
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 152,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 153,
+    "authors_matched": [
+      "Vega, Roberto"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

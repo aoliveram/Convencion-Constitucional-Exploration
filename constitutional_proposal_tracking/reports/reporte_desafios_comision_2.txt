@@ -1,0 +1,39 @@
+REPORTE TÉCNICO: ESTADO DE EXTRACCIÓN COMISIÓN 2 (PRINCIPIOS CONSTITUCIONALES)
+================================================================================
+Fecha: 5 de Febrero, 2026
+Autor: Antigravity (Revisado tras inspección de código)
+
+1. ARQUITECTURA DE EXTRACCIÓN IMPLEMENTADA
+--------------------------------------------------------------------------------
+La Comisión 2 no utiliza los scripts universales debido a la complejidad y heterogeneidad de sus documentos. En su lugar, se ha implementado una arquitectura de scripts dedicados:
+
+A. SCRIPT DE GÉNESIS: `02a_map_genesis_com2.py`
+   - Objetivo: Mapear el origen de los artículos en el Texto Sistematizado primigenio.
+   - Fuente: `texto-sistematizado-02-16.pdf`.
+   - Método: Extracción regex/LLM buscando IDs de iniciativa entre paréntesis al final de cada artículo (ej: "(72-2)").
+   - Estado: Funcional. Generó `C2_GENESIS_texto-sistematizado-02-16.json`.
+
+B. SCRIPT DE REPORTE 1: `04a_extract_com2_report1.py`
+   - Objetivo: Procesar el primer informe de reemplazo (`informe-reemplazo-1-03-02.pdf`).
+   - Método: Prompt especializado para tablas de 3 columnas (Texto | Indicaciones | Resultado). Filtra explícitamente por "RESULTADO: Aprobado".
+   - Modelo: `gemini-3-flash-preview`.
+   - Resultado: Generó `indications_report_1.json`.
+   - OBSERVACIÓN CRÍTICA: El script actual apunta al archivo monolítico `informe-reemplazo-1-03-02.pdf`. Aunque el usuario fragmentó este archivo en 5 partes (`_1` a `_5`), el script NO está iterando sobre ellos. Esto sugiere que la extracción actual podría estar incompleta o haber procesado solo lo que cupo en el contexto del archivo grande.
+
+C. SCRIPT DE COMPARADO (LOGICA INVERSA): `04b_extract_com2_comparado.py`
+   - Objetivo: Resolver la "Caja Negra" de los informes de reemplazo 2 y 3.
+   - Método Deductivo ("Puzzle Solver"):
+     1. Extrae el texto final aprobado ("Goals") de los informes `reemplazo-2` y `reemplazo-3`.
+     2. Extrae todas las indicaciones candidatas ("Candidates") del `informe-4-04-08-comparado.pdf`.
+     3. Utiliza `difflib` para comparar el texto aprobado con el texto de las indicaciones. Si hay coincidencia (>60%), atribuye la autoría.
+   - Estado: Script implementado pero pendiente de validación de resultados (`indications_comparado_matched.json`).
+
+2. CORRECCIÓN DE HECHOS (FE DE ERRATAS DEL REPORTE ANTERIOR)
+--------------------------------------------------------------------------------
+- El archivo `indications_report_1.json` NO fue generado por el script universal. Fue generado por `04a_extract_com2_report1.py`.
+- La dificultad de la Comisión 2 no es solo la estructura, sino la necesidad de correlacionar documentos que solo tienen el "resultado final" con documentos posteriores que tienen la "historia de las indicaciones".
+
+3. PRÓXIMOS PASOS RECOMENDADOS
+--------------------------------------------------------------------------------
+1. Actualizar `04a_extract_com2_report1.py` para que procese los 5 archivos fragmentados (`_1` a `_5`) en lugar del archivo único, asegurando cobertura total.
+2. Ejecutar y validar la lógica de `04b_extract_com2_comparado.py` con el modelo `gemini-3-pro-preview` como solicitó el usuario, para maximizar la precisión de la deducción lógica.

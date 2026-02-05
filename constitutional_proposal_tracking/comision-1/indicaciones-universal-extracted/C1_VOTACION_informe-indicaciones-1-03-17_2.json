@@ -1,29 +1,35 @@
 [
   {
-    "number": "154 (Inciso segundo)",
-    "target": "Artículo 10",
+    "number": 154,
+    "authors_matched": [
+      "Cubillos, Marcela",
+      "Hube, Constanza",
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 2",
+    "action": "ADD",
     "content": "Corresponderá a la Cámara Territorial conocer los proyectos de reforma constitucional, de leyes interpretativas de la constitución, de la ley anual de presupuesto, de ley sobre la división política y administrativa del país, de ley que afecten las competencias de las regiones, de ley sobre votaciones populares y el sistema electoral.",
-    "authors": [
+    "content_to_remove": "",
+    "placement_instructions": "entendido como aditivo"
+  },
+  {
+    "number": 154,
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 3",
+    "action": "ADD",
+    "content": "A su vez, las que irroguen directamente gastos al Estado, las que impongan, supriman, reduzcan o condonen tributos de cualquier clase o naturaleza, establezcan exenciones o modifiquen las existentes, y determinen su forma, proporcionalidad o progresión, las que fijen las normas sobre enajenación de bienes del Estado o de las municipalidades y sobre su arrendamiento o concesión, las que fijen las fuerzas de aire, mar y tierra que han de mantenerse en pie en tiempo de paz o de guerra, y las normas para permitir la entrada de tropas extranjeras en el territorio de la República, como, asimismo, la salida de tropas nacionales fuera de él, las que creen nuevos servicios públicos o empleos rentados, sean fiscales, semifiscales, autónomos o de las empresas del Estado; suprimirlos y determinar sus funciones o atribuciones, las que digan relación con la administración financiera o presupuestaria del Estado, las que fijan, modifican, conceden, aumentan remuneraciones, jubilaciones, pensiones, montepíos, rentas y cualquiera otra clase de emolumentos, préstamos o beneficios al personal en servicio o en retiro y a los beneficiarios de montepío, en su caso, de la Administración Pública y demás organismos y entidades anteriormente señalados, como asimismo fijar las remuneraciones mínimas de los trabajadores del sector privado, aumentar obligatoriamente sus remuneraciones y demás beneficios económicos o alterar las bases que sirvan para determinarlos, las que establecen o modifican las normas sobre seguridad social o que incidan en ella, tanto del sector público como del sector privado y las que contraten o autoricen a contratar empréstitos o celebrar cualquiera otra clase de operaciones que puedan comprometer el crédito o la responsabilidad financiera del Estado, de las entidades semifiscales, autónomas, de los gobiernos regionales o de las municipalidades, y condonar, reducir o modificar obligaciones, intereses u otras cargas financieras de cualquier naturaleza establecidas en favor del Fisco o de los organismos o entidades referidos, haciendo referencia al artículo 29 del texto sistematizado.",
+    "content_to_remove": "",
+    "placement_instructions": "entendido como aditivo"
   },
   {
-    "number": "154 (Inciso tercero)",
-    "target": "Artículo 10",
-    "content": "A su vez, las que irroguen directamente gastos al Estado, las que impongan, supriman, reduzcan o condonen tributos de cualquier clase o naturaleza, establezcan exenciones o modifiquen las existentes, y determinen su forma, proporcionalidad o progresión, las que fijen las normas sobre enajenación de bienes del Estado o de las municipalidades y sobre su arrendamiento o concesión, las que fijen las fuerzas de aire, mar y tierra que han de mantenerse en pie en tiempo de paz o de guerra, y las normas para permitir la entrada de tropas extranjeras en el territorio de la República, como, asimismo, la salida de tropas nacionales fuera de él, las que creen nuevos servicios públicos o empleos rentados, sean fiscales, semifiscales, autónomos o de las empresas del Estado; suprimirlos y determinar sus funciones o atribuciones, las que digan relación con la administración financiera o presupuestaria del Estado, las que fijan, modifican, conceden, aumentan remuneraciones, jubilaciones, pensiones, montepíos, rentas y cualquiera otra clase de emolumentos, préstamos o beneficios al personal en servicio o en retiro y a los beneficiarios de montepío, en su caso, de la Administración Pública y demás organismos y entidades anteriormente señalados, como asimismo fijar las remuneraciones mínimas de los trabajadores del sector privado, aumentar obligatoriamente sus remuneraciones y demás beneficios económicos o alterar las bases que sirvan para determinarlos, las que establecen o modifican las normas sobre seguridad social o que incidan en ella, tanto del sector público como del sector privado y las que contraten o autoricen a contratar empréstitos o celebrar cualquiera otra clase de operaciones que puedan comprometer el crédito o la responsabilidad financiera del Estado, de las entidades semifiscales, autónomas, de los gobiernos regionales o de las municipalidades, y condonar, reducir o modificar obligaciones, intereses u otras cargas financieras de cualquier naturaleza establecidas en favor del Fisco o de los organismos o entidades referidos (con referencia al artículo 29).",
-    "authors": [
-      "Cubillos, Marcela",
-      "Hube, Constanza",
-      "Zuniga, Luis Arturo"
-    ]
-  },
-  {
-    "number": "155",
-    "target": "Artículo 10",
-    "content": "Sustituye la frase “reconocidas por esta Constitución y las leyes” por “que coexisten al interior del Estado”.",
-    "authors": [
+    "number": 155,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -36,13 +42,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "que coexisten al interior del Estado",
+    "content_to_remove": "reconocidas por esta Constitución y las leyes",
+    "placement_instructions": ""
   },
   {
-    "number": "156",
-    "target": "Artículo 10",
-    "content": "Suprime la palabra “unicameral”.",
-    "authors": [
+    "number": 156,
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -51,13 +61,17 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "unicameral",
+    "placement_instructions": "suprime la palabra"
   },
   {
-    "number": "158",
-    "target": "Artículo 10",
-    "content": "Sustituye la palabra “otras” por la palabra “demás”.",
-    "authors": [
+    "number": 158,
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -66,38 +80,31 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "demás",
+    "content_to_remove": "otras",
+    "placement_instructions": ""
   },
   {
-    "number": "159",
-    "target": "Artículo 10 (Inciso nuevo)",
-    "content": "“La elección de los miembros del Congreso se efectuará el cuarto domingo después de efectuada la primera elección de Presidente y Vicepresidente de la República. Dicha elección se realizará conjuntamente con la segunda votación de la elección del Presidente y del Vicepresidente, de efectuarse”.",
-    "authors": [
+    "number": 159,
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "La elección de los miembros del Congreso se efectuará el cuarto domingo después de efectuada la primera elección de Presidente y Vicepresidente de la República. Dicha elección se realizará conjuntamente con la segunda votación de la elección del Presidente y del Vicepresidente, de efectuarse.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un inciso nuevo"
   },
   {
-    "number": "167 (Inciso segundo)",
-    "target": "Artículo 12",
-    "content": "“Sólo las organizaciones políticas que alcancen, al menos, un cuatro por ciento de los votos válidamente emitidos en la elección de los miembros del Congreso Plurinacional, o que logren al menos tres diputadas o diputados electos en distritos diferentes, tendrán representación en el Congreso Plurinacional, en la forma que determine la ley.”",
-    "authors": [
-      "Politzer, Patricia",
-      "Pustilnick, Tammy",
-      "Montero, Ricardo",
-      "Munoz, Pedro",
-      "Chahin, Fuad",
-      "Hurtado, Maximiliano",
-      "Laibe, Tomas",
-      "Namor, Guillermo"
-    ]
-  },
-  {
-    "number": "173",
-    "target": "Artículo 12",
-    "content": "Suprime lo siguiente: “en votación secreta, en uno o más distritos electorales de listas, en circunscripciones regionales o de territorios indígenas y en elecciones especiales para escaños reservados para pueblos originarios y tribales”.",
-    "authors": [
+    "number": 173,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -110,13 +117,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "en votación secreta, en uno o más distritos electorales de listas, en circunscripciones regionales o de territorios indígenas y en elecciones especiales para escaños reservados para pueblos originarios y tribales",
+    "placement_instructions": "suprime lo siguiente"
   },
   {
-    "number": "176",
-    "target": "Artículo 12 (Inciso tercero)",
-    "content": "Reemplaza la frase “conforme a las siguientes reglas:” por “y la forma de elección de sus miembros, a partir de las siguientes reglas:”.",
-    "authors": [
+    "number": 176,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -129,13 +140,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "y la forma de elección de sus miembros, a partir de las siguientes reglas:",
+    "content_to_remove": "conforme a las siguientes reglas:",
+    "placement_instructions": "reemplaza la frase"
   },
   {
-    "number": "194",
-    "target": "Artículo 12A (Nuevo)",
-    "content": "“Art 12.A.- La calificación de las elecciones de diputadas y diputados y el conocimiento de las reclamaciones de nulidad que se interpongan contra ellas, corresponde al Tribunal Calificador de Elecciones.”",
-    "authors": [
+    "number": 194,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -148,23 +163,31 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art 12.A.- La calificación de las elecciones de diputadas y diputados y el conocimiento de las reclamaciones de nulidad que se interpongan contra ellas, corresponde al Tribunal Calificador de Elecciones.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo artículo 12A"
   },
   {
-    "number": "197",
-    "target": "Artículo 13",
-    "content": "“Para ser elegido diputado o diputada se requiere ser ciudadano con derecho a sufragio, tener cumplidos veintiún años de edad, haber cursado la enseñanza media o equivalente”.",
-    "authors": [
+    "number": 197,
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Para ser elegido diputado o diputada se requiere ser ciudadano con derecho a sufragio, tener cumplidos veintiún años de edad, haber cursado la enseñanza media o equivalente",
+    "content_to_remove": "",
+    "placement_instructions": "sustituye por el siguiente"
   },
   {
-    "number": "198",
-    "target": "Artículo 13",
-    "content": "Agrega, a continuación del vocablo “edad” lo siguiente: “al día de la elección y tener residencia efectiva en el territorio correspondiente durante un plazo no inferior a dos años contados hacia atrás desde el día de la elección. Se entenderá que un diputado o diputada tiene su residencia en el territorio correspondiente mientras lo represente en el cargo”.",
-    "authors": [
+    "number": 198,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -177,13 +200,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "al día de la elección y tener residencia efectiva en el territorio correspondiente durante un plazo no inferior a dos años contados hacia atrás desde el día de la elección. Se entenderá que un diputado o diputada tiene su residencia en el territorio correspondiente mientras lo represente en el cargo",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación del vocablo edad"
   },
   {
-    "number": "200",
-    "target": "Artículo 13 (Inciso nuevo)",
-    "content": "“Los candidatos a diputados y diputadas de escaños reservados deberán cumplir las condiciones establecidas, dentro de la autonomía reconocida por esta Constitución, para la pertenencia al pueblo de que se trate y deberán estar inscritos en los padrones especiales establecidos por la ley para estos efectos.”",
-    "authors": [
+    "number": 200,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -196,13 +223,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Los candidatos a diputados y diputadas de escaños reservados deberán cumplir las condiciones establecidas, dentro de la autonomía reconocida por esta Constitución, para la pertenencia al pueblo de que se trate y deberán estar inscritos en los padrones especiales establecidos por la ley para estos efectos.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un nuevo inciso"
   },
   {
-    "number": "201",
-    "target": "Artículo 13A (Nuevo)",
-    "content": "“Art 13.A.- No pueden ser candidatos a diputados o diputadas quienes se desempeñen como: 1. Presidenta o Presidente de la República... 2. Los y las Ministras... 3. Las autoridades regionales... 4. Consejeros del Banco Central... 5. Directivos de órganos autónomos... 6. Sistemas de Justicia... 7. TRICEL... 8. Contralor... 9. Fiscal Nacional... 10. Comandantes en Jefe... 11. Militares en servicio activo.”",
-    "authors": [
+    "number": 201,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -215,13 +246,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art 13.A.- No pueden ser candidatos a diputados o diputadas quienes se desempeñen como: 1. Presidenta o Presidente de la República o quien lo sustituya en el ejercicio de la Presidencia al tiempo de la elección; 2. Los y las Ministras y los y las Subsecretarias del Estado; 3. Las autoridades o representantes regionales, municipales o locales; 4. Consejeras y Consejeros del Banco Central y del Consejo Electoral. 5. Las y los directivos de los órganos autónomos o administradores de personas jurídicas que celebren o caucionen contratos con el Estado; 6. Quienes ejerzan jurisdicción en los Sistemas de Justicia; 7. Miembros del Tribunal Calificador de Elecciones y de los tribunales electorales; 8. Contralor o Contralora General de la República; 9. Fiscal Nacional, fiscales regionales o fiscales adjuntos del Ministerio Público, y 10. Comandantes en Jefe del Ejército, de la Armada y de la Fuerza Aérea, General Director de Carabineros, Director General de la Policía de Investigaciones y oficiales pertenecientes a las Fuerzas Armadas y a las Fuerzas de Seguridad Pública. 11. Las y los militares en servicio activo. Las inhabilidades establecidas en este artículo serán aplicables a quienes hubieren tenido las calidades o cargos antes mencionados dentro del año inmediatamente anterior a la elección, excepto respecto de las personas mencionadas en el número 5), las que no deberán reunir esas condiciones al momento de inscribir su candidatura y de las indicadas en el número 9), respecto de las cuales el plazo de la inhabilidad será de los dos años inmediatamente anteriores a la elección.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un nuevo artículo 13A"
   },
   {
-    "number": "202",
-    "target": "Artículo 13B (Nuevo)",
-    "content": "“Artículo 13B: De la dedicación exclusiva al cargo. Los cargos de diputadas o diputados son incompatibles con otros cargos de representación y con todo empleo, función, comisión o cargo de carácter público o privado...”",
-    "authors": [
+    "number": 202,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -234,33 +269,31 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 13B: De la dedicación exclusiva al cargo. Los cargos de diputadas o diputados son incompatibles con otros cargos de representación y con todo empleo, función, comisión o cargo de carácter público o privado. Los empleos, funciones o comisiones de la enseñanza de educación superior podrán mantenerse pero deberán ser ejercidos de modo compatible con la exclusividad del cargo de diputada o diputado, y por un máximo de doce horas lectivas. Por el solo hecho de su proclamación por el Tribunal Calificador de Elecciones, la diputada o diputado cesará en el otro cargo, empleo o comisión incompatible que desempeñe.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo artículo 13B"
   },
   {
-    "number": "204 (Numeral 2)",
-    "target": "Artículo 13A",
-    "content": "“2- Los gobernadores regionales, los delegados presidenciales regionales, los delegados presidenciales provinciales, los alcaldes, los consejeros regionales, los concejales y los subsecretarios;” (aprobado de forma aditiva).",
-    "authors": [
+    "number": 211,
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "de manera inmediata",
+    "content_to_remove": "en una ocasión",
+    "placement_instructions": "entre la expresión reelectas y en una ocasión"
   },
   {
-    "number": "211",
-    "target": "Artículo 14",
-    "content": "Incorpora, entre la expresión “reelectas” y “en una ocasión” por “de manera inmediata”.",
-    "authors": [
-      "Cubillos, Marcela",
-      "Hube, Constanza",
-      "Zuniga, Luis Arturo"
-    ]
-  },
-  {
-    "number": "213",
-    "target": "Artículo 14 (Inciso final)",
-    "content": "“Para estos efectos se entenderá que las y los diputados han ejercido su cargo durante un período cuando han cumplido más de la mitad de su mandato”.",
-    "authors": [
+    "number": 213,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -273,13 +306,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Para estos efectos se entenderá que las y los diputados han ejercido su cargo durante un período cuando han cumplido más de la mitad de su mandato",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo inciso final"
   },
   {
-    "number": "217",
-    "target": "Artículo 15",
-    "content": "Agrega, entre los vocablos “renovarse” y “cuatro”, la frase “en su totalidad”.",
-    "authors": [
+    "number": 217,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -292,13 +329,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "en su totalidad",
+    "content_to_remove": "",
+    "placement_instructions": "entre los vocablos renovarse y cuatro"
   },
   {
-    "number": "220",
-    "target": "Artículo 15 (Inciso tercero)",
-    "content": "Lo suprime.",
-    "authors": [
+    "number": 220,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -311,13 +352,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": "lo suprime"
   },
   {
-    "number": "223",
-    "target": "Artículo 16 (Inciso primero)",
-    "content": "Reemplaza la frase por “, la que podrá ser complementada con los reglamentos de funcionamiento que dicte el pleno por la mayoría de sus miembros.”.",
-    "authors": [
+    "number": 223,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -330,22 +375,30 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": ", la que podrá ser complementada con los reglamentos de funcionamiento que dicte el pleno por la mayoría de sus miembros",
+    "content_to_remove": "En aquello que no se contradiga con la ley, el Pleno podrá dictar reglamentos de funcionamiento por la mayoría de sus miembros",
+    "placement_instructions": "reemplaza la frase"
   },
   {
-    "number": "226",
-    "target": "Artículo 16",
-    "content": "Reemplaza la palabra “funcionamiento” por la frase “organización, funcionamiento y tramitación”.",
-    "authors": [
+    "number": 226,
+    "authors_matched": [
       "Carrillo, Alondra",
       "Flores, Alejandra"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "organización, funcionamiento y tramitación",
+    "content_to_remove": "funcionamiento",
+    "placement_instructions": "reemplaza la palabra"
   },
   {
-    "number": "230",
-    "target": "Artículo 16 (Inciso tercero)",
-    "content": "Sustituye la expresión “y el Gobierno deberán” por la expresión “deberá”.",
-    "authors": [
+    "number": 230,
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -354,13 +407,31 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "deberá",
+    "content_to_remove": "y el Gobierno deberán",
+    "placement_instructions": "sustituye la expresión"
   },
   {
-    "number": "247",
-    "target": "Artículo 18",
-    "content": "Suprime la frase “del mismo género”.",
-    "authors": [
+    "number": 239,
+    "authors_matched": [
+      "Cubillos, Marcela",
+      "Hube, Constanza",
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Los congresistas durarán en sus escaños desde el inicio y hasta el término de la legislatura, salvo en los casos vacancia establecidos en la Constitución.",
+    "content_to_remove": "",
+    "placement_instructions": "lo sustituye por el siguiente"
+  },
+  {
+    "number": 247,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -373,13 +444,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "del mismo género",
+    "placement_instructions": "suprime la frase"
   },
   {
-    "number": "248",
-    "target": "Artículo 18",
-    "content": "Agrega: “En el evento que dicha persona rechace la designación, las vacantes se proveerán por la persona que decida la organización política al que pertenecía la diputada o diputado al momento de ser elegida o elegido, asegurando a todo evento la composición paritaria del órgano”.",
-    "authors": [
+    "number": 248,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -392,13 +467,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "En el evento que dicha persona rechace la designación, las vacantes se proveerán por la persona que decida la organización política al que pertenecía la diputada o diputado al momento de ser elegida o elegido, asegurando a todo evento la composición paritaria del órgano",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de vacante"
   },
   {
-    "number": "249",
-    "target": "Artículo 18 (Incisos nuevos)",
-    "content": "“El reemplazo por vacancia de representantes de escaños reservados será realizado por el mecanismo definido por el pueblo al que representa dentro de los límites de la autonomía reconocida por la Constitución. El reemplazante deberá reunir los requisitos establecidos por esta constitución para ser elegido diputada o diputado...”",
-    "authors": [
+    "number": 249,
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -411,6 +490,12 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "El reemplazo por vacancia de representantes de escaños reservados será realizado por el mecanismo definido por el pueblo al que representa dentro de los límites de la autonomía reconocida por la Constitución. El reemplazante deberá reunir los requisitos establecidos por esta constitución para ser elegido diputada o diputado. No podrá reemplazar la vacancia si incurre en alguna de las inhabilidades establecidas en los artículos precedentes.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega dos nuevos incisos tercero y cuarto"
   }
 ]

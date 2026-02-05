@@ -1,17 +1,19 @@
 [
   {
-    "Number": "9",
-    "Target": "Artículo 2, inciso primero",
-    "Content": "Cláusula de obligaciones generales y sujetos obligados. El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todos los obstáculos que pudieran limitar o entorpecer su realización.",
-    "Authors": [
+    "number": "9",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Cláusula de obligaciones generales y sujetos obligados. El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todos los obstáculos que pudieran limitar o entorpecer su realización.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "16",
-    "Target": "Artículo 2, inciso segundo",
-    "Content": "Suprímase el inciso segundo.",
-    "Authors": [
+    "number": "16",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Moreno, Alfredo",
       "Harboe, Felipe",
@@ -20,56 +22,78 @@
       "Videla, Carolina",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "19",
-    "Target": "Artículo 2, inciso tercero",
-    "Content": "Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes.",
-    "Authors": [
+    "number": "19",
+    "authors_matched": [
       "Henriquez, Natalia"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "Toda persona, institución, asociación o grupo deberá respetar los derechos fundamentales, conforme a la Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "23",
-    "Target": "Artículo 2, nuevo inciso",
-    "Content": "Asimismo, el Estado tiene el deber reforzado de protección respecto de los derechos de las personas o grupos que merezcan una especial consideración.",
-    "Authors": [
-      "Grandon, Giovanna",
-      "Grandon, Paola"
-    ]
+    "number": "23",
+    "authors_matched": [
+      "Grandon, Giovanna"
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Asimismo, el Estado tiene el deber reforzado de protección respecto de los derechos de las personas o grupos que merezcan una especial consideración.",
+    "content_to_remove": "",
+    "placement_instructions": "Para añadir un nuevo inciso al artículo 2"
   },
   {
-    "Number": "30",
-    "Target": "Artículo 4",
-    "Content": "Artículo 4 (10).- Financiamiento de los derechos fundamentales. El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad. El Estado destinará el máximo de recursos disponibles para asegurar la satisfacción universal de los derechos fundamentales.",
-    "Authors": [
-      "Abarca, Damaris",
-      "Abarca, Jorge"
-    ]
+    "number": "30",
+    "authors_matched": [
+      "Abarca, Damaris"
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4 (10).- Financiamiento de los derechos fundamentales. El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad. El Estado destinará el máximo de recursos disponibles para asegurar la satisfacción universal de los derechos fundamentales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "45",
-    "Target": "Artículo 5, epígrafe",
-    "Content": "Regulación y limitación de los derechos fundamentales.",
-    "Authors": [
+    "number": "45",
+    "authors_matched": [
       "Celedon, Roberto",
       "Labrana, Elsa"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "Regulación y limitación de los derechos fundamentales.",
+    "content_to_remove": "Límites de los derechos fundamentales.",
+    "placement_instructions": ""
   },
   {
-    "Number": "48",
-    "Target": "Artículo 5, inciso primero",
-    "Content": "Límites de los derechos fundamentales. En virtud de una ley se podrá regular el ejercicio de los derechos fundamentales, para hacerlos compatibles entre sí o con otros fines amparados por la Constitución.",
-    "Authors": [
+    "number": "48",
+    "authors_matched": [
       "Orellana, Matias"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Límites de los derechos fundamentales. En virtud de una ley se podrá regular el ejercicio de los derechos fundamentales, para hacerlos compatibles entre sí o con otros fines amparados por la Constitución.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "53",
-    "Target": "Artículo 5, inciso segundo",
-    "Content": "Suprímase el inciso segundo.",
-    "Authors": [
+    "number": "53",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Moreno, Alfredo",
       "Harboe, Felipe",
@@ -77,78 +101,110 @@
       "Rebolledo, Barbara",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "55",
-    "Target": "Artículo 5, inciso tercero",
-    "Content": "Para suprimir el inciso tercero del artículo 5.",
-    "Authors": [
+    "number": "55",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Rebolledo, Barbara",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "74",
-    "Target": "Artículo 6, inciso tercero",
-    "Content": "Suprímase el inciso tercero.",
-    "Authors": [
+    "number": "74",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Rebolledo, Barbara",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "82",
-    "Target": "Artículo 6, inciso cuarto",
-    "Content": "La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables.",
-    "Authors": [
+    "number": "82",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 4",
+    "action": "SUBSTITUTE",
+    "content": "La Naturaleza será titular de los derechos reconocidos en esta Constitución que le sean aplicables.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "86",
-    "Target": "Artículo 6, inciso quinto",
-    "Content": "Las personas jurídicas sólo serán titulares de los derechos fundamentales que la Constitución consagre expresamente.",
-    "Authors": [
+    "number": "86",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 5",
+    "action": "SUBSTITUTE",
+    "content": "Las personas jurídicas sólo serán titulares de los derechos fundamentales que la Constitución consagre expresamente.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "94",
-    "Target": "Artículo 7",
-    "Content": "Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias. Ninguna religión, ni creencia es la oficial del Estado... (incluye párrafos sobre templos y reconocimiento de la espiritualidad).",
-    "Authors": [
+    "number": "94",
+    "authors_matched": [
       "Andrade, Cristobal"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias. Ninguna religión, ni creencia es la oficial del Estado, sin perjuicio de su reconocimiento y libre ejercicio en el espacio público o privado, mediante el culto, la celebración de los ritos, las prácticas espirituales y la enseñanza. Podrán erigir templos, dependencias y lugares para el culto; mantener, proteger y acceder a los lugares sagrados y aquellos de relevancia espiritual, rescatar y preservar los objetos de culto o que tengan un significado sagrado. El Estado reconoce la espiritualidad como elemento esencial del ser humano. Las agrupaciones religiosas y espirituales podrán organizarse como personas jurídicas de conformidad a la ley. Respetando los derechos, deberes y principios que esta Constitución establece. Éstas no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente de acuerdo con lo que establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "141",
-    "Target": "Artículo 8, inciso primero",
-    "Content": "Libertad de expresión. Toda persona, natural o jurídica, tiene derecho a la libertad de expresión y opinión, en cualquier forma y por cualquier medio. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole.",
-    "Authors": [
+    "number": "141",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Libertad de expresión. Toda persona, natural o jurídica, tiene derecho a la libertad de expresión y opinión, en cualquier forma y por cualquier medio. Este derecho comprende la libertad de buscar, recibir y difundir informaciones e ideas de toda índole.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "147",
-    "Target": "Artículo 8, nuevo inciso segundo",
-    "Content": "No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley.",
-    "Authors": [
+    "number": "147",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "No existirá censura previa sino únicamente las responsabilidades ulteriores que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": "Agréguese como nuevo inciso segundo"
   },
   {
-    "Number": "148",
-    "Target": "Artículo 8, inciso segundo",
-    "Content": "Suprímase el inciso segundo.",
-    "Authors": [
+    "number": "148",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Moreno, Alfredo",
       "Harboe, Felipe",
@@ -159,21 +215,29 @@
       "Fuchslocher, Javier",
       "Labrana, Elsa",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "156",
-    "Target": "Artículo 8, inciso tercero",
-    "Content": "La ley adoptará las medidas necesarias para asegurar el pluralismo en los medios de comunicación.",
-    "Authors": [
+    "number": "156",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "La ley adoptará las medidas necesarias para asegurar el pluralismo en los medios de comunicación.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "158",
-    "Target": "Artículo 8, inciso cuarto",
-    "Content": "Para suprimir el inciso cuarto del artículo 8.",
-    "Authors": [
+    "number": "158",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Miranda, Valentina",
@@ -182,13 +246,17 @@
       "Henriquez, Natalia",
       "Rebolledo, Barbara",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 4",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "160",
-    "Target": "Artículo 8, inciso quinto",
-    "Content": "Suprímase el inciso quinto.",
-    "Authors": [
+    "number": "160",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Moreno, Alfredo",
       "Harboe, Felipe",
@@ -200,13 +268,17 @@
       "Labrana, Elsa",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 5",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "162",
-    "Target": "Artículo 8, inciso sexto",
-    "Content": "Suprímase el inciso sexto.",
-    "Authors": [
+    "number": "162",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Moreno, Alfredo",
       "Harboe, Felipe",
@@ -217,378 +289,532 @@
       "Fuchslocher, Javier",
       "Henriquez, Natalia",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 6",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "166",
-    "Target": "Artículo 8, nuevo inciso",
-    "Content": "El Estado deberá tomar todas las medidas destinadas a eliminar el discurso xenófobo; la apología de odio racial, religioso, sexual o de género. La ley podrá establecer las responsabilidades por las infracciones a este artículo.",
-    "Authors": [
+    "number": "166",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "El Estado deberá tomar todas las medidas destinadas a eliminar el discurso xenófobo; la apología de odio racial, religioso, sexual o de género. La ley podrá establecer las responsabilidades por las infracciones a este artículo.",
+    "content_to_remove": "",
+    "placement_instructions": "Para añadir un nuevo inciso al artículo 8"
   },
   {
-    "Number": "176",
-    "Target": "Artículo 9, inciso primero",
-    "Content": "El derecho a vivir en entornos seguros y libres de violencia. Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorios.",
-    "Authors": [
+    "number": "176",
+    "authors_matched": [
       "Delgado, Aurora"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "El derecho a vivir en entornos seguros y libres de violencia. Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las personas, a través de una política de prevención de la violencia y el delito que considerará especialmente las condiciones materiales, ambientales, sociales y el fortalecimiento comunitario de los territorios.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "184",
-    "Target": "Artículo 9, inciso segundo",
-    "Content": "Las acciones de prevención, persecución y sanción de los delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.",
-    "Authors": [
+    "number": "184",
+    "authors_matched": [
       "Delgado, Aurora"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Las acciones de prevención, persecución y sanción de los delitos, así como la reinserción social de las personas condenadas, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "188",
-    "Target": "Artículo 9, nuevo inciso",
-    "Content": "La sociedad en su conjunto será corresponsable en la generación de entornos seguros y libres de violencia con énfasis en los factores protectores de la comunidad.",
-    "Authors": [
+    "number": "188",
+    "authors_matched": [
       "Labrana, Elsa"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "La sociedad en su conjunto será corresponsable en la generación de entornos seguros y libres de violencia con énfasis en los factores protectores de la comunidad.",
+    "content_to_remove": "",
+    "placement_instructions": "Para agregar el siguiente inciso al artículo 9"
   },
   {
-    "Number": "191 / 196",
-    "Target": "Artículo 11, inciso primero",
-    "Content": "Derecho a la libertad ambulatoria. Toda persona tiene derecho a trasladarse, residir y permanecer en cualquier lugar del territorio nacional, así como a entrar y salir de éste. La ley regulará el ejercicio de este derecho.",
-    "Authors": [
+    "number": "196",
+    "authors_matched": [
+      "Fuchslocher, Javier"
+    ],
+    "target_article": 11,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Derecho a la libertad ambulatoria. Toda persona tiene derecho a trasladarse, residir y permanecer en cualquier lugar del territorio nacional, así como a entrar y salir de éste. La ley regulará el ejercicio de este derecho.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "201",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "201",
-    "Target": "Artículo 11, inciso segundo",
-    "Content": "Para suprimir el inciso segundo del artículo 11.",
-    "Authors": [
-      "Harboe, Felipe",
-      "Barcelo, Luis",
-      "Fuchslocher, Javier"
-    ]
-  },
-  {
-    "Number": "202",
-    "Target": "Artículo 11, inciso tercero",
-    "Content": "Suprímase el inciso tercero.",
-    "Authors": [
+    "number": "202",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Fuchslocher, Javier",
       "Henriquez, Natalia"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "205",
-    "Target": "Artículo 11, inciso cuarto",
-    "Content": "Suprímase el inciso cuarto.",
-    "Authors": [
+    "number": "205",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Fuchslocher, Javier",
       "Henriquez, Natalia"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "INCISO 4",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "213",
-    "Target": "Nuevo Artículo (Artículo 12)",
-    "Content": "Artículo 12.- Prohibición de desplazamiento forzado. Ninguna persona será sometida a desplazamiento forzado dentro del territorio nacional, salvo en las excepciones que establezca la ley. Las comunidades afectadas tendrán derecho a la verdad, justicia y reparación, de conformidad a lo establecido en la ley.",
-    "Authors": [
+    "number": "213",
+    "authors_matched": [
       "Cancino, Adriana"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 12.- Prohibición de desplazamiento forzado. Ninguna persona será sometida a desplazamiento forzado dentro del territorio nacional, salvo en las excepciones que establezca la ley. Las comunidades afectadas tendrán derecho a la verdad, justicia y reparación, de conformidad a lo establecido en la ley.",
+    "content_to_remove": "",
+    "placement_instructions": "Agréguese un nuevo artículo a continuación del artículo 11"
   },
   {
-    "Number": "219",
-    "Target": "Artículo 12",
-    "Content": "Reemplazar “la nacionalidad, etnia, cultura, edad, características sexuales, identidades y expresiones de género, y orientaciones sexoafectivas, entre otras”, por “las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas”.",
-    "Authors": [
+    "number": "219",
+    "authors_matched": [
       "Miranda, Valentina"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "las características sexuales, identidades y expresiones de género, nombre y orientaciones sexoafectivas",
+    "content_to_remove": "la nacionalidad, etnia, cultura, edad, características sexuales, identidades y expresiones de género, y orientaciones sexoafectivas, entre otras",
+    "placement_instructions": ""
   },
   {
-    "Number": "225",
-    "Target": "Artículo 12, inciso segundo",
-    "Content": "El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes.",
-    "Authors": [
+    "number": "225",
+    "authors_matched": [
       "Miranda, Valentina"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Estado garantizará el pleno ejercicio de este derecho a través de acciones afirmativas, procedimientos y leyes correspondientes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "240",
-    "Target": "Artículo 14, inciso primero",
-    "Content": "Artículo 14 (18).- Libertad de emprender y de desarrollar actividades económicas. Toda persona, natural y jurídica, tiene libertad de emprender y desarrollar actividades económicas. Su ejercicio deberá ser compatible con los derechos consagrados en esta Constitución y con la protección de la naturaleza.",
-    "Authors": [
+    "number": "240",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 14 (18).- Libertad de emprender y desarrollar actividades económicas. Toda persona, natural o jurídica, tiene libertad de emprender y desarrollar actividades económicas. Su ejercicio deberá ser compatible con los derechos consagrados en esta Constitución y con la protección de la naturaleza.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "256 / 270",
-    "Target": "Artículo 14, nuevo inciso",
-    "Content": "Las leyes que lo regulen deberán promover el desarrollo de las empresas de menor tamaño.",
-    "Authors": [
-      "Fuchslocher, Javier",
+    "number": "270",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las leyes que lo regulen deberán promover el desarrollo de las empresas de menor tamaño.",
+    "content_to_remove": "",
+    "placement_instructions": "agréguese a continuación del inciso segundo el siguiente inciso"
   },
   {
-    "Number": "257",
-    "Target": "Artículo 14, inciso tercero",
-    "Content": "Para suprimir el inciso tercero del artículo 14.",
-    "Authors": [
+    "number": "257",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Rebolledo, Barbara",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "259",
-    "Target": "Artículo 14, inciso cuarto",
-    "Content": "Suprímase el inciso cuarto.",
-    "Authors": [
+    "number": "259",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Rebolledo, Barbara",
       "Fuchslocher, Javier",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 4",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "261",
-    "Target": "Artículo 14, inciso quinto",
-    "Content": "Para suprimir el inciso quinto del artículo 14.",
-    "Authors": [
+    "number": "261",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Celedon, Roberto",
       "Labrana, Elsa",
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 5",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "273",
-    "Target": "Artículo 14, nuevo inciso",
-    "Content": "Las prácticas de colusión entre empresas y abusos de posición monopólica, así como las concentraciones empresariales que afecten el funcionamiento eficiente, justo y leal de los mercados, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables y su obligación de reparación integral.",
-    "Authors": [
+    "number": "273",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las prácticas de colusión entre empresas y abusos de posición monopólica, así como las concentraciones empresariales que afecten el funcionamiento eficiente, justo y leal de los mercados, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables.",
+    "content_to_remove": "",
+    "placement_instructions": "Para añadir un nuevo inciso al artículo 14"
   },
   {
-    "Number": "284",
-    "Target": "Artículo 15",
-    "Content": "La protección, promoción y respeto del derecho a la privacidad de las personas, sus familias y comunidades... Los recintos privados son inviolables. La entrada, registro o allanamiento sólo se podrán realizar con orden judicial previa dictada en los casos específicos y en la forma que determine la ley, salvo las hipótesis de flagrancia. Toda forma de documentación y comunicación privada es inviolable... salvo orden judicial previa dictada en la forma y para los casos específicos que determine la ley.",
-    "Authors": [
+    "number": "284",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Rebolledo, Barbara"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "La protección, promoción y respeto del derecho a la privacidad de las personas, sus familias y comunidades. Ninguna persona ni autoridad podrá afectar, restringir o impedir el ejercicio del derecho a la privacidad salvo en los casos y formas que determine la ley. Los recintos privados son inviolables. La entrada, registro o allanamiento sólo se podrán realizar con orden judicial previa dictada en los casos específicos y en la forma que determine la ley, salvo las hipótesis de flagrancia. Toda forma de documentación y comunicación privada es inviolable, incluyendo sus metadatos. La interceptación, captura, apertura, registro o revisión sólo se podrá realizar con orden judicial previa dictada en la forma y para los casos específicos que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "304 / 314",
-    "Target": "Artículo 18, inciso primero",
-    "Content": "Artículo 18 (24).- Derecho de propiedad. Toda persona, natural o jurídica, tiene derecho de propiedad en todas sus especies y sobre toda clase de bienes, salvo aquellos que la naturaleza ha hecho comunes a todas las personas y los que la Constitución o la ley declaren inapropiables.",
-    "Authors": [
-      "Harboe, Felipe",
-      "Barcelo, Luis",
-      "Fuchslocher, Javier"
-    ]
-  },
-  {
-    "Number": "317",
-    "Target": "Artículo 18, inciso segundo",
-    "Content": "Para suprimir el inciso segundo del artículo 18.",
-    "Authors": [
+    "number": "304",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 18 (24).- Derecho de propiedad. Toda persona, natural o jurídica, tiene derecho de propiedad en todas sus especies y sobre toda clase de bienes, salvo aquellos que la naturaleza ha hecho comunes a todas las personas y los que la Constitución o la ley declaren inapropiables. Corresponderá a la ley determinar el modo de adquirir la propiedad, su contenido, sus límites y los deberes que emanan de ella; conforme a su función social y ecológica.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "325",
-    "Target": "Artículo 18, inciso tercero",
-    "Content": "Los títulos que habiliten la prestación de servicios públicos o la explotación, uso y aprovechamiento de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual deberá cautelar el interés social y el equilibrio ecológico.",
-    "Authors": [
+    "number": "317",
+    "authors_matched": [
+      "Harboe, Felipe",
+      "Barcelo, Luis"
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "325",
+    "authors_matched": [
       "Serey, Mariela"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "Los títulos administrativos que habiliten la prestación de servicios públicos o la explotación, uso y aprovechamiento de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual deberá cautelar el interés social y el equilibrio ecológico.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "329",
-    "Target": "Artículo 18, inciso cuarto",
-    "Content": "Suprímase el inciso cuarto.",
-    "Authors": [
+    "number": "329",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO 4",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "342",
-    "Target": "Artículo 18, nuevo inciso",
-    "Content": "El Estado tiene el dominio absoluto, exclusivo, inalienable e imprescriptible de todas las minas... no obstante la propiedad de las personas naturales o jurídicas sobre los terrenos en cuyas entrañas estuvieren situadas.",
-    "Authors": [
+    "number": "342",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "El Estado tiene el dominio absoluto, exclusivo, inalienable e imprescriptible de todas las minas, comprendiéndose en éstas las covaderas, las arenas metalíferas, los salares, los depósitos de carbón e hidrocarburos y las demás sustancias fósiles, con excepción de las arcillas superficiales, no obstante la propiedad de las personas naturales o jurídicas sobre los terrenos en cuyas entrañas estuvieren situadas. Los predios superficiales estarán sujetos a las obligaciones y limitaciones que la ley señale para facilitar la exploración, la explotación y el beneficio de dichas minas.",
+    "content_to_remove": "",
+    "placement_instructions": "Para agregar al artículo 18 un inciso"
   },
   {
-    "Number": "349",
-    "Target": "Artículo 18, nuevo inciso",
-    "Content": "Corresponderá a la ley determinar el modo de adquirir la propiedad, su contenido, límites y deberes, conforme con su función social y ecológica.",
-    "Authors": [
+    "number": "349",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Corresponderá a la ley determinar el modo de adquirir la propiedad, su contenido, límites y deberes, conforme con su función social y ecológica.",
+    "content_to_remove": "",
+    "placement_instructions": "Para añadir un nuevo inciso al artículo 18"
   },
   {
-    "Number": "362",
-    "Target": "Artículo 19",
-    "Content": "Para suprimir el artículo 19.",
-    "Authors": [
+    "number": "362",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis",
       "Miranda, Valentina",
       "Videla, Carolina",
       "Fuchslocher, Javier",
       "Labrana, Elsa"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "375 / 383",
-    "Target": "Artículo 20, inciso primero",
-    "Content": "Artículo 20.- Ninguna persona puede ser privada de su propiedad, sino en virtud de una ley que autorice la expropiación por causa de utilidad pública o interés general declarado por el legislador.",
-    "Authors": [
-      "Harboe, Felipe",
-      "Barcelo, Luis",
+    "number": "383",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 20.- Ninguna persona puede ser privada de su propiedad, sino en virtud de una ley que autorice la expropiación por causa de utilidad pública o interés general declarado por el legislador.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "390",
-    "Target": "Artículo 20, inciso segundo",
-    "Content": "La ley determinará los criterios para definir el justo monto del pago, su forma y oportunidad, debiendo considerar tanto el interés público como el del titular.",
-    "Authors": [
+    "number": "390",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "La ley determinará los criterios para definir el justo monto del pago, su forma y oportunidad, debiendo considerar tanto el interés público como el del titular.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "395",
-    "Target": "Artículo 20, inciso tercero",
-    "Content": "La persona expropiada podrá reclamar de la legalidad del acto expropiatorio y de su monto ante los tribunales que determine la ley.",
-    "Authors": [
+    "number": "395",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "La persona expropiada podrá reclamar de la legalidad del acto expropiatorio y de su monto ante los tribunales que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "415",
-    "Target": "Artículo 21",
-    "Content": "Artículo 21. Derecho colectivo indígena a sus tierras y territorios. Los pueblos y naciones indígenas reconocidas por esta Constitución y las leyes tienen derecho colectivo a las tierras y territorios que tradicionalmente han poseído, ocupado, utilizado o adquirido... El Estado reconoce y garantiza la propiedad y posesión de las tierras indígenas, garantizando su demarcación y titulación.",
-    "Authors": [
+    "number": "415",
+    "authors_matched": [
       "Celedon, Roberto",
       "Labrana, Elsa"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 21. Derecho colectivo indígena a sus tierras y territorios. Los pueblos y naciones indígenas reconocidas por esta Constitución y las leyes tienen derecho colectivo a las tierras y territorios que tradicionalmente han poseído, ocupado, utilizado o adquirido. El Estado reconoce su especial relación con éstos, protegiendo y garantizando su ejercicio. El Estado reconoce y garantiza la propiedad y posesión de las tierras indígenas, garantizando su demarcación y titulación. Los pueblos y naciones indígenas tienen derecho a usar y administrar los territorios indígenas y recursos naturales que tradicionalmente han utilizado u ocupado, en conformidad con la ley. Asimismo, los pueblos y naciones indígenas tienen el derecho a la reparación de las tierras, territorios y recursos que les hayan sido confiscados, tomados, ocupados, utilizados, transferidos o dañados, sin su consentimiento. La restitución constituirá el mecanismo preferente de reparación, que será considerada siempre de utilidad pública y social, de conformidad a esta Constitución y la ley. El ejercicio de los anteriores derechos tendrá como límites los derechos de la naturaleza y la función ecológica de la propiedad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "425",
-    "Target": "Artículo 22",
-    "Content": "Suprimir el artículo.",
-    "Authors": [
+    "number": "425",
+    "authors_matched": [
       "Cantuarias, Rocio",
       "Harboe, Felipe",
       "Llanquileo, Natividad",
       "Mamani, Isabella",
       "Rebolledo, Barbara",
       "Ossandon, Manuel"
-    ]
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "438",
-    "Target": "Artículo 28, inciso segundo",
-    "Content": "Nadie podrá ser objeto de ataques ilegales en contra de ella.",
-    "Authors": [
+    "number": "438",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 28,
+    "target_scope": "INCISO 2",
+    "action": "ADD",
+    "content": "Nadie podrá ser objeto de ataques ilegales en contra de ella.",
+    "content_to_remove": "",
+    "placement_instructions": "Agréguese como inciso segundo"
   },
   {
-    "Number": "462",
-    "Target": "Artículo 44, inciso primero",
-    "Content": "Derecho a reunirse y manifestarse pacíficamente. Todas las personas tienen derecho a reunirse y manifestarse en lugares privados y públicos, sin permiso previo.",
-    "Authors": [
+    "number": "462",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 44,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Derecho a reunirse y manifestarse pacíficamente. Todas las personas tienen derecho a reunirse y manifestarse en lugares privados y públicos, sin permiso previo.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "467",
-    "Target": "Artículo 44, inciso segundo",
-    "Content": "Las reuniones en lugares de acceso público sólo podrán restringirse en conformidad a la ley.",
-    "Authors": [
+    "number": "467",
+    "authors_matched": [
       "Fuchslocher, Javier"
-    ]
+    ],
+    "target_article": 44,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Las reuniones en lugares de acceso público sólo podrán restringirse en conformidad a la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "476",
-    "Target": "Artículo 48, inciso primero",
-    "Content": "Derechos de las personas frente a la Administración del Estado. Toda persona, natural o jurídica, tiene derecho a que la Administración del Estado trate sus asuntos de manera objetiva y eficiente, resolviéndolos oportunamente.",
-    "Authors": [
+    "number": "476",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Derechos de las personas frente a la Administración del Estado. Toda persona, natural o jurídica, tiene derecho a que la Administración del Estado trate sus asuntos de manera objetiva y eficiente, resolviéndolos oportunamente.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "479",
-    "Target": "Artículo 48, numeral 1",
-    "Content": "1. Recibir servicios públicos de conformidad con los principios de generalidad, uniformidad, regularidad, continuidad y calidad.",
-    "Authors": [
+    "number": "479",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "1. Recibir servicios públicos de conformidad con los principios de generalidad, uniformidad, regularidad, continuidad y calidad.",
+    "content_to_remove": "",
+    "placement_instructions": "Sustitúyase el numeral 1"
   },
   {
-    "Number": "481",
-    "Target": "Artículo 48, numeral 2",
-    "Content": "2. Formular peticiones a la autoridad, solicitar audiencia, tener acceso al expediente y aportar antecedentes en el procedimiento, con consideración a la confidencialidad y la protección de datos personales.",
-    "Authors": [
+    "number": "481",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "2. Formular peticiones a la autoridad, solicitar audiencia, tener acceso al expediente y aportar antecedentes en el procedimiento, con consideración a la confidencialidad y la protección de datos personales.",
+    "content_to_remove": "",
+    "placement_instructions": "Sustitúyase el numeral 2"
   },
   {
-    "Number": "483",
-    "Target": "Artículo 48, numeral 3",
-    "Content": "3. Ser tratado con respeto y deferencia por las autoridades y funcionarios.",
-    "Authors": [
+    "number": "483",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "3. Ser tratado con respeto y deferencia por las autoridades y funcionarios.",
+    "content_to_remove": "",
+    "placement_instructions": "Sustitúyase el numeral 3"
   },
   {
-    "Number": "485",
-    "Target": "Artículo 48, numeral 4",
-    "Content": "4. Obtener una decisión administrativa debidamente fundada y a impugnar las resoluciones mediante los recursos y las acciones correspondientes.",
-    "Authors": [
+    "number": "485",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "4. Obtener una decisión administrativa debidamente fundada y a impugnar las resoluciones mediante los recursos y las acciones correspondientes.",
+    "content_to_remove": "",
+    "placement_instructions": "Sustitúyase el numeral 4"
   },
   {
-    "Number": "487",
-    "Target": "Artículo 48, numeral 5",
-    "Content": "5. Ser oída, especialmente antes de que se tome en contra suya una medida que le afecte desfavorablemente.",
-    "Authors": [
+    "number": "487",
+    "authors_matched": [
       "Dominguez, Gaspar"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "5. Ser oída, especialmente antes de que se tome en contra suya una medida que le afecte desfavorablemente.",
+    "content_to_remove": "",
+    "placement_instructions": "Sustitúyase el numeral 5"
   },
   {
-    "Number": "489",
-    "Target": "Artículo 49",
-    "Content": "Para suprimir el artículo 49.",
-    "Authors": [
+    "number": "489",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Labbe, Bastian",
@@ -597,15 +823,25 @@
       "Videla, Carolina",
       "Fernandez, Patricio",
       "Henriquez, Natalia"
-    ]
+    ],
+    "target_article": 49,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "496",
-    "Target": "Artículo 50",
-    "Content": "Derecho de petición. Toda persona tiene derecho a presentar peticiones, exposiciones o reclamaciones ante cualquier autoridad del Estado. La ley regulará los plazos y la forma en que la autoridad deberá dar respuesta a lo solicitado...",
-    "Authors": [
+    "number": "496",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Derecho de petición. Toda persona tiene derecho a presentar peticiones, exposiciones o reclamaciones ante cualquier autoridad del Estado. La ley regulará los plazos y la forma en que la autoridad deberá dar respuesta a lo solicitado, además de la manera en que se garantizará el principio de plurilingüismo en el ejercicio de este derecho.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

@@ -1,742 +1,995 @@
 [
   {
-    "Number": "395",
-    "Target": "Artículo 6",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 395,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "396",
-    "Target": "Artículo 6",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 396,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "397",
-    "Target": "Artículo 7",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 397,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "398",
-    "Target": "Artículo 7",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 398,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "399",
-    "Target": "Artículo 8",
-    "Content": "“Artículo 2.- Reutilización de la información pública. Es deber del Estado promover la reutilización de la información pública, creando las condiciones para una comunicación y publicación oportuna, periódica, proactiva, comprensible y en formatos abiertos.”",
-    "Authors": [
+    "number": 399,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2.- Reutilización de la información pública. Es deber del Estado promover la reutilización de la información pública, creando las condiciones para una comunicación y publicación oportuna, periódica, proactiva, comprensible y en formatos abiertos.",
+    "placement_instructions": ""
   },
   {
-    "Number": "401",
-    "Target": "Artículo 9",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 401,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "402",
-    "Target": "Artículo 9",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 402,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "404",
-    "Target": "Artículo 10",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 404,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "405",
-    "Target": "Artículo 10",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 405,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "406",
-    "Target": "Artículo 11",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 406,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "407",
-    "Target": "Artículo 11",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 407,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "409",
-    "Target": "C) DERECHO A UNA ATENCIÓN DIGITAL DE CALIDAD - Artículo 1",
-    "Content": "“Artículo 1. Modernización del Estado. Es deber del Estado interactuar de manera eficaz con las personas, promover la mejora continua de los servicios públicos digitales y ofrecer una alternativa a ellos. Las y los funcionarios públicos, en conjunto con las y los usuarios podrán participar e incidir en la mejora de los servicios públicos. La ley determinará las acciones necesarias para su cumplimiento, poniendo especial énfasis en la formación de las y los funcionarios.”.",
-    "Authors": [
+    "number": 409,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1. Modernización del Estado. Es deber del Estado interactuar de manera eficaz con las personas, promover la mejora continua de los servicios públicos digitales y ofrecer una alternativa a ellos. Las y los funcionarios públicos, en conjunto con las y los usuarios podrán participar e incidir en la mejora de los servicios públicos. La ley determinará las acciones necesarias para su cumplimiento, poniendo especial énfasis en la formación de las y los funcionarios.",
+    "placement_instructions": ""
   },
   {
-    "Number": "413",
-    "Target": "Artículo 2",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 413,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "415",
-    "Target": "Artículo 3",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 415,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "416",
-    "Target": "Artículo 3",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 416,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "417",
-    "Target": "Artículo 4",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 417,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "420",
-    "Target": "DERECHO A LA MEMORIA - Artículo 1",
-    "Content": "“Artículo 1.- Reconocimiento de la memoria. La Constitución reconoce las memorias como patrimonio de los pueblos y sus culturas. El ejercicio social de la memoria es pilar fundamental para la construcción de culturas de paz.”.",
-    "Authors": [
+    "number": 420,
+    "authors_matched": [
       "Videla, Carolina"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1.- Reconocimiento de la memoria. La Constitución reconoce las memorias como patrimonio de los pueblos y sus culturas. El ejercicio social de la memoria es pilar fundamental para la construcción de culturas de paz.",
+    "placement_instructions": ""
   },
   {
-    "Number": "431",
-    "Target": "DERECHO A LA MEMORIA - Artículo 2",
-    "Content": "“Artículo 2.- Derecho a la memoria. Toda persona, individual y colectivamente, tiene el derecho a la memoria personal, familiar, ancestral y comunitaria, cuya regulación estará reservada para la ley.”.",
-    "Authors": [
+    "number": 431,
+    "authors_matched": [
       "Videla, Carolina"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2.- Derecho a la memoria. Toda persona, individual y colectivamente, tiene el derecho a la memoria personal, familiar, ancestral y comunitaria, cuya regulación estará reservada para la ley.",
+    "placement_instructions": ""
   },
   {
-    "Number": "436",
-    "Target": "DERECHO A LA MEMORIA",
-    "Content": "para sustituir, cada vez que se utiliza en el artículo las palabras “la memoria” por “las memorias”.",
-    "Authors": [
+    "number": 436,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "las memorias",
+    "content_to_remove": "la memoria",
+    "placement_instructions": "cada vez que se utiliza en el artículo"
   },
   {
-    "Number": "437",
-    "Target": "Artículo nuevo",
-    "Content": "“Artículo 3.- Deber del Estado. Es deber del Estado preservar la memoria y garantizar el acceso a los archivos y documentos, en sus distintos soportes y contenidos. Los sitios de memoria y memoriales serán objeto de especial protección, asegurando su preservación y sostenibilidad.”.",
-    "Authors": [
+    "number": 437,
+    "authors_matched": [
       "Videla, Carolina"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 3.- Deber del Estado. Es deber del Estado preservar la memoria y garantizar el acceso a los archivos y documentos, en sus distintos soportes y contenidos. Los sitios de memoria y memoriales serán objeto de especial protección, asegurando su preservación y sostenibilidad.",
+    "placement_instructions": "artículo nuevo"
   },
   {
-    "Number": "438",
-    "Target": "PATRIMONIOS - Artículo 1",
-    "Content": "“Artículo 1. Patrimonios naturales y culturales. El Estado reconoce y protege los patrimonios naturales y culturales, materiales e inmateriales, y garantiza su conservación, revitalización, aumento, salvaguardia y transmisión a las generaciones futuras, cualquiera sea el régimen jurídico y titularidad de dichos bienes. Se prohíbe la asimilación o destrucción de las culturas de los pueblos y naciones indígenas preexistentes. En estas materias, la ley establecerá los medios que aseguren la participación de todas las personas, individual y colectivamente, así como el consentimiento previo, libre e informado de los pueblos y naciones indígenas preexistentes. Asimismo, se deberán generar medidas eficaces de prevención, restitución, reparación y sanción.”",
-    "Authors": [
+    "number": 438,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1. Patrimonios naturales y culturales. El Estado reconoce y protege los patrimonios naturales y culturales, materiales e inmateriales, y garantiza su conservación, revitalización, aumento, salvaguardia y transmisión a las generaciones futuras, cualquiera sea el régimen jurídico y titularidad de dichos bienes. Se prohíbe la asimilación o destrucción de las culturas de los pueblos y naciones indígenas preexistentes. En estas materias, la ley establecerá los medios que aseguren la participación de todas las personas, individual y colectivamente, así como el consentimiento previo, libre e informado de los pueblos y naciones indígenas preexistentes. Asimismo, se deberán generar medidas eficaces de prevención, restitución, reparación y sanción.",
+    "placement_instructions": ""
   },
   {
-    "Number": "442",
-    "Target": "Artículo 1",
-    "Content": "“Esta Constitución garantiza la participación del pueblo tribal afrodescendiente en el desarrollo y promoción de sus culturas, su conservación y protección, y se aplicará con pleno respeto a los instrumentos internacionales pertinentes para su consentimiento libre, previo e informado.”.",
-    "Authors": [
+    "number": 442,
+    "authors_matched": [
       "Videla, Carolina"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Esta Constitución garantiza la participación del pueblo tribal afrodescendiente en el desarrollo y promoción de sus culturas, su conservación y protección, y se aplicará con pleno respeto a los instrumentos internacionales pertinentes para su consentimiento libre, previo e informado.",
+    "placement_instructions": "como nuevo inciso final"
   },
   {
-    "Number": "445",
-    "Target": "Artículo 2",
-    "Content": "“Artículo 2. Patrimonio y propiedad intelectual indígena. Los pueblos y naciones indígenas preexistentes tienen derecho a la propiedad, posesión, mantención, revitalización y desarrollo de su patrimonio cultural, material e inmaterial, entre otros, incluyendo sus conocimientos y expresiones tradicionales, los recursos genéticos y humanos, y a la propiedad intelectual colectiva sobre estos. Ello comprende las epistemologías y cosmovisiones, las lenguas, las ciencias y tecnologías, las artes visuales e interpretativas, los sitios y elementos sagrados, los objetos culturales y restos humanos, las medicinas tradicionales, las semillas ancestrales, los diseños, la herencia cultural y memorias, entre otros que permiten su continuidad colectiva y la de sus miembros, y su transmisión a las generaciones futuras. Estos derechos colectivos y sus elementos son inviolables, inembargables, intransferibles e imprescriptibles, respetando su derecho e instituciones propias.”.",
-    "Authors": [
+    "number": 445,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2. Patrimonio y propiedad intelectual indígena. Los pueblos y naciones indígenas preexistentes tienen derecho a la propiedad, posesión, mantención, revitalización y desarrollo de su patrimonio cultural, material e inmaterial, entre otros, incluyendo sus conocimientos y expresiones tradicionales, los recursos genéticos y humanos, y a la propiedad intelectual colectiva sobre estos. Ello comprende las epistemologías y cosmovisiones, las lenguas, las ciencias y tecnologías, las artes visuales e interpretativas, los sitios y elementos sagrados, los objetos culturales y restos humanos, las medicinas tradicionales, las semillas ancestrales, los diseños, la herencia cultural y memorias, entre otros que permiten su continuidad colectiva y la de sus miembros, y su transmisión a las generaciones futuras. Estos derechos colectivos y sus elementos son inviolables, inembargables, intransferibles e imprescriptibles, respetando su derecho e instituciones propias.",
+    "placement_instructions": ""
   },
   {
-    "Number": "447",
-    "Target": "B) DERECHOS DE LOS PUEBLOS ORIGINARIOS - Artículo 2",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 447,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "450",
-    "Target": "Artículo 3",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 450,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "451",
-    "Target": "Artículo 3",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 451,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "453",
-    "Target": "Artículo 4",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 453,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "454",
-    "Target": "Artículo 4",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 454,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "456",
-    "Target": "Artículo 5",
-    "Content": "“Artículo 5. Patrimonio paleontológico y arqueológico. El Estado deberá proteger el patrimonio paleontológico y arqueológico. El patrimonio bioantropológico y cultural de los pueblos será protegido por el Estado. En el caso del patrimonio de los pueblos y naciones indígenas preexistentes, dicha protección se hará con su consentimiento previo, libre e informado.”",
-    "Authors": [
+    "number": 456,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 5. Patrimonio paleontológico y arqueológico. El Estado deberá proteger el patrimonio paleontológico y arqueológico. El patrimonio bioantropológico y cultural de los pueblos será protegido por el Estado. En el caso del patrimonio de los pueblos y naciones indígenas preexistentes, dicha protección se hará con su consentimiento previo, libre e informado.",
+    "placement_instructions": ""
   },
   {
-    "Number": "460",
-    "Target": "Artículo 6",
-    "Content": "“Artículo 4: Difusión y educación sobre patrimonios. El Estado fomentará la difusión y educación sobre los patrimonios naturales y culturales, materiales e inmateriales.”.",
-    "Authors": [
+    "number": 460,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4: Difusión y educación sobre patrimonios. El Estado fomentará la difusión y educación sobre los patrimonios naturales y culturales, materiales e inmateriales.",
+    "placement_instructions": ""
   },
   {
-    "Number": "461",
-    "Target": "Artículo 7",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 461,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "462",
-    "Target": "Artículo 7",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 462,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "465",
-    "Target": "Artículo 8",
-    "Content": "“Artículo 3. Derecho al acceso a los patrimonios. Todas las personas tienen derecho a acceder a los patrimonios naturales y culturales, respetando los derechos consagrados en esta Constitución y las leyes, así como los derechos de los pueblos y naciones indígenas preexistentes.”.",
-    "Authors": [
+    "number": 465,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 3. Derecho al acceso a los patrimonios. Todas las personas tienen derecho a acceder a los patrimonios naturales y culturales, respetando los derechos consagrados en esta Constitución y las leyes, así como los derechos de los pueblos y naciones indígenas preexistentes.",
+    "placement_instructions": ""
   },
   {
-    "Number": "471",
-    "Target": "Artículo 10",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 471,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "472",
-    "Target": "Artículo 10",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 472,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "474",
-    "Target": "Artículo 11",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 474,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "475",
-    "Target": "Artículo 11",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 475,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "478",
-    "Target": "Artículo 12",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 478,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "479",
-    "Target": "Artículo 12",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 479,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "482",
-    "Target": "Artículo 13",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 482,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "483",
-    "Target": "Artículo 13",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 483,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "486",
-    "Target": "Artículo 14",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 486,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "487",
-    "Target": "Artículo 14",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 487,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "490",
-    "Target": "Artículo 15",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 490,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "491",
-    "Target": "Artículo 15",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 491,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "494",
-    "Target": "Artículo 16",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 494,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "495",
-    "Target": "Artículo 16",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 495,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "498",
-    "Target": "Artículo 17",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 498,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "499",
-    "Target": "Artículo 17",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 499,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "502",
-    "Target": "Artículo 18",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 502,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "503",
-    "Target": "Artículo 18",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 503,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "506",
-    "Target": "Artículo 19",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 506,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "507",
-    "Target": "Artículo 19",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 507,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "508",
-    "Target": "Artículo 20",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 508,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "509",
-    "Target": "Artículo 20",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 509,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "510",
-    "Target": "Artículo 21",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 510,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "511",
-    "Target": "Artículo 21",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 511,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "513",
-    "Target": "Artículo 22",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 513,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "514",
-    "Target": "Artículo 22",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 514,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "515",
-    "Target": "Artículo 23",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 515,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "516",
-    "Target": "Artículo 23",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 516,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "518",
-    "Target": "Artículo 24",
-    "Content": "“Artículo 6: Tesoro Humano Vivo. El Estado reconocerá la calidad de Tesoro Humano Vivo de aquellas comunidades, grupos y personas, que sean custodios del patrimonio de un determinado pueblo, indígenas o no, de acuerdo a los requisitos que regule la ley.”",
-    "Authors": [
+    "number": 518,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 6: Tesoro Humano Vivo. El Estado reconocerá la calidad de Tesoro Humano Vivo de aquellas comunidades, grupos y personas, que sean custodios del patrimonio de un determinado pueblo, indígenas o no, de acuerdo a los requisitos que regule la ley.",
+    "placement_instructions": ""
   },
   {
-    "Number": "519",
-    "Target": "Artículo 25",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 519,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "520",
-    "Target": "Artículo 25",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 520,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "521",
-    "Target": "Artículo 26",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 521,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "522",
-    "Target": "Artículo 26",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 522,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "523",
-    "Target": "Artículo 27",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 523,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "524",
-    "Target": "Artículo 27",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 524,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "525",
-    "Target": "Artículo nuevo",
-    "Content": "Artículo (X): “Patrimonio inmaterial lingüístico. El Estado reconoce el patrimonio constituido por las diferentes lenguas indígenas, las que serán objeto de especial fortalecimiento, revitalización y protección, resguardando su conservación.",
-    "Authors": [
+    "number": 525,
+    "authors_matched": [
       "Vargas, Margarita"
-    ]
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo (X): “Patrimonio inmaterial lingüístico. El Estado reconoce el patrimonio constituido por las diferentes lenguas indígenas, las que serán objeto de especial fortalecimiento, revitalización y protección, resguardando su conservación.",
+    "placement_instructions": "agregar el siguiente artículo"
   },
   {
-    "Number": "526",
-    "Target": "Artículo 28",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 526,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "527",
-    "Target": "Artículo 28",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 527,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "528",
-    "Target": "Artículo 29",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 528,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "529",
-    "Target": "Artículo 29",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 529,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 29,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "530",
-    "Target": "Artículo 30",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 530,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "531",
-    "Target": "Artículo 30",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 531,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 30,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "532",
-    "Target": "Artículo 31",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 532,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 31,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "535",
-    "Target": "Artículo 32",
-    "Content": "“Artículo 7. Protección del patrimonio biocultural. El Estado protegerá el patrimonio biocultural del país a través de la declaración de reservas patrimoniales, las que constituirán a lo menos un 30% de los territorios de los ecosistemas declarados como representativos... El Estado reconoce como representativos los siguientes ecosistemas: el mar, el desierto, los salares, las zonas costeras, la alta montaña, los valles transversales, el secano costero, el bosque esclerófilo, el bosque andino patagónico, la estepa patagónica, los archipiélagos, las turberas, la tundra magallánica y otros que determine la ley.”.",
-    "Authors": [
+    "number": 535,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 32,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 7. Protección del patrimonio biocultural. El Estado protegerá el patrimonio biocultural del país a través de la declaración de reservas patrimoniales, las que constituirán a lo menos un 30% de los territorios de los ecosistemas declarados como representativos. Estas no admitirán actividad industrial alguna, podrán coincidir espacialmente con otras áreas protegidas y serán gestionadas por el Estado, en conjunto con las comunidades locales y con especial atención de Los derechos de los pueblos y naciones preexistentes, cuando corresponda, y se regularán, en lo demás, por lo que establezca esta Constitución y la ley. El Estado reconoce como representativos los siguientes ecosistemas: el mar, el desierto, los salares, las zonas costeras, la alta montaña, los valles transversales, el secano costero, el bosque esclerófilo, el bosque andino patagónico, la estepa patagónica, los archipiélagos, las turberas, la tundra magallánica y otros que determine la ley.",
+    "placement_instructions": ""
   },
   {
-    "Number": "538",
-    "Target": "Artículo 33",
-    "Content": "“Artículo 8: Reconocimiento de la artesanía. El Estado reconoce la artesanía como patrimonio cultural inmaterial, su función social y el aporte al desarrollo productivo del país. Los artesanos y artesanas podrán ser reconocidos dentro de la categoría de Tesoros Humanos Vivos por su aporte a la transmisión de oficios, la preservación y divulgación de saberes y herencias culturales de los territorios, según lo establezca la ley... En el caso de las creaciones de los pueblos y naciones indígenas preexistentes, representativas de sus saberes ancestrales, serán valoradas por su aporte tecnológico y artístico como patrimonio inmaterial.”",
-    "Authors": [
+    "number": 538,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 33,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 8: Reconocimiento de la artesanía. El Estado reconoce la artesanía como patrimonio cultural inmaterial, su función social y el aporte al desarrollo productivo del país. Los artesanos y artesanas podrán ser reconocidos dentro de la categoría de Tesoros Humanos Vivos por su aporte a la transmisión de oficios, la preservación y divulgación de saberes y herencias culturales de los territorios, según lo establezca la ley. Es deber del Estado proteger, fomentar y garantizar la actividad creativa y productiva de las artesanas y artesanos en todo ámbito de su desarrollo. En el caso de las creaciones de los pueblos y naciones indígenas preexistentes, representativas de sus saberes ancestrales, serán valoradas por su aporte tecnológico y artístico como patrimonio inmaterial.",
+    "placement_instructions": ""
   },
   {
-    "Number": "539",
-    "Target": "Artículo 34",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 539,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 34,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "540",
-    "Target": "Artículo 34",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 540,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 34,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "541",
-    "Target": "Artículo 35",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 541,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 35,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "542",
-    "Target": "Artículo 35",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 542,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 35,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "544",
-    "Target": "Artículo 36",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 544,
+    "authors_matched": [
       "Neumann, Ricardo",
       "Letelier, Margarita",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 36,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "545",
-    "Target": "Artículo 36",
-    "Content": "para suprimirlo.",
-    "Authors": [
+    "number": 545,
+    "authors_matched": [
       "Calvo, Carlos"
-    ]
+    ],
+    "target_article": 36,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   }
 ]

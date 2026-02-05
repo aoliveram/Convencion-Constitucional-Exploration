@@ -1,32 +1,24 @@
 [
   {
-    "Number": "S/N",
-    "Target": "Artículos 74 A, 74 B y 74 C",
-    "Content": "Suprimir los artículos 74 A, 74 B y 74 C.",
-    "Authors": [
-      "Monckeberg, Cristian",
-      "Larrain, Hernan",
-      "Harboe, Felipe"
-    ]
-  },
-  {
-    "Number": "302",
-    "Target": "Artículo 75",
-    "Content": "“Artículo 75.- Del control de constitucionalidad y legalidad de la Contraloría. En el ejercicio del control de constitucionalidad y legalidad, la Contraloría General tomará razón de los decretos, resoluciones y otros actos administrativos o representará su ilegalidad. Sin embargo, deberá darles curso cuando la o el Presidente de la República insista con la firma de todos sus Ministros, debiendo enviar copia de los respectivos decretos al Congreso. En ningún caso dará curso a los decretos de gastos que excedan el límite señalado en la Constitución o la ley y remitirá copia íntegra de los antecedentes al Congreso. Tratándose de la representación por inconstitucionalidad no procederá insistencia y el pronunciamiento de la Contraloría será reclamable ante el tribunal que señale la ley. Además, le corresponderá tomar razón de los decretos con fuerza de ley, debiendo representarlos, cuando ellos excedan o contravengan la respectiva ley delegatoria. Respecto de los decretos, resoluciones y otros actos administrativos de entidades territoriales que, de acuerdo a la ley, deban tramitarse por la Contraloría, la toma de razón corresponderá a la respectiva contraloría regional. Los antecedentes que debieran remitirse, en su caso, lo serán a la correspondiente asamblea regional.”",
-    "Authors": [
+    "number": "302",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 75,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 75.- Del control de constitucionalidad y legalidad de la Contraloría. En el ejercicio del control de constitucionalidad y legalidad, la Contraloría General tomará razón de los decretos, resoluciones y otros actos administrativos o representará su ilegalidad. Sin embargo, deberá darles curso cuando la o el Presidente de la República insista con la firma de todos sus Ministros, debiendo enviar copia de los respectivos decretos al Congreso. En ningún caso dará curso a los decretos de gastos que excedan el límite señalado en la Constitución o la ley y remitirá copia íntegra de los antecedentes al Congreso. Tratándose de la representación por inconstitucionalidad no procederá insistencia y el pronunciamiento de la Contraloría será reclamable ante el tribunal que señale la ley. Además, le corresponderá tomar razón de los decretos con fuerza de ley, debiendo representarlos, cuando ellos excedan o contravengan la respectiva ley delegatoria. Respecto de los decretos, resoluciones y otros actos administrativos de entidades territoriales que, de acuerdo a la ley, deban tramitarse por la Contraloría, la toma de razón corresponderá a la respectiva contraloría regional. Los antecedentes que debieran remitirse, en su caso, lo serán a la correspondiente asamblea regional.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "304, 305, 306 y 307",
-    "Target": "Artículos 75 A y 75 B",
-    "Content": "Para suprimir los artículos 75 A y 75 B.",
-    "Authors": [
+    "number": "304",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
@@ -34,91 +26,119 @@
       "Laibe, Tomas",
       "Jimenez, Luis",
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 75,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículos 75 A y 75 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "308",
-    "Target": "Artículo 76",
-    "Content": "“Artículo 76.- De la potestad para emitir dictámenes y la facultad fiscalizadora de la Contraloría General de la República. La Contraloría General de la República podrá emitir dictámenes obligatorios para toda autoridad, funcionario o trabajador de cualquier órgano integrante de la Administración del Estado, de las regiones y de las comunas, incluyendo los directivos de empresas públicas o sociedades en las que tenga participación una entidad estatal o cualquier otra entidad territorial. Los órganos de la Administración del Estado, los Gobiernos Regionales y locales, órganos autónomos, empresas públicas, sociedades en que el Estado tenga participación, personas jurídicas que dispongan de recursos fiscales o administren bienes públicos, y los demás que defina la ley, estarán sujetos a la fiscalización y auditorías de la Contraloría General de la República. La ley regulará el ejercicio de estas potestades fiscalizadoras y auditoras.”.",
-    "Authors": [
+    "number": "308",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 76,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 76.- De la potestad para emitir dictámenes y la facultad fiscalizadora de la Contraloría General de la República. La Contraloría General de la República podrá emitir dictámenes obligatorios para toda autoridad, funcionario o trabajador de cualquier órgano integrante de la Administración del Estado, de las regiones y de las comunas, incluyendo los directivos de empresas públicas o sociedades en las que tenga participación una entidad estatal o cualquier otra entidad territorial. Los órganos de la Administración del Estado, los Gobiernos Regionales y locales, órganos autónomos, empresas públicas, sociedades en que el Estado tenga participación, personas jurídicas que dispongan de recursos fiscales o administren bienes públicos, y los demás que defina la ley, estarán sujetos a la fiscalización y auditorías de la Contraloría General de la República. La ley regulará el ejercicio de estas potestades fiscalizadoras y auditoras.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "309",
-    "Target": "Artículo 77",
-    "Content": "“Artículo 77.- De las Contralorías Regionales. La Contraloría General de la República funcionará desconcentradamente en cada una de las regiones del país mediante Contralorías Regionales. La dirección de cada contraloría regional estará a cargo de una o un Contralor Regional, designado por la o el Contralor General de la República. En el ejercicio de sus funciones deberán mantener la unidad de acción, con el fin de aplicar un criterio uniforme en todo el territorio del país. La ley determinará las demás atribuciones de las Contralorías Regionales y regulará su organización y funcionamiento.”",
-    "Authors": [
+    "number": "309",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 77,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 77.- De las Contralorías Regionales. La Contraloría General de la República funcionará desconcentradamente en cada una de las regiones del país mediante Contralorías Regionales. La dirección de cada contraloría regional estará a cargo de una o un Contralor Regional, designado por la o el Contralor General de la República. En el ejercicio de sus funciones deberán mantener la unidad de acción, con el fin de aplicar un criterio uniforme en todo el territorio del país. La ley determinará las demás atribuciones de las Contralorías Regionales y regulará su organización y funcionamiento.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "310",
-    "Target": "Artículo 77 A",
-    "Content": "Suprimir el artículo 77 A.",
-    "Authors": [
+    "number": "310",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 77,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 77 A",
+    "placement_instructions": ""
   },
   {
-    "Number": "311, 312, 313 y 314",
-    "Target": "Artículos 78 A, 79, 80 y 81",
-    "Content": "Suprimir los artículos 78 A, 79, 80 y 81.",
-    "Authors": [
+    "number": "311",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 78,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículos 78 A, 79, 80 y 81",
+    "placement_instructions": ""
   },
   {
-    "Number": "315",
-    "Target": "Título Epígrafe",
-    "Content": "Sustituir el título “Tribunales Electorales y Servicio Electoral” por el siguiente “Capítulo XX. Tribunales Electorales y Servicio Electoral”.",
-    "Authors": [
+    "number": "315",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 82,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "Capítulo XX. Tribunales Electorales y Servicio Electoral",
+    "content_to_remove": "Tribunales Electorales y Servicio Electoral",
+    "placement_instructions": "sustituir el título"
   },
   {
-    "Number": "317",
-    "Target": "Artículo 82",
-    "Content": "“Artículo 82.- Del Servicio Electoral. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Servicio Electoral, ejercerá la administración, supervigilancia y fiscalización de los procesos electorales y plebiscitarios, del cumplimiento de las normas sobre transparencia, límite y control del gasto electoral, de las normas sobre organizaciones políticas y las demás funciones que señale la ley. La dirección superior del Servicio Electoral corresponderá a un Consejo Directivo, el que ejercerá de forma exclusiva las atribuciones que le encomienden la Constitución y las leyes. Dicho Consejo estará integrado por cinco consejeras y consejeros designados por la mayoría absoluta de los integrantes del Congreso, a partir de ternas propuestas por el Consejo de la Alta Dirección Pública. Las y los consejeros durarán ocho años en sus cargos, no podrán ser reelegidos y se renovarán por parcialidades cada cuatro años. Las y los consejeros deberán ser profesionales de comprobada idoneidad para el cargo. No podrán haber sido candidatas o candidatos, desempeñado un cargo de elección popular, ni haber ocupado cargos de exclusiva confianza en los cuatro años anteriores a su nombramiento. Las y los consejeros sólo podrán ser removidos por la Corte Suprema a requerimiento de la o el Presidente de la República o de un tercio de los miembros en ejercicio del Congreso por infracción grave a la Constitución o a las leyes, incapacidad, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones. La Corte conocerá del asunto en pleno especialmente convocado al efecto y, para acordar la remoción deberá reunir el voto conforme de la mayoría de sus juezas y jueces en ejercicio.”",
-    "Authors": [
+    "number": "317",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 82,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 82.- Del Servicio Electoral. Un organismo autónomo, con personalidad jurídica y patrimonio propio, denominado Servicio Electoral, ejercerá la administración, supervigilancia y fiscalización de los procesos electorales y plebiscitarios, del cumplimiento de las normas sobre transparencia, límite y control del gasto electoral, de las normas sobre organizaciones políticas y las demás funciones que señale la ley. La dirección superior del Servicio Electoral corresponderá a un Consejo Directivo, el que ejercerá de forma exclusiva las atribuciones que le encomienden la Constitución y las leyes. Dicho Consejo estará integrado por cinco consejeras y consejeros designados por la mayoría absoluta de los integrantes del Congreso, a partir de ternas propuestas por el Consejo de la Alta Dirección Pública. Las y los consejeros durarán ocho años en sus cargos, no podrán ser reelegidos y se renovarán por parcialidades cada cuatro años. Las y los consejeros deberán ser profesionales de comprobada idoneidad para el cargo. No podrán haber sido candidatas o candidatos, desempeñado un cargo de elección popular, ni haber ocupado cargos de exclusiva confianza en los cuatro años anteriores a su nombramiento. Las y los consejeros sólo podrán ser removidos por la Corte Suprema a requerimiento de la o el Presidente de la República o de un tercio de los miembros en ejercicio del Congreso por infracción grave a la Constitución o a las leyes, incapacidad, mal comportamiento o negligencia manifiesta en el ejercicio de sus funciones. La Corte conocerá del asunto en pleno especialmente convocado al efecto y, para acordar la remoción deberá reunir el voto conforme de la mayoría de sus juezas y jueces en ejercicio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "320 a 327",
-    "Target": "Artículos 82 A, 82 B, 83, 84, 85 y 86",
-    "Content": "Suprimir los artículos 82 A, 82 B, 83, 84, 85 y 86.",
-    "Authors": [
+    "number": "320",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
@@ -126,39 +146,51 @@
       "Laibe, Tomas",
       "Jimenez, Luis",
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 82,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 82 A, 82 B, 83, 84, 85 y 86",
+    "placement_instructions": ""
   },
   {
-    "Number": "328",
-    "Target": "Epígrafe",
-    "Content": "Suprimir el subtítulo “§ Justicia Electoral”, quedando solo vigente el subtítulo “§ Tribunales Electorales”.",
-    "Authors": [
+    "number": "328",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 87,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "§ Justicia Electoral",
+    "placement_instructions": ""
   },
   {
-    "Number": "329",
-    "Target": "Artículo 87",
-    "Content": "“Artículo 87.- Del Tribunal Calificador de Elecciones. El Tribunal Calificador de Elecciones conocerá del escrutinio general y de la calificación de las elecciones de las autoridades electas por votación popular a nivel nacional, resolverá las reclamaciones que se suscitaren y proclamará a los que resulten elegidas y elegidos. Además, conocerá y resolverá los reclamos administrativos que se entablen contra actos del Servicio Electoral y las decisiones emanadas de tribunales supremos u órganos equivalentes de las organizaciones políticas. Dicho Tribunal conocerá, asimismo, de los plebiscitos nacionales, y tendrá las demás atribuciones que determine la ley. El Tribunal valorará la prueba conforme a las reglas de la sana crítica. Estará constituido por cinco juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces del Tribunal Calificador de Elecciones durarán seis años en sus funciones. Una ley regulará la organización y funcionamiento del Tribunal Calificador de Elecciones, plantas, remuneraciones y estatuto del personal.”.",
-    "Authors": [
+    "number": "329",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 87,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 87.- Del Tribunal Calificador de Elecciones. El Tribunal Calificador de Elecciones conocerá del escrutinio general y de la calificación de las elecciones de las autoridades electas por votación popular a nivel nacional, resolverá las reclamaciones que se suscitaren y proclamará a los que resulten elegidas y elegidos. Además, conocerá y resolverá los reclamos administrativos que se entablen contra actos del Servicio Electoral y las decisiones emanadas de tribunales supremos u órganos equivalentes de las organizaciones políticas. Dicho Tribunal conocerá, asimismo, de los plebiscitos nacionales, y tendrá las demás atribuciones que determine la ley. El Tribunal valorará la prueba conforme a las reglas de la sana crítica. Estará constituido por cinco juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces del Tribunal Calificador de Elecciones durarán seis años en sus funciones. Una ley regulará la organización y funcionamiento del Tribunal Calificador de Elecciones, plantas, remuneraciones y estatuto del personal.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "332, 333 y 334",
-    "Target": "Artículo 87 A",
-    "Content": "Suprimir el artículo 87 A.",
-    "Authors": [
+    "number": "332",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
@@ -182,26 +214,34 @@
       "Monckeberg, Cristian",
       "Larrain, Hernan",
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 87,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 87 A",
+    "placement_instructions": ""
   },
   {
-    "Number": "335",
-    "Target": "Artículo 88",
-    "Content": "“Artículo 88.- De los Tribunales Electorales Regionales. Habrá tribunales electorales regionales encargados de conocer el escrutinio general y la calificación de las elecciones de nivel regional y comunal, así como resolver las reclamaciones a que dieren lugar y proclamar las candidaturas que resultaren electas. Conocerán, asimismo, de los plebiscitos regionales y comunales, sin perjuicio de las demás atribuciones que determine la ley. Sus resoluciones serán apelables y su conocimiento corresponderá al Tribunal Calificador de Elecciones en la forma que determine la ley. Igualmente, les corresponderá conocer de la calificación de las elecciones de carácter gremial y de las que tengan lugar en aquellas organizaciones que la ley señale. Los tribunales electorales regionales estarán constituidos por tres juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces de los tribunales electorales regionales durarán seis años en sus funciones. Estos tribunales valorarán la prueba conforme a las reglas de la sana crítica. Una ley regulará la organización y funcionamiento de los tribunales electorales regionales, plantas, remuneraciones y estatuto del personal.”.",
-    "Authors": [
+    "number": "335",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 88,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 88.- De los Tribunales Electorales Regionales. Habrá tribunales electorales regionales encargados de conocer el escrutinio general y la calificación de las elecciones de nivel regional y comunal, así como resolver las reclamaciones a que dieren lugar y proclamar las candidaturas que resultaren electas. Conocerán, asimismo, de los plebiscitos regionales y comunales, sin perjuicio de las demás atribuciones que determine la ley. Sus resoluciones serán apelables y su conocimiento corresponderá al Tribunal Calificador de Elecciones en la forma que determine la ley. Igualmente, les corresponderá conocer de la calificación de las elecciones de carácter gremial y de las que tengan lugar en aquellas organizaciones que la ley señale. Los tribunales electorales regionales estarán constituidos por tres juezas y jueces, designados en base a criterios de paridad y equidad territorial por el Consejo de la Justicia, los cuales deberán postular en la forma y oportunidad que determine la ley respectiva. Las juezas y los jueces de los tribunales electorales regionales durarán seis años en sus funciones. Estos tribunales valorarán la prueba conforme a las reglas de la sana crítica. Una ley regulará la organización y funcionamiento de los tribunales electorales regionales, plantas, remuneraciones y estatuto del personal.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "339, 340, 341 y 342",
-    "Target": "Artículos 88 A y 88 B",
-    "Content": "Suprimir los artículos 88 A y 88 B.",
-    "Authors": [
+    "number": "339",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
@@ -209,168 +249,236 @@
       "Laibe, Tomas",
       "Jimenez, Luis",
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 88,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 88 A y 88 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "343",
-    "Target": "Artículo 89",
-    "Content": "“Artículo 89.- De la gestión y superintendencia. La gestión administrativa y la superintendencia directiva y correccional del Tribunal Calificador de Elecciones y de los tribunales electorales regionales corresponderán al Consejo de la Justicia.”",
-    "Authors": [
+    "number": "343",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 89,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 89.- De la gestión y superintendencia. La gestión administrativa y la superintendencia directiva y correccional del Tribunal Calificador de Elecciones y de los tribunales electorales regionales corresponderán al Consejo de la Justicia.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "344 y 345",
-    "Target": "Artículos 89 A y 90",
-    "Content": "Suprimir los artículos 89 A y 90.",
-    "Authors": [
+    "number": "344",
+    "authors_matched": [
       "Bravo, Daniel",
       "Hoppe, Vanessa",
       "Daza, Mauricio",
       "Viera, Christian",
       "Laibe, Tomas",
       "Jimenez, Luis"
-    ]
+    ],
+    "target_article": 89,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 89 A y 90",
+    "placement_instructions": ""
   },
   {
-    "Number": "346",
-    "Target": "Epígrafe",
-    "Content": "Suprimir epígrafe “§ De la Dirección de Servicio Civil”.",
-    "Authors": [
+    "number": "346",
+    "authors_matched": [
       "Cruz, Andres",
       "Laibe, Tomas"
-    ]
+    ],
+    "target_article": 91,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "§ De la Dirección de Servicio Civil",
+    "placement_instructions": ""
   },
   {
-    "Number": "347",
-    "Target": "Artículo 91",
-    "Content": "“Artículo 91. Consejo del Servicio Civil.- El Consejo del Servicio Civil será un organismo autónomo de la Administración estatal, con personalidad jurídica y patrimonio propio, encargado de resguardar los principios de no discriminación, mérito y capacidad en los procedimientos de selección, desarrollo y cese de los cargos públicos que componen el servicio civil, así como su imparcialidad, agilidad y transparencia... [extract truncated for brevity] ...La Ley regulará los demás aspectos de la composición, remoción y funcionamiento del Consejo Directivo.”",
-    "Authors": [
+    "number": "347",
+    "authors_matched": [
       "Cruz, Andres",
       "Laibe, Tomas"
-    ]
+    ],
+    "target_article": 91,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 91. Consejo del Servicio Civil.- El Consejo del Servicio Civil será un organismo autónomo de la Administración estatal, con personalidad jurídica y patrimonio propio, encargado de resguardar los principios de no discriminación, mérito y capacidad en los procedimientos de selección, desarrollo y cese de los cargos públicos que componen el servicio civil, así como su imparcialidad, agilidad y transparencia. Solo se reservará la información cuya difusión pudiera afectar el adecuado funcionamiento de estos procedimientos, en conformidad con la ley. Integran el servicio civil los cargos de la Administración Pública en el nivel central, regional y municipal, que, bajo la dirección del gobierno correspondiente a cada nivel, implementan las políticas públicas y proveen o garantizan, en su caso, la prestación de servicios públicos, en forma continua y permanente. Su desempeño deberá ser objetivo y políticamente neutral, en concordancia con el carácter profesional y técnico que les es propio. Se excluyen del servicio civil los cargos de exclusiva confianza que son parte del gobierno central, regional y municipal, y que son declarados como tales por esta Constitución o la Ley atendiendo a la naturaleza de sus funciones. La dirección superior del Consejo del Servicio Civil estará a cargo de un Consejo Directivo de 7 integrantes que hayan destacado en el ámbito de la gestión pública y tengan, al menos, 15 años de experiencia profesional. 3 integrantes serán nombrados por la Presidencia de la República, a partir de una terna confeccionada por el Congreso. 4 integrantes serán nombrados por el Congreso, a partir de una terna confeccionada por la Presidencia de la República. Los consejeros elegirán de entre ellos a un Presidente y durarán 5 años, pudiendo ser renovados por una vez. Sólo podrán ser removidos anticipadamente por infracción grave de la Constitución o la ley o mal desempeño declarados por la Corte Suprema. El Consejo Directivo: a) Conducirá los procesos de selección a partir de las cuales serán nombrados los directivos de los servicios públicos que integren el servicio civil y aprobará su remoción anticipada, que deberá fundarse en incapacidad, mal desempeño o vulneración de la ley. Tratándose de los jefes superiores de servicios, y de los demás casos que la ley y esta Constitución señalen, el Consejo Directivo definirá directamente las nóminas que se propondrán a la autoridad incluyendo en ellas a los postulantes más idóneos para el cargo que se requiera proveer; b) Promoverá reformas y medidas tendientes al mejoramiento de la gestión del personal del sector público, incluyendo la capacitación, la medición del desempeño y las relaciones laborales; c) Impartirá normas de aplicación general en materias de gestión y desarrollo de personas en la Administración Pública; d) Velará por la correcta aplicación de la normativa del servicio civil denunciando, ante las autoridades respectivas, las irregularidades de que conozca, y e) Desempeñará las demás funciones que señalen esta Constitución y la ley. La Ley regulará los demás aspectos de la composición, remoción y funcionamiento del Consejo Directivo.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "349 a 354",
-    "Target": "Artículos 91 A, 92, 93, 94, 95 y 96",
-    "Content": "Suprimir los artículos 91 A, 92, 93, 94, 95 y 96.",
-    "Authors": [
+    "number": "349",
+    "authors_matched": [
       "Cruz, Andres",
       "Laibe, Tomas"
-    ]
+    ],
+    "target_article": 91,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 91 A, 92, 93, 94, 95 y 96",
+    "placement_instructions": ""
   },
   {
-    "Number": "355",
-    "Target": "Nuevo Artículo",
-    "Content": "“Artículo.- Es deber del Estado el resguardo de la fe pública, la seguridad del tráfico jurídico, la regulación y supervigilancia en la formación de documentos que tengan valor probatorio o el carácter de auténticos, debiendo garantizar el acceso de la población a estos. La ley establecerá el pago de tasas o aranceles por las actuaciones que involucren el resguardo de la fe pública en atención a la cuantía y materia del asunto de que se trate.”",
-    "Authors": [
+    "number": "355",
+    "authors_matched": [
       "Cruz, Andres",
       "Botto, Miguel Angel",
       "Gutierrez, Hugo",
       "Daza, Mauricio",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 58,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo.- Es deber del Estado el resguardo de la fe pública, la seguridad del tráfico jurídico, la regulación y supervigilancia en la formación de documentos que tengan valor probatorio o el carácter de auténticos, debiendo garantizar el acceso de la población a estos. La ley establecerá el pago de tasas o aranceles por las actuaciones que involucren el resguardo de la fe pública en atención a la cuantía y materia del asunto de que se trate.",
+    "content_to_remove": "",
+    "placement_instructions": "como artículo inicial nuevo"
   },
   {
-    "Number": "357",
-    "Target": "Artículo 97",
-    "Content": "“Artículo 97. Del Servicio Nacional de Fe Pública. El Servicio Nacional de Fe Pública, será el órgano encargado de la certificación y del debido registro, guarda, custodia y almacenamiento de los instrumentos públicos y privados que determine la ley. La designación de los notarios, archiveros y conservadores del Servicio de Fe Pública se realizará de forma objetiva, transparente y en función de sus méritos. La ley regulará los requisitos de su nombramiento, inhabilidades, atribuciones y remuneraciones.”",
-    "Authors": [
+    "number": "357",
+    "authors_matched": [
       "Hoppe, Vanessa",
       "Royo, Manuela"
-    ]
+    ],
+    "target_article": 97,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 97. Del Servicio Nacional de Fe Pública. El Servicio Nacional de Fe Pública, será el órgano encargado de la certificación y del debido registro, guarda, custodia y almacenamiento de los instrumentos públicos y privados que determine la ley. La designación de los notarios, archiveros y conservadores del Servicio de Fe Pública se realizará de forma objetiva, transparente y en función de sus méritos. La ley regulará los requisitos de su nombramiento, inhabilidades, atribuciones y remuneraciones.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "359",
-    "Target": "Artículo 98",
-    "Content": "“Artículo 98.- Es deber del Estado garantizar el acceso gratuito a todos los servicios auxiliares de administración de Justicia, transitando hacia un modelo digitalizado, que asegure la transparencia, publicidad, simplificación y gratuidad.”",
-    "Authors": [
+    "number": "359",
+    "authors_matched": [
       "Hoppe, Vanessa",
       "Royo, Manuela"
-    ]
+    ],
+    "target_article": 98,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 98.- Es deber del Estado garantizar el acceso gratuito a todos los servicios auxiliares de administración de Justicia, transitando hacia un modelo digitalizado, que asegure la transparencia, publicidad, simplificación y gratuidad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "360",
-    "Target": "Artículo 99",
-    "Content": "Eliminar el actual artículo 99.",
-    "Authors": [
+    "number": "360",
+    "authors_matched": [
       "Hoppe, Vanessa",
       "Royo, Manuela"
-    ]
+    ],
+    "target_article": 99,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "361",
-    "Target": "Artículo 100",
-    "Content": "“Artículo 100.- Todos servicios notariales y registrales son públicos. Sólo la ley podrá establecer el pago de tasas por actuaciones y certificaciones en atención a la cuantía y materia del asunto de que se trate. Los dineros recaudados irán a beneficio fiscal.”",
-    "Authors": [
+    "number": "361",
+    "authors_matched": [
       "Hoppe, Vanessa",
       "Royo, Manuela"
-    ]
+    ],
+    "target_article": 100,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 100.- Todos servicios notariales y registrales son públicos. Sólo la ley podrá establecer el pago de tasas por actuaciones y certificaciones en atención a la cuantía y materia del asunto de que se trate. Los dineros recaudados irán a beneficio fiscal.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "362",
-    "Target": "Epígrafe",
-    "Content": "Sustituir el título § Servicio Nacional del Consumidor por el siguiente: “§ Agencia Nacional del Consumidor”.",
-    "Authors": [
+    "number": "362",
+    "authors_matched": [
       "Stingo, Daniel"
-    ]
+    ],
+    "target_article": 101,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "Agencia Nacional del Consumidor",
+    "content_to_remove": "Servicio Nacional del Consumidor",
+    "placement_instructions": "sustituir el título"
   },
   {
-    "Number": "363",
-    "Target": "Artículo 101",
-    "Content": "“Artículo 101. La Agencia Nacional del Consumidor es un organismo autónomo, cuya finalidad es la protección de las personas en su rol de consumidoras y usuarias de bienes y servicios. Para el debido cumplimiento de su finalidad, la Agencia Nacional del Consumidor contará con facultades fiscalizadoras, sancionatorias y regulatorias. Su composición, organización, atribuciones y funciones serán determinadas por una ley.”",
-    "Authors": [
+    "number": "363",
+    "authors_matched": [
       "Stingo, Daniel"
-    ]
+    ],
+    "target_article": 101,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 101. La Agencia Nacional del Consumidor es un organismo autónomo, cuya finalidad es la protección de las personas en su rol de consumidoras y usuarias de bienes y servicios. Para el debido cumplimiento de su finalidad, la Agencia Nacional del Consumidor contará con facultades fiscalizadoras, sancionatorias y regulatorias. Su composición, organización, atribuciones y funciones serán determinadas por una ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "368",
-    "Target": "Epígrafe",
-    "Content": "Suprimir el título “§ Revisión represiva de la ley”.",
-    "Authors": [
+    "number": "368",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 108,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "§ Revisión represiva de la ley",
+    "placement_instructions": ""
   },
   {
-    "Number": "370",
-    "Target": "Artículo 108",
-    "Content": "“Artículo 108.- De la justicia constitucional. La justicia constitucional será ejercida por una Corte Constitucional, con la finalidad de garantizar la supremacía de la Constitución, bajo los principios de deferencia a los electos con potestad legislativa presunción de constitucionalidad de la ley, búsqueda de una interpretación conforme con la Constitución y no justiciabilidad de asuntos de naturaleza exclusivamente política. Los órganos del Estado, en el ejercicio de sus atribuciones, deberán aplicar las normas, en el ámbito de sus competencias, efectuando una interpretación orientada hacia la Constitución. La Corte Constitucional deberá interpretar la Constitución ajustada a la pertinencia cultural de los pueblos indígenas, cuando corresponda.”.",
-    "Authors": [
+    "number": "370",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 108,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 108.- De la justicia constitucional. La justicia constitucional será ejercida por una Corte Constitucional, con la finalidad de garantizar la supremacía de la Constitución, bajo los principios de deferencia a los electos con potestad legislativa presunción de constitucionalidad de la ley, búsqueda de una interpretación conforme con la Constitución y no justiciabilidad de asuntos de naturaleza exclusivamente política. Los órganos del Estado, en el ejercicio de sus atribuciones, deberán aplicar las normas, en el ámbito de sus competencias, efectuando una interpretación orientada hacia la Constitución. La Corte Constitucional deberá interpretar la Constitución ajustada a la pertinencia cultural de los pueblos indígenas, cuando corresponda.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "371, 372 y 373",
-    "Target": "Artículos 109, 110 y 111",
-    "Content": "Suprimir los actuales artículos 109, 110 y 111.",
-    "Authors": [
+    "number": "371",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 109,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 109, 110 y 111",
+    "placement_instructions": ""
   },
   {
-    "Number": "374",
-    "Target": "Artículo 112",
-    "Content": "Suprimir el actual artículo 112.",
-    "Authors": [
+    "number": "374",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 112,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "376 y 377",
-    "Target": "Artículo 113 A",
-    "Content": "Suprimir el artículo 113 A.",
-    "Authors": [
+    "number": "376",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid",
+      "Vergara, Lisette",
       "Labra, Patricia",
       "Mayol, Luis",
       "Bown, Carol",
@@ -387,40 +495,69 @@
       "Jurgensen, Harry",
       "Monckeberg, Cristian",
       "Larrain, Hernan"
-    ]
+    ],
+    "target_article": 113,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículo 113 A",
+    "placement_instructions": ""
   },
   {
-    "Number": "378",
-    "Target": "Artículo 114",
-    "Content": "Suprimir el actual artículo 114.",
-    "Authors": [
+    "number": "378",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 114,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "382",
-    "Target": "Artículo 114 B",
-    "Content": "Suprimir el actual artículo 114 B.",
-    "Authors": [
+    "number": "381",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 114,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 114 A.- Corte Constitucional. La Corte Constitucional es un órgano autónomo, técnico, profesional, independiente e imparcial, encargado del control de la supremacía de la Constitución, cuyas resoluciones se encuentran fundadas únicamente en razones de derecho. Estará conformada, paritariamente y con criterios de plurinacionalidad y equidad territorial, por quince juezas y jueces, uno de los cuales será su presidenta o presidente, elegido por sus pares y que ejercerá sus funciones durante dos años. Las juezas y los jueces de la Corte Constitucional durarán nueve años en sus cargos o hasta que cumplan setenta años, y se renovarán por parcialidades cada tres años. Funcionará en salas preferentemente especializadas, integradas por cinco juezas o jueces, o en pleno, de conformidad a lo dispuesto por la ley. Las juezas y los jueces de la Corte Constitucional serán elegidas y elegidos en base a criterios técnicos y de mérito profesional, de la siguiente manera: a) Un tercio será elegido por el Congreso, de nóminas de cinco personas que, en cada caso, propondrá el Consejo de Alta Dirección Pública. Estas designaciones se efectuarán en votaciones únicas y requerirán para su aprobación del voto favorable de los tres quintos de las y los parlamentarios en ejercicio. b) Un tercio será elegido por la Presidencia de la República, de nóminas de cinco personas que, en cada caso, propondrá el Consejo de la Justicia. c) Un tercio será elegido de entre las juezas y los jueces del Sistema Nacional de Justicia, por votación, entre sus pares que ostenten la calidad de titulares. Las juezas y los jueces electos para el ejercicio de esta función quedarán suspendidos de sus cargos judiciales de origen en tanto se extienda éste. Su nombramiento se realizará previa convocatoria pública, abierta y transparente del órgano que corresponda realizar la elección, con al menos seis meses de anticipación. Las y los postulantes al cargo de juez o jueza de la Corte Constitucional deberán ser abogadas o abogados, con más de quince años de ejercicio profesional, todas y todos juristas de reconocida competencia, y que se desempeñen o hayan desempeñado como juezas o jueces del Sistema Nacional de Justicia, fiscales del Ministerio Público, defensoras o defensores penales públicos, académicas y académicos de Universidades acreditadas por el Estado, y que pertenezcan a distintas especialidades del Derecho. Al menos dos tercios de las y los jueces de la Corte Constitucional deberán provenir y haber ejercido sus funciones, por un mínimo de cinco años, en regiones diversas a la metropolitana. A lo menos dos de sus integrantes deben provenir de pueblos indígenas. No podrán ser jueces o juezas de la Corte Constitucional quienes se hubiesen desempeñado en cargos de elección popular, hubiesen sido candidatas o candidatos a estos, o quienes hayan desempeñado el cargo de Ministra o Ministro de Estado, u otros cargos de exclusiva confianza del gobierno, durante los seis años anteriores a la elección. De igual manera, no podrán tener impedimento alguno que los inhabilite para desempeñar el cargo de juez del Sistema Nacional de Justicia. Una ley determinará la organización, funcionamiento, procedimientos y fijará la planta, régimen de remuneraciones y estatuto del personal de la Corte Constitucional.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "383",
-    "Target": "Artículo 115",
-    "Content": "Suprimir el actual artículo 115.",
-    "Authors": [
+    "number": "382",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 114,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 114 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "385, 386 y 387",
-    "Target": "Artículos 115 A y 115 B",
-    "Content": "Suprimir los artículos 115 A y 115 B.",
-    "Authors": [
+    "number": "383",
+    "authors_matched": [
+      "Bravo, Daniel",
+      "Vergara, Lisette"
+    ],
+    "target_article": 115,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": "385",
+    "authors_matched": [
       "Labra, Patricia",
       "Mayol, Luis",
       "Bown, Carol",
@@ -438,23 +575,31 @@
       "Monckeberg, Cristian",
       "Larrain, Hernan",
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 115,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 115 A y 115 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "388",
-    "Target": "Artículo 116",
-    "Content": "“Artículo 116. Inamovilidad e independencia. Las juezas y jueces de la Corte Constitucional son independientes de todo otro poder y gozan de inamovilidad. Cesarán en sus cargos por haber cumplido su periodo, por incapacidad legal sobreviniente, por renuncia, por sentencia penal condenatoria, por remoción, enfermedad incompatible con el ejercicio de la función u otra causa establecida en la ley.”.",
-    "Authors": [
+    "number": "388",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 116,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 116. Inamovilidad e independencia. Las juezas y jueces de la Corte Constitucional son independientes de todo otro poder y gozan de inamovilidad. Cesarán en sus cargos por haber cumplido su periodo, por incapacidad legal sobreviniente, por renuncia, por sentencia penal condenatoria, por remoción, enfermedad incompatible con el ejercicio de la función u otra causa establecida en la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "390, 391 y 392",
-    "Target": "Artículos 116 A y 116 B",
-    "Content": "Suprimir los artículos 116 A y 116 B.",
-    "Authors": [
+    "number": "390",
+    "authors_matched": [
       "Labra, Patricia",
       "Mayol, Luis",
       "Bown, Carol",
@@ -472,61 +617,91 @@
       "Monckeberg, Cristian",
       "Larrain, Hernan",
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 116,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículos 116 A y 116 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "393",
-    "Target": "Artículo 117",
-    "Content": "Suprimir el actual artículo 117.",
-    "Authors": [
+    "number": "393",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 117,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "396",
-    "Target": "Artículo 117 A",
-    "Content": "“Artículo 117 A. De las incompatibilidades e inhabilidades. El ejercicio del cargo de jueza o juez de la Corte Constitucional es de dedicación exclusiva. La ley determinará las demás incompatibilidades e inhabilidades para el desempeño de este cargo. Al terminar su periodo, y durante los dos años siguientes, no podrán optar a ningún cargo de elección popular ni de exclusiva confianza de alguna autoridad.”.",
-    "Authors": [
+    "number": "396",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 117,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 117 A. De las incompatibilidades e inhabilidades. El ejercicio del cargo de jueza o juez de la Corte Constitucional es de dedicación exclusiva. La ley determinará las demás incompatibilidades e inhabilidades para el desempeño de este cargo. Al terminar su periodo, y durante los dos años siguientes, no podrán optar a ningún cargo de elección popular ni de exclusiva confianza de alguna autoridad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "397",
-    "Target": "Artículo 118",
-    "Content": "Suprimir el actual artículo 118.",
-    "Authors": [
+    "number": "397",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 118,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "401",
-    "Target": "Artículo 118 A",
-    "Content": "“Artículo 118 A. Atribuciones de la Corte Constitucional. La Corte Constitucional tendrá las siguientes atribuciones, ejerciéndolas conforme a los principios referidos en el artículo 108 [De la justicia constitucional]: 1. Resolver las acciones de inconstitucionalidad en contra de leyes... [extract truncated for brevity] ...El procedimiento, el quórum y la legitimación activa para el ejercicio de cada atribución se determinará por la ley.”.",
-    "Authors": [
+    "number": "401",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 118,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 118 A. Atribuciones de la Corte Constitucional. La Corte Constitucional tendrá las siguientes atribuciones, ejerciéndolas conforme a los principios referidos en el artículo 108 [De la justicia constitucional]: 1. Resolver las acciones de inconstitucionalidad en contra de leyes, disposiciones normativas con fuerza de ley, en contra de estatutos regionales, de autonomías territoriales indígenas y de cualquier otra entidad territorial. 2. Resolver las acciones de inconstitucionalidad por omisión de las medidas legislativas necesarias para el cumplimiento de las normas constitucionales. 3. Resolver la acción de inaplicabilidad por inconstitucionalidad de los preceptos legales, que la o el juez que conoce de la gestión pendiente someta a conocimiento de la Corte Constitucional. El requerimiento sólo se iniciará a petición del tribunal que conozca del asunto, de oficio o a petición de parte, la que se tramitará como incidente y cuya resolución será inapelable. 4. Resolver la acción pública de inconstitucionalidad contra los preceptos legales que hayan sido declarados inaplicables en tres oportunidades previas, por el mismo vicio de constitucionalidad. 5. Resolver los reclamos en caso que la Presidenta o el Presidente de la República no promulgue una ley cuando deba hacerlo o promulgue un texto diverso del que constitucionalmente corresponda. Igual atribución tendrá respecto de la promulgación de la normativa regional. 6. Pronunciarse sobre la correcta interpretación de los derechos fundamentales en la sentencia que resuelva la apelación de acciones de tutela de derechos fundamentales, cuando el asunto revista especial relevancia constitucional, en la forma que determine la ley. 7. Resolver conflictos de competencia o de atribuciones que se susciten entre las entidades territoriales autónomas, con cualquier otro órgano del Estado, o entre éstos, a solicitud de cualquiera de los antes mencionados. 8. Resolver las contiendas de competencia que se susciten entre las autoridades políticas o administrativas y los tribunales de justicia. 9. Resolver las contiendas de competencia entre la jurisdicción indígena y el sistema nacional de justicia. 10. Resolver el recurso interpuesto en contra de las decisiones de la jurisdicción indígena por vulneración de derechos humanos, interpretados interculturalmente. 11. Las demás previstas en esta Constitución y la ley. El procedimiento, el quórum y la legitimación activa para cada atribución se determinará por la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "402",
-    "Target": "Artículo 118 B",
-    "Content": "Suprimir el actual artículo 118 B.",
-    "Authors": [
+    "number": "402",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 118,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "artículo 118 B",
+    "placement_instructions": ""
   },
   {
-    "Number": "403",
-    "Target": "Artículo 119",
-    "Content": "Suprimir el actual artículo 119.",
-    "Authors": [
+    "number": "403",
+    "authors_matched": [
       "Bravo, Daniel",
-      "Villena, Ingrid"
-    ]
+      "Vergara, Lisette"
+    ],
+    "target_article": 119,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

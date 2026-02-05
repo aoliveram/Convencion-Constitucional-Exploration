@@ -1,19 +1,21 @@
 [
   {
-    "Number": "437",
-    "Target": "inciso primero del artículo 33",
-    "Content": "suprime en el inciso primero del artículo 33 la frase “y contare para ello de un informe favorable de la unidad contemplada en el artículo anterior”.",
-    "Authors": [
+    "number": "437",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 33,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "",
+    "content_to_remove": "y contare para ello de un informe favorable de la unidad contemplada en el artículo anterior",
+    "placement_instructions": "en el inciso primero"
   },
   {
-    "Number": "438",
-    "Target": "Artículo 34",
-    "Content": "lo suprime.",
-    "Authors": [
+    "number": "438",
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -22,33 +24,45 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 34,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "450",
-    "Target": "Artículo 36",
-    "Content": "suprime la frase: “Asimismo, creará un mecanismo por el cual la urgencia de un proyecto podrá ser fijada por la ciudadanía o los pueblos indígenas o tribales”.",
-    "Authors": [
+    "number": "450",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 36,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "",
+    "content_to_remove": "Asimismo, creará un mecanismo por el cual la urgencia de un proyecto podrá ser fijada por la ciudadanía o los pueblos indígenas o tribales",
+    "placement_instructions": ""
   },
   {
-    "Number": "459",
-    "Target": "Artículo 37",
-    "Content": "sustituye la frase “regirá el Presupuesto del ejercicio anterior hasta la aprobación de los nuevos” por “regirá el proyecto presentado por el Presidente de la República”.",
-    "Authors": [
+    "number": "459",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 37,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "regirá el proyecto presentado por el Presidente de la República",
+    "content_to_remove": "regirá el Presupuesto del ejercicio anterior hasta la aprobación de los nuevos",
+    "placement_instructions": ""
   },
   {
-    "Number": "462",
-    "Target": "Inciso tercero",
-    "Content": "suprime la palabra “exclusivamente”.",
-    "Authors": [
+    "number": "462",
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -57,13 +71,17 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 37,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "",
+    "content_to_remove": "exclusivamente",
+    "placement_instructions": "en el inciso tercero"
   },
   {
-    "Number": "463",
-    "Target": "Inciso tercero",
-    "Content": "agrega al final la oración “sin perjuicio de lo señalado en el artículo 23”.",
-    "Authors": [
+    "number": "463",
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -72,13 +90,17 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 37,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "sin perjuicio de lo señalado en el artículo 23",
+    "content_to_remove": "",
+    "placement_instructions": "al final"
   },
   {
-    "Number": "464",
-    "Target": "Inciso final",
-    "Content": "para agregar la palabra “nuevo” entre las palabras “cualquier” y “gasto”.",
-    "Authors": [
+    "number": "464",
+    "authors_matched": [
       "Politzer, Patricia",
       "Pustilnick, Tammy",
       "Montero, Ricardo",
@@ -87,29 +109,41 @@
       "Hurtado, Maximiliano",
       "Laibe, Tomas",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 37,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "nuevo",
+    "content_to_remove": "",
+    "placement_instructions": "entre las palabras “cualquier” y “gasto”"
   },
   {
-    "Number": "468",
-    "Target": "Artículo 39",
-    "Content": "La Comisión convino en sustituir la frase “incidente de la ciudadanía” por “popular”. (Relativo a espacios de participación ciudadana en el Presupuesto).",
-    "Authors": [
+    "number": "468",
+    "authors_matched": [
       "Larrain, Hernan"
-    ]
+    ],
+    "target_article": 39,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo X.- En la tramitación y aprobación de la Ley de Presupuestos, así como respecto a los presupuestos regionales y comunales, se deberán garantizar espacios de participación popular.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "473",
-    "Target": "Artículo 40",
-    "Content": "lo reemplaza por el siguiente: “Artículo XX. Se deberá realizar una consulta indígena de las medidas legislativas susceptibles de afectación a los pueblos y naciones indígenas... (procedimiento de buena fe y vinculante)”.",
-    "Authors": [
+    "number": "473",
+    "authors_matched": [
       "Catrileo, Rosa"
-    ]
+    ],
+    "target_article": 40,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo XX. Se deberá realizar una consulta indígena de las medidas legislativas susceptibles de afectación a los pueblos y naciones indígenas, debiendo realizarse de buena fe y mediante un procedimiento previo, libre e informado, con la finalidad de llegar a un acuerdo o lograr el consentimiento acerca de la medida propuesta. Los acuerdos a los que llegue el Estado con los pueblos son vinculantes y no podrán menoscabar los derechos reconocidos en la Declaración de Naciones Unidas sobre los derechos de los pueblos indígenas. Es requisito para la aprobación de las medidas legislativas, que el proceso de consulta se encuentre finalizado. La ley regulará, en forma consensuada con los pueblos y naciones indígenas, todo lo relativo al proceso de consulta conforme a los tratados internacionales de derechos humanos de los que Chile sea parte.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "484",
-    "Target": "Capítulo Nuevo 'Del Consejo Territorial'",
-    "Content": "introduce un nuevo Capítulo denominado “Del Consejo Territorial” con propuestas de articulado sobre su definición, elección, integración, duración, funcionamiento y atribuciones.",
-    "Authors": [
+    "number": "484",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -122,21 +156,29 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "CAPÍTULO NUEVO: Del Consejo Territorial. Artículo X: Del Consejo Territorial. El Consejo Territorial es el órgano paritario y plurinacional de representación territorial encargado de concurrir en la formación de las leyes de acuerdo regional y de ejercer las demás competencias establecidas por esta Constitución. Artículo X: Elección e integración del Consejo Territorial. Los miembros del Consejo Territorial se elegirán en votación popular conjuntamente con las autoridades municipales y regionales, dos años después de la elección presidencial y parlamentaria. Los candidatos a la Asamblea Regional y al Consejo Territorial se presentarán en una misma lista, pero serán votados y elegidos separadamente, en la forma prevista por la ley. La ley determinará el número de consejeros a ser elegidos por región, el que deberá ser el mismo para cada una y en ningún caso inferior a 3, asegurando que la integración final del órgano respete el principio de paridad. La elección de escaños reservados para el Consejo Territorial se realizará en votación popular. El número de escaños por pueblo indígena que esté asentado en el territorio electoral respectivo y su forma de elección, se determinará por ley. Las consejeras y consejeros territoriales son miembros de la Asamblea Regional, a la que, dentro de sus competencias, representarán en el Consejo Territorial. La ley especificará sus derechos y obligaciones especiales, las que en todo caso deberán incluir la obligación de rendir cuenta para lo que serán especialmente convocados. Artículo X: Duración en el cargo y reelección. Los consejeros y consejeras durarán 4 años en el cargo y podrán ser reelegidos sucesivamente hasta por un período para el ejercicio del cargo. Para estos efectos se entenderá que las y los consejeros han ejercido su cargo durante un período cuando han cumplido más de la mitad de su mandato. Artículo X: Funcionamiento. El Consejo Territorial será presidido por el Vicepresidente o Vicepresidenta de la República, quien dirigirá las sesiones del Consejo Territorial y sólo tendrá derecho a voz. El Consejo Territorial funcionará de forma permanente, debiendo adoptar sus decisiones por la mayoría de sus miembros presentes, salvo que esta Constitución disponga de un quórum diferente. Todas las sesiones del Consejo Territorial son públicas. Una ley de acuerdo regional regulará la organización, funcionamiento y tramitación de leyes en el Consejo Territorial conforme a lo establecido en esta Constitución. En lo que no contradiga a la Constitución o la ley respectiva, el Consejo Territorial podrá dictar reglamentos para su organización y funcionamiento interno. El Consejo Territorial no podrá entrar en sesión sin la concurrencia de la tercera parte de sus miembros en ejercicio. Artículo X: Sólo son atribuciones del Consejo Territorial: 1. Participar del proceso de formación de las leyes de acuerdo regional, de conformidad con lo dispuesto en el artículo XX. 2. Las demás establecidas por la Constitución.",
+    "content_to_remove": "",
+    "placement_instructions": "introduce un nuevo Capítulo"
   },
   {
-    "Number": "487",
-    "Target": "Artículos 41, 42 y 43",
-    "Content": "reemplaza los artículos 41, 42 y 43 por otro del siguiente tenor: “Artículo 41.- El Poder Ejecutivo es ejercido por el Presidente de la República, quien es el Jefe del Estado y el Jefe de Gobierno... (incluye requisitos de edad y nacionalidad)”.",
-    "Authors": [
+    "number": "487",
+    "authors_matched": [
       "Larrain, Hernan"
-    ]
+    ],
+    "target_article": 41,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 41.- El Poder Ejecutivo es ejercido por el Presidente de la República, quien es el Jefe del Estado y el Jefe de Gobierno, y actúa a través de sus Ministros respectivos en conformidad con lo que establece la Constitución. Su autoridad se extiende a todo cuanto tiene por objeto la conservación del orden público en el interior y la seguridad externa de la República, de acuerdo con la Constitución y las leyes. Para ser elegido Presidente de la República se requiere tener la nacionalidad chilena; tener cumplidos treinta y cinco años de edad y poseer las demás calidades necesarias para ser ciudadano con derecho a sufragio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "489",
-    "Target": "Artículo 41",
-    "Content": "añade, a continuación de la frase “Vicepresidenta o Vicepresidente”, la expresión “la Ministra o Ministro de Gobierno”.",
-    "Authors": [
+    "number": "489",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -149,13 +191,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 41,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "la Ministra o Ministro de Gobierno",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la frase “Vicepresidenta o Vicepresidente”"
   },
   {
-    "Number": "490",
-    "Target": "Artículo 41",
-    "Content": "añade, a continuación de la frase “Ministras y Ministros”, la expresión “de Estado”.",
-    "Authors": [
+    "number": "490",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -168,13 +214,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 41,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "de Estado",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la frase “Ministras y Ministros”"
   },
   {
-    "Number": "491",
-    "Target": "Artículo Nuevo",
-    "Content": "agrega un nuevo artículo: “Art. 42..- El 04 de julio de cada año, la Presidenta o Presidente junto a la Ministra o Ministro de Gobierno dará cuenta al país del estado administrativo y político de la República...”.",
-    "Authors": [
+    "number": "491",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -187,13 +237,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 42,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art. 42..- El 04 de julio de cada año, la Presidenta o Presidente junto a la Ministra o Ministro de Gobierno dará cuenta al país del estado administrativo y político de la República ante el Congreso Plurinacional.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "495",
-    "Target": "Inciso segundo",
-    "Content": "lo suprime.",
-    "Authors": [
+    "number": "495",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -206,31 +260,43 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 42,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": "suprime el inciso segundo"
   },
   {
-    "Number": "502",
-    "Target": "Artículo 43",
-    "Content": "reemplaza la frase sobre requisitos de residencia y excepciones para el cargo de Presidente (añadiendo la palabra 'efectiva' a residencia).",
-    "Authors": [
+    "number": "502",
+    "authors_matched": [
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 43,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "y tener residencia en el territorio nacional los cuatro años anteriores a la elección, salvo que la ausencia del país, se deba a que ella o él, su cónyuge o su conviviente civil cumplan misión diplomática, laboren en organismos internacionales, realicen estudios en el extranjero, hayan estado o estén recibiendo tratamientos médicos en el extranjero o existan otras circunstancias que la justifiquen razonablemente, las que deberán definirse por el legislador y ser calificadas por los Tribunales electorales, y que no incurra en las inhabilidades o prohibiciones establecidas en esta Constitución y la ley",
+    "content_to_remove": "y tener residencia en el territorio nacional de forma continua los cuatro años anteriores a la elección, salvo que cumpla misión diplomática, labore en organismos internacionales o realice estudios en el extranjero, y que no incurra en las inhabilidades o prohibiciones establecidas en esta Constitución y la ley",
+    "placement_instructions": ""
   },
   {
-    "Number": "506",
-    "Target": "Artículo 43",
-    "Content": "suprime la expresión “y la ley”.",
-    "Authors": [
+    "number": "506",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 43,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "",
+    "content_to_remove": "y la ley",
+    "placement_instructions": ""
   },
   {
-    "Number": "508",
-    "Target": "Inciso segundo (Artículo 43)",
-    "Content": "añade un nuevo inciso segundo: “Todos los candidatos y candidatas a la Presidencia de la República deberán presentar un Programa de Gobierno ante el Servicio Electoral...”.",
-    "Authors": [
+    "number": "508",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -243,13 +309,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 43,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Todos los candidatos y candidatas a la Presidencia de la República deberán presentar un Programa de Gobierno ante el Servicio Electoral el cual contendrá, de manera detallada, las principales políticas, planes, y programas que pretenden desarrollar durante su periodo presidencial.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo inciso segundo"
   },
   {
-    "Number": "509",
-    "Target": "Inciso tercero (Artículo 43)",
-    "Content": "añade un nuevo inciso tercero: “Las candidaturas a la Presidencia de la República deberán ser patrocinados por una organización política o por un grupo de ellos formando una coalición de acuerdo con la ley.”.",
-    "Authors": [
+    "number": "509",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -262,13 +332,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 43,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las candidaturas a la Presidencia de la República deberán ser patrocinados por una organización política o por un grupo de ellos formando una coalición de acuerdo con la ley.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo inciso tercero"
   },
   {
-    "Number": "510",
-    "Target": "Inciso cuarto (Artículo 43)",
-    "Content": "añade un nuevo inciso cuarto sobre la formación de coaliciones políticas y procesos de primarias.",
-    "Authors": [
+    "number": "510",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -281,13 +355,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 43,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Cuando una candidatura sea patrocinada por más de una organización política se entenderá que existe una coalición política. En el caso de las candidaturas patrocinadas por una coalición política, éstas podrán realizar previamente un proceso de primarias de acuerdo con la ley.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo inciso cuarto"
   },
   {
-    "Number": "513",
-    "Target": "Artículo 44",
-    "Content": "añade, después de la expresión “se elegirán”, la palabra “conjuntamente”.",
-    "Authors": [
+    "number": "513",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -300,13 +378,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 44,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "conjuntamente",
+    "content_to_remove": "",
+    "placement_instructions": "después de la expresión “se elegirán”"
   },
   {
-    "Number": "516",
-    "Target": "Artículo 45",
-    "Content": "reemplaza el artículo 45 por un nuevo texto que establece que la elección de Presidente y Vicepresidente será en la misma papeleta, con sistema de mayoría absoluta y segunda vuelta.",
-    "Authors": [
+    "number": "516",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -319,13 +401,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 45.- La Presidenta o Presidente y la Vicepresidenta o Vicepresidente serán elegidos por la mayoría absoluta de los votos válidamente emitidos. La elección se efectuará el tercer domingo de noviembre del año anterior a aquel en que deba cesar en el cargo la dupla que esté en funciones. Si a la elección se presentaren más de dos duplas de candidaturas y ninguna de ellas obtuviere más de la mitad de los sufragios válidamente emitidos, se producirá una segunda votación. La segunda votación se circunscribirá a las duplas que hubieren obtenido las dos más altas mayorías y deberá celebrarse el cuarto domingo después de efectuada la primera votación. Será electa la dupla que obtenga la mayoría de los sufragios válidamente emitidos. En el caso de proceder la segunda votación, los candidatos y candidatas podrán efectuar modificaciones a su programa hasta una semana antes del día que deba realizarse la segunda votación. El día de elección presidencial será siempre feriado de carácter irrenunciable.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "517",
-    "Target": "Artículo 45.A",
-    "Content": "añade un nuevo artículo sobre el proceso de calificación de la elección presidencial y los plazos del Tribunal Calificador de Elecciones.",
-    "Authors": [
+    "number": "517",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -338,13 +424,17 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 45.A.- El proceso de calificación de la elección de la Presidencia y Vicepresidencia deberá quedar concluido dentro de los quince días siguientes tratándose de la primera votación y dentro de los treinta días siguientes tratándose de la segunda.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "518",
-    "Target": "Artículo 45.B",
-    "Content": "añade un nuevo artículo: “Art 45.B.- La presidenta o presidente de la república y la Vicepresidenta o Vicepresidente de la República cesará en su cargo el mismo día en que se complete su período...”.",
-    "Authors": [
+    "number": "518",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -357,23 +447,31 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art 45.B.- La presidenta o presidente de la república y la Vicepresidenta o Vicepresidente de la República cesará en su cargo el mismo día en que se complete su período y le sucederá el recientemente elegido, sin perjuicio de los casos de término anticipado establecidos en esta constitución.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "522",
-    "Target": "Artículo 45 (Incisos sobre impedimento)",
-    "Content": "incorporan un artículo nuevo sobre la subrogación en caso de impedimento del Presidente electo por parte del Vicepresidente y el procedimiento para nuevas elecciones.",
-    "Authors": [
+    "number": "522",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Si el Presidente electo se hallare impedido para tomar posesión del cargo, asumirá, mientras tanto, el Vicepresidente de la República. A falta de éste el Presidente del Congreso, a falta de éste el Presidente de la Corte Suprema. Con todo, si el impedimento del Presidente electo fuere absoluto o si durara indefinidamente, el Vicepresidente, en los diez días siguientes al acuerdo del Congreso Plurinacional, convocará a una nueva elección presidencial que se celebrará noventa días después de la convocatoria si ese día correspondiere a un domingo. Si así no fuere, ella se realizará el domingo inmediatamente siguiente. El binomio así elegido asumirá sus funciones en la oportunidad que señale la Constitución, y durará en el ejercicio de ellas hasta el día en que le habría correspondido cesar en el cargo al electo que no pudo asumir y cuyo impedimento hubiere motivado la nueva elección.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "524",
-    "Target": "Artículo 46",
-    "Content": "añade, después de la expresión “de la dupla”, la frase: “conformada por”.",
-    "Authors": [
+    "number": "524",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Munoz, Pedro",
       "Montero, Ricardo",
@@ -386,6 +484,12 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 46,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "conformada por",
+    "content_to_remove": "",
+    "placement_instructions": "después de la expresión “de la dupla”"
   }
 ]

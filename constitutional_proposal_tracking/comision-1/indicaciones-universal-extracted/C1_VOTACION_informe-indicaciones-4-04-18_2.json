@@ -1,9 +1,7 @@
 [
   {
-    "Number": "93",
-    "Target": "Artículo 15 (incisos primero, segundo, tercero y cuarto)",
-    "Content": "“Policías. Las policías dependen del ministerio a cargo de la seguridad pública y son instituciones civiles de carácter centralizado, con competencia en todo el territorio de Chile, y están destinadas para garantizar la seguridad pública, dar eficacia al derecho y resguardar los derechos fundamentales, en el marco de sus competencias. Las Policías deberán incorporar la perspectiva de género en el desempeño de sus funciones, promover la paridad en espacios de toma de decisión y actuar con pleno respeto al derecho internacional y los derechos fundamentales garantizados en esta Constitución. Son instituciones profesionales, jerarquizadas, disciplinadas, obedientes y no deliberantes. Las policías y sus miembros estarán sujetos a controles en materia de probidad y transparencia. Sus integrantes no podrán pertenecer a partidos políticos, asociarse en organizaciones políticas, gremiales o sindicales, ejercer el derecho a huelga, ni postularse a cargos de elección popular.”",
-    "Authors": [
+    "number": "93",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -22,23 +20,31 @@
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO 1, 2, 3, 4",
+    "action": "SUBSTITUTE",
+    "content": "Policías. Las policías dependen del ministerio a cargo de la seguridad pública y son instituciones civiles de carácter centralizado, con competencia en todo el territorio de Chile, y están destinadas para garantizar la seguridad pública, dar eficacia al derecho y resguardar los derechos fundamentales, en el marco de sus competencias.\n\nLas Policías deberán incorporar la perspectiva de género en el desempeño de sus funciones, promover la paridad en espacios de toma de decisión y actuar con pleno respeto al derecho internacional y los derechos fundamentales garantizados en esta Constitución.\n\nSon instituciones profesionales, jerarquizadas, disciplinadas, obedientes y no deliberantes.\n\nLas policías y sus miembros estarán sujetos a controles en materia de probidad y transparencia. Sus integrantes no podrán pertenecer a partidos políticos, asociarse en organizaciones políticas, gremiales o sindicales, ejercer el derecho a huelga, ni postularse a cargos de elección popular.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "96",
-    "Target": "Artículo 15 (inciso segundo, nuevo)",
-    "Content": "“Las policías están constituidas única y exclusivamente por Carabineros de Chile y la Policía de Investigaciones.”",
-    "Authors": [
+    "number": "96",
+    "authors_matched": [
       "Celis, Raul",
       "Larrain, Hernan",
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO 2",
+    "action": "ADD",
+    "content": "Las policías están constituidas única y exclusivamente por Carabineros de Chile y la Policía de Investigaciones.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un nuevo inciso segundo"
   },
   {
-    "Number": "98",
-    "Target": "Artículo 15 (inciso quinto, nuevo)",
-    "Content": "“El ingreso y la formación en las policías será gratuito y no discriminatorio, del modo que establezca la ley. La educación policial se funda en el respeto irrestricto a los Derechos Humanos”.",
-    "Authors": [
+    "number": "98",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -57,41 +63,57 @@
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO 5",
+    "action": "ADD",
+    "content": "El ingreso y la formación en las policías será gratuito y no discriminatorio, del modo que establezca la ley. La educación policial se funda en el respeto irrestricto a los Derechos Humanos.",
+    "content_to_remove": "",
+    "placement_instructions": "intercala un nuevo inciso quinto"
   },
   {
-    "Number": "99",
-    "Target": "Artículo 15 (inciso final)",
-    "Content": "Suprime el inciso final.",
-    "Authors": [
+    "number": "99",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Inciso final",
+    "placement_instructions": "lo suprime"
   },
   {
-    "Number": "102",
-    "Target": "Artículo 15 (inciso nuevo final)",
-    "Content": "“Las policías deberán actuar bajo el principio de proporcionalidad de la fuerza y el respeto irrestricto a los Derechos Humanos.”.",
-    "Authors": [
+    "number": "102",
+    "authors_matched": [
       "Vergara, Lisette"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las policías deberán actuar bajo el principio de proporcionalidad de la fuerza y el respeto irrestricto a los Derechos Humanos.",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo inciso final"
   },
   {
-    "Number": "105",
-    "Target": "Artículo 16",
-    "Content": "Suprime el artículo.",
-    "Authors": [
+    "number": "105",
+    "authors_matched": [
       "Celis, Raul",
       "Larrain, Hernan",
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": "lo suprime"
   },
   {
-    "Number": "106",
-    "Target": "Artículo 16",
-    "Content": "Suprime el artículo.",
-    "Authors": [
+    "number": "106",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -110,13 +132,17 @@
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": "lo suprime"
   },
   {
-    "Number": "109",
-    "Target": "Artículo 17",
-    "Content": "“Las relaciones internacionales de Chile, como expresión de su soberanía, se fundan en el respeto al derecho internacional, los principios de autodeterminación de los pueblos, no intervención en asuntos que son de la jurisdicción interna de los Estados, multilateralismo, solidaridad, cooperación, autonomía política e igualdad jurídica entre los Estados. De igual forma, se compromete con la promoción y respeto de la democracia, el reconocimiento y protección de los Derechos Humanos, la inclusión e igualdad de género, la justicia social, el respeto a la naturaleza, la paz, convivencia y solución pacífica de los conflictos, y con el reconocimiento, respeto y promoción de los derechos de los pueblos y naciones indígenas y tribales conforme al derecho internacional de los Derechos Humanos. Chile declara a América Latina y el Caribe como zona prioritaria en sus relaciones internacionales. Se compromete con el mantenimiento de la región como una zona de paz y libre de violencia, impulsa la integración regional, política, social, cultural, económica y productiva entre los Estados, y facilita el contacto y la cooperación transfronteriza entre pueblos indígenas.”",
-    "Authors": [
+    "number": "109",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -135,13 +161,17 @@
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Las relaciones internacionales de Chile, como expresión de su soberanía, se fundan en el respeto al derecho internacional, los principios de autodeterminación de los pueblos, no intervención en asuntos que son de la jurisdicción interna de los Estados, multilateralismo, solidaridad, cooperación, autonomía política e igualdad jurídica entre los Estados. De igual forma, se compromete con la promoción y respeto de la democracia, el reconocimiento y protección de los Derechos Humanos, la inclusión e igualdad de género, la justicia social, el respeto a la naturaleza, la paz, convivencia y solución pacífica de los conflictos, y con el reconocimiento, respeto y promoción de los derechos de los pueblos y naciones indígenas y tribales conforme al derecho internacional de los Derechos Humanos.\n\nChile declara a América Latina y el Caribe como zona prioritaria en sus relaciones internacionales. Se compromete con el mantenimiento de la región como una zona de paz y libre de violencia, impulsa la integración regional, política, social, cultural, económica y productiva entre los Estados, y facilita el contacto y la cooperación transfronteriza entre pueblos indígenas.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "123",
-    "Target": "Artículo nuevo (sustituye regulación de tratados internacionales)",
-    "Content": "“Corresponde al Presidente o Presidenta de la República la atribución de negociar, concluir, firmar y ratificar los tratados internacionales. En aquellos casos en que los tratados internacionales se refieran a materias de ley, ellos deberán ser aprobados por el Poder Legislativo... [Incluye procedimientos de aprobación, información al Congreso, reserva de facultades, denuncias, retiros y publicidad de los actos relativos a tratados].”",
-    "Authors": [
+    "number": "123",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -160,13 +190,17 @@
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Corresponde al Presidente o Presidenta de la República la atribución de negociar, concluir, firmar y ratificar los tratados internacionales. En aquellos casos en que los tratados internacionales se refieran a materias de ley, ellos deberán ser aprobados por el Poder Legislativo. No requerirán esta aprobación los celebrados en cumplimiento de una ley. Se informará al Poder Legislativo de la celebración de los tratados internacionales que no requieran de su aprobación. El proceso de aprobación de un tratado internacional se someterá, en lo pertinente, a los trámites de una ley de acuerdo regional. La Presidenta o Presidente de la República enviará el proyecto al Congreso de las Diputadas y Diputados e informará sobre el proceso de negociación, el contenido y el alcance del tratado, así como de las reservas que pretenda confirmar o formular. Una vez recibido, el Congreso de Diputadas y Diputados podrá sugerir la formulación de reservas y declaraciones interpretativas a un tratado internacional, en el curso del trámite de su aprobación, siempre que ellas procedan de conformidad a lo previsto en el propio tratado o en las normas generales de derecho internacional. Aprobado el tratado por el Congreso de las Diputadas y Diputados, éste será remitido a la Cámara de las Regiones para su tramitación como ley de acuerdo regional. Las medidas que el Ejecutivo adopte o los acuerdos que celebre para el cumplimiento de un tratado en vigor, no requerirán de nueva aprobación del Poder Legislativo, a menos que se trate de materias de ley. El acuerdo aprobatorio de un tratado podrá autorizar a la Presidenta o Presidente de la República a fin de que, durante la vigencia del tratado, dicte las disposiciones con fuerza de ley que estime necesarias para su cabal cumplimiento, sujeto a las limitaciones previstas en el inciso segundo del artículo 25. Será necesario el acuerdo del Poder Legislativo para el retiro o denuncia de un tratado que haya aprobado, y para el retiro de una reserva que haya considerado al aprobarlo. La ley fijará el plazo para su pronunciamiento. Serán públicos, conforme a las reglas generales, los hechos que digan relación con el tratado internacional, incluidas las negociaciones del mismo, su entrada en vigor, la formulación y retiro de reservas, las declaraciones interpretativas, las objeciones a una reserva y su retiro, la denuncia o retiro del tratado, la suspensión, la terminación y la nulidad del mismo.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un artículo nuevo"
   },
   {
-    "Number": "134",
-    "Target": "Artículo 18 y siguientes (Estados de Excepción)",
-    "Content": "“Artículo 18. Estados de excepción constitucional. Sólo se podrá suspender o limitar el ejercicio de los derechos y garantías que la Constitución asegura a todas las personas bajo las siguientes situaciones de excepción: conflicto armado internacional, conflicto armado interno en los términos de los Convenios de Ginebra de 1949, o calamidad pública... [Incluye regulación de Artículo 18 bis, ter, quater, quinquies, sexies, septies y octies sobre estados de asamblea, sitio, catástrofe, limitación de derechos, ejecución de medidas y control jurisdiccional].”",
-    "Authors": [
+    "number": "134",
+    "authors_matched": [
       "Catrileo, Rosa",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -180,13 +214,17 @@
       "Hurtado, Maximiliano",
       "Munoz, Pedro",
       "Chahin, Fuad"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 18. Estados de excepción constitucional. Sólo se podrá suspender o limitar el ejercicio de los derechos y garantías que la Constitución asegura a todas las personas bajo las siguientes situaciones de excepción: conflicto armado internacional, conflicto armado interno en los términos de los Convenios de Ginebra de 1949, o calamidad pública. No podrán restringirse o suspenderse sino los derechos y garantías expresamente señalados en esta Constitución.\n\nLa declaración y renovación de los estados de excepción constitucional respetará los principios de proporcionalidad y necesidad, y se limitarán, tanto respecto de su duración, extensión, y medios empleados, a lo que sea estrictamente necesario para la más pronta restauración de la normalidad constitucional.\n\nArtículo 18 bis. Estado de asamblea y estado de sitio. El estado de asamblea, en caso de conflicto armado internacional, y el estado de sitio, en caso de conflicto armado interno, serán declarados por la Presidenta o Presidente de la República con la autorización del Congreso de Diputadas y Diputados. La declaración deberá determinar las zonas afectadas por el estado de excepción correspondiente. El Congreso de Diputadas y Diputados, dentro del plazo de 24 horas contadas desde el momento en que la Presidenta o Presidente de la República someta la declaración de estado de asamblea o de sitio a su consideración, deberá pronunciarse por la mayoría de sus miembros aceptando o rechazando la proposición. En su solicitud y posterior declaración, se deberán especificar los fundamentos que justifiquen la extrema necesidad de la declaración, pudiendo el Congreso solamente introducir modificaciones respecto de su extensión territorial. Si el Congreso no se pronunciara dentro de dicho plazo, será citado por el solo ministerio de la Constitución a sesiones especiales diarias, hasta que se pronuncie sobre la declaración. Sin embargo, la Presidenta o Presidente de la República, en circunstancias de necesidad impostergable, y sólo con la firma de todos sus Ministros y Ministras, podrá aplicar de inmediato el estado de asamblea o de sitio, mientras el Congreso de Diputadas y Diputados se pronuncie sobre la declaración. En este caso, sólo podrá restringir el ejercicio del derecho de reunión. La declaración de estado de sitio sólo podrá extenderse por un plazo de quince días, sin perjuicio de que la Presidenta o Presidente de la República solicite su prórroga, para lo cual requerirá el pronunciamiento conforme de cuatro séptimos de las y los diputados en ejercicio para la primera prórroga, de tres quintos para la segunda y de dos tercios para la tercera y siguientes. El estado de asamblea mantendrá su vigencia por el tiempo que se extienda la situación de conflicto armado internacional, salvo que la Presidenta o Presidente de la República disponga su término con anterioridad, o el Congreso de Diputadas y Diputados retire su autorización. Artículo 18 ter. Estado de catástrofe... [The approved text continues including through Art. 18 octies as per the report]",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "145",
-    "Target": "Nuevo epígrafe",
-    "Content": "“De la acusación constitucional”.",
-    "Authors": [
+    "number": "145",
+    "authors_matched": [
       "Munoz, Pedro",
       "Montero, Ricardo",
       "Hurtado, Maximiliano",
@@ -195,6 +233,12 @@
       "Laibe, Tomas",
       "Catrileo, Rosa",
       "Chahin, Fuad"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "De la acusación constitucional",
+    "content_to_remove": "",
+    "placement_instructions": "agrega un nuevo epígrafe"
   }
 ]

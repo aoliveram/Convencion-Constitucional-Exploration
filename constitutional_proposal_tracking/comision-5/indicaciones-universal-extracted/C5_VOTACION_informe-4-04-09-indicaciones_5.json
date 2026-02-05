@@ -1,51 +1,86 @@
 [
   {
     "number": "800",
-    "target_article": "243",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 243,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 36. La política fiscal debe ser eficiente, promover la remoción de las desigualdades sociales, económicas, culturales y de género, y con responsabilidad intergeneracional.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "802",
-    "target_article": "244",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 244,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 37.- Toda persona tiene derechos, individual y colectivamente, en su condición de consumidor. El Estado garantizará la defensa y reparación de los usuarios y consumidores. Para ello protegerá, mediante procedimientos eficaces, su seguridad, salud e intereses económicos. Así mismo asegurará un trato digno y la provisión de información fidedigna y oportuna. El Estado promoverá la educación de las y los consumidores.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "806",
-    "target_article": "245",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 245,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 38.- En los términos que establezca la ley, toda iniciativa de inversión y actividad económica que pueda generar impactos significativos sociales, ambientales o ecológicos, deberá someterse a un proceso de evaluación y monitoreo participativo, considerando los efectos acumulativos de los mismos.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "810",
-    "target_article": "246",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 246,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 39. El Estado debe regular, fiscalizar y adoptar todas las medidas necesarias respecto de las actividades económicas que involucren sustancias peligrosas que sean nocivas para la salud de las personas y la Naturaleza, desde su producción, comercialización, transporte, uso y disposición final.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "813",
-    "target_article": "247",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 247,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 40. El Estado debe prevenir y sancionar los abusos en los mercados. Para ello combatirá la colusión, el abuso de la posición dominante, las prácticas monopólicas, entre otras.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "815",
-    "target_article": "248",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 248,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 41. Los pueblos y naciones indígenas tienen el derecho colectivo a elaborar prioridades y estrategias económicas, sociales, culturales y ambientales.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "818",
-    "target_article": "247",
-    "action": "MOD",
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 247,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 42. Las relaciones comerciales de nuestro país con la comunidad internacional responderán a los intereses de los pueblos de Chile, los derechos de la Naturaleza, y la crisis ecológica global, estableciendo como prioridad el fortalecimiento de los mercados locales y territoriales del Estado Plurinacional, en segundo lugar el intercambio con los países vecinos y de la región latinoamericana, y en tercer lugar con el resto del mundo.",
-    "authors_raw": "la convencional Olivares y otros"
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

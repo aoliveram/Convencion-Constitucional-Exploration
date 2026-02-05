@@ -1,25 +1,27 @@
 [
   {
-    "Number": "3",
-    "Target": "Artículo 1",
-    "Content": "“Con la finalidad de garantizar la integridad pública y erradicar la corrupción en todas sus formas, los órganos competentes en la materia deberán coordinar su actuar a través de la instancia o mecanismos que correspondan para el cumplimiento de estos fines, en la forma que determine la ley.”",
-    "Authors": [
+    "number": "3",
+    "authors_matched": [
       "Schonhaut, Constanza",
       "Montero, Ricardo",
       "Namor, Guillermo",
       "Politzer, Patricia",
       "Bassa, Jaime",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Hurtado, Maximiliano",
       "Atria, Fernando",
       "Catrileo, Rosa"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Con la finalidad de garantizar la integridad pública y erradicar la corrupción en todas sus formas, los órganos competentes en la materia deberán coordinar su actuar a través de la instancia o mecanismos que correspondan para el cumplimiento de estos fines, en la forma que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "6",
-    "Target": "Artículo 2",
-    "Content": "“Artículo 2. Principio de probidad. El principio de probidad consiste en observar una conducta intachable y un desempeño honesto y leal de la función o cargo, con preeminencia del interés general sobre el particular.”",
-    "Authors": [
+    "number": "6",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -31,20 +33,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2. Principio de probidad. El principio de probidad consiste en observar una conducta intachable y un desempeño honesto y leal de la función o cargo, con preeminencia del interés general sobre el particular.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "10",
-    "Target": "Artículo 3",
-    "Content": "sustituye la frase “cumplimiento de las funciones de dichos órganos, la protección de datos personales, la seguridad de la Nación” por “cumplimiento de las funciones de dichos órganos, la protección de datos personales, los derechos de las personas, la seguridad del Estado o el interés nacional, conforme lo establezca la ley”.",
-    "Authors": [
+    "number": "10",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -56,20 +62,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "cumplimiento de las funciones de dichos órganos, la protección de datos personales, los derechos de las personas, la seguridad del Estado o el interés nacional, conforme lo establezca la ley",
+    "content_to_remove": "cumplimiento de las funciones de dichos órganos, la protección de datos personales, la seguridad de la Nación",
+    "placement_instructions": ""
   },
   {
-    "Number": "12",
-    "Target": "Artículo 3",
-    "Content": "sustituye la oración final “Este principio se extiende a la información en poder de personas que presten servicios de interés público, según determine la ley” por “Toda institución que desarrolle una función pública, o que administre recursos públicos, deberá dar estricto cumplimiento al principio de transparencia”.",
-    "Authors": [
+    "number": "12",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -81,20 +91,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "Toda institución que desarrolle una función pública, o que administre recursos públicos, deberá dar estricto cumplimiento al principio de transparencia",
+    "content_to_remove": "Este principio se extiende a la información en poder de personas que presten servicios de interés público, según determine la ley",
+    "placement_instructions": "sustituye la oración final"
   },
   {
-    "Number": "13",
-    "Target": "Artículo 4",
-    "Content": "“Artículo 4°.- Principio de rendición de cuentas. Los órganos del Estado y quienes ejerzan una función pública deberán rendir cuenta en la forma y condiciones que establezca la ley. El principio de rendición de cuentas implica el deber de asumir la responsabilidad en el ejercicio de su cargo. El Estado promoverá la participación activa de las personas y la sociedad civil en la fiscalización del cumplimiento de este principio.”",
-    "Authors": [
+    "number": "13",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -106,20 +120,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4°.- Principio de rendición de cuentas. Los órganos del Estado y quienes ejerzan una función pública deberán rendir cuenta en la forma y condiciones que establezca la ley. El principio de rendición de cuentas implica el deber de asumir la responsabilidad en el ejercicio de su cargo. El Estado promoverá la participación activa de las personas y la sociedad civil en la fiscalización del cumplimiento de este principio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "17",
-    "Target": "Artículo 5 (Inciso segundo)",
-    "Content": "“En la interpretación de este derecho, deberá prevalecer el principio de máxima divulgación. En los casos de reserva o secreto establecidos en virtud del artículo 3, se procurará aplicar el principio de divisibilidad.”",
-    "Authors": [
+    "number": "17",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -131,20 +149,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "En la interpretación de este derecho, deberá prevalecer el principio de máxima divulgación. En los casos de reserva o secreto establecidos en virtud del artículo 3, se procurará aplicar el principio de divisibilidad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "18",
-    "Target": "Artículo 5 (Inciso tercero)",
-    "Content": "lo suprime.",
-    "Authors": [
+    "number": "18",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -156,20 +178,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "19",
-    "Target": "Artículo 6 (Inciso primero)",
-    "Content": "sustituye la frase “Existirá un organismo autónomo denominado Consejo para la Transparencia, con personalidad jurídica y patrimonio propio cuyo objeto será” por “El Consejo para la Transparencia es un órgano autónomo, especializado e imparcial con personalidad jurídica y patrimonio propio, que tiene por función”.",
-    "Authors": [
+    "number": "19",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -181,20 +207,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "El Consejo para la Transparencia es un órgano autónomo, especializado e imparcial con personalidad jurídica y patrimonio propio, que tiene por función",
+    "content_to_remove": "Existirá un organismo autónomo denominado Consejo para la Transparencia, con personalidad jurídica y patrimonio propio cuyo objeto será",
+    "placement_instructions": ""
   },
   {
-    "Number": "21",
-    "Target": "Artículo 6",
-    "Content": "sustituye la expresión “órganos de la Administración del Estado” por “órganos del Estado”.",
-    "Authors": [
+    "number": "21",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -206,30 +236,38 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "órganos del Estado",
+    "content_to_remove": "órganos de la Administración del Estado",
+    "placement_instructions": ""
   },
   {
-    "Number": "22",
-    "Target": "Artículo 6",
-    "Content": "agrega la expresión “pública” a continuación de la frase “garantizar el derecho de acceso a la información”.",
-    "Authors": [
+    "number": "22",
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
       "Zuniga, Luis Arturo"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "pública",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la frase “garantizar el derecho de acceso a la información”"
   },
   {
-    "Number": "23",
-    "Target": "Artículo 6 (Inciso segundo)",
-    "Content": "agrega, antes de “organización” la expresión “composición,”.",
-    "Authors": [
+    "number": "23",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -241,20 +279,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO 2",
+    "action": "ADD",
+    "content": "composición,",
+    "content_to_remove": "",
+    "placement_instructions": "antes de “organización”"
   },
   {
-    "Number": "24",
-    "Target": "Artículo 6 (Inciso final)",
-    "Content": "lo suprime.",
-    "Authors": [
+    "number": "24",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -266,20 +308,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "INCISO FINAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "27",
-    "Target": "Artículo 7",
-    "Content": "“Sobre la corrupción. La corrupción es contraria al bien común y atenta contra el sistema democrático. El Estado tomará las medidas necesarias para su estudio, prevención, investigación, persecución y sanción”.",
-    "Authors": [
+    "number": "27",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -291,20 +337,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Sobre la corrupción. La corrupción es contraria al bien común y atenta contra el sistema democrático. El Estado tomará las medidas necesarias para su estudio, prevención, investigación, persecución y sanción",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "32",
-    "Target": "Artículo Nuevo 7 bis",
-    "Content": "“Artículo 7 bis.- El Estado asegura a todas las personas la debida protección, confidencialidad e indemnidad al denunciar infracciones en el ejercicio de la función pública, especialmente faltas a la probidad, transparencia y hechos de corrupción”.",
-    "Authors": [
+    "number": "32",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -316,20 +366,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 7 bis.- El Estado asegura a todas las personas la debida protección, confidencialidad e indemnidad al denunciar infracciones en el ejercicio de la función pública, especialmente faltas a la probidad, transparencia y hechos de corrupción",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo 7 bis"
   },
   {
-    "Number": "36",
-    "Target": "Artículo 8",
-    "Content": "“El ejercicio de funciones públicas se regirá por los principios de probidad, eficiencia, eficacia, responsabilidad, transparencia, publicidad, rendición de cuentas, buena fe, interculturalidad, enfoque de género, inclusión, no discriminación y sustentabilidad. Las autoridades electas popularmente, y las demás autoridades y funcionarios que determine la ley, deberán declarar sus intereses y patrimonio en forma pública.”",
-    "Authors": [
+    "number": "36",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -341,20 +395,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "El ejercicio de funciones públicas se regirá por los principios de probidad, eficiencia, eficacia, responsabilidad, transparencia, publicidad, rendición de cuentas, buena fe, interculturalidad, enfoque de género, inclusión, no discriminación y sustentabilidad. Las autoridades electas popularmente, y las demás autoridades y funcionarios que determine la ley, deberán declarar sus intereses y patrimonio en forma pública.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "39",
-    "Target": "Artículo Nuevo 8 bis",
-    "Content": "“Respecto de las altas autoridades del Estado, la ley establecerá mayores exigencias y estándares de responsabilidad para el cumplimiento de los principios de probidad, transparencia y rendición de cuentas”.",
-    "Authors": [
+    "number": "39",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -366,20 +424,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 8 bis. Respecto de las altas autoridades del Estado, la ley establecerá mayores exigencias y estándares de responsabilidad para el cumplimiento de los principios de probidad, transparencia y rendición de cuentas",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo 8 bis"
   },
   {
-    "Number": "49",
-    "Target": "Artículo 9",
-    "Content": "lo suprime.",
-    "Authors": [
+    "number": "49",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -391,32 +453,40 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "51",
-    "Target": "Articulo Nuevo 9 bis",
-    "Content": "“Art. 9 bis. Una comisión fijará las remuneraciones de las autoridades de elección popular, así como de quienes sirvan de confianza exclusiva de ellas. Las remuneraciones serán fijadas cada cuatro años, con al menos dieciocho meses de anterioridad al término de un periodo presidencial. Los acuerdos de la comisión serán públicos, se fundarán en antecedentes técnicos y deberán garantizar una retribución adecuada a la responsabilidad del cargo. Una ley establecerá la integración, funcionamiento y atribuciones de esta comisión. La ley establecerá, además, una proporción máxima entre dicha remuneración y el sueldo mínimo legal.”",
-    "Authors": [
+    "number": "51",
+    "authors_matched": [
       "Schonhaut, Constanza",
       "Bassa, Jaime",
       "Namor, Guillermo",
       "Politzer, Patricia",
       "Atria, Fernando"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Art. 9 bis. Una comisión fijará las remuneraciones de las autoridades de elección popular, así como de quienes sirvan de confianza exclusiva de ellas. Las remuneraciones serán fijadas cada cuatro años, con al menos dieciocho meses de anterioridad al término de un periodo presidencial. Los acuerdos de la comisión serán públicos, se fundarán en antecedentes técnicos y deberán garantizar una retribución adecuada a la responsabilidad del cargo. Una ley establecerá la integración, funcionamiento y atribuciones de esta comisión. La ley establecerá, además, una proporción máxima entre dicha remuneración y el sueldo mínimo legal.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo 9 bis"
   },
   {
-    "Number": "53",
-    "Target": "Artículo 10",
-    "Content": "suprime, después de la frase “colegios profesionales”, la palabra “universitarios”.",
-    "Authors": [
+    "number": "53",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -428,20 +498,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "universitarios",
+    "placement_instructions": "después de la frase “colegios profesionales”"
   },
   {
-    "Number": "54",
-    "Target": "Artículo 10",
-    "Content": "agrega, al final de la segunda oración, la expresión “y las demás que establezca la ley”.",
-    "Authors": [
+    "number": "54",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -453,20 +527,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "y las demás que establezca la ley",
+    "content_to_remove": "",
+    "placement_instructions": "al final de la segunda oración"
   },
   {
-    "Number": "55",
-    "Target": "Artículo 10",
-    "Content": "suprime la oración “El funcionamiento de los colegios se regirá por una ley”.",
-    "Authors": [
+    "number": "55",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -478,33 +556,41 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "El funcionamiento de los colegios se regirá por una ley",
+    "placement_instructions": "suprime la oración"
   },
   {
-    "Number": "56",
-    "Target": "Artículo Nuevo",
-    "Content": "“No podrán optar a cargos públicos ni de elección popular las personas condenadas por fraude al fisco, lavado de activos, corrupción, soborno, cohecho, malversación de caudales públicos, delitos sexuales y violencia intrafamiliar en sede penal, en los términos y por el plazo que establezca la ley.”",
-    "Authors": [
+    "number": "56",
+    "authors_matched": [
       "Sepulveda, Barbara",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
       "Carrillo, Alondra",
       "Flores, Alejandra",
       "Politzer, Patricia"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "No podrán optar a cargos públicos ni de elección popular las personas condenadas por fraude al fisco, lavado de activos, corrupción, soborno, cohecho, malversación de caudales públicos, delitos sexuales y violencia intrafamiliar en sede penal, en los términos y por el plazo que establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "63",
-    "Target": "Artículo 11 (Inciso primero)",
-    "Content": "sustituye la expresión “los organismos” por “las instituciones”.",
-    "Authors": [
+    "number": "63",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -516,20 +602,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "las instituciones",
+    "content_to_remove": "los organismos",
+    "placement_instructions": ""
   },
   {
-    "Number": "66",
-    "Target": "Artículo 12",
-    "Content": "“Jefatura suprema de las Fuerzas Armadas y Política de Defensa Nacional. A la o el Presidente de la República le corresponde la conducción de la defensa nacional y es el jefe supremo de las Fuerzas Armadas. Ejercerá el mando a través del ministerio a cargo de la defensa nacional”.",
-    "Authors": [
+    "number": "66",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -541,20 +631,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Jefatura suprema de las Fuerzas Armadas y Política de Defensa Nacional. A la o el Presidente de la República le corresponde la conducción de la defensa nacional y es el jefe supremo de las Fuerzas Armadas. Ejercerá el mando a través del ministerio a cargo de la defensa nacional",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "70",
-    "Target": "Artículo 13",
-    "Content": "“Fuerzas Armadas. Las Fuerzas Armadas están integradas única y exclusivamente por el Ejército, la Armada y la Fuerza Aérea. Dependen del ministerio a cargo de la defensa nacional y son instituciones destinadas para el resguardo de la soberanía, independencia e integridad territorial de la República, ante agresiones de carácter externo... Las Fuerzas Armadas deberán incorporar la perspectiva de género en el desempeño de sus funciones... El ingreso y la formación en las Fuerzas Armadas será gratuito y no discriminatorio...”",
-    "Authors": [
+    "number": "70",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -566,20 +660,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Fuerzas Armadas. Las Fuerzas Armadas están integradas única y exclusivamente por el Ejército, la Armada y la Fuerza Aérea. Dependen del ministerio a cargo de la defensa nacional y son instituciones destinadas para el resguardo de la soberanía, independencia e integridad territorial de la República, ante agresiones de carácter externo, según lo establecido en la Carta de Naciones Unidas. Colaboran con la paz y seguridad internacional, conforme a la Política de Defensa Nacional. Las Fuerzas Armadas deberán incorporar la perspectiva de género en el desempeño de sus funciones, promover la paridad en espacios de toma de decisión y actuar con pleno respeto al derecho internacional y los derechos fundamentales garantizados en esta Constitución. Son instituciones profesionales, jerarquizadas, disciplinadas y por esencia obedientes y no deliberantes. Las instituciones militares y sus miembros estarán sujetos a controles en materia de probidad y transparencia. Sus integrantes no podrán pertenecer a partidos políticos, asociarse en organizaciones políticas, gremiales o sindicales, ejercer el derecho a huelga, ni postularse a cargos de elección popular. El ingreso y la formación en las Fuerzas Armadas será gratuito y no discriminatorio, en el modo que establezca la ley. La educación militar se funda en el respeto irrestricto a los derechos humanos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "86",
-    "Target": "Artículo Nuevo",
-    "Content": "“El Congreso supervisará periódicamente la ejecución del presupuesto asignado a defensa, así como la implementación de la política de defensa nacional y la política militar.”",
-    "Authors": [
+    "number": "86",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -591,20 +689,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "El Congreso supervisará periódicamente la ejecución del presupuesto asignado a defensa, así como la implementación de la política de defensa nacional y la política militar.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo"
   },
   {
-    "Number": "90",
-    "Target": "Artículo 14 (Inciso primero)",
-    "Content": "“Conducción de la Seguridad Pública y Política Nacional de Seguridad Pública. Al Presidente o Presidenta de la República le corresponde la conducción y mantención de la seguridad pública. Ejercerá el mando a través del ministerio a cargo de la seguridad pública.”",
-    "Authors": [
+    "number": "90",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -616,20 +718,24 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Conducción de la Seguridad Pública y Política Nacional de Seguridad Pública. Al Presidente o Presidenta de la República le corresponde la conducción y mantención de la seguridad pública. Ejercerá el mando a través del ministerio a cargo de la seguridad pública.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "91",
-    "Target": "Artículo 14 (Inciso segundo)",
-    "Content": "sustituye, luego de la palabra “aprobación”, la frase “la Política Nacional de Seguridad Pública” por la frase “de dicha política,”.",
-    "Authors": [
+    "number": "91",
+    "authors_matched": [
       "Arellano, Marco",
       "Carrillo, Alondra",
       "Bassa, Jaime",
@@ -641,13 +747,19 @@
       "Namor, Guillermo",
       "Flores, Alejandra",
       "Schonhaut, Constanza",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Barraza, Marcos",
       "Perez, Alejandra",
       "Chahin, Fuad",
       "Politzer, Patricia",
       "Hurtado, Maximiliano",
       "Madriaga, Tania"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "INCISO 2",
+    "action": "MODIFY_PHRASE",
+    "content": "de dicha política,",
+    "content_to_remove": "la Política Nacional de Seguridad Pública",
+    "placement_instructions": "luego de la palabra “aprobación”"
   }
 ]

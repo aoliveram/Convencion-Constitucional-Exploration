@@ -1,315 +1,467 @@
 [
   {
-    "Number": "2",
-    "Target": "Artículo 1",
-    "Content": "Artículo 1.- Infraestructura y gestión de redes y servicios de conectividad. La infraestructura de telecomunicaciones es de interés público, independientemente de su régimen patrimonial. Las autoridades locales junto a la sociedad civil podrán gestionar de forma compartida y democrática las redes y servicios de conectividad. Una ley determinará su desarrollo e implementación.",
-    "Authors": [
+    "number": "2",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1.- Infraestructura y gestión de redes y servicios de conectividad. La infraestructura de telecomunicaciones es de interés público, independientemente de su régimen patrimonial. Las autoridades locales junto a la sociedad civil podrán gestionar de forma compartida y democrática las redes y servicios de conectividad. Una ley determinará su desarrollo e implementación.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "8",
-    "Target": "Artículo 2",
-    "Content": "Artículo 2. Espectro radioeléctrico. El espectro radioeléctrico es un bien común de carácter inapropiable, inalienable e imprescriptible. Es deber del Estado planificar, gestionar, asignar y controlar su uso en todo el territorio, de acuerdo al interés general. La ley establecerá la utilización y aprovechamiento del espectro radioeléctrico de manera participativa, bajo los criterios de equidad, racionalidad, eficacia, eficiencia, transparencia y descentralización.",
-    "Authors": [
+    "number": "8",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2. Espectro radioeléctrico. El espectro radioeléctrico es un bien común de carácter inapropiable, inalienable e imprescriptible. Es deber del Estado planificar, gestionar, asignar y controlar su uso en todo el territorio, de acuerdo al interés general. La ley establecerá la utilización y aprovechamiento del espectro radioeléctrico de manera participativa, bajo los criterios de equidad, racionalidad, eficacia, eficiencia, transparencia y descentralización.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "13",
-    "Target": "Artículo 3",
-    "Content": "Artículo 3.- Comunes Digitales. El Estado reconoce que los Comunes Digitales constituyen un conjunto de bienes comunes intangibles de interés general, basados en datos, información y conocimiento, sujetos a libre uso y gestión compartida. Una ley determinará la forma de su protección y desarrollo, bajo los principios de reciprocidad y confianza.",
-    "Authors": [
+    "number": "13",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 3.- Comunes Digitales. El Estado reconoce que los Comunes Digitales constituyen un conjunto de bienes comunes intangibles de interés general, basados en datos, información y conocimiento, sujetos a libre uso y gestión compartida. Una ley determinará la forma de su protección y desarrollo, bajo los principios de reciprocidad y confianza.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "16",
-    "Target": "Artículo 4",
-    "Content": "Artículo 4.-Consejo Nacional de Comunicaciones. Existirá un órgano de carácter autónomo y técnico, encargado de proteger y promover el derecho a la conectividad y la comunicación social en sus diversos soportes tecnológicos. Asimismo, velará por la transparencia y libre competencia de un mercado pluralista de las telecomunicaciones y el sector audiovisual, junto con la distribución y uso equitativo del espectro radioeléctrico. Dicho órgano tendrá personalidad jurídica y patrimonio propio, y contará con potestades normativas, fiscalizadoras, sancionatorias y consultivas. Su funcionamiento se basa en los principios de convergencia tecnológica, pluralismo mediático e interculturalidad. La ley regulará su organización, competencias, funcionamiento y composición, la que estará orientada por criterios de idoneidad e interdisciplinariedad, garantizando su independencia respecto de los agentes regulados. Además, contemplará mecanismos de participación ciudadana, junto a la protección y promoción de los derechos de las audiencias.",
-    "Authors": [
+    "number": "16",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4.-Consejo Nacional de Comunicaciones. Existirá un órgano de carácter autónomo y técnico, encargado de proteger y promover el derecho a la conectividad y la comunicación social en sus diversos soportes tecnológicos. Asimismo, velará por la transparencia y libre competencia de un mercado pluralista de las telecomunicaciones y el sector audiovisual, junto con la distribución y uso equitativo del espectro radioeléctrico. Dicho órgano tendrá personalidad jurídica y patrimonio propio, y contará con potestades normativas, fiscalizadoras, sancionatorias y consultivas. Su funcionamiento se basa en los principios de convergencia tecnológica, pluralismo mediático e interculturalidad. La ley regulará su organización, competencias, funcionamiento y composición, la que estará orientada por criterios de idoneidad e interdisciplinariedad, garantizando su independencia respecto de los agentes regulados. Además, contemplará mecanismos de participación ciudadana, junto a la protección y promoción de los derechos de las audiencias.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "19",
-    "Target": "Artículo 5",
-    "Content": "Suprimir el artículo 5.",
-    "Authors": [
+    "number": "19",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "20",
-    "Target": "Artículo 5",
-    "Content": "Suprimir el artículo 5.",
-    "Authors": [
+    "number": "20",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "22",
-    "Target": "Artículo 6",
-    "Content": "Artículo 6.- Medios de comunicación públicos. Existirán medios de comunicación públicos en distintos soportes tecnológicos, que respondan a las necesidades informativas, educativas, culturales y de entretenimiento de los diversos grupos de la población. Los medios de comunicación públicos serán independientes, pluralistas, interculturales y descentralizados, debiendo funcionar de manera coordinada bajo estándares de calidad, universalidad, continuidad y transparencia. Dichos medios se constituirán como empresas autónomas del Estado, con presupuesto permanente, personalidad jurídica de derecho público y patrimonio propio. La ley regulará su organización y composición, la que estará orientada por criterios técnicos y de idoneidad, además de contemplar mecanismos de participación ciudadana.",
-    "Authors": [
+    "number": "22",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 6.- Medios de comunicación públicos. Existirán medios de comunicación públicos en distintos soportes tecnológicos, que respondan a las necesidades informativas, educativas, culturales y de entretenimiento de los diversos grupos de la población. Los medios de comunicación públicos serán independientes, pluralistas, interculturales y descentralizados, debiendo funcionar de manera coordinada bajo estándares de calidad, universalidad, continuidad y transparencia. Dichos medios se constituirán como empresas autónomas del Estado, con presupuesto permanente, personalidad jurídica de derecho público y patrimonio propio. La ley regulará su organización y composición, la que estará orientada por criterios técnicos y de idoneidad, además de contemplar mecanismos de participación ciudadana.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "30",
-    "Target": "Artículo 7",
-    "Content": "Artículo 7.- Sistema Nacional de Medios Públicos y Comunitarios. Se creará un Sistema Nacional de Medios Públicos y Comunitarios para asesorar y coordinar los diversos medios de comunicación, que promoverá y fortalecerá los medios regionales, locales, comunitarios e indígenas. Este sistema será organizado de forma descentralizada y garantizará su libre acceso a todas las personas y comunidades. La ley regulará lo relativo a su organización, estructura, competencias y funcionamiento.",
-    "Authors": [
+    "number": "30",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 7.- Sistema Nacional de Medios Públicos y Comunitarios. Se creará un Sistema Nacional de Medios Públicos y Comunitarios para asesorar y coordinar los diversos medios de comunicación, que promoverá y fortalecerá los medios regionales, locales, comunitarios e indígenas. Este sistema será organizado de forma descentralizada y garantizará su libre acceso a todas las personas y comunidades. La ley regulará lo relativo a su organización, estructura, competencias y funcionamiento.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "35",
-    "Target": "Artículo 8",
-    "Content": "Suprimir el artículo 8.",
-    "Authors": [
+    "number": "35",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "36",
-    "Target": "Artículo 8",
-    "Content": "Suprimir el artículo 8.",
-    "Authors": [
+    "number": "36",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "39",
-    "Target": "Artículo 9",
-    "Content": "Suprimir el artículo 9.",
-    "Authors": [
+    "number": "39",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "40",
-    "Target": "Artículo 9",
-    "Content": "Suprimir el artículo 9.",
-    "Authors": [
+    "number": "40",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "45",
-    "Target": "Artículo 10",
-    "Content": "Suprimir el artículo 10.",
-    "Authors": [
+    "number": "45",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "46",
-    "Target": "Artículo 10",
-    "Content": "Suprimir el artículo 10.",
-    "Authors": [
+    "number": "46",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "52",
-    "Target": "Artículo 11",
-    "Content": "Artículo 11.- Consejo Nacional de Bioética. El Consejo Nacional de Bioética será un órgano independiente, técnico, de carácter consultivo, pluralista y transdisciplinario, que tendrá, entre sus funciones, asesorar a los organismos del Estado en los asuntos bioéticos que puedan afectar a la vida humana, animal, la naturaleza y la biodiversidad, recomendando la dictación, modificación y supresión de normas que regulen dichas materias. La ley regulará la composición, funciones, organización y demás aspectos de este órgano.",
-    "Authors": [
+    "number": "52",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 11.- Consejo Nacional de Bioética. El Consejo Nacional de Bioética será un órgano independiente, técnico, de carácter consultivo, pluralista y transdisciplinario, que tendrá, entre sus funciones, asesorar a los organismos del Estado en los asuntos bioéticos que puedan afectar a la vida humana, animal, la naturaleza y la biodiversidad, recomendando la dictación, modificación y supresión de normas que regulen dichas materias. La ley regulará la composición, funciones, organización y demás aspectos de este órgano.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "55",
-    "Target": "Artículo 12",
-    "Content": "Suprimir el artículo 12.",
-    "Authors": [
+    "number": "55",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "56",
-    "Target": "Artículo 12",
-    "Content": "Suprimir el artículo 12.",
-    "Authors": [
+    "number": "56",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "57",
-    "Target": "Artículo 12",
-    "Content": "Suprimir el artículo 12.",
-    "Authors": [
+    "number": "57",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "59",
-    "Target": "Artículo 13",
-    "Content": "Suprimir el artículo 13.",
-    "Authors": [
+    "number": "59",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "60",
-    "Target": "Artículo 13",
-    "Content": "Suprimir el artículo 13.",
-    "Authors": [
+    "number": "60",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "61",
-    "Target": "Artículo 13",
-    "Content": "Suprimir el artículo 13.",
-    "Authors": [
+    "number": "61",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "63",
-    "Target": "Artículo 14",
-    "Content": "Suprimir el artículo 14.",
-    "Authors": [
+    "number": "63",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "64",
-    "Target": "Artículo 14",
-    "Content": "Suprimir el artículo 14.",
-    "Authors": [
+    "number": "64",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 14,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "71",
-    "Target": "Artículo 15",
-    "Content": "Suprimir el artículo 15.",
-    "Authors": [
+    "number": "71",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "72",
-    "Target": "Artículo 15",
-    "Content": "Suprimir el artículo 15.",
-    "Authors": [
+    "number": "72",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "73",
-    "Target": "Artículo 15",
-    "Content": "Suprimir el artículo 15.",
-    "Authors": [
+    "number": "73",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "77",
-    "Target": "Artículo 16",
-    "Content": "Artículo 16.- El Estado distribuirá el financiamiento para la investigación, creación, producción, difusión y exhibición de las expresiones culturales y artísticas de forma descentralizada con los enfoques de equidad e interculturalidad.",
-    "Authors": [
+    "number": "77",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 16,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 16.- El Estado distribuirá el financiamiento para la investigación, creación, producción, difusión y exhibición de las expresiones culturales y artísticas de forma descentralizada con los enfoques de equidad e interculturalidad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "80",
-    "Target": "Artículo 17",
-    "Content": "Suprimir el artículo 17.",
-    "Authors": [
+    "number": "80",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "81",
-    "Target": "Artículo 17",
-    "Content": "Suprimir el artículo 17.",
-    "Authors": [
+    "number": "81",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "82",
-    "Target": "Artículo 17",
-    "Content": "Suprimir el artículo 17.",
-    "Authors": [
+    "number": "82",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "86",
-    "Target": "Artículo 18",
-    "Content": "Artículo 18. Organo de prevención e investigación en salid y medioambiente. Habrá una entidad autónoma, colegiada, con personalidad jurídica, patrimonio propio, con sede en cada una de las regiones del país, con el propósito de prevenir y controlar riesgos sanitarios y medio ambientales. Para ello, se encargará de la investigación transdisciplinaria e independiente, que resguarde la calidad de vida de la población, su bienestar y el equilibrio ecosistémico de todos los territorios del país; además, de la detección y el monitoreo permanente de los riesgos medioambientales y sanitarios que afecten la salud de sus comunidades y ecosistemas. Su financiamiento, composición, organización y atribuciones será establecido en la forma que determine la ley.",
-    "Authors": [
+    "number": "86",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 18. Organo de prevención e investigación en salid y medioambiente. Habrá una entidad autónoma, colegiada, con personalidad jurídica, patrimonio propio, con sede en cada una de las regiones del país, con el propósito de prevenir y controlar riesgos sanitarios y medio ambientales. Para ello, se encargará de la investigación transdisciplinaria e independiente, que resguarde la calidad de vida de la población, su bienestar y el equilibrio ecosistémico de todos los territorios del país; además, de la detección y el monitoreo permanente de los riesgos medioambientales y sanitarios que afecten la salud de sus comunidades y ecosistemas. Su financiamiento, composición, organización y atribuciones será establecido en la forma que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "89",
-    "Target": "Artículo 19",
-    "Content": "Artículo 19.- Institucionalidad en Sistemas de Conocimientos. La institucionalidad en sistemas de conocimientos e innovación dirige las políticas públicas que garantizan el derecho a participar y beneficiarse de los conocimientos, además de proponer las mejores evidencias disponibles y pertinentes. Esta institucionalidad se rige por los principios de justicia epistémica, reducción de desigualdades, integridad en la investigación, descentralización y acceso abierto a los conocimientos, y tendrá un carácter integrado con otros actores u organismos relevantes en torno a ella.",
-    "Authors": [
+    "number": "89",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 19.- Institucionalidad en Sistemas de Conocimientos. La institucionalidad en sistemas de conocimientos e innovación dirige las políticas públicas que garantizan el derecho a participar y beneficiarse de los conocimientos, además de proponer las mejores evidencias disponibles y pertinentes. Esta institucionalidad se rige por los principios de justicia epistémica, reducción de desigualdades, integridad en la investigación, descentralización y acceso abierto a los conocimientos, y tendrá un carácter integrado con otros actores u organismos relevantes en torno a ella.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "91",
-    "Target": "Artículo 20",
-    "Content": "Artículo 20.- Agencia de Protección de Datos y Seguridad Informática. Existirá un órgano autónomo, independiente y con personalidad jurídica que velará por la promoción y protección efectiva de los derechos a la autodeterminación informativa, protección de datos personales y a la seguridad informática, con facultades de investigar, normar, fiscalizar y sancionar respecto de entidades públicas y privadas, el que contará con las atribuciones y funciones que determine la ley.",
-    "Authors": [
+    "number": "91",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 20.- Agencia de Protección de Datos y Seguridad Informática. Existirá un órgano autónomo, independiente y con personalidad jurídica que velará por la promoción y protección efectiva de los derechos a la autodeterminación informativa, protección de datos personales y a la seguridad informática, con facultades de investigar, normar, fiscalizar y sancionar respecto de entidades públicas y privadas, el que contará con las atribuciones y funciones que determine la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "94",
-    "Target": "Artículo 21",
-    "Content": "Suprimir el artículo 21.",
-    "Authors": [
+    "number": "94",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "95",
-    "Target": "Artículo 21",
-    "Content": "Suprimir el artículo 21.",
-    "Authors": [
+    "number": "95",
+    "authors_matched": [
       "Neumann, Ricardo",
       "Tepper, Maria Angelica"
-    ]
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "99",
-    "Target": "Artículo 22",
-    "Content": "Artículo 22.- Las instituciones de educación superior del Estado tienen el rol de contribuir al desarrollo de los sistemas de conocimientos de forma descentralizada a través de la docencia, la investigación y la vinculación bidireccional con el medio. Es deber del Estado garantizar, reconocer y proteger tanto la libertad de cátedra y académica, sin distinción alguna.",
-    "Authors": [
+    "number": "99",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 22,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 22.- Las instituciones de educación superior del Estado tienen el rol de contribuir al desarrollo de los sistemas de conocimientos de forma descentralizada a través de la docencia, la investigación y la vinculación bidireccional con el medio. Es deber del Estado garantizar, reconocer y proteger tanto la libertad de cátedra y académica, sin distinción alguna.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "105",
-    "Target": "Artículo 23",
-    "Content": "Artículo 23.- Educación en los sistemas de conocimientos. La educación es connatural a la vida, es parte de ella y surge a partir de la curiosidad que estimula la creación de relaciones inéditas, holísticas y sinérgicas, que se complejizan ampliamente, permitiendo comprender cómo opera la naturaleza, la sociedad y la cultura. El derecho a la educación considerará este principio rector.",
-    "Authors": [
+    "number": "105",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 23.- Educación en los sistemas de conocimientos. La educación es connatural a la vida, es parte de ella y surge a partir de la curiosidad que estimula la creación de relaciones inéditas, holísticas y sinérgicas, que se complejizan ampliamente, permitiendo comprender cómo opera la naturaleza, la sociedad y la cultura. El derecho a la educación considerará este principio rector.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "109",
-    "Target": "Artículo 24",
-    "Content": "Artículo 24.- Interculturalidad en la educación. El Estado asegura una educación intercultural en sus múltiples dimensiones, propendiendo al aprendizaje mutuo entre culturas a través de la incorporación y transmisión de valores, saberes y lenguas de los pueblos y naciones indígenas preexistentes. La ley establecerá la institucionalidad necesaria y régimen aplicable a las y los educadores tradicionales.",
-    "Authors": [
+    "number": "109",
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 24,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 24.- Interculturalidad en la educación. El Estado asegura una educación intercultural en sus múltiples dimensiones, propendiendo al aprendizaje mutuo entre culturas a través de la incorporación y transmisión de valores, saberes y lenguas de los pueblos y naciones indígenas preexistentes. La ley establecerá la institucionalidad necesaria y régimen aplicable a las y los educadores tradicionales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

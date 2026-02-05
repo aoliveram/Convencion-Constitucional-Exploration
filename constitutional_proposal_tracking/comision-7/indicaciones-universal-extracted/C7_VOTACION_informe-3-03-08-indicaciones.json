@@ -1,90 +1,134 @@
 [
   {
-    "Number": "4",
-    "Target": "Artículo 2, inciso primero",
-    "Content": "Artículo 2.- El Estado debe respetar la libertad de prensa, promover el pluralismo de los medios de comunicación y la diversidad de información. Se prohíbe la censura previa.",
-    "Authors": [
+    "number": 4,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2.- El Estado debe respetar la libertad de prensa, promover el pluralismo de los medios de comunicación y la diversidad de información. Se prohíbe la censura previa.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "5",
-    "Target": "Artículo 2, inciso segundo",
-    "Content": "Suprime su inciso segundo.",
-    "Authors": [
+    "number": 5,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "6",
-    "Target": "Artículo 15",
-    "Content": "Suprimir el artículo 15.",
-    "Authors": [
+    "number": 6,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "7",
-    "Target": "Artículo 15",
-    "Content": "Suprimir el artículo 15.",
-    "Authors": [
+    "number": 7,
+    "authors_matched": [
       "Neumann, Ricardo"
-    ]
+    ],
+    "target_article": 15,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "11",
-    "Target": "Artículo 19, inciso segundo",
-    "Content": "Es deber del Estado promover y participar del desarrollo de las telecomunicaciones, servicios de conectividad y tecnologías de la información y comunicación. La ley regulará la forma en que el Estado cumplirá este deber, así como su participación y la de otros actores en la materia.",
-    "Authors": [
+    "number": 11,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Es deber del Estado promover y participar del desarrollo de las telecomunicaciones, servicios de conectividad y tecnologías de la información y comunicación. La ley regulará la forma en que el Estado cumplirá este deber, así como su participación y la de otros actores en la materia.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "12",
-    "Target": "Artículo 19, inciso tercero",
-    "Content": "Suprime el inciso tercero del artículo 19.",
-    "Authors": [
+    "number": 12,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 19,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "14",
-    "Target": "Artículo 23, inciso primero",
-    "Content": "Artículo 23.- Todas las personas tienen el derecho a participar de un espacio digital libre de violencia. El Estado desarrollará acciones de prevención, promoción, reparación y garantía de este derecho, otorgando especial protección a mujeres, niñas, niños, jóvenes y disidencias sexogenéricas.",
-    "Authors": [
+    "number": 14,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 23.- Todas las personas tienen el derecho a participar de un espacio digital libre de violencia. El Estado desarrollará acciones de prevención, promotion, reparación y garantía de este derecho, otorgando especial protección a mujeres, niñas, niños, jóvenes y disidencias sexogenéricas",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "15",
-    "Target": "Artículo 23, inciso segundo",
-    "Content": "Suprime el inciso segundo.",
-    "Authors": [
+    "number": 15,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 23,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "17",
-    "Target": "Artículo 26, inciso primero",
-    "Content": "Artículo 26.- El Estado reconoce la neurodiversidad y garantiza a las personas neurodivergentes su derecho a una vida autónoma, a desarrollar libremente su personalidad e identidad, a ejercer su capacidad jurídica y los derechos, individuales y colectivos, reconocidos en esta Constitución y los tratados e instrumentos internacionales de Derechos Humanos ratificados por Chile y que se encuentren vigentes.",
-    "Authors": [
+    "number": 17,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 26.- El Estado reconoce la neurodiversidad y garantiza a las personas neurodivergentes su derecho a una vida autónoma, a desarrollar libremente su personalidad e identidad, a ejercer su capacidad jurídica y los derechos, individuales y colectivos, reconocidos en esta Constitución y los tratados e instrumentos internacionales de Derechos Humanos ratificados por Chile y que se encuentren vigentes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "18",
-    "Target": "Artículo 26, inciso segundo",
-    "Content": "Es deber del Estado desarrollar un sistema transversal de apoyos que establezca ajustes razonables y mecanismos especializados que permitan eliminar las barreras estructurales que impiden el goce y ejercicio de sus derechos en plenitud y que asegure su trato digno e inclusivo.",
-    "Authors": [
+    "number": 18,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Es deber del Estado desarrollar un sistema transversal de apoyos que establezca ajustes razonables y mecanismos especializados que permitan eliminar las barreras estructurales que impiden el goce y ejercicio de sus derechos en plenitud y que asegure su trato digno e inclusivo.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "19",
-    "Target": "Artículo 26, inciso tercero",
-    "Content": "Suprime el inciso tercero del artículo 26.",
-    "Authors": [
+    "number": 19,
+    "authors_matched": [
       "Pinto, Malucha"
-    ]
+    ],
+    "target_article": 26,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

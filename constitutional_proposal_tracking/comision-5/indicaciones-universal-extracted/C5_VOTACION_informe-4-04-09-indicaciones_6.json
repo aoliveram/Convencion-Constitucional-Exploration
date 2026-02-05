@@ -1,51 +1,86 @@
 [
   {
     "number": "1041",
-    "target_article": "343",
-    "action": "MOD",
-    "content": "“Artículo 39. Todas las personas y comunidades tienen derecho a un ambiente sano y ecológicamente equilibrado.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 343,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 39. Todas las personas y comunidades tienen derecho a un ambiente sano y ecológicamente equilibrado.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "1044",
-    "target_article": "344",
-    "action": "MOD",
-    "content": "“Artículo 40. El Estado garantiza el derecho a la justicia ambiental.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 344,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 40. El Estado garantiza el derecho a la justicia ambiental.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "1046",
-    "target_article": "345",
-    "action": "MOD",
-    "content": "“Artículo 41. Todas las personas tienen el derecho al aire limpio durante todo el ciclo de vida, la ley determinará las características que definen dicha condición.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 345,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 41. Todas las personas tienen el derecho al aire limpio durante todo el ciclo de vida, la ley determinará las características que definen dicha condición.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "1056",
-    "target_article": "Título de la temática 18",
-    "action": "MOD",
-    "content": "“Derechos humanos ambientales”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 18,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Derechos humanos ambientales",
+    "content_to_remove": "Derecho a vivir en un ambiente sano y ecológicamente equilibrado",
+    "placement_instructions": "sustituir el título de la temática 18"
   },
   {
     "number": "1058",
-    "target_article": "346",
-    "action": "MOD",
-    "content": "“Artículo 42. Derecho humano al agua y al saneamiento. La Constitución garantiza a todas las personas los derechos humanos al agua y al saneamiento, para las generaciones presentes y futuras. Este derecho deberá satisfacerse preferentemente a partir de fuentes de aguas de la cuenca hidrográfica del territorio.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 346,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 42. Derecho humano al agua y al saneamiento. La Constitución garantiza a todas las personas los derechos humanos al agua y al saneamiento, para las generaciones presentes y futuras. Este derecho deberá satisfacerse preferentemente a partir de fuentes de aguas de la cuenca hidrográfica del territorio.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "1061",
-    "target_article": "347",
-    "action": "MOD",
-    "content": "“Artículo 43. Es deber del Estado garantizar la educación ambiental, que permita crear conciencia ecológica en los seres humanos, considerando las características culturales, ambientales y territoriales.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 347,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 43. Es deber del Estado garantizar la educación ambiental, que permita crear conciencia ecológica en los seres humanos, considerando las características culturales, ambientales y territoriales.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "1067",
-    "target_article": "348",
-    "action": "MOD",
-    "content": "“Artículo 44. El Estado debe garantizar parámetros saludables de calidad de los elementos y componentes ambientales, priorizando estándares internacionales; y regular la emisión de contaminantes que pongan en riesgo la salud de las personas y ecosistemas; asegurar el acceso a la información sobre los niveles de contaminación y sus fuentes; mantener un sistema coordinado de evaluación, monitoreo, fiscalización y sanción; entre otras medidas que resulten necesarias.”",
-    "authors_raw": "Olivares y otros"
+    "authors_matched": [
+      "Olivares, Ivanna"
+    ],
+    "target_article": 348,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 44. El Estado debe garantizar parámetros saludables de calidad de los elementos y componentes ambientales, priorizando estándares internacionales; y regular la emisión de contaminantes que pongan en riesgo la salud de las personas y ecosistemas; asegurar el acceso a la información sobre los niveles de contaminación y sus fuentes; mantener un sistema coordinado de evaluación, monitoreo, fiscalización y sanción; entre otras medidas que resulten necesarias.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

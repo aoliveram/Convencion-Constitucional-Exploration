@@ -66,9 +66,17 @@ def extract_voting(pdf_path, commission_id, members_list):
         
     # 3. Parse
     try:
-        text = response.text.replace('```json', '').replace('```', '').strip()
-        data = json.loads(text)
-        return data
+        text = response.text
+        # Look for the first '[' and last ']' to extract the JSON array
+        match = re.search(r'\[.*\]', text, re.DOTALL)
+        if match:
+            json_str = match.group(0)
+            data = json.loads(json_str)
+            return data
+        else:
+            # Fallback to previous method if no brackets found
+            clean_text = text.replace('```json', '').replace('```', '').strip()
+            return json.loads(clean_text)
     except Exception as e:
         print(f"  Error parsing Gemini response: {e}")
         return []

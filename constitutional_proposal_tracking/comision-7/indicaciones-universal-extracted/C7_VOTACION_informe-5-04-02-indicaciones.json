@@ -1,82 +1,122 @@
 [
   {
-    "Number": "5",
-    "Target": "Artículo 4, Inciso segundo",
-    "Content": "“Además, promueve la creación y desarrollo de estos por parte de los pueblos y naciones indígenas preexistentes, preferentemente en sus propias lenguas”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "5",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Además, promueve la creación y desarrollo de estos por parte de los pueblos y naciones indígenas preexistentes, preferentemente en sus propias lenguas",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "11",
-    "Target": "Artículo 6",
-    "Content": "“Artículo 6. Educación mediática. El Estado desarrollará mecanismos para acceder a una educación mediática diversa, plural, con enfoque de género y derechos humanos, que colabore a que la ciudadanía, progresivamente, desarrolle un pensamiento crítico, reflexivo e informado.”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "11",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 6. Educación mediática. El Estado desarrollará mecanismos para acceder a una educación mediática diversa, plural, con enfoque de género y derechos humanos, que colabore a que la ciudadanía, progresivamente, desarrolle un pensamiento crítico, reflexivo e informado.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "14",
-    "Target": "Artículo 7",
-    "Content": "“Artículo 7. Protección a la labor de comunicar. El Estado garantiza la protección y seguridad de periodistas y trabajadores de la comunicación social, y de quienes ejercen la labor de comunicar e informar en cualquier formato y plataforma de comunicación. Una ley establecerá los mecanismos adecuados para el libre ejercicio de esta labor y la protección de las fuentes de información.”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "14",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 7. Protección a la labor de comunicar. El Estado garantiza la protección y seguridad de periodistas y trabajadores de la comunicación social, y de quienes ejercen la labor de comunicar e informar en cualquier formato y plataforma de comunicación. Una ley establecerá los mecanismos adecuados para el libre ejercicio de esta labor y la protección de las fuentes de información.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "19",
-    "Target": "Artículo 9, Inciso segundo",
-    "Content": "“El Estado garantiza el financiamiento progresivo de las prestaciones vinculadas al ejercicio de la actividad cultural y artística.”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "19",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 9,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El Estado garantiza el financiamiento progresivo de las prestaciones vinculadas al ejercicio de la actividad cultural y artística.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "25",
-    "Target": "Artículo 9 bis",
-    "Content": "“Artículo 9 bis. Culturas Comunitarias. El Estado reconoce el valor de las culturas comunitarias como espacio social de convivencia democrática, orientadas a la creación y construcción de identidades culturales”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "25",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 9 bis. Culturas Comunitarias. El Estado reconoce el valor de las culturas comunitarias como espacio social de convivencia democrática, orientadas a la creación y construcción de identidades culturales",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "29",
-    "Target": "Artículo 10",
-    "Content": "“Artículo 10. Identidad e integridad cultural indígena. Los pueblos y naciones indígenas preexistentes y sus integrantes tienen derecho a la identidad e integridad cultural, a que se reconozcan y respeten sus formas de vida, sus cosmovisiones, el vínculo con la tierra, mar y el territorio, sus usos, costumbres, instituciones propias y su lengua”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "29",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 10. Identidad e integridad cultural indígena. Los pueblos y naciones indígenas preexistentes y sus integrantes tienen derecho a la identidad e integridad cultural, a que se reconozcan y respeten sus formas de vida, sus cosmovisiones, el vínculo con la tierra, mar y el territorio, sus usos, costumbres, instituciones propias y su lengua",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "33",
-    "Target": "Nuevo artículo (10 bis)",
-    "Content": "“Artículo 10 bis. El pueblo tribal afrodescendiente chileno tiene derecho a desarrollar su cultura, su identidad y formas de organización propias, garantizando el Estado el ejercicio pleno de este derecho según lo consagrado en esta constitución, las leyes y los instrumentos internacionales aplicables.”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "33",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 10 bis. El pueblo tribal afrodescendiente chileno tiene derecho a desarrollar su cultura, su identidad y formas de organización propias, garantizando el Estado el ejercicio pleno de este derecho según lo consagrado en esta constitución, las leyes y los instrumentos internacionales aplicables.",
+    "content_to_remove": null,
+    "placement_instructions": "consignar el inciso segundo del artículo 10 como un nuevo artículo, que pasará a ser 10 bis"
   },
   {
-    "Number": "36",
-    "Target": "Artículo 17",
-    "Content": "“Artículo 17. Arte Callejero. El Estado reconoce el arte callejero, en tanto expresiones artísticas que se practican en las calles y otros espacios públicos en cualquier parte del territorio y valora su contribución a la democratización de la vida cultural. A la vez, garantiza su pleno desarrollo mediante mecanismos determinados por la ley.”",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "36",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 17,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 17. Arte Callejero. El Estado reconoce el arte callejero, en tanto expresiones artísticas que se practican en las calles y otros espacios públicos en cualquier parte del territorio y valora su contribución a la democratización de la vida cultural. A la vez, garantiza su pleno desarrollo mediante mecanismos determinados por la ley.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "38",
-    "Target": "Artículo 25",
-    "Content": "“Artículo 25. Derecho al desarrollo de la corporeidad. El Estado garantiza a todas las personas el derecho a conocer y disfrutar su corporeidad, desarrollando este conocimiento conforme a su cultura y creencias, generando las condiciones para su ejercicio.”",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "38",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 25. Derecho al desarrollo de la corporeidad. El Estado garantiza a todas las personas el derecho a conocer y disfrutar su corporeidad, desarrollando este conocimiento conforme a su cultura y creencias, generando las condiciones para su ejercicio.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "Number": "40",
-    "Target": "Artículo 28",
-    "Content": "“Artículo 28. Principios de la Bioética. Las ciencias y tecnologías, sus aplicaciones y procesos investigativos, deben desarrollarse según los principios de solidaridad, cooperación, responsabilidad y con pleno respeto a la dignidad humana, a la sintiencia de los animales, los derechos de la naturaleza y los demás derechos establecidos en esta Constitución y en tratados internacionales de Derechos Humanos ratificados por Chile y que se encuentren vigentes.”.",
-    "Authors": [
-      "Rossana Vidal"
-    ]
+    "number": "40",
+    "authors_matched": [
+      "Vidal, Rossana"
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 28. Principios de la Bioética. Las ciencias y tecnologías, sus aplicaciones y procesos investigativos, deben desarrollarse según los principios de solidaridad, cooperación, responsabilidad y con pleno respeto a la dignidad humana, a la sintiencia de los animales, los derechos de la naturaleza y los demás derechos establecidos en esta Constitución y en tratados internacionales de Derechos Humanos ratificados por Chile y que se encuentren vigentes.",
+    "content_to_remove": null,
+    "placement_instructions": null
   }
 ]

@@ -1,233 +1,480 @@
 [
   {
-    "Number": "6",
-    "Target": "Artículo 1, epígrafe",
-    "Content": "Sustitúyase el epígrafe por el siguiente texto: “Sobre los Derechos Fundamentales.”.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "6",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio",
+      "Fuchslocher, Javier",
+      "Gonzalez, Dayana",
+      "Gonzalez, Lidia",
+      "Grandon, Paola",
+      "Henriquez, Natalia",
+      "Labbe, Bastian",
+      "Labrana, Elsa",
+      "Linconao, Francisca",
+      "Mamani, Isabella",
+      "Meneses, Janis",
+      "Miranda, Valentina",
+      "Orellana, Matias",
+      "Rivera, Maria Magdalena",
+      "Serey, Mariela",
+      "Tirado, Fernando",
+      "Valenzuela, Cesar"
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "SUBSTITUTE",
+    "content": "Sobre los Derechos Fundamentales.",
+    "content_to_remove": "Objeto y fin.",
+    "placement_instructions": ""
   },
   {
-    "Number": "8",
-    "Target": "Artículo 1, inciso primero",
-    "Content": "Agréguese en el inciso primero luego de la frase “los derechos fundamentales son” la expresión “inherentes a la persona humana,”.",
-    "Authors": [
+    "number": "8",
+    "authors_matched": [
       "Fernandez, Patricio"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "inherentes a la persona humana,",
+    "placement_instructions": "en el inciso primero luego de la frase “los derechos fundamentales son”"
   },
   {
-    "Number": "10",
-    "Target": "Artículo 1, inciso primero",
-    "Content": "Suprímase en el inciso primero desde la expresión “entre sí” hasta la expresión “de la sociedad”, ambas inclusive.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "10",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio",
+      "Fuchslocher, Javier",
+      "Gonzalez, Dayana",
+      "Gonzalez, Lidia",
+      "Grandon, Paola",
+      "Henriquez, Natalia",
+      "Labbe, Bastian",
+      "Labrana, Elsa",
+      "Linconao, Francisca",
+      "Mamani, Isabella",
+      "Meneses, Janis",
+      "Miranda, Valentina",
+      "Orellana, Matias",
+      "Rivera, Maria Magdalena",
+      "Serey, Mariela",
+      "Tirado, Fernando",
+      "Valenzuela, Cesar"
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "desde la expresión “entre sí” hasta la expresión “de la sociedad”, ambas inclusive",
+    "placement_instructions": ""
   },
   {
-    "Number": "14",
-    "Target": "Artículo 1, inciso segundo",
-    "Content": "Sustitúyase el inciso segundo por el siguiente: “El pleno ejercicio de estos derechos es esencial para la vida digna de las personas y los pueblos, la democracia, la paz y el equilibrio de la Naturaleza.”.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "14",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio",
+      "Fuchslocher, Javier",
+      "Gonzalez, Dayana",
+      "Gonzalez, Lidia",
+      "Grandon, Paola",
+      "Henriquez, Natalia",
+      "Labbe, Bastian",
+      "Labrana, Elsa",
+      "Linconao, Francisca",
+      "Mamani, Isabella",
+      "Meneses, Janis",
+      "Miranda, Valentina",
+      "Orellana, Matias",
+      "Rivera, Maria Magdalena",
+      "Serey, Mariela",
+      "Tirado, Fernando",
+      "Valenzuela, Cesar"
+    ],
+    "target_article": 1,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El pleno ejercicio de estos derechos es esencial para la vida digna de las personas y los pueblos, la democracia, la paz y el equilibrio de la Naturaleza.",
+    "placement_instructions": ""
   },
   {
-    "Number": "31",
-    "Target": "Artículo 2",
-    "Content": "Suprímase la palabra “universal”.",
-    "Authors": [
+    "number": "31",
+    "authors_matched": [
       "Marinovic, Teresa"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "universal",
+    "placement_instructions": ""
   },
   {
-    "Number": "45",
-    "Target": "Artículo 5",
-    "Content": "Para sustituir el artículo 5 en el siguiente tenor: “Artículo 5. Limitación de los derechos fundamentales. Sólo en virtud de la Constitución y la ley se podrá limitar el ejercicio de los derechos fundamentales.”.",
-    "Authors": [
+    "number": "45",
+    "authors_matched": [
       "Labbe, Bastian"
-    ]
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 5. Limitación de los derechos fundamentales. Sólo en virtud de la Constitución y la ley se podrá limitar el ejercicio de los derechos fundamentales.",
+    "placement_instructions": ""
   },
   {
-    "Number": "58",
-    "Target": "Artículo 8, inciso tercero",
-    "Content": "Para suprimir el inciso tercero del artículo 8.",
-    "Authors": [
+    "number": "58",
+    "authors_matched": [
       "Labbe, Bastian",
       "Delgado, Aurora",
       "Castro, Claudia",
       "Bravo, Daniel",
       "Fernandez, Patricio"
-    ]
+    ],
+    "target_article": 8,
+    "target_scope": "INCISO 3",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "81",
-    "Target": "Artículo 10, inciso segundo",
-    "Content": "Sustitúyase el inciso segundo por el siguiente: “Ninguna persona puede ser arrestada o detenida sino por orden judicial, salvo que fuera sorprendida en delito flagrante.”.",
-    "Authors": [
-      "Tirado, Fernando"
-    ]
+    "number": "81",
+    "authors_matched": [
+      "Tirado, Fernando",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Ninguna persona puede ser arrestada o detenida sino por orden judicial, salvo que fuera sorprendida en delito flagrante.",
+    "placement_instructions": ""
   },
   {
-    "Number": "84",
-    "Target": "Artículo 10, inciso tercero",
-    "Content": "Sustitúyase el inciso tercero por el siguiente: “La persona arrestada o detenida deberá ser puesta a disposición del tribunal competente en un plazo máximo de veinticuatro horas. Se le deberán informar de manera inmediata y comprensible sus derechos y los motivos de la privación de su libertad. Además, tendrá derecho a comunicarse con su abogado o quien estime pertinente.”.",
-    "Authors": [
-      "Tirado, Fernando"
-    ]
+    "number": "84",
+    "authors_matched": [
+      "Tirado, Fernando",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "La persona arrestada o detenida deberá ser puesta a disposición del tribunal competente en un plazo máximo de veinticuatro horas. Se le deberán informar de manera inmediata y comprensible sus derechos y los motivos de la privación de su libertad. Además, tendrá derecho a comunicarse con su abogado o quien estime pertinente.",
+    "placement_instructions": ""
   },
   {
-    "Number": "88",
-    "Target": "Artículo 10, inciso cuarto",
-    "Content": "Sustitúyase el inciso cuarto por el siguiente: “Ninguna persona puede ser arrestada o detenida, sujeta a prisión preventiva o presa, sino en su domicilio o en los lugares públicos destinados a este objeto. Su ingreso deberá constar en un registro público.”.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "88",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio",
+      "Fuchslocher, Javier",
+      "Gonzalez, Dayana",
+      "Gonzalez, Lidia",
+      "Grandon, Paola",
+      "Henriquez, Natalia",
+      "Labbe, Bastian",
+      "Labrana, Elsa",
+      "Linconao, Francisca",
+      "Mamani, Isabella",
+      "Meneses, Janis",
+      "Miranda, Valentina",
+      "Orellana, Matias",
+      "Rivera, Maria Magdalena",
+      "Serey, Mariela",
+      "Tirado, Fernando",
+      "Valenzuela, Cesar"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 4",
+    "action": "SUBSTITUTE",
+    "content": "Ninguna persona puede ser arrestada o detenida, sujeta a prisión preventiva o presa, sino en su domicilio o en los lugares públicos destinados a este objeto. Su ingreso deberá constar en un registro público.",
+    "placement_instructions": ""
   },
   {
-    "Number": "91",
-    "Target": "Artículo 10, inciso sexto",
-    "Content": "Sustitúyase el inciso sexto por el siguiente: “No existirá la detención por deudas, salvo en caso de incumplimiento de deberes alimentarios.”.",
-    "Authors": [
-      "Tirado, Fernando"
-    ]
+    "number": "91",
+    "authors_matched": [
+      "Tirado, Fernando",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 10,
+    "target_scope": "INCISO 6",
+    "action": "SUBSTITUTE",
+    "content": "No existirá la detención por deudas, salvo en caso de incumplimiento de deberes alimentarios.",
+    "placement_instructions": ""
   },
   {
-    "Number": "101",
-    "Target": "Artículo 13, inciso primero",
-    "Content": "Sustitúyase el inciso primero por el siguiente: “Derecho a la autonomía y al libre desarrollo de la personalidad. Toda persona tiene derecho a su autonomía personal, al libre desarrollo de la personalidad, identidad y de sus proyectos de vida.”.",
-    "Authors": [
+    "number": "101",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Celedon, Roberto"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Derecho a la autonomía y al libre desarrollo de la personalidad. Toda persona tiene derecho a su autonomía personal, al libre desarrollo de la personalidad, identidad y de sus proyectos de vida.",
+    "placement_instructions": ""
   },
   {
-    "Number": "103",
-    "Target": "Artículo 13, inciso segundo",
-    "Content": "Suprimir el inciso segundo.",
-    "Authors": [
+    "number": "103",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Labrana, Elsa"
-    ]
+    ],
+    "target_article": 13,
+    "target_scope": "INCISO 2",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "113",
-    "Target": "Artículo 16, inciso tercero",
-    "Content": "Para añadir en el inciso tercero del artículo 16, luego del punto final, que pasa a ser punto seguido, la siguiente frase: ‘‘La ley regulará el ejercicio de estos derechos.”.",
-    "Authors": [
-      "Pustilnick, Tammy"
-    ]
+    "number": "113",
+    "authors_matched": [
+      "Pustilnick, Tammy",
+      "Sepulveda, Barbara",
+      "Reyes, Maria Ramona",
+      "Hoppe, Vanessa",
+      "Royo, Manuela",
+      "Schonhaut, Constanza",
+      "Arauna, Francisca",
+      "Delgado, Aurora",
+      "Politzer, Patricia",
+      "Vallejos, Loreto",
+      "Pinto, Malucha",
+      "Videla, Carolina",
+      "Catrileo, Rosa",
+      "Aguilera, Tiare",
+      "Grandon, Giovanna",
+      "Labrana, Elsa"
+    ],
+    "target_article": 16,
+    "target_scope": "INCISO 3",
+    "action": "ADD",
+    "content": "La ley regulará el ejercicio de estos derechos.",
+    "placement_instructions": "luego del punto final, que pasa a ser punto seguido"
   },
   {
-    "Number": "119",
-    "Target": "Artículo 17, inciso 2",
-    "Content": "Sustitúyase el artículo 17 inciso 2, por el siguiente: “Es deber del Estado garantizar el ejercicio pleno de este derecho desde la primera infancia y durante el curso de la vida a través de políticas públicas con pertinencia cultural y basadas en evidencia científica.”.",
-    "Authors": [
-      "Abarca, Damaris"
-    ]
-  },
-  {
-    "Number": "137",
-    "Target": "Artículo 20, inciso segundo",
-    "Content": "Sustitúyase el inciso segundo por el siguiente: \"El propietario siempre tendrá derecho a que se le indemnice por el justo precio del bien expropiado.\".",
-    "Authors": [
+    "number": "119",
+    "authors_matched": [
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
       "Fernandez, Patricio"
-    ]
+    ],
+    "target_article": 17,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "Es deber del Estado garantizar el ejercicio pleno de este derecho desde la primera infancia y durante el curso de la vida a través de políticas públicas con pertinencia cultural y basadas en evidencia científica.",
+    "placement_instructions": ""
   },
   {
-    "Number": "142",
-    "Target": "Artículo 20, inciso tercero",
-    "Content": "Sustitúyase el inciso tercero del artículo 20 por el siguiente: “El pago deberá efectuarse de forma previa a la toma de posesión material del bien expropiado y la persona expropiada siempre podrá reclamar de la legalidad del acto expropiatorio, así como del monto y modalidad de pago ante los tribunales que determine la ley.”.",
-    "Authors": [
+    "number": "137",
+    "authors_matched": [
+      "Fernandez, Patricio"
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "El propietario siempre tendrá derecho a que se le indemnice por el justo precio del bien expropiado.",
+    "placement_instructions": ""
+  },
+  {
+    "number": "142",
+    "authors_matched": [
       "Delgado, Aurora"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "El pago deberá efectuarse de forma previa a la toma de posesión material del bien expropiado y la persona expropiada siempre podrá reclamar de la legalidad del acto expropiatorio, así como del monto y modalidad de pago ante los tribunales que determine la ley.",
+    "placement_instructions": ""
   },
   {
-    "Number": "154",
-    "Target": "Artículo 20, inciso nuevo",
-    "Content": "Para agregar un inciso nuevo del siguiente tenor: “Cualquiera sea la causa invocada para llevar a cabo la expropiación siempre deberá estar debidamente fundada.”.",
-    "Authors": [
+    "number": "154",
+    "authors_matched": [
       "Harboe, Felipe"
-    ]
+    ],
+    "target_article": 20,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Cualquiera sea la causa invocada para llevar a cabo la expropiación siempre deberá estar debidamente fundada.",
+    "placement_instructions": "nuevo inciso"
   },
   {
-    "Number": "176",
-    "Target": "Artículo 21",
-    "Content": "Para sustituir el artículo 21 por el siguiente: “Artículo 21. Derecho a las tierras, territorios y recursos. El Estado reconoce y garantiza conforme a la Constitución, el derecho de los pueblos y naciones indígenas a sus tierras, territorios y recursos. La propiedad de las tierras indígenas goza de especial protección... La restitución constituye un mecanismo preferente de reparación, de utilidad pública e interés general.”.",
-    "Authors": [
-      "Linconao, Francisca"
-    ]
+    "number": "176",
+    "authors_matched": [
+      "Linconao, Francisca",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 21,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 21. Derecho a las tierras, territorios y recursos. El Estado reconoce y garantiza conforme a la Constitución, el derecho de los pueblos y naciones indígenas a sus tierras, territorios y recursos. La propiedad de las tierras indígenas goza de especial protección. El Estado establecerá instrumentos jurídicos eficaces para su catastro, regularización, demarcación, titulación, reparación y restitución. La restitución constituye un mecanismo preferente de reparación, de utilidad pública e interés general. Conforme a la constitución y la ley, los pueblos y naciones indígenas tienen derecho a utilizar los recursos que tradicionalmente han usado u ocupado, que se encuentran en sus territorios y sean indispensables para su existencia colectiva.",
+    "placement_instructions": ""
   },
   {
-    "Number": "177",
-    "Target": "Artículo 28",
-    "Content": "Para suprimir el artículo 28.",
-    "Authors": [
+    "number": "177",
+    "authors_matched": [
       "Labbe, Bastian",
       "Fernandez, Patricio"
-    ]
+    ],
+    "target_article": 28,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "185",
-    "Target": "Artículo 45, inciso primero",
-    "Content": "Para sustituir el inciso primero del artículo 45, por el siguiente: “Artículo 45. Derecho de asociación. Todas las personas tienen derecho a asociarse, sin permiso previo.”.",
-    "Authors": [
+    "number": "185",
+    "authors_matched": [
       "Labbe, Bastian",
       "Meneses, Janis"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 45. Derecho de asociación. Todas las personas tienen derecho a asociarse, sin permiso previo.",
+    "placement_instructions": ""
   },
   {
-    "Number": "192",
-    "Target": "Artículo 45, nuevo inciso",
-    "Content": "Para agregar un nuevo inciso a continuación de la norma aprobada en particular por el pleno: “Se prohíben las asociaciones paramilitares y aquellas que atenten contra el orden constitucional.”.",
-    "Authors": [
+    "number": "192",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Se prohíben las asociaciones paramilitares y aquellas que atenten contra el orden constitucional.",
+    "placement_instructions": "a continuación de la norma aprobada en particular por el pleno"
   },
   {
-    "Number": "196",
-    "Target": "Artículo 45, inciso cuarto",
-    "Content": "Suprímase en el inciso cuarto la frase: \"El ejercicio de este derecho solo podrá estar sujeto a regulaciones previstas por la ley para el resguardo de los derechos fundamentales.\".",
-    "Authors": [
+    "number": "196",
+    "authors_matched": [
       "Harboe, Felipe",
       "Barcelo, Luis",
       "Urrutia, Tatiana"
-    ]
+    ],
+    "target_article": 45,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "El ejercicio de este derecho solo podrá estar sujeto a regulaciones previstas por la ley para el resguardo de los derechos fundamentales.",
+    "placement_instructions": ""
   },
   {
-    "Number": "199",
-    "Target": "Artículo 45, inciso quinto",
-    "Content": "Para sustituir el actual inciso quinto por el siguiente: “Las personas y asociaciones que se dedican a la protección y defensa de los derechos humanos y de la naturaleza contarán con especial protección del Estado para garantizar el cumplimiento de sus fines.”.",
-    "Authors": [
-      "Henriquez, Natalia"
-    ]
+    "number": "199",
+    "authors_matched": [
+      "Henriquez, Natalia",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 45,
+    "target_scope": "INCISO 5",
+    "action": "SUBSTITUTE",
+    "content": "Las personas y asociaciones que se dedican a la protección y defensa de los derechos humanos y de la naturaleza contarán con especial protección del Estado para garantizar el cumplimiento de sus fines.",
+    "placement_instructions": ""
   },
   {
-    "Number": "210",
-    "Target": "Artículo 47, inciso primero",
-    "Content": "Sustitúyase el inciso primero por el siguiente: “Derechos de las personas chilenas en el exterior. Las personas chilenas que se encuentren en el exterior forman parte de la comunidad política del país.”.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "210",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 47,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
+    "content": "Derechos de las personas chilenas en el exterior. Las personas chilenas que se encuentren en el exterior forman parte de la comunidad política del país.",
+    "placement_instructions": ""
   },
   {
-    "Number": "214",
-    "Target": "Artículo 47, nuevo inciso final",
-    "Content": "Incorpórese como nuevo inciso final el siguiente: “En caso de crisis humanitaria y demás situaciones que determine la ley, el Estado asegurará la reunificación familiar y el retorno voluntario al territorio nacional.”.",
-    "Authors": [
-      "Urrutia, Tatiana"
-    ]
+    "number": "214",
+    "authors_matched": [
+      "Urrutia, Tatiana",
+      "Abarca, Damaris",
+      "Baranda, Benito",
+      "Cancino, Adriana",
+      "Celedon, Roberto",
+      "Delgado, Aurora",
+      "Dominguez, Gaspar",
+      "Fernandez, Patricio"
+    ],
+    "target_article": 47,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "En caso de crisis humanitaria y demás situaciones que determine la ley, el Estado asegurará la reunificación familiar y el retorno voluntario al territorio nacional.",
+    "placement_instructions": "como nuevo inciso final"
   },
   {
-    "Number": "215",
-    "Target": "Artículo 48",
-    "Content": "Para suprimir el artículo 48.",
-    "Authors": [
+    "number": "215",
+    "authors_matched": [
       "Meneses, Janis",
       "Bravo, Daniel",
       "Fernandez, Patricio"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "placement_instructions": ""
   }
 ]

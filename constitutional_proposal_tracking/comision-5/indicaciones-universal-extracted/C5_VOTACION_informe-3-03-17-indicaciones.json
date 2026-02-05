@@ -1,72 +1,122 @@
 [
   {
-    "number": "6",
-    "target_article": "1",
-    "action": "MOD",
+    "number": 6,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 1,
+    "target_scope": "INCISO 1",
+    "action": "SUBSTITUTE",
     "content": "Artículo 1. Crisis climática y ecológica. Es deber del Estado adoptar acciones de prevención, adaptación, y mitigación de los riesgos, vulnerabilidades y efectos provocados por la crisis climática y ecológica.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "9",
-    "target_article": "5",
-    "action": "DEL",
-    "content": "suprimir el artículo 5",
-    "authors_raw": "Martin y otros"
+    "number": 9,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "10",
-    "target_article": "5",
-    "action": "DEL",
-    "content": "suprimir el artículo 5",
-    "authors_raw": "Fontaine"
+    "number": 10,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "20",
-    "target_article": "23",
-    "action": "MOD",
+    "number": 20,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 23,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 23. De los animales. Los animales son sujetos de especial protección. El Estado los protegerá, reconociendo su sintiencia.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "31",
-    "target_article": "25",
-    "action": "DEL",
-    "content": "suprimir el artículo 25",
-    "authors_raw": "Saldaña"
+    "number": 31,
+    "authors_matched": [
+      "Saldana, Alvin"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "32",
-    "target_article": "25",
-    "action": "DEL",
-    "content": "suprimir el artículo 25",
-    "authors_raw": "Martin y otros"
+    "number": 32,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "33",
-    "target_article": "25",
-    "action": "DEL",
-    "content": "suprimir el artículo 25",
-    "authors_raw": "Fontaine"
+    "number": 33,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 25,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "38",
-    "target_article": "33",
-    "action": "MOD",
+    "number": 38,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 33,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
     "content": "Artículo 33. Democracia ambiental. Se reconoce el derecho de participación informada en materias ambientales. Los mecanismos de participación serán determinados por ley. Todas las personas tienen derecho a acceder a la información ambiental que conste en poder o custodia del Estado. Los particulares deberán entregar la información ambiental relacionada con su actividad, en los términos que establezca la ley.",
-    "authors_raw": "Martin y otros"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "45",
-    "target_article": "27",
-    "action": "DEL",
-    "content": "suprimir el artículo 27",
-    "authors_raw": "Fontaine"
+    "number": 45,
+    "authors_matched": [
+      "Fontaine, Bernardo"
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "46",
-    "target_article": "27",
-    "action": "DEL",
-    "content": "suprimir el artículo 27",
-    "authors_raw": "Martin y otros"
+    "number": 46,
+    "authors_matched": [
+      "Martin, Juan Jose"
+    ],
+    "target_article": 27,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": null,
+    "placement_instructions": null
   }
 ]

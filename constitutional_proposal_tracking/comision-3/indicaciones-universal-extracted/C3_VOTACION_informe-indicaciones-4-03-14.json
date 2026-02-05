@@ -1,30 +1,87 @@
 [
   {
-    "number": "IND 05",
-    "target_article": "artículo 25",
-    "action": "MOD",
-    "content": "“Dicha ley asegurará que la integración y requisitos para acceder al cargo respete los criterios de representatividad territorial, paridad de género y escaños reservados para los pueblos y naciones indígenas presentes en la Región Autónoma. El Estatuto Regional podrá complementar estos requisitos.”",
-    "authors_raw": "Millabur y Aguilera"
+    "number": 5,
+    "authors_matched": [
+      "Millabur, Adolfo",
+      "Aguilera, Tiare"
+    ],
+    "target_article": 25,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Dicha ley asegurará que la integración y requisitos para acceder al cargo respete los criterios de representatividad territorial, paridad de género y escaños reservados para los pueblos y naciones indígenas presentes en la Región Autónoma. El Estatuto Regional podrá complementar estos requisitos.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "IND 07",
-    "target_article": "artículo 31",
-    "action": "MOD",
-    "content": "“Concurrir, en conjunto con el Gobernador Regional, en el ejercicio de la potestad reglamentaria, en la forma prescrita por la Constitución y las leyes”.",
-    "authors_raw": "Mena, Navarrete y Jofré"
+    "number": 7,
+    "authors_matched": [
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Jofre, Alvaro"
+    ],
+    "target_article": 31,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Concurrir, en conjunto con el Gobernador Regional, en el ejercicio de la potestad reglamentaria, en la forma prescrita por la Constitución y las leyes",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "IND 08",
-    "target_article": "artículo 31",
-    "action": "MOD",
-    "content": "“8. Ejercer la potestad reglamentaria de ejecución de ley cuando esta lo encomiende y dictar los demás reglamentos en materias de competencia de la región autónoma.”.",
-    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Yarela Gómez, Reyes, Claudio Gómez, Julio Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros y Chinga"
+    "number": 8,
+    "authors_matched": [
+      "Pustilnick, Tammy",
+      "Giustinianovich, Elisa",
+      "Ampuero, Adriana",
+      "Mella, Jeniffer",
+      "Alvez, Amaya",
+      "Uribe, Cesar",
+      "Aguilera, Tiare",
+      "Millabur, Adolfo",
+      "Gomez, Yarela",
+      "Reyes, Maria Ramona",
+      "Gomez, Claudio",
+      "Alvarez, Julio",
+      "Andrade, Cristobal",
+      "Velasquez, Hernan",
+      "Martinez, Helmuth",
+      "Bacian, Wilfredo",
+      "Quinteros, Maria Elisa",
+      "Chinga, Eric"
+    ],
+    "target_article": 31,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "8. Ejercer la potestad reglamentaria de ejecución de ley cuando esta lo encomiende y dictar los demás reglamentos en materias de competencia de la región autónoma.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "IND 09",
-    "target_article": "artículo 31",
-    "action": "MOD",
+    "number": 9,
+    "authors_matched": [
+      "Pustilnick, Tammy",
+      "Giustinianovich, Elisa",
+      "Ampuero, Adriana",
+      "Mella, Jeniffer",
+      "Alvez, Amaya",
+      "Uribe, Cesar",
+      "Aguilera, Tiare",
+      "Millabur, Adolfo",
+      "Gomez, Yarela",
+      "Reyes, Maria Ramona",
+      "Gomez, Claudio",
+      "Alvarez, Julio",
+      "Andrade, Cristobal",
+      "Velasquez, Hernan",
+      "Martinez, Helmuth",
+      "Bacian, Wilfredo",
+      "Quinteros, Maria Elisa",
+      "Chinga, Eric"
+    ],
+    "target_article": 31,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "11. Solicitar al Congreso la transferencia de la potestad legislativa en materias de interés de la Región Autónoma respectiva, en conformidad a la ley.",
-    "authors_raw": "Pustilnick, Giustinianovich, Ampuero, Mella, Álvez, Uribe, Aguilera, Millabur, Yarela Gómez, Reyes, Claudio Gómez, Julio Álvarez, Andrade, Velásquez, Martínez, Bacian, Quinteros y Chinga"
+    "content_to_remove": null,
+    "placement_instructions": null
   }
 ]

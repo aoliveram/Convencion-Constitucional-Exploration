@@ -1,11 +1,9 @@
 [
   {
-    "Number": "4",
-    "Target": "DEL PODER LEGISLATIVO (Artículos 1 al 60)",
-    "Content": "Incorpora el siguiente articulado: 'DEL PODER LEGISLATIVO. Del Congreso de diputadas y diputados. Artículo 1 (9). El Congreso de Diputadas y Diputados es un órgano deliberativo, paritario y plurinacional que representa al pueblo... Artículo 2 (10). Regla de paridad... [Contiene los artículos del 1 al 60 que regulan el Poder Legislativo, la Cámara de las Regiones, estatutos de parlamentarios y sistema electoral]'.",
-    "Authors": [
+    "number": "4",
+    "authors_matched": [
       "Sepúlveda, Barbara",
-      "Muñoz, Pedro",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -21,23 +19,31 @@
       "Perez, Alejandra",
       "Barraza, Marcos",
       "Catrileo, Rosa"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "“DEL PODER LEGISLATIVO. Del Congreso de diputadas y diputados. Artículo 1 (9). El Congreso de Diputadas y Diputados es un órgano deliberativo, paritario y plurinacional que representa al pueblo. Ejerce la potestad legislativa y las demás facultades encomendadas por la Constitución y las leyes. Artículo 2 (10). Regla de paridad. El Congreso de Diputadas y Diputados será paritario, asegurando que, al menos, el cincuenta por ciento de su composición sean mujeres y que exista una representación efectiva de identidades trans y no binarias. [Continúa articulado hasta Artículo 60]”",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora el siguiente articulado"
   },
   {
-    "Number": "6",
-    "Target": "Nuevo artículo previo al artículo 1°",
-    "Content": "“Artículo x1. -“El poder soberano radica en el pueblo y su ejercicio se organiza y ejerce a través de la democracia representativa, participativa y comunitaria.”.",
-    "Authors": [
+    "number": "6",
+    "authors_matched": [
       "Arellano, Marco",
       "Madriaga, Tania",
       "Perez, Alejandra"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Artículo x1. - El poder soberano radica en el pueblo y su ejercicio se organiza y ejerce a través de la democracia representativa, participativa y comunitaria.",
+    "content_to_remove": "",
+    "placement_instructions": "nuevo artículo previo al artículo 1°"
   },
   {
-    "Number": "7",
-    "Target": "Artículo 1°",
-    "Content": "“Artículo 1°.- Democracia paritaria. El Estado de Chile se funda en una democracia paritaria, reconociendo y promoviendo una sociedad en la cual mujeres, hombres, y diversidades y disidencias sexuales y de género participan en condiciones de igualdad sustantiva, reconociendo que su representación efectiva en el conjunto del proceso democrático es un principio y condición mínima para el ejercicio pleno y sustantivo de la democracia y la ciudadanía. Todos los órganos del Estado deberán tener una composición paritaria, asegurando que al menos el cincuenta por ciento de sus integrantes sean mujeres, y garantizarán la representación de identidades trans y no binarias. Asimismo, el Estado promoverá e implementará medidas necesarias para la participación paritaria en todos los espacios, tanto en la esfera pública como privada.”",
-    "Authors": [
+    "number": "7",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Schonhaut, Constanza",
       "Carrillo, Alondra",
@@ -54,13 +60,17 @@
       "Videla, Carolina",
       "Pustilnick, Tammy",
       "Politzer, Patricia"
-    ]
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1°.- Democracia paritaria. El Estado de Chile se funda en una democracia paritaria, reconociendo y promoviendo una sociedad en la cual mujeres, hombres, y diversidades y disidencias sexuales y de género participen en condiciones de igualdad sustantiva, reconociendo que su representación efectiva en el conjunto del proceso democrático es un principio y condición mínima para el ejercicio pleno y sustantivo de la democracia y la ciudadanía. Todos los órganos del Estado deberán tener una composición paritaria, asegurando que al menos el cincuenta por ciento de sus integrantes sean mujeres, y garantizarán la representación de identidades trans y no binarias. Asimismo, el Estado promoverá e implementará medidas necesarias para la participación paritaria en todos los espacios, tanto en la esfera pública como privada.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
-    "Number": "10",
-    "Target": "Artículo 2°",
-    "Content": "“Artículo 2 °.- Los poderes públicos adoptarán las medidas necesarias para adecuar e impulsar la legislación, instituciones, marcos normativos y prestación de servicios al logro de la igualdad sustantiva y la paridad. Para asegurar ese objetivo, el poder ejecutivo, legislativo y los sistemas de justicia, así como los órganos de la administración del Estado y los órganos autónomos, deberán incorporar el enfoque de género en su diseño institucional y en el ejercicio de sus funciones. La política fiscal y el diseño de los presupuestos públicos se adecuarán al cumplimiento de un enfoque transversal de igualdad sustantiva de género en las políticas públicas.”",
-    "Authors": [
+    "number": "10",
+    "authors_matched": [
       "Sepúlveda, Barbara",
       "Schonhaut, Constanza",
       "Carrillo, Alondra",
@@ -77,6 +87,12 @@
       "Videla, Carolina",
       "Pustilnick, Tammy",
       "Politzer, Patricia"
-    ]
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2 °.- Los poderes públicos adoptarán las medidas necesarias para adecuar e impulsar la legislación, instituciones, marcos normativos y prestación de servicios al logro de la igualdad sustantiva y la paridad. Para asegurar ese objetivo, el poder ejecutivo, legislativo y los sistemas de justicia, así como los órganos de la administración del Estado y los órganos autónomos, deberán incorporar el enfoque de género en su diseño institucional y en el ejercicio de sus funciones. La política fiscal y el diseño de los presupuestos públicos se adecuarán al cumplimiento de un enfoque transversal de igualdad sustantiva de género en las políticas públicas.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   }
 ]

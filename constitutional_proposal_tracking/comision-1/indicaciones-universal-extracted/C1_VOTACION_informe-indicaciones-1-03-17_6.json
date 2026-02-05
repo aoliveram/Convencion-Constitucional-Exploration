@@ -1,11 +1,9 @@
 [
   {
     "number": "527",
-    "target": "Artículo 48",
-    "content": "reemplaza la frase “La Presidenta o Presidente” por la expresión “La Presidencia y Vicepresidencia”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -16,15 +14,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "La Presidencia y Vicepresidencia",
+    "content_to_remove": "La Presidenta o Presidente",
+    "placement_instructions": ""
   },
   {
     "number": "528",
-    "target": "Artículo 48",
-    "content": "reemplaza, a continuación de la expresión “de sus funciones,” la frase “podrá ser reelegida o reelegido” por la expresión “podrán ser reelegidas o reelegidos conjunta o separadamente,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -35,15 +37,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 48,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "podrán ser reelegidas o reelegidos conjunta o separadamente,",
+    "content_to_remove": "podrá ser reelegida o reelegido",
+    "placement_instructions": "a continuación de la expresión “de sus funciones,”"
   },
   {
     "number": "530",
-    "target": "Artículo 49, inciso primero",
-    "content": "añade entre las expresiones “temporales” y “la ausencia”, la expresión “para el ejercicio del cargo de Presidenta o Presidente de la República,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -54,15 +60,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 49,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "para el ejercicio del cargo de Presidenta o Presidente de la República,",
+    "content_to_remove": "",
+    "placement_instructions": "entre las expresiones “temporales” y “la ausencia”"
   },
   {
     "number": "531",
-    "target": "Artículo 49, inciso primero",
-    "content": "añade, antes de la expresión “la ausencia”, la expresión “la enfermedad,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -73,15 +83,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 49,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "la enfermedad,",
+    "content_to_remove": "",
+    "placement_instructions": "antes de la expresión “la ausencia”"
   },
   {
     "number": "532",
-    "target": "Artículo 49, inciso primero",
-    "content": "reemplaza la expresión “y el impedimento temporal que haya sido declarado”, por “u otro grave motivo declarado”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -92,15 +106,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 49,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "u otro grave motivo declarado",
+    "content_to_remove": "y el impedimento temporal que haya sido declarado",
+    "placement_instructions": ""
   },
   {
     "number": "533",
-    "target": "Artículo 49, inciso segundo",
-    "content": "“Son impedimentos definitivos para el ejercicio del cargo de Presidenta o Presidente de la República la muerte, la dimisión debidamente aceptada por el Congreso Plurinacional y la condena por acusación constitucional, conforme a las reglas establecidas en esta Constitución. En caso de impedimento absoluto de ambas autoridades, asumirá la Presidencia de la República la Presidenta o Presidente del Congreso Plurinacional, hasta tanto sean convocadas nuevas elecciones dentro de los treinta días siguientes a la declaratoria del Congreso Plurinacional.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -111,15 +129,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 49,
+    "target_scope": "INCISO 2",
+    "action": "SUBSTITUTE",
+    "content": "“Son impedimentos definitivos para el ejercicio del cargo de Presidenta o Presidente de la República la muerte, la dimisión debidamente aceptada por el Congreso Plurinacional y la condena por acusación constitucional, conforme a las reglas establecidas en esta Constitución. En caso de impedimento absoluto de ambas autoridades, asumirá la Presidencia de la República la Presidenta o Presidente del Congreso Plurinacional, hasta tanto sean convocadas nuevas elecciones dentro de los treinta días siguientes a la declaratoria del Congreso Plurinacional.”",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "536",
-    "target": "Artículo 50, número 3",
-    "content": "añade, entre las frases “nombrar y remover a” y “Ministras y Ministros”, la siguiente expresión: “la Ministra o Ministro de Gobierno, a”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -130,15 +152,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "la Ministra o Ministro de Gobierno, a",
+    "content_to_remove": "",
+    "placement_instructions": "entre las frases “nombrar y remover a” y “Ministras y Ministros”"
   },
   {
     "number": "537",
-    "target": "Artículo 50, número 3",
-    "content": "añade, a continuación de la expresión “Ministras y Ministros de Estado,” la frase: “Subsecretarias y Subsecretarios,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -149,45 +175,61 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "Subsecretarias y Subsecretarios,",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la expresión “Ministras y Ministros de Estado,”"
   },
   {
     "number": "538",
-    "target": "Artículo 50, número 3",
-    "content": "incorpora entre la frase “Ministros de Estado,” y la frase “y a las demás funcionarias”, lo siguiente: “Subsecretarias y Subsecretarios”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "Subsecretarias y Subsecretarios",
+    "content_to_remove": "",
+    "placement_instructions": "entre la frase “Ministros de Estado,” y la frase “y a las demás funcionarias”"
   },
   {
     "number": "540",
-    "target": "Artículo 50, número 3",
-    "content": "incorpora la frase: “Estos funcionarios serán de exclusiva confianza del Presidente de la República y se mantendrán en sus puestos mientras cuenten con ella”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "Estos funcionarios serán de exclusiva confianza del Presidente de la República y se mantendrán en sus puestos mientras cuenten con ella",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora la frase"
   },
   {
     "number": "543",
-    "target": "Artículo 50, número 6",
-    "content": "incorpora al final la frase “y promulgarlas”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "y promulgarlas",
+    "content_to_remove": "",
+    "placement_instructions": "al final la frase (del numeral 6)"
   },
   {
     "number": "545",
-    "target": "Artículo 50, número 7",
-    "content": "lo suprime.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -198,24 +240,32 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 7",
+    "placement_instructions": ""
   },
   {
     "number": "553",
-    "target": "Artículo 50, número 13",
-    "content": "suprime la frase “con asesoría del Consejo de Política Exterior y de Defensa Nacional”.",
-    "authors": [
-      "Sepúlveda, Barbara",
+    "authors_matched": [
+      "Sepulveda, Carolina",
       "Barraza, Marcos"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "con asesoría del Consejo de Política Exterior y de Defensa Nacional",
+    "placement_instructions": ""
   },
   {
     "number": "564",
-    "target": "Artículo 50, número 18",
-    "content": "suprime la expresión “orden y”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -226,23 +276,31 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "orden y",
+    "placement_instructions": ""
   },
   {
     "number": "565",
-    "target": "Artículo 50, número 18",
-    "content": "agrega la palabra “remover” a continuación de “seguridad pública”.",
-    "authors": [
+    "authors_matched": [
       "Arauna, Francisca"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "remover",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de “seguridad pública”"
   },
   {
     "number": "569",
-    "target": "Artículo 50, número 19",
-    "content": "añade, a continuación de la palabra “referendos”, la expresión “plebiscitos, consultas y nuevas elecciones de carácter nacional,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -253,15 +311,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "plebiscitos, consultas y nuevas elecciones de carácter nacional,",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la palabra “referendos”"
   },
   {
     "number": "570",
-    "target": "Artículo 50, numeral nuevo",
-    "content": "añade un nuevo numeral del siguiente tenor: “21. Presentar anualmente al Congreso Plurinacional la ley de presupuestos.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -272,43 +334,59 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 50,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "21. Presentar anualmente al Congreso Plurinacional la ley de presupuestos.",
+    "content_to_remove": "",
+    "placement_instructions": "añade un nuevo numeral"
   },
   {
     "number": "572",
-    "target": "Artículo 50, numeral nuevo",
-    "content": "incorpora como párrafo aditivo al número 17: “Cuidar la recaudación de las rentas públicas y formular los criterios orientadores de su inversión con acuerdo a la ley. El Presidente de la República... [texto íntegro hasta] culpables del delito de malversación de caudales públicos”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 50,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Cuidar la recaudación de las rentas públicas y formular los criterios orientadores de su inversión con acuerdo a la ley. El Presidente de la República, con la firma de todos los Ministros de Estado, podrá decretar pagos no autorizados por ley, para atender necesidades impostergables derivadas de calamidades públicas, de agresión exterior, de conmoción interior, de grave daño o peligro para la seguridad nacional o del agotamiento de los recursos destinados a mantener servicios que no puedan paralizarse sin serio perjuicio para el país. El total de los giros que se hagan con estos objetos no podrá exceder anualmente del dos por ciento (2%) del monto de los gastos que autorice la Ley de Presupuestos. Se podrá contratar empleados con cargo a esta misma ley, pero sin que el ítem respectivo pueda ser incrementado ni disminuido mediante traspasos. Los Ministros de Estado o funcionario que autoricen o den curso a gastos que contravengan lo dispuesto en este numeral serán responsables, solidaria y personalmente de su reintegro, y culpables del delito de malversación de caudales públicos.",
+    "content_to_remove": "",
+    "placement_instructions": "párrafo aditivo al número 17 del artículo"
   },
   {
     "number": "574",
-    "target": "Artículo 50, numeral nuevo",
-    "content": "incorpora un nuevo numeral: “Pedir, indicando los motivos, que se cite a sesión especial al Congreso. En tal caso, la sesión deberá celebrarse a la brevedad posible”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 50,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Pedir, indicando los motivos, que se cite a sesión especial al Congreso. En tal caso, la sesión deberá celebrarse a la brevedad posible.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora un nuevo numeral"
   },
   {
     "number": "579",
-    "target": "Artículo 51",
-    "content": "elimina la frase “coadyuva en la gestión de gobierno y administración del Estado”.",
-    "authors": [
+    "authors_matched": [
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 51,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "coadyuva en la gestión de gobierno y administración del Estado",
+    "placement_instructions": ""
   },
   {
     "number": "582",
-    "target": "Artículo 52, inciso nuevo",
-    "content": "añade un nuevo inciso: “Entre la Presidenta o Presidente de la República y la Vicepresidenta o Vicepresidente no pueden existir relaciones de parentesco hasta el tercer grado de afinidad o el cuarto grado de consanguinidad.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -319,15 +397,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 52,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Entre la Presidenta o Presidente de la República y la Vicepresidenta o Vicepresidente no pueden existir relaciones de parentesco hasta el tercer grado de afinidad o el cuarto grado de consanguinidad.",
+    "content_to_remove": "",
+    "placement_instructions": "añade un nuevo inciso"
   },
   {
     "number": "584",
-    "target": "Artículo 53, número 2",
-    "content": "reemplaza la palabra “faltas” por el vocablo “ausencias”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -338,15 +420,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "ausencias",
+    "content_to_remove": "faltas",
+    "placement_instructions": ""
   },
   {
     "number": "585",
-    "target": "Artículo 53, número 3",
-    "content": "lo suprime.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -357,41 +443,57 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 3",
+    "placement_instructions": ""
   },
   {
     "number": "586",
-    "target": "Artículo 53, número 3",
-    "content": "lo suprime.",
-    "authors": [
+    "authors_matched": [
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 4",
+    "placement_instructions": ""
   },
   {
     "number": "587",
-    "target": "Artículo 53, número 3",
-    "content": "lo suprime.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 5",
+    "placement_instructions": ""
   },
   {
     "number": "589",
-    "target": "Artículo 53, número 4",
-    "content": "lo suprime.",
-    "authors": [
+    "authors_matched": [
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 4",
+    "placement_instructions": ""
   },
   {
     "number": "590",
-    "target": "Artículo 53, número 5",
-    "content": "lo reemplaza por: “5. Presidir y participar en las sesiones del Consejo Territorial, sin derecho a voto.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -402,15 +504,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "SUBSTITUTE",
+    "content": "5. Presidir y participar en las sesiones del Consejo Territorial, sin derecho a voto.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "593",
-    "target": "Artículo 53, número 6",
-    "content": "añade en su parte final la expresión “, en los casos que éste determine.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -421,15 +527,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": ", en los casos que éste determine.",
+    "content_to_remove": "",
+    "placement_instructions": "añade en su parte final"
   },
   {
     "number": "594",
-    "target": "Artículo 53, número 7",
-    "content": "lo suprime.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -440,53 +550,73 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 7",
+    "placement_instructions": ""
   },
   {
     "number": "595",
-    "target": "Artículo 53, número 7",
-    "content": "lo suprime.",
-    "authors": [
+    "authors_matched": [
       "Monckeberg, Cristian"
-    ]
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 8",
+    "placement_instructions": ""
   },
   {
     "number": "596",
-    "target": "Artículo 53, número 7",
-    "content": "lo suprime.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 53,
+    "target_scope": "INCISO",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Numeral 6",
+    "placement_instructions": ""
   },
   {
     "number": "600",
-    "target": "Artículo Nuevo",
-    "content": "incorpora un nuevo artículo que establece inhabilidades para la elección de Vicepresidente, incluyendo parentesco con el Presidente en ejercicio y prohibición para ex Presidentes.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "ARTÍCULO NUEVO. No podrá ser elegido Vicepresidente de la República: 1- Un ex Presidente de la República cuando la elección del Vicepresidente de la República sea para el período siguiente al suyo. 2- Los parientes dentro del tercer grado de consanguinidad o segundo de afinidad del Presidente de la República, para el período que sigue a aquel en el que el Presidente de la República hubiere ejercido el cargo. 3- El ciudadano que como Vicepresidente de la República hubiere ejercido el cargo de Presidente de la República. 4- Los parientes dentro del cuarto grado de consanguinidad y segundo de afinidad del ciudadano expresado en el numeral anterior para el período inmediatamente siguiente a aquel en que éste hubiere ejercido la Presidencia de la República. 5- Los parientes dentro del cuarto grado de consanguinidad o segundo de afinidad del Presidente de la República.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora el siguiente artículo nuevo"
   },
   {
     "number": "605",
-    "target": "Artículo 55, inciso primero",
-    "content": "sustituye la expresión “coadyuvan” por “colaboran directa e inmediatamente”.",
-    "authors": [
+    "authors_matched": [
       "Cubillos, Marcela",
       "Hube, Constanza",
-      "Zúñiga, Luis Arturo"
-    ]
+      "Zuniga, Luis Arturo"
+    ],
+    "target_article": 55,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "colaboran directa e inmediatamente",
+    "content_to_remove": "coadyuvan",
+    "placement_instructions": ""
   },
   {
     "number": "607",
-    "target": "Artículo 55, inciso tercero",
-    "content": "“El Gabinete será paritario y deberá orientarse por el principio de plurinacionalidad.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -497,44 +627,47 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 55,
+    "target_scope": "INCISO 3",
+    "action": "SUBSTITUTE",
+    "content": "El Gabinete será paritario y deberá orientarse por el principio de plurinacionalidad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "608",
-    "target": "Artículo 55, inciso tercero",
-    "content": "añade: “Al menos un ministro o ministra deberá pertenecer a un pueblo y nación indígena.”.",
-    "authors": [
+    "authors_matched": [
       "Madriaga, Tania",
-      "Pérez, Alejandra",
+      "Perez, Alejandra",
       "Arellano, Marco"
-    ]
+    ],
+    "target_article": 55,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "Al menos un ministro o ministra deberá pertenecer a un pueblo y nación indígena.",
+    "content_to_remove": "",
+    "placement_instructions": "en un carácter aditivo (a la segunda oración)"
   },
   {
-    "number": "612",
-    "target": "Artículos Nuevos (55 bis, ter, quater)",
-    "content": "agrega artículos nuevos sobre la figura del Ministro o Ministra de Gobierno, sus atribuciones de coordinación política y la composición del Gabinete Ministerial.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
-      "Montero, Ricardo",
-      "Arauna, Francisca",
-      "Schonhaut, Constanza",
+    "number": "613",
+    "authors_matched": [
       "Atria, Fernando",
-      "Hurtado, Maximiliano",
-      "Carrillo, Alondra",
-      "Flores, Alejandra",
-      "Politzer, Patricia",
-      "Chahin, Fuad",
-      "Namor, Guillermo"
-    ]
+      "Schonhaut, Constanza",
+      "Bassa, Jaime"
+    ],
+    "target_article": 55,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 55 bis: El Ministro o Ministra de Gobierno será nombrada por el o la Presidenta de la República de entre los diputados y diputadas y es la encargada de conducir las gestiones legislativas del Gobierno y de dirigir la ejecución de su programa de gobierno y legislativo. El Ministro o Ministra de Gobierno mantendrá sus derechos de voto en el Congreso mientras dure su mandato. Sin perjuicio de ello, deberá nombrar un delegado que ejerza a su nombre ese derecho y que participe de las sesiones y actividades del Congreso Plurinacional. El Ministro de Gobierno podrá siempre participar directamente de las sesiones del Congreso. Artículo 55 ter: A la Ministra o Ministro de Gobierno le corresponden las siguientes atribuciones: 1. Ejercer la coordinación política de los ministros de Estado. 2. Coordinar la relación política del Gobierno con el Congreso Plurinacional y con el Consejo Territorial. 3. Presentar, con acuerdo del Presidente o Presidenta, un programa legislativo de Gobierno al Congreso Plurinacional. La Ministra o Ministro de Gobierno podrá someter el programa a votación del Congreso Plurinacional. 4. Dar tramitación a un proyecto de ley solicitando al Congreso la aprobación de un voto de confianza por la mayoría de sus miembros. La Ministra o Ministro de Gobierno presentará su renuncia a la Presidenta o Presidente de la República si la ley no fuera aprobada por el Congreso en las condiciones que la Ministra o Ministro de Gobierno definiera como aceptables. 5. Presidir el Consejo de Gabinete, salvo en las situaciones en que la Presidenta o Presidente participe de éste.",
+    "content_to_remove": "",
+    "placement_instructions": "incorpora a continuación del artículo 55 los siguientes artículos"
   },
   {
     "number": "615",
-    "target": "Artículo 56, inciso primero",
-    "content": "añade, a continuación de la expresión “Ministra o Ministro”, la frase “de Estado”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -545,15 +678,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 56,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "de Estado",
+    "content_to_remove": "",
+    "placement_instructions": "a continuación de la expresión “Ministra o Ministro”"
   },
   {
     "number": "617",
-    "target": "Artículo 56",
-    "content": "reemplaza la expresión “tener la nacionalidad chilena”, por la frase “ser ciudadano con derecho a sufragio”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -564,15 +701,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 56,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "ser ciudadano con derecho a sufragio",
+    "content_to_remove": "tener la nacionalidad chilena",
+    "placement_instructions": ""
   },
   {
     "number": "618",
-    "target": "Artículo 56",
-    "content": "suprime la expresión “, tener cumplidos veintiún años de edad”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -583,15 +724,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 56,
+    "target_scope": "WORDING",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": ", tener cumplidos veintiún años de edad",
+    "placement_instructions": ""
   },
   {
     "number": "619",
-    "target": "Artículo 56, inciso segundo",
-    "content": "añade, entre las expresiones “renuncia” y “de acuerdo a lo que establece la ley.” la frase “o cuando por otra causa se produzca vacancia del cargo,”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -602,23 +747,31 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 56,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "o cuando por otra causa se produzca vacancia del cargo,",
+    "content_to_remove": "",
+    "placement_instructions": "entre las expresiones “renuncia” y “de acuerdo a lo que establece la ley.”"
   },
   {
     "number": "623",
-    "target": "Artículos 57 y 58",
-    "content": "reemplaza los artículos por un texto que establece que los reglamentos y decretos deben ser firmados por el Ministro respectivo para ser obedecidos.",
-    "authors": [
-      "Larraín, Hernán"
-    ]
+    "authors_matched": [
+      "Larrain, Hernan"
+    ],
+    "target_article": 57,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Los reglamentos y decretos de la Presidencia de la República deberán firmarse por el Ministro o Ministra respectivo y no serán obedecidos sin este esencial requisito. Los decretos e instrucciones podrán expedirse con la sola firma del Ministro o Ministra respectivo, por orden del Presidente o Presidenta de la República, en conformidad a las normas que al efecto establezca la ley.",
+    "content_to_remove": "",
+    "placement_instructions": ""
   },
   {
     "number": "628",
-    "target": "Artículo 58",
-    "content": "añade al inicio: “Las Ministras y Ministros de Estado son responsables directamente de la conducción de sus carteras respectivas.”.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -629,15 +782,19 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 58,
+    "target_scope": "WORDING",
+    "action": "ADD",
+    "content": "Las Ministras y Ministros de Estado son responsables directamente de la conducción de sus carteras respectivas.",
+    "content_to_remove": "",
+    "placement_instructions": "añade al inicio del artículo"
   },
   {
     "number": "633",
-    "target": "Artículo 59.B",
-    "content": "incorpora un nuevo artículo sobre la asistencia de los Ministros a las sesiones del Congreso Plurinacional y Consejo Territorial.",
-    "authors": [
-      "Sepúlveda, Carolina",
-      "Muñoz, Pedro",
+    "authors_matched": [
+      "Sepulveda, Carolina",
+      "Munoz, Pedro",
       "Montero, Ricardo",
       "Arauna, Francisca",
       "Schonhaut, Constanza",
@@ -648,6 +805,12 @@
       "Politzer, Patricia",
       "Chahin, Fuad",
       "Namor, Guillermo"
-    ]
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "Artículo 59.B. Asistencia de los Ministros. Los Ministros podrán, cuando lo estimen conveniente, asistir a las sesiones del Congreso Plurinacional y Consejo Territorial y tomar parte en sus debates, con preferencia para hacer uso de la palabra. Sin perjuicio de lo anterior, las Ministras y Ministros deberán concurrir personalmente a las sesiones especiales que convoque el Congreso para informarse sobre asuntos que, perteneciendo al ámbito de atribuciones de las correspondientes Secretarías de Estado, acuerden tratar.",
+    "content_to_remove": "",
+    "placement_instructions": "añade un nuevo artículo"
   }
 ]

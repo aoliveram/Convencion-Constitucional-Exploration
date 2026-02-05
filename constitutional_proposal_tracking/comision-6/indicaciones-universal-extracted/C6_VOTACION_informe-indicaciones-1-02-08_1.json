@@ -1,0 +1,1080 @@
+[
+  {
+    "number": 2,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Órganos de la Jurisdicción",
+    "placement_instructions": ""
+  },
+  {
+    "number": 3,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Principios generales de los sistemas de justicia",
+    "placement_instructions": ""
+  },
+  {
+    "number": 4,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Principios de la Jurisdicción",
+    "placement_instructions": ""
+  },
+  {
+    "number": 5,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 0,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Función y principios de la jurisdicción",
+    "placement_instructions": ""
+  },
+  {
+    "number": 8,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 1,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 1.- La función jurisdiccional. La jurisdicción es una función pública que se ejerce en nombre de los pueblos y que consiste en conocer, juzgar y ejecutar con efecto de cosa juzgada todos los conflictos de relevancia jurídica, por medio de un debido proceso, de conformidad a la Constitución, las leyes y los estándares internacionales de derechos humanos. Se ejerce exclusivamente por los tribunales de justicia y los demás órganos o autoridades indígenas reconocidos por la Constitución y las leyes dictadas conforme a ella.\nAl ejercer la jurisdicción se debe velar por la tutela y promoción de los derechos fundamentales, del sistema democrático y el principio de juridicidad.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 17,
+    "authors_matched": [],
+    "target_article": 1,
+    "target_scope": "WORDING",
+    "action": "MODIFY_PHRASE",
+    "content": "derechos humanos y de la naturaleza",
+    "content_to_remove": "derechos fundamentales",
+    "placement_instructions": "en el inciso segundo"
+  },
+  {
+    "number": 20,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "1A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 1A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 22,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "1B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 1B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 33,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "1C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 1C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 37,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 2.- Pluralismo jurídico. El Sistema Nacional de Justicia coexiste, en un plano de igualdad, con los Sistemas Jurídicos Indígenas. Es deber del Estado garantizar una adecuada coordinación entre ambos, con pleno respeto al derecho a la libre determinación y los estándares internacionales de derechos humanos interpretados interculturalmente.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 38,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "2A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 2A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 39,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "2B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 2B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 40,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 2,
+    "target_scope": "TOTAL",
+    "action": "ADD",
+    "content": "§ Principios generales del Sistema Nacional de Justicia",
+    "content_to_remove": "",
+    "placement_instructions": "entre el artículo 2B y el artículo 3"
+  },
+  {
+    "number": 41,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 3,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 3",
+    "placement_instructions": ""
+  },
+  {
+    "number": 45,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "3A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 3A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 47,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 4,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 3.- Independencia jurisdiccional, imparcialidad y exclusividad. Las juezas y jueces que ejercen jurisdicción son independientes entre sí y de todo otro poder o autoridad, debiendo actuar y resolver de forma imparcial.\nLa función jurisdiccional la ejercen exclusivamente los tribunales establecidos por ley. Ningún otro órgano del Estado, persona o grupo de personas, podrán ejercer la función jurisdiccional, conocer causas pendientes, modificar los fundamentos o el contenido de las resoluciones judiciales o reabrir procesos concluidos.\nLas juezas y jueces no podrán desempeñar ninguna otra función o empleo, salvo actividades académicas en los términos que establezca la ley.\nLas juezas y jueces sólo ejercerán la función jurisdiccional, no pudiendo desempeñar función administrativa ni legislativa alguna.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 50,
+    "authors_matched": [
+      "Mauricio Daza"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán militar en partidos políticos.",
+    "content_to_remove": "",
+    "placement_instructions": "como nuevo inciso"
+  },
+  {
+    "number": 51,
+    "authors_matched": [
+      "Mauricio Daza"
+    ],
+    "target_article": 4,
+    "target_scope": "INCISO",
+    "action": "ADD",
+    "content": "Las juezas y jueces no podrán participar como candidatas o candidatos en procesos de elección popular, salvo en los casos autorizados por esta Constitución.",
+    "content_to_remove": "",
+    "placement_instructions": "como nuevo inciso"
+  },
+  {
+    "number": 52,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 55,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 56,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 59,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4D",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4D",
+    "placement_instructions": ""
+  },
+  {
+    "number": 61,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4E",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4E",
+    "placement_instructions": ""
+  },
+  {
+    "number": 63,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "4F",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 4F",
+    "placement_instructions": ""
+  },
+  {
+    "number": 66,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 5,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 4°. De la inamovilidad. Las juezas y jueces son inamovibles y no pueden ser suspendidos, trasladados o removidos sino por el Consejo de la Justicia, conforme a las causales y procedimientos establecidos por la Constitución y las leyes.\nCesan en sus cargos únicamente al cumplirse la duración prevista para el mismo, por alcanzar los setenta años de edad, por renuncia voluntaria, por constatarse una incapacidad legal sobreviniente o por remoción.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 68,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "5A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 5A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 70,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "5B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 5B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 71,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "5C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 5C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 73,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "5D",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 5D",
+    "placement_instructions": ""
+  },
+  {
+    "number": 76,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "5E",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 5E",
+    "placement_instructions": ""
+  },
+  {
+    "number": 79,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 6,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 5.- Derecho de acceso a la justicia. La Constitución garantiza el pleno acceso a la justicia a todas las personas y colectivos. Es deber del Estado remover los obstáculos normativos, sociales, culturales y económicos que impidan o limiten la posibilidad de acudir a los órganos jurisdiccionales para la tutela y el ejercicio de sus derechos.\nLos tribunales deben brindar una atención adecuada a quienes presenten peticiones o consultas ante ellos, otorgando siempre un trato digno y respetuoso. Una ley establecerá sus derechos y deberes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 81,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "6A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 6A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 82,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "6B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 6B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 83,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "6C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 6C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 86,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 7,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 6.- Tutela jurisdiccional efectiva. Todas las personas tienen derecho a requerir de los tribunales de justicia la tutela efectiva de sus derechos e intereses legítimos, de manera oportuna y eficaz conforme a los principios y estándares reconocidos en la Constitución y las leyes.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 87,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "7A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 7A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 89,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "7B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 7B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 90,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "7C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 7C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 91,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 8,
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8",
+    "placement_instructions": ""
+  },
+  {
+    "number": 93,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 96,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 97,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 99,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8D",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8D",
+    "placement_instructions": ""
+  },
+  {
+    "number": 101,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8E",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8E",
+    "placement_instructions": ""
+  },
+  {
+    "number": 102,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "8F",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 8F",
+    "placement_instructions": ""
+  },
+  {
+    "number": 105,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 9,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 7.- Inexcusabilidad e indelegabilidad. Reclamada su intervención en la forma legal y sobre materias de su competencia, los tribunales y los demás órganos que ejerzan jurisdicción no podrán excusarse de ejercer su función en un tiempo razonable ni aún a falta de norma jurídica expresa que resuelva el asunto sometido a su decisión.\nEl ejercicio de la jurisdicción es indelegable.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 106,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "9A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 9A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 107,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "9B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 9B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 108,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "9C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 9C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 109,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "9D",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 9D",
+    "placement_instructions": ""
+  },
+  {
+    "number": 112,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 10,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 8.- Ejecución de las resoluciones. Para hacer ejecutar sus resoluciones y practicar o hacer practicar las actuaciones que determine la ley, los órganos que ejercen jurisdicción podrán impartir órdenes o instrucciones directas a la fuerza pública y a toda otra autoridad o persona, quienes deberán cumplir lo mandatado de forma rápida y expedita, sin poder calificar su justicia, fundamento, oportunidad o legalidad.\nLas sentencias y resoluciones dictadas en el Sistema Internacional de Protección de los Derechos Humanos permitirán revisar el efecto de cosa juzgada de las sentencias firmes dictadas por tribunales del Estado de Chile.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 114,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "10A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 10A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 115,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "10B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 10B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 116,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "10C",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 10C",
+    "placement_instructions": ""
+  },
+  {
+    "number": 117,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "10D",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 10D",
+    "placement_instructions": ""
+  },
+  {
+    "number": 120,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 11,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 9.- Fundamentación y lenguaje claro. Las resoluciones judiciales serán siempre motivadas, salvo en los casos establecidos por la ley. En todo evento, la sentencia que ponga término a un procedimiento siempre deberá ser fundada y redactada en lenguaje claro e inclusivo.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 121,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "11A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 11A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 123,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "11B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 11B",
+    "placement_instructions": ""
+  },
+  {
+    "number": 126,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": 12,
+    "target_scope": "TOTAL",
+    "action": "SUBSTITUTE",
+    "content": "Artículo 10.- Gratuidad. El acceso a la función jurisdiccional será gratuito, sin perjuicio de las actuaciones judiciales y sanciones procesales establecidas por la ley.\nLa justicia arbitral será siempre voluntaria. La ley no podrá establecer arbitrajes forzosos.",
+    "content_to_remove": "",
+    "placement_instructions": ""
+  },
+  {
+    "number": 128,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "12A",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 12A",
+    "placement_instructions": ""
+  },
+  {
+    "number": 130,
+    "authors_matched": [
+      "Manuela Royo",
+      "Daniel Bravo",
+      "Mauricio Daza",
+      "Luis Jimenez",
+      "Natividad Llanquileo",
+      "Rodrigo Logan",
+      "Daniel Stingo"
+    ],
+    "target_article": "12B",
+    "target_scope": "TOTAL",
+    "action": "DELETE",
+    "content": "",
+    "content_to_remove": "Artículo 12B",
+    "placement_instructions": ""
+  }
+]

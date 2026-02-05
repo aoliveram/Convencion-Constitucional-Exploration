@@ -1,205 +1,450 @@
 [
   {
-    "number": "004",
-    "target_article": "2",
-    "action": "MOD",
+    "number": 4,
+    "authors_matched": [
+      "Jimenez, Luis"
+    ],
+    "target_article": 2,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "Las entidades territoriales autónomas tienen personalidad jurídica y patrimonio propio y las potestades y competencias necesarias para gobernarse en atención al interés general de la República, de acuerdo a la Constitución y la ley, teniendo como límites los derechos humanos y de la Natural",
-    "authors_raw": "JIMÉNEZ"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "016",
-    "target_article": "3",
-    "action": "MOD",
+    "number": 16,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 3,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "La soberanía y jurisdicción sobre el territorio se ejerce de acuerdo a la Constitución, la ley y el derecho internacional.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "017",
-    "target_article": "3",
-    "action": "MOD",
+    "number": 17,
+    "authors_matched": [
+      "Sepulveda, Barbara",
+      "Barraza, Marcos",
+      "Miranda, Valentina",
+      "Videla, Carolina"
+    ],
+    "target_article": 3,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "La soberanía y jurisdicción sobre el territorio se ejerce de acuerdo a la Constitución, la ley y el derecho internacional.",
-    "authors_raw": "SEPÚLVEDA, BARRAZA, MIRANDA, VIDELA"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "018",
-    "target_article": "4",
-    "action": "MOD",
+    "number": 18,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 4,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "Artículo 4°.- Del Maritorio. Chile es un país océanico. El Estado ejerce soberanía y jurisdicción sobre el mar de conformidad al derecho internacional. En el maritorio, integrado por el mar y sus costas, se reconocen, protegen y promueven los usos consuetudinarios y locales de los pueblos y naciones indígenas y de las comunidades costeras, considerándolo un espacio integral de convivencia entre lo tangible y lo intangible",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "029",
-    "target_article": "6",
-    "action": "MOD",
+    "number": 29,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 6,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "El Estado promoverá y apoyará la cooperación y asociatividad con las entidades territoriales y entre ellas. La ley establecerá las bases generales para la creación y funcionamiento de estas asociaciones, en concordancia con la normativa regional respectiva",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "038",
-    "target_article": "15",
-    "action": "MOD",
+    "number": 38,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 15,
+    "action": "SUBSTITUTE",
+    "target_scope": "TOTAL",
     "content": "Artículo 15.- Libertad de circulación entre entidades territoriales. Ninguna entidad territorial o autoridad podrá adoptar medidas que directa o indirectamente impidan el ejercicio de la libertad de movimiento, la libre circulación de bienes y de residencia de las personas al interior de ellas, así como en todo el territorio del Estado, sin perjuicio de las limitaciones contempladas en esta Constitución.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "040",
-    "target_article": "20",
-    "action": "MOD",
-    "content": "Artículo 20, inciso primero.- Del Estatuto Regional. Cada Región Autónoma establecerá su organización administrativa y funcionamiento interno, en el marco de las competencias fiscalizadoras, normativas, resolutivas, administrativas y las demás establecidas en la Constitución y las leyes. inciso segundo.- El Estatuto Regional debe respetar los derechos fundamentales y los principios del Estado social y democrático de derecho reconocidos en los términos establecidos en la Constitución.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "number": 40,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 20,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Artículo 20, inciso primero.- Del Estatuto Regional. Cada Región Autónoma establecerá su organización administrativa y funcionamiento interno, en el marco de las competencias fiscalizadoras, normativas, resolutivas, administrativas y las demás establecidas en la Constitución y las leyes.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "052",
-    "target_article": "21",
-    "action": "MOD",
+    "number": 40,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 20,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Artículo 20, inciso segundo.- El Estatuto Regional debe respetar los derechos fundamentales y los principios del Estado social y democrático de derecho reconocidos en los términos establecidos en la Constitución.",
+    "content_to_remove": null,
+    "placement_instructions": null
+  },
+  {
+    "number": 52,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 21,
+    "action": "SUBSTITUTE",
+    "target_scope": "TOTAL",
     "content": "Artículo 21.- De la elaboración, aprobación y reforma del Estatuto Regional. El proyecto de Estatuto Regional será propuesto por la Gobernadora o Gobernador Regional a la Asamblea Regional respectiva, para su deliberación y acuerdo, el cual será aprobado por la mayoría absoluta de sus miembros en ejercicio. El proceso de elaboración y reforma del Estatuto Regional deberá garantizar la participación popular, democrática y vinculante de sus habitantes. El proyecto de Estatuto será remitido al Consejo Territorial para su ratificación dentro de seis meses, que podrá prorrogarse, por única vez, hasta tres meses. Transcurrido dicho plazo sin pronunciamiento, se tendrá por ratificado sin más trámite. Una vez ratificado por el Consejo Territorial y previo control de constitucionalidad, el Estatuto Regional será sometido a un referéndum regional para ser ratificado por la ciudadanía. Desde su publicación, el Estatuto Regional sólo podrá ser reformado mediante el procedimiento que éste establezca.",
-    "authors_raw": "07 Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "058",
-    "target_article": "22",
-    "action": "MOD",
+    "number": 58,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 22,
+    "action": "SUBSTITUTE",
+    "target_scope": "TOTAL",
     "content": "Artículo 22.- De la Autoridades Regionales. La organización institucional de las Regiones Autónomas se compone del Gobernador o Gobernadora Regional y de la Asamblea Regional.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "066",
-    "target_article": "26",
-    "action": "MOD",
+    "number": 66,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 26,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "Artículo 26.- Del Consejo Social Regional. El Consejo Social Regional es el encargado de promover la participación popular en los asuntos públicos regionales de carácter participativo y consultivo. Su integración y competencias serán determinadas por ley.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "073",
-    "target_article": "26",
-    "action": "MOD",
-    "content": "Sustituir en el inciso quinto del artículo 26.- Del Consejo Social Regional, la frase ‘‘Asamblea Social Regional’’ por ‘‘Consejo Social Regional’’.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "number": 73,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 26,
+    "action": "MODIFY_PHRASE",
+    "target_scope": "WORDING",
+    "content": "Consejo Social Regional",
+    "content_to_remove": "Asamblea Social Regional",
+    "placement_instructions": null
   },
   {
-    "number": "076",
-    "target_article": "27",
-    "action": "MOD",
+    "number": 76,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 27,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "14. La administración del borde costero y maritorio de la Región autónoma, en el ámbito de sus competencias y en coordinación con los órganos competentes.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "080A",
-    "target_article": "27",
-    "action": "MOD",
+    "number": "80A",
+    "authors_matched": [
+      "Pustilnick, Tammy",
+      "Castillo, Eduardo",
+      "Aguilera, Tiare"
+    ],
+    "target_article": 27,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "18. Establecer contribuciones y tasas dentro de su territorio previa autorización por ley.",
-    "authors_raw": "PUSTILNICK, CASTILLO, AGUILERA"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "084",
-    "target_article": "27",
-    "action": "MOD",
+    "number": 84,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 27,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "19. La creación de empresas públicas regionales por parte de los órganos de la Región Autónoma competentes, en conformidad a los procedimientos regulados en la Constitución y la ley",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "088",
-    "target_article": "27",
-    "action": "MOD",
+    "number": 88,
+    "authors_matched": [
+      "Jofre, Alvaro",
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Arancibia, Jorge",
+      "Jurgensen, Harry",
+      "Rivera, Pollyana"
+    ],
+    "target_article": 27,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "El ejercicio de estas competencias por la Región Autónoma no excluye la concurrencia y desarrollo coordinado con otros órganos del Estado.",
-    "authors_raw": "JOFRÉ, MENA, NAVARRETE, ARANCIBIA, JURGENSEN, P.RIVERA"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "089",
-    "target_article": "27",
-    "action": "MOD",
-    "content": "[...], conforme a la Constitución y la ley.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "number": 89,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 27,
+    "action": "ADD",
+    "target_scope": "WORDING",
+    "content": "conforme a la Constitución y la ley.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "092",
-    "target_article": "29",
-    "action": "MOD",
+    "number": 92,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 29,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "b) La coordinación económica y presupuestaria entre el Estado y las Regiones Autónomas.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "093",
-    "target_article": "29",
-    "action": "MOD",
+    "number": 93,
+    "authors_matched": [
+      "Jofre, Alvaro",
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Arancibia, Jorge",
+      "Jurgensen, Harry",
+      "Rivera, Pollyana"
+    ],
+    "target_article": 29,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "Debatir sobre las actuaciones conjuntas de carácter estratégico, que afecten a los ámbitos competenciales estatal y regional",
-    "authors_raw": "JOFRÉ, MENA, NAVARRETE, ARANCIBIA, JURGENSEN, P.RIVERA"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "094",
-    "target_article": "29",
-    "action": "MOD",
+    "number": 94,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 29,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "c) Velar por el respeto de las autonomías de las entidades territoriales.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "096",
-    "target_article": "29",
-    "action": "MOD",
+    "number": 96,
+    "authors_matched": [
+      "Jofre, Alvaro",
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Arancibia, Jorge",
+      "Jurgensen, Harry",
+      "Rivera, Pollyana"
+    ],
+    "target_article": 29,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "Velar por la correcta aplicación de los principios de equidad, solidaridad y justicia territorial, y de los mecanismos de compensación económica interterritorial, en conformidad con la Constitución y la ley",
-    "authors_raw": "JOFRÉ, MENA, NAVARRETE, ARANCIBIA, JURGENSEN, P.RIVERA"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "097",
-    "target_article": "29",
+    "number": 97,
+    "authors_matched": [
+      "Jofre, Alvaro",
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Arancibia, Jorge",
+      "Jurgensen, Harry",
+      "Rivera, Pollyana"
+    ],
+    "target_article": 29,
     "action": "ADD",
+    "target_scope": "INCISO",
     "content": "Acordar la creación de comisiones o grupos de trabajo para el estudio de asuntos de interés común",
-    "authors_raw": "JOFRÉ, MENA, NAVARRETE, ARANCIBIA, JURGENSEN, P.RIVERA"
+    "content_to_remove": null,
+    "placement_instructions": "precedente al literal G) actual"
   },
   {
-    "number": "098, 099, 100, 104",
-    "target_article": "35",
-    "action": "DEL",
-    "content": "suprimir la expresión “Legislativa”",
-    "authors_raw": "Various (SEPÚLVEDA, BARRAZA, MIRANDA, VIDELA / BACIAN, GODOY, CHINGA, M.M.RIVERA / Y.GÓMEZ y otras y otros convencionales)"
+    "number": 98,
+    "authors_matched": [
+      "Sepulveda, Barbara",
+      "Barraza, Marcos",
+      "Miranda, Valentina",
+      "Videla, Carolina"
+    ],
+    "target_article": 35,
+    "action": "DELETE",
+    "target_scope": "WORDING",
+    "content": "",
+    "content_to_remove": "Legislativa",
+    "placement_instructions": null
   },
   {
-    "number": "107",
-    "target_article": "35",
-    "action": "MOD",
+    "number": 99,
+    "authors_matched": [
+      "Bacian, Wilfredo",
+      "Godoy, Isabel",
+      "Chinga, Eric"
+    ],
+    "target_article": 35,
+    "action": "DELETE",
+    "target_scope": "WORDING",
+    "content": "",
+    "content_to_remove": "Legislativa",
+    "placement_instructions": null
+  },
+  {
+    "number": 100,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
+    "action": "DELETE",
+    "target_scope": "WORDING",
+    "content": "",
+    "content_to_remove": "Legislativa",
+    "placement_instructions": null
+  },
+  {
+    "number": 104,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
+    "action": "DELETE",
+    "target_scope": "WORDING",
+    "content": "",
+    "content_to_remove": "Legislativa",
+    "placement_instructions": null
+  },
+  {
+    "number": 107,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "4.- Preparar y presentar ante la Asamblea Regional el plan regional de ordenamiento territorial, los planes de desarrollo urbano de las áreas metropolitanas y los planes de manejo integrado de cuencas, en conformidad al Estatuto Regional y la ley.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "110",
-    "target_article": "35",
-    "action": "MOD",
-    "content": "6.- Ejercer la potestad reglamentaria en todas aquellas materias que se encuentren dentro del ámbito de sus competencias",
-    "authors_raw": "JOFRÉ, MENA, NAVARRETE, ARANCIBIA, JURGENSEN, P.RIVERA"
+    "number": 110,
+    "authors_matched": [
+      "Jofre, Alvaro",
+      "Mena, Felipe",
+      "Navarrete, Geoconda",
+      "Arancibia, Jorge",
+      "Jurgensen, Harry",
+      "Rivera, Pollyana"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Ejercer la potestad reglamentaria en todas aquellas materias que se encuentren dentro del ámbito de sus competencias",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "111",
-    "target_article": "35",
+    "number": 111,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
     "action": "ADD",
+    "target_scope": "WORDING",
     "content": "en conformidad a la Constitución, la ley y el Estatuto Regional.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "114",
-    "target_article": "35",
-    "action": "MOD",
+    "number": 114,
+    "authors_matched": [
+      "Gomez, Yarela",
+      "Mella, Jeniffer",
+      "Alvez, Amaya"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "7. Concurrir a la formación de normas regionales en conformidad al procedimiento que establece el Estatuto Regional.",
-    "authors_raw": "Y.GÓMEZ_MELLA_ALVEZ"
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "118, 119",
-    "target_article": "35",
-    "action": "MOD",
-    "content": "9. Proponer a la Asamblea Regional la creación de empresas públicas regionales o la participación en empresas regionales para la gestión de servicios de su competencia, según lo dispuesto en la Constitución, la ley y el Estatuto Regional.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "number": 118,
+    "authors_matched": [
+      "Bacian, Wilfredo",
+      "Godoy, Isabel",
+      "Chinga, Eric",
+      "Rivera, Maria Magdalena"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "9.- Proponer a la Asamblea Regional la creación de empresas públicas regionales o la participación en empresas regionales para la gestión de servicios de su competencia, según lo dispuesto en la Constitución, la ley y el Estatuto Regional.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "122",
-    "target_article": "35",
-    "action": "MOD",
-    "content": "10. Proponer y definir la delimitación provincial, como división de representatividad territorial, dentro de la región autónoma",
-    "authors_raw": "URIBE"
+    "number": 119,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "9.- Proponer a la Asamblea Regional la creación de empresas públicas regionales o la participación en empresas regionales para la gestión de servicios de su competencia, según lo dispuesto en la Constitución, la ley y el Estatuto Regional.",
+    "content_to_remove": null,
+    "placement_instructions": null
   },
   {
-    "number": "126",
-    "target_article": "35",
-    "action": "MOD",
+    "number": 122,
+    "authors_matched": [
+      "Uribe, Cesar"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
+    "content": "Proponer y definir la delimitación provincial, como división de representatividad territorial, dentro de la región autónoma",
+    "content_to_remove": null,
+    "placement_instructions": null
+  },
+  {
+    "number": 126,
+    "authors_matched": [
+      "Gomez, Yarela"
+    ],
+    "target_article": 35,
+    "action": "SUBSTITUTE",
+    "target_scope": "INCISO",
     "content": "14.- Establecer y adecuar empleos públicos de su dependencia, crear o modificar las plantas del personal del Gobierno Regional y fijar sus remuneraciones, según lo previsto en la ley.",
-    "authors_raw": "Y.GÓMEZ y otras y otros convencionales"
+    "content_to_remove": null,
+    "placement_instructions": null
   }
 ]
