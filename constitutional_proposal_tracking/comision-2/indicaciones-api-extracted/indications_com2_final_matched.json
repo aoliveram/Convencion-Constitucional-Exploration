@@ -1,1 +1,88 @@
-[]
+[
+  {
+    "article": "Artículo 2",
+    "text": "En Chile, las personas nacen y permanecen libres, interdependientes e iguales en dignidad y derechos. El Estado debe respetar, promover, proteger y garantizar los derechos fundamentales reconocidos en esta Constitución y en los tratados internacionales ratificados por Chile y que se encuentren vigentes. Para su protección, las personas gozarán de todas las garantías eficaces, oportunas, pertinentes y universales, nacionales e internacionales.",
+    "source_indications": [
+      "3",
+      "2 (Arrau)",
+      "7 (Arrau)"
+    ],
+    "authors": [
+      "Arrau, Martin"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The transformation represents a total substitution of the Original Article 1 (which focused on social solidarity and 'street people') with a new framework based on the classic 'born free and equal' principle. Indication 3 (Arrau) specifically proposed to suppress the Original Article 1. Indication 2 (Arrau) for Article 1 proposed a substitution that matches the core of the first and third sentences of the final text ('Las personas nacen libres e iguales' and the provision of 'derechos y garantías'). While the final text adds progressive terminology like 'interdependientes' and 'permanecen', and integrates state duty language found in other indications (like Indication 93 or 2-Tepper), Arrau's proposals are the legislative vehicles that directly targeted Article 1 for this structural substitution."
+  },
+  {
+    "article": "Artículo 6",
+    "text": "El Estado de Chile condena todo tipo de acto racista y discriminatorio y se compromete, por todos los medios apropiados y sin dilaciones, a su prevención, sanción y erradicación.",
+    "source_indications": [
+      "115",
+      "116",
+      "125"
+    ],
+    "authors": [
+      "Loncon, Elisa",
+      "Arrau, Martin"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The Original Text ('Principio de Interseccionalidad') corresponds to Article 14 of the initial constitutional draft. Indications 115 (Arrau) and 116 (Loncon) both proposed the suppression (deletion) of Article 14, which explains the removal of the intersectionality perspective. The Final Text represents a complete transformation into an article focused on the condemnation and eradication of racism. While the exact phrasing of the Final Text is not present in the candidate list, Indication 125 (Arrau) is the only proposal that specifically introduces a new article aimed at 'prohibiting and sanctioning' discrimination based on 'racial origin,' providing the thematic and legal foundation for the Final Text's emphasis on racial sanctions and state duties."
+  },
+  {
+    "article": "Artículo 7",
+    "text": "El Estado reconoce y protege a las familias en sus diversas formas, expresiones y modos de vida, no restringiéndose a vínculos exclusivamente filiativos y consanguíneos. El Estado debe garantizar a las familias una vida digna, procurando que los trabajos de cuidados no representen una desventaja para quienes los ejercen.",
+    "source_indications": [
+      "41",
+      "94"
+    ],
+    "authors": [
+      "Vallejos, Loreto",
+      "Vergara, Lisette"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The transformation from the Original Text to the Final Approved Text involves two primary changes: 1) shifting the terminology from 'comunidades' and 'manifestaciones de familia' to 'familias en sus diversas formas, expresiones y modos de vida', and 2) adding a specific mandate for the State to guarantee a 'vida digna' and ensure that 'trabajos de cuidados' do not represent a disadvantage for those performing them. Indication 41 (Vallejos et al.) specifically addresses the 'corresponsabilidad de las labores del hogar' (care work) and the duty of the State to ensure equal opportunities and development, which directly relates to the 'no representen una desventaja' clause. Indication 94 (Vergara) introduces the recognition of 'diversas formas de familia' and the necessity for the State to support 'adultos responsables de su cuidado', providing the conceptual framework for the first paragraph of the Final Text. Together, these proposals provide the substantive content that defined the transition from the original version to the final approved wording."
+  },
+  {
+    "article": "Artículo 7",
+    "text": "El Estado debe propender al fortalecimiento de las familias, garantizarles seguridad y una vida digna que les permita el buen vivir a partir de sus cosmovisiones particulares. Los padres o madres deberán cumplir con todas las corresponsabilidades que la ley establezca.",
+    "source_indications": [
+      "30",
+      "41",
+      "120"
+    ],
+    "authors": [
+      "Silva, Luciano",
+      "Vallejos, Loreto",
+      "Veloso, Paulina",
+      "Arrau, Martin"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The transformation from the original text (which focused on the 'recognition of diverse family forms') to the final text (focused on 'strengthening, security, and co-responsibility') is driven by several indications. Indication 30 (Arrau) and its related duplicates (like 124) introduce the mandate for the State to provide 'seguridad' to families. Indication 41 (Vallejos et al.) is the source for the second sentence regarding 'corresponsabilidades' and specifically mentions 'madres y padres' in that context. Indication 120 (Silva & Veloso) introduces the specific requirement to respect 'cosmovisiones' (cosmovisions) within the context of family protection. The suppression of the original Article 14 text is also supported by indications like 107 (Loncon/Saldaña) or 115 (Arrau), which proposed its deletion in favor of these new formulations."
+  },
+  {
+    "article": "Artículo 29",
+    "text": "Las finanzas públicas se conducirán de conformidad a los principios de sostenibilidad y responsabilidad fiscal, los que guiarán el actuar del Estado en todas sus instituciones y en todos sus niveles.",
+    "source_indications": [
+      "6 (Arrau)"
+    ],
+    "authors": [
+      "Arrau, Martin"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The transformation from the Original to the Final text involves a shift from a general social description of budget management ('presentes y futuras generaciones', 'distribución de la prosperidad') to the specific technical and legal principles of 'sostenibilidad' (sustainability) and 'responsabilidad fiscal' (fiscal responsibility). Indication '6 (Arrau)' for Article 3 is the only proposal in the candidate list that explicitly introduces the 'principio de responsabilidad fiscal' as a guiding rule for State financing. While the term 'sostenibilidad' in the final text encapsulates the 'present and future generations' concept from the original, the inclusion of 'responsabilidad fiscal' is directly attributable to the proposal made by Conventional Arrau. The final approved text is a refined version of this ideological shift, applying the principle to 'all institutions' and 'all levels' of the State."
+  },
+  {
+    "article": "Artículo 6",
+    "text": "La Constitución asegura la igualdad sustantiva de género, obligándose a garantizar el mismo trato y condiciones para las mujeres, niñas y diversidades y disidencias sexogenéricas ante todos los órganos estatales y espacios de organización de la sociedad civil.",
+    "source_indications": [
+      "31",
+      "32"
+    ],
+    "authors": [
+      "Gutierrez, Hugo",
+      "Sepulveda, Barbara"
+    ],
+    "confidence": "HIGH",
+    "judge_reasoning": "The transformation from the Original Text (focused on the general Principle of Intersectionality) to the Final Text (focused on Substantive Gender Equality) is primarily driven by indications 31 and 32. Indication 31 (proposed by Bárbara Sepúlveda) specifically moves to substitute the original Article 2 with a text that introduces the specific protected groups mentioned in the final version: 'mujeres, niñas, diversidades y disidencias sexogenéricas'. Indication 32 (proposed by Hugo Gutiérrez) adds the principle that the State recognizes 'iguales derechos y deberes' (equal rights and duties) for these same groups. The Final Text combines the 'igualdad sustantiva' (substantive equality) concept already present in the original draft with the gender-specific focus and terminology introduced by these two indications. Furthermore, indication 35 (Cretton) confirms these terms were under debate as it specifically attempted to suppress them."
+  }
+]

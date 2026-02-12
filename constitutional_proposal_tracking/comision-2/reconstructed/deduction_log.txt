@@ -1,0 +1,41 @@
+REQ: Artículo 1.- Estado. | SOURCE: NEW (No Base found)
+REQ: Artículo 2.- Persona. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 3.- Soberanía. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 5.- Democracia. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 6.- Igualdad Sustantiva. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 7.- Familias. | SOURCE: NEW (No Base found)
+REQ: Artículo 9.- Naturaleza. | SOURCE: NEW (No Base found)
+REQ: Artículo 9 A.- Principio de Buen Vivir. | SOURCE: NEW (No Base found)
+REQ: Artículo 9G. Principio de responsabilidad ambiental. | SOURCE: NEW (No Base found)
+REQ: Artículo 9 M.- Chile es un país oceánico. | SOURCE: NEW (No Base found)
+REQ: Artículo 10 (G). Recepción e integración del derecho internacional de los Derechos Humanos. | SOURCE: NEW (No Base found)
+REQ: Artículo 11.- Interculturalidad. | SOURCE: NEW (No Base found)
+REQ: Artículo 12.- Plurilingüismo. | SOURCE: NEW (No Base found)
+REQ: Artículo 13 E.- Estado Laico. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 14.- Probidad y Transparencia. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 15.- Supremacía Constitucional y Legal. | SOURCE: NEW (No Base found)
+REQ: Artículo 17.- | SOURCE: NEW (No Base found)
+REQ: Artículo 29.- Principio de sostenibilidad y responsabilidad fiscal. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 1.- Democracia Participativa. | SOURCE: NEW (No Base found)
+REQ: Artículo 2.- Garantías democráticas. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 6.- De la participación ciudadana digital. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 8.- Iniciativa popular de ley. | SOURCE: NEW (No Base found)
+REQ: Artículo 9.- Iniciativa de derogación de ley. | SOURCE: NEW (No Base found)
+REQ: Artículo Nuevo.- Mecanismos de Democracia Directa Regional. | SOURCE: NEW (No Base found)
+REQ: Artículo 10.- Plebiscitos regionales o comunales. | SOURCE: NEW (No Base found)
+REQ: Artículo 14.- Audiencias públicas. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 17.- Nacionalidad. | SOURCE: NEW (No Base found)
+REQ: Artículo 18.- | SOURCE: NEW (No Base found)
+REQ: Artículo 20.- Ciudadanía. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 21.- Calidad política de extranjeros y de nacionalizados chilenos. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 22.- | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 23.- | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 24.- | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 25.- Reclamación de nacionalidad. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 27.- | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 1.- Derechos de las personas mayores. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 0/7
+REQ: Artículo 3.- Derecho a una vida libre de violencia de género. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 2/7
+REQ: Artículo 6.- Derechos de las personas con discapacidad. | SOURCE: Unknown (No match > 4/7) | CLOSEST: 1/7
+REQ: Artículo 9.- Derecho al asilo. | SOURCE: NEW (No Base found)
+REQ: Artículo 10.- Principio de no devolución. | SOURCE: NEW (No Base found)
+REQ: Artículo 11.- Derechos de niñas, niños y adolescentes. | SOURCE: NEW (No Base found)

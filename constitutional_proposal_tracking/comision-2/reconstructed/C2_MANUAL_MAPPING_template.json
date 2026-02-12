@@ -1,0 +1,369 @@
+[
+    {
+        "index": 1,
+        "target_article": "Artículo 1.- Estado.",
+        "target_text_preview": "Chile es un Estado social y democrático de derecho. Es plurinacional, intercultural y ecológico...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 2,
+        "target_article": "Artículo 2",
+        "target_text_preview": "En Chile, las personas nacen y permanecen libres, interdependientes e iguales en dignidad y derechos...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 3,
+        "target_article": "Artículo 3",
+        "target_text_preview": "La soberanía reside en el Pueblo de Chile, conformado por diversas naciones...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 4,
+        "target_article": "Artículo 5",
+        "target_text_preview": "Democracia. En Chile, la democracia es inclusiva y paritaria. Se ejerce en forma directa...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 5,
+        "target_article": "Artículo 6",
+        "target_text_preview": "Igualdad Sustantiva. La Constitución asegura a todas las personas la igualdad sustantiva...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 6,
+        "target_article": "Artículo 7.- Derechos",
+        "target_text_preview": "Familias. El Estado reconoce y protege a las familias en sus diversas formas...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 7,
+        "target_article": "Artículo 9.- Derecho a migrar",
+        "target_text_preview": "Naturaleza. Las personas y los pueblos son interdependientes con la naturaleza y forman...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 8,
+        "target_article": "Artículo 9 A",
+        "target_text_preview": "Principio de Buen Vivir. El Estado reconoce y promueve una relación de equilibrio armónico...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 9,
+        "target_article": "Artículo 9G",
+        "target_text_preview": "Principio de responsabilidad ambiental. Quien dañe el medio ambiente tendrá el deber de repararlo...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 10,
+        "target_article": "Artículo 9 M",
+        "target_text_preview": "Chile es un país oceánico. Es deber integral del Estado la conservación, preservación y cuidado...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 11,
+        "target_article": "Artículo 10 (G)",
+        "target_text_preview": "Recepción e integración del derecho internacional de los Derechos Humanos...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 12,
+        "target_article": "Artículo 11.- Principio de no devolución",
+        "target_text_preview": "Interculturalidad. El Estado es intercultural. Reconocerá, valorará y promoverá el diálogo...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 13,
+        "target_article": "Artículo 12. Derechos de niños, niñas y adolescentes",
+        "target_text_preview": "Plurilingüismo. Chile es un Estado plurilingüe, su idioma oficial es el castellano...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 14,
+        "target_article": "Artículo 13",
+        "target_text_preview": "Estado Laico. Chile es un Estado Laico, donde se respeta y garantiza la libertad de religión...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 15,
+        "target_article": "Artículo 14",
+        "target_text_preview": "Probidad y Transparencia. El ejercicio de las funciones públicas obliga a sus titulares...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 16,
+        "target_article": "Artículo 15",
+        "target_text_preview": "Supremacía Constitucional y Legal. Chile es un Estado fundado en el principio de la supremacía...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 17,
+        "target_article": "Artículo 17",
+        "target_text_preview": "Son emblemas nacionales de Chile la bandera, el escudo y el himno nacional...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 18,
+        "target_article": "Artículo 29.- Principio de sostenibilidad y responsabilidad fiscal",
+        "target_text_preview": "Las finanzas públicas se conducirán de conformidad a los principios de sostenibilidad...",
+        "mapped_source_article_ids": [
+            2
+        ],
+        "notes": ""
+    },
+    {
+        "index": 19,
+        "target_article": "Artículo 1.- Democracia Participativa",
+        "target_text_preview": "La ciudadanía tiene el derecho a participar de manera incidente o vinculante...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 20,
+        "target_article": "Artículo 2.- Garantías democráticas",
+        "target_text_preview": "El estado deberá garantizar a toda la ciudadanía, sin discriminación de ningún tipo...",
+        "mapped_source_article_ids": [
+            2
+        ],
+        "notes": ""
+    },
+    {
+        "index": 21,
+        "target_article": "Artículo 6.- De la participación ciudadana digital",
+        "target_text_preview": "La ley regulará la utilización de herramientas digitales en la implementación de los mecanismos...",
+        "mapped_source_article_ids": [
+            2
+        ],
+        "notes": ""
+    },
+    {
+        "index": 22,
+        "target_article": "Artículo 8.- Iniciativa popular de ley",
+        "target_text_preview": "Un grupo ciudadanos habilitados para sufragar, equivalente al tres por ciento...",
+        "mapped_source_article_ids": [
+            4
+        ],
+        "notes": ""
+    },
+    {
+        "index": 23,
+        "target_article": "Artículo 9.- Iniciativa de derogación de ley",
+        "target_text_preview": "Un grupo de ciudadanos habilitados para sufragar, equivalente al cinco por ciento...",
+        "mapped_source_article_ids": [
+            4
+        ],
+        "notes": ""
+    },
+    {
+        "index": 24,
+        "target_article": "Artículo Nuevo.- Mecanismos de Democracia Directa Regional",
+        "target_text_preview": "El Estatuto Regional deberá considerar mecanismos de democracia directa o semidirecta...",
+        "mapped_source_article_ids": [],
+        "notes": ""
+    },
+    {
+        "index": 25,
+        "target_article": "Artículo 10.- Plebiscitos regionales o comunales",
+        "target_text_preview": "Se podrán someter a referéndum las materias de competencia de los gobiernos regionales...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 26,
+        "target_article": "Artículo 14.- Audiencias públicas",
+        "target_text_preview": "En el Congreso y en los órganos representativos a nivel regional y local se deberán realizar...",
+        "mapped_source_article_ids": [
+            3
+        ],
+        "notes": ""
+    },
+    {
+        "index": 27,
+        "target_article": "Artículo 17.- Nacionalidad",
+        "target_text_preview": "Son chilenas y chilenos, aquellas personas que: 1. Hayan nacido en el territorio de Chile...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 28,
+        "target_article": "Artículo 18.- Derecho a residir y retorno",
+        "target_text_preview": "La nacionalidad chilena confiere el derecho incondicional a residir en el territorio...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 29,
+        "target_article": "Artículo 20.- Ciudadanía",
+        "target_text_preview": "Todas las personas que tengan la nacionalidad chilena serán ciudadanas y ciudadanos de Chile...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 30,
+        "target_article": "Artículo 21.- Calidad política de extranjeros y de nacionalizados chilenos",
+        "target_text_preview": "Las y los extranjeros avecindados en Chile por más de cinco años...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 31,
+        "target_article": "Artículo 22.- Pérdida de la nacionalidad",
+        "target_text_preview": "La nacionalidad chilena se pierde, exclusivamente: 1. Por renuncia voluntaria...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 32,
+        "target_article": "Artículo 23.- Causales constitucionales de pérdida",
+        "target_text_preview": "La pérdida de la nacionalidad sólo puede producirse por causales establecidas en esta Constitución...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 33,
+        "target_article": "Artículo 24.- Pérdida de la calidad de ciudadano",
+        "target_text_preview": "La calidad de ciudadano se pierde: 1º.- Por pérdida de la nacionalidad chilena;",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 34,
+        "target_article": "Artículo 25.- Reclamación de nacionalidad",
+        "target_text_preview": "La persona afectada por acto o resolución de autoridad administrativa que la prive...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 35,
+        "target_article": "Artículo 27.- Prohibición de destierro y exilio",
+        "target_text_preview": "Ninguna persona que resida en Chile cumpliendo los requisitos que establece esta Constitución...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 36,
+        "target_article": "Artículo 1.- Derechos de las personas mayores",
+        "target_text_preview": "Las personas mayores son titulares y plenos sujetos de derecho. Tienen derecho a envejecer...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 37,
+        "target_article": "Artículo 3.- Derecho a una vida libre de violencia de género",
+        "target_text_preview": "El Estado garantiza y promueve el derecho de las mujeres, niñas, diversidades...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    },
+    {
+        "index": 38,
+        "target_article": "Artículo 6.- Derechos de las personas con discapacidad",
+        "target_text_preview": "La Constitución reconoce a las personas con discapacidad como sujetos de derechos...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 39,
+        "target_article": "Artículo 9.- Derecho al asilo",
+        "target_text_preview": "Toda persona tiene derecho a buscar y recibir asilo, de acuerdo con la legislación nacional...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 40,
+        "target_article": "Artículo 10.- Principio de no devolución",
+        "target_text_preview": "Ninguna persona solicitante de asilo o refugiada será regresada por la fuerza a las fronteras...",
+        "mapped_source_article_ids": [
+            99
+        ],
+        "notes": ""
+    },
+    {
+        "index": 41,
+        "target_article": "Artículo 11.- Derechos de niñas, niños y adolescentes",
+        "target_text_preview": "Las niñas, niños y adolescentes son titulares de todos los derechos y garantías establecidas...",
+        "mapped_source_article_ids": [
+            1
+        ],
+        "notes": ""
+    }
+]
