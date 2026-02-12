@@ -1,7 +1,7 @@
 
 # --- Prompt Templates ---
 
-PROMPTS = PROMPTS = {
+PROMPTS = {
     "NARRATIVE_GENESIS": """
     ACT AS: Expert Legal Data Extractor.
     INPUT: PDF Document "Texto Sistematizado" (Constitutional Draft Genesis).
