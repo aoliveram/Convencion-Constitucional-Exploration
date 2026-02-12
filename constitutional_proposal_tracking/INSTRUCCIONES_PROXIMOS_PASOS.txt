@@ -1,0 +1,38 @@
+# PROMPT PARA INICIAR NUEVO CHAT CON ANTIGRAVITY
+
+## CONTEXTO DEL PROYECTO
+Estás trabajando en el proyecto de reconstrucción y trazabilidad de la propuesta constitucional de la Convención Constitucional de Chile (2021-2022).
+El objetivo es transformar los documentos "Génesis" (textos base iniciales) y los "Informes de Votación" (indicaciones/enmiendas aprobadas) en un borrador final unificado por cada comisión, manteniendo el historial de cambios de cada artículo.
+
+## ESTADO ACTUAL DEL PROYECTO
+Para una visión detallada, DEBES LEER PRIMERO el reporte:
+`reports/Reconstruction_Status_Report_2026-02-10.md`
+
+### Resumen de situación por Comisión:
+1. **Comisión 2 (Sistema de Justicia):** Es el "Estándar de Oro". Ya ha sido reconstruida completamente, validada y posee un historial de cambios limpio. Sirve como referencia técnica.
+2. **Comisiones 1, 3, 5, 6, 7:** Tienen los datos de "Génesis" y "Votaciones" extraídos en formato JSON, pero no se ha realizado el proceso de reconstrucción (mezclar el texto base con las enmiendas).
+3. **Comisión 4 (Derechos Fundamentales):** Es el BLOQUEO ACTUAL. Existe el PDF del "Informe de Texto Sistematizado" (Génesis), pero no se ha extraído a JSON.
+
+## TAREAS PENDIENTES PRIORITARIAS
+
+### Tarea 1: Desbloqueo de Comisión 4
+- Localizar: `comision-4/genesis-extracted/C4_COMPLEX_informe-1-03-07-texto-sistematizado.pdf` (o ruta similar en la carpeta de la comisión).
+- Acción: Adaptar un script de extracción (ver `scripts/` como referencia) para generar el archivo `C4_GENESIS_...json`.
+
+### Tarea 2: Desarrollo del Script de Reconstrucción Universal
+- Objetivo: Crear un script de Python que pueda procesar sistemáticamente cualquier comisión.
+- Lógica: Debe tomar un `GENESIS.json`, aplicar las indicaciones aprobadas de `VOTACION.json` siguiendo el orden numérico, y generar un `RECONSTRUCTED.json`.
+- Referencia: Analiza lo que se hizo para la Comisión 2 en `comision-2/reconstructed/`.
+
+### Tarea 3: Manejo de Ambigüedades con IA
+- Algunas indicaciones son complejas o afectan a artículos con títulos idénticos. Debes estar preparado para usar la API de Gemini (referencia: `scripts/13_c2_explain_changes_ai.py`) para resolver conflictos de mapeo donde el código determinista falle.
+
+### Tarea 4: Validación de Fechas Tempranas (Comisión 3 y 6)
+- Estas comisiones tienen un Génesis de enero, mientras que el resto son de marzo/abril. Se debe verificar si los informes de votación cubren todo el trayecto hasta el borrador final o si existen PDFs intermedios necesarios.
+
+## OBJETIVO FINAL
+Generar una carpeta `final_output/` que contenga los JSONs reconstruidos de las 7 comisiones, listos para ser presentados en una plataforma de consulta o análisis legal.
+
+---
+**Instrucción para Antigravity:**
+"Lee este archivo, inspecciona la estructura de carpetas y los reportes en `reports/`. Luego, propón un plan de ejecución para la Tarea 1 (Génesis de la C4) y la Tarea 2 (Script Universal)."
