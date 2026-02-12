@@ -1,0 +1,544 @@
+[
+  {
+    "article": "Artículo 1",
+    "text": "Objeto y fin. Los derechos fundamentales son universales, inalienables, indivisibles e interdependientes entre sí. Comprenden los derechos de la naturaleza, realidad íntimamente ligada al desarrollo de la vida, de las comunidades, de las naciones y de los pueblos como de las futuras generaciones. La protección, promoción y satisfacción de los derechos humanos es un fin primordial del Estado y de la sociedad. \n\nEl pleno ejercicio de estos derechos es condición necesaria para asegurar la paz, la democracia, la vida digna y el pleno desarrollo de las personas y de los pueblos.",
+    "sources": [],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "no_source_found"
+    }
+  },
+  {
+    "article": "Artículo 2",
+    "text": "Cláusula de obligaciones generales y sujetos obligados. El Estado debe respetar, proteger, garantizar y promover la plena satisfacción y ejercicio de los derechos fundamentales, así como adoptar las medidas necesarias para eliminar todas las barreras administrativas, legales o de otra naturaleza que pudieran limitar o entorpecer su realización. Para dicho objetivo, se tendrán en especial consideración los derechos de los Pueblos y Naciones Indígenas.\n\nLas empresas deberán respetar los derechos fundamentales y prevenir, mitigar y reparar toda vulneración a estos que sea consecuencia de sus actos u omisiones.\n\nToda persona, institución, grupo deberá respetar los derechos fundamentales, según lo establecido en esta Constitución y las leyes.",
+    "sources": [],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "no_source_found"
+    }
+  },
+  {
+    "article": "Artículo 3",
+    "text": "Principio de progresividad y no regresión de los derechos fundamentales. El Estado debe adoptar todas las medidas necesarias para lograr de manera progresiva la plena satisfacción de los derechos fundamentales. Ninguna medida podrá tener un carácter regresivo que disminuya, menoscabe o impida injustificadamente su ejercicio.",
+    "sources": [
+      "11-4"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 4",
+    "text": "Financiamiento de los derechos fundamentales. El financiamiento de las prestaciones estatales vinculadas al ejercicio de los derechos fundamentales propenderá a la progresividad.\n\nEl Estado y sus órganos garantizan que el presupuesto público destinará el máximo de recursos disponibles para asegurar la satisfacción universal de los derechos fundamentales.",
+    "sources": [
+      "160-4"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 5",
+    "text": "Límites de los derechos fundamentales. Las limitaciones a los derechos fundamentales podrán ser establecidas únicamente en virtud de una ley de carácter general, en la que se consideren medidas idóneas, necesarias y proporcionadas en una sociedad democrática.\n\nSe deberá tener, además, especial consideración por el respeto a la identidad e integridad cultural del individuo o pueblo y nación de indígena al que pertenece.\n\nEn todo caso, deberán arbitrarse las medidas o mecanismos necesarios para mitigar, corregir o restituir los efectos de estas limitaciones.",
+    "sources": [
+      "18"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 6",
+    "text": "Titularidad de los derechos. Las personas naturales son titulares de derechos fundamentales. Los derechos podrán ser ejercidos y exigidos individual o colectivamente. \n\nLos Pueblos y Naciones Indígenas son titulares de derechos fundamentales colectivos. \n\nLa titularidad establecida en los incisos anteriores comprende los derechos consagrados en esta Constitución, en los tratados internacionales de derechos humanos ratificados y vigentes en Chile y la Declaración de las Naciones Unidas sobre los Derechos de los Pueblos Indígenas. \n\nLa naturaleza será titular de los derechos que le sean aplicables y los que reconozca la Constitución y las leyes. \n\nLas personas jurídicas sólo serán titulares de los derechos que la Constitución consagre expresamente.",
+    "sources": [
+      "14"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 7",
+    "text": "Derecho a la libertad de conciencia, pensamiento, creencias, cosmovisión y religión. Toda persona tiene derecho a la libertad de pensamiento, de conciencia, de religión y cosmovisión; este derecho incluye la libertad de profesar y cambiar de religión o creencias, individual o colectivamente, tanto en público como en privado, mediante el culto, la celebración de los ritos, las prácticas espirituales y la enseñanza. Podrán erigir templos, dependencias y lugares para el culto.\n\nNadie será objeto de medidas coercitivas que puedan menoscabar su libertad de tener o de adoptar la religión o las creencias de su elección.\n\nEl Estado se rige por el principio de neutralidad religiosa, el que implica la igualdad de trato ante las distintas entidades religiosas y grupos de orden espiritual, y reconoce la espiritualidad como elemento esencial del ser humano.\n\nEstas entidades y grupos podrán organizarse como personas jurídicas, con arreglo a la ley, respetando los derechos y deberes que esta Constitución establece. Las personas jurídicas con fines religiosos no podrán perseguir fines de lucro y sus bienes deberán gestionarse de forma transparente y de acuerdo a los otros principios que la ley establezca.",
+    "sources": [
+      "251"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 8",
+    "text": "Derecho a la libertad de expresión. Toda persona tiene derecho a la libertad de emitir opinión y de informar en cualquier forma y por cualquier medio, así como a disponer de información veraz, plural e imparcial, y fundar medios de comunicación. Este derecho no estará sujeto a censura previa sino únicamente a las responsabilidades ulteriores que determine la ley.\n\nEstará prohibida la propaganda en favor de la guerra; el discurso xenófobo o apología de odio racial, religioso, sexual, de género o de cualquier otra índole, que constituya incitación a la violencia, la discriminación o la hostilidad, lo cual deberá ser regulado por la ley.\n\nLos medios de comunicación tienen la responsabilidad social de contribuir y asegurar la pluralidad de opiniones e informaciones. Para ello, el Estado deberá adoptar medidas que contribuyan y aseguren la pluralidad de voces y opiniones, sin que pueda intervenir sobre dichos medios de comunicación.\n\nToda persona natural o jurídica afectada por informaciones inexactas o agraviantes emitidas en su perjuicio por algún medio de comunicación, tiene derecho a que su declaración o rectificación sea gratuitamente difundida por éste, en las condiciones que la ley determine. En ningún caso la rectificación o la respuesta eximirán de las otras responsabilidades legales en que se hubiese incurrido.\n\nAdemás, estará prohibida por ley la negación o justificación de las violaciones graves, masivas y sistemáticas a los derechos humanos.\n\nEl Estado, en conjunto con los pueblos y naciones indígenas a través de sus instituciones, velará y promoverá la presencia de la diversidad cultural indígena en los medios de comunicación públicos y privados, en sus respectivas lenguas. Asimismo, adoptará medidas eficaces para garantizar el establecimiento de medios de comunicación indígenas propios.",
+    "sources": [
+      "548"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 9",
+    "text": "El derecho a vivir en entornos seguros y libres de violencia. Es deber del Estado proteger en forma equitativa el ejercicio de este derecho a todas las personas y comunidades.\n\nLas acciones de prevención, persecución y sanción de los delitos, así como la reinserción social de los condenados, serán desarrolladas por los organismos públicos que señale esta Constitución y la ley, en forma coordinada y con irrestricto respeto a los derechos humanos.",
+    "sources": [
+      "303"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 10",
+    "text": "Ninguna persona puede ser privado de su libertad arbitrariamente ni ésta ser restringida sino en los casos y en la forma determinados por la Constitución y las leyes.\n\nNinguna persona puede ser arrestado o detenido o privado de libertad sino por orden judicial y después de que ésta le sea intimada por funcionario debidamente identificado, en forma legal, debiendo ser informado, al momento de su detención, de las razones de ésta y de sus derechos, conforme a la ley. Asimismo, tendrá el derecho a comunicarse de inmediato con sus familiares, abogado o persona de su confianza, quienes tienen el derecho a ser informados del lugar donde se encuentra la persona detenida y de los motivos de su detención. Sin embargo, podrá ser detenido quien fuere sorprendido en delito flagrante sólo en los casos establecidos en la ley, debiéndose dar aviso inmediatamente a la autoridad competente y ponérsele a disposición del tribunal competente dentro de las veinticuatro horas siguientes al momento de la detención. \n\nSi la autoridad judicial hiciere arrestar o detener a alguna persona, se deberá conducir inmediatamente al arrestado o detenido ante el juez competente. \n\nNinguna persona puede ser arrestado o detenido, sujeto a prisión preventiva o preso o privado de libertad, sino en su domicilio o en los lugares públicos destinados a este objeto. Los encargados de dichos lugares no podrán recibir en ellas a ninguna persona en calidad de arrestado o detenido, imputado o preso, sin dejar constancia del ingreso o de la orden emanada de autoridad competente, en un registro que será público. Toda persona cuya privación de libertad haya sido declarada ilegal o arbitraria por el tribunal será puesta de inmediato en libertad, salvo cuando se formalice la investigación.\n\nLa libertad del imputado será la regla general. La prisión preventiva será excepcional y sólo podrá decretarse en caso de que el juez la considere razonada y fundadamente como necesaria para los fines del proceso. Con todo, esta medida será siempre temporal y proporcional, debiendo la ley regular los casos de procedencia y requisitos. \n\nNinguna persona será detenido por deudas. Este principio no limita los mandatos de autoridad judicial competente dictados por incumplimientos de deberes alimentarios.\n\nLas disposiciones legales que autorizan la restricción de la libertad o de otros derechos del imputado o del ejercicio de alguna de sus facultades serán interpretadas restrictivamente y no se podrán aplicar por analogía.",
+    "sources": [
+      "271"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 11",
+    "text": "Derecho a la libertad ambulatoria y prohibición de desplazamiento forzado. Toda persona tiene derecho de residir y permanecer en cualquier lugar del territorio nacional, trasladarse, entrar y salir de este, a condición de que se guarden las normas establecidas en la ley.\n\nNadie podrá ser arbitrariamente privado del derecho a entrar en su propio país ni a salir libremente de él.\n\nSe prohíbe todo desplazamiento forzado provocado por acción u omisión del Estado. Las personas y comunidades víctimas de desplazamiento forzado tendrán derecho a la verdad, justicia y reparación integral.\n\nAsimismo, tendrán derecho a recibir protección y asistencia humanitaria preferente y especializada, que asegure el acceso a alimentos, alojamiento, vivienda y servicios médicos; a retornar a su hogar de forma voluntaria, segura y digna, recibiendo asistencia para la recuperación de sus propiedades y posesiones de las que hayan sido despojadas; y a la restauración, conservación y reunificación de la unidad familiar y la vida en comunidad.",
+    "sources": [
+      "487"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 12",
+    "text": "Derecho a la identidad. Toda persona tiene derecho al libre desarrollo y pleno reconocimiento de su identidad, en todas sus dimensiones y manifestaciones, incluyendo la nacionalidad, etnia, cultura, edad, características sexuales, identidades y expresiones de género, y orientaciones sexoafectivas, entre otras.\n\nEl Estado deberá garantizar y remover los obstáculos para el reconocimiento de este derecho, de acuerdo a los estándares internacionales de los derechos humanos, a través de las herramientas, acciones judiciales y administrativas adecuadas y pertinentes, entre ellas, el otorgamiento de documentos de identidad e inscripción registral.",
+    "sources": [
+      "41"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 13",
+    "text": "Derecho a la autonomía y a la libre determinación. Toda persona tiene derecho a la libertad, entendida como la libre determinación de su personalidad, de sus proyectos de vida, de su identidad y la autonomía sobre su cuerpo.\n\nEl Estado deberá garantizar este derecho, sin discriminación, con enfoque de género, derechos humanos, inclusión y pertinencia cultural, eliminando todos los obstáculos que dificulten el ejercicio de este derecho y promoviendo acciones positivas para asegurar su pleno desarrollo.",
+    "sources": [
+      "486"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 14",
+    "text": "Libertad de emprender y desarrollar actividades económicas. La Constitución asegura a todas las personas naturales y jurídicas la libertad de emprender y desarrollar actividades económicas. Su ejercicio deberá ser compatible con los derechos consagrados en esta Constitución, la protección de la naturaleza y con el interés general.\n\nEl contenido y los límites de este derecho serán determinados por las leyes que regulen su ejercicio, las que deberán promover el desarrollo de las empresas de menor tamaño y asegurarán la protección de los consumidores.\n\nLas prácticas de colusión entre empresas y abusos de posición monopólica, así como de concentraciones empresariales que afecten o puedan afectar el funcionamiento eficiente, justo y leal de los mercados y el bienestar de las y los consumidores y usuarios y usuarias, se entenderán como conductas contrarias al interés social. La ley establecerá las sanciones a los responsables y su obligación de reparación integral.\n\nLa libertad de emprender y desarrollar actividades económicas implica también reconocer las formas y prácticas productivas que desarrollen los pueblos y naciones indígenas de acuerdo a su propio modo de entender el desarrollo, considerando sus prioridades y necesidades. Sin perjuicio de lo anterior, el ejercicio de esta libertad siempre deberá respetar, proteger y salvaguardar la identidad cultural de dichos pueblos, sus manifestaciones identitarias, patrimonio material e inmaterial y todo cuanto ponga en riesgo su existencia y continuidad como pueblos indígenas.\n\nLa actividad económica del Estado estará siempre sujeta a criterios de control, transparencia y probidad, los que determinará la ley.",
+    "sources": [
+      "293"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 15",
+    "text": "La inviolabilidad del hogar, de los demás espacios donde la persona desarrolle su vida privada y de toda comunicación privada, ya sea física o digital. \n\nEl hogar y demás espacios familiares solo podrán allanarse, y las comunicaciones y documentos privados interceptarse, abrirse o registrarse en los casos que la Constitución o las leyes lo establezcan expresamente.",
+    "sources": [
+      "274"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 16",
+    "text": "Todas las personas son titulares de derechos sexuales y derechos reproductivos. Estos comprenden, entre otros, el derecho a decidir de forma libre, autónoma e informada sobre el propio cuerpo, sobre el ejercicio de la sexualidad, la reproducción, el placer y la anticoncepción. \n\nEl Estado garantiza el ejercicio de los derechos sexuales y reproductivos sin discriminación, con enfoque de género, inclusión y pertinencia cultural, así como el acceso a la información, educación, salud, y a los servicios y prestaciones requeridos para ello, asegurando a todas las mujeres y personas con capacidad de gestar, las condiciones para un embarazo, una interrupción voluntaria del embarazo, parto y maternidad voluntarios y protegidos. Asimismo, garantiza su ejercicio libre de violencias y de interferencias por parte de terceros, ya sean individuos o instituciones.\n\nEl Estado reconoce y garantiza el derecho de las personas a beneficiarse del progreso científico para ejercer de manera libre, autónoma y no discriminatoria, sus derechos sexuales y reproductivos.",
+    "sources": [
+      "221"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 17",
+    "text": "Educación sexual integral. Todas las personas tienen derecho a recibir una Educación Sexual Integral, que promueva el disfrute pleno y libre de la sexualidad, enfocada en el placer; la responsabilidad sexo-afectiva; la autonomía, el autocuidado y el consentimiento; el reconocimiento de las diversas identidades y expresiones del género y la sexualidad; que erradique los estereotipos de género y prevenga la violencia de género y sexual.\n\nEs deber del Estado asegurar el ejercicio pleno de este derecho a través de una política única de Educación Sexual Integral, de carácter laico, desde la primera infancia y durante el curso de la vida, con pertinencia cultural y basada en la evidencia científica afianzada, incorporada de forma transversal y específica en las políticas públicas de educación, salud y otras pertinentes.",
+    "sources": [
+      "376"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 18",
+    "text": "Derecho de propiedad. La Constitución asegura a todas las personas naturales y jurídicas el derecho de propiedad en todas sus especies y sobre toda clase de bienes, exceptuándose los que la naturaleza ha hecho comunes a todas las personas y aquellos que la Constitución o la ley declare inapropiables.\n\nCorresponderá a la ley determinar el modo de adquirir la propiedad, su contenido, sus límites y los deberes que emanan de ella; conforme a su función social y ecológica. \n\nLos títulos administrativos que habiliten la prestación de servicios públicos o de interés general o la explotación, uso y aprovechamiento de bienes comunes no quedarán amparados por este derecho y se someterán al estatuto que defina la ley, la cual deberá cautelar el interés social y el equilibrio ecológico.\n\nLa función social y ecológica de la propiedad comprende los intereses generales del Estado, la utilidad y la salubridad pública, la conservación del medio ambiente, los derechos de la naturaleza y el mejoramiento de las condiciones de vida del común de los habitantes.",
+    "sources": [
+      "293"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 19",
+    "text": "Se protege la propiedad intelectual e industrial. Toda persona tiene derecho a la protección de los materiales que le correspondan por razón de las producciones científicas, literarias o artísticas de que sea autora. La Constitución protege primordialmente los derechos de los pueblos indígenas sobre su patrimonio cultural y sus conocimientos tradicionales.",
+    "sources": [
+      "375"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 20",
+    "text": "Nadie puede ser privado de su propiedad sino en virtud de una ley que autorice la expropiación por una causa de utilidad pública o interés general declarado por el legislador. La ley determinará también el justo monto del pago, su forma y oportunidad; y deberá considerar tanto el interés público como el del titular.\n\nEl pago tendrá lugar de forma previa al acto de toma de posesión material del bien expropiado, salvo acuerdo en contrario.\n\nLa persona propietaria podrá reclamar de la legalidad del acto expropiatorio y del monto ante los tribunales que determine la ley.",
+    "sources": [
+      "293"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 21",
+    "text": "Derecho de propiedad de los pueblos y naciones indígenas. Los pueblos y naciones indígenas tienen derecho a la propiedad colectiva de las tierras, territorios y bienes comunes naturales y espacios sagrados que actual o tradicionalmente han poseído, ocupado o utilizado, que constituyen la base espiritual y material de su identidad individual y colectiva, la condición para la reproducción de su cultura, desarrollo y plan de vida, y la garantía del derecho colectivo a su continuidad histórica. \n\nEl Estado, en consulta con los pueblos y naciones indígenas, debe adoptar todas las medidas administrativas y legislativas o de otra naturaleza que sean necesarias para el reconocimiento, demarcación, registro o titulación y restitución de las tierras, territorios y maritorio indígena, una disposición transitoria fijará el procedimiento para la demarcación, titulación y restitución según corresponda; la administración o control territorial, en aquellos casos que así se determine, debe respetar e incorporar los sistemas tradicionales o consuetudinarios de tenencia o uso de la propiedad indígena, propios de cada pueblo y nación indígena. \n\nLos pueblos y naciones indígenas tienen derecho a la administración de sus territorios, que comprenden sus bienes naturales comunes que estos contienen. El Estado, a través de acciones afirmativas y sistemáticas, debe velar por la protección de los bienes comunes naturales presentes en las tierras y territorios indígenas. La ley determinará las sanciones, la reparación y/o la compensación de cualquier daño ocasionado, por proyectos de inversión o de otra naturaleza en perjuicio de los bienes comunes naturales que sean parte del territorio.\n\nEl territorio indígena comprende también su patrimonio histórico y ancestral, tanto material como inmaterial y, en consecuencia, es deber del Estado reconocer y garantizar el derecho preferente que tienen los pueblos y naciones indígenas a recuperar, preservar, usar, desarrollar, revitalizar y transmitir a generaciones futuras su legado cultural.",
+    "sources": [
+      "264"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 22",
+    "text": "Del despojo, desposesión y restitución territorial de los Pueblos y Naciones Indígenas. El Estado reconoce la desposesión, usurpación, expoliación y despojo de las tierras, territorios y bienes naturales los pueblos y naciones indígenas a causa de la violencia estructural e histórica, por el aprovechamiento de sus costumbres o por el desconocimiento del sistema jurídico nacional, y que hayan sido confiscados, apropiados, ocupados, utilizados o dañados por razones ajenas a su voluntad.\n\nLos pueblos y naciones indígenas tienen derecho a la recuperación, restitución, reconstitución y reclamación de las tierras y territorios que tradicionalmente han ocupado, ya sea que se encuentren en manos de terceros o particulares o el fisco. Es deber del Estado adoptar medidas de no repetición y a generar, en conjunto con los pueblos y naciones indígenas, todos los mecanismos adecuados y oportunos para restituir las tierras y territorios, incluyendo la expropiación. En aquellos casos en que no sea posible, deberá reparar íntegramente.",
+    "sources": [
+      "853"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 23",
+    "text": "Derecho a la vida. Toda persona tiene derecho a la vida. Ninguna persona podrá ser condenada a muerte ni ejecutada.",
+    "sources": [
+      "273"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 24",
+    "text": "Derecho a la integridad personal. Toda persona tiene derecho a la integridad física, psicosocial, sexual y afectiva. Ninguna persona podrá ser sometida a torturas, ni penas o tratos crueles, inhumanos o degradantes.",
+    "sources": [
+      "273"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 25",
+    "text": "Prohibición de la desaparición forzada. Ninguna persona será sometida a desaparición forzada. \n\nToda persona víctima de desaparición forzada tiene derecho a ser buscada. El Estado garantizará el ejercicio de este derecho, disponiendo de todos los medios necesarios.",
+    "sources": [
+      "451"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 26",
+    "text": "Imprescriptibilidad y prohibición de la amnistía. Los crímenes de guerra, los delitos de lesa humanidad, la desaparición forzada y la tortura, el genocidio y el crimen de agresión y otras penas o tratos crueles, inhumanos o degradantes son imprescriptibles, inamnistiables y no serán susceptibles de ningún impedimento a la investigación.",
+    "sources": [
+      "451"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 27",
+    "text": "Deberes de prevención, investigación y sanción. Son obligaciones del Estado prevenir, investigar, sancionar e impedir la impunidad de los hechos establecidos en el artículo 26. Tales crímenes deberán ser investigados de oficio, con la debida diligencia, seriedad, rapidez, independencia, imparcialidad y en conformidad con los estándares establecidos en los tratados internacionales ratificados y vigentes en Chile.",
+    "sources": [
+      "451"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 28",
+    "text": "Derecho a la honra. Toda persona tiene derecho a que se respete su honra.",
+    "sources": [
+      "251"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 29",
+    "text": "Derecho al acceso a la justicia y a la tutela judicial efectiva. Toda persona tiene derecho a la efectiva protección de sus derechos y a que el Estado le garantice la igualdad de acceso a la justicia. El Estado deberá disponer diversos mecanismos que favorezcan una respuesta accesible, oportuna y eficaz que resulte apropiada a las circunstancias concretas.\n\nToda persona tiene derecho a una tutela judicial efectiva y a la resolución de sus conflictos jurídicos a través de un procedimiento adecuado a sus fines. Al legislador le corresponderá establecer estos, así como las medidas necesarias para asegurar el cumplimiento efectivo y oportuno de toda resolución judicial.",
+    "sources": [],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "no_source_found"
+    }
+  },
+  {
+    "article": "Artículo 30",
+    "text": "Derecho al debido proceso. Toda persona tendrá derecho a un proceso razonable y justo, ante un tribunal competente, independiente e imparcial, establecido con anterioridad por la ley, con igualdad de condiciones y enfoque interseccional, en todos los asuntos en los que se determinen sus derechos y obligaciones de cualquier naturaleza. El proceso sólo podrá ser regulado por ley.\n\nToda persona tendrá derecho a la defensa en la forma que la ley señale, sin que ninguna autoridad o individuo pueda impedirlo, restringirlo o perturbarlo. En el ejercicio de este derecho se deberá garantizar la comunicación libre y privada.\n\nEl proceso y sus resoluciones serán públicos, salvo las excepciones expresamente establecidas por ley, debiendo concluir en un plazo razonable y sin dilaciones indebidas. Toda resolución emanada de un tribunal deberá ser fundada, con excepción de aquellas que se pronuncien sobre cuestiones de mero trámite.\n\nLa ley establecerá los mecanismos a través de los cuales se garantizará el cumplimiento de estas garantías, y establecerá la forma en que se cumplirán en los procedimientos administrativos y promoverá el uso de mecanismos colaborativos y adecuados para la resolución de los conflictos jurídicos en conformidad a su naturaleza.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "272"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 31",
+    "text": "Toda persona imputada por un delito tiene derecho en plena igualdad, además, a las siguientes garantías mínimas: \n\na) Toda persona se presume inocente mientras no se pruebe su culpabilidad conforme a la ley. No se podrá presumir de derecho la responsabilidad penal.\n\nb) A ser informada sin demora, en una lengua o idioma que comprenda y en forma detallada, de sus derechos, de la naturaleza y causas de la investigación seguida contra ella y de la acusación formulada en su contra.\n\nc) La información sobre sanciones penales sólo podrá ser tratada por un organismo público, dentro de la órbita de sus competencias. Esta información sólo podrá ser comunicada a otro organismo público que la requiera, dentro de la órbita de sus competencias.",
+    "sources": [
+      "272"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 32",
+    "text": "Derecho a intérprete o traductor. Las personas que no comprendan o hablen el idioma empleado en el tribunal tendrán el derecho a ser asistidas por un traductor o intérprete para intervenir en el proceso, el cual será gratuito.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 33",
+    "text": "Derecho al juicio previo. Ninguna persona podrá ser condenada o penada, ni sometida a una medida de seguridad por hechos que revisten el carácter de delitos penales, sino en virtud de una sentencia fundada, dictada por un tribunal independiente e imparcial. Toda persona tendrá derecho a hallarse presente durante el juicio penal, sin perjuicio de las normas legales que regulen el orden, el decoro y la seguridad de las personas que participen del procedimiento penal.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 34",
+    "text": "Derecho a la defensa jurídica. Toda persona tendrá derecho a la defensa jurídica en la forma que la ley señale y a comunicarse libre y privadamente con el abogado de su elección, sin que ninguna autoridad o individuo pueda impedir, restringir o perturbar la debida intervención del letrado si hubiere sido requerida. La ley arbitrará los medios para otorgar asesoramiento y defensa jurídica a quienes no puedan procurárselos por sí mismos.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 35",
+    "text": "Derecho a la defensa penal. Toda persona imputada de delito penal tiene el derecho irrenunciable a ser asistida por un abogado defensor proporcionado por el Estado si no nombrare uno en la oportunidad establecida por la ley. Todo imputado tendrá derecho a ser informado, si no tuviera defensor, del derecho que le asiste a tenerlo y, siempre que el interés de la justicia lo exija, a que se le nombre un defensor de oficio, gratuitamente, si careciere de medios suficientes para pagarlo. El imputado tendrá derecho a ser defendido por un letrado desde la primera actuación del procedimiento dirigido en su contra. Las facultades, derechos y garantías que la Constitución Política de la República, el Código Procesal Penal y otras leyes reconocen al imputado, podrán hacerse valer por la persona a quien se atribuyere participación en un hecho punible desde la primera actuación del procedimiento dirigido en su contra y hasta la completa ejecución de la sentencia. Para este efecto, se entenderá por primera actuación del procedimiento cualquiera diligencia o gestión, sea de investigación, de carácter cautelar o de otra especie, que se realizare por o ante un tribunal con competencia en lo criminal, el ministerio público o la policía, en la que se atribuyere a una persona responsabilidad en un hecho punible.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 36",
+    "text": "Derecho a ser oído y a la prueba. De conformidad con las normas legales de procedimiento aplicables, toda persona tendrá derecho a formular las pretensiones, excepciones, alegaciones y defensas que estimare oportunas, a rendir las pruebas relevantes para acreditar sus presentaciones y a ejercer la impugnación de la sentencia en la forma y oportunidades establecidas en la ley. Del mismo modo, toda persona tendrá derecho para conocer oportunamente las pretensiones, excepciones y pruebas hechas valer en su contra, así como para examinarlas, contradecirlas y objetarlas, debiendo contar con un tiempo adecuado para la preparación de su defensa.\n\nEn consecuencia, toda persona contará con el derecho interrogar a quienes comparezcan a prestar testimonio y de obtener la comparecencia de partes, testigos, peritos u otras personas que puedan aportar antecedentes respecto de los hechos, de conformidad con las normas legales aplicables.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 37",
+    "text": "Derecho a guardar silencio. Toda persona imputada por un delito penal tiene derecho a guardar silencio. El ejercicio de este derecho no le ocasionará ninguna consecuencia legal adversa; sin embargo, si renuncia a él, todo lo que manifieste podrá ser usado en su contra.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 38",
+    "text": "Derecho a la no autoincriminación. Toda persona imputada por un delito penal tendrá el derecho a no ser obligada a declarar contra sí misma, ni a declararse culpable, así como tendrá el derecho a negarse a responder aquellas preguntas cuya respuesta pudiere acarrearle un peligro de persecución penal a sí misma o a su cónyuge, conviviente, ascendientes, descendientes, pupilos, guardadores, adoptantes, adoptados, parientes colaterales hasta el segundo grado de consanguinidad o afinidad y demás personas que, según los casos y circunstancias, señale la ley.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 39",
+    "text": "A recurrir del fallo condenatorio y de la pena que se le haya impuesto ante juez o tribunal superior. \n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 40",
+    "text": "Derecho a una única persecución. La persona condenada, absuelta o sobreseída definitivamente por sentencia ejecutoriada, no podrá ser sometida a un nuevo procedimiento, investigación o persecución penal por el mismo hecho.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 41",
+    "text": "Está prohibido cualquier método de investigación o de interrogación que vulnere o coarte la libertad para declarar del imputado o investigado.",
+    "sources": [],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "no_source_found"
+    }
+  },
+  {
+    "article": "Artículo 42",
+    "text": "Garantías penales sustantivas. Nadie será penado ni sometido a una medida de seguridad por actos u omisiones que, al momento de producirse, no fueran constitutivos de delito conforme a la ley, y sólo podrá imponerse la pena prevista por ella. Ninguna ley podrá establecer penas respecto de conductas que no estén expresamente descritas en ella. \n\nNingún delito se castigará con otra pena que la que señale una ley promulgada con anterioridad a su perpetración, a menos que una nueva ley favorezca a la persona imputada.\n\nLa Constitución reconoce los derechos contenidos en este artículo a todas las personas jurídicas sin distinción, en todos aquellos casos en que sean aplicables.",
+    "sources": [
+      "272"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 43",
+    "text": "Las sanciones que se apliquen deberán ser siempre proporcionales a la infracción cometida y tendrán por finalidad la resocialización del condenado. \n\nNo podrá imponerse la pena de confiscación de bienes, sin perjuicio del comiso en los casos establecidos por las leyes. El comiso de ganancias no será considerado una pena. No podrá aplicarse como sanción la pérdida de los derechos previsionales. \n\nLa resolución que ordene la libertad del imputado se ejecutará de inmediato, sin perjuicio de los recursos que pudieren proceder en su contra.",
+    "sources": [
+      "514"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 44",
+    "text": "Derecho a reunirse y manifestarse pacíficamente. Todas las personas tienen derecho a reunirse y manifestarse sin permiso previo. Las reuniones en plazas, calles y demás bienes de acceso público sólo podrán restringirse en conformidad a la ley.\n\nEn cualquier caso, el uso de la fuerza pública deberá siempre respetar los estándares que se desprenden tanto de esta Constitución y la ley.",
+    "sources": [
+      "251"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 45",
+    "text": "Derecho de asociación. Todas las personas naturales o jurídicas tienen derecho a asociarse, sin permiso previo. \n\nEl derecho de asociación comprende la protección de la autonomía de las asociaciones para el cumplimiento de sus fines específicos y el establecimiento de su regulación interna, organización y demás elementos definitorios.\n\nPara gozar de personalidad jurídica, las asociaciones deberán constituirse en conformidad a la ley.\n\nEl ejercicio de este derecho sólo podrá estar sujeto a regulaciones previstas por la ley para el resguardo de los derechos fundamentales. La ley podrá imponer restricciones específicas al ejercicio de este derecho respecto de las policías y fuerzas armadas.\n\nLos colectivos y organizaciones sociales que se dedican a la protección del ejercicio de los derechos fundamentales y de la naturaleza contribuyen en el cumplimiento del deber principal del Estado respecto de la garantía y protección de dichos derechos. Sus integrantes y dirigentes cuentan con especial protección constitucional para garantizar el cumplimiento de sus objetivos.\n\nEl Estado reconoce, promueve y protege las formas tradicionales de organización de los pueblos indígenas, instituciones y autoridades propias, respetando la autonomía y las dinámicas internas y no impuestas por la autoridad, siendo resultado de la voluntad colectiva y el derecho propio de las comunidades y pueblos indígenas.",
+    "sources": [
+      "291"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 46",
+    "text": "El Estado reconoce la función social, económica y productiva de las cooperativas, conforme al principio de ayuda mutua, y fomentará su desarrollo. La ley regulará la creación y funcionamiento de las cooperativas, garantizará su autonomía, y preservará, mediante los instrumentos correspondientes, su naturaleza y finalidades. Las cooperativas podrán agruparse en federaciones, confederaciones, o en otras formas de organización que determine la ley.",
+    "sources": [
+      "422"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 47",
+    "text": "Derechos de las personas chilenas en el extranjero. Las personas chilenas que se encuentren en el extranjero, tienen el derecho a vincularse permanentemente con los asuntos públicos y el devenir del país. La ley establecerá los mecanismos adecuados para promover, con perspectiva comunitaria y pertinencia cultural, el ejercicio de este derecho. \n\nSe garantiza la reunificación familiar y el retorno voluntario y seguro al territorio chileno, con enfoque de derechos humanos, de las personas chilenas y de sus descendientes en el extranjero.\n\nSe garantiza el derecho a votar en las elecciones de carácter nacional, presidenciales, parlamentarias, plebiscitos y consultas, de conformidad a esta Constitución y las leyes.",
+    "sources": [
+      "247"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 48",
+    "text": "Derechos de las personas frente a la administración del Estado. Todas las personas tienen derecho a que las instituciones y órganos del Estado traten sus asuntos imparcial y equitativamente de acuerdo con los principios de receptividad, eficacia y eficiencia, así como a obtener resolución de sus asuntos dentro de un plazo razonable.\n\nEste derecho incluye en particular:\n1. A recibir servicios públicos de conformidad con los principios de generalidad, uniformidad, regularidad, continuidad, calidad y uso de las tecnologías de la información y la comunicación.\n2. El derecho a formular peticiones a la autoridad, solicitar audiencia, tener acceso al expediente y aportar antecedentes, argumentos y pruebas en el procedimiento, con consideración a la confidencialidad y la protección de datos personales.\n3. El derecho a ser tratado con respeto y deferencia por las autoridades y funcionarios.\n4. El derecho a una decisión administrativa debidamente fundada y a impugnar las resoluciones mediante los recursos administrativos y las acciones judiciales que correspondan.\n5. El derecho de toda persona a ser oída, especialmente antes de que se tome en contra suya una medida individual que le afecte desfavorablemente.\n\nLas obligaciones y derechos que establece este artículo serán aplicables respecto de todos los órganos del Estado, conforme a sus características, y podrán ser ejercidos en la forma que establezca la ley.",
+    "sources": [
+      "344"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 49",
+    "text": "Cualquier persona que sea lesionada en sus derechos por los organismos del Estado o sus funcionarios en ejercicio o con ocasión de su función, tendrá derecho a obtener una indemnización por los daños ocasionados por actos u omisiones atribuidas a falta de servicio.",
+    "sources": [
+      "251"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  },
+  {
+    "article": "Artículo 50",
+    "text": "La Constitución asegura el derecho a presentar peticiones ante la autoridad, en su propia lengua.\n\nLa autoridad estará obligada a responder por escrito en la misma lengua de la petición; oportunamente, en los plazos y formas que determine la ley.",
+    "sources": [
+      "263"
+    ],
+    "match_meta": {
+      "method": "manual_review",
+      "status": "verified"
+    }
+  }
+]
